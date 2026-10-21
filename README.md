@@ -46,7 +46,7 @@ The Applications menu (Whisker Menu) has these and the **Settings Manager** (des
 ## Put it on GitHub Pages
 
 1. *Settings → Pages → Build and deployment*: Source **Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
-2. After a minute the site is at `https://<owner>.github.io/<repository>/` – for this repository `https://comparativechrono.github.io/gel-environment/`. The first time a browser opens it, the page loads once more by itself: it installs a small service worker (`isolation-sw.js`) that makes the page *cross-origin isolated*, which R's and Python's input, interrupting them, and PLINK 2's threads need.
+2. After a minute the site is at `https://<owner>.github.io/<repository>/` – for this repository `https://comparativechrono.github.io/GEL-environment/`. The first time a browser opens it, the page loads once more by itself: it installs a small service worker (`isolation-sw.js`) that makes the page *cross-origin isolated*, which R's and Python's input, interrupting them, and PLINK 2's threads need.
 
 The empty file `.nojekyll` stops GitHub from processing the site. Keep `assets/vendor/licenses/` with the site: it holds the source code of the GPL programs. Any other web server works too: copy the folder; there is no server-side code, but the server must answer HTTP range requests (all common ones do), which IGV uses.
 

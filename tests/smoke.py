@@ -5,7 +5,7 @@
     python3 serve.py 8765 &          # in the repository's folder
     python3 tests/smoke.py           # all checks (R and Python take a few minutes the first time)
     python3 tests/smoke.py --quick   # without R and Python
-    RE_BASE=https://comparativechrono.github.io/gel-environment/ python3 tests/smoke.py --quick
+    RE_BASE=https://comparativechrono.github.io/GEL-environment/ python3 tests/smoke.py --quick
 
 Each check prints PASS or FAIL; the exit status is the number of failures. Screenshots are
 written to tests/out/. R and Python are downloaded from their CDNs (webR, Pyodide), so the
