@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Research Environment simulator — base theme
+   Mimics Xubuntu (Xfce + Greybird GTK theme, dark panel).
+   All colours live here so the look can be tuned in one place.
+   ========================================================================== */
+
+:root {
+  /* GTK (Greybird-like) palette */
+  --gtk-bg: #e8e8e7;
+  --gtk-bg-alt: #f2f2f1;
+  --gtk-base: #fcfcfc;
+  --gtk-fg: #3c3c3c;
+  --gtk-fg-dim: #7b7b7b;
+  --gtk-border: #a8a8a8;
+  --gtk-border-soft: #c4c4c4;
+  --gtk-border-dark: #8a8a8a;
+  --gtk-selected: #398ee7;
+  --gtk-selected-fg: #ffffff;
+  --gtk-selected-soft: #d5e6f9;
+  --gtk-hover: #dcdcdb;
+  --gtk-button-top: #f7f7f7;
+  --gtk-button-bottom: #e1e1e0;
+  --gtk-button-border: #9c9c9c;
+  --gtk-focus: #2c7bd4;
+  --gtk-link: #2a6fc7;
+  --gtk-error: #c7162b;
+  --gtk-warning: #e78b00;
+  --gtk-success: #3c9a3c;
+  --gtk-tooltip-bg: #2e2e2e;
+  --gtk-tooltip-fg: #f0f0f0;
+
+  /* Panel (Greybird-dark) */
+  --panel-height: 28px;
+  --panel-bg-top: #3f3f3f;
+  --panel-bg-bottom: #333333;
+  --panel-fg: #ececec;
+  --panel-fg-dim: #b5b5b5;
+  --panel-hover: rgba(255, 255, 255, 0.10);
+  --panel-active: rgba(255, 255, 255, 0.18);
+  --panel-border: #1f1f1f;
+
+  /* Menus */
+  --menu-bg: #f8f8f7;
+  --menu-fg: #3c3c3c;
+  --menu-border: #9a9a9a;
+  --menu-hover-bg: #398ee7;
+  --menu-hover-fg: #ffffff;
+  --menu-separator: #d6d6d5;
+
+  /* Window decorations (xfwm4 Greybird) */
+  --wm-title-height: 26px;
+  --wm-title-active-top: #e9e9e8;
+  --wm-title-active-bottom: #d2d2d1;
+  --wm-title-inactive: #eeeeed;
+  --wm-title-fg: #393939;
+  --wm-title-fg-inactive: #9a9a9a;
+  --wm-border: #7f7f7f;
+  --wm-border-inactive: #a6a6a6;
+  --wm-shadow: 0 3px 16px rgba(0, 0, 0, 0.38), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  --wm-shadow-inactive: 0 2px 10px rgba(0, 0, 0, 0.22);
+
+  /* Desktop */
+  --desktop-label-fg: #ffffff;
+  --desktop-label-shadow: 0 1px 2px rgba(0, 0, 0, 0.85), 0 0 4px rgba(0, 0, 0, 0.55);
+  --desktop-selected: rgba(57, 142, 231, 0.75);
+
+  /* Typography */
+  --font-ui: "Noto Sans", "Ubuntu", "DejaVu Sans", "Segoe UI", Arial, sans-serif;
+  --font-mono: "DejaVu Sans Mono", "Ubuntu Mono", "Noto Sans Mono", "Liberation Mono", Menlo, Consolas, monospace;
+  --font-size: 13px;
+  --font-size-small: 12px;
+
+  --gtk-radius: 3px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font-ui);
+  font-size: var(--font-size);
+  color: var(--gtk-fg);
+  background: #1d2733;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea { font-family: inherit; font-size: inherit; color: inherit; }
+
+.hidden { display: none !important; }
+.mono { font-family: var(--font-mono); }
+.muted { color: var(--gtk-fg-dim); }
+.nowrap { white-space: nowrap; }
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Scrollbars in GTK style (thin, grey) */
+.gtk-scroll, .wm-body, .gtk-scroll * {
+  scrollbar-width: thin;
+  scrollbar-color: #b9b9b8 transparent;
+}
+.gtk-scroll::-webkit-scrollbar, .wm-body ::-webkit-scrollbar { width: 10px; height: 10px; }
+.gtk-scroll::-webkit-scrollbar-thumb, .wm-body ::-webkit-scrollbar-thumb {
+  background: #b9b9b8; border-radius: 6px; border: 2px solid transparent; background-clip: padding-box;
+}
+.gtk-scroll::-webkit-scrollbar-thumb:hover, .wm-body ::-webkit-scrollbar-thumb:hover { background-color: #9a9a99; }

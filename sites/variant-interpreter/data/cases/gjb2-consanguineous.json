@@ -1,0 +1,367 @@
+{
+ "format": "variant-interpreter",
+ "version": 1,
+ "exported": "2026-10-20T09:00:00.000Z",
+ "app": "Variant interpreter",
+ "case": {
+  "id": "gjb2-consanguineous",
+  "title": "Profound deafness in a child whose parents are cousins",
+  "brief": "<p><b>Referral from audiology.</b> A boy of 3 has had bilateral profound sensorineural hearing loss since birth and has cochlear implants. His inner ears are normal on CT and MRI, and he is otherwise well. His parents are first cousins, and both have normal hearing. His older sister is also profoundly deaf, and his baby brother hears normally.</p><p>A hearing-loss gene panel found that he is homozygous for <i>GJB2</i> NM_004004.6:c.35del p.(Gly12ValfsTer2). Both parents and his brother are heterozygous, and his sister is homozygous.</p>",
+  "tasks": [
+   "How common is this variant in gnomAD? Use the frequency calculator for a recessive disorder to decide whether it is too common to cause profound deafness. What do BA1 and BS1 say, and why are there exceptions?",
+   "Work through the PVS1 decision tree. GJB2’s protein is coded by a single exon, so nonsense-mediated decay does not apply.",
+   "Using the pedigree, what does the consanguinity explain? Do the siblings’ results add any segregation evidence?",
+   "Classify the variant and sign it, then compare with the ClinGen Hearing Loss expert panel."
+  ],
+  "source": "The variant is NM_004004.6(GJB2):c.35del (GRCh38 13-20189546-AC-A, ClinGen allele CA127023). The sources are ClinVar VCV000017004 and the ClinGen Hearing Loss VCEP’s classification in the Evidence Repository, checked in October 2026. The patient and family are fictional."
+ },
+ "patients": [
+  {
+   "id": "case-gjb2",
+   "ref": "Case 6: a child with profound congenital deafness whose parents are cousins",
+   "created": "2026-10-20T09:00:00.000Z",
+   "updated": "2026-10-20T09:00:00.000Z",
+   "sex": "male",
+   "karyotype": "",
+   "age": {
+    "years": 3,
+    "months": null
+   },
+   "prenatal": false,
+   "gestation": null,
+   "onset": "HP:0003577",
+   "onsetName": "Congenital onset",
+   "ancestryGroup": "nfe",
+   "ancestry": "Southern European",
+   "consanguinity": "yes",
+   "referral": "Referred by audiology with bilateral profound sensorineural hearing loss from birth. He failed his newborn hearing screen and had cochlear implants at 14 months.",
+   "summary": "He is 3 and has bilateral profound congenital sensorineural hearing loss, but is otherwise well. CT and MRI of his inner ears are normal. He has no goitre or balance problems, and his ECG is normal.",
+   "familyHistory": "His parents are first cousins, and both have normal hearing. His older sister (6) has the same profound deafness. His younger brother (9 months) passed his newborn hearing screen and hears normally. The parents and siblings have been tested: both parents and the brother are heterozygous, and the sister is homozygous.",
+   "test": {
+    "type": "Gene panel",
+    "panel": {
+     "id": 126,
+     "name": "Monogenic hearing loss",
+     "version": "6.51",
+     "source": "PanelApp"
+    },
+    "lab": "Regional genomic laboratory (fictional)",
+    "date": "2026-06-18"
+   },
+   "phenotypes": [
+    {
+     "id": "HP:0008527",
+     "name": "Congenital sensorineural hearing impairment",
+     "observed": true,
+     "onset": "",
+     "note": "Failed newborn hearing screen"
+    },
+    {
+     "id": "HP:0011476",
+     "name": "Profound sensorineural hearing impairment",
+     "observed": true,
+     "onset": "",
+     "note": ""
+    },
+    {
+     "id": "HP:0000359",
+     "name": "Abnormality of the inner ear",
+     "observed": false,
+     "onset": "",
+     "note": "CT and MRI of the inner ears normal"
+    }
+   ],
+   "family": [
+    {
+     "id": "p-father",
+     "label": "I-1",
+     "relation": "father",
+     "sex": "male",
+     "affected": false,
+     "deceased": false,
+     "note": "Hearing normal"
+    },
+    {
+     "id": "p-mother",
+     "label": "I-2",
+     "relation": "mother",
+     "sex": "female",
+     "affected": false,
+     "deceased": false,
+     "note": "Hearing normal"
+    },
+    {
+     "id": "p-sister",
+     "label": "II-1",
+     "relation": "sister",
+     "sex": "female",
+     "affected": true,
+     "deceased": false,
+     "note": "Profound deafness"
+    },
+    {
+     "id": "p-brother",
+     "label": "II-3",
+     "relation": "brother",
+     "sex": "male",
+     "affected": false,
+     "deceased": false,
+     "note": "Hearing normal"
+    }
+   ],
+   "pedigree": {
+    "version": 5,
+    "personIdCounter": 0,
+    "labelIdCounter": 0,
+    "lineIdCounter": 4,
+    "persons": [
+     {
+      "id": "p-father",
+      "shape": "male",
+      "x": 290,
+      "y": 160,
+      "text": "Hearing normal\nAge 35",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-mother",
+      "shape": "female",
+      "x": 450,
+      "y": 160,
+      "text": "Hearing normal\nAge 33",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-sister",
+      "shape": "female",
+      "x": 200,
+      "y": 320,
+      "text": "Profound deafness\nAge 6",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "solid",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-proband",
+      "shape": "male",
+      "x": 370,
+      "y": 320,
+      "text": "Profound deafness\nAge 3",
+      "deceased": false,
+      "proband": true,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "solid",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-brother",
+      "shape": "male",
+      "x": 540,
+      "y": 320,
+      "text": "Hearing normal\nAge 9 months",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     }
+    ],
+    "labels": [],
+    "partnerships": [
+     {
+      "id": "pship-1",
+      "fromId": "p-father",
+      "toId": "p-mother",
+      "type": "consanguineous"
+     }
+    ],
+    "childLinks": [
+     {
+      "id": "child-2",
+      "partnershipId": "pship-1",
+      "childId": "p-sister",
+      "branchYOffset": 0,
+      "dashed": false
+     },
+     {
+      "id": "child-3",
+      "partnershipId": "pship-1",
+      "childId": "p-proband",
+      "branchYOffset": 0,
+      "dashed": false
+     },
+     {
+      "id": "child-4",
+      "partnershipId": "pship-1",
+      "childId": "p-brother",
+      "branchYOffset": 0,
+      "dashed": false
+     }
+    ],
+    "twinLinks": [],
+    "legendLabels": {
+     "#1a2332": "Sensorineural hearing loss"
+    },
+    "legendVisible": true,
+    "legendX": 710,
+    "legendY": 160,
+    "numberingMode": "numbers",
+    "partnerGapMultiplier": 2,
+    "childHeightMultiplier": 2.5,
+    "drawStrokes": []
+   },
+   "probandPerson": "p-proband",
+   "notes": "The patient and family are fictional, but the variant and the published evidence about it are real.",
+   "tags": [],
+   "caseId": null,
+   "log": []
+  }
+ ],
+ "variants": [
+  {
+   "patientId": "case-gjb2",
+   "kind": "sequence",
+   "assembly": "GRCh38",
+   "input": "NM_004004.6:c.35del",
+   "chrom": "13",
+   "pos": 20189546,
+   "ref": "AC",
+   "alt": "A",
+   "transcript": "NM_004004.6",
+   "gene": "GJB2",
+   "hgvsc": "NM_004004.6:c.35del",
+   "hgvsp": "p.Gly12ValfsTer2",
+   "consequence": "frameshift_variant",
+   "zygosity": "homozygous",
+   "inheritance": "biparental",
+   "classification": {
+    "criteria": {}
+   },
+   "calc": {
+    "segModel": {
+     "mode": "AR",
+     "penetrance": 0.9,
+     "phenocopy": 0.001,
+     "families": "one"
+    }
+   },
+   "familyGenotypes": {
+    "p-proband": "hom",
+    "p-sister": "hom",
+    "p-brother": "het",
+    "p-father": "het",
+    "p-mother": "het"
+   },
+   "notes": "",
+   "expected": {
+    "cls": "p",
+    "criteria": [
+     "PVS1",
+     "PS4",
+     "PM3_VeryStrong",
+     "PP1"
+    ],
+    "source": "ClinGen Hearing Loss expert panel (VCEP), Evidence Repository; ClinVar VCV000017004 (Pathogenic, reviewed by expert panel, 2018-09-20). PP1 is based on this family’s results, using the panel’s rule.",
+    "notes": {
+     "PVS1": "GJB2 has a single coding exon, and loss of function is the well-known disease mechanism. A frameshift at codon 12 removes almost all of the protein, and for that reason the panel applied PVS1 at full strength. If you follow the decision tree step by step, it gives PVS1_Strong. A premature stop in the last coding exon, which here is the only one, escapes nonsense-mediated decay, and the lost part is more than 10% of the protein. The class is pathogenic either way.",
+     "PS4": "Met, because the variant is far commoner in people with hearing loss than in controls. A meta-analysis of 52 studies found it in about 37% of European hearing-loss alleles, compared with under 1% of gnomAD’s European alleles.",
+     "PM3": "Met at a very strong level, because a single published series includes more than 15 people who are homozygous, or compound heterozygous with other pathogenic GJB2 variants.",
+     "BA1": "The frequency meets BA1, but the panel didn’t count it. The filtering allele frequency was 0.92% when the panel curated the variant and is 0.81% in gnomAD v4.1, both above the panel’s BA1 threshold of 0.5% for recessive hearing loss. The variant is on the panel’s list of exceptions, just as GJB2 c.109G>A is on ClinGen’s general list. A pathogenic variant of a recessive disorder can be common, because carriers are well. The panel’s record lists BA1 as met but not counted. Don’t tick it on this site, where BA1 makes a variant benign outright.",
+     "BS1": "Not met, for the same reason. The panel’s BS1 threshold for recessive hearing loss is 0.3%.",
+     "PM2": "Not met, because the variant is common in gnomAD (about 0.8% of European alleles).",
+     "PP1": "Met at supporting strength by the panel’s own rule (v2.0). For a recessive disorder, segregation in one affected relative counts as supporting, two as moderate and three as strong. Here the affected sister is homozygous and the hearing brother is not. The calculator gives a likelihood ratio of about 5. That is moderate by Tavtigian’s odds, but PP1 isn’t met if you count meioses as the ACGS do.The panel’s own classification had no family data, and adding PP1 would not change the class."
+    }
+   }
+  }
+ ]
+}

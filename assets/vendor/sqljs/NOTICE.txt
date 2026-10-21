@@ -1,0 +1,4 @@
+sql.js 1.13.0 (SQLite compiled to WebAssembly) - https://github.com/sql-js/sql.js
+Files: dist/sql-wasm.js, dist/sql-wasm.wasm from the npm package sql.js@1.13.0 (unchanged).
+Licence: MIT (see LICENSE). SQLite itself is in the public domain.
+Used by js/services/labkey-server.js (the simulated data browser).

@@ -1,0 +1,13 @@
+participant_id	referral_id	referral_participant_is_proband	relationship_to_proband	disease_status
+p99000000001	r99000000001	true		affected
+p99000000002	r99000000001	false	Mother	unaffected
+p99000000003	r99000000001	false	Father	unaffected
+p99000000004	r99000000002	true		affected
+p99000000005	r99000000002	false	Mother	unaffected
+p99000000006	r99000000002	false	Father	unaffected
+p99000000007	r99000000003	true		affected
+p99000000008	r99000000003	false	Mother	unaffected
+p99000000009	r99000000003	false	Father	unaffected
+p99000000010	r99000000004	true		affected
+p99000000011	r99000000004	false	Mother	unaffected
+p99000000012	r99000000004	false	Father	unaffected

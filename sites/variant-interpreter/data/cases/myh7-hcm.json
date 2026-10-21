@@ -1,0 +1,434 @@
+{
+ "format": "variant-interpreter",
+ "version": 1,
+ "exported": "2026-10-20T09:00:00.000Z",
+ "app": "Variant interpreter",
+ "case": {
+  "id": "myh7-hcm",
+  "title": "Hypertrophic cardiomyopathy with two MYH7 variants",
+  "brief": "<p><b>Referral from the inherited cardiac conditions clinic.</b> A man of 52, of South Asian ancestry, was found at 50 to have asymmetric septal hypertrophy (21 mm) after he became breathless on exertion. His father died suddenly at 58. His mother and sister have normal echocardiograms, and his son has not yet been screened.</p><p>A hypertrophic cardiomyopathy panel found two heterozygous <i>MYH7</i> variants: NM_000257.4:c.3133C&gt;T p.(Arg1045Cys) and NM_000257.4:c.3036C&gt;T p.(Ala1012=).</p>",
+  "tasks": [
+   "Classify c.3133C>T. If it is of uncertain significance, which band is it in (hot, warm, tepid, cool, cold or ice cold), and what evidence could change it?",
+   "Classify c.3036C>T. How common is it in the patient’s ancestry group? Compare the general BA1 threshold (5%) with the Cardiomyopathy expert panel’s, and use the frequency calculator for hypertrophic cardiomyopathy.",
+   "Compare both with the ClinGen Cardiomyopathy expert panel.",
+   "What would you put in the report, and what would you offer his son?"
+  ],
+  "source": "The variants are NM_000257.4(MYH7):c.3133C>T (GRCh38 14-23422292-G-A, CA013367, ClinVar VCV000177753) and NM_000257.4(MYH7):c.3036C>T (GRCh38 14-23423610-G-A, CA013313, ClinVar VCV000042945). The classifications are the ClinGen Cardiomyopathy VCEP’s, from the Evidence Repository, checked in October 2026. The patient and family are fictional."
+ },
+ "patients": [
+  {
+   "id": "case-myh7",
+   "ref": "Case 7: a man with hypertrophic cardiomyopathy and two MYH7 variants",
+   "created": "2026-10-20T09:00:00.000Z",
+   "updated": "2026-10-20T09:00:00.000Z",
+   "sex": "male",
+   "karyotype": "",
+   "age": {
+    "years": 52,
+    "months": null
+   },
+   "prenatal": false,
+   "gestation": null,
+   "onset": "HP:0003596",
+   "onsetName": "Middle age onset",
+   "ancestryGroup": "sas",
+   "ancestry": "South Asian (Gujarati)",
+   "consanguinity": "no",
+   "referral": "The inherited cardiac conditions clinic referred him with hypertrophic cardiomyopathy diagnosed at 50. His father died suddenly at 58.",
+   "summary": "He is 52 and has asymmetric septal hypertrophy on echocardiography and cardiac MRI, with a maximum wall thickness of 21 mm. It was diagnosed at 50 after he became breathless on exertion. There is no outflow tract obstruction at rest. His blood pressure is normal, and he is not an athlete.",
+   "familyHistory": "His father died suddenly at 58, and there was no post-mortem. His mother (79) and sister (49) have normal echocardiograms. His son (24) has not yet been screened. No one else has been tested.",
+   "test": {
+    "type": "Gene panel",
+    "panel": {
+     "id": 49,
+     "name": "Hypertrophic cardiomyopathy",
+     "version": "6.4",
+     "source": "PanelApp"
+    },
+    "lab": "Regional genomic laboratory (fictional)",
+    "date": "2026-05-27"
+   },
+   "phenotypes": [
+    {
+     "id": "HP:0001639",
+     "name": "Hypertrophic cardiomyopathy",
+     "observed": true,
+     "onset": "",
+     "note": ""
+    },
+    {
+     "id": "HP:0001670",
+     "name": "Asymmetric septal hypertrophy",
+     "observed": true,
+     "onset": "",
+     "note": "Maximum wall thickness 21 mm"
+    },
+    {
+     "id": "HP:0002875",
+     "name": "Exertional dyspnea",
+     "observed": true,
+     "onset": "",
+     "note": ""
+    }
+   ],
+   "family": [
+    {
+     "id": "p-father",
+     "label": "I-1",
+     "relation": "father",
+     "sex": "male",
+     "affected": false,
+     "deceased": true,
+     "note": "Died suddenly at 58"
+    },
+    {
+     "id": "p-mother",
+     "label": "I-2",
+     "relation": "mother",
+     "sex": "female",
+     "affected": false,
+     "deceased": false,
+     "note": "Well at 79"
+    },
+    {
+     "id": "p-wife",
+     "label": "II-1",
+     "relation": "partner",
+     "sex": "female",
+     "affected": false,
+     "deceased": false,
+     "note": "Well"
+    },
+    {
+     "id": "p-sister",
+     "label": "II-3",
+     "relation": "sister",
+     "sex": "female",
+     "affected": false,
+     "deceased": false,
+     "note": "Well at 49"
+    },
+    {
+     "id": "p-son",
+     "label": "III-1",
+     "relation": "son",
+     "sex": "male",
+     "affected": false,
+     "deceased": false,
+     "note": "Well at 24"
+    }
+   ],
+   "pedigree": {
+    "version": 5,
+    "personIdCounter": 0,
+    "labelIdCounter": 0,
+    "lineIdCounter": 5,
+    "persons": [
+     {
+      "id": "p-father",
+      "shape": "male",
+      "x": 260,
+      "y": 160,
+      "text": "Died suddenly at 58",
+      "deceased": true,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-mother",
+      "shape": "female",
+      "x": 400,
+      "y": 160,
+      "text": "Well at 79\nEcho normal",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-proband",
+      "shape": "male",
+      "x": 270,
+      "y": 320,
+      "text": "HCM at 50\nNow 52",
+      "deceased": false,
+      "proband": true,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "solid",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-wife",
+      "shape": "female",
+      "x": 160,
+      "y": 320,
+      "text": "Well",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-sister",
+      "shape": "female",
+      "x": 440,
+      "y": 320,
+      "text": "Well at 49\nEcho normal",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     },
+     {
+      "id": "p-son",
+      "shape": "male",
+      "x": 215,
+      "y": 480,
+      "text": "Well at 24\nNot yet screened",
+      "deceased": false,
+      "proband": false,
+      "centerText": "",
+      "miscarriageSex": "unknown",
+      "noSnap": false,
+      "siblingFixed": false,
+      "customLabel": "Lbl",
+      "fillMode": "none",
+      "fillColor": "#1a2332",
+      "quarters": [
+       null,
+       null,
+       null,
+       null
+      ],
+      "halves": [
+       null,
+       null
+      ],
+      "shadingPattern": "stripes",
+      "shadingCoverage": "full"
+     }
+    ],
+    "labels": [],
+    "partnerships": [
+     {
+      "id": "pship-1",
+      "fromId": "p-father",
+      "toId": "p-mother",
+      "type": "normal"
+     },
+     {
+      "id": "pship-4",
+      "fromId": "p-wife",
+      "toId": "p-proband",
+      "type": "normal"
+     }
+    ],
+    "childLinks": [
+     {
+      "id": "child-2",
+      "partnershipId": "pship-1",
+      "childId": "p-proband",
+      "branchYOffset": 0,
+      "dashed": false
+     },
+     {
+      "id": "child-3",
+      "partnershipId": "pship-1",
+      "childId": "p-sister",
+      "branchYOffset": 0,
+      "dashed": false
+     },
+     {
+      "id": "child-5",
+      "partnershipId": "pship-4",
+      "childId": "p-son",
+      "branchYOffset": 0,
+      "dashed": false
+     }
+    ],
+    "twinLinks": [],
+    "legendLabels": {
+     "#1a2332": "Hypertrophic cardiomyopathy"
+    },
+    "legendVisible": true,
+    "legendX": 610,
+    "legendY": 160,
+    "numberingMode": "numbers",
+    "partnerGapMultiplier": 2,
+    "childHeightMultiplier": 2.5,
+    "drawStrokes": []
+   },
+   "probandPerson": "p-proband",
+   "notes": "The patient and family are fictional, but the variants and the published evidence about them are real.",
+   "tags": [],
+   "caseId": null,
+   "log": []
+  }
+ ],
+ "variants": [
+  {
+   "patientId": "case-myh7",
+   "kind": "sequence",
+   "assembly": "GRCh38",
+   "input": "NM_000257.4:c.3133C>T",
+   "chrom": "14",
+   "pos": 23422292,
+   "ref": "G",
+   "alt": "A",
+   "transcript": "NM_000257.4",
+   "gene": "MYH7",
+   "hgvsc": "NM_000257.4:c.3133C>T",
+   "hgvsp": "p.Arg1045Cys",
+   "consequence": "missense_variant",
+   "zygosity": "heterozygous",
+   "inheritance": "unknown",
+   "classification": {
+    "criteria": {}
+   },
+   "calc": {},
+   "familyGenotypes": {
+    "p-proband": "het"
+   },
+   "notes": "",
+   "expected": {
+    "cls": "vus",
+    "criteria": [
+     "PS4_Moderate",
+     "PM2",
+     "PP3"
+    ],
+    "source": "ClinGen Cardiomyopathy expert panel (VCEP), Evidence Repository (MYH7-associated cardiomyopathy specifications); ClinVar VCV000177753 (Uncertain significance, reviewed by expert panel, 2021-08-25).",
+    "notes": {
+     "PS4": "Met at moderate strength, because the variant has been found in at least 12 people with hypertrophic cardiomyopathy in published series.",
+     "PM2": "Met at moderate strength under the specification the panel used in 2021. The filtering allele frequency in European alleles was 0.0015% (gnomAD v2.1.1), below that specification’s threshold of 0.004%. The panel’s current specification (v2.0) uses PM2 at supporting strength, which would make 4 points rather than 5. In gnomAD v4.1 the variant is at about 4.5 in 100,000 European alleles.",
+     "PP3": "Met, because the computational tools, including REVEL, predict that the change is damaging.",
+     "PM1": "Not met, because the variant lies outside the head domain, where pathogenic variants cluster.",
+     "PM5": "Not met, because the other changes at codon 1045 were themselves of uncertain significance or under review.",
+     "PP1": "Not met, because no relatives have been tested. Testing affected relatives, and checking that unaffected older ones don’t carry it, is how this VUS could move."
+    }
+   }
+  },
+  {
+   "patientId": "case-myh7",
+   "kind": "sequence",
+   "assembly": "GRCh38",
+   "input": "NM_000257.4:c.3036C>T",
+   "chrom": "14",
+   "pos": 23423610,
+   "ref": "G",
+   "alt": "A",
+   "transcript": "NM_000257.4",
+   "gene": "MYH7",
+   "hgvsc": "NM_000257.4:c.3036C>T",
+   "hgvsp": "p.Ala1012=",
+   "consequence": "synonymous_variant",
+   "zygosity": "heterozygous",
+   "inheritance": "unknown",
+   "classification": {
+    "criteria": {}
+   },
+   "calc": {},
+   "familyGenotypes": {
+    "p-proband": "het"
+   },
+   "notes": "",
+   "expected": {
+    "cls": "b",
+    "criteria": [
+     "BA1",
+     "BP7"
+    ],
+    "source": "ClinGen Cardiomyopathy expert panel (VCEP), Evidence Repository, specifications v2.0.0; ClinVar VCV000042945 (Benign, reviewed by expert panel, 2025-11-11).",
+    "notes": {
+     "BA1": "Met by the panel’s gene-specific threshold for MYH7, which is a filtering allele frequency of 0.1% or more. The variant is at about 0.8% in South Asian alleles in gnomAD v4.1, and was at 0.7% in ExAC when the panel curated it. It doesn’t reach the general BA1 threshold of 5%, so the general rules would give BS1 (strong) with BP7, which is only likely benign. This is where gene-specific thresholds matter.",
+     "BP7": "Met, because the change is synonymous and has no predicted effect on splicing (SpliceAI 0)."
+    }
+   }
+  }
+ ]
+}

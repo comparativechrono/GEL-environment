@@ -1,0 +1,13 @@
+participant_id	participant_sk	disease_group	disease_sub_group	specific_disease	normalised_disease_group	normalised_disease_sub_group	normalised_specific_disease	age_of_onset	normalised_age_of_onset
+119000001	119000002	Neurology and neurodevelopmental disorders	Neurodevelopmental disorders	Intellectual disability	Neurology and neurodevelopmental disorders	Neurodevelopmental disorders	Intellectual disability	14	14
+119000004	119000005	Neurology and neurodevelopmental disorders	Movement disorders	Hereditary ataxia	Neurology and neurodevelopmental disorders	Movement disorders	Hereditary ataxia	0	0
+119000008	119000009	Neurology and neurodevelopmental disorders	Neuromuscular disorders	Charcot-Marie-Tooth disease	Neurology and neurodevelopmental disorders	Neuromuscular disorders	Charcot-Marie-Tooth disease	2	2
+119000012	119000013	Neurology and neurodevelopmental disorders	Epilepsy	Genetic epilepsy syndromes	Neurology and neurodevelopmental disorders	Epilepsy	Genetic epilepsy syndromes	3	3
+119000015	119000016	Ophthalmological disorders	Posterior segment abnormalities	Rod-cone dystrophy	Ophthalmological disorders	Posterior segment abnormalities	Rod-cone dystrophy	2	2
+119000018	119000019	Renal and urinary tract disorders	Cystic kidney disease	Cystic kidney disease	Renal and urinary tract disorders	Cystic kidney disease	Cystic kidney disease	12	12
+119000021	119000022	Cardiovascular disorders	Cardiomyopathy	Hypertrophic cardiomyopathy	Cardiovascular disorders	Cardiomyopathy	Hypertrophic cardiomyopathy	4	4
+119000024	119000025	Haematological and immunological disorders	Immune disorders	Primary immunodeficiency	Haematological and immunological disorders	Immune disorders	Primary immunodeficiency	7	7
+119000028	119000029	Skeletal disorders	Skeletal dysplasias	Skeletal dysplasia	Skeletal disorders	Skeletal dysplasias	Skeletal dysplasia	1	1
+119000031	119000032	Metabolic disorders	Mitochondrial disorders	Mitochondrial disorders	Metabolic disorders	Mitochondrial disorders	Mitochondrial disorders	1	1
+119000034	119000035	Dermatological disorders	Ichthyosis	Congenital ichthyosis	Dermatological disorders	Ichthyosis	Congenital ichthyosis	7	7
+119000038	119000039	Endocrine disorders	Diabetes	Monogenic diabetes	Endocrine disorders	Diabetes	Monogenic diabetes	7	7

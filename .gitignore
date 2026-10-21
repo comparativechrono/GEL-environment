@@ -1,0 +1,5 @@
+# screenshots of tests/smoke.py
+tests/out/
+__pycache__/
+*.pyc
+.DS_Store

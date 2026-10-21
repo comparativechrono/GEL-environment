@@ -1,0 +1,5 @@
+referral_id	category	clinical_indication_code	clinical_indication_full_name	date_submitted	priority	status
+r99000000001	rare_diseases	R29	Intellectual disability	2023-10-27	routine	completed
+r99000000002	rare_diseases	R59	Early onset or syndromic epilepsy	2023-01-19	routine	completed
+r99000000003	rare_diseases	R134	Familial hypercholesterolaemia	2023-02-02	routine	completed
+r99000000004	rare_diseases	R193	Cystic renal disease	2022-07-30	routine	completed

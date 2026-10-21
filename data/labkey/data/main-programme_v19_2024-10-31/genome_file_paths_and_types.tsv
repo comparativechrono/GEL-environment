@@ -1,0 +1,4 @@
+participant_id	platekey	delivery_type	delivery_id	delivery_date	delivery_version	genome_build	type	file_type	file_sub_type	file_path	filename
+219000001	LP3000001-DNA_A01	cancer germline	HX00100001	2016-08-11	V4	GRCh38	cancer germline	Assembly	BAM	/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam	LP3000001-DNA_A01.bam
+219000001	LP3000002-DNA_B01	cancer somatic	HX00100002	2016-08-11	V4	GRCh38	cancer somatic	Assembly	BAM	/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly/LP3000002-DNA_B01.bam	LP3000002-DNA_B01.bam
+219000001	LP3000002-DNA_B01	cancer somatic	HX00100002	2016-08-11	V4	GRCh38	cancer somatic	Variations	Standard VCF	/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Variations/LP3000002-DNA_B01.somatic.vcf	LP3000002-DNA_B01.somatic.vcf

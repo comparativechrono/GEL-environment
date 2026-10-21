@@ -1,0 +1,13 @@
+participant_id	referral_id	category	administrative_gender	phenotypic_sex	karyotypic_sex	ethnicity	ethnicity_description	participant_year_of_birth	life_status	participant_is_foetal_participant
+p99000000001	r99000000001	rare disease	female	female	XX	A	White - British	1999	alive	false
+p99000000002	r99000000001	rare disease	female	female	XX	A	White - British	1987	alive	false
+p99000000003	r99000000001	rare disease	male	male	XY	A	White - British	1975	alive	false
+p99000000004	r99000000002	rare disease	male	male	XY	A	White - British	1993	alive	false
+p99000000005	r99000000002	rare disease	female	female	XX	A	White - British	1966	alive	false
+p99000000006	r99000000002	rare disease	male	male	XY	A	White - British	1989	alive	false
+p99000000007	r99000000003	rare disease	male	male	XY	A	White - British	1996	alive	false
+p99000000008	r99000000003	rare disease	female	female	XX	A	White - British	2011	alive	false
+p99000000009	r99000000003	rare disease	male	male	XY	A	White - British	2001	alive	false
+p99000000010	r99000000004	rare disease	male	male	XY	A	White - British	2016	alive	false
+p99000000011	r99000000004	rare disease	female	female	XX	A	White - British	1966	alive	false
+p99000000012	r99000000004	rare disease	male	male	XY	A	White - British	2006	alive	false

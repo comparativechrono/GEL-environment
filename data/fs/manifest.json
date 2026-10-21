@@ -1,0 +1,433 @@
+{
+"generatedBy": "tools/build_fs_manifest.py",
+"generatedAt": "2026-10-21",
+"entries": [
+{
+"path": "/genomes",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam",
+"type": "file",
+"size": 827440,
+"mtime": "2026-10-21T10:02:01Z",
+"src": "data/fs/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam.bai",
+"type": "file",
+"size": 208,
+"mtime": "2026-10-21T10:02:01Z",
+"src": "data/fs/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam.bai"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Variations",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly/LP3000002-DNA_B01.bam",
+"type": "file",
+"size": 650995,
+"mtime": "2026-10-21T10:02:01Z",
+"src": "data/fs/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly/LP3000002-DNA_B01.bam"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly/LP3000002-DNA_B01.bam.bai",
+"type": "file",
+"size": 224,
+"mtime": "2026-10-21T10:02:01Z",
+"src": "data/fs/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Assembly/LP3000002-DNA_B01.bam.bai"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Variations",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Variations/LP3000002-DNA_B01.somatic.vcf",
+"type": "file",
+"size": 14510,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "##fileformat=VCFv4.1\n##SomaticSeq=v2.8.1-SEQC2\n##truth_set=v1.2\n##FILTER=<ID=PASS,Description=\"Calls considered to be a part of the truth set\">\n##FILTER=<ID=HighConf,Description=\"highly confident that it is a real somatic mutation\">\n##FILTER=<ID=MedConf,Description=\"confident that it is a real somatic mutation\">\n##FILTER=<ID=LowConf,Description=\"not very confident that it is a real somatic mutation\">\n##FILTER=<ID=Unclassified,Description=\"likely not a real somatic mutation\">\n##INFO=<ID=calledSamples,Number=.,Type=String,Description=\"Sample names where this variant is called\">\n##INFO=<ID=rejectedSamples,Number=.,Type=String,Description=\"Sample names classified as REJECT by SomaticSeq\">\n##INFO=<ID=noCallSamples,Number=.,Type=String,Description=\"Sample names where the variant is not called by any caller\">\n##INFO=<ID=bwa_PASS,Number=.,Type=Integer,Description=\"# samples PASS by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=bowtie_PASS,Number=.,Type=Integer,Description=\"# samples PASS by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=novo_PASS,Number=.,Type=Integer,Description=\"# samples PASS by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=bwa_REJECT,Number=.,Type=Integer,Description=\"# samples REJECT by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=bowtie_REJECT,Number=.,Type=Integer,Description=\"# samples REJECT by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=novo_REJECT,Number=.,Type=Integer,Description=\"# samples REJECT by IL, NV, FD, NS, and Others (i.e., EA, NC, and LL)\">\n##INFO=<ID=bwaMQ0,Number=1,Type=Integer,Description=\"MQ0 reads in tumor by bwa\">\n##INFO=<ID=bowtieMQ0,Number=1,Type=Integer,Description=\"MQ0 reads in tumor by bowtie\">\n##INFO=<ID=novoMQ0,Number=1,Type=Integer,Description=\"MQ0 reads in tumor by novo\">\n##INFO=<ID=MQ0,Number=1,Type=Integer,Description=\"MQ0 reads in tumor combining 3 aligners\">\n##INFO=<ID=bwaTVAF,Number=1,Type=Float,Description=\"tumor VAF from bwa data\">\n##INFO=<ID=bowtieTVAF,Number=1,Type=Float,Description=\"tumor VAF from bowtie data\">\n##INFO=<ID=novoTVAF,Number=1,Type=Float,Description=\"tumor VAF from novoalign data\">\n##INFO=<ID=TVAF,Number=1,Type=Float,Description=\"tumor VAF combining 3 aligners\">\n##INFO=<ID=bwaNVAF,Number=1,Type=Float,Description=\"normal VAF from bwa data\">\n##INFO=<ID=bowtieNVAF,Number=1,Type=Float,Description=\"normal VAF from bowtie2 data\">\n##INFO=<ID=novoNVAF,Number=1,Type=Float,Description=\"normal VAF from novoalign data\">\n##INFO=<ID=NVAF,Number=1,Type=Float,Description=\"normal VAF combining 3 aligners\">\n##INFO=<ID=nCalledSamples,Number=1,Type=Integer,Description=\"number of called samples\">\n##INFO=<ID=nPASSES,Number=1,Type=Integer,Description=\"number of samples where the variant is classified as PASS by SomaticSeq\">\n##INFO=<ID=nREJECTS,Number=1,Type=Integer,Description=\"number of samples where the variant is classified as REJECT by SomaticSeq\">\n##INFO=<ID=bwaClassification,Number=1,Type=String,Description=\"bwa-centric classification: Strong, Weak, Neutral, or Likely False Positive based on bwa-aligned data sets\">\n##INFO=<ID=bowtieClassification,Number=1,Type=String,Description=\"bowtie-centric classification: Strong, Weak, Neutral, or Likely False Positive based on bowtie-aligned data sets\">\n##INFO=<ID=novoClassification,Number=1,Type=String,Description=\"novo-centric classification: Strong, Weak, Neutral, or Likely False Positive based on novoalign-aligned data sets\">\n##INFO=<ID=FLAGS,Number=.,Type=String,Description=\"Flags: 1) RandN: nREJECTS and nNoCall greater than nPASS, 2) R: nREJECTS greater than nPASS, 3) N: nNoCall greater than nPASS, 4) RplusN: nREJECTS+nNoCall greater than nPASS, 5) MQ0bwa: bwa MQ0 reads more than 10% of bwa reads, 6) MQ0bowtie: bowtie MQ0 reads more than 10% of bowtie reads, 7) MQ0novo: novo MQ0 reads more than 10% of novo reads, 8) bwa0: no PASS sample in bwa, 9) bowtie0: no PASS sample in bowtie, 10) novo0: no PASS sample in novo, 11) bwaOnly: all PASS samples are aligned by bwa, 12) bowtieOnly: all PASS samples are by bowtie, 13) novoOnly: all PASS samples are by novoalign, 14) aligner1.aligner2.inconsistentVAF: tumor VAFs by the two aligners yields a p-value < 0.0027 on chi2_contingency test, 15) inconsistentTitration: the VAF does not vary as expected from tumor purity assessment data sets, 16) ArmLossInNormal: variant residing in one of the 3 arm losses or chrY, 17) NonCallable: variant not in the MajorityAlignersCallable.bed file, 18) DeeperSeqOnly: variant was discovered by 300X and 380X data sets, 19) Conf_1_to_Conf_2_1300X: confidence level annotation was relabeled from Conf_1 to Conf_2 based on 1300X data sets, 20) Conf_1_to_Conf_2_by_300X: confidence level annotation was relabeled from Conf_1 to Conf_2 based on 300X and 380X data sets, 21) Discovered_in_1300X: variant was discovered only in 1300X data sets, 22) 2Prop_PACB_0.01: p-value <0.01 for 1-tailed 2-proportion test of VAFs between short read and PacBio data, 23) 2Prop_PACB_0.05: like 2Prop_PACB_0.01 but 0.01 < p-value < 0.05.\">\n##INFO=<ID=NVAF95,Number=2,Type=Float,Description=\"Estimated 95% confidence interval for VAF in normal samples, calculated from bwa mem alignments\">\n##INFO=<ID=TVAF95,Number=2,Type=Float,Description=\"Estimated 95% confidence interval for VAF in tumor samples, calculated from bwa mem alignments\">\n##INFO=<ID=bwaDP,Number=2,Type=Integer,Description=\"combined tumor variant depth, total depth, for bwa-aligned data sets\">\n##INFO=<ID=bowtieDP,Number=2,Type=Integer,Description=\"combined tumor variant depth, total depth, for bowtie-aligned data sets\">\n##INFO=<ID=novoDP,Number=2,Type=Integer,Description=\"combined tumor variant depth, total depth, for novo-aligned data sets\">\n##INFO=<ID=NeuSomaticS,Number=1,Type=Integer,Description=\"Number of times out of 63 pairs of BAMs where NeuSomatic-S called it PASS\">\n##INFO=<ID=NeuSomaticE,Number=1,Type=Integer,Description=\"Number of times out of 63 pairs of BAMs where NeuSomatic-E called it PASS\">\n##INFO=<ID=NeuDiscovered,Number=0,Type=Flag,Description=\"Variant calls discovered by NeuSomatic\">\n##INFO=<ID=NeuS_BWA,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of BWA BAMs where NeuSomatic-S called it PASS\">\n##INFO=<ID=NeuS_NovoAlign,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of NovoAlign BAMs where NeuSomatic-S called it PASS\">\n##INFO=<ID=NeuS_Bowtie,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of Bowtie BAMs where NeuSomatic-S called it PASS\">\n##INFO=<ID=NeuS_SomaticCalls,Number=1,Type=Float,Description=\"Number of times out of 63 pairs of BAMs where NeuSomatic-S called it PASS\">\n##INFO=<ID=NeuE_BWA,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of BWA BAMs where NeuSomatic-E called it PASS\">\n##INFO=<ID=NeuE_NovoAlign,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of NovoAlign BAMs where NeuSomatic-E called it PASS\">\n##INFO=<ID=NeuE_Bowtie,Number=1,Type=Integer,Description=\"Number of times out of 21 pairs of Bowtie BAMs where NeuSomatic-E called it PASS\">\n##INFO=<ID=NeuE_SomaticCalls,Number=1,Type=Float,Description=\"Number of times out of 63 pairs of BAMs where NeuSomatic-E called it PASS\">\n##INFO=<ID=PACB_T_DP4,Number=4,Type=Integer,Description=\"DP4 for the tumor on PacBio Sequel II\">\n##INFO=<ID=PACB_N_DP4,Number=4,Type=Integer,Description=\"DP4 for the normal on PacBio Sequel II\">\n##INFO=<ID=PACB_T_DP,Number=2,Type=Integer,Description=\"PacBio variant and total sequencing depth for the tumor\">\n##INFO=<ID=PACB_N_DP,Number=2,Type=Integer,Description=\"PacBio variant and total sequencing depth for the normal\">\n##INFO=<ID=PACB_TVAF,Number=1,Type=Float,Description=\"PacBio VAF for the tumor\">\n##INFO=<ID=PACB_NVAF,Number=1,Type=Float,Description=\"PacBio VAF for the normal\">\n##INFO=<ID=PACB_N_MQ,Number=2,Type=Float,Description=\"Reference and variant supporting mapping quality scores for PacBio normal data\">\n##INFO=<ID=PACB_T_MQ,Number=2,Type=Float,Description=\"Reference and variant supporting mapping quality scores for PacBio cancer data\">\n##INFO=<ID=LC,Number=1,Type=Float,Description=\"Linguistic sequence complexity in Phred scale between 0 to 40. Higher value means higher complexity.\">\n##INFO=<ID=SOMATIC,Number=0,Type=Flag,Description=\"Denotes somatic mutation\">\n##reference=reference.fa\n##source=SEQC2_v1.2.1_Google_DeepSomatic_mirror_coordinate_rebased_without_allele_changes\n##contig=<ID=chr21_10572001_10582000,length=10000>\n##contig=<ID=chr21_21404501_21423500,length=19000>\n#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\nchr21_10572001_10582000\t4679\t.\tA\tG\t.\tPASS;HighConf\tSOMATIC;calledSamples=EA_T_1.bwa,FD_T_1.bwa,FD_T_2.bwa,FD_T_3.bwa,IL_T_1.bwa,IL_T_2.bwa,IL_T_3.bwa,LL_T_1.bwa,NC_T_1.bwa,NS_T_1.bwa,NS_T_2.bwa,NS_T_3.bwa,NS_T_4.bwa,NS_T_5.bwa,NS_T_6.bwa,NS_T_7.bwa,NS_T_8.bwa,NS_T_9.bwa,NV_T_1.bwa,NV_T_2.bwa,NV_T_3.bwa,EA_T_1.bowtie,FD_T_1.bowtie,FD_T_2.bowtie,FD_T_3.bowtie,IL_T_1.bowtie,IL_T_2.bowtie,IL_T_3.bowtie,LL_T_1.bowtie,NC_T_1.bowtie,NS_T_1.bowtie,NS_T_2.bowtie,NS_T_3.bowtie,NS_T_4.bowtie,NS_T_5.bowtie,NS_T_6.bowtie,NS_T_7.bowtie,NS_T_8.bowtie,NS_T_9.bowtie,NV_T_1.bowtie,NV_T_2.bowtie,NV_T_3.bowtie,EA_T_1.novo,FD_T_1.novo,FD_T_2.novo,FD_T_3.novo,IL_T_1.novo,IL_T_2.novo,IL_T_3.novo,LL_T_1.novo,NC_T_1.novo,NS_T_1.novo,NS_T_2.novo,NS_T_3.novo,NS_T_4.novo,NS_T_5.novo,NS_T_6.novo,NS_T_7.novo,NS_T_8.novo,NS_T_9.novo,NV_T_1.novo,NV_T_2.novo,NV_T_3.novo;rejectedSamples=.;noCallSamples=.;bwa_PASS=3,3,3,9,3;bowtie_PASS=3,3,3,9,3;novo_PASS=3,3,3,9,3;bwa_REJECT=0,0,0,0,0;bowtie_REJECT=0,0,0,0,0;novo_REJECT=0,0,0,0,0;bwaMQ0=11;bowtieMQ0=5;novoMQ0=0;MQ0=16;bwaTVAF=0.260;bowtieTVAF=0.255;novoTVAF=0.247;TVAF=0.254;bwaNVAF=0.001;bowtieNVAF=0.001;novoNVAF=0.001;NVAF=0.001;nPASSES=63;nREJECTS=0;bwaClassification=Strong;bowtieClassification=Strong;novoClassification=Strong;bwaDP=329,1264;bowtieDP=309,1210;novoDP=303,1226;TVAF95=0.24,0.29;NVAF95=0.00013,0.004;NeuSomaticS=57;NeuSomaticE=60;LC=14.5;PACB_T_DP4=20,13,2,2;PACB_N_DP4=30,34,1,0;PACB_T_DP=4,49;PACB_N_DP=1,89;PACB_TVAF=0.0816;PACB_NVAF=0.0112;PACB_N_MQ=59.9,60.0;PACB_T_MQ=60.0,60.0\nchr21_10572001_10582000\t4939\trs552031998\tCA\tC\t.\tPASS;HighConf\tSOMATIC;calledSamples=EA_T_1.bwa,FD_T_2.bwa,IL_T_1.bwa,IL_T_3.bwa,LL_T_1.bwa,NC_T_1.bwa,NS_T_1.bwa,NS_T_2.bwa,NS_T_4.bwa,NS_T_6.bwa,NS_T_9.bwa,NV_T_1.bwa,NV_T_2.bwa,NV_T_3.bwa,EA_T_1.bowtie,IL_T_1.bowtie,IL_T_3.bowtie,LL_T_1.bowtie,NV_T_1.bowtie,NV_T_3.bowtie,EA_T_1.novo,IL_T_1.novo,IL_T_2.novo,IL_T_3.novo,LL_T_1.novo,NC_T_1.novo,NS_T_1.novo,NS_T_2.novo,NS_T_4.novo,NS_T_6.novo,NS_T_8.novo,NS_T_9.novo,NV_T_1.novo,NV_T_2.novo,NV_T_3.novo;rejectedSamples=FD_T_1.bwa,FD_T_1.bowtie,IL_T_2.bowtie,NC_T_1.bowtie,NS_T_1.bowtie,NS_T_2.bowtie,NS_T_3.bowtie,NS_T_5.bowtie,NS_T_7.bowtie,NS_T_8.bowtie,NS_T_9.bowtie,FD_T_1.novo;noCallSamples=.;bwa_PASS=2,3,1,5,3;bowtie_PASS=2,2,0,0,2;novo_PASS=3,3,0,6,3;bwa_REJECT=0,0,1,0,0;bowtie_REJECT=1,0,1,7,1;novo_REJECT=0,0,1,0,0;bwaMQ0=18;bowtieMQ0=12;novoMQ0=0;MQ0=30;bwaTVAF=0.225;bowtieTVAF=0.219;novoTVAF=0.228;TVAF=0.224;bwaNVAF=0.001;bowtieNVAF=0.001;novoNVAF=0.001;NVAF=0.001;nPASSES=35;nREJECTS=12;bwaClassification=Strong;bowtieClassification=Neutral;novoClassification=Strong;bwaDP=266,1182;bowtieDP=258,1177;novoDP=264,1160;TVAF95=0.2,0.25;NVAF95=1.6e-05,0.0035;NeuSomaticS=53;NeuSomaticE=49;LC=12.6;PACB_T_DP4=14,12,8,8;PACB_N_DP4=22,37,3,5;PACB_T_DP=16,51;PACB_N_DP=8,88;PACB_TVAF=0.314;PACB_NVAF=0.0909;PACB_N_MQ=59.9,60.0;PACB_T_MQ=60.0,60.0\nchr21_21404501_21423500\t5025\t.\tGA\tG\t.\tPASS;HighConf\tSOMATIC;calledSamples=EA_T_1.bwa,FD_T_1.bwa,FD_T_2.bwa,FD_T_3.bwa,IL_T_1.bwa,IL_T_2.bwa,IL_T_3.bwa,LL_T_1.bwa,NC_T_1.bwa,NS_T_1.bwa,NS_T_2.bwa,NS_T_3.bwa,NS_T_4.bwa,NS_T_5.bwa,NS_T_6.bwa,NS_T_7.bwa,NS_T_8.bwa,NS_T_9.bwa,NV_T_1.bwa,NV_T_2.bwa,NV_T_3.bwa,EA_T_1.bowtie,FD_T_1.bowtie,FD_T_2.bowtie,FD_T_3.bowtie,IL_T_1.bowtie,IL_T_2.bowtie,IL_T_3.bowtie,LL_T_1.bowtie,NC_T_1.bowtie,NS_T_1.bowtie,NS_T_2.bowtie,NS_T_3.bowtie,NS_T_4.bowtie,NS_T_5.bowtie,NS_T_6.bowtie,NS_T_7.bowtie,NS_T_8.bowtie,NS_T_9.bowtie,NV_T_1.bowtie,NV_T_2.bowtie,NV_T_3.bowtie,EA_T_1.novo,FD_T_1.novo,FD_T_2.novo,FD_T_3.novo,IL_T_1.novo,IL_T_2.novo,IL_T_3.novo,LL_T_1.novo,NC_T_1.novo,NS_T_1.novo,NS_T_2.novo,NS_T_3.novo,NS_T_4.novo,NS_T_5.novo,NS_T_6.novo,NS_T_7.novo,NS_T_8.novo,NS_T_9.novo,NV_T_1.novo,NV_T_2.novo,NV_T_3.novo;rejectedSamples=.;noCallSamples=.;bwa_PASS=3,3,3,9,3;bowtie_PASS=3,3,3,9,3;novo_PASS=3,3,3,9,3;bwa_REJECT=0,0,0,0,0;bowtie_REJECT=0,0,0,0,0;novo_REJECT=0,0,0,0,0;bwaMQ0=0;bowtieMQ0=0;novoMQ0=0;MQ0=0;bwaTVAF=0.462;bowtieTVAF=0.467;novoTVAF=0.457;TVAF=0.462;bwaNVAF=0.000;bowtieNVAF=0.000;novoNVAF=0.000;NVAF=0.000;nPASSES=63;nREJECTS=0;bwaClassification=Strong;bowtieClassification=Strong;novoClassification=Strong;bwaDP=359,777;bowtieDP=365,782;novoDP=350,766;TVAF95=0.43,0.5;NVAF95=0,0.0029;NeuSomaticS=63;NeuSomaticE=63;LC=13.1;PACB_T_DP4=10,12,4,3;PACB_N_DP4=14,14,8,2;PACB_T_DP=7,33;PACB_N_DP=10,51;PACB_TVAF=0.212;PACB_NVAF=0.196;PACB_N_MQ=60.0,60.0;PACB_T_MQ=60.0,60.0\nchr21_21404501_21423500\t14045\t.\tC\tT\t.\tPASS;MedConf\tSOMATIC;calledSamples=EA_T_1.bwa,IL_T_3.bwa,NC_T_1.bwa,NS_T_6.bwa,NS_T_7.bwa,NS_T_8.bwa,NS_T_9.bwa,NV_T_1.bwa,NV_T_2.bwa,NV_T_3.bwa,EA_T_1.bowtie,IL_T_3.bowtie,NC_T_1.bowtie,NS_T_6.bowtie,NS_T_7.bowtie,NS_T_8.bowtie,NS_T_9.bowtie,NV_T_1.bowtie,NV_T_2.bowtie,NV_T_3.bowtie,EA_T_1.novo,FD_T_2.novo,IL_T_3.novo,NC_T_1.novo,NS_T_6.novo,NS_T_7.novo,NS_T_9.novo,NV_T_1.novo,NV_T_2.novo,NV_T_3.novo;rejectedSamples=.;noCallSamples=FD_T_1.bwa,FD_T_3.bwa,IL_T_1.bwa,IL_T_2.bwa,LL_T_1.bwa,NS_T_1.bwa,NS_T_2.bwa,NS_T_4.bwa,NS_T_5.bwa,FD_T_1.bowtie,FD_T_3.bowtie,IL_T_1.bowtie,IL_T_2.bowtie,LL_T_1.bowtie,NS_T_1.bowtie,NS_T_2.bowtie,NS_T_4.bowtie,NS_T_5.bowtie,FD_T_1.novo,FD_T_3.novo,IL_T_1.novo,IL_T_2.novo,LL_T_1.novo,NS_T_1.novo,NS_T_2.novo,NS_T_3.novo,NS_T_4.novo,NS_T_5.novo,NS_T_8.novo;bwa_PASS=1,3,0,4,2;bowtie_PASS=1,3,0,4,2;novo_PASS=1,3,1,3,2;bwa_REJECT=0,0,0,0,0;bowtie_REJECT=0,0,0,0,0;novo_REJECT=0,0,0,0,0;bwaMQ0=0;bowtieMQ0=0;novoMQ0=0;MQ0=0;bwaTVAF=0.067;bowtieTVAF=0.067;novoTVAF=0.064;TVAF=0.066;bwaNVAF=0.000;bowtieNVAF=0.000;novoNVAF=0.000;NVAF=0.000;nPASSES=30;nREJECTS=0;bwaClassification=LikelyFalsePositive;bowtieClassification=LikelyFalsePositive;novoClassification=LikelyFalsePositive;bwaDP=60,894;bowtieDP=60,893;novoDP=57,891;TVAF95=0.052,0.086;NVAF95=0,0.0029;NeuSomaticS=17;NeuSomaticE=28;FLAGS=LowConf_to_MedConf_1300X;LC=14.7;PACB_T_DP4=8,13,2,1;PACB_N_DP4=23,23,0,0;PACB_T_DP=3,26;PACB_N_DP=0,51;PACB_TVAF=0.115;PACB_NVAF=0;PACB_N_MQ=60.0,.;PACB_T_MQ=60.0,60.0\n",
+"src": "data/fs/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01/Variations/LP3000002-DNA_B01.somatic.vcf"
+},
+{
+"path": "/gel_data_resources",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/README.txt",
+"type": "file",
+"size": 875,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "gel_data_resources  (read-only)\n===================\n\nOutputs of the Genomics England bioinformatics pipelines and other resources,\nmounted on the desktop (~/gel_data_resources) and the HPC (/gel_data_resources).\n\n  main_programme/        100,000 Genomes Project datasets (by type, then date)\n  gms/                   NHS Genomic Medicine Service datasets\n  pilot/                 pilot programme datasets\n  example_config_files/  configuration templates for R, Python and the LabKey API\n  example_scripts/       example scripts (LabKey API queries, workshops)\n  workflows/             pipelines provided for researchers\n\nThis folder is read-only. Writing here gives \"Permission denied\": to unpack a\nfile, write the output elsewhere, e.g.  gunzip -c file.gz > ~/re_gecip/.../file\n\n[Training simulator: the large datasets are not included. Practicals add the\nfiles they need.]\n",
+"src": "data/fs/gel_data_resources/README.txt"
+},
+{
+"path": "/gel_data_resources/example_config_files",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_config_files/README.txt",
+"type": "file",
+"size": 429,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "Configuration templates.\n\nDesktop:   cd $HOME && cp -rf ~/gel_data_resources/example_config_files/Workspaces/. .\nHPC:       cp -rf /gel_data_resources/example_config_files/Double_Helix/. ./\n\nThen edit ~/.netrc: put your username (initial + last name, e.g. jdoe) and your\nRE password in place of yourusername / yourPasswordHere, and make the file\nprivate:   chmod 600 ~/.netrc\nThe LabKey API reads your credentials from ~/.netrc.\n",
+"src": "data/fs/gel_data_resources/example_config_files/README.txt"
+},
+{
+"path": "/gel_data_resources/example_config_files/Double_Helix",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_config_files/Double_Helix/.Renviron",
+"type": "file",
+"size": 267,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "http_proxy=http://pfsense.int.corp.gel.ac:3128\nftp_proxy=http://pfsense.int.corp.gel.ac:3128\nrsync_proxy=http://pfsense.int.corp.gel.ac:3128\nhttps_proxy=http://pfsense.int.corp.gel.ac:3128\nno_proxy=localhost,127.0.0.1,localaddress,.localdomain.com,.gel.zone,.cluster\n",
+"src": "data/fs/gel_data_resources/example_config_files/Double_Helix/dot.Renviron"
+},
+{
+"path": "/gel_data_resources/example_config_files/Double_Helix/.Rprofile",
+"type": "file",
+"size": 426,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# R configuration for the Research Environment.\n# In the real RE these lines point R at Genomics England's internal CRAN and\n# Bioconductor mirrors (an Artifactory server). The training simulator keeps\n# R's own repository settings so that install.packages() still works here.\nmyrepo = getOption(\"repos\")\n# myrepo[\"CRAN\"] = \"https://artifactory.aws.gel.ac/artifactory/cran\"      # (real RE)\noptions(repos = myrepo)\nrm(myrepo)\n",
+"src": "data/fs/gel_data_resources/example_config_files/Double_Helix/dot.Rprofile"
+},
+{
+"path": "/gel_data_resources/example_config_files/Double_Helix/.netrc",
+"type": "file",
+"size": 154,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "machine labkey-embassy.gel.zone\nlogin yourusername\npassword yourPasswordHere\n\nmachine labkey.prod.aws.gel.ac\nlogin yourusername\npassword yourPasswordHere\n",
+"src": "data/fs/gel_data_resources/example_config_files/Double_Helix/dot.netrc"
+},
+{
+"path": "/gel_data_resources/example_config_files/Helix",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_config_files/Helix/.Renviron",
+"type": "file",
+"size": 267,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "http_proxy=http://pfsense.int.corp.gel.ac:3128\nftp_proxy=http://pfsense.int.corp.gel.ac:3128\nrsync_proxy=http://pfsense.int.corp.gel.ac:3128\nhttps_proxy=http://pfsense.int.corp.gel.ac:3128\nno_proxy=localhost,127.0.0.1,localaddress,.localdomain.com,.gel.zone,.cluster\n",
+"src": "data/fs/gel_data_resources/example_config_files/Helix/dot.Renviron"
+},
+{
+"path": "/gel_data_resources/example_config_files/Helix/.Rprofile",
+"type": "file",
+"size": 426,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# R configuration for the Research Environment.\n# In the real RE these lines point R at Genomics England's internal CRAN and\n# Bioconductor mirrors (an Artifactory server). The training simulator keeps\n# R's own repository settings so that install.packages() still works here.\nmyrepo = getOption(\"repos\")\n# myrepo[\"CRAN\"] = \"https://artifactory.aws.gel.ac/artifactory/cran\"      # (real RE)\noptions(repos = myrepo)\nrm(myrepo)\n",
+"src": "data/fs/gel_data_resources/example_config_files/Helix/dot.Rprofile"
+},
+{
+"path": "/gel_data_resources/example_config_files/Helix/.netrc",
+"type": "file",
+"size": 154,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "machine labkey-embassy.gel.zone\nlogin yourusername\npassword yourPasswordHere\n\nmachine labkey.prod.aws.gel.ac\nlogin yourusername\npassword yourPasswordHere\n",
+"src": "data/fs/gel_data_resources/example_config_files/Helix/dot.netrc"
+},
+{
+"path": "/gel_data_resources/example_config_files/Workspaces",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_config_files/Workspaces/.Renviron",
+"type": "file",
+"size": 71,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "no_proxy=\"localhost,127.0.0.1,localaddress,.localdomain.com,.gel.zone\"\n",
+"src": "data/fs/gel_data_resources/example_config_files/Workspaces/dot.Renviron"
+},
+{
+"path": "/gel_data_resources/example_config_files/Workspaces/.Rprofile",
+"type": "file",
+"size": 426,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# R configuration for the Research Environment.\n# In the real RE these lines point R at Genomics England's internal CRAN and\n# Bioconductor mirrors (an Artifactory server). The training simulator keeps\n# R's own repository settings so that install.packages() still works here.\nmyrepo = getOption(\"repos\")\n# myrepo[\"CRAN\"] = \"https://artifactory.aws.gel.ac/artifactory/cran\"      # (real RE)\noptions(repos = myrepo)\nrm(myrepo)\n",
+"src": "data/fs/gel_data_resources/example_config_files/Workspaces/dot.Rprofile"
+},
+{
+"path": "/gel_data_resources/example_config_files/Workspaces/.netrc",
+"type": "file",
+"size": 154,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "machine labkey-embassy.gel.zone\nlogin yourusername\npassword yourPasswordHere\n\nmachine labkey.prod.aws.gel.ac\nlogin yourusername\npassword yourPasswordHere\n",
+"src": "data/fs/gel_data_resources/example_config_files/Workspaces/dot.netrc"
+},
+{
+"path": "/gel_data_resources/example_scripts",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_scripts/README.txt",
+"type": "file",
+"size": 455,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "Example scripts.\n\n  labkey_api/query_to_df.R      the R helper for LabKey SQL queries, with an example\n  labkey_api/query_to_df.py     the same in Python\n  labkey_api/select_rows.R      fetching (part of) a whole table with labkey.selectRows\n  workshop_scripts/             materials of training sessions\n\nCopy a script into your own folder before changing it:\n  cp ~/gel_data_resources/example_scripts/labkey_api/query_to_df.R ~/re_gecip/training/$USER/\n",
+"src": "data/fs/gel_data_resources/example_scripts/README.txt"
+},
+{
+"path": "/gel_data_resources/example_scripts/labkey_api",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/example_scripts/labkey_api/query_to_df.R",
+"type": "file",
+"size": 948,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# Query the LabKey tables with SQL from R.\n# Before the first use: configure ~/.netrc (see ~/gel_data_resources/example_config_files).\n\nlibrary(tidyverse)\nlibrary(Rlabkey)\nlibrary(readr)\n\nlabkey.setWafEncoding(FALSE)\n\nquery_to_df <- function(sql_query, database) {\n  labkey.setDefaults(baseUrl = \"https://labkey.prod.aws.gel.ac/labkey/\")\n  labkey.executeSql(folderPath = database,\n                    schemaName = \"lists\",\n                    colNameOpt = \"rname\",\n                    sql = sql_query) %>%\n    mutate(across(everything(), as.character))\n}\n\ndatabase <- \"/main-programme/main-programme_v19_2024-10-31\"\n\nsql <- \"SELECT p.participant_id, p.programme, p.year_of_birth, sr.delivery_date\n        FROM participant p\n        JOIN sequencing_report sr ON p.participant_id = sr.participant_id\n        WHERE p.programme_consent_status = 'Consenting'\"\n\nparticipants <- query_to_df(sql, database)\nhead(participants)\ntable(participants$programme)\n",
+"src": "data/fs/gel_data_resources/example_scripts/labkey_api/query_to_df.R"
+},
+{
+"path": "/gel_data_resources/example_scripts/labkey_api/query_to_df.py",
+"type": "file",
+"size": 885,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# Query the LabKey tables with SQL from Python.\n# Before the first use: configure ~/.netrc (see ~/gel_data_resources/example_config_files).\nimport labkey\nimport pandas as pd\nfrom labkey.api_wrapper import APIWrapper\n\n\ndef query_to_df(sql_query, database):\n    api = APIWrapper(domain=\"labkey.prod.aws.gel.ac\", container_path=database,\n                     context_path=\"labkey\", use_ssl=True)\n    results = api.query.execute_sql(sql=sql_query, schema_name=\"lists\",\n                                    max_rows=100000000, waf_encode_sql=False)\n    return pd.DataFrame(results[\"rows\"])\n\n\ndatabase = \"/main-programme/main-programme_v19_2024-10-31\"\nsql = \"\"\"\nSELECT participant_id, programme, year_of_birth, participant_phenotypic_sex\nFROM participant\nWHERE programme_consent_status = 'Consenting'\n\"\"\"\ndf = query_to_df(sql, database)\nprint(df.head())\nprint(df[\"programme\"].value_counts())\n",
+"src": "data/fs/gel_data_resources/example_scripts/labkey_api/query_to_df.py"
+},
+{
+"path": "/gel_data_resources/example_scripts/labkey_api/select_rows.R",
+"type": "file",
+"size": 616,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "# Fetch a whole table, or part of one, with labkey.selectRows.\nlibrary(Rlabkey)\nlabkey.setDefaults(baseUrl = \"https://labkey.prod.aws.gel.ac/labkey/\")\n\nparticipant <- labkey.selectRows(\n  schemaName = \"lists\",\n  colNameOpt = \"rname\",\n  maxRows = 100000000,\n  folderPath = \"/main-programme/main-programme_v19_2024-10-31\",\n  queryName = \"participant\",\n  colFilter = makeFilter(c(\"participant_type\", \"EQUAL\", \"Proband\"),\n                         c(\"year_of_birth\", \"BETWEEN\", \"1950,2010\")),\n  colSelect = c(\"participant_id\", \"rare_diseases_family_id\", \"year_of_birth\"),\n  colSort = \"+year_of_birth\"\n)\nnrow(participant)\n",
+"src": "data/fs/gel_data_resources/example_scripts/labkey_api/select_rows.R"
+},
+{
+"path": "/gel_data_resources/example_scripts/workshop_scripts",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/README.txt",
+"type": "file",
+"size": 358,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "100kGP datasets produced by the Genomics England pipelines, organised by type,\nthen by date of release, e.g.\n\n  aggregation/aggV2/...   aggregated germline variant calls (aggV2)\n  tiering/...             rare disease tiering outputs\n  cancer/...              cancer analysis outputs\n\n[Training simulator: datasets are added by the practicals that use them.]\n",
+"src": "data/fs/gel_data_resources/main_programme/README.txt"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/cancer",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/tiering",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/pilot",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/workflows",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/README.txt",
+"type": "file",
+"size": 384,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "pgen_public_data_resources  (read-only; also /public_data_resources)\n==========================\n\nPublic datasets: reference genomes (GRCh37, GRCh38), IGV genomes, 1000 Genomes,\ngnomAD, ClinVar, dbSNP, VEP caches, Exomiser data, R packages, VS Code\nextensions and more. Ask the Service Desk to add other public data.\n\n[Training simulator: only small demonstration files are included.]\n",
+"src": "data/fs/pgen_public_data_resources/README.txt"
+},
+{
+"path": "/pgen_public_data_resources/1000genomes",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/IGV",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/IGV/README.txt",
+"type": "file",
+"size": 626,
+"mtime": "2026-10-21T10:33:24Z",
+"text": "IGV genome definitions.\n\nIn IGV: Genomes > Load Genome from File... and choose\n  /public_data_resources/IGV/hg38/hg38_local.json    (GRCh38)\n  /public_data_resources/IGV/hg19/hg19_local.json    (GRCh37)\n\nThe genome box of IGV's toolbar lists them too, once loaded.\n\n[Training simulator: these definitions point at the genome files the IGV team\nhosts online. The example genomes of the simulator's /genomes folder are aligned\nto two windows of GRCh38 chromosome 21: choose \"GRCh38 chr21 windows (training)\"\nin the genome box (it is /pgen_public_data_resources/reference_genomes/\ndemo_chr21_windows/reference.fa) to view them.]\n",
+"src": "data/fs/pgen_public_data_resources/IGV/README.txt"
+},
+{
+"path": "/pgen_public_data_resources/IGV/hg19",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/IGV/hg19/hg19_local.json",
+"type": "file",
+"size": 882,
+"mtime": "2026-10-21T10:33:16Z",
+"text": "{\n  \"id\": \"hg19\",\n  \"name\": \"Human (GRCh37/hg19)\",\n  \"fastaURL\": \"https://igv.org/genomes/data/hg19/hg19.fasta\",\n  \"indexURL\": \"https://igv.org/genomes/data/hg19/hg19.fasta.fai\",\n  \"twoBitURL\": \"https://igv.org/genomes/data/hg19/hg19.2bit\",\n  \"cytobandURL\": \"https://igv.org/genomes/data/hg19/cytoBand.txt.gz\",\n  \"aliasURL\": \"https://igv.org/genomes/data/hg19/hg19_alias.tab\",\n  \"chromSizesURL\": \"https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes\",\n  \"wholeGenomeView\": true,\n  \"chromosomeOrder\": \"chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY\",\n  \"tracks\": [\n    {\n      \"name\": \"Refseq Genes\",\n      \"format\": \"refgene\",\n      \"url\": \"https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz\",\n      \"indexed\": false,\n      \"order\": 1000000\n    }\n  ]\n}",
+"src": "data/fs/pgen_public_data_resources/IGV/hg19/hg19_local.json"
+},
+{
+"path": "/pgen_public_data_resources/IGV/hg38",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/IGV/hg38/hg38_local.json",
+"type": "file",
+"size": 880,
+"mtime": "2026-10-21T10:33:16Z",
+"text": "{\n  \"id\": \"hg38\",\n  \"name\": \"Human (GRCh38/hg38)\",\n  \"fastaURL\": \"https://igv.org/genomes/data/hg38/hg38.fa\",\n  \"indexURL\": \"https://igv.org/genomes/data/hg38/hg38.fa.fai\",\n  \"twoBitURL\": \"https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit\",\n  \"cytobandURL\": \"https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz\",\n  \"aliasURL\": \"https://igv.org/genomes/data/hg38/hg38_alias.tab\",\n  \"chromSizesURL\": \"https://igv.org/genomes/data/hg38/hg38.chrom.sizes\",\n  \"wholeGenomeView\": true,\n  \"chromosomeOrder\": \"chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY\",\n  \"tracks\": [\n    {\n      \"name\": \"Refseq Genes\",\n      \"format\": \"refgene\",\n      \"url\": \"https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz\",\n      \"indexed\": false,\n      \"order\": 1000000\n    }\n  ]\n}",
+"src": "data/fs/pgen_public_data_resources/IGV/hg38/hg38_local.json"
+},
+{
+"path": "/pgen_public_data_resources/clinvar",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/gnomad",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/GRCh37",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/GRCh38",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/demo_chr21_windows",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/demo_chr21_windows/NOTICE.txt",
+"type": "file",
+"size": 2091,
+"mtime": "2026-10-21T11:33:44Z",
+"text": "Notices for the files in this folder\n====================================\n\ntumor.bam, normal.bam (and their .bai indexes) hold reads of the cell lines HCC1395 (a breast cancer) and HCC1395BL\n(B lymphocytes of the same donor), sequenced by the SEQC2 consortium (Sequencing Quality Control Phase 2, led by the\nUS FDA) and released by NCBI for benchmarking: study SRP162370,\nhttps://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/seqc/Somatic_Mutation_WG/data/WGS/ .\nreference.fa is two windows of chromosome 21 of the human reference GRCh38, from UCSC (hg38). truth.vcf holds records\nof the SEQC2 high-confidence somatic SNV and indel truth set v1.2.1.\n\nThese are publicly distributed research data. Please cite:\n\n  Fang LT, Zhu B, Zhao Y, et al. Establishing community reference samples, data and call sets for benchmarking\n  cancer mutation detection using whole-genome sequencing. Nature Biotechnology 2021; 39: 1151-1160.\n  doi:10.1038/s41587-021-00993-6\n\nThe files were prepared – the reads of two windows, moved onto the windows, nothing else changed – by the genomics-wasm\nproject (https://github.com/comparativechrono/genomics-wasm, commit bfacba3: datasets/strelka2/hcc1395), whose\nmanifest records every source, byte range and step. Where every file came from, and its SHA-256: provenance.json\n(in the workbench's data/examples/somatic).\n\n\nTraining simulator: these files come from the Bioinformatics workbench's example data\n(comparativechrono/bioinformatics-workbench, data/examples/somatic). They are public data\nof the cell lines HCC1395 (tumour) and HCC1395BL (normal) released by the SEQC2 consortium\n- not data of any Genomics England participant. In the simulator the reads are delivered as\n/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01 (normal) and\n/genomes/by_date/2016-08-11/HX00100002/LP3000002-DNA_B01 (tumour, with the somatic truth set\nas its Variations/LP3000002-DNA_B01.somatic.vcf). The reference is two windows of\nchromosome 21 (GRCh38): chr21_10572001_10582000 and chr21_21404501_21423500 - in IGV choose\nthe genome \"GRCh38 chr21 windows (training)\".\n",
+"src": "data/fs/pgen_public_data_resources/reference_genomes/demo_chr21_windows/NOTICE.txt"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/demo_chr21_windows/reference.fa",
+"type": "file",
+"size": 29534,
+"mtime": "2026-10-21T10:02:01Z",
+"src": "data/fs/pgen_public_data_resources/reference_genomes/demo_chr21_windows/reference.fa"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/demo_chr21_windows/reference.fa.fai",
+"type": "file",
+"size": 81,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "chr21_10572001_10582000\t10000\t25\t60\t61\nchr21_21404501_21423500\t19000\t10217\t60\t61\n",
+"src": "data/fs/pgen_public_data_resources/reference_genomes/demo_chr21_windows/reference.fa.fai"
+},
+{
+"path": "/pgen_public_data_resources/reference_genomes/demo_chr21_windows/regions.bed",
+"type": "file",
+"size": 69,
+"mtime": "2026-10-21T10:02:01Z",
+"text": "chr21_10572001_10582000\t2000\t8000\nchr21_21404501_21423500\t2000\t17000\n",
+"src": "data/fs/pgen_public_data_resources/reference_genomes/demo_chr21_windows/regions.bed"
+},
+{
+"path": "/pgen_public_data_resources/vep",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/vscode_extensions",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/pgen_public_data_resources/vscode_extensions/vsix",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+}
+]
+}

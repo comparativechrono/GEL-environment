@@ -1,0 +1,32 @@
+/* The Research Registry: research proposals and their review. */
+:root { --rr-head: #3a2d6b; --rr-accent: #6b4fbb; --rr-line: #dfe3ea; }
+body { background: #f5f4f9; }
+.rr-header { display: flex; align-items: center; gap: 12px; height: 58px; padding: 0 22px; background: var(--rr-head); color: #fff; position: sticky; top: 0; z-index: 40; }
+.rr-brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 19px; }
+.rr-brand:hover { text-decoration: none; }
+.rr-brand img { width: 30px; height: 30px; }
+.rr-brand small { display: block; font-size: 11.5px; font-weight: 400; color: #cfc6ee; }
+.rr-header nav { display: flex; gap: 4px; margin-left: 20px; }
+.rr-header nav a { color: #e6e0fb; padding: 7px 12px; border-radius: 4px; font-weight: 600; font-size: 13.5px; }
+.rr-header nav a:hover, .rr-header nav a.active { background: rgba(255,255,255,.12); text-decoration: none; color: #fff; }
+.rr-user { margin-left: auto; font-size: 13px; color: #e6e0fb; }
+.rr-section { scroll-margin-top: 70px; }
+.rr-section h2 { display: flex; align-items: center; gap: 10px; }
+.rr-section h2 .n { display: inline-flex; width: 26px; height: 26px; border-radius: 50%; background: var(--rr-accent); color: #fff; align-items: center; justify-content: center; font-size: 13px; }
+.rr-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.rr-aims .s-row { margin-bottom: 6px; }
+.rr-aims .s-input { flex: 1; }
+.rr-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px; }
+.rr-issues { margin: 0; padding-left: 20px; }
+.rr-sidebar { position: sticky; top: 76px; }
+.rr-layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 18px; align-items: start; }
+.rr-toc a { display: block; padding: 5px 8px; border-radius: 4px; color: #3b3360; font-size: 13.5px; }
+.rr-toc a:hover { background: #ece8f8; text-decoration: none; }
+.rr-wc { font-size: 12px; color: var(--s-muted); text-align: right; }
+.rr-wc.bad { color: var(--s-bad); }
+.rr-kv { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 6px 14px; font-size: 13.5px; }
+.rr-kv dt { color: #6b7785; }
+.rr-kv dd { margin: 0; white-space: pre-wrap; }
+.rr-approved { border: 2px solid #9fd6b5; background: #f1fbf5; border-radius: 8px; padding: 14px 18px; }
+.rr-approved .id { font-size: 26px; font-weight: 800; color: #1b7f45; letter-spacing: .5px; }
+@media (max-width: 900px) { .rr-layout, .rr-grid2, .rr-checks { grid-template-columns: 1fr; } .rr-sidebar { position: static; } }

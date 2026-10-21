@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2a52"/>
+      <stop offset="0.45" stop-color="#1b4f8f"/>
+      <stop offset="1" stop-color="#2a6db5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#7fc0ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7fc0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <g opacity="0.9">
+    <path d="M-200 820 C 300 600, 700 980, 1200 700 S 1900 520, 2200 640 L 2200 1200 L -200 1200 Z" fill="#0b2346" opacity="0.55"/>
+    <path d="M-200 900 C 400 760, 800 1060, 1300 840 S 1950 700, 2200 800 L 2200 1200 L -200 1200 Z" fill="#081a36" opacity="0.6"/>
+  </g>
+  <g transform="rotate(-18 960 540)">
+    <rect x="-400" y="300" width="2800" height="90" fill="url(#band)"/>
+    <rect x="-400" y="470" width="2800" height="40" fill="url(#band)"/>
+    <rect x="-400" y="620" width="2800" height="140" fill="url(#band)" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#a8d4ff" stroke-width="2.2" opacity="0.16" transform="translate(1180 160)">
+    <path d="M0 0 C 120 80, 120 160, 0 240 S -120 400, 0 480 S 120 640, 0 720"/>
+    <path d="M120 0 C 0 80, 0 160, 120 240 S 240 400, 120 480 S 0 640, 120 720"/>
+    <g stroke-width="1.6">
+      <path d="M22 40h76M58 120h4M22 200h76M22 280h76M58 360h4M22 440h76M22 520h76M58 600h4M22 680h76"/>
+    </g>
+  </g>
+</svg>

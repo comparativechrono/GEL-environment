@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: labkey
+Version: 2.4.0
+Summary: Stand-in for the LabKey Python client, for the Research Environment training simulator
+License: Apache License 2.0
+Requires-Python: >=3.6
+
+A stand-in for the "labkey" Python client used in the Research Environment training
+simulator. select_rows, execute_sql and QueryFilter answer from the simulator's copy
+of the data browser's tables after checking ~/.netrc as the real server would. It is
+not the labkey package of LabKey Corporation.

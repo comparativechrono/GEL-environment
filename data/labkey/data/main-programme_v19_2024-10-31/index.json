@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "note": "Synthetic training data written by tools/make_demo_data.py. No row describes a real person.",
+  "tables": {
+    "participant": "participant.tsv",
+    "participant_summary": "participant_summary.tsv",
+    "rare_diseases_family": "rare_diseases_family.tsv",
+    "rare_diseases_participant_disease": "rare_diseases_participant_disease.tsv",
+    "rare_diseases_participant_phenotype": "rare_diseases_participant_phenotype.tsv",
+    "rare_disease_analysis": "rare_disease_analysis.tsv",
+    "cancer_analysis": "cancer_analysis.tsv",
+    "genome_file_paths_and_types": "genome_file_paths_and_types.tsv"
+  }
+}

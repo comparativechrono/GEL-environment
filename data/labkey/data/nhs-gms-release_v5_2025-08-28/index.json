@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "note": "Synthetic training data written by tools/make_demo_data.py. No row describes a real person.",
+  "tables": {
+    "participant": "participant.tsv",
+    "referral": "referral.tsv",
+    "referral_participant": "referral_participant.tsv",
+    "observation": "observation.tsv"
+  }
+}

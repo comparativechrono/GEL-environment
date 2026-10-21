@@ -1,0 +1,46 @@
+participant_id	participant_stated_gender	participant_phenotyped_sex	participant_karyotyped_sex	yob	programme	participant_type	affection_status	date_of_consent	normalised_disease_group	normalised_disease_sub_group	normalised_specific_disease	rare_disease_diagnosis_age	cancer_diagnosis_date	cancer_diagnosis_age	cancer_study_name	cancer_disease_type	cancer_disease_sub_type
+119000001	Female	Female	XX	2002	Rare Diseases	rd_proband	affected	2017-07-28	Neurology and neurodevelopmental disorders	Neurodevelopmental disorders	Intellectual disability	14					
+119000002	Female	Female	XX	1968	Rare Diseases	rd_relative	unaffected	2017-07-28									
+119000003	Male	Male	XY	1966	Rare Diseases	rd_relative	unaffected	2017-07-28									
+119000004	Male	Male	XY	2011	Rare Diseases	rd_proband	affected	2016-01-10	Neurology and neurodevelopmental disorders	Movement disorders	Hereditary ataxia	0					
+119000005	Female	Female	XX	1981	Rare Diseases	rd_relative	unaffected	2016-01-10									
+119000006	Male	Male	XY	1982	Rare Diseases	rd_relative	unaffected	2016-01-10									
+119000007	Female	Female	XX	2015	Rare Diseases	rd_relative	affected	2016-01-10									
+119000008	Female	Female	XX	2008	Rare Diseases	rd_proband	affected	2015-12-24	Neurology and neurodevelopmental disorders	Neuromuscular disorders	Charcot-Marie-Tooth disease	2					
+119000009	Female	Female	XX	1974	Rare Diseases	rd_relative	unaffected	2015-12-24									
+119000010	Male	Male	XY	1967	Rare Diseases	rd_relative	unaffected	2015-12-24									
+119000011	Male	Male	XY	2008	Rare Diseases	rd_relative	unaffected	2015-12-24									
+119000012	Male	Male	XY	2012	Rare Diseases	rd_proband	affected	2016-11-04	Neurology and neurodevelopmental disorders	Epilepsy	Genetic epilepsy syndromes	3					
+119000013	Female	Female	XX	1985	Rare Diseases	rd_relative	unaffected	2016-11-04									
+119000014	Male	Male	XY	1988	Rare Diseases	rd_relative	unaffected	2016-11-04									
+119000015	Female	Female	XX	1995	Rare Diseases	rd_proband	affected	2018-01-11	Ophthalmological disorders	Posterior segment abnormalities	Rod-cone dystrophy	2					
+119000016	Female	Female	XX	1969	Rare Diseases	rd_relative	unaffected	2018-01-11									
+119000017	Male	Male	XY	1970	Rare Diseases	rd_relative	unaffected	2018-01-11									
+119000018	Female	Female	XX	1994	Rare Diseases	rd_proband	affected	2017-12-08	Renal and urinary tract disorders	Cystic kidney disease	Cystic kidney disease	12					
+119000019	Female	Female	XX	1960	Rare Diseases	rd_relative	unaffected	2017-12-08									
+119000020	Male	Male	XY	1960	Rare Diseases	rd_relative	unaffected	2017-12-08									
+119000021	Male	Male	XY	2006	Rare Diseases	rd_proband	affected	2017-06-22	Cardiovascular disorders	Cardiomyopathy	Hypertrophic cardiomyopathy	4					
+119000022	Female	Female	XX	1984	Rare Diseases	rd_relative	unaffected	2017-06-22									
+119000023	Male	Male	XY	1979	Rare Diseases	rd_relative	unaffected	2017-06-22									
+119000024	Male	Male	XY	2000	Rare Diseases	rd_proband	affected	2017-03-12	Haematological and immunological disorders	Immune disorders	Primary immunodeficiency	7					
+119000025	Female	Female	XX	1962	Rare Diseases	rd_relative	unaffected	2017-03-12									
+119000026	Male	Male	XY	1961	Rare Diseases	rd_relative	unaffected	2017-03-12									
+119000027	Male	Male	XY	2006	Rare Diseases	rd_relative	affected	2017-03-12									
+119000028	Female	Female	XX	1994	Rare Diseases	rd_proband	affected	2015-10-28	Skeletal disorders	Skeletal dysplasias	Skeletal dysplasia	1					
+119000029	Female	Female	XX	1969	Rare Diseases	rd_relative	unaffected	2015-10-28									
+119000030	Male	Male	XY	1972	Rare Diseases	rd_relative	unaffected	2015-10-28									
+119000031	Male	Male	XY	2003	Rare Diseases	rd_proband	affected	2016-05-10	Metabolic disorders	Mitochondrial disorders	Mitochondrial disorders	1					
+119000032	Female	Female	XX	1974	Rare Diseases	rd_relative	unaffected	2016-05-10									
+119000033	Male	Male	XY	1975	Rare Diseases	rd_relative	unaffected	2016-05-10									
+119000034	Female	Female	XX	1994	Rare Diseases	rd_proband	affected	2017-10-30	Dermatological disorders	Ichthyosis	Congenital ichthyosis	7					
+119000035	Female	Female	XX	1964	Rare Diseases	rd_relative	unaffected	2017-10-30									
+119000036	Male	Male	XY	1961	Rare Diseases	rd_relative	unaffected	2017-10-30									
+119000037	Female	Female	XX	1998	Rare Diseases	rd_relative	unaffected	2017-10-30									
+119000038	Female	Female	XX	1993	Rare Diseases	rd_proband	affected	2018-05-09	Endocrine disorders	Diabetes	Monogenic diabetes	7					
+119000039	Female	Female	XX	1958	Rare Diseases	rd_relative	unaffected	2018-05-09									
+119000040	Male	Male	XY	1959	Rare Diseases	rd_relative	unaffected	2018-05-09									
+119000041	Male	Male	XY	1992	Rare Diseases	rd_relative	affected	2018-05-09									
+219000001	Female	Female	XX	1958	Cancer	cancer_participant	affected	2017-06-02					2017-02-17	59	Breast cancer	BREAST	DUCTAL
+219000002	Male	Male	XY	1949	Cancer	cancer_participant	affected	2017-04-20					2017-03-08	68	Colorectal cancer	COLORECTAL	ADENOCARCINOMA
+219000003	Female	Female	XX	1961	Cancer	cancer_participant	affected	2017-04-29					2017-03-31	56	Lung cancer	LUNG	ADENOCARCINOMA
+219000004	Male	Male	XY	1955	Cancer	cancer_participant	affected	2016-06-09					2016-04-30	61	Renal cancer	RENAL	CLEAR_CELL

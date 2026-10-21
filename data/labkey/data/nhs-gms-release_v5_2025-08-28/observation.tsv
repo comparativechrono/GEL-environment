@@ -1,0 +1,5 @@
+participant_id	uid	code	code_description	normalised_hpo_id	normalised_hpo_term	value_code
+p99000000001	obs00002	HP:0001249	Intellectual disability	HP:0001249	Intellectual disability	present
+p99000000004	obs00005	HP:0001250	Seizure	HP:0001250	Seizure	present
+p99000000007	obs00008	HP:0003124	Hypercholesterolemia	HP:0003124	Hypercholesterolemia	present
+p99000000010	obs00011	HP:0000107	Renal cyst	HP:0000107	Renal cyst	present

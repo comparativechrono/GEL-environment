@@ -1,0 +1,42 @@
+participant_id	plate_key	rare_diseases_family_id	biological_relationship_to_proband	participant_type	participant_phenotypic_sex	participant_ethnic_category	normalised_specific_disease	genome	genome_build	tiering	inferred_sex_karyotype	genetic_vs_reported_results
+119000001		119100001		Proband	Female	Not Stated	Intellectual disability	Not Available	N/A	Not Available	XX	N/A
+119000002		119100001	Mother	Relative	Female	Not Stated		Not Available	N/A	Not Available	XX	N/A
+119000003		119100001	Father	Relative	Male	Not Stated		Not Available	N/A	Not Available	XY	N/A
+119000004		119100002		Proband	Male	White: British	Hereditary ataxia	Not Available	N/A	Not Available	XY	N/A
+119000005		119100002	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000006		119100002	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000007		119100002	Full Sibling	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000008		119100003		Proband	Female	White: British	Charcot-Marie-Tooth disease	Not Available	N/A	Not Available	XX	N/A
+119000009		119100003	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000010		119100003	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000011		119100003	Full Sibling	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000012		119100004		Proband	Male	White: British	Genetic epilepsy syndromes	Not Available	N/A	Not Available	XY	N/A
+119000013		119100004	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000014		119100004	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000015		119100005		Proband	Female	Asian or Asian British: Pakistani	Rod-cone dystrophy	Not Available	N/A	Not Available	XX	N/A
+119000016		119100005	Mother	Relative	Female	Asian or Asian British: Pakistani		Not Available	N/A	Not Available	XX	N/A
+119000017		119100005	Father	Relative	Male	Asian or Asian British: Pakistani		Not Available	N/A	Not Available	XY	N/A
+119000018		119100006		Proband	Female	White: British	Cystic kidney disease	Not Available	N/A	Not Available	XX	N/A
+119000019		119100006	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000020		119100006	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000021		119100007		Proband	Male	White: British	Hypertrophic cardiomyopathy	Not Available	N/A	Not Available	XY	N/A
+119000022		119100007	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000023		119100007	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000024		119100008		Proband	Male	White: British	Primary immunodeficiency	Not Available	N/A	Not Available	XY	N/A
+119000025		119100008	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000026		119100008	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000027		119100008	Full Sibling	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000028		119100009		Proband	Female	White: British	Skeletal dysplasia	Not Available	N/A	Not Available	XX	N/A
+119000029		119100009	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000030		119100009	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000031		119100010		Proband	Male	Asian or Asian British: Indian	Mitochondrial disorders	Not Available	N/A	Not Available	XY	N/A
+119000032		119100010	Mother	Relative	Female	Asian or Asian British: Indian		Not Available	N/A	Not Available	XX	N/A
+119000033		119100010	Father	Relative	Male	Asian or Asian British: Indian		Not Available	N/A	Not Available	XY	N/A
+119000034		119100011		Proband	Female	White: British	Congenital ichthyosis	Not Available	N/A	Not Available	XX	N/A
+119000035		119100011	Mother	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000036		119100011	Father	Relative	Male	White: British		Not Available	N/A	Not Available	XY	N/A
+119000037		119100011	Full Sibling	Relative	Female	White: British		Not Available	N/A	Not Available	XX	N/A
+119000038		119100012		Proband	Female	Mixed: White and Asian	Monogenic diabetes	Not Available	N/A	Not Available	XX	N/A
+119000039		119100012	Mother	Relative	Female	Mixed: White and Asian		Not Available	N/A	Not Available	XX	N/A
+119000040		119100012	Father	Relative	Male	Mixed: White and Asian		Not Available	N/A	Not Available	XY	N/A
+119000041		119100012	Full Sibling	Relative	Male	Mixed: White and Asian		Not Available	N/A	Not Available	XY	N/A

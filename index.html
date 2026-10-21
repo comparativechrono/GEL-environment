@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Environment — training simulator</title>
+  <meta name="description" content="A training simulator of the Genomics England Research Environment: an Xubuntu-style desktop with a terminal, an HPC with LSF, RStudio, Spyder, IGV, a clinical data browser, the Airlock and the Research Registry, all in your browser.">
+  <link rel="icon" href="assets/icons/apps/re-logo.svg" type="image/svg+xml">
+  <!-- cross-origin isolation (threads for some tools; R/Python input and interrupts): must be the first script -->
+  <script src="assets/js/isolation.js"></script>
+  <!-- the workbench engine's base styles first, so the desktop's own styles win -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/widgets.css">
+  <link rel="stylesheet" href="css/wm.css">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/apps.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body data-page="re">
+  <noscript><p style="color:#fff;padding:20px">The Research Environment simulator needs JavaScript.</p></noscript>
+</body>
+</html>

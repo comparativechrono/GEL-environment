@@ -1,0 +1,99 @@
+{
+ "cases": [
+  {
+   "id": "tp53-lfs",
+   "title": "A family with early cancers",
+   "teaser": "A woman had breast cancer at 29, and her brother had an osteosarcoma. You’ll assess a TP53 missense variant at a hotspot and see how it segregates in the family.",
+   "tags": [
+    "TP53",
+    "Dominant",
+    "Segregation (PP1)",
+    "Hotspot (PM1)"
+   ],
+   "file": "data/cases/tp53-lfs.json"
+  },
+  {
+   "id": "brca1-ashkenazi",
+   "title": "Triple-negative breast cancer in an Ashkenazi Jewish woman",
+   "teaser": "This BRCA1 frameshift is a founder variant in Ashkenazi Jewish people. You’ll work through the PVS1 decision tree and decide what its frequency means.",
+   "tags": [
+    "BRCA1",
+    "PVS1",
+    "Founder variant",
+    "Frequency (BS1, BA1)"
+   ],
+   "file": "data/cases/brca1-ashkenazi.json"
+  },
+  {
+   "id": "pah-pku",
+   "title": "A raised phenylalanine on newborn screening",
+   "teaser": "A baby has two PAH variants in trans, one of them in an intron. You’ll count PM3 points, use the phenotype for PP4 and look at the evidence about splicing.",
+   "tags": [
+    "PAH",
+    "Recessive",
+    "In trans (PM3)",
+    "Splicing"
+   ],
+   "file": "data/cases/pah-pku.json"
+  },
+  {
+   "id": "del22q11",
+   "title": "A baby with tetralogy of Fallot and low calcium",
+   "teaser": "A microarray shows a 2.3 Mb loss at 22q11.2, which you’ll score with the ACMG/ClinGen points for copy-number variants.",
+   "tags": [
+    "CNV",
+    "22q11.2",
+    "De novo",
+    "Dosage sensitivity"
+   ],
+   "file": "data/cases/del22q11.json"
+  },
+  {
+   "id": "scn2a-denovo",
+   "title": "Epileptic spasms and developmental regression",
+   "teaser": "Trio exome sequencing has found a de novo SCN2A missense variant. You’ll score the de novo evidence, then look at the predictors and the protein.",
+   "tags": [
+    "SCN2A",
+    "De novo (PS2)",
+    "Hotspot (PM1)",
+    "Predictors (PP3)"
+   ],
+   "file": "data/cases/scn2a-denovo.json"
+  },
+  {
+   "id": "gjb2-consanguineous",
+   "title": "Profound deafness in a child whose parents are cousins",
+   "teaser": "A child is homozygous for GJB2 c.35del, a pathogenic variant that is also common. The case covers frequency thresholds for a recessive disorder and why BA1 has exceptions.",
+   "tags": [
+    "GJB2",
+    "Recessive",
+    "Consanguinity",
+    "Frequency (BA1)"
+   ],
+   "file": "data/cases/gjb2-consanguineous.json"
+  },
+  {
+   "id": "myh7-hcm",
+   "title": "Hypertrophic cardiomyopathy with two MYH7 variants",
+   "teaser": "One MYH7 variant is of uncertain significance and the other is a benign synonymous change. The case covers the bands of a VUS and gene-specific frequency thresholds.",
+   "tags": [
+    "MYH7",
+    "VUS bands",
+    "Benign (BA1)",
+    "Synonymous (BP7)"
+   ],
+   "file": "data/cases/myh7-hcm.json"
+  },
+  {
+   "id": "pten-macrocephaly",
+   "title": "A boy with a large head and autism",
+   "teaser": "A boy has a canonical splice-site variant in PTEN. Neither parent carries it, but parentage hasn’t been confirmed.",
+   "tags": [
+    "PTEN",
+    "Splice site (PVS1)",
+    "De novo (PM6)"
+   ],
+   "file": "data/cases/pten-macrocephaly.json"
+  }
+ ]
+}

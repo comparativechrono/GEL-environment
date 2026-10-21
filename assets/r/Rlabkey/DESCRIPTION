@@ -1,0 +1,16 @@
+Package: Rlabkey
+Type: Package
+Title: Data Exchange Between R and the Simulated LabKey-Style Data Browser
+Version: 3.4.1
+Date: 2026-10-21
+Author: GEL-environment training simulator
+Maintainer: GEL-environment training simulator <noreply@example.org>
+Description: A stand-in for the 'Rlabkey' client used in the Research Environment
+    training simulator. It answers the commonly used functions
+    (labkey.selectRows, labkey.executeSql, makeFilter, labkey.setDefaults, ...)
+    from the simulator's own copy of the data browser's tables (an SQLite file),
+    after checking the ~/.netrc credentials as the real server would. It is not
+    the 'Rlabkey' package of LabKey Corporation.
+License: Apache License 2.0
+Encoding: UTF-8
+NeedsCompilation: no

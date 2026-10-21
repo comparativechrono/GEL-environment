@@ -1,0 +1,4 @@
+{
+  "_comment": "Read-only file manifests mounted in the simulator, in order. Practicals can add their own manifest (built with tools/build_fs_manifest.py or by hand) to this list.",
+  "manifests": ["data/fs/manifest.json"]
+}
