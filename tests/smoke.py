@@ -89,12 +89,30 @@ def run():
         d.launch('terminal', wait=3)
         d.type('ls ~', 2)
         d.type('samtools --version', 1.5)
-        d.type('module load samtools/1.21', 1)
+        d.type('module load samtools', 1)
         d.type(f'samtools view -H {BAM} | head -3', 8)
         t = d.terminal_text()
         check('terminal: links in the home folder', 'genomes' in t and 're_gecip' in t)
         check('terminal: samtools needs its module', 'module load' in t and 'command not found' in t)
         check('terminal: samtools reads a BAM header', '@HD' in t or '@SQ' in t, t[-300:])
+
+        # ------------------------------------------- module avail: only what is there
+        absent = d.js("() => RE.services.modules.modules().flatMap((m) => m.commands.filter((c) => !MG.shellTools[c] && !MG.shellBuiltins[c]).map((c) => m.name + ': ' + c))")
+        check('modules: every command of every module exists', not absent, ', '.join(absent))
+        wrong = d.js("""() => { const v = MG.wasm.versions, key = { subread: 'featurecounts', strelka: 'strelka2' };
+            return RE.services.modules.modules().filter((m) => v[key[m.name] || m.name] && v[key[m.name] || m.name] !== m.version)
+              .map((m) => m.name + ' ' + m.version + ' (the program: ' + v[key[m.name] || m.name] + ')'); }""")
+        check('modules: their versions are those of the programs', not wrong, ', '.join(wrong))
+        d.type('module avail', 1.5)
+        t = d.terminal_text()
+        listed = d.js("() => RE.services.modules.all()")
+        check('modules: module avail lists the catalogue', all(m in t for m in listed), ', '.join(m for m in listed if m not in t))
+        # (programs that run from assets/vendor/genomics-wasm, each in a worker of its own)
+        d.type('module load subread salmon lofreq bustools', 1)
+        d.type('featureCounts -v; salmon --version; lofreq version; bustools version', 20)
+        t = d.terminal_text()
+        check('modules: featureCounts, Salmon, LoFreq and bustools start', all(x in t for x in ('featureCounts v2.1.1', 'salmon 2.8.0', 'version: 2.1.5', 'bustools, version 0.45.1')), t[-400:])
+        d.type('module purge', 1)
 
         # ------------------------------------------------------- the HPC and LSF
         d.type(f'ssh jdoe@{HPC}', 1.5)

@@ -1,113 +1,195 @@
 // =============================================================================
-// Environment Modules (`module avail / load / list / unload / purge / spider`).
-// The catalogue follows the software listed for the Ubuntu HPC in the RE docs.
-// `provides` lists the commands that become available after loading; those
-// commands are implemented (or simulated) by the terminal.
+// Environment Modules (`module avail / load / list / unload / purge / spider /
+// keyword / show / whatis`), as Lmod on the Research Environment.
+//
+// The catalogue is the software that this simulator really has – nothing is
+// listed that cannot be run. Each module is a program (or a set of programs)
+// that the terminal runs: compiled to WebAssembly (assets/vendor/biowasm,
+// assets/vendor/genomics-wasm), Snakemake (assets/py/smk.py), R (webR) and
+// Python (Pyodide). The versions are those of the programs themselves;
+// tests/smoke.py checks them against the terminal's own list.
+//
+// Loading a module puts its folder on PATH and its name in LOADEDMODULES, as
+// Lmod does; both are exported, so scripts, bash -c and LSF jobs inherit them.
+// The terminal (assets/js/shell-re.js) refuses a module's commands until it is
+// loaded – except R and Python, which the desktop has without a module (RStudio,
+// Spyder) – unless an instructor turns that off (Settings ▸ Training).
 // =============================================================================
 
-const CATALOGUE = {
-  aliview: ['1.28'], annovar: ['2019Nov', '2024-03-14'], ant: ['1.9.16'], bamtools: ['2.5.2'],
-  bcftools: ['1.16', '1.21'], beagle: ['5.4'], bedtools: ['2.30.0', '2.31.1'], bison: ['3.8.2'], blat: ['1.0'],
-  boost: ['1.83', '1.84'], cargo: ['1.75.0'], cmake: ['3.24.0'], conform: ['2.2'], cromwell: ['v65'], curl: ['7.81.0'],
-  eigen: ['3.3.9'], exomiser: ['13.3.0'], exonerate: ['2.2.0'], ExpansionHunter: ['3.2.2', '4.0.2', '5.0.0'],
-  ExpansionHunterDenovo: ['0.9.0'], fetk: ['1.9.3'], flex: ['2.6.4'], gatk: ['4.5.0.0'], gcc: ['10.4.0'], gdal: ['3.7.0'],
-  geos: ['3.12.2'], gmp: ['6.2.1'], go: ['1.22.2'], gsl: ['2.7'], haplocheck: ['1.3.3'], hipstr: ['0.7'], 'hla-la': ['1.0.3'],
-  hmftools: ['2024-02-06'], htslib: ['1.18', '1.21'], inkscape: ['1.2.2'],
-  java: ['1.8', '11.0.2', '17.0.2', '19.0.2', '21.0.2', '23.0.1'], jq: ['1.7.1'], king: ['2.3.2'], kraken: ['1.1.1'],
-  kraken2: ['2.1.3'], libdeflate: ['1.20'], libffi: ['3.4.4'], libgit2: ['1.6.2'], libpcre: ['8.45'], libpng: ['1.6.40'],
-  libtiff: ['4.7.0'], locuszoom: ['1.4'], m4: ['1.4.19'], magma: ['1.10'], maven: ['3.9.6'], miniconda: ['24.1.2'],
-  MPFR: ['4.2.0'], mpc: ['1.3.1'], ncurses: ['6.4'],
-  nextflow: ['22.10.5', '23.04', '23.10', '23.10-with-plugins', '24.04.2-with-plugins'], 'nf-core': ['0.3.1'],
-  'nf-test': ['0.7.3', '0.8.2', '0.9.0'], openrefine: ['3.7.4'], openssl: ['1.1.1o', '1.1.1t', '3.6.0'], perl: ['5.38.2'],
-  picard: ['3.1.1'], plink: ['1.9', '2.0', '2.00a3.3LM'], postgresql: ['16.2'], proj: ['8.2.1'], python: ['3.11', '3.13.9'],
-  'qgrs-cpp': ['1.0'], qt: ['5.15.2'], R: ['4.3.3', '4.5.2'], regenie: ['3.4.1'], REViewer: ['0.2.7'], 'rtg-tools': ['3.12.1'],
-  rust: ['1.75.0'], samtools: ['1.16.1', '1.21'], singularity: ['3.8.3', '4.1.1'], sniffles: ['1.0.11'], sqlite3: ['3.38.1'],
-  strelka: ['2.9.10'], tabix: ['1.21'], udunits: ['2.2.28'], xz: ['5.4.7'], 'yt-dlp': ['2024.04.09'], zlib: ['1.3'],
-};
+export const MODULE_ROOT = '/resources/tools/modules/ubuntu';
+export const APPS_ROOT = '/resources/tools/apps';
 
-// Commands each module family provides.
-const PROVIDES = {
-  bcftools: ['bcftools'], samtools: ['samtools'], htslib: ['tabix', 'bgzip', 'htsfile'], tabix: ['tabix', 'bgzip'],
-  bedtools: ['bedtools'], bamtools: ['bamtools'], plink: ['plink', 'plink2'], R: ['R', 'Rscript'], python: ['python', 'python3', 'pip', 'jupyter'],
-  java: ['java'], gatk: ['gatk'], picard: ['picard'], nextflow: ['nextflow'], regenie: ['regenie'], king: ['king'],
-  jq: ['jq'], sqlite3: ['sqlite3'], singularity: ['singularity'], exomiser: ['exomiser'], ExpansionHunter: ['ExpansionHunter'],
-  annovar: ['table_annovar.pl', 'annotate_variation.pl'], 'rtg-tools': ['rtg'], beagle: ['beagle'], perl: ['perl'],
-  miniconda: ['conda'], kraken2: ['kraken2'], magma: ['magma'], strelka: ['configureStrelkaGermlineWorkflow.py'],
-};
+const HMMER = ['hmmbuild', 'hmmsearch', 'hmmscan', 'hmmpress', 'hmmfetch', 'hmmalign', 'hmmconvert', 'hmmemit', 'hmmstat', 'phmmer', 'jackhmmer', 'nhmmer', 'nhmmscan'];
 
-const DEFAULTS = { R: '4.3.3', python: '3.11', samtools: '1.21', bcftools: '1.21', htslib: '1.21', bedtools: '2.31.1', plink: '2.0', java: '17.0.2', nextflow: '24.04.2-with-plugins' };
+/** The groups of `help`, in order. */
+export const GROUPS = [
+  ['reads', 'Reads: quality control, trimming, simulation'],
+  ['align', 'Alignment and BAM/CRAM files'],
+  ['variants', 'Variants: calling and VCF files'],
+  ['somatic', 'Somatic variants (tumour/normal)'],
+  ['popgen', 'Genotypes of many people: QC, LD, kinship, association'],
+  ['rnaseq', 'RNA-seq: counts and abundances'],
+  ['chip', 'ChIP-seq and ATAC-seq: peaks'],
+  ['meta', 'Metagenomics: who is in the sample'],
+  ['genes', 'Genes and proteins: gene finding, profile HMMs'],
+  ['seq', 'Sequences, alignments and trees'],
+  ['lang', 'Languages, pipelines and data'],
+];
 
-// Commands available without loading anything.
-export const BASE_COMMANDS = new Set(['python3', 'perl', 'curl', 'git', 'nano', 'vim', 'vi', 'less', 'R', 'Rscript', 'rstudio', 'igv', 'spyder']);
+/**
+ * name, version, the commands the module provides, group, a line about it.
+ * base: the command works without loading the module (R and Python, as on the desktop).
+ */
+export const MODULES = [
+  { name: 'fastp', version: '0.20.1', commands: ['fastp'], group: 'reads', what: 'quality control and trimming of FASTQ files (HTML and JSON report)' },
+  { name: 'cutadapt', version: '5.2', commands: ['cutadapt'], group: 'reads', what: 'removes adapters, primers and poly-A; trims by quality' },
+  { name: 'seqtk', version: '1.4', commands: ['seqtk'], group: 'reads', what: 'FASTQ/FASTA files: convert, subsample, trim, statistics' },
+  { name: 'wgsim', version: '0.3.1-r13', commands: ['wgsim'], group: 'reads', what: 'simulates reads from a reference' },
+  { name: 'minimap2', version: '2.22', commands: ['minimap2'], group: 'align', what: 'maps reads:  minimap2 -ax sr REF.fa R1.fastq R2.fastq' },
+  { name: 'bowtie2', version: '2.4.2', commands: ['bowtie2', 'bowtie2-build', 'bowtie2-align-s', 'bowtie2-build-s'], group: 'align', what: 'maps short reads (bowtie2-build makes the index)' },
+  { name: 'bwa', version: '0.7.19', commands: ['bwa'], group: 'align', what: 'maps short reads:  bwa index REF.fa;  bwa mem REF.fa R1 R2' },
+  { name: 'bwa-mem2', version: '2.2.1', commands: ['bwa-mem2'], group: 'align', what: 'bwa mem, rewritten for speed' },
+  { name: 'hisat2', version: '2.2.2', commands: ['hisat2', 'hisat2-build', 'hisat2-inspect'], group: 'align', what: 'maps RNA-seq reads across splice junctions' },
+  { name: 'samtools', version: '1.17', commands: ['samtools'], group: 'align', what: 'SAM/BAM/CRAM: view, sort, index, flagstat, stats, depth, faidx …' },
+  { name: 'htslib', version: '1.17', commands: ['bgzip', 'tabix'], group: 'align', what: 'bgzip and tabix: compress and index' },
+  { name: 'mosdepth', version: '0.3.14', commands: ['mosdepth'], group: 'align', what: 'read depth per base, window or region' },
+  { name: 'bedtools', version: '2.31.0', commands: ['bedtools'], group: 'align', what: 'genome arithmetic: intersect, merge, genomecov, getfasta …' },
+  { name: 'gffread', version: '0.12.7', commands: ['gffread'], group: 'align', what: 'GFF/GTF files: convert; transcript, CDS and protein sequences' },
+  { name: 'bcftools', version: '1.10', commands: ['bcftools'], group: 'variants', what: 'mpileup, call, view, filter, query, stats, norm, index …' },
+  { name: 'freebayes', version: '1.3.6', commands: ['freebayes'], group: 'variants', what: 'calls variants:  freebayes -f REF.fa sorted.bam > calls.vcf' },
+  { name: 'lofreq', version: '2.1.5', commands: ['lofreq'], group: 'somatic', what: 'low-frequency variants (lofreq call) and somatic variants (lofreq somatic)' },
+  { name: 'somaticsniper', version: '1.0.5.0', commands: ['bam-somaticsniper', 'somaticsniper'], group: 'somatic', what: 'somatic SNVs:  bam-somaticsniper -F vcf -f REF.fa tumour.bam normal.bam out.vcf' },
+  { name: 'strelka', version: '2.9.10', commands: ['configureStrelkaSomaticWorkflow.py', 'configureStrelkaGermlineWorkflow.py'], group: 'somatic', what: 'Strelka2 somatic SNVs and indels (configure, then RUNDIR/runWorkflow.py)' },
+  { name: 'plink2', version: '2.0.0-b.1-dev', commands: ['plink2'], group: 'popgen', what: 'PLINK 2:  plink2 --vcf cohort.vcf.gz --freq --missing --hardy --out cohort' },
+  { name: 'subread', version: '2.1.1', commands: ['featureCounts'], group: 'rnaseq', what: 'featureCounts: reads per gene' },
+  { name: 'stringtie', version: '3.0.3', commands: ['stringtie'], group: 'rnaseq', what: 'assembles transcripts and their abundance' },
+  { name: 'kallisto', version: '0.52.0', commands: ['kallisto'], group: 'rnaseq', what: 'transcript abundances by pseudoalignment' },
+  { name: 'salmon', version: '2.8.0', commands: ['salmon'], group: 'rnaseq', what: 'transcript abundances by selective alignment' },
+  { name: 'bustools', version: '0.45.1', commands: ['bustools'], group: 'rnaseq', what: 'single-cell RNA-seq: the BUS files of kallisto bus' },
+  { name: 'macs3', version: '3.0.5', commands: ['macs3'], group: 'chip', what: 'peaks over a control:  macs3 callpeak -t chip.bam -c input.bam -g hs -n NAME' },
+  { name: 'kraken2', version: '2.17.2', commands: ['kraken2', 'kraken2-build', 'kraken2-inspect'], group: 'meta', what: 'reads to taxa' },
+  { name: 'bracken', version: '3.1', commands: ['bracken', 'bracken-build', 'est_abundance.py', 'generate_kmer_distribution.py', 'kmer2read_distr'], group: 'meta', what: 'species abundances from a Kraken2 report' },
+  { name: 'prodigal', version: '2.6.3', commands: ['prodigal'], group: 'genes', what: 'genes of bacteria and archaea' },
+  { name: 'hmmer', version: '3.4', commands: HMMER, group: 'genes', what: 'profile HMMs: hmmbuild, hmmsearch, hmmscan, phmmer, jackhmmer, nhmmer …' },
+  { name: 'kalign', version: '3.3.1', commands: ['kalign'], group: 'seq', what: 'multiple alignment' },
+  { name: 'muscle', version: '3.8.1551', commands: ['muscle'], group: 'seq', what: 'multiple alignment' },
+  { name: 'fasttree', version: '2.1.11', commands: ['fasttree', 'FastTree'], group: 'seq', what: 'trees from alignments' },
+  { name: 'seq-align', version: '2017.10.18', commands: ['needleman_wunsch', 'smith_waterman', 'lcs'], group: 'seq', what: 'pairwise global and local alignment' },
+  { name: 'lastz', version: '1.04.52', commands: ['lastz'], group: 'seq', what: 'aligns long DNA sequences' },
+  { name: 'R', version: '4.6.0', commands: ['R', 'Rscript'], group: 'lang', base: true, what: 'R (webR): R starts its console here;  Rscript script.R  runs a script' },
+  { name: 'python', version: '3.13.2', commands: ['python', 'python3', 'pip', 'pip3'], group: 'lang', base: true, what: 'Python (Pyodide):  python3 script.py,  pip install NAME' },
+  { name: 'snakemake', version: '9.27.0', commands: ['snakemake'], group: 'lang', what: 'workflows:  snakemake -n,  snakemake --cores 1' },
+  { name: 'jq', version: '1.7', commands: ['jq'], group: 'lang', what: 'JSON on the command line' },
+];
+
+const BY_NAME = new Map(MODULES.map((m) => [m.name.toLowerCase(), m]));
+const BY_COMMAND = new Map(MODULES.flatMap((m) => m.commands.map((c) => [c, m])));
+
+/** "samtools/1.17" → its module record */
+const recordOf = (full) => BY_NAME.get(String(full).split('/')[0].toLowerCase()) || null;
+const fullName = (m) => `${m.name}/${m.version}`;
 
 export function createModules() {
-  const all = Object.entries(CATALOGUE).flatMap(([name, versions]) => versions.map(v => `${name}/${v}`));
-
+  /** a name as typed (samtools, samtools/1.17, SAMTOOLS) → "samtools/1.17", or null if there is no such module */
   function find(spec) {
     if (!spec) return null;
-    if (all.includes(spec)) return spec;
-    const lower = spec.toLowerCase();
-    const exact = all.find(m => m.toLowerCase() === lower);
-    if (exact) return exact;
-    const fam = Object.keys(CATALOGUE).find(k => k.toLowerCase() === lower.replace(/\/$/, ''));
-    if (fam) return `${fam}/${DEFAULTS[fam] || CATALOGUE[fam][CATALOGUE[fam].length - 1]}`;
-    return null;
+    const [n, v] = String(spec).replace(/\/$/, '').split('/');
+    const m = BY_NAME.get(n.toLowerCase());
+    if (!m) return null;
+    if (v !== undefined && v !== m.version) return null;
+    return fullName(m);
   }
 
-  function family(mod) { return mod.split('/')[0]; }
+  const family = (mod) => (recordOf(mod) ? recordOf(mod).name : String(mod).split('/')[0]);
+
+  function columns(list, width) {
+    const colW = Math.max(...list.map((s) => s.length)) + 4;
+    const cols = Math.max(1, Math.floor((width - 3) / colW));
+    const rows = Math.ceil(list.length / cols);
+    const lines = [];
+    for (let r = 0; r < rows; r++) {
+      let line = '';
+      for (let c = 0; c < cols; c++) {
+        const item = list[c * rows + r];
+        if (item) line += item.padEnd(colW);
+      }
+      lines.push('   ' + line.trimEnd());
+    }
+    return lines.join('\n');
+  }
+
+  function match(pattern) {
+    const p = String(pattern || '').toLowerCase();
+    return MODULES.filter((m) => !p || fullName(m).toLowerCase().includes(p));
+  }
 
   return {
-    all: () => all,
+    modules: () => MODULES.slice(),
+    groups: GROUPS,
+    all: () => MODULES.map(fullName),
     find,
     family,
-    defaults: DEFAULTS,
+    root: MODULE_ROOT,
 
-    /** `module avail [pattern]` output as text, laid out in columns. */
+    /** the folder a module puts on PATH */
+    binDir: (mod) => `${APPS_ROOT}/${mod}/bin`,
+
+    /** `module avail [pattern]` as Lmod prints it, or null when nothing matches */
     avail(pattern = '', width = 100) {
-      const p = pattern.toLowerCase();
-      const list = all.filter(m => !p || m.toLowerCase().startsWith(p) || m.toLowerCase().includes(p))
-        .map(m => (DEFAULTS[family(m)] && m.endsWith('/' + DEFAULTS[family(m)]) ? m + '(default)' : m));
+      const list = match(pattern).map(fullName);
       if (!list.length) return null;
-      const head = ' /resources/tools/modules/ubuntu ';
-      const dash = Math.max(4, Math.floor((width - head.length) / 2));
-      const colW = Math.max(...list.map(s => s.length)) + 3;
-      const cols = Math.max(1, Math.floor(width / colW));
-      const rows = Math.ceil(list.length / cols);
-      const lines = [];
-      for (let r = 0; r < rows; r++) {
-        let line = '';
-        for (let c = 0; c < cols; c++) {
-          const item = list[c * rows + r];
-          if (item) line += item.padEnd(colW);
-        }
-        lines.push('   ' + line.trimEnd());
+      const head = ` ${MODULE_ROOT} `;
+      const left = Math.max(4, Math.floor((width - head.length) / 2));
+      return `${'-'.repeat(left)}${head}${'-'.repeat(Math.max(4, width - left - head.length))}\n${columns(list, width)}\n\n` +
+        'Use "module spider" to find all possible modules and extensions.\nUse "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".\n';
+    },
+
+    /** `module spider [name]` */
+    spider(pattern = '') {
+      const ms = match(pattern);
+      if (!ms.length) return null;
+      if (pattern && ms.length === 1) {
+        const m = ms[0];
+        return `\n----------------------------------------------------------------------------\n  ${m.name}: ${fullName(m)}\n----------------------------------------------------------------------------\n    Description:\n      ${m.what}\n\n    Provides: ${m.commands.join(', ')}\n\n    This module can be loaded directly: module load ${fullName(m)}\n\n`;
       }
-      return `${'-'.repeat(dash)}${head}${'-'.repeat(dash)}\n${lines.join('\n')}\n\n  Where:\n   (default):  default module version for this family\n\nUse "module spider" to find all possible modules and extensions.\nUse "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".\n`;
+      return `\n----------------------------------------------------------------------------\nThe following is a list of the modules and extensions currently available:\n----------------------------------------------------------------------------\n` +
+        ms.map((m) => `  ${m.name}: ${fullName(m)}\n    ${m.what}\n`).join('\n') +
+        '\n----------------------------------------------------------------------------\nTo learn more about a package and how to load it, use "module spider" with its name:\n\n  $ module spider samtools\n----------------------------------------------------------------------------\n';
     },
 
-    commandsFor(mod) { return PROVIDES[family(mod)] || [family(mod).toLowerCase()]; },
+    /** `module keyword WORD …`: the modules whose name, description or commands contain a word */
+    keyword(words) {
+      const ws = words.map((w) => w.toLowerCase());
+      const ms = MODULES.filter((m) => ws.some((w) => [m.name, m.what, ...m.commands].join(' ').toLowerCase().includes(w)));
+      if (!ms.length) return null;
+      return `\n----------------------------------------------------------------------------\nThe following modules match your search criteria: "${words.join('", "')}"\n----------------------------------------------------------------------------\n\n` +
+        ms.map((m) => `  ${m.name}: ${fullName(m)}\n    ${m.what}\n`).join('\n') + '\n';
+    },
 
-    /** Which loaded module (if any) provides a command. */
+    /** the module whose commands include cmd (whether or not it is loaded) */
+    moduleOf: (cmd) => BY_COMMAND.get(cmd) || null,
+    /** a command that needs its module loaded first (not R or Python) */
+    isGated: (cmd) => !!(BY_COMMAND.get(cmd) && !BY_COMMAND.get(cmd).base),
+    commandsFor: (mod) => (recordOf(mod) ? recordOf(mod).commands.slice() : []),
+
+    /** which of the loaded modules ("samtools/1.17" …) provides cmd */
     providerOf(cmd, loaded) {
-      for (const m of loaded) if ((PROVIDES[family(m)] || []).includes(cmd)) return m;
-      return null;
+      const m = BY_COMMAND.get(cmd);
+      return m ? loaded.find((x) => family(x) === m.name) || null : null;
     },
 
-    /** Module that would provide a command (for "command not found" hints). */
-    suggestFor(cmd) {
-      for (const [fam, cmds] of Object.entries(PROVIDES)) if (cmds.includes(cmd)) return `${fam}/${DEFAULTS[fam] || CATALOGUE[fam][CATALOGUE[fam].length - 1]}`;
-      return null;
-    },
+    /** the module to load for cmd (for "command not found" hints) */
+    suggestFor: (cmd) => (BY_COMMAND.get(cmd) ? fullName(BY_COMMAND.get(cmd)) : null),
 
     whatis(mod) {
-      const fam = family(mod);
-      return `${mod}: ${fam} — loads ${(PROVIDES[fam] || [fam]).join(', ')} into your PATH`;
+      const m = recordOf(mod);
+      return `${mod}: ${m ? m.what : ''}`;
     },
 
     show(mod) {
-      const fam = family(mod);
+      const m = recordOf(mod);
       const v = mod.split('/')[1];
-      return `-------------------------------------------------------------------\n   /resources/tools/modules/ubuntu/${mod}.lua:\n-------------------------------------------------------------------\nwhatis("${fam} ${v}")\nprepend_path("PATH","/resources/tools/apps/${fam}/${v}/bin")\nprepend_path("LD_LIBRARY_PATH","/resources/tools/apps/${fam}/${v}/lib")\n`;
+      return `-------------------------------------------------------------------\n   ${MODULE_ROOT}/${mod}.lua:\n-------------------------------------------------------------------\nwhatis("Name: ${m.name}")\nwhatis("Version: ${v}")\nwhatis("Description: ${m.what}")\nprepend_path("PATH","${APPS_ROOT}/${mod}/bin")\n`;
     },
   };
 }

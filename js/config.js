@@ -120,7 +120,7 @@ export const CONFIG = {
     pythonPreload: ['numpy', 'pandas', 'matplotlib'],
   },
   // Bumped when engine files change, so browsers fetch the new copies.
-  buildId: '2026-10-21',
+  buildId: '2026-10-21.2',
 
   cdn: {
     sqljs: 'assets/vendor/sqljs/',

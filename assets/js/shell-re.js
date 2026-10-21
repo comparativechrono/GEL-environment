@@ -12,12 +12,12 @@
      exit / logout                                            leave the HPC, a job – or close the window
      help, man                                                the RE's own listing and pages
 
-   Programs of the workbench engine that this site does not bundle, and
-   the commands for workbench tabs that the desktop has no use for
-   (network, dot), are taken out of the terminal here.
+   The software comes as environment modules (js/services/modules.js):
+   a module's programs are "command not found" until it is loaded.
 
    Where the shell is (desktop, the HPC's login node, a compute node) is
-   kept on the shell: shell.re = { mode, modules, stack }. A terminal's
+   kept on the shell: shell.re = { mode, stack }; the loaded modules are
+   in its environment (LOADEDMODULES, PATH). A terminal's
    view of the files (Object.create(fs)) gets the HPC's own home folder
    while it is logged in (see vfs.js: aliases).
    ===================================================================== */
@@ -32,12 +32,11 @@
   MG.shellHooks = MG.shellHooks || {};
 
   const LSF_CMDS = ['bsub', 'bjobs', 'bkill', 'bqueues', 'bhosts', 'bhist', 'bpeek', 'bacct', 'lsid', 'lshosts', 'lsload', 'bstop', 'bresume', 'bmod', 'btop', 'bbot'];
-  const GATED = new Set(['samtools', 'bcftools', 'tabix', 'bgzip', 'htsfile', 'bedtools', 'plink', 'plink2', 'bamtools', 'gatk', 'picard', 'nextflow', 'regenie', 'king', 'beagle', 'exomiser', 'ExpansionHunter', 'rtg', 'kraken2', 'magma', 'singularity']);
 
   /** where this shell is: desktop | hpc (login node) | compute (a job) */
   function state(ctx) {
     const sh = ctx.shell;
-    if (!sh.re) sh.re = { mode: ctx.term ? 'desktop' : 'compute', modules: [], stack: [] };
+    if (!sh.re) sh.re = { mode: ctx.term ? 'desktop' : 'compute', stack: [] };
     return sh.re;
   }
   const onHpc = (ctx) => state(ctx).mode !== 'desktop';
@@ -57,15 +56,28 @@
   function enterHpc(ctx, host) {
     const st = state(ctx);
     const view = ctx.term ? ctx.term.fs : null;
-    st.stack.push({ kind: 'ssh', host: ctx.term ? ctx.term.hostname : C.desktopHostname, mode: st.mode, modules: st.modules.slice(), cwd: ctx.fs.cwd, aliases: view ? view.aliases : null, hasOwnAliases: view ? Object.prototype.hasOwnProperty.call(view, 'aliases') : false, env: { HOME: ctx.shell.env.HOME } });
+    st.stack.push({ kind: 'ssh', host: ctx.term ? ctx.term.hostname : C.desktopHostname, mode: st.mode, modEnv: modEnv(ctx), cwd: ctx.fs.cwd, aliases: view ? view.aliases : null, hasOwnAliases: view ? Object.prototype.hasOwnProperty.call(view, 'aliases') : false, env: { HOME: ctx.shell.env.HOME } });
     st.mode = 'hpc';
-    st.modules = [];
+    // (a new login: no modules, the system's PATH)
+    setVar(ctx, 'PATH', (ctx.shell.env0 && ctx.shell.env0.PATH) || '/usr/local/bin:/usr/bin:/bin');
+    setVar(ctx, 'LOADEDMODULES', '');
     if (view) {
       // on the HPC, /home/USER is the HPC's own home; the desktop's links are not there
       view.aliases = [[`/home/${user()}`, hpcHome(), { shown: true }], ['/public_data_resources', '/pgen_public_data_resources']];
       view.cwd = hpcHome();
     }
     setPrompt(ctx, host);
+  }
+
+  /** the variables that modules set, to be put back when an ssh session or an interactive job ends */
+  const MOD_VARS = ['PATH', 'LOADEDMODULES', 'R_VERSION'];
+  function modEnv(ctx) {
+    const env = ctx.env || ctx.shell.env;
+    return Object.fromEntries(MOD_VARS.map((k) => [k, env[k]]));
+  }
+  function restoreModEnv(ctx, saved) {
+    if (!saved) return;
+    for (const k of MOD_VARS) if (saved[k] !== undefined) setVar(ctx, k, saved[k]); else if (k !== 'PATH') setVar(ctx, k, '');
   }
 
   function leave(ctx, io) {
@@ -76,14 +88,14 @@
       RE.services.lsf.finishInteractive(top.job, 0);
       io.out('exit\n');
       st.mode = 'hpc';
-      st.modules = top.modules;
+      restoreModEnv(ctx, top.modEnv);
       setPrompt(ctx, top.host);
       if (ctx.term && top.cwd) ctx.term.fs.cwd = top.cwd;
       return true;
     }
     io.out(`logout\nConnection to ${H.loginHost} closed.\n`);
     st.mode = top.mode;
-    st.modules = top.modules;
+    restoreModEnv(ctx, top.modEnv);
     if (ctx.term) {
       const view = ctx.term.fs;
       if (top.hasOwnAliases) view.aliases = top.aliases; else delete view.aliases;
@@ -116,65 +128,92 @@
   }
 
   // ---------------------------------------------------------------- modules
+  // A module is loaded into the environment, as Lmod does it: its folder goes on PATH and its name into LOADEDMODULES.
+  // Both are exported, so a script, bash -c, $( ) and an LSF job see the modules of the shell they were started from.
   const M = RE.services.modules;
+  const APPS = '/resources/tools/apps/';
+  const loadedOf = (env) => String((env && env.LOADEDMODULES) || '').split(':').filter(Boolean);
+  /** give a variable of the shell a value, exported (ctx of a command; or of the terminal itself – see leave()) */
+  function setVar(ctx, name, value) {
+    const st = ctx.opts && ctx.opts.st;
+    if (st && typeof ctx.shell._set === 'function') {
+      ctx.shell._set(name, value, st);
+      if (st.exported) st.exported.add(name);
+    } else (ctx.env || ctx.shell.env)[name] = value;
+  }
+  const envOf = (ctx) => ctx.env || ctx.shell.env;
+  /** the modules of a shell → LOADEDMODULES and PATH (each module's folder in front, the last loaded first) */
+  function setModules(ctx, list) {
+    const path = String(envOf(ctx).PATH || '/usr/local/bin:/usr/bin:/bin').split(':').filter((d) => d && !d.startsWith(APPS));
+    setVar(ctx, 'PATH', list.slice().reverse().map((m) => M.binDir(m)).concat(path).join(':'));
+    setVar(ctx, 'LOADEDMODULES', list.join(':'));
+    const r = list.find((m) => M.family(m) === 'R');
+    if (r) setVar(ctx, 'R_VERSION', r.split('/')[1]);
+  }
+  const unknown = (ctx, name) => ctx.err(`Lmod has detected the following error:  The following module(s) are unknown: "${name}"\n\nPlease check the spelling or version number. Also try "module spider ..."\nIt is also possible your cache file is out-of-date; it may help to try:\n  $ module --ignore_cache load "${name}"\n\n`);
+
   B.module = async (ctx) => {
-    const st = state(ctx);
     const [sub, ...rest] = ctx.args;
+    const loaded = loadedOf(ctx.env);
     switch (sub) {
       case undefined: case 'help': case '-h': case '--help':
-        ctx.out('Usage: module [options] sub-command [args ...]\n\nSub-commands:\n  avail [pattern]      List the modules that can be loaded\n  spider [pattern]     Search all modules\n  load mod ...         Load modules (e.g. module load R/4.3.3)\n  unload mod ...       Remove modules\n  swap old new         Unload one module and load another\n  list                 List the loaded modules\n  purge                Unload all modules\n  show mod             What a module does\n  whatis mod           A one-line description\n');
+        ctx.out('Usage: module [options] sub-command [args ...]\n\nSub-commands:\n  avail [pattern]      List the modules that can be loaded\n  spider [name]        Search all modules, or describe one\n  keyword word ...     Search the modules\' descriptions\n  load mod ...         Load modules (e.g. module load samtools)\n  unload mod ...       Remove modules\n  swap old new         Unload one module and load another\n  list                 List the loaded modules\n  purge                Unload all modules\n  show mod             What a module does to the environment\n  whatis mod           A one-line description\n');
         return 0;
-      case 'avail': case 'av': case 'spider': {
-        const t = M.avail(rest[0] || '', 110);
-        if (!t) { ctx.err(`No module(s) or extension(s) found!\nUse "module spider" to find all possible modules and extensions.\n`); return 1; }
+      case 'avail': case 'av': {
+        const t = M.avail(rest[0] || '', 100);
+        if (!t) { ctx.err(`No module(s) or extension(s) found!\nUse "module spider" to find all possible modules and extensions.\nUse "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".\n`); return 1; }
         ctx.out(t);
         return 0;
       }
-      case 'load': case 'add': {
+      case 'spider': {
+        const t = M.spider(rest[0] || '');
+        if (!t) { ctx.err(`Lmod has detected the following error:  Unable to find: "${rest[0]}".\n`); return 1; }
+        ctx.out(t);
+        return 0;
+      }
+      case 'keyword': case 'key': {
+        const t = rest.length ? M.keyword(rest) : null;
+        if (!t) { ctx.err(rest.length ? `No modules match "${rest.join('", "')}".\n` : 'module keyword: give one or more words to search for\n'); return 1; }
+        ctx.out(t);
+        return 0;
+      }
+      case 'load': case 'add': case 'try-load': {
         if (!rest.length) throw userErr('module load: no module named');
+        let list = loaded.slice();
         for (const name of rest) {
           const mod = M.find(name);
-          if (!mod) {
-            ctx.err(`Lmod has detected the following error:  The following module(s) are unknown: "${name}"\n\nPlease check the spelling or version number. Also try "module spider ..."\nIt is also possible your cache file is out-of-date; it may help to try:\n  $ module --ignore_cache load "${name}"\n`);
-            return 1;
-          }
-          const fam = M.family(mod);
-          st.modules = st.modules.filter(m => M.family(m) !== fam);
-          st.modules.push(mod);
-          if (/^python\//.test(mod)) ctx.out(`${mod} has been loaded\n`);
-          if (/^R\//.test(mod)) ctx.shell.env.R_VERSION = mod.split('/')[1];
+          if (!mod) { unknown(ctx, name); return 1; }
+          list = list.filter((m) => M.family(m) !== M.family(mod)).concat(mod);
         }
-        ctx.shell.env.LOADEDMODULES = st.modules.join(':');
+        setModules(ctx, list);
         return 0;
       }
       case 'unload': case 'rm': case 'del': {
-        for (const name of rest) st.modules = st.modules.filter(m => m !== name && M.family(m) !== name.split('/')[0]);
-        ctx.shell.env.LOADEDMODULES = st.modules.join(':');
+        setModules(ctx, loaded.filter((m) => !rest.some((n) => m === n || M.family(m).toLowerCase() === String(n).split('/')[0].toLowerCase())));
         return 0;
       }
       case 'swap': case 'switch': {
         const [a, b] = rest;
-        st.modules = st.modules.filter(m => m !== a && M.family(m) !== String(a).split('/')[0]);
         const mod = M.find(b);
-        if (mod) st.modules.push(mod); else { ctx.err(`The following module(s) are unknown: "${b}"\n`); return 1; }
+        if (!mod) { unknown(ctx, b); return 1; }
+        setModules(ctx, loaded.filter((m) => m !== a && M.family(m).toLowerCase() !== String(a).split('/')[0].toLowerCase() && M.family(m) !== M.family(mod)).concat(mod));
         return 0;
       }
       case 'list': case 'li':
-        ctx.out(st.modules.length ? `\nCurrently Loaded Modules:\n${st.modules.map((m, i) => `  ${i + 1}) ${m}`).join('   ')}\n\n` : 'No modules loaded\n');
+        ctx.out(loaded.length ? `\nCurrently Loaded Modules:\n${loaded.map((m, i) => `  ${i + 1}) ${m}`).join('   ')}\n\n` : 'No modules loaded\n');
         return 0;
       case 'purge':
-        st.modules = [];
-        ctx.shell.env.LOADEDMODULES = '';
+        setModules(ctx, []);
         return 0;
       case 'show': case 'display': {
         const mod = M.find(rest[0]);
-        if (!mod) { ctx.err(`Lmod has detected the following error: Unable to find: "${rest[0]}"\n`); return 1; }
+        if (!mod) { ctx.err(`Lmod has detected the following error:  Unable to find: "${rest[0] || ''}"\n`); return 1; }
         ctx.out(M.show(mod));
         return 0;
       }
       case 'whatis': {
         const mod = M.find(rest[0]);
-        if (!mod) { ctx.err(`Unable to find: "${rest[0]}"\n`); return 1; }
+        if (!mod) { ctx.err(`Lmod has detected the following error:  Unable to find: "${rest[0] || ''}"\n`); return 1; }
         ctx.out(M.whatis(mod) + '\n');
         return 0;
       }
@@ -185,28 +224,39 @@
   };
   B.ml = (ctx) => {
     if (!ctx.args.length) return B.module(Object.assign(ctx, { args: ['list'] }));
-    if (['avail', 'av', 'spider', 'list', 'purge', 'show', 'unload', 'load', 'swap', 'whatis', 'help'].includes(ctx.args[0])) return B.module(ctx);
+    if (['avail', 'av', 'spider', 'keyword', 'list', 'purge', 'show', 'unload', 'load', 'swap', 'whatis', 'help'].includes(ctx.args[0])) return B.module(ctx);
+    // ml -samtools: unload
+    if (ctx.args.every((a) => a.startsWith('-'))) return B.module(Object.assign(ctx, { args: ['unload', ...ctx.args.map((a) => a.slice(1))] }));
     return B.module(Object.assign(ctx, { args: ['load', ...ctx.args] }));
   };
 
   // ------------------------------------------------------- gate: modules & LSF
+  const gated = (name, env) => M.isGated(name) && RE.session.settings.requireModules !== false && !M.providerOf(name, loadedOf(env));
   const dispatch0 = MG.Shell.prototype.dispatch;
   MG.Shell.prototype.dispatch = async function (name, ctx) {
+    // (which, type and command -v ask MG.shellHooks.programPath, which sees the environment of the command that asks)
+    this._reEnv = ctx.env;
     if (LSF_CMDS.includes(name) && (!this.re || this.re.mode === 'desktop') && ctx.term) {
       ctx.err(`bash: ${name}: command not found\n`);
       ctx.io.note(`The LSF job scheduler runs on the HPC, not on the desktop. Log in first:  ssh ${user()}@${H.loginHost}`);
       return 127;
     }
-    if (GATED.has(name) && RE.session.settings.requireModules !== false) {
-      const st = this.re || { modules: [] };
-      if (!M.providerOf(name, st.modules)) {
-        const mod = M.suggestFor(name);
-        ctx.err(`bash: ${name}: command not found\n`);
-        if (mod) ctx.io.note(`${name} is installed as a module. Load it first:  module load ${mod}   (module avail ${mod.split('/')[0]} lists the versions)`);
-        return 127;
-      }
+    if (gated(name, ctx.env)) {
+      const mod = M.suggestFor(name);
+      ctx.err(`bash: ${name}: command not found\n`);
+      ctx.io.note(`${name} is installed as a module. Load it first:  module load ${mod}   (module avail lists the software)`);
+      return 127;
     }
     return dispatch0.call(this, name, ctx);
+  };
+  // where a program is: in its module's folder once the module is loaded; nowhere before (which, type, command -v)
+  MG.shellHooks.programPath = (name, shell) => {
+    const m = M.moduleOf(name);
+    if (!m) return undefined;
+    const env = shell._reEnv || shell.env;
+    const mod = M.providerOf(name, loadedOf(env));
+    if (mod) return `${M.binDir(mod)}/${name}`;
+    return gated(name, env) ? null : undefined;
   };
 
   // ---------------------------------------------------------------------- ssh
@@ -335,7 +385,14 @@
 
   // ---------------------------------------------------------------------- LSF
   const L = () => RE.services.lsf;
-  const lsfCtx = (ctx) => ({ cwd: ctx.fs.cwd, home: `/home/${user()}`, fsView: ctx.term ? ctx.term.fs : ctx.fs, env: { PATH: ctx.shell.env.PATH } });
+  /** the exported variables of the submitting shell: LSF gives a job the environment it was submitted from (bsub's
+      default), so the modules loaded before bsub are loaded in the job */
+  function exportedEnv(ctx) {
+    const env = ctx.env || ctx.shell.env, st = ctx.opts && ctx.opts.st;
+    const names = st && st.exported ? [...st.exported] : Object.keys(env);
+    return Object.fromEntries(names.filter((k) => typeof env[k] === 'string').map((k) => [k, env[k]]));
+  }
+  const lsfCtx = (ctx) => ({ cwd: ctx.fs.cwd, home: `/home/${user()}`, fsView: ctx.term ? ctx.term.fs : ctx.fs, env: exportedEnv(ctx) });
 
   B.bsub = async (ctx) => {
     const args = ctx.args;
@@ -344,11 +401,12 @@
       return 0;
     }
     try {
-      const { opts } = L().parseBsub(args);
+      const { opts, cmd } = L().parseBsub(args);
       if (opts.interactive) return await interactive(ctx, args);
+      // bsub < job.sh, cat job.sh | bsub: without a command, the job script is what bsub reads (a pipe, a file, a
+      // here-document, or the rest of the script that runs bsub)
       let stdin = null;
-      if (ctx.stdin != null) stdin = typeof ctx.stdin === 'string' ? ctx.stdin : null;
-      else if (ctx.inherit && ctx.inherit.pos < ctx.inherit.text.length) { stdin = ctx.inherit.text.slice(ctx.inherit.pos); ctx.inherit.pos = ctx.inherit.text.length; }
+      if (!cmd.length && (ctx.stdin != null || (ctx.inherit && ctx.inherit.pos < ctx.inherit.text.length))) stdin = await MG.shellUtil.inputOf(ctx, [], 'bsub');
       const msg = L().submit(args, lsfCtx(ctx), stdin);
       ctx.out(msg + '\n');
       return 0;
@@ -366,13 +424,13 @@
     await new Promise(r => setTimeout(r, 1200 + Math.random() * 1500));
     ctx.out(`<<Starting on ${job.execHost}>>\n`);
     L().markRunning(job);
-    st.stack.push({ kind: 'job', job, host: ctx.term ? ctx.term.hostname : H.loginNodeName, modules: st.modules.slice(), cwd: ctx.fs.cwd });
+    st.stack.push({ kind: 'job', job, host: ctx.term ? ctx.term.hostname : H.loginNodeName, modEnv: modEnv(ctx), cwd: ctx.fs.cwd });
     st.mode = 'compute';
     setPrompt(ctx, job.execHost);
     job.onKill = () => {
       if (st.stack.length && st.stack[st.stack.length - 1].job === job) {
         const top = st.stack.pop();
-        st.mode = 'hpc'; st.modules = top.modules; setPrompt(ctx, top.host);
+        st.mode = 'hpc'; restoreModEnv({ shell: ctx.shell }, top.modEnv); setPrompt(ctx, top.host);
         if (ctx.term) ctx.term.note && ctx.term.note(`Job <${job.id}> was terminated (bkill): back on the login node.`);
       }
     };
@@ -457,33 +515,33 @@
   B['xfce4-terminal'] = B['gnome-terminal'] = gui('xfce4-terminal', async () => { await RE.apps.launchApp('terminal', {}); return 0; });
   B.jupyter = async (ctx) => {
     ctx.err('jupyter: Jupyter notebooks are not part of the training simulator.\n');
-    ctx.io.note('In the real RE you would run  module load python/3.11  and  jupyter notebook --port <port>. Here, use Spyder (spyder) or python3 in the terminal for Python work.');
+    ctx.io.note('In the real RE you would run  module load python  and  jupyter notebook --port <port>. Here, use Spyder (spyder) or python3 in the terminal for Python work.');
     return 1;
   };
 
-  // ------------------------------------------- what this site does not bundle
-  // The engine knows every program of the bioinformatics workbench, but only some of them are copied into this site
-  // (assets/vendor/genomics-wasm holds PLINK 2 only), and two commands open workbench tabs that the desktop does not
-  // have (network: the Networks tab; dot: Graphviz). They are taken out, so that the shell says "command not found",
-  // as on a computer without them – not that a file failed to load.
+  // ------------------------------------------- what the desktop has no use for
+  // network opens the workbench's Networks tab, which the desktop does not have: the shell says "command not found".
   const T = MG.shellTools || {};
-  for (const n of ['featureCounts', 'salmon', 'cutadapt', 'lofreq', 'bam-somaticsniper', 'somaticsniper', 'macs3', 'prodigal', 'bustools',
-    'hmmbuild', 'hmmsearch', 'hmmscan', 'hmmpress', 'hmmfetch', 'hmmalign', 'hmmconvert', 'hmmemit', 'hmmstat', 'phmmer', 'jackhmmer',
-    'nhmmer', 'nhmmscan']) delete T[n];
   delete B.network;
-  delete B.dot;
 
   // ------------------------------------------------------------- help and man
   B.help = (ctx) => {
     const v = (MG.wasm && MG.wasm.versions) || {};
-    const has = (n) => !!T[n];
     const row = (name, text) => '  ' + name.padEnd(37) + ' ' + text;
-    const list = (names) => names.filter(has).map((n) => (v[n] ? `${n} ${v[n]}` : n)).join(', ');
+    // the software: the module catalogue, group by group – only what the terminal has
+    const here = (m) => m.commands.some((c) => T[c] || B[c]);
+    const software = [];
+    for (const [g, title] of M.groups) {
+      const ms = M.modules().filter((m) => m.group === g && here(m));
+      if (!ms.length) continue;
+      software.push('', title + ':');
+      for (const m of ms) software.push(row(`${m.name}/${m.version}`, m.what + (m.commands.length > 1 && !/[:(]/.test(m.what) ? `  (${m.commands.filter((c) => !/\.py$|^kmer2read|-s$/.test(c)).join(', ')})` : '')));
+    }
     ctx.out([
       'Commands of the Research Environment terminal. (man NAME: how to use one; NAME --help: its options)',
       '',
       'The Research Environment:',
-      row('module avail | load NAME | list', 'software comes as environment modules (ml for short):  module load samtools'),
+      row('module avail | load NAME | list', 'the software comes as environment modules (ml for short):  module load samtools'),
       row(`ssh ${user()}@${H.loginHost.split('.')[0]}…`, `log in to the HPC:  ssh ${user()}@${H.loginHost}`),
       row('bsub, bjobs, bkill, bqueues, bhist', 'LSF jobs, on the HPC:  bsub -q short -P <project> -o job.%J.out "COMMAND"'),
       row('bsub -q inter -P <project> -Is bash', 'an interactive job on a compute node (exit to leave it)'),
@@ -492,22 +550,14 @@
       row('mousepad FILE, firefox URL', 'the text editor; the web browser'),
       row('xdg-open FILE', 'open a file with its application'),
       '',
-      'Genomics programs (the real programs, compiled to WebAssembly – load their module first):',
-      '  ' + list(['samtools', 'bcftools', 'bgzip', 'tabix', 'bedtools', 'plink2']),
-      '  ' + list(['fastp', 'seqtk', 'minimap2', 'bowtie2', 'bwa', 'bwa-mem2', 'hisat2']),
-      '  ' + list(['mosdepth', 'freebayes', 'stringtie', 'kallisto', 'wgsim', 'gffread']),
-      '  ' + list(['kalign', 'muscle', 'fasttree', 'lastz', 'needleman_wunsch', 'smith_waterman']) + (has('jq') ? `, jq ${v.jq || ''}`.trimEnd() : ''),
+      'The software (module avail): the real programs, compiled to WebAssembly – load a module before using its programs.',
+      'R and Python work without a module, as on the desktop.',
+      ...software,
       '',
-      'Languages:',
-      row('R, Rscript', 'R 4.6 (webR): R starts its console here;  Rscript script.R  runs a script'),
-      row('python3, pip', 'Python 3.13 (Pyodide):  python3 script.py,  pip install NAME'),
-      '',
-      'GNU text tools (WebAssembly):',
+      'Always there:',
       `  cat head tail wc sort uniq cut tr tee paste join comm seq fold shuf md5sum date (coreutils ${v.coreutils || ''})`,
       `  grep egrep fgrep (grep ${v.grep || ''})   sed (sed ${v.sed || ''})   awk gawk (gawk ${v.gawk || ''})   diff cmp (diffutils ${v.diffutils || ''})`,
-      '  gzip gunzip zcat zgrep (done by bgzip)',
-      '',
-      'Files and folders:',
+      '  gzip gunzip zcat zgrep (done by bgzip)   dot (Graphviz)',
       '  ls cd pwd mkdir cp mv rm rmdir touch tree find du stat file chmod basename dirname realpath',
       '  unzip, zip, tar (-xzf, -czf)   curl, wget   nano FILE (the text editor)   download FILE (to your own computer)',
       '  export-session FILE.sh   the commands of this session as a script',
@@ -524,7 +574,7 @@
   };
 
   const RE_MAN = {
-    module: 'module – environment modules (Lmod): the software of the Research Environment\n\n  module avail [TEXT]        the modules that can be loaded (ml av)\n  module spider TEXT         search the modules\n  module load NAME[/VER] …   load modules – the default version when none is given (ml NAME)\n  module list                the modules loaded in this shell (ml)\n  module unload NAME         unload one;   module purge   unload them all\n  module swap OLD NEW        change version\n  module show NAME           what a module sets;   module whatis NAME   one line about it\n\nPrograms such as samtools, bcftools, bedtools, tabix and plink2 are modules: load them before use – on the desktop,\non the HPC and in job scripts (put  module load samtools/1.21  before the samtools command).',
+    module: 'module – environment modules (Lmod): the software of the Research Environment\n\n  module avail [TEXT]        the modules that can be loaded (ml av)\n  module spider [NAME]       search the modules, or describe one\n  module load NAME[/VER] …   load modules – the default version when none is given (ml NAME)\n  module list                the modules loaded in this shell (ml)\n  module unload NAME         unload one;   module purge   unload them all\n  module swap OLD NEW        change version\n  module show NAME           what a module sets;   module whatis NAME   one line about it\n  module keyword WORD        search the descriptions\n\nThe genomics programs are modules: load them before use – on the desktop and on the HPC. A module goes on PATH and\ninto LOADEDMODULES, so scripts and LSF jobs started afterwards have it too; a job script may also load its own\n(module load samtools  before the samtools command). R and Python work without a module.',
     ssh: `ssh – log in to the HPC\n\n  ssh USER@${H.loginHost}     log in (USER: your Research Environment user name)\n  exit                                            log out, back to the desktop\n\nThe first login asks you to accept the HPC's host key, then for your password. To log in without a password, make\na key and copy it to the HPC:  ssh-keygen -t ed25519   then   ssh-copy-id USER@${H.loginHost}\nYour HPC home folder (/home/USER on the HPC) is not your desktop's home: keep your work in /re_gecip/<domain>/USER,\nwhich both see. Graphical programs (RStudio, IGV …) run on the desktop only.`,
     bsub: `bsub – submit a job to LSF (on the HPC)\n\n  bsub -q QUEUE -P PROJECT [-J NAME] [-o OUT] [-e ERR] [-n CORES] [-R "rusage[mem=MB]"] [-M MB] [-W [HH:]MM] COMMAND\n  bsub < script.sh                    a job script, with #BSUB lines for the options\n  bsub -q inter -P PROJECT -Is bash   an interactive job: a shell on a compute node (exit to leave it)\n\n  -q   queue: ${H.queues.map((q) => q.name).join(', ')} (see  bqueues)\n  -P   project code – required:  ${H.projectCodes[0]}\n  -o, -e   files for the job's output and errors; %J becomes the job number\n  -w "done(JOBID)"   start after another job has finished\n\nThe job runs in the folder you submit it from. Follow it with  bjobs ,  bpeek JOBID  and  bhist JOBID ; stop it with  bkill JOBID .`,
     bjobs: 'bjobs – your LSF jobs (on the HPC)\n\n  bjobs            jobs that are pending or running\n  bjobs -a         also those that finished recently\n  bjobs -l JOBID   everything about one job\n  bjobs -d         finished jobs only\n\nSTAT: PEND waiting for a slot, RUN running, DONE finished (exit status 0), EXIT failed or killed.',

@@ -76,7 +76,7 @@ This desktop mimics the ${C.organisation} Research Environment (RE).
 
 In the Terminal:
   ssh ${user}@${C.hpc.loginHost}     log in to the HPC (Double Helix)
-  module avail / module load R/4.3.3       software modules
+  module avail / module load samtools     software modules
   bsub / bjobs / bqueues / bkill           the LSF job scheduler (on the HPC)
   R, python3                               interactive R and Python
   rstudio, spyder, igv                     open the desktop applications

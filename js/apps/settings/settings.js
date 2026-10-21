@@ -77,7 +77,7 @@ export async function launch(ctx, args = {}) {
         check('Review submissions automatically', 'autoReview', 'When off, proposals and Airlock requests wait until you decide them below.'),
         h('div.st-row', h('label', 'Time the simulated reviewers take (seconds): '), delay),
         check('Enforce the 30-day rule for exports', 'enforceExportWait', 'Projects must have been approved for 30 days before anything can be exported.'),
-        check('Require "module load" for tools such as samtools and bcftools', 'requireModules')),
+        check('Require "module load" before a module\'s programs (samtools, bcftools … – not R or Python)', 'requireModules', 'As in the RE: the programs of module avail are "command not found" until their module is loaded.')),
       section('Research Registry proposals', projectsTable()),
       section('Airlock requests', airlockTable()),
       section('Reset', h('div.st-row',

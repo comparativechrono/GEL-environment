@@ -22,6 +22,8 @@ export function engineConfig() {
     pythonPreload: e.pythonPreload,
     webrBase: e.webrBase,
     rRepos: e.rRepos,
+    // R packages that the repositories have no browser build of (locfit, which DESeq2 and edgeR need)
+    rLocalRepo: 'assets/vendor/r-packages',
     biowasmBase: 'assets/vendor/biowasm',
     threadsBase: 'assets/vendor/genomics-wasm/',
     storageWarnMB: 1500,
@@ -35,7 +37,7 @@ const groups = {
   core: { css: [], js: ['assets/js/core.js', 'assets/js/icons.js', 'assets/js/vfs.js', 'assets/js/project.js'] },
   shell: {
     css: ['assets/css/genomics.css'],
-    js: ['assets/js/shell.js', 'assets/js/shell-lang.js', 'assets/js/tools-wasm.js', 'assets/js/shell-extra.js',
+    js: ['assets/js/shell.js', 'assets/js/shell-lang.js', 'assets/js/tools-wasm.js', 'assets/js/somatic.js', 'assets/js/metagenomics.js', 'assets/js/shell-extra.js',
       'assets/js/shell-wb.js', 'assets/js/terminal.js', 'assets/vendor/dompurify/purify.min.js', 'assets/vendor/marked/marked.min.js',
       'assets/js/kernels.js', 'assets/js/pysync.js', 'assets/js/rsession.js', 'assets/js/shell-r.js', 'assets/js/shell-re.js'],
     after: () => {

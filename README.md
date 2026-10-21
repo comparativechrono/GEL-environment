@@ -28,7 +28,7 @@ The page opens on the RE's sign-in screen, then the desktop: the panel at the to
 
 | Desktop icon | What it is |
 | --- | --- |
-| **Terminal** | bash with the real programs compiled to WebAssembly – samtools, bcftools, bgzip/tabix, bedtools, PLINK 2, minimap2, BWA, Bowtie 2, HISAT2, FreeBayes, fastp and others – plus GNU coreutils, grep, sed and awk, `python3` and `R`/`Rscript`. The Research Environment's own commands: `module avail/load` (environment modules: samtools and the like need `module load` first), `ssh` to the HPC (host key, password, `ssh-keygen`/`ssh-copy-id`), and on the HPC the LSF scheduler – `bsub` (with `#BSUB` job scripts, `-P` project codes, queues, `-Is` interactive jobs), `bjobs`, `bkill`, `bqueues`, `bhist`, `bpeek`. Type `help`. |
+| **Terminal** | bash with the real programs compiled to WebAssembly – fastp, Cutadapt, minimap2, Bowtie 2, BWA, BWA-MEM2, HISAT2, samtools, bcftools, bgzip/tabix, bedtools, mosdepth, FreeBayes, LoFreq, SomaticSniper, Strelka2, PLINK 2, featureCounts, StringTie, kallisto, Salmon, bustools, MACS3, Kraken2, Bracken, Prodigal, HMMER and others – plus GNU coreutils, grep, sed and awk, Graphviz, Snakemake, `python3` and `R`/`Rscript`. The Research Environment's own commands: `module avail/load` (environment modules: `module avail` lists exactly the programs that are there – 39 modules –, and a module's programs are "command not found" until it is loaded; scripts, Snakemake and LSF jobs inherit the loaded modules), `ssh` to the HPC (host key, password, `ssh-keygen`/`ssh-copy-id`), and on the HPC the LSF scheduler – `bsub` (with `#BSUB` job scripts, `-P` project codes, queues, `-Is` interactive jobs), `bjobs`, `bkill`, `bqueues`, `bhist`, `bpeek`. Type `help`. |
 | **Home** | the file manager (Thunar): the home folder with the RE's links (`~/genomes`, `~/gel_data_resources`, `~/re_gecip` …), `/re_gecip/<domain>/<user>`, `/re_scratch`, the read-only data; copy, move, rename, open with, properties |
 | **RStudio** | an imitation of RStudio with R 4.6 (webR): Source, Console, Environment, Files, Plots, Packages, Help, Viewer, Terminal; R Markdown; `library(Rlabkey)` reads the data browser's tables, as in the RE |
 | **Spyder** | an imitation of Spyder 6 with Python 3.13 (Pyodide): Editor, IPython console, Variable Explorer, Plots, Files; `import labkey` works as in the RE |
@@ -46,7 +46,7 @@ The Applications menu (Whisker Menu) has these and the **Settings Manager** (des
 ## Put it on GitHub Pages
 
 1. *Settings → Pages → Build and deployment*: Source **Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
-2. After a minute the site is at `https://<owner>.github.io/<repository>/` – for this repository `https://comparativechrono.github.io/GEL-environment/`. The first time a browser opens it, the page loads once more by itself: it installs a small service worker (`isolation-sw.js`) that makes the page *cross-origin isolated*, which R's and Python's input, interrupting them, and PLINK 2's threads need.
+2. After a minute the site is at `https://<owner>.github.io/<repository>/` – for this repository `https://comparativechrono.github.io/GEL-environment/`. The first time a browser opens it, the page loads once more by itself: it installs a small service worker (`isolation-sw.js`) that makes the page *cross-origin isolated*, which R's and Python's input, interrupting them, and the threads of featureCounts, Salmon and PLINK 2 need.
 
 The empty file `.nojekyll` stops GitHub from processing the site. Keep `assets/vendor/licenses/` with the site: it holds the source code of the GPL programs. Any other web server works too: copy the folder; there is no server-side code, but the server must answer HTTP range requests (all common ones do), which IGV uses.
 
@@ -78,7 +78,7 @@ Addresses that help in a practical:
 
 - *Review submissions automatically* – on: the simulated Research Management Team, Access Review Committee and Airlock Team decide each submission after a delay (the delay can be changed, for example to 5 seconds); off: submissions wait for a decision made here.
 - *Enforce the 30-day rule for exports* – as in the RE, nothing leaves a project before it has been approved for 30 days. The training project RR4001, which every user is a member of, was approved 120 days ago; projects approved in the session can be backdated here.
-- *Require "module load"* – whether samtools, bcftools and the like need `module load` first, as on the HPC.
+- *Require "module load"* – whether the programs of `module avail` need `module load` first, as in the RE (R and Python never do).
 - The lists of proposals and Airlock requests, with buttons to approve, ask for revisions or more information, reject, and backdate; *Reset* clears the requests, or the whole simulator.
 
 **A route through the RE** (also on the RE Documentation page): find a cohort in LabKeeper (filter `rare_diseases_participant_disease`, look up `genome_file_paths_and_types`), export it or copy *Export ▸ Script* into RStudio; set up `~/.netrc` so that Rlabkey and labkey can sign in; look at a participant's BAM in IGV; log in to the HPC, `module load samtools`, submit `samtools flagstat` with `bsub -q short -P re_gecip_training`; register a project in the Research Registry; export a summary table through the Airlock – and see it rejected when it has a count below 5.
@@ -99,7 +99,7 @@ Research proposals and Airlock requests are kept in each student's browser and r
 
 ## Settings: `js/config.js`
 
-Names, host names and addresses live in one file: the environment's and the data browser's names (`LabKeeper`), the fake host names (`labkey.prod.aws.gel.ac`, `doublehelix.helix.prod.aws.gel.ac`), the HPC's queues and project codes, the data releases, the simulated websites and the whitelist, the submissions transport, the review delay and the 30-day rule, the training project, and where webR and Pyodide are loaded from. When the engine's files change, change `buildId` so that browsers fetch them again.
+Names, host names and addresses live in one file: the environment's and the data browser's names (`LabKeeper`), the fake host names (`labkey.prod.aws.gel.ac`, `doublehelix.helix.prod.aws.gel.ac`), the HPC's queues and project codes, the data releases, the simulated websites and the whitelist, the submissions transport, the review delay and the 30-day rule, the training project, and where webR and Pyodide are loaded from. When the engine's files change, change `buildId`, so that browsers fetch its workers and modules again.
 
 ## What students keep, and privacy
 
@@ -115,7 +115,7 @@ Current Chrome, Edge, Firefox and Safari on a laptop or desktop with 8 GB of mem
 - The HPC is simulated: jobs run in the same browser, with LSF's states (PEND, RUN, DONE, EXIT), output files and messages.
 - The hosted genomes in IGV (hg38, hg19) need the internet; the training genome does not.
 - Whitelisted websites cannot be shown inside the simulated browser (they refuse to be framed): they open in a tab of the student's own browser.
-- `man` pages of the programs show examples with the bioinformatics workbench's file names; the terminal says so.
+- `man` pages of the programs show examples with the bioinformatics workbench's file names; the terminal says so. Apart from the tumour/normal BAM files in `/genomes`, the simulator has no example inputs for the programs (FASTQ files, RNA-seq, metagenomic databases …): bring them through the Airlock's import, or add them to `data/fs`.
 
 ## Files
 
