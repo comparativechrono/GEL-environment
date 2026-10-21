@@ -421,7 +421,7 @@ class IGVDesktop {
       if (!vfs.exists(g.fasta)) throw new Error(`File not found: ${g.fasta}`);
       const idx = [g.index, g.fasta + '.fai'].find(p => p && vfs.exists(p));
       if (/\.gz$/i.test(g.fasta)) throw new Error('A gzipped FASTA file needs to be bgzipped and indexed (samtools faidx). Use an uncompressed copy instead.');
-      if (!idx) throw new Error(`Index file not found: ${g.fasta}.fai\nCreate it with  samtools faidx ${g.fasta}  (in the Terminal, after  module load samtools).`);
+      if (!idx) throw new Error(`Index file not found: ${g.fasta}.fai\nCreate it with  samtools faidx ${g.fasta}  (in the Terminal, after  module load samtools/1.21).`);
       return { reference: { id: g.id, name: g.name, fastaURL: await this._fileUrl(g.fasta), indexURL: await this._fileUrl(idx) } };
     }
     throw new Error('Unknown genome.');
@@ -719,7 +719,7 @@ class IGVDesktop {
         if (/\.(bam|cram)$/i.test(name)) {
           const ext = /\.cram$/i.test(name) ? '.crai' : '.bai';
           indexPath = [p + ext, p.replace(/\.(bam|cram)$/i, ext)].find(x => vfs.exists(x));
-          if (!indexPath) throw new Error(`An index file is required for ${/\.cram$/i.test(name) ? 'CRAM' : 'BAM'} files. Tried:\n${p}${ext}\n${p.replace(/\.(bam|cram)$/i, ext)}\n\nCreate one with  samtools index ${p}  (after  module load samtools), in a folder you can write to.`);
+          if (!indexPath) throw new Error(`An index file is required for ${/\.cram$/i.test(name) ? 'CRAM' : 'BAM'} files. Tried:\n${p}${ext}\n${p.replace(/\.(bam|cram)$/i, ext)}\n\nCreate one with  samtools index ${p}  (after  module load samtools/1.21), in a folder you can write to.`);
         } else if (/\.(vcf|bed|gff3?|gtf|bedgraph|wig)\.gz$/i.test(name)) {
           indexPath = [p + '.tbi', p + '.csi'].find(x => vfs.exists(x));
         }

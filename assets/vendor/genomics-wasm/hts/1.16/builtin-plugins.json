@@ -1,0 +1,1497 @@
+{
+  "compiler": [
+    "emcc"
+  ],
+  "flags": [
+    "-O2",
+    "-ffp-contract=off",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-D_FILE_OFFSET_BITS=64",
+    "-D_LARGEFILE_SOURCE",
+    "-I.",
+    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/30a33950fe144860aaae1ff3659e1edd/wasm/1.16/htslib",
+    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/30a33950fe144860aaae1ff3659e1edd/wasm/prefix/include"
+  ],
+  "mode": "built-in",
+  "nm": [
+    "emnm"
+  ],
+  "objects": [
+    ".builtin-plugins/GTisec/0.o",
+    ".builtin-plugins/GTisec/1.o",
+    ".builtin-plugins/GTsubset/0.o",
+    ".builtin-plugins/GTsubset/1.o",
+    ".builtin-plugins/ad-bias/0.o",
+    ".builtin-plugins/ad-bias/1.o",
+    ".builtin-plugins/ad-bias/2.o",
+    ".builtin-plugins/add-variantkey/0.o",
+    ".builtin-plugins/add-variantkey/1.o",
+    ".builtin-plugins/af-dist/0.o",
+    ".builtin-plugins/af-dist/1.o",
+    ".builtin-plugins/af-dist/2.o",
+    ".builtin-plugins/allele-length/0.o",
+    ".builtin-plugins/allele-length/1.o",
+    ".builtin-plugins/check-ploidy/0.o",
+    ".builtin-plugins/check-ploidy/1.o",
+    ".builtin-plugins/check-sparsity/0.o",
+    ".builtin-plugins/check-sparsity/1.o",
+    ".builtin-plugins/color-chrs/0.o",
+    ".builtin-plugins/color-chrs/1.o",
+    ".builtin-plugins/color-chrs/2.o",
+    ".builtin-plugins/contrast/0.o",
+    ".builtin-plugins/contrast/1.o",
+    ".builtin-plugins/counts/0.o",
+    ".builtin-plugins/counts/1.o",
+    ".builtin-plugins/dosage/0.o",
+    ".builtin-plugins/dosage/1.o",
+    ".builtin-plugins/fill-AN-AC/0.o",
+    ".builtin-plugins/fill-AN-AC/1.o",
+    ".builtin-plugins/fill-from-fasta/0.o",
+    ".builtin-plugins/fill-from-fasta/1.o",
+    ".builtin-plugins/fill-from-fasta/2.o",
+    ".builtin-plugins/fill-tags/0.o",
+    ".builtin-plugins/fill-tags/1.o",
+    ".builtin-plugins/fixploidy/0.o",
+    ".builtin-plugins/fixploidy/1.o",
+    ".builtin-plugins/fixploidy/2.o",
+    ".builtin-plugins/fixploidy/3.o",
+    ".builtin-plugins/fixref/0.o",
+    ".builtin-plugins/fixref/1.o",
+    ".builtin-plugins/frameshifts/0.o",
+    ".builtin-plugins/frameshifts/1.o",
+    ".builtin-plugins/guess-ploidy/0.o",
+    ".builtin-plugins/guess-ploidy/1.o",
+    ".builtin-plugins/gvcfz/0.o",
+    ".builtin-plugins/gvcfz/1.o",
+    ".builtin-plugins/impute-info/0.o",
+    ".builtin-plugins/impute-info/1.o",
+    ".builtin-plugins/indel-stats/0.o",
+    ".builtin-plugins/indel-stats/1.o",
+    ".builtin-plugins/isecGT/0.o",
+    ".builtin-plugins/isecGT/1.o",
+    ".builtin-plugins/isecGT/2.o",
+    ".builtin-plugins/mendelian/0.o",
+    ".builtin-plugins/mendelian/1.o",
+    ".builtin-plugins/missing2ref/0.o",
+    ".builtin-plugins/missing2ref/1.o",
+    ".builtin-plugins/parental-origin/0.o",
+    ".builtin-plugins/parental-origin/1.o",
+    ".builtin-plugins/prune/0.o",
+    ".builtin-plugins/prune/1.o",
+    ".builtin-plugins/remove-overlaps/0.o",
+    ".builtin-plugins/remove-overlaps/1.o",
+    ".builtin-plugins/scatter/0.o",
+    ".builtin-plugins/scatter/1.o",
+    ".builtin-plugins/setGT/0.o",
+    ".builtin-plugins/setGT/1.o",
+    ".builtin-plugins/smpl-stats/0.o",
+    ".builtin-plugins/smpl-stats/1.o",
+    ".builtin-plugins/split/0.o",
+    ".builtin-plugins/split/1.o",
+    ".builtin-plugins/split-vep/0.o",
+    ".builtin-plugins/split-vep/1.o",
+    ".builtin-plugins/tag2tag/0.o",
+    ".builtin-plugins/tag2tag/1.o",
+    ".builtin-plugins/trio-dnm2/0.o",
+    ".builtin-plugins/trio-dnm2/1.o",
+    ".builtin-plugins/trio-stats/0.o",
+    ".builtin-plugins/trio-stats/1.o",
+    ".builtin-plugins/trio-switch-rate/0.o",
+    ".builtin-plugins/trio-switch-rate/1.o",
+    ".builtin-plugins/variant-distance/0.o",
+    ".builtin-plugins/variant-distance/1.o",
+    ".builtin-plugins/variantkey-hex/0.o",
+    ".builtin-plugins/variantkey-hex/1.o"
+  ],
+  "patches": {
+    "plugins/GTisec.c": {
+      "after": "16b15fdf4319ddcdbd550a7b6b0294cb64acf3f741e593943b1b9f9066e2ac6d",
+      "before": "33f89f02bd90e88cda819ccb3c02940b919dec1da3f466f7e8decdb03dbd8eb3"
+    },
+    "vcfplugin.c": {
+      "after": "a38eea970e0e0f17f4294cf03e3a147515ab601cad75e6da99595f9c56a9ac12",
+      "before": "8105b26008a159899006d9a5d44440a79793b6a4443f21ab211fb10a321e40a2"
+    }
+  },
+  "pluginCount": 39,
+  "plugins": [
+    {
+      "api": {
+        "about": "bcftools_builtin_GTisec_about",
+        "destroy": "bcftools_builtin_GTisec_destroy",
+        "init": "bcftools_builtin_GTisec_init",
+        "process": "bcftools_builtin_GTisec_process",
+        "usage": "bcftools_builtin_GTisec_usage",
+        "version": "bcftools_builtin_GTisec_version"
+      },
+      "name": "GTisec",
+      "objects": [
+        ".builtin-plugins/GTisec/0.o",
+        ".builtin-plugins/GTisec/1.o"
+      ],
+      "sources": {
+        "plugins/GTisec.c": "16b15fdf4319ddcdbd550a7b6b0294cb64acf3f741e593943b1b9f9066e2ac6d",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_GTisec_about",
+        "choose": "bcftools_builtin_GTisec_choose",
+        "compute_bankers": "bcftools_builtin_GTisec_compute_bankers",
+        "destroy": "bcftools_builtin_GTisec_destroy",
+        "error": "bcftools_builtin_GTisec_error",
+        "error_errno": "bcftools_builtin_GTisec_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_GTisec_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_GTisec_hts_bcf_wmode2",
+        "init": "bcftools_builtin_GTisec_init",
+        "parse_overlap_option": "bcftools_builtin_GTisec_parse_overlap_option",
+        "process": "bcftools_builtin_GTisec_process",
+        "set_wmode": "bcftools_builtin_GTisec_set_wmode",
+        "usage": "bcftools_builtin_GTisec_usage",
+        "version": "bcftools_builtin_GTisec_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_GTsubset_about",
+        "destroy": "bcftools_builtin_GTsubset_destroy",
+        "init": "bcftools_builtin_GTsubset_init",
+        "process": "bcftools_builtin_GTsubset_process",
+        "usage": "bcftools_builtin_GTsubset_usage",
+        "version": "bcftools_builtin_GTsubset_version"
+      },
+      "name": "GTsubset",
+      "objects": [
+        ".builtin-plugins/GTsubset/0.o",
+        ".builtin-plugins/GTsubset/1.o"
+      ],
+      "sources": {
+        "plugins/GTsubset.c": "3a946d7017be35471e7277d8b796382f070cb2fa0cad49c217fce8d23aabc40c",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_GTsubset_about",
+        "destroy": "bcftools_builtin_GTsubset_destroy",
+        "error": "bcftools_builtin_GTsubset_error",
+        "error_errno": "bcftools_builtin_GTsubset_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_GTsubset_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_GTsubset_hts_bcf_wmode2",
+        "init": "bcftools_builtin_GTsubset_init",
+        "parse_overlap_option": "bcftools_builtin_GTsubset_parse_overlap_option",
+        "process": "bcftools_builtin_GTsubset_process",
+        "set_wmode": "bcftools_builtin_GTsubset_set_wmode",
+        "usage": "bcftools_builtin_GTsubset_usage",
+        "version": "bcftools_builtin_GTsubset_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_ad_bias_about",
+        "destroy": "bcftools_builtin_ad_bias_destroy",
+        "init": "bcftools_builtin_ad_bias_init",
+        "process": "bcftools_builtin_ad_bias_process",
+        "usage": "bcftools_builtin_ad_bias_usage",
+        "version": "bcftools_builtin_ad_bias_version"
+      },
+      "name": "ad-bias",
+      "objects": [
+        ".builtin-plugins/ad-bias/0.o",
+        ".builtin-plugins/ad-bias/1.o",
+        ".builtin-plugins/ad-bias/2.o"
+      ],
+      "sources": {
+        "convert.c": "af5fb50748481c0eeaf89e52aadb75818c092b695ef119c324918300a09e3638",
+        "plugins/ad-bias.c": "4185b8fd20375acddc9e89fea7daa066a783ddf9d8fe8de2febf1b6ab495c6a3",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_ad_bias_about",
+        "args": "bcftools_builtin_ad_bias_args",
+        "convert_destroy": "bcftools_builtin_ad_bias_convert_destroy",
+        "convert_header": "bcftools_builtin_ad_bias_convert_header",
+        "convert_init": "bcftools_builtin_ad_bias_convert_init",
+        "convert_is_tag_used": "bcftools_builtin_ad_bias_convert_is_tag_used",
+        "convert_line": "bcftools_builtin_ad_bias_convert_line",
+        "convert_list_used_tags": "bcftools_builtin_ad_bias_convert_list_used_tags",
+        "convert_max_unpack": "bcftools_builtin_ad_bias_convert_max_unpack",
+        "convert_set_option": "bcftools_builtin_ad_bias_convert_set_option",
+        "destroy": "bcftools_builtin_ad_bias_destroy",
+        "error": "bcftools_builtin_ad_bias_error",
+        "error_errno": "bcftools_builtin_ad_bias_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_ad_bias_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_ad_bias_hts_bcf_wmode2",
+        "init": "bcftools_builtin_ad_bias_init",
+        "parse_overlap_option": "bcftools_builtin_ad_bias_parse_overlap_option",
+        "parse_samples": "bcftools_builtin_ad_bias_parse_samples",
+        "process": "bcftools_builtin_ad_bias_process",
+        "set_wmode": "bcftools_builtin_ad_bias_set_wmode",
+        "usage": "bcftools_builtin_ad_bias_usage",
+        "version": "bcftools_builtin_ad_bias_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_add_variantkey_about",
+        "destroy": "bcftools_builtin_add_variantkey_destroy",
+        "init": "bcftools_builtin_add_variantkey_init",
+        "process": "bcftools_builtin_add_variantkey_process",
+        "usage": "bcftools_builtin_add_variantkey_usage",
+        "version": "bcftools_builtin_add_variantkey_version"
+      },
+      "name": "add-variantkey",
+      "objects": [
+        ".builtin-plugins/add-variantkey/0.o",
+        ".builtin-plugins/add-variantkey/1.o"
+      ],
+      "sources": {
+        "plugins/add-variantkey.c": "c2790b887bca05ebc90f83f9783776ebc127f8002b57344cf4dd42efa9716314",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_add_variantkey_about",
+        "destroy": "bcftools_builtin_add_variantkey_destroy",
+        "error": "bcftools_builtin_add_variantkey_error",
+        "error_errno": "bcftools_builtin_add_variantkey_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_add_variantkey_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_add_variantkey_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_add_variantkey_in_hdr",
+        "init": "bcftools_builtin_add_variantkey_init",
+        "out_hdr": "bcftools_builtin_add_variantkey_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_add_variantkey_parse_overlap_option",
+        "process": "bcftools_builtin_add_variantkey_process",
+        "set_wmode": "bcftools_builtin_add_variantkey_set_wmode",
+        "usage": "bcftools_builtin_add_variantkey_usage",
+        "version": "bcftools_builtin_add_variantkey_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_af_dist_about",
+        "destroy": "bcftools_builtin_af_dist_destroy",
+        "init": "bcftools_builtin_af_dist_init",
+        "process": "bcftools_builtin_af_dist_process",
+        "usage": "bcftools_builtin_af_dist_usage",
+        "version": "bcftools_builtin_af_dist_version"
+      },
+      "name": "af-dist",
+      "objects": [
+        ".builtin-plugins/af-dist/0.o",
+        ".builtin-plugins/af-dist/1.o",
+        ".builtin-plugins/af-dist/2.o"
+      ],
+      "sources": {
+        "bin.c": "c1d5ebac5b03e566132a98b09a067552c07dd78a76638018c702e35af31a8ee9",
+        "plugins/af-dist.c": "c99df44c4449558dc2510fceb9b891b3f9f29f2ef228572aee6fcee03726cdf4",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_af_dist_about",
+        "args": "bcftools_builtin_af_dist_args",
+        "bin_destroy": "bcftools_builtin_af_dist_bin_destroy",
+        "bin_get_idx": "bcftools_builtin_af_dist_bin_get_idx",
+        "bin_get_size": "bcftools_builtin_af_dist_bin_get_size",
+        "bin_get_value": "bcftools_builtin_af_dist_bin_get_value",
+        "bin_init": "bcftools_builtin_af_dist_bin_init",
+        "destroy": "bcftools_builtin_af_dist_destroy",
+        "error": "bcftools_builtin_af_dist_error",
+        "error_errno": "bcftools_builtin_af_dist_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_af_dist_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_af_dist_hts_bcf_wmode2",
+        "init": "bcftools_builtin_af_dist_init",
+        "parse_overlap_option": "bcftools_builtin_af_dist_parse_overlap_option",
+        "process": "bcftools_builtin_af_dist_process",
+        "set_wmode": "bcftools_builtin_af_dist_set_wmode",
+        "usage": "bcftools_builtin_af_dist_usage",
+        "version": "bcftools_builtin_af_dist_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_allele_length_about",
+        "destroy": "bcftools_builtin_allele_length_destroy",
+        "init": "bcftools_builtin_allele_length_init",
+        "process": "bcftools_builtin_allele_length_process",
+        "usage": "bcftools_builtin_allele_length_usage",
+        "version": "bcftools_builtin_allele_length_version"
+      },
+      "name": "allele-length",
+      "objects": [
+        ".builtin-plugins/allele-length/0.o",
+        ".builtin-plugins/allele-length/1.o"
+      ],
+      "sources": {
+        "plugins/allele-length.c": "f54414e6e13a107227c2bad595138e4ca8098c5addf72462ea71025e3e9f0103",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_allele_length_about",
+        "contain_non_base": "bcftools_builtin_allele_length_contain_non_base",
+        "destroy": "bcftools_builtin_allele_length_destroy",
+        "error": "bcftools_builtin_allele_length_error",
+        "error_errno": "bcftools_builtin_allele_length_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_allele_length_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_allele_length_hts_bcf_wmode2",
+        "init": "bcftools_builtin_allele_length_init",
+        "parse_overlap_option": "bcftools_builtin_allele_length_parse_overlap_option",
+        "process": "bcftools_builtin_allele_length_process",
+        "set_wmode": "bcftools_builtin_allele_length_set_wmode",
+        "usage": "bcftools_builtin_allele_length_usage",
+        "version": "bcftools_builtin_allele_length_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_check_ploidy_about",
+        "destroy": "bcftools_builtin_check_ploidy_destroy",
+        "init": "bcftools_builtin_check_ploidy_init",
+        "process": "bcftools_builtin_check_ploidy_process",
+        "usage": "bcftools_builtin_check_ploidy_usage",
+        "version": "bcftools_builtin_check_ploidy_version"
+      },
+      "name": "check-ploidy",
+      "objects": [
+        ".builtin-plugins/check-ploidy/0.o",
+        ".builtin-plugins/check-ploidy/1.o"
+      ],
+      "sources": {
+        "plugins/check-ploidy.c": "e3263009bb5dcec4d9692ebc8d8898f6f26c4ba0321365233ccc0e3d055f36f1",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_check_ploidy_about",
+        "destroy": "bcftools_builtin_check_ploidy_destroy",
+        "error": "bcftools_builtin_check_ploidy_error",
+        "error_errno": "bcftools_builtin_check_ploidy_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_check_ploidy_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_check_ploidy_hts_bcf_wmode2",
+        "init": "bcftools_builtin_check_ploidy_init",
+        "parse_overlap_option": "bcftools_builtin_check_ploidy_parse_overlap_option",
+        "process": "bcftools_builtin_check_ploidy_process",
+        "set_wmode": "bcftools_builtin_check_ploidy_set_wmode",
+        "usage": "bcftools_builtin_check_ploidy_usage",
+        "version": "bcftools_builtin_check_ploidy_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_check_sparsity_about",
+        "run": "bcftools_builtin_check_sparsity_run",
+        "version": "bcftools_builtin_check_sparsity_version"
+      },
+      "name": "check-sparsity",
+      "objects": [
+        ".builtin-plugins/check-sparsity/0.o",
+        ".builtin-plugins/check-sparsity/1.o"
+      ],
+      "sources": {
+        "plugins/check-sparsity.c": "1d2fa6e4a72c5cf6eb927c41b95f28b9d84b131f84ad628c2cc22ab1de6a2e72",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_check_sparsity_about",
+        "error": "bcftools_builtin_check_sparsity_error",
+        "error_errno": "bcftools_builtin_check_sparsity_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_check_sparsity_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_check_sparsity_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_check_sparsity_parse_overlap_option",
+        "run": "bcftools_builtin_check_sparsity_run",
+        "set_wmode": "bcftools_builtin_check_sparsity_set_wmode",
+        "version": "bcftools_builtin_check_sparsity_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_color_chrs_about",
+        "destroy": "bcftools_builtin_color_chrs_destroy",
+        "init": "bcftools_builtin_color_chrs_init",
+        "process": "bcftools_builtin_color_chrs_process",
+        "usage": "bcftools_builtin_color_chrs_usage",
+        "version": "bcftools_builtin_color_chrs_version"
+      },
+      "name": "color-chrs",
+      "objects": [
+        ".builtin-plugins/color-chrs/0.o",
+        ".builtin-plugins/color-chrs/1.o",
+        ".builtin-plugins/color-chrs/2.o"
+      ],
+      "sources": {
+        "HMM.c": "7875d6e9e9f1555d330f994df41c87ebc8c5613a0154444939101193e79c45b2",
+        "plugins/color-chrs.c": "3c2bcdac2a012dd221749a5611f1073a3fb5164d1d85f29603598856a6e982b6",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_color_chrs_about",
+        "destroy": "bcftools_builtin_color_chrs_destroy",
+        "error": "bcftools_builtin_color_chrs_error",
+        "error_errno": "bcftools_builtin_color_chrs_error_errno",
+        "flush_viterbi": "bcftools_builtin_color_chrs_flush_viterbi",
+        "hmm_destroy": "bcftools_builtin_color_chrs_hmm_destroy",
+        "hmm_get_fwd_bwd_prob": "bcftools_builtin_color_chrs_hmm_get_fwd_bwd_prob",
+        "hmm_get_nstates": "bcftools_builtin_color_chrs_hmm_get_nstates",
+        "hmm_get_tprob": "bcftools_builtin_color_chrs_hmm_get_tprob",
+        "hmm_get_viterbi_path": "bcftools_builtin_color_chrs_hmm_get_viterbi_path",
+        "hmm_init": "bcftools_builtin_color_chrs_hmm_init",
+        "hmm_init_states": "bcftools_builtin_color_chrs_hmm_init_states",
+        "hmm_reset": "bcftools_builtin_color_chrs_hmm_reset",
+        "hmm_restore": "bcftools_builtin_color_chrs_hmm_restore",
+        "hmm_run_baum_welch": "bcftools_builtin_color_chrs_hmm_run_baum_welch",
+        "hmm_run_fwd_bwd": "bcftools_builtin_color_chrs_hmm_run_fwd_bwd",
+        "hmm_run_viterbi": "bcftools_builtin_color_chrs_hmm_run_viterbi",
+        "hmm_set_tprob": "bcftools_builtin_color_chrs_hmm_set_tprob",
+        "hmm_set_tprob_func": "bcftools_builtin_color_chrs_hmm_set_tprob_func",
+        "hmm_snapshot": "bcftools_builtin_color_chrs_hmm_snapshot",
+        "hts_bcf_wmode": "bcftools_builtin_color_chrs_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_color_chrs_hts_bcf_wmode2",
+        "init": "bcftools_builtin_color_chrs_init",
+        "parse_overlap_option": "bcftools_builtin_color_chrs_parse_overlap_option",
+        "process": "bcftools_builtin_color_chrs_process",
+        "set_wmode": "bcftools_builtin_color_chrs_set_wmode",
+        "usage": "bcftools_builtin_color_chrs_usage",
+        "version": "bcftools_builtin_color_chrs_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_contrast_about",
+        "run": "bcftools_builtin_contrast_run",
+        "version": "bcftools_builtin_contrast_version"
+      },
+      "name": "contrast",
+      "objects": [
+        ".builtin-plugins/contrast/0.o",
+        ".builtin-plugins/contrast/1.o"
+      ],
+      "sources": {
+        "plugins/contrast.c": "7d242cfd05cd661b85823ff7891261415d5a6eedc439cd2cdcf4a95532c57b3b",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_contrast_about",
+        "args": "bcftools_builtin_contrast_args",
+        "error": "bcftools_builtin_contrast_error",
+        "error_errno": "bcftools_builtin_contrast_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_contrast_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_contrast_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_contrast_parse_overlap_option",
+        "run": "bcftools_builtin_contrast_run",
+        "set_wmode": "bcftools_builtin_contrast_set_wmode",
+        "version": "bcftools_builtin_contrast_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_counts_about",
+        "destroy": "bcftools_builtin_counts_destroy",
+        "init": "bcftools_builtin_counts_init",
+        "process": "bcftools_builtin_counts_process",
+        "version": "bcftools_builtin_counts_version"
+      },
+      "name": "counts",
+      "objects": [
+        ".builtin-plugins/counts/0.o",
+        ".builtin-plugins/counts/1.o"
+      ],
+      "sources": {
+        "plugins/counts.c": "f51f450f462e992cff9190f8c324c67fe2c40d509655f7e68cb76bd63280fd76",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_counts_about",
+        "destroy": "bcftools_builtin_counts_destroy",
+        "error": "bcftools_builtin_counts_error",
+        "error_errno": "bcftools_builtin_counts_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_counts_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_counts_hts_bcf_wmode2",
+        "init": "bcftools_builtin_counts_init",
+        "nindels": "bcftools_builtin_counts_nindels",
+        "nmnps": "bcftools_builtin_counts_nmnps",
+        "nothers": "bcftools_builtin_counts_nothers",
+        "nsamples": "bcftools_builtin_counts_nsamples",
+        "nsites": "bcftools_builtin_counts_nsites",
+        "nsnps": "bcftools_builtin_counts_nsnps",
+        "parse_overlap_option": "bcftools_builtin_counts_parse_overlap_option",
+        "process": "bcftools_builtin_counts_process",
+        "set_wmode": "bcftools_builtin_counts_set_wmode",
+        "version": "bcftools_builtin_counts_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_dosage_about",
+        "destroy": "bcftools_builtin_dosage_destroy",
+        "init": "bcftools_builtin_dosage_init",
+        "process": "bcftools_builtin_dosage_process",
+        "usage": "bcftools_builtin_dosage_usage",
+        "version": "bcftools_builtin_dosage_version"
+      },
+      "name": "dosage",
+      "objects": [
+        ".builtin-plugins/dosage/0.o",
+        ".builtin-plugins/dosage/1.o"
+      ],
+      "sources": {
+        "plugins/dosage.c": "cf087f423567b6fc07be4faca141883bd78e0bf1c6d03e36169abc13331a2927",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_dosage_about",
+        "buf": "bcftools_builtin_dosage_buf",
+        "calc_dosage_GL": "bcftools_builtin_dosage_calc_dosage_GL",
+        "calc_dosage_GT": "bcftools_builtin_dosage_calc_dosage_GT",
+        "calc_dosage_PL": "bcftools_builtin_dosage_calc_dosage_PL",
+        "destroy": "bcftools_builtin_dosage_destroy",
+        "dsg": "bcftools_builtin_dosage_dsg",
+        "error": "bcftools_builtin_dosage_error",
+        "error_errno": "bcftools_builtin_dosage_error_errno",
+        "gl_type": "bcftools_builtin_dosage_gl_type",
+        "handlers": "bcftools_builtin_dosage_handlers",
+        "hts_bcf_wmode": "bcftools_builtin_dosage_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_dosage_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_dosage_in_hdr",
+        "init": "bcftools_builtin_dosage_init",
+        "mdsg": "bcftools_builtin_dosage_mdsg",
+        "mvals": "bcftools_builtin_dosage_mvals",
+        "nbuf": "bcftools_builtin_dosage_nbuf",
+        "nhandlers": "bcftools_builtin_dosage_nhandlers",
+        "ntags": "bcftools_builtin_dosage_ntags",
+        "parse_overlap_option": "bcftools_builtin_dosage_parse_overlap_option",
+        "pl_type": "bcftools_builtin_dosage_pl_type",
+        "process": "bcftools_builtin_dosage_process",
+        "set_wmode": "bcftools_builtin_dosage_set_wmode",
+        "split_list": "bcftools_builtin_dosage_split_list",
+        "tags": "bcftools_builtin_dosage_tags",
+        "usage": "bcftools_builtin_dosage_usage",
+        "vals": "bcftools_builtin_dosage_vals",
+        "version": "bcftools_builtin_dosage_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_fill_AN_AC_about",
+        "destroy": "bcftools_builtin_fill_AN_AC_destroy",
+        "init": "bcftools_builtin_fill_AN_AC_init",
+        "process": "bcftools_builtin_fill_AN_AC_process",
+        "version": "bcftools_builtin_fill_AN_AC_version"
+      },
+      "name": "fill-AN-AC",
+      "objects": [
+        ".builtin-plugins/fill-AN-AC/0.o",
+        ".builtin-plugins/fill-AN-AC/1.o"
+      ],
+      "sources": {
+        "plugins/fill-AN-AC.c": "874ca63dd6a2b7a229c30685c512451902d12673dbb8a78840f797001fc7e0ed",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_fill_AN_AC_about",
+        "arr": "bcftools_builtin_fill_AN_AC_arr",
+        "destroy": "bcftools_builtin_fill_AN_AC_destroy",
+        "error": "bcftools_builtin_fill_AN_AC_error",
+        "error_errno": "bcftools_builtin_fill_AN_AC_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_fill_AN_AC_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_fill_AN_AC_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_fill_AN_AC_in_hdr",
+        "init": "bcftools_builtin_fill_AN_AC_init",
+        "marr": "bcftools_builtin_fill_AN_AC_marr",
+        "out_hdr": "bcftools_builtin_fill_AN_AC_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_fill_AN_AC_parse_overlap_option",
+        "process": "bcftools_builtin_fill_AN_AC_process",
+        "set_wmode": "bcftools_builtin_fill_AN_AC_set_wmode",
+        "version": "bcftools_builtin_fill_AN_AC_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_fill_from_fasta_about",
+        "destroy": "bcftools_builtin_fill_from_fasta_destroy",
+        "init": "bcftools_builtin_fill_from_fasta_init",
+        "process": "bcftools_builtin_fill_from_fasta_process",
+        "usage": "bcftools_builtin_fill_from_fasta_usage",
+        "version": "bcftools_builtin_fill_from_fasta_version"
+      },
+      "name": "fill-from-fasta",
+      "objects": [
+        ".builtin-plugins/fill-from-fasta/0.o",
+        ".builtin-plugins/fill-from-fasta/1.o",
+        ".builtin-plugins/fill-from-fasta/2.o"
+      ],
+      "sources": {
+        "filter.c": "c1f6fed86fe85332cd5711975634f175ec2ec6dacec224bfa3155de74607fadf",
+        "plugins/fill-from-fasta.c": "915b41a2e285fcc68ae0a697f1b3375e499d90b256ee1cb618ecd899afa09135",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_fill_from_fasta_about",
+        "anno": "bcftools_builtin_fill_from_fasta_anno",
+        "column": "bcftools_builtin_fill_from_fasta_column",
+        "destroy": "bcftools_builtin_fill_from_fasta_destroy",
+        "error": "bcftools_builtin_fill_from_fasta_error",
+        "error_errno": "bcftools_builtin_fill_from_fasta_error_errno",
+        "expand_path": "bcftools_builtin_fill_from_fasta_expand_path",
+        "faidx": "bcftools_builtin_fill_from_fasta_faidx",
+        "filter": "bcftools_builtin_fill_from_fasta_filter",
+        "filter_destroy": "bcftools_builtin_fill_from_fasta_filter_destroy",
+        "filter_get_doubles": "bcftools_builtin_fill_from_fasta_filter_get_doubles",
+        "filter_init": "bcftools_builtin_fill_from_fasta_filter_init",
+        "filter_logic": "bcftools_builtin_fill_from_fasta_filter_logic",
+        "filter_max_unpack": "bcftools_builtin_fill_from_fasta_filter_max_unpack",
+        "filter_set_samples": "bcftools_builtin_fill_from_fasta_filter_set_samples",
+        "filter_str": "bcftools_builtin_fill_from_fasta_filter_str",
+        "filter_test": "bcftools_builtin_fill_from_fasta_filter_test",
+        "hts_bcf_wmode": "bcftools_builtin_fill_from_fasta_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_fill_from_fasta_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_fill_from_fasta_in_hdr",
+        "init": "bcftools_builtin_fill_from_fasta_init",
+        "out_hdr": "bcftools_builtin_fill_from_fasta_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_fill_from_fasta_parse_overlap_option",
+        "process": "bcftools_builtin_fill_from_fasta_process",
+        "replace_nonACGTN": "bcftools_builtin_fill_from_fasta_replace_nonACGTN",
+        "set_wmode": "bcftools_builtin_fill_from_fasta_set_wmode",
+        "usage": "bcftools_builtin_fill_from_fasta_usage",
+        "version": "bcftools_builtin_fill_from_fasta_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_fill_tags_about",
+        "destroy": "bcftools_builtin_fill_tags_destroy",
+        "init": "bcftools_builtin_fill_tags_init",
+        "process": "bcftools_builtin_fill_tags_process",
+        "usage": "bcftools_builtin_fill_tags_usage",
+        "version": "bcftools_builtin_fill_tags_version"
+      },
+      "name": "fill-tags",
+      "objects": [
+        ".builtin-plugins/fill-tags/0.o",
+        ".builtin-plugins/fill-tags/1.o"
+      ],
+      "sources": {
+        "plugins/fill-tags.c": "0ed5243a9332ec0368af9e81afe55ec69e69659446dbd6916f7ac4c3df8fcf16",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_fill_tags_about",
+        "calc_hwe": "bcftools_builtin_fill_tags_calc_hwe",
+        "destroy": "bcftools_builtin_fill_tags_destroy",
+        "error": "bcftools_builtin_fill_tags_error",
+        "error_errno": "bcftools_builtin_fill_tags_error_errno",
+        "ftf_destroy": "bcftools_builtin_fill_tags_ftf_destroy",
+        "ftf_filter_expr": "bcftools_builtin_fill_tags_ftf_filter_expr",
+        "hdr_append": "bcftools_builtin_fill_tags_hdr_append",
+        "hts_bcf_wmode": "bcftools_builtin_fill_tags_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_fill_tags_hts_bcf_wmode2",
+        "init": "bcftools_builtin_fill_tags_init",
+        "init_pops": "bcftools_builtin_fill_tags_init_pops",
+        "list_tags": "bcftools_builtin_fill_tags_list_tags",
+        "parse_func": "bcftools_builtin_fill_tags_parse_func",
+        "parse_func_pop": "bcftools_builtin_fill_tags_parse_func_pop",
+        "parse_overlap_option": "bcftools_builtin_fill_tags_parse_overlap_option",
+        "parse_samples": "bcftools_builtin_fill_tags_parse_samples",
+        "parse_tags": "bcftools_builtin_fill_tags_parse_tags",
+        "process": "bcftools_builtin_fill_tags_process",
+        "set_wmode": "bcftools_builtin_fill_tags_set_wmode",
+        "usage": "bcftools_builtin_fill_tags_usage",
+        "version": "bcftools_builtin_fill_tags_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_fixploidy_about",
+        "destroy": "bcftools_builtin_fixploidy_destroy",
+        "init": "bcftools_builtin_fixploidy_init",
+        "process": "bcftools_builtin_fixploidy_process",
+        "usage": "bcftools_builtin_fixploidy_usage",
+        "version": "bcftools_builtin_fixploidy_version"
+      },
+      "name": "fixploidy",
+      "objects": [
+        ".builtin-plugins/fixploidy/0.o",
+        ".builtin-plugins/fixploidy/1.o",
+        ".builtin-plugins/fixploidy/2.o",
+        ".builtin-plugins/fixploidy/3.o"
+      ],
+      "sources": {
+        "ploidy.c": "ddf825524e7a11764cfeac26cd9cc6f44d16b6d8ab905d3820c1c04b79a48ca4",
+        "plugins/fixploidy.c": "b5e6a7348c798896c172ede86ddc1add6e314ee6a66c68ad1ee3c88fa7d40457",
+        "regidx.c": "4fce09b24b36b0e03ebff2847fed273fa7c82e5ee634db7a3f8293b18003cb78",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "_reglist_build_index": "bcftools_builtin_fixploidy__reglist_build_index",
+        "about": "bcftools_builtin_fixploidy_about",
+        "destroy": "bcftools_builtin_fixploidy_destroy",
+        "error": "bcftools_builtin_fixploidy_error",
+        "error_errno": "bcftools_builtin_fixploidy_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_fixploidy_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_fixploidy_hts_bcf_wmode2",
+        "init": "bcftools_builtin_fixploidy_init",
+        "parse_overlap_option": "bcftools_builtin_fixploidy_parse_overlap_option",
+        "ploidy_add_sex": "bcftools_builtin_fixploidy_ploidy_add_sex",
+        "ploidy_destroy": "bcftools_builtin_fixploidy_ploidy_destroy",
+        "ploidy_id2sex": "bcftools_builtin_fixploidy_ploidy_id2sex",
+        "ploidy_init": "bcftools_builtin_fixploidy_ploidy_init",
+        "ploidy_init_string": "bcftools_builtin_fixploidy_ploidy_init_string",
+        "ploidy_max": "bcftools_builtin_fixploidy_ploidy_max",
+        "ploidy_min": "bcftools_builtin_fixploidy_ploidy_min",
+        "ploidy_nsex": "bcftools_builtin_fixploidy_ploidy_nsex",
+        "ploidy_parse": "bcftools_builtin_fixploidy_ploidy_parse",
+        "ploidy_query": "bcftools_builtin_fixploidy_ploidy_query",
+        "ploidy_regions": "bcftools_builtin_fixploidy_ploidy_regions",
+        "ploidy_sex2id": "bcftools_builtin_fixploidy_ploidy_sex2id",
+        "process": "bcftools_builtin_fixploidy_process",
+        "regidx_destroy": "bcftools_builtin_fixploidy_regidx_destroy",
+        "regidx_init": "bcftools_builtin_fixploidy_regidx_init",
+        "regidx_init_string": "bcftools_builtin_fixploidy_regidx_init_string",
+        "regidx_insert": "bcftools_builtin_fixploidy_regidx_insert",
+        "regidx_insert_list": "bcftools_builtin_fixploidy_regidx_insert_list",
+        "regidx_nregs": "bcftools_builtin_fixploidy_regidx_nregs",
+        "regidx_overlap": "bcftools_builtin_fixploidy_regidx_overlap",
+        "regidx_parse_bed": "bcftools_builtin_fixploidy_regidx_parse_bed",
+        "regidx_parse_reg": "bcftools_builtin_fixploidy_regidx_parse_reg",
+        "regidx_parse_tab": "bcftools_builtin_fixploidy_regidx_parse_tab",
+        "regidx_parse_vcf": "bcftools_builtin_fixploidy_regidx_parse_vcf",
+        "regidx_push": "bcftools_builtin_fixploidy_regidx_push",
+        "regidx_seq_names": "bcftools_builtin_fixploidy_regidx_seq_names",
+        "regidx_seq_nregs": "bcftools_builtin_fixploidy_regidx_seq_nregs",
+        "regitr_copy": "bcftools_builtin_fixploidy_regitr_copy",
+        "regitr_destroy": "bcftools_builtin_fixploidy_regitr_destroy",
+        "regitr_init": "bcftools_builtin_fixploidy_regitr_init",
+        "regitr_loop": "bcftools_builtin_fixploidy_regitr_loop",
+        "regitr_overlap": "bcftools_builtin_fixploidy_regitr_overlap",
+        "regitr_reset": "bcftools_builtin_fixploidy_regitr_reset",
+        "set_samples": "bcftools_builtin_fixploidy_set_samples",
+        "set_wmode": "bcftools_builtin_fixploidy_set_wmode",
+        "usage": "bcftools_builtin_fixploidy_usage",
+        "version": "bcftools_builtin_fixploidy_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_fixref_about",
+        "destroy": "bcftools_builtin_fixref_destroy",
+        "init": "bcftools_builtin_fixref_init",
+        "process": "bcftools_builtin_fixref_process",
+        "usage": "bcftools_builtin_fixref_usage",
+        "version": "bcftools_builtin_fixref_version"
+      },
+      "name": "fixref",
+      "objects": [
+        ".builtin-plugins/fixref/0.o",
+        ".builtin-plugins/fixref/1.o"
+      ],
+      "sources": {
+        "plugins/fixref.c": "a2edb6f948f97d30ba977a9a6b59108094672c7eb501abb64730853e58e0c3f8",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_fixref_about",
+        "args": "bcftools_builtin_fixref_args",
+        "bot_mask": "bcftools_builtin_fixref_bot_mask",
+        "destroy": "bcftools_builtin_fixref_destroy",
+        "error": "bcftools_builtin_fixref_error",
+        "error_errno": "bcftools_builtin_fixref_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_fixref_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_fixref_hts_bcf_wmode2",
+        "init": "bcftools_builtin_fixref_init",
+        "parse_overlap_option": "bcftools_builtin_fixref_parse_overlap_option",
+        "process": "bcftools_builtin_fixref_process",
+        "set_wmode": "bcftools_builtin_fixref_set_wmode",
+        "top_mask": "bcftools_builtin_fixref_top_mask",
+        "usage": "bcftools_builtin_fixref_usage",
+        "version": "bcftools_builtin_fixref_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_frameshifts_about",
+        "destroy": "bcftools_builtin_frameshifts_destroy",
+        "init": "bcftools_builtin_frameshifts_init",
+        "process": "bcftools_builtin_frameshifts_process",
+        "usage": "bcftools_builtin_frameshifts_usage",
+        "version": "bcftools_builtin_frameshifts_version"
+      },
+      "name": "frameshifts",
+      "objects": [
+        ".builtin-plugins/frameshifts/0.o",
+        ".builtin-plugins/frameshifts/1.o"
+      ],
+      "sources": {
+        "plugins/frameshifts.c": "e65776dd428d18aed7c8a4c5174c46323ea8eb4d6f875d51da540ee72f3564e4",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_frameshifts_about",
+        "destroy": "bcftools_builtin_frameshifts_destroy",
+        "error": "bcftools_builtin_frameshifts_error",
+        "error_errno": "bcftools_builtin_frameshifts_error_errno",
+        "exons": "bcftools_builtin_frameshifts_exons",
+        "frm": "bcftools_builtin_frameshifts_frm",
+        "hts_bcf_wmode": "bcftools_builtin_frameshifts_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_frameshifts_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_frameshifts_in_hdr",
+        "init": "bcftools_builtin_frameshifts_init",
+        "nfrm": "bcftools_builtin_frameshifts_nfrm",
+        "out_hdr": "bcftools_builtin_frameshifts_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_frameshifts_parse_overlap_option",
+        "process": "bcftools_builtin_frameshifts_process",
+        "set_wmode": "bcftools_builtin_frameshifts_set_wmode",
+        "usage": "bcftools_builtin_frameshifts_usage",
+        "version": "bcftools_builtin_frameshifts_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_guess_ploidy_about",
+        "run": "bcftools_builtin_guess_ploidy_run",
+        "version": "bcftools_builtin_guess_ploidy_version"
+      },
+      "name": "guess-ploidy",
+      "objects": [
+        ".builtin-plugins/guess-ploidy/0.o",
+        ".builtin-plugins/guess-ploidy/1.o"
+      ],
+      "sources": {
+        "plugins/guess-ploidy.c": "5ef129c3c9efd4fd172ca05846f6115f57425578e3151eaa2a20c40196b71e47",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_guess_ploidy_about",
+        "error": "bcftools_builtin_guess_ploidy_error",
+        "error_errno": "bcftools_builtin_guess_ploidy_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_guess_ploidy_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_guess_ploidy_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_guess_ploidy_parse_overlap_option",
+        "process_region_guess": "bcftools_builtin_guess_ploidy_process_region_guess",
+        "run": "bcftools_builtin_guess_ploidy_run",
+        "set_wmode": "bcftools_builtin_guess_ploidy_set_wmode",
+        "version": "bcftools_builtin_guess_ploidy_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_gvcfz_about",
+        "run": "bcftools_builtin_gvcfz_run",
+        "version": "bcftools_builtin_gvcfz_version"
+      },
+      "name": "gvcfz",
+      "objects": [
+        ".builtin-plugins/gvcfz/0.o",
+        ".builtin-plugins/gvcfz/1.o"
+      ],
+      "sources": {
+        "plugins/gvcfz.c": "92038b9a6b5ac42c6efdeae5a215939642995cf2bf01ba3316769868a2d2dd5b",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_gvcfz_about",
+        "error": "bcftools_builtin_gvcfz_error",
+        "error_errno": "bcftools_builtin_gvcfz_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_gvcfz_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_gvcfz_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_gvcfz_parse_overlap_option",
+        "run": "bcftools_builtin_gvcfz_run",
+        "set_wmode": "bcftools_builtin_gvcfz_set_wmode",
+        "version": "bcftools_builtin_gvcfz_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_impute_info_about",
+        "destroy": "bcftools_builtin_impute_info_destroy",
+        "init": "bcftools_builtin_impute_info_init",
+        "process": "bcftools_builtin_impute_info_process",
+        "usage": "bcftools_builtin_impute_info_usage",
+        "version": "bcftools_builtin_impute_info_version"
+      },
+      "name": "impute-info",
+      "objects": [
+        ".builtin-plugins/impute-info/0.o",
+        ".builtin-plugins/impute-info/1.o"
+      ],
+      "sources": {
+        "plugins/impute-info.c": "758390571acf4a5830077341b7a430da68f04772628830b3323b1ff3fe397355",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_impute_info_about",
+        "buf": "bcftools_builtin_impute_info_buf",
+        "destroy": "bcftools_builtin_impute_info_destroy",
+        "error": "bcftools_builtin_impute_info_error",
+        "error_errno": "bcftools_builtin_impute_info_error_errno",
+        "gp_type": "bcftools_builtin_impute_info_gp_type",
+        "hts_bcf_wmode": "bcftools_builtin_impute_info_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_impute_info_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_impute_info_in_hdr",
+        "init": "bcftools_builtin_impute_info_init",
+        "nbuf": "bcftools_builtin_impute_info_nbuf",
+        "nrec": "bcftools_builtin_impute_info_nrec",
+        "nskip_dip": "bcftools_builtin_impute_info_nskip_dip",
+        "nskip_gp": "bcftools_builtin_impute_info_nskip_gp",
+        "out_hdr": "bcftools_builtin_impute_info_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_impute_info_parse_overlap_option",
+        "process": "bcftools_builtin_impute_info_process",
+        "set_wmode": "bcftools_builtin_impute_info_set_wmode",
+        "usage": "bcftools_builtin_impute_info_usage",
+        "version": "bcftools_builtin_impute_info_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_indel_stats_about",
+        "run": "bcftools_builtin_indel_stats_run",
+        "version": "bcftools_builtin_indel_stats_version"
+      },
+      "name": "indel-stats",
+      "objects": [
+        ".builtin-plugins/indel-stats/0.o",
+        ".builtin-plugins/indel-stats/1.o"
+      ],
+      "sources": {
+        "plugins/indel-stats.c": "16959823f883b0c63c66300c3e0f5076bc5d5f4b0041d2bf7bfa148a5c6c2c1f",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_indel_stats_about",
+        "args": "bcftools_builtin_indel_stats_args",
+        "error": "bcftools_builtin_indel_stats_error",
+        "error_errno": "bcftools_builtin_indel_stats_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_indel_stats_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_indel_stats_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_indel_stats_parse_overlap_option",
+        "run": "bcftools_builtin_indel_stats_run",
+        "set_wmode": "bcftools_builtin_indel_stats_set_wmode",
+        "version": "bcftools_builtin_indel_stats_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_isecGT_about",
+        "run": "bcftools_builtin_isecGT_run",
+        "version": "bcftools_builtin_isecGT_version"
+      },
+      "name": "isecGT",
+      "objects": [
+        ".builtin-plugins/isecGT/0.o",
+        ".builtin-plugins/isecGT/1.o",
+        ".builtin-plugins/isecGT/2.o"
+      ],
+      "sources": {
+        "plugins/isecGT.c": "832a12e38480a21e832c9d2acf0b31a3e5a09874f0ca8330eafe941356e78be1",
+        "smpl_ilist.c": "1b5323b4a8a8e5dfcb52f8941f6e841750d0567c9f36b24a8315ebe375eb285c",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_isecGT_about",
+        "error": "bcftools_builtin_isecGT_error",
+        "error_errno": "bcftools_builtin_isecGT_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_isecGT_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_isecGT_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_isecGT_parse_overlap_option",
+        "run": "bcftools_builtin_isecGT_run",
+        "set_wmode": "bcftools_builtin_isecGT_set_wmode",
+        "smpl_ilist_destroy": "bcftools_builtin_isecGT_smpl_ilist_destroy",
+        "smpl_ilist_init": "bcftools_builtin_isecGT_smpl_ilist_init",
+        "smpl_ilist_map": "bcftools_builtin_isecGT_smpl_ilist_map",
+        "version": "bcftools_builtin_isecGT_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_mendelian_about",
+        "run": "bcftools_builtin_mendelian_run",
+        "usage": "bcftools_builtin_mendelian_usage",
+        "version": "bcftools_builtin_mendelian_version"
+      },
+      "name": "mendelian",
+      "objects": [
+        ".builtin-plugins/mendelian/0.o",
+        ".builtin-plugins/mendelian/1.o"
+      ],
+      "sources": {
+        "plugins/mendelian.c": "f200ab1a5f96c64f8d9cbef802ed2e9cf4c9a70de3baa9d5b58db19d4265fca7",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_mendelian_about",
+        "error": "bcftools_builtin_mendelian_error",
+        "error_errno": "bcftools_builtin_mendelian_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_mendelian_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_mendelian_hts_bcf_wmode2",
+        "init_rules": "bcftools_builtin_mendelian_init_rules",
+        "parse_overlap_option": "bcftools_builtin_mendelian_parse_overlap_option",
+        "parse_ped": "bcftools_builtin_mendelian_parse_ped",
+        "run": "bcftools_builtin_mendelian_run",
+        "set_wmode": "bcftools_builtin_mendelian_set_wmode",
+        "usage": "bcftools_builtin_mendelian_usage",
+        "version": "bcftools_builtin_mendelian_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_missing2ref_about",
+        "destroy": "bcftools_builtin_missing2ref_destroy",
+        "init": "bcftools_builtin_missing2ref_init",
+        "process": "bcftools_builtin_missing2ref_process",
+        "usage": "bcftools_builtin_missing2ref_usage",
+        "version": "bcftools_builtin_missing2ref_version"
+      },
+      "name": "missing2ref",
+      "objects": [
+        ".builtin-plugins/missing2ref/0.o",
+        ".builtin-plugins/missing2ref/1.o"
+      ],
+      "sources": {
+        "plugins/missing2ref.c": "a288cc3e3955b6cf54679b8e3f2361b90dc8de28538fd2d46339ad7e61fd8134",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_missing2ref_about",
+        "arr": "bcftools_builtin_missing2ref_arr",
+        "destroy": "bcftools_builtin_missing2ref_destroy",
+        "error": "bcftools_builtin_missing2ref_error",
+        "error_errno": "bcftools_builtin_missing2ref_error_errno",
+        "gts": "bcftools_builtin_missing2ref_gts",
+        "hts_bcf_wmode": "bcftools_builtin_missing2ref_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_missing2ref_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_missing2ref_in_hdr",
+        "init": "bcftools_builtin_missing2ref_init",
+        "marr": "bcftools_builtin_missing2ref_marr",
+        "mgts": "bcftools_builtin_missing2ref_mgts",
+        "nchanged": "bcftools_builtin_missing2ref_nchanged",
+        "new_gt": "bcftools_builtin_missing2ref_new_gt",
+        "out_hdr": "bcftools_builtin_missing2ref_out_hdr",
+        "parse_overlap_option": "bcftools_builtin_missing2ref_parse_overlap_option",
+        "process": "bcftools_builtin_missing2ref_process",
+        "set_wmode": "bcftools_builtin_missing2ref_set_wmode",
+        "usage": "bcftools_builtin_missing2ref_usage",
+        "use_major": "bcftools_builtin_missing2ref_use_major",
+        "version": "bcftools_builtin_missing2ref_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_parental_origin_about",
+        "run": "bcftools_builtin_parental_origin_run",
+        "version": "bcftools_builtin_parental_origin_version"
+      },
+      "name": "parental-origin",
+      "objects": [
+        ".builtin-plugins/parental-origin/0.o",
+        ".builtin-plugins/parental-origin/1.o"
+      ],
+      "sources": {
+        "plugins/parental-origin.c": "78e880a92fea2bbe140232b768eccf13e8bd8a2ed7681db3cbd47dcc6d6ebbd1",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_parental_origin_about",
+        "args": "bcftools_builtin_parental_origin_args",
+        "error": "bcftools_builtin_parental_origin_error",
+        "error_errno": "bcftools_builtin_parental_origin_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_parental_origin_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_parental_origin_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_parental_origin_parse_overlap_option",
+        "run": "bcftools_builtin_parental_origin_run",
+        "set_wmode": "bcftools_builtin_parental_origin_set_wmode",
+        "version": "bcftools_builtin_parental_origin_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_prune_about",
+        "run": "bcftools_builtin_prune_run",
+        "version": "bcftools_builtin_prune_version"
+      },
+      "name": "prune",
+      "objects": [
+        ".builtin-plugins/prune/0.o",
+        ".builtin-plugins/prune/1.o"
+      ],
+      "sources": {
+        "plugins/prune.c": "61c8b2d4c4353b0c2bdb5797e1c3b90ca2e66780fce99ab736aa6f642282ea63",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_prune_about",
+        "error": "bcftools_builtin_prune_error",
+        "error_errno": "bcftools_builtin_prune_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_prune_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_prune_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_prune_parse_overlap_option",
+        "run": "bcftools_builtin_prune_run",
+        "set_wmode": "bcftools_builtin_prune_set_wmode",
+        "version": "bcftools_builtin_prune_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_remove_overlaps_about",
+        "run": "bcftools_builtin_remove_overlaps_run",
+        "version": "bcftools_builtin_remove_overlaps_version"
+      },
+      "name": "remove-overlaps",
+      "objects": [
+        ".builtin-plugins/remove-overlaps/0.o",
+        ".builtin-plugins/remove-overlaps/1.o"
+      ],
+      "sources": {
+        "plugins/remove-overlaps.c": "43b308979ea44701474e5b043277017383ce806da9e16b93a38de91da04e3390",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_remove_overlaps_about",
+        "error": "bcftools_builtin_remove_overlaps_error",
+        "error_errno": "bcftools_builtin_remove_overlaps_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_remove_overlaps_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_remove_overlaps_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_remove_overlaps_parse_overlap_option",
+        "run": "bcftools_builtin_remove_overlaps_run",
+        "set_wmode": "bcftools_builtin_remove_overlaps_set_wmode",
+        "version": "bcftools_builtin_remove_overlaps_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_scatter_about",
+        "run": "bcftools_builtin_scatter_run",
+        "version": "bcftools_builtin_scatter_version"
+      },
+      "name": "scatter",
+      "objects": [
+        ".builtin-plugins/scatter/0.o",
+        ".builtin-plugins/scatter/1.o"
+      ],
+      "sources": {
+        "plugins/scatter.c": "566b1b0076f658166d4329e06869061d54178e919e450594d8ba9e49682f13af",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_scatter_about",
+        "error": "bcftools_builtin_scatter_error",
+        "error_errno": "bcftools_builtin_scatter_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_scatter_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_scatter_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_scatter_parse_overlap_option",
+        "regidx_parse_reg_name": "bcftools_builtin_scatter_regidx_parse_reg_name",
+        "run": "bcftools_builtin_scatter_run",
+        "set_wmode": "bcftools_builtin_scatter_set_wmode",
+        "version": "bcftools_builtin_scatter_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_setGT_about",
+        "destroy": "bcftools_builtin_setGT_destroy",
+        "init": "bcftools_builtin_setGT_init",
+        "process": "bcftools_builtin_setGT_process",
+        "usage": "bcftools_builtin_setGT_usage",
+        "version": "bcftools_builtin_setGT_version"
+      },
+      "name": "setGT",
+      "objects": [
+        ".builtin-plugins/setGT/0.o",
+        ".builtin-plugins/setGT/1.o"
+      ],
+      "sources": {
+        "plugins/setGT.c": "05042e8d613bb6b90248b686ffdbe21ca22a6fefe4cadc993a9cc53735a105c2",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_setGT_about",
+        "args": "bcftools_builtin_setGT_args",
+        "destroy": "bcftools_builtin_setGT_destroy",
+        "error": "bcftools_builtin_setGT_error",
+        "error_errno": "bcftools_builtin_setGT_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_setGT_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_setGT_hts_bcf_wmode2",
+        "init": "bcftools_builtin_setGT_init",
+        "parse_binom_expr": "bcftools_builtin_setGT_parse_binom_expr",
+        "parse_overlap_option": "bcftools_builtin_setGT_parse_overlap_option",
+        "process": "bcftools_builtin_setGT_process",
+        "set_wmode": "bcftools_builtin_setGT_set_wmode",
+        "usage": "bcftools_builtin_setGT_usage",
+        "version": "bcftools_builtin_setGT_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_smpl_stats_about",
+        "run": "bcftools_builtin_smpl_stats_run",
+        "version": "bcftools_builtin_smpl_stats_version"
+      },
+      "name": "smpl-stats",
+      "objects": [
+        ".builtin-plugins/smpl-stats/0.o",
+        ".builtin-plugins/smpl-stats/1.o"
+      ],
+      "sources": {
+        "plugins/smpl-stats.c": "fee25c73911a9594a9ebf891c0768b22e0061cc49f1283f1a622c17f99579f42",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_smpl_stats_about",
+        "args": "bcftools_builtin_smpl_stats_args",
+        "error": "bcftools_builtin_smpl_stats_error",
+        "error_errno": "bcftools_builtin_smpl_stats_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_smpl_stats_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_smpl_stats_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_smpl_stats_parse_overlap_option",
+        "run": "bcftools_builtin_smpl_stats_run",
+        "set_wmode": "bcftools_builtin_smpl_stats_set_wmode",
+        "version": "bcftools_builtin_smpl_stats_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_split_about",
+        "run": "bcftools_builtin_split_run",
+        "version": "bcftools_builtin_split_version"
+      },
+      "name": "split",
+      "objects": [
+        ".builtin-plugins/split/0.o",
+        ".builtin-plugins/split/1.o"
+      ],
+      "sources": {
+        "plugins/split.c": "70f1af2078cffba29a70eb2aae6671d25067358dd9a42bd0dd368b6c60dc6ab5",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_split_about",
+        "error": "bcftools_builtin_split_error",
+        "error_errno": "bcftools_builtin_split_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_split_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_split_hts_bcf_wmode2",
+        "init_subsets": "bcftools_builtin_split_init_subsets",
+        "parse_overlap_option": "bcftools_builtin_split_parse_overlap_option",
+        "run": "bcftools_builtin_split_run",
+        "set_wmode": "bcftools_builtin_split_set_wmode",
+        "version": "bcftools_builtin_split_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_split_vep_about",
+        "run": "bcftools_builtin_split_vep_run",
+        "version": "bcftools_builtin_split_vep_version"
+      },
+      "name": "split-vep",
+      "objects": [
+        ".builtin-plugins/split-vep/0.o",
+        ".builtin-plugins/split-vep/1.o"
+      ],
+      "sources": {
+        "plugins/split-vep.c": "4eca24735e33b495075202ff330b2cb33e6167d0db4adf0ccabab8361b95b2f5",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_split_vep_about",
+        "args": "bcftools_builtin_split_vep_args",
+        "error": "bcftools_builtin_split_vep_error",
+        "error_errno": "bcftools_builtin_split_vep_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_split_vep_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_split_vep_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_split_vep_parse_overlap_option",
+        "run": "bcftools_builtin_split_vep_run",
+        "set_wmode": "bcftools_builtin_split_vep_set_wmode",
+        "strdup_annot_prefix": "bcftools_builtin_split_vep_strdup_annot_prefix",
+        "version": "bcftools_builtin_split_vep_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_tag2tag_about",
+        "destroy": "bcftools_builtin_tag2tag_destroy",
+        "init": "bcftools_builtin_tag2tag_init",
+        "process": "bcftools_builtin_tag2tag_process",
+        "usage": "bcftools_builtin_tag2tag_usage",
+        "version": "bcftools_builtin_tag2tag_version"
+      },
+      "name": "tag2tag",
+      "objects": [
+        ".builtin-plugins/tag2tag/0.o",
+        ".builtin-plugins/tag2tag/1.o"
+      ],
+      "sources": {
+        "plugins/tag2tag.c": "55ce03eb7b32b7dfd6bd04b975447c4746260dbf80d006ebc80bf9816dad2529",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_tag2tag_about",
+        "destroy": "bcftools_builtin_tag2tag_destroy",
+        "error": "bcftools_builtin_tag2tag_error",
+        "error_errno": "bcftools_builtin_tag2tag_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_tag2tag_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_tag2tag_hts_bcf_wmode2",
+        "init": "bcftools_builtin_tag2tag_init",
+        "parse_overlap_option": "bcftools_builtin_tag2tag_parse_overlap_option",
+        "process": "bcftools_builtin_tag2tag_process",
+        "set_wmode": "bcftools_builtin_tag2tag_set_wmode",
+        "usage": "bcftools_builtin_tag2tag_usage",
+        "version": "bcftools_builtin_tag2tag_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_trio_dnm2_about",
+        "run": "bcftools_builtin_trio_dnm2_run",
+        "version": "bcftools_builtin_trio_dnm2_version"
+      },
+      "name": "trio-dnm2",
+      "objects": [
+        ".builtin-plugins/trio-dnm2/0.o",
+        ".builtin-plugins/trio-dnm2/1.o"
+      ],
+      "sources": {
+        "plugins/trio-dnm2.c": "7552d6332dcd521d847a5964405155e7f1531104cea6c3756805864d7c85504e",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_trio_dnm2_about",
+        "args": "bcftools_builtin_trio_dnm2_args",
+        "error": "bcftools_builtin_trio_dnm2_error",
+        "error_errno": "bcftools_builtin_trio_dnm2_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_trio_dnm2_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_trio_dnm2_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_trio_dnm2_parse_overlap_option",
+        "run": "bcftools_builtin_trio_dnm2_run",
+        "set_wmode": "bcftools_builtin_trio_dnm2_set_wmode",
+        "version": "bcftools_builtin_trio_dnm2_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_trio_stats_about",
+        "run": "bcftools_builtin_trio_stats_run",
+        "version": "bcftools_builtin_trio_stats_version"
+      },
+      "name": "trio-stats",
+      "objects": [
+        ".builtin-plugins/trio-stats/0.o",
+        ".builtin-plugins/trio-stats/1.o"
+      ],
+      "sources": {
+        "plugins/trio-stats.c": "b3acdcfd787ab953202ab805f64e4e3f60a522a9481cf9f9f335a346cda39b80",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_trio_stats_about",
+        "args": "bcftools_builtin_trio_stats_args",
+        "error": "bcftools_builtin_trio_stats_error",
+        "error_errno": "bcftools_builtin_trio_stats_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_trio_stats_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_trio_stats_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_trio_stats_parse_overlap_option",
+        "run": "bcftools_builtin_trio_stats_run",
+        "set_wmode": "bcftools_builtin_trio_stats_set_wmode",
+        "version": "bcftools_builtin_trio_stats_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_trio_switch_rate_about",
+        "destroy": "bcftools_builtin_trio_switch_rate_destroy",
+        "init": "bcftools_builtin_trio_switch_rate_init",
+        "process": "bcftools_builtin_trio_switch_rate_process",
+        "usage": "bcftools_builtin_trio_switch_rate_usage",
+        "version": "bcftools_builtin_trio_switch_rate_version"
+      },
+      "name": "trio-switch-rate",
+      "objects": [
+        ".builtin-plugins/trio-switch-rate/0.o",
+        ".builtin-plugins/trio-switch-rate/1.o"
+      ],
+      "sources": {
+        "plugins/trio-switch-rate.c": "c2a1157ed68db63ab6cbdb6048dd5ca13a4d360752e76722eaafd01207ad4e64",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_trio_switch_rate_about",
+        "args": "bcftools_builtin_trio_switch_rate_args",
+        "destroy": "bcftools_builtin_trio_switch_rate_destroy",
+        "error": "bcftools_builtin_trio_switch_rate_error",
+        "error_errno": "bcftools_builtin_trio_switch_rate_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_trio_switch_rate_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_trio_switch_rate_hts_bcf_wmode2",
+        "init": "bcftools_builtin_trio_switch_rate_init",
+        "parse_genotype": "bcftools_builtin_trio_switch_rate_parse_genotype",
+        "parse_overlap_option": "bcftools_builtin_trio_switch_rate_parse_overlap_option",
+        "parse_ped": "bcftools_builtin_trio_switch_rate_parse_ped",
+        "process": "bcftools_builtin_trio_switch_rate_process",
+        "set_wmode": "bcftools_builtin_trio_switch_rate_set_wmode",
+        "usage": "bcftools_builtin_trio_switch_rate_usage",
+        "version": "bcftools_builtin_trio_switch_rate_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_variant_distance_about",
+        "run": "bcftools_builtin_variant_distance_run",
+        "version": "bcftools_builtin_variant_distance_version"
+      },
+      "name": "variant-distance",
+      "objects": [
+        ".builtin-plugins/variant-distance/0.o",
+        ".builtin-plugins/variant-distance/1.o"
+      ],
+      "sources": {
+        "plugins/variant-distance.c": "f1021f0d4a8a8e8c29429a0887816c86b63ba847bd1de7401815887d342910bb",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "about": "bcftools_builtin_variant_distance_about",
+        "error": "bcftools_builtin_variant_distance_error",
+        "error_errno": "bcftools_builtin_variant_distance_error_errno",
+        "hts_bcf_wmode": "bcftools_builtin_variant_distance_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_variant_distance_hts_bcf_wmode2",
+        "parse_overlap_option": "bcftools_builtin_variant_distance_parse_overlap_option",
+        "run": "bcftools_builtin_variant_distance_run",
+        "set_wmode": "bcftools_builtin_variant_distance_set_wmode",
+        "version": "bcftools_builtin_variant_distance_version"
+      }
+    },
+    {
+      "api": {
+        "about": "bcftools_builtin_variantkey_hex_about",
+        "destroy": "bcftools_builtin_variantkey_hex_destroy",
+        "init": "bcftools_builtin_variantkey_hex_init",
+        "process": "bcftools_builtin_variantkey_hex_process",
+        "usage": "bcftools_builtin_variantkey_hex_usage",
+        "version": "bcftools_builtin_variantkey_hex_version"
+      },
+      "name": "variantkey-hex",
+      "objects": [
+        ".builtin-plugins/variantkey-hex/0.o",
+        ".builtin-plugins/variantkey-hex/1.o"
+      ],
+      "sources": {
+        "plugins/variantkey-hex.c": "e32364c7738b6e949778e17eea84b6d804f430da63e8ea5f4c7901c2c1483dd5",
+        "version.c": "9cf468f902010c889c0535ed3ce51ffa2bfbf85023746cc41f80cc49ad6f1e2f"
+      },
+      "symbols": {
+        "FILE_NRVK": "bcftools_builtin_variantkey_hex_FILE_NRVK",
+        "FILE_RSVK": "bcftools_builtin_variantkey_hex_FILE_RSVK",
+        "FILE_VKRS": "bcftools_builtin_variantkey_hex_FILE_VKRS",
+        "about": "bcftools_builtin_variantkey_hex_about",
+        "destroy": "bcftools_builtin_variantkey_hex_destroy",
+        "error": "bcftools_builtin_variantkey_hex_error",
+        "error_errno": "bcftools_builtin_variantkey_hex_error_errno",
+        "fp_nrvk": "bcftools_builtin_variantkey_hex_fp_nrvk",
+        "fp_rsvk": "bcftools_builtin_variantkey_hex_fp_rsvk",
+        "fp_vkrs": "bcftools_builtin_variantkey_hex_fp_vkrs",
+        "hts_bcf_wmode": "bcftools_builtin_variantkey_hex_hts_bcf_wmode",
+        "hts_bcf_wmode2": "bcftools_builtin_variantkey_hex_hts_bcf_wmode2",
+        "in_hdr": "bcftools_builtin_variantkey_hex_in_hdr",
+        "init": "bcftools_builtin_variantkey_hex_init",
+        "parse_overlap_option": "bcftools_builtin_variantkey_hex_parse_overlap_option",
+        "process": "bcftools_builtin_variantkey_hex_process",
+        "set_wmode": "bcftools_builtin_variantkey_hex_set_wmode",
+        "usage": "bcftools_builtin_variantkey_hex_usage",
+        "version": "bcftools_builtin_variantkey_hex_version"
+      }
+    }
+  ],
+  "registrySha256": "7d91e1c3d827c486c704ad621da44f096fd668af5832863fab922f3b4a30d8ce",
+  "schema": 1,
+  "version": "1.16"
+}

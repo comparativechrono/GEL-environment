@@ -33,7 +33,7 @@ function home() {
           h('li', h('b', 'Look at the reads. '), 'Open BAM and VCF files in IGV (File ▸ Load from File…) to check variants by eye.'),
           h('li', h('b', 'Take results out. '), 'Only through the Airlock, for an approved project: summary results only, counts below 5 masked.'))),
         h('div.s-card', h('h2', 'The command line'), h('pre', { style: { background: '#f4f6f8', padding: '10px 12px', borderRadius: '5px', overflow: 'auto', fontSize: '12.5px', margin: 0 } },
-          `module avail                   # software on the desktop and the HPC\nmodule load samtools           # then: samtools view …\nssh ${user.username}@${C.hpc.loginHost}\nbsub -q short -P re_gecip_${user.domain || 'training'} -o job.%J.out "samtools flagstat file.bam"\nbjobs                          # your jobs`))),
+          `module avail                   # software on the desktop and the HPC\nmodule load samtools/1.21      # then: samtools view …\nssh ${user.username}@${C.hpc.loginHost}\nbsub -q short -P re_gecip_${user.domain || 'training'} -o job.%J.out "samtools flagstat file.bam"\nbjobs                          # your jobs`))),
       h('div',
         h('div.s-card', h('h2', 'Notices'), h('ul.hm-news',
           h('li', h('span.d', 'Training simulator'), 'Everything here runs in your web browser. The data are synthetic or public, and nothing you do reaches Genomics England.'),

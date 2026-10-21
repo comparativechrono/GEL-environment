@@ -24,7 +24,7 @@ self.addEventListener('message', async (event) => {
 
 const dirname = (p) => p.slice(0, p.lastIndexOf('/')) || '/';
 
-async function run({ moduleUrl, args, thisProgram, cwd, dirs, files, links, stdin, roots }) {
+async function run({ moduleUrl, args, thisProgram, cwd, dirs, files, links, stdin, roots, tty }) {
   const factory = (await import(moduleUrl)).default;
   if (typeof factory !== 'function') throw new TypeError('The program module has no Emscripten factory');
   const out = new Bytes(), err = new Bytes(), order = [];
@@ -53,7 +53,10 @@ async function run({ moduleUrl, args, thisProgram, cwd, dirs, files, links, stdi
     quit: (status, exception) => { throw exception; },
     preRun: [(m) => {
       const { FS } = m;
-      FS.init(() => (offset < input.length ? input[offset++] : null), (b) => put(1, b), (b) => put(2, b));
+      // (RE simulator: tty – the standard input is the terminal, not a pipe or a file: the program gets Emscripten's
+      // terminal device, which it sees as one (isatty), and reading it gives end-of-file at once. bcftools and samtools
+      // then print their usage when no file is named, as they do upstream, instead of reading an empty input)
+      FS.init(tty ? undefined : () => (offset < input.length ? input[offset++] : null), (b) => put(1, b), (b) => put(2, b));
       for (const d of dirs) FS.mkdirTree(d);
       for (const f of files) {
         FS.mkdirTree(dirname(f.path));

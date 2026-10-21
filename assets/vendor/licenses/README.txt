@@ -35,7 +35,8 @@ grep-perl-build/               how GNU grep 3.11 with PCRE2 10.42 ("grep -P") wa
                                  course: build script, one added function, instructions
 genomics-wasm-build/           how BWA, BWA-MEM2, HISAT2, FreeBayes, featureCounts, StringTie,
                                  kallisto, Salmon, mosdepth, Cutadapt, MACS3, LoFreq, SomaticSniper,
-                                 Strelka2, Kraken2, Bracken, Prodigal, HMMER, bustools and PLINK 2 were
+                                 Strelka2, Kraken2, Bracken, Prodigal, HMMER, bustools, PLINK 2 and
+                                 SAMtools, BCFtools and HTSlib 1.16 and 1.21 (with BCFtools' plugins) were
                                  compiled (the recipes of the genomics-wasm project: scripts,
                                  patches, the files that replace upstream ones, lock files with the
                                  SHA-256 of every source archive),

@@ -1,0 +1,56 @@
+SAMtools, BCFtools and HTSlib 1.21 – samtools, bcftools (with its plugins built in), bgzip, tabix and htsfile: the
+programs of the modules samtools/1.21, bcftools/1.21, htslib/1.21 and tabix/1.21
+
+Licences: SAMtools and BCFtools MIT/Expat (notices/1.21/LICENSE.samtools, LICENSE.bcftools – BCFtools would be under
+the GNU GPL only if it were built with the GNU Scientific Library, and it is not); HTSlib MIT/Expat and modified
+3-clause BSD (notices/1.21/LICENSE.htslib), with htscodecs (BSD: notices/1.21/LICENSE.htscodecs.md). Part of every
+program: zlib 1.3.1 (notices/shared/zlib-LICENSE), bzip2 1.0.8 (notices/shared/bzip2-LICENSE), liblzma of XZ 5.4.6
+(public domain: notices/shared/xz-COPYING; the GNU licences next to it are those of other parts of XZ, which are not
+compiled in) and Emscripten's runtime (MIT and NCSA: notices/shared/LICENSE.emscripten).
+
+Upstream source: the release archives samtools-1.21.tar.bz2, bcftools-1.21.tar.bz2 and htslib-1.21.tar.bz2
+(https://github.com/samtools/samtools/releases/tag/1.21, and likewise bcftools and htslib), with zlib, bzip2 and XZ –
+their addresses, sizes and SHA-256 are in ../../../licenses/genomics-wasm-build/tools/hts/versions.lock.json.
+
+Compiled to WebAssembly by the genomics-wasm project (https://github.com/comparativechrono/genomics-wasm, commit
+170e9f0, 21 October 2026) with Emscripten 3.1.64: one thread, 32-bit pointers with 64-bit file offsets and positions,
+at most 2 GiB of memory. Not compiled in: reading remote files (HTTP, FTP, S3, GCS), HTSlib's plugins, libdeflate, the
+curses screen of samtools tview (its text and HTML output, -d T and -d H, are there), Perl filters, and the command
+bcftools polysomy, which needs the GNU Scientific Library (upstream's default build leaves it out too). bcftools has
+all 39 plugins of the release, among them +split-vep, +fill-tags, +trio-dnm2, +trio-stats, +trio-switch-rate,
++parental-origin and +mendelian2 (the successor of 1.16's +mendelian, which 1.21 no longer has); bcftools plugin -l
+lists them.
+
+The files here are those of dist/hts-1.21/ in the project's tested release package hts-1.21-wasm.zip (SHA-256
+6a814bb96c007a4cb623c3d8d684688312d1e50d107a4e379586f40e0f52b62c), made by its workflow "Build and validate HTS
+toolchains" (.github/workflows/hts.yml, run 39672984182), unchanged: bcftools, samtools, bgzip, tabix and htsfile
+(.mjs and .wasm), builtin-plugins.json (the plugins, with the SHA-256 of their sources), build-manifest.json (the
+compiler, the build's inputs and the SHA-256 of every file) and notices/. Left out: the package's HTSlib SDK (headers
+and static libraries for compiling other programs), its copies of the source archives, its runner (runtime/hts.mjs),
+tests and test data.
+
+Changes to the source (all in ../../../licenses/genomics-wasm-build/tools/hts/, with README.md and PORTABILITY.md
+saying why): the plugins are compiled into bcftools – prepare-plugins.py compiles each plugin as upstream's Makefile
+does, gives its symbols a prefix of its own, and puts a table where bcftools loads a shared library; the plugins' code
+and options are upstream's. Counters and offsets that the release keeps in a "long" (64 bits on Linux, 32 in
+WebAssembly) are made 64-bit, as on Linux: the depth totals of bcftools stats, the consensus caller of bcftools call
+-c, the offsets of bgzip -b and -s, the optical-duplicate coordinates and library size of samtools markdup, the
+subsampling seed of samtools view; and +GTisec allocates its table at its real size.
+
+Checked by the project against SAMtools, BCFtools and HTSlib 1.21 built natively from the same archives, unchanged,
+with the plugins as shared libraries: 61 of 61 cases – every plugin with real input, the core commands of bcftools,
+samtools, bgzip, tabix and htsfile, and the 64-bit counters and offsets – with the same results in Node.js, Chromium,
+Firefox and WebKit (values compared exactly; only version and command-line headers, BGZF block layout and the paths of
+the files set aside); both versions in one browser workspace; and the package itself, unzipped, in all four.
+
+In the terminal: assets/js/hts-re.js runs the version of the module that is loaded (as PATH decides on the Research
+Environment; 1.21 if modules are not required and none is loaded), each command in a worker of its own
+(assets/js/threads-worker.mjs) with the files its arguments name, their indexes, and the files named in a list
+(samtools merge -b, bcftools concat -f …) or inside an option's value (bcftools view -i 'ID=@ids.txt', -S
+^samples.txt). With nothing piped into it, a command reads from the terminal: bcftools view or samtools view with no
+file prints its usage, as upstream. bgzip asks before it overwrites a file; a program here cannot wait for the answer,
+so it is no, and the terminal says so (bgzip -f overwrites). Options that ask for threads (samtools -@, --threads;
+bcftools --threads; bgzip -@) are left out with a note: every command runs on one thread. gzip, gunzip and zcat keep
+the bgzip of the shared program runner (../../../biowasm/htslib/1.17/), as in the workbench.
+
+The Research Environment has the same versions: samtools/1.21, bcftools/1.21, htslib/1.21 and tabix/1.21.

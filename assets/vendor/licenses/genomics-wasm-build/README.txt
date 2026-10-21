@@ -1,6 +1,6 @@
 BWA, BWA-MEM2, HISAT2, FreeBayes, featureCounts, StringTie, kallisto, Salmon, mosdepth, Cutadapt, LoFreq,
-SomaticSniper, Strelka2, Kraken2, Bracken, Prodigal, HMMER, bustools, PLINK 2, MACS3 and the R package locfit – from
-the genomics-wasm project
+SomaticSniper, Strelka2, Kraken2, Bracken, Prodigal, HMMER, bustools, PLINK 2, MACS3, SAMtools, BCFtools and HTSlib
+1.16 and 1.21, and the R package locfit – from the genomics-wasm project
 ======================================================================================================================
 The WebAssembly builds of BWA 0.7.19, HISAT2 2.2.2 and FreeBayes 1.3.6 in ../../biowasm/, and of the
 R package locfit 1.5-9.12 in ../../r-packages/, come from the genomics-wasm project:
@@ -395,3 +395,54 @@ MACS3 (added on 13 October 2026)
   runs MACS3's command line – a few seconds; the first time about 45 MB are loaded. callvar -m N runs its N parts one
   after another (the port's change), with the same result. The memory that MACS3 uses is not measured: its messages say
   [RSS unavailable].
+
+SAMtools, BCFtools and HTSlib 1.16 and 1.21 (added on 21 October 2026, for the Research Environment simulator)
+  samtools, bcftools (with its 39 plugins built in), bgzip, tabix and htsfile of both releases – the versions of the
+  Research Environment's modules – in ../../genomics-wasm/hts/1.16/ and 1.21/, and the example data in
+  data/fs/gel_data_resources/example_scripts/workshop_scripts/bcftools_plugins/ (trio-csq.vcf, phased.vcf, family.ped:
+  synthetic, from datasets/hts/common/), come from the same project at commit 170e9f0176b9b618c7c80c1c0559592736755cdd
+  (21 October 2026). Their parts of the repository, in its layout:
+  scripts/           build-hts.py (for one version or both: the native programs from the unchanged release archives,
+                     with the plugins as shared libraries; the native programs with the port's changes and the plugins
+                     built in; the WebAssembly programs), fetch-hts-test-data.py (how the test data was made – the
+                     synthetic files of datasets/hts/common/ – and checked), validate-hts.mjs (the comparison with the
+                     native programs), package-hts.py (the release package); setup-emsdk.sh is the one above
+  tools/hts/         README.md and PORTABILITY.md (the changes, and why), prepare-plugins.py (how the plugins are
+                     compiled into bcftools: each as upstream's Makefile compiles it, its symbols with a prefix of its
+                     own, a table where bcftools would load a shared library), the patches – portability-V.patch
+                     (BCFtools), htslib-portability-V.patch, samtools-portability-V.patch –, abi-check.c (the checks of
+                     the widths of the types), versions.lock.json (every source archive, with its address, size and
+                     SHA-256); its notices/ are the same files as ../../genomics-wasm/hts/V/notices/
+  validation/hts/    README.md (what the comparison covers, and how it compares), cases.json (the cases: 59 for 1.16, 61
+                     for 1.21), compare.py, portability_fixtures.py
+  datasets/hts/      README.md (what the test data is), manifest.json (its files, with their SHA-256 – among them the
+                     three example files here, the same bytes)
+  .github/workflows/hts.yml   the workflow that built both versions, compared them in Node.js, Chromium, Firefox and
+                     WebKit, ran both in one browser workspace, and made and tested the release packages
+  The programs are under the MIT/Expat licence (HTSlib: MIT/Expat and modified 3-clause BSD); their sources are where
+  tools/hts/versions.lock.json points (the release downloads of samtools, bcftools and htslib on GitHub).
+  What was done for this site: nothing is compiled or linked again. The files in ../../genomics-wasm/hts/V/ are those of
+  dist/hts-V/ in the release packages hts-1.16-wasm.zip and hts-1.21-wasm.zip that the workflow made (run
+  39672984182), unchanged – their SHA-256 are in each NOTICE.txt and build-manifest.json. The packages' HTSlib SDK,
+  copies of the source archives, runner, tests and test data are left out.
+
+  How they were made and checked (21 October 2026, by the workflow)
+  1. For each version, the three builds with build-hts.py all; Emscripten 3.1.64.
+  2. validate-hts.mjs in Node.js, Chromium, Firefox and WebKit: 59 of 59 cases (1.16) and 61 of 61 (1.21) passed in
+     each – every plugin with real input, the core commands of the five programs, and the 64-bit counters and offsets:
+     the same results as the unchanged native programs (values compared exactly; validation/hts/README.md says what is
+     set aside – version and command-line headers, the layout of BGZF blocks, the folders of the files).
+  3. Both versions in one browser workspace, one after the other; and each release package, unzipped, checked against
+     its SHA256SUMS and run again in the four engines.
+
+  In the terminal of the simulator
+  samtools, bcftools, bgzip, tabix and htsfile run these programs (assets/js/hts-re.js): those of the module that is
+  loaded – samtools/1.16 or 1.21, bcftools/1.16 or 1.21, htslib/1.16 or 1.21, tabix/1.21 (tabix and bgzip) –, or
+  1.21 when modules are not required (Settings) and none is loaded. Each command runs in a worker of its own
+  (threads-worker.mjs) with the files its arguments name, their indexes, and the files named in a list (samtools merge
+  -b, bcftools concat -f, merge -l, mpileup -b …) or inside an option's value (bcftools view -i 'ID=@ids.txt', -S
+  ^samples.txt). With nothing piped into it, a command reads from the terminal: bcftools view or samtools view with no
+  file prints its usage, as upstream. bgzip asks before it overwrites a file; a program here cannot wait for the
+  answer, so it is no (bgzip -f overwrites). Thread options are left out with a note. gzip, gunzip and zcat keep
+  Biowasm's bgzip 1.17, as in the workbench, and configureStrelkaSomaticWorkflow.py reads the headers of the BAM files
+  with Biowasm's samtools 1.17.

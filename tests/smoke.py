@@ -23,6 +23,7 @@ QUICK = '--quick' in sys.argv
 RELEASE = '/main-programme/main-programme_v19_2024-10-31'
 BAM = '/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam'
 HPC = 'doublehelix.helix.prod.aws.gel.ac'
+PLUGINS = '/gel_data_resources/example_scripts/workshop_scripts/bcftools_plugins'
 
 results = []
 
@@ -99,9 +100,13 @@ def run():
         # ------------------------------------------- module avail: only what is there
         absent = d.js("() => RE.services.modules.modules().flatMap((m) => m.commands.filter((c) => !MG.shellTools[c] && !MG.shellBuiltins[c]).map((c) => m.name + ': ' + c))")
         check('modules: every command of every module exists', not absent, ', '.join(absent))
+        # (SAMtools, BCFtools and HTSlib have the versions of hts-re.js's builds; every other module one version, the program's)
         wrong = d.js("""() => { const v = MG.wasm.versions, key = { subread: 'featurecounts', strelka: 'strelka2' };
-            return RE.services.modules.modules().filter((m) => v[key[m.name] || m.name] && v[key[m.name] || m.name] !== m.version)
-              .map((m) => m.name + ' ' + m.version + ' (the program: ' + v[key[m.name] || m.name] + ')'); }""")
+            const hts = ['samtools', 'bcftools', 'htslib', 'tabix'], have = MG.wasm.htsVersions || [];
+            return RE.services.modules.modules().filter((m) => hts.includes(m.name)
+                ? !m.versions.length || m.versions.some((x) => !have.includes(x))
+                : m.versions.length !== 1 || (v[key[m.name] || m.name] && v[key[m.name] || m.name] !== m.version))
+              .map((m) => m.name + ' ' + m.versions.join(', ') + ' (the program: ' + (hts.includes(m.name) ? have.join(', ') : v[key[m.name] || m.name]) + ')'); }""")
         check('modules: their versions are those of the programs', not wrong, ', '.join(wrong))
         d.type('module avail', 1.5)
         t = d.terminal_text()
@@ -112,6 +117,16 @@ def run():
         d.type('featureCounts -v; salmon --version; lofreq version; bustools version', 20)
         t = d.terminal_text()
         check('modules: featureCounts, Salmon, LoFreq and bustools start', all(x in t for x in ('featureCounts v2.1.1', 'salmon 2.8.0', 'version: 2.1.5', 'bustools, version 0.45.1')), t[-400:])
+        # (SAMtools, BCFtools and HTSlib 1.16 and 1.21: the module that is loaded decides which runs)
+        d.type('module purge', 1)
+        d.type('module load bcftools/1.16', 1)
+        d.type('bcftools --version | head -2; module list', 8)
+        t = d.terminal_text()
+        check('modules: bcftools/1.16 loads htslib/1.16 and runs BCFtools 1.16', 'bcftools 1.16' in t and 'Using htslib 1.16' in t and 'htslib/1.16' in t, t[-400:])
+        d.type('module load bcftools/1.21', 1.5)
+        d.type(f'bcftools --version | head -1; bcftools +split-vep {PLUGINS}/trio-csq.vcf -l | head -3', 10)
+        t = d.terminal_text()
+        check('modules: bcftools/1.21 replaces 1.16, and has its plugins', 'bcftools/1.16 => bcftools/1.21' in t and 'bcftools 1.21' in t and 'Consequence' in t, t[-500:])
         d.type('module purge', 1)
 
         # ------------------------------------------------------- the HPC and LSF

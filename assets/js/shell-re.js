@@ -152,6 +152,29 @@
   }
   const unknown = (ctx, name) => ctx.err(`Lmod has detected the following error:  The following module(s) are unknown: "${name}"\n\nPlease check the spelling or version number. Also try "module spider ..."\nIt is also possible your cache file is out-of-date; it may help to try:\n  $ module --ignore_cache load "${name}"\n\n`);
 
+  /** load modules, each after the modules it depends on (bcftools/1.16 → htslib/1.16), as Lmod: a module of a family
+      that is loaded in another version takes its place – and Lmod says so */
+  function loadModules(ctx, loaded, mods) {
+    let list = loaded.slice();
+    const changed = [];
+    const add = (mod) => {
+      const old = list.find((m) => M.family(m) === M.family(mod));
+      if (old === mod) return;
+      if (old) {
+        changed.push(`${old} => ${mod}`);
+        list = list.filter((m) => m !== old);
+      }
+      list.push(mod);
+    };
+    for (const mod of mods) {
+      for (const dep of M.requires(mod)) add(dep);
+      add(mod);
+    }
+    setModules(ctx, list);
+    if (changed.length) ctx.err(`\nThe following have been reloaded with a version change:\n${changed.map((c, i) => `  ${i + 1}) ${c}`).join('\n')}\n\n`);
+    return 0;
+  }
+
   B.module = async (ctx) => {
     const [sub, ...rest] = ctx.args;
     const loaded = loadedOf(ctx.env);
@@ -160,7 +183,7 @@
         ctx.out('Usage: module [options] sub-command [args ...]\n\nSub-commands:\n  avail [pattern]      List the modules that can be loaded\n  spider [name]        Search all modules, or describe one\n  keyword word ...     Search the modules\' descriptions\n  load mod ...         Load modules (e.g. module load samtools)\n  unload mod ...       Remove modules\n  swap old new         Unload one module and load another\n  list                 List the loaded modules\n  purge                Unload all modules\n  show mod             What a module does to the environment\n  whatis mod           A one-line description\n');
         return 0;
       case 'avail': case 'av': {
-        const t = M.avail(rest[0] || '', 100);
+        const t = M.avail(rest[0] || '', 100, loaded);
         if (!t) { ctx.err(`No module(s) or extension(s) found!\nUse "module spider" to find all possible modules and extensions.\nUse "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".\n`); return 1; }
         ctx.out(t);
         return 0;
@@ -179,14 +202,13 @@
       }
       case 'load': case 'add': case 'try-load': {
         if (!rest.length) throw userErr('module load: no module named');
-        let list = loaded.slice();
+        const mods = [];
         for (const name of rest) {
           const mod = M.find(name);
           if (!mod) { unknown(ctx, name); return 1; }
-          list = list.filter((m) => M.family(m) !== M.family(mod)).concat(mod);
+          mods.push(mod);
         }
-        setModules(ctx, list);
-        return 0;
+        return loadModules(ctx, loaded, mods);
       }
       case 'unload': case 'rm': case 'del': {
         setModules(ctx, loaded.filter((m) => !rest.some((n) => m === n || M.family(m).toLowerCase() === String(n).split('/')[0].toLowerCase())));
@@ -196,8 +218,7 @@
         const [a, b] = rest;
         const mod = M.find(b);
         if (!mod) { unknown(ctx, b); return 1; }
-        setModules(ctx, loaded.filter((m) => m !== a && M.family(m).toLowerCase() !== String(a).split('/')[0].toLowerCase() && M.family(m) !== M.family(mod)).concat(mod));
-        return 0;
+        return loadModules(ctx, loaded.filter((m) => m !== a && M.family(m).toLowerCase() !== String(a).split('/')[0].toLowerCase()), [mod]);
       }
       case 'list': case 'li':
         ctx.out(loaded.length ? `\nCurrently Loaded Modules:\n${loaded.map((m, i) => `  ${i + 1}) ${m}`).join('   ')}\n\n` : 'No modules loaded\n');
@@ -240,6 +261,16 @@
       ctx.err(`bash: ${name}: command not found\n`);
       ctx.io.note(`The LSF job scheduler runs on the HPC, not on the desktop. Log in first:  ssh ${user()}@${H.loginHost}`);
       return 127;
+    }
+    // a program by the path of its module's folder – /resources/tools/apps/bcftools/1.16/bin/bcftools, as  which  prints
+    // it, or $(which bcftools) in a script – runs that module's program, loaded or not (on the RE the file is there)
+    const at = name.startsWith(APPS) && /^\/resources\/tools\/apps\/([^/]+)\/([^/]+)\/bin\/([^/]+)$/.exec(MG.path.norm(name));
+    if (at && !this.fs.exists(name)) {
+      const mod = M.find(`${at[1]}/${at[2]}`);
+      if (mod && mod === `${at[1]}/${at[2]}` && M.commandsFor(mod).includes(at[3]) && (MG.shellTools[at[3]] || B[at[3]])) {
+        const env = { ...ctx.env, LOADEDMODULES: loadedOf(ctx.env).filter((m) => m !== mod).concat(mod).join(':') };
+        return dispatch0.call(this, at[3], Object.assign(ctx, { name: at[3], env }));
+      }
     }
     if (gated(name, ctx.env)) {
       const mod = M.suggestFor(name);
@@ -535,13 +566,13 @@
       const ms = M.modules().filter((m) => m.group === g && here(m));
       if (!ms.length) continue;
       software.push('', title + ':');
-      for (const m of ms) software.push(row(`${m.name}/${m.version}`, m.what + (m.commands.length > 1 && !/[:(]/.test(m.what) ? `  (${m.commands.filter((c) => !/\.py$|^kmer2read|-s$/.test(c)).join(', ')})` : '')));
+      for (const m of ms) software.push(row(m.versions.map((v) => `${m.name}/${v}`).join(', '), m.what + (m.commands.length > 1 && !/[:(]/.test(m.what) ? `  (${m.commands.filter((c) => !/\.py$|^kmer2read|-s$/.test(c)).join(', ')})` : '')));
     }
     ctx.out([
       'Commands of the Research Environment terminal. (man NAME: how to use one; NAME --help: its options)',
       '',
       'The Research Environment:',
-      row('module avail | load NAME | list', 'the software comes as environment modules (ml for short):  module load samtools'),
+      row('module avail | load NAME | list', 'the software comes as environment modules (ml for short):  module load samtools/1.21'),
       row(`ssh ${user()}@${H.loginHost.split('.')[0]}…`, `log in to the HPC:  ssh ${user()}@${H.loginHost}`),
       row('bsub, bjobs, bkill, bqueues, bhist', 'LSF jobs, on the HPC:  bsub -q short -P <project> -o job.%J.out "COMMAND"'),
       row('bsub -q inter -P <project> -Is bash', 'an interactive job on a compute node (exit to leave it)'),
@@ -574,7 +605,7 @@
   };
 
   const RE_MAN = {
-    module: 'module – environment modules (Lmod): the software of the Research Environment\n\n  module avail [TEXT]        the modules that can be loaded (ml av)\n  module spider [NAME]       search the modules, or describe one\n  module load NAME[/VER] …   load modules – the default version when none is given (ml NAME)\n  module list                the modules loaded in this shell (ml)\n  module unload NAME         unload one;   module purge   unload them all\n  module swap OLD NEW        change version\n  module show NAME           what a module sets;   module whatis NAME   one line about it\n  module keyword WORD        search the descriptions\n\nThe genomics programs are modules: load them before use – on the desktop and on the HPC. A module goes on PATH and\ninto LOADEDMODULES, so scripts and LSF jobs started afterwards have it too; a job script may also load its own\n(module load samtools  before the samtools command). R and Python work without a module.',
+    module: 'module – environment modules (Lmod): the software of the Research Environment\n\n  module avail [TEXT]        the modules that can be loaded (ml av)\n  module spider [NAME]       search the modules, or describe one\n  module load NAME[/VER] …   load modules – the default version, marked (D), when none is given (ml NAME)\n  module list                the modules loaded in this shell (ml)\n  module unload NAME         unload one;   module purge   unload them all\n  module swap OLD NEW        change version\n  module show NAME           what a module sets;   module whatis NAME   one line about it\n  module keyword WORD        search the descriptions\n\nThe genomics programs are modules: load them before use – on the desktop and on the HPC. A module goes on PATH and\ninto LOADEDMODULES, so scripts and LSF jobs started afterwards have it too; a job script may also load its own\n(module load samtools/1.21  before the samtools command). Give the version, as the RE\'s documentation asks:\nsamtools, bcftools and htslib have 1.16 and 1.21 – module spider bcftools lists them –, and samtools and bcftools\nload their htslib with them. R and Python work without a module.',
     ssh: `ssh – log in to the HPC\n\n  ssh USER@${H.loginHost}     log in (USER: your Research Environment user name)\n  exit                                            log out, back to the desktop\n\nThe first login asks you to accept the HPC's host key, then for your password. To log in without a password, make\na key and copy it to the HPC:  ssh-keygen -t ed25519   then   ssh-copy-id USER@${H.loginHost}\nYour HPC home folder (/home/USER on the HPC) is not your desktop's home: keep your work in /re_gecip/<domain>/USER,\nwhich both see. Graphical programs (RStudio, IGV …) run on the desktop only.`,
     bsub: `bsub – submit a job to LSF (on the HPC)\n\n  bsub -q QUEUE -P PROJECT [-J NAME] [-o OUT] [-e ERR] [-n CORES] [-R "rusage[mem=MB]"] [-M MB] [-W [HH:]MM] COMMAND\n  bsub < script.sh                    a job script, with #BSUB lines for the options\n  bsub -q inter -P PROJECT -Is bash   an interactive job: a shell on a compute node (exit to leave it)\n\n  -q   queue: ${H.queues.map((q) => q.name).join(', ')} (see  bqueues)\n  -P   project code – required:  ${H.projectCodes[0]}\n  -o, -e   files for the job's output and errors; %J becomes the job number\n  -w "done(JOBID)"   start after another job has finished\n\nThe job runs in the folder you submit it from. Follow it with  bjobs ,  bpeek JOBID  and  bhist JOBID ; stop it with  bkill JOBID .`,
     bjobs: 'bjobs – your LSF jobs (on the HPC)\n\n  bjobs            jobs that are pending or running\n  bjobs -a         also those that finished recently\n  bjobs -l JOBID   everything about one job\n  bjobs -d         finished jobs only\n\nSTAT: PEND waiting for a slot, RUN running, DONE finished (exit status 0), EXIT failed or killed.',

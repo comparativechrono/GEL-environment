@@ -39,7 +39,7 @@ const groups = {
     css: ['assets/css/genomics.css'],
     js: ['assets/js/shell.js', 'assets/js/shell-lang.js', 'assets/js/tools-wasm.js', 'assets/js/somatic.js', 'assets/js/metagenomics.js', 'assets/js/shell-extra.js',
       'assets/js/shell-wb.js', 'assets/js/terminal.js', 'assets/vendor/dompurify/purify.min.js', 'assets/vendor/marked/marked.min.js',
-      'assets/js/kernels.js', 'assets/js/pysync.js', 'assets/js/rsession.js', 'assets/js/shell-r.js', 'assets/js/shell-re.js'],
+      'assets/js/kernels.js', 'assets/js/pysync.js', 'assets/js/rsession.js', 'assets/js/shell-r.js', 'assets/js/shell-re.js', 'assets/js/hts-re.js'],
     after: () => {
       // R and Rscript come from shell-r.js (an interactive R console in the terminal, as on Linux) rather than the
       // notebook-style versions in shell-wb.js: the shell's own builtins win over tools, so those are removed.

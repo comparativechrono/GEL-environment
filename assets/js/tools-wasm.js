@@ -587,8 +587,10 @@
       const timer=setInterval(()=>status(`${this.running||program}${this.stage?' – '+this.stage:''} · ${((performance.now()-start)/1000).toFixed(0)} s`),1000);
       let result;
       const killed=new Promise((_,reject)=>{this._killed=reject;});
-      this.running=OWN_WORKER[program]?(ctx.name||OWN_WORKER[program].name):program;
-      const job=OWN_WORKER[program]?this.execWorker(program,a,{stdin,stdout:stdoutPath,stderr:stderrPath,merge:!!ctx.mergeStderr,fs,before,name:ctx.name,io:ctx.io,flowOpts:opts.flow,devUsed,piped})
+      // (RE simulator: which build runs – samtools@1.21 is the samtools of the module that is loaded; see hts-re.js)
+      const key=this.programKey?this.programKey(program,ctx):program;
+      this.running=OWN_WORKER[key]?(ctx.name||OWN_WORKER[key].name):program;
+      const job=OWN_WORKER[key]?this.execWorker(key,a,{stdin,stdout:stdoutPath,stderr:stderrPath,merge:!!ctx.mergeStderr,fs,before,name:ctx.name,io:ctx.io,flowOpts:opts.flow,devUsed,piped})
         :cli.execIO(program,a,{stdin,stdout:stdoutPath,stderr:ctx.mergeStderr?stdoutPath:stderrPath,merge:!!ctx.mergeStderr,links:[[this.apath(home),home],[this.apath('/data'),'/data']],lines,fifo,env:envOf(ctx,program,fs),...clock});
       try{result=await Promise.race([job,killed]);}
       catch(e){
@@ -674,7 +676,7 @@
     threadedWorker:null,
     /** the files of the programs' file system that the arguments name (with their index files), read for a worker:
         [{path, data, readonly}]. cwd: the folder relative names are in (a path of the programs' file system). */
-    async inputsOf(args,outs,{fs,before,cwd}){
+    async inputsOf(args,outs,{fs,before,cwd,lists=[],named=[]}){
       const cli=this.cli;
       const toProg=v=>{
         if(!v||v==='-')return null;
@@ -703,6 +705,22 @@
           for(const [q,t] of before)if(!t.isDir&&q.startsWith(p+'/'))want.add(q);
         }
       }
+      // (RE simulator: a file that lists files, one per line – samtools merge -b LIST, bcftools concat -f LIST,
+      // bcftools merge -l LIST: the files it names are handed over too, with their indexes)
+      for(let i=0;i<args.length;i++){
+        const m=/^(--?[^=]+)=(.*)$/.exec(args[i]),opt=m?m[1]:args[i],val=m?m[2]:args[i+1];
+        if(!lists.includes(opt)||!val)continue;
+        const lp=toProg(val);if(!lp||!want.has(lp))continue;
+        let text='';try{text=new TextDecoder().decode(await cli.fs.readFile(lp));}catch(e){continue;}
+        for(const line of text.split('\n')){
+          const p=toProg(line.trim());if(!p)continue;
+          const st=before.get(p);if(!st||st.isDir)continue;
+          want.add(p);
+          for(const x of [...INDEX_SUFFIXES.map(s=>p+s),...(/\.(bam|cram)$/.test(p)?[p.replace(/\.(bam|cram)$/,'.bai'),p.replace(/\.(bam|cram)$/,'.crai')]:[])]){const t=before.get(x);if(t&&!t.isDir)want.add(x);}
+        }
+      }
+      // (RE simulator: files named inside an option's value – bcftools -i 'ID=@ids.txt', -S ^samples.txt; see hts-re.js)
+      for(const v of named){const p=toProg(v),st=p&&before.get(p);if(st&&!st.isDir)want.add(p);}
       const files=[];
       for(const p of want){
         const e=fs.entries.get(p.slice(ROOT.length));
@@ -712,7 +730,7 @@
     },
     /** one command in a worker of its own → {exitCode, error, stdout, stderr, order, dirs, files, removed, stdinPos}
         T: the program (OWN_WORKER, or {name, module, worker}); the rest as threads-worker.mjs takes it */
-    async spawn(T,{args,thisProgram,cwd,dirs,files,links,stdin,roots}){
+    async spawn(T,{args,thisProgram,cwd,dirs,files,links,stdin,roots,tty}){
       // (stopped between two commands of a workflow: the next one does not start)
       if(this.ownRun&&this.ownRun.stopped)throw Object.assign(new Error('Killed'),{userMessage:`${this.running||'program'}: Killed`,code:137});
       const {moduleUrl,pyodideUrl}=this.workerUrls(T);
@@ -725,7 +743,7 @@
           worker.onmessage=e=>{const m=e.data||{};if(m.type==='ready'||m.type==='prepare-error')return;if(m.type==='result')resolve(m.result);else reject(new Error((m.error&&m.error.message)||'the program gave no answer'));};
           worker.onerror=e=>{if(e.preventDefault)e.preventDefault();reject(new Error(e.message||'the program could not be started'));};
           // (the files are copied, not moved: a workflow hands the same bytes to its next command)
-          worker.postMessage({moduleUrl,pyodideUrl,args,thisProgram:thisProgram||T.name,cwd,dirs,files,links,stdin,roots});
+          worker.postMessage({moduleUrl,pyodideUrl,args,thisProgram:thisProgram||T.name,cwd,dirs,files,links,stdin,roots,tty:!!tty});
         });
       }finally{this._threadedStop=null;if(this.threadedWorker===worker)this.threadedWorker=null;try{worker.terminate();}catch(e){}if(T.prewarm)this.prewarm(T);}
     },
@@ -759,7 +777,9 @@
     },
     async execWorker(program,args,{stdin,stdout,stderr,merge,fs,before,name,io,flowOpts,devUsed,piped}){
       const T=OWN_WORKER[program],cli=this.cli,home=fs.home,cwd=this.apath(fs.isDir(fs.cwd)?fs.cwd:fs.home);
-      const links=[[ROOT+home,home],[ROOT+'/data','/data']];
+      // (RE simulator: and the other top folders – /genomes, /re_gecip … – so that a path written in a file the program reads
+      // – a list of files – names the same file as it does in the terminal; W.workerRoots: [folder, its name], see hts-re.js)
+      const links=[[ROOT+home,home],[ROOT+'/data','/data'],...(this.workerRoots?this.workerRoots(fs):[]).filter(([,l])=>l!==home&&l!=='/data').map(([t,l])=>[ROOT+t,l])];
       const dirs=[ROOT,TMP,...Array.from(before).filter(([p,t])=>t.isDir&&!p.startsWith(TMP)).map(([p])=>p),cwd];
       const input=stdin?await cli.fs.readFile(stdin):null;
       const flow=T.flow&&T.flow(args);
@@ -792,8 +812,10 @@
         r.removeTerm=r.remove||[];
         r.remove=r.removeTerm.map(p=>ROOT+p);
       }else{
-        const files=await this.inputsOf(args,T.outputs(args),{fs,before,cwd});
-        r=await this.spawn(T,{args,thisProgram:name||T.name,cwd,dirs,files,links,stdin:input,roots:[ROOT]});
+        const files=await this.inputsOf(args,T.outputs(args),{fs,before,cwd,lists:T.lists?T.lists(args):[],named:T.named?T.named(args):[]});
+        // (RE simulator: T.tty – a program whose standard input, when nothing is piped or redirected into it, is the
+        // terminal: see threads-worker.mjs and hts-re.js)
+        r=await this.spawn(T,{args,thisProgram:name||T.name,cwd,dirs,files,links,stdin:input,roots:[ROOT],tty:!!T.tty&&input==null});
         // (a file it was given that the program removed is removed here too – hmmpress on a pressed file removes three of
         // the four, as on Linux; not a file of the course data, nor a read-only one)
         const kept=p=>{const e=fs.get(p);return p==='/data'||p.startsWith('/data/')||!!(e&&(e.readonly||e.protected));};
@@ -887,6 +909,9 @@
   }
   function loadScript(src){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(new Error('Could not load '+src));document.head.appendChild(s);});}
   MG.wasm=W;
+  // RE simulator: the programs that run in a worker of their own, for assets/js/hts-re.js to add the versions of
+  // samtools, bcftools and HTSlib to; W.programKey(program, ctx), when it is set, names the build that a command runs
+  W.ownWorker=OWN_WORKER;
   /* date -u …: is the time asked for in UTC? (-u among the letters of an option – not in the value of -d or -I) */
   function dateUTC(args){
     for(let i=0;i<args.length;i++){
@@ -1115,6 +1140,8 @@
     bcftools:['bcftools','1.10','Genotype likelihoods, calling models, normalisation and VCF operations','bcftools mpileup -f /data/examples/reads/reference.fa mapped.bam | bcftools call -mv -Oz -o calls.vcf.gz\nbcftools view -H calls.vcf.gz | head\nUse bcftools COMMAND --help for the options of a command.'],
     bgzip:['bgzip','1.17','Block gzip compression / decompression (BGZF files are valid gzip files)','bgzip -c INPUT > OUTPUT.gz'],
     tabix:['tabix','1.17','Index and query sorted tabular BGZF data','tabix -p vcf calls.vcf.gz'],
+    // RE simulator: HTSlib's htsfile – run by the builds of hts-re.js
+    htsfile:['htsfile','1.21','Identify the format of a sequence, alignment or variant file (HTSlib)','htsfile reads.bam\nhtsfile -h calls.vcf.gz      (the header)'],
     seqtk:['seqtk','1.4','Toolkit for FASTA/FASTQ files: subsample, convert, trim, statistics','seqtk fqchk /data/examples/reads/NA12878_R1.fastq | head\nseqtk sample -s 11 /data/examples/reads/NA12878_R1.fastq 1000 > sample.fastq'],
     bedtools:['bedtools','2.31.0','Genome arithmetic on BED, VCF, SAM/BAM files','bedtools genomecov -ibam mapped.bam -bg | head'],
     jq:['jq','1.7','Command-line JSON processor','jq .summary fastp.json'],
@@ -1168,7 +1195,8 @@
     // samtools reheader -c CMD hands the header to another program – which a program cannot start here
     if(name==='samtools'&&ctx.args[0]==='reheader'&&ctx.args.some(x=>x==='-c'||x==='--command'||/^--command=/.test(x)))throw here('samtools reheader -c',MG.shellUtil.userErr("samtools reheader: -c (--command) runs another program on the header, and a program cannot start a program in this terminal. Do it in two steps:  samtools view -H in.bam | sed 's/old/new/' > header.sam  and then  samtools reheader header.sam in.bam > out.bam"));
     // bcftools +NAME loads a plugin from a shared library, which a WebAssembly program in a web page cannot do
-    if(name==='bcftools'&&(/^\+/.test(ctx.args[0]||'')||(ctx.args[0]==='plugin'&&ctx.args.length>1&&ctx.args[1]!=='-l'&&ctx.args[1]!=='--list-plugins')))throw here('the plugins of bcftools',MG.shellUtil.userErr(`bcftools: plugins (${ctx.args[0]==='plugin'?'bcftools plugin NAME':ctx.args[0]}) are not available in this build. The built-in commands are: view, query, filter, norm, stats, annotate, call, mpileup, index, sort, concat, merge, isec, consensus, reheader.`));
+    // (RE simulator: the builds of hts-re.js have every plugin built in – only the Biowasm build has none)
+    if(name==='bcftools'&&!(W.programKey&&W.programKey('bcftools',ctx)!=='bcftools')&&(/^\+/.test(ctx.args[0]||'')||(ctx.args[0]==='plugin'&&ctx.args.length>1&&ctx.args[1]!=='-l'&&ctx.args[1]!=='--list-plugins')))throw here('the plugins of bcftools',MG.shellUtil.userErr(`bcftools: plugins (${ctx.args[0]==='plugin'?'bcftools plugin NAME':ctx.args[0]}) are not available in this build. The built-in commands are: view, query, filter, norm, stats, annotate, call, mpileup, index, sort, concat, merge, isec, consensus, reheader.`));
     // bowtie2 and bowtie2-build are wrapper scripts around these programs; like them, say that a wrapper made the call
     if(name==='bowtie2'){
       // these options are carried out by the wrapper script itself (it reads the aligner's output), which is not here

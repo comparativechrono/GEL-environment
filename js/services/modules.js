@@ -7,7 +7,11 @@
 // that the terminal runs: compiled to WebAssembly (assets/vendor/biowasm,
 // assets/vendor/genomics-wasm), Snakemake (assets/py/smk.py), R (webR) and
 // Python (Pyodide). The versions are those of the programs themselves;
-// tests/smoke.py checks them against the terminal's own list.
+// tests/smoke.py checks them against the terminal's own list. SAMtools,
+// BCFtools and HTSlib come in the RE's two versions, 1.16 and 1.21 (the
+// genomics-wasm builds, with every BCFtools plugin; assets/js/hts-re.js runs
+// the one whose module is loaded); as on the RE, the newest is the default and
+// samtools and bcftools load their HTSlib with them.
 //
 // Loading a module puts its folder on PATH and its name in LOADEDMODULES, as
 // Lmod does; both are exported, so scripts, bash -c and LSF jobs inherit them.
@@ -50,12 +54,13 @@ export const MODULES = [
   { name: 'bwa', version: '0.7.19', commands: ['bwa'], group: 'align', what: 'maps short reads:  bwa index REF.fa;  bwa mem REF.fa R1 R2' },
   { name: 'bwa-mem2', version: '2.2.1', commands: ['bwa-mem2'], group: 'align', what: 'bwa mem, rewritten for speed' },
   { name: 'hisat2', version: '2.2.2', commands: ['hisat2', 'hisat2-build', 'hisat2-inspect'], group: 'align', what: 'maps RNA-seq reads across splice junctions' },
-  { name: 'samtools', version: '1.17', commands: ['samtools'], group: 'align', what: 'SAM/BAM/CRAM: view, sort, index, flagstat, stats, depth, faidx …' },
-  { name: 'htslib', version: '1.17', commands: ['bgzip', 'tabix'], group: 'align', what: 'bgzip and tabix: compress and index' },
+  { name: 'samtools', versions: ['1.16', '1.21'], commands: ['samtools'], group: 'align', what: 'SAM/BAM/CRAM: view, sort, index, flagstat, stats, depth, faidx …', requires: (v) => [`htslib/${v}`] },
+  { name: 'htslib', versions: ['1.16', '1.21'], commands: ['bgzip', 'tabix', 'htsfile'], group: 'align', what: 'bgzip, tabix and htsfile: compress, index and identify files' },
+  { name: 'tabix', versions: ['1.21'], commands: ['tabix', 'bgzip'], group: 'align', what: 'tabix and bgzip (those of HTSlib 1.21)' },
   { name: 'mosdepth', version: '0.3.14', commands: ['mosdepth'], group: 'align', what: 'read depth per base, window or region' },
   { name: 'bedtools', version: '2.31.0', commands: ['bedtools'], group: 'align', what: 'genome arithmetic: intersect, merge, genomecov, getfasta …' },
   { name: 'gffread', version: '0.12.7', commands: ['gffread'], group: 'align', what: 'GFF/GTF files: convert; transcript, CDS and protein sequences' },
-  { name: 'bcftools', version: '1.10', commands: ['bcftools'], group: 'variants', what: 'mpileup, call, view, filter, query, stats, norm, index …' },
+  { name: 'bcftools', versions: ['1.16', '1.21'], commands: ['bcftools'], group: 'variants', what: 'view, query, filter, norm, mpileup, call, csq … and its plugins: +split-vep, +fill-tags, +mendelian …', requires: (v) => [`htslib/${v}`] },
   { name: 'freebayes', version: '1.3.6', commands: ['freebayes'], group: 'variants', what: 'calls variants:  freebayes -f REF.fa sorted.bam > calls.vcf' },
   { name: 'lofreq', version: '2.1.5', commands: ['lofreq'], group: 'somatic', what: 'low-frequency variants (lofreq call) and somatic variants (lofreq somatic)' },
   { name: 'somaticsniper', version: '1.0.5.0', commands: ['bam-somaticsniper', 'somaticsniper'], group: 'somatic', what: 'somatic SNVs:  bam-somaticsniper -F vcf -f REF.fa tumour.bam normal.bam out.vcf' },
@@ -82,12 +87,20 @@ export const MODULES = [
   { name: 'jq', version: '1.7', commands: ['jq'], group: 'lang', what: 'JSON on the command line' },
 ];
 
+// one version (version) or several (versions: the last is the default, as Lmod takes the newest)
+for (const m of MODULES) {
+  m.versions = m.versions || [m.version];
+  m.default = m.default || m.versions[m.versions.length - 1];
+  m.version = m.default;
+}
 const BY_NAME = new Map(MODULES.map((m) => [m.name.toLowerCase(), m]));
-const BY_COMMAND = new Map(MODULES.flatMap((m) => m.commands.map((c) => [c, m])));
+/** command → the modules that provide it, in catalogue order (tabix: htslib, then tabix) */
+const BY_COMMAND = new Map();
+for (const m of MODULES) for (const c of m.commands) BY_COMMAND.set(c, (BY_COMMAND.get(c) || []).concat(m));
 
-/** "samtools/1.17" → its module record */
+/** "samtools/1.21" → its module record */
 const recordOf = (full) => BY_NAME.get(String(full).split('/')[0].toLowerCase()) || null;
-const fullName = (m) => `${m.name}/${m.version}`;
+const fullName = (m, v = m.default) => `${m.name}/${v}`;
 
 export function createModules() {
   /** a name as typed (samtools, samtools/1.17, SAMTOOLS) → "samtools/1.17", or null if there is no such module */
@@ -96,8 +109,8 @@ export function createModules() {
     const [n, v] = String(spec).replace(/\/$/, '').split('/');
     const m = BY_NAME.get(n.toLowerCase());
     if (!m) return null;
-    if (v !== undefined && v !== m.version) return null;
-    return fullName(m);
+    if (v !== undefined && !m.versions.includes(v)) return null;
+    return fullName(m, v === undefined ? m.default : v);
   }
 
   const family = (mod) => (recordOf(mod) ? recordOf(mod).name : String(mod).split('/')[0]);
@@ -118,15 +131,16 @@ export function createModules() {
     return lines.join('\n');
   }
 
+  /** every module/version whose name contains pattern: [full name, record] */
   function match(pattern) {
     const p = String(pattern || '').toLowerCase();
-    return MODULES.filter((m) => !p || fullName(m).toLowerCase().includes(p));
+    return MODULES.flatMap((m) => m.versions.map((v) => [fullName(m, v), m])).filter(([f]) => !p || f.toLowerCase().includes(p));
   }
 
   return {
     modules: () => MODULES.slice(),
     groups: GROUPS,
-    all: () => MODULES.map(fullName),
+    all: () => MODULES.flatMap((m) => m.versions.map((v) => fullName(m, v))),
     find,
     family,
     root: MODULE_ROOT,
@@ -134,26 +148,39 @@ export function createModules() {
     /** the folder a module puts on PATH */
     binDir: (mod) => `${APPS_ROOT}/${mod}/bin`,
 
-    /** `module avail [pattern]` as Lmod prints it, or null when nothing matches */
-    avail(pattern = '', width = 100) {
-      const list = match(pattern).map(fullName);
+    /** `module avail [pattern]` as Lmod prints it, or null when nothing matches (loaded: the modules that are loaded) */
+    avail(pattern = '', width = 100, loaded = []) {
+      // (Lmod marks the modules that are loaded, and the default of a module that has several versions:
+      // samtools/1.21 (L,D))
+      const marks = { L: false, D: false };
+      const list = match(pattern).map(([f, m]) => {
+        const k = [loaded.includes(f) && 'L', m.versions.length > 1 && f === fullName(m) && 'D'].filter(Boolean);
+        for (const x of k) marks[x] = true;
+        return k.length ? `${f} (${k.join(',')})` : f;
+      });
       if (!list.length) return null;
       const head = ` ${MODULE_ROOT} `;
       const left = Math.max(4, Math.floor((width - head.length) / 2));
-      return `${'-'.repeat(left)}${head}${'-'.repeat(Math.max(4, width - left - head.length))}\n${columns(list, width)}\n\n` +
+      const legend = marks.L || marks.D ? `  Where:\n${marks.L ? '   L:  Module is loaded\n' : ''}${marks.D ? '   D:  Default Module\n' : ''}\n` : '';
+      return `${'-'.repeat(left)}${head}${'-'.repeat(Math.max(4, width - left - head.length))}\n${columns(list, width)}\n\n${legend}` +
         'Use "module spider" to find all possible modules and extensions.\nUse "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".\n';
     },
 
     /** `module spider [name]` */
     spider(pattern = '') {
-      const ms = match(pattern);
-      if (!ms.length) return null;
+      const found = match(pattern);
+      if (!found.length) return null;
+      const ms = [...new Set(found.map(([, m]) => m))];
+      const line = '----------------------------------------------------------------------------';
       if (pattern && ms.length === 1) {
         const m = ms[0];
-        return `\n----------------------------------------------------------------------------\n  ${m.name}: ${fullName(m)}\n----------------------------------------------------------------------------\n    Description:\n      ${m.what}\n\n    Provides: ${m.commands.join(', ')}\n\n    This module can be loaded directly: module load ${fullName(m)}\n\n`;
+        const one = found.length === 1 ? found[0][0] : null;
+        return `\n${line}\n  ${m.name}: ${one || m.versions.map((v) => fullName(m, v)).join(', ')}\n${line}\n    Description:\n      ${m.what}\n\n` +
+          (one ? '' : `     Versions:\n${m.versions.map((v) => `        ${fullName(m, v)}`).join('\n')}\n\n`) +
+          `    Provides: ${m.commands.join(', ')}\n\n    This module can be loaded directly: module load ${one || fullName(m)}\n\n`;
       }
-      return `\n----------------------------------------------------------------------------\nThe following is a list of the modules and extensions currently available:\n----------------------------------------------------------------------------\n` +
-        ms.map((m) => `  ${m.name}: ${fullName(m)}\n    ${m.what}\n`).join('\n') +
+      return `\n${line}\nThe following is a list of the modules and extensions currently available:\n${line}\n` +
+        ms.map((m) => `  ${m.name}: ${m.versions.map((v) => fullName(m, v)).join(', ')}\n    ${m.what}\n`).join('\n') +
         '\n----------------------------------------------------------------------------\nTo learn more about a package and how to load it, use "module spider" with its name:\n\n  $ module spider samtools\n----------------------------------------------------------------------------\n';
     },
 
@@ -163,23 +190,26 @@ export function createModules() {
       const ms = MODULES.filter((m) => ws.some((w) => [m.name, m.what, ...m.commands].join(' ').toLowerCase().includes(w)));
       if (!ms.length) return null;
       return `\n----------------------------------------------------------------------------\nThe following modules match your search criteria: "${words.join('", "')}"\n----------------------------------------------------------------------------\n\n` +
-        ms.map((m) => `  ${m.name}: ${fullName(m)}\n    ${m.what}\n`).join('\n') + '\n';
+        ms.map((m) => `  ${m.name}: ${m.versions.map((v) => fullName(m, v)).join(', ')}\n    ${m.what}\n`).join('\n') + '\n';
     },
 
-    /** the module whose commands include cmd (whether or not it is loaded) */
-    moduleOf: (cmd) => BY_COMMAND.get(cmd) || null,
+    /** the (first) module whose commands include cmd, whether or not it is loaded */
+    moduleOf: (cmd) => (BY_COMMAND.get(cmd) || [])[0] || null,
     /** a command that needs its module loaded first (not R or Python) */
-    isGated: (cmd) => !!(BY_COMMAND.get(cmd) && !BY_COMMAND.get(cmd).base),
+    isGated: (cmd) => (BY_COMMAND.get(cmd) || []).some((m) => !m.base),
     commandsFor: (mod) => (recordOf(mod) ? recordOf(mod).commands.slice() : []),
+    /** the modules that loading this one loads first ("samtools/1.21" → ["htslib/1.21"]), as Lmod's depends_on */
+    requires: (mod) => (recordOf(mod) && recordOf(mod).requires ? recordOf(mod).requires(mod.split('/')[1]) : []),
 
-    /** which of the loaded modules ("samtools/1.17" …) provides cmd */
+    /** which of the loaded modules ("samtools/1.21" …) provides cmd – the last loaded, which is first on PATH */
     providerOf(cmd, loaded) {
-      const m = BY_COMMAND.get(cmd);
-      return m ? loaded.find((x) => family(x) === m.name) || null : null;
+      const ms = BY_COMMAND.get(cmd) || [];
+      for (let i = loaded.length - 1; i >= 0; i--) if (ms.some((m) => m.name === family(loaded[i]))) return loaded[i];
+      return null;
     },
 
     /** the module to load for cmd (for "command not found" hints) */
-    suggestFor: (cmd) => (BY_COMMAND.get(cmd) ? fullName(BY_COMMAND.get(cmd)) : null),
+    suggestFor: (cmd) => ((BY_COMMAND.get(cmd) || [])[0] ? fullName(BY_COMMAND.get(cmd)[0]) : null),
 
     whatis(mod) {
       const m = recordOf(mod);
@@ -189,7 +219,8 @@ export function createModules() {
     show(mod) {
       const m = recordOf(mod);
       const v = mod.split('/')[1];
-      return `-------------------------------------------------------------------\n   ${MODULE_ROOT}/${mod}.lua:\n-------------------------------------------------------------------\nwhatis("Name: ${m.name}")\nwhatis("Version: ${v}")\nwhatis("Description: ${m.what}")\nprepend_path("PATH","${APPS_ROOT}/${mod}/bin")\n`;
+      const deps = m.requires ? m.requires(v) : [];
+      return `-------------------------------------------------------------------\n   ${MODULE_ROOT}/${mod}.lua:\n-------------------------------------------------------------------\nwhatis("Name: ${m.name}")\nwhatis("Version: ${v}")\nwhatis("Description: ${m.what}")\n${deps.map((d) => `depends_on("${d}")\n`).join('')}prepend_path("PATH","${APPS_ROOT}/${mod}/bin")\n`;
     },
   };
 }
