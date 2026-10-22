@@ -9,8 +9,11 @@
 //
 // Both read the data release databases that js/services/labkey-server.js
 // writes to /resources/labkey (copied into R's and Python's file systems with
-// the other synced folders), and translate LabKey SQL with the very code of
-// js/services/labkey-sql.js, evaluated in their workers as globalThis.__lk.
+// the other synced folders): every table's columns, the rows of tables loaded
+// in Settings, and the address of each other table's TSV on the website, which
+// they fetch the first time a query names the table. They translate LabKey SQL
+// with the very code of js/services/labkey-sql.js (and read TSV with that of
+// labkey-tsv.js), evaluated in their workers as globalThis.__lk.
 // =============================================================================
 
 const R_FILES = ['DESCRIPTION', 'NAMESPACE', 'R/Rlabkey.R'];
@@ -22,10 +25,11 @@ const R_PREINSTALLED = ['dplyr', 'tidyr', 'readr', 'ggplot2', 'tibble', 'stringr
 
 const abs = (p) => new URL(p, document.baseURI).href;
 
-/** The translator's source as a script for a worker: defines globalThis.__lk. */
+/** The translator's and the TSV reader's sources as a script for a worker: defines globalThis.__lk. */
 async function helperScript(build) {
-  const src = await (await fetch(new URL('../services/labkey-sql.js', import.meta.url).href + '?v=' + build)).text();
-  const body = src.replace(/^export\s+\{[^}]*\};?[ \t]*$/gm, '').replace(/^export\s+(?=(const|let|function|class|async)\b)/gm, '');
+  const plain = (src) => src.replace(/^export\s+\{[^}]*\};?[ \t]*$/gm, '').replace(/^export\s+(?=(const|let|function|class|async)\b)/gm, '');
+  const source = async (f) => (await fetch(new URL('../services/' + f, import.meta.url).href + '?v=' + build)).text();
+  const body = (await Promise.all(['labkey-sql.js', 'labkey-tsv.js'].map(source))).map(plain).join('\n');
   const sqljs = abs('assets/vendor/sqljs/');
   return `(function () {
 ${body}
@@ -76,14 +80,37 @@ lk.db = function (path) {
   agg('variance', variance);
   agg('median', function (a) { if (!a.length) return null; var s = a.slice().sort(function (x, y) { return x - y; }); var m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; });
   db.create_function('regexp', function (re, s) { return s !== null && new RegExp(re).test(String(s)) ? 1 : 0; });
-  lk.dbs[path] = { key: key, db: db };
+  // the tables whose rows are still on the website (lower-case name -> {name, url})
+  var pending = {};
+  try {
+    var fr = db.exec('SELECT table_name, url FROM _lk_files');
+    if (fr.length) fr[0].values.forEach(function (v) { pending[String(v[0]).toLowerCase()] = { name: String(v[0]), url: String(v[1]) }; });
+  } catch (e) { /* a database with every table's rows in it */ }
+  lk.dbs[path] = { key: key, db: db, pending: pending };
   return db;
+};
+// loads the rows of the tables a query names that are still on the website (synchronous requests: R cannot wait)
+lk.ensure = function (path, db, sql) {
+  var c = lk.dbs[path];
+  if (!c || !c.pending) return;
+  tablesNamedIn(sql, Object.keys(c.pending)).forEach(function (n) {
+    var p = c.pending[n];
+    var x = new XMLHttpRequest();
+    x.open('GET', p.url, false);
+    x.send();
+    if (x.status !== 200 && x.status !== 0) throw new Error('The data browser could not send the rows of ' + p.name + ' (HTTP ' + x.status + ')');
+    var meta = db.exec('SELECT column_name, type FROM _lk_columns WHERE table_name = ? ORDER BY position', [p.name]);
+    var columns = meta.length ? meta[0].values.map(function (v) { return { name: v[0], type: v[1] }; }) : [];
+    insertTsvRows(db, p.name, columns, x.responseText);
+    delete c.pending[n];
+  });
 };
 // -> "OK" GS columns RS row RS row ..., fields separated by US, each prefixed s (text), d (number) or n (null);
 //    or "ERR" GS message
 lk.queryR = function (path, sql, paramsJson) {
   try {
     var db = lk.db(path);
+    lk.ensure(path, db, sql);
     var res = db.exec(String(sql), paramsJson ? JSON.parse(paramsJson) : []);
     var r = res.length ? res[res.length - 1] : { columns: [], values: [] };
     var f = function (v) { return v === null || v === undefined ? 'n' : typeof v === 'number' ? 'd' + String(v) : v instanceof Uint8Array ? 's[' + v.length + ' bytes]' : 's' + String(v); };

@@ -6,9 +6,14 @@
 //   1. the table schema  data/labkey/schema/<folder>.json   (all tables, empty)
 //   2. optional data      data/labkey/data/<folder>/index.json + <table>.tsv
 //   3. optional uploads   TSV files an instructor loads in Settings (IndexedDB)
+// When index.json gives each table's row count ("rows"), a table's TSV is only
+// fetched when something first needs it (a query naming it, or the grid);
+// otherwise every table is loaded when the folder opens.
 //
-// The GUI (LabKeeper site) queries it directly. R and Python receive an exported
-// copy of the same database file (/resources/labkey/<folder>.sqlite) and query it
+// The GUI (LabKeeper site) queries it directly. R and Python receive a database
+// file (/resources/labkey/<folder>.sqlite) with every table's columns, the rows of
+// tables loaded in Settings, and where each other table's TSV is; their clients
+// fetch a table from the website when one of their queries first names it, and query it
 // through the Rlabkey / labkey stand-ins – R with sql.js inside R's worker, Python
 // with its sqlite3 – so results are identical everywhere (js/engine/labkey-clients.js).
 // =============================================================================
@@ -18,11 +23,7 @@ import { loadScript, siteUrl } from '../core/util.js';
 import { idb } from '../core/store.js';
 import { Emitter } from '../core/bus.js';
 import { translateLabkeySql, buildWhere, quoteIdent, labkeyErrorMessage } from './labkey-sql.js';
-
-const SQL_TYPES = {
-  Integer: 'INTEGER', Decimal: 'REAL', Double: 'REAL', Boolean: 'INTEGER',
-  Date: 'TEXT', DateTime: 'TEXT', Time: 'TEXT', Enum: 'TEXT', String: 'TEXT', 'Clinical code': 'TEXT',
-};
+import { createTableSql, insertTsvRows, tablesNamedIn } from './labkey-tsv.js';
 
 let sqlPromise = null;
 function loadSqlJs() {
@@ -47,39 +48,6 @@ function registerFunctions(db) {
   agg('variance', variance);
   agg('median', (a) => { if (!a.length) return null; const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; });
   db.create_function('regexp', (re, s) => (s !== null && new RegExp(re).test(String(s)) ? 1 : 0));
-}
-
-function parseTsv(text) {
-  const lines = text.replace(/\r/g, '').split('\n').filter(l => l.length);
-  if (!lines.length) return { header: [], rows: [] };
-  const sep = lines[0].includes('\t') ? '\t' : ',';
-  const split = sep === '\t' ? (l) => l.split('\t') : splitCsvLine;
-  const header = split(lines[0]).map(s => s.trim());
-  const rows = lines.slice(1).map(split);
-  return { header, rows };
-}
-
-function splitCsvLine(line) {
-  const out = []; let cur = ''; let q = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (q) { if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; } else if (c === '"') q = false; else cur += c; }
-    else if (c === '"') q = true;
-    else if (c === ',') { out.push(cur); cur = ''; }
-    else cur += c;
-  }
-  out.push(cur);
-  return out;
-}
-
-function convert(value, type) {
-  if (value === undefined || value === null) return null;
-  const v = String(value);
-  if (v === '' || v === 'NA' || v === 'NULL' || v === 'null') return null;
-  if (type === 'Integer') { const n = parseInt(v, 10); return isNaN(n) ? v : n; }
-  if (type === 'Decimal' || type === 'Double') { const n = parseFloat(v); return isNaN(n) ? v : n; }
-  if (type === 'Boolean') return /^(true|t|yes|y|1)$/i.test(v) ? 1 : /^(false|f|no|n|0)$/i.test(v) ? 0 : v;
-  return v;
 }
 
 export function createLabkeyServer(RE) {
@@ -126,63 +94,85 @@ export function createLabkeyServer(RE) {
     const tables = new Map();
     db.run('BEGIN');
     for (const t of schema.tables) {
-      const cols = t.columns.map(c => `${quoteIdent(c.name)} ${SQL_TYPES[c.type] || 'TEXT'}`).join(', ');
-      db.run(`CREATE TABLE ${quoteIdent(t.name)} (${cols})`);
+      db.run(createTableSql(t));
       tables.set(t.name.toLowerCase(), t);
     }
     db.run('COMMIT');
-    const folder = { ...rel, schema, db, tables, rowCounts: new Map(), loaded: [] };
-    // bundled data
+    // bundled: every table's TSV file (lower-case name -> file); files: those not loaded yet; pending: their loads in
+    // progress; uploaded: the tables replaced by a file loaded in Settings
+    const folder = { ...rel, schema, db, tables, rowCounts: new Map(), loaded: [], bundled: new Map(), files: new Map(), pending: new Map(), uploaded: new Set() };
+    // bundled data: the index now, a table's rows when they are first needed (all at once if the index has no counts)
+    let lazy = false;
     try {
       const res = await fetch(siteUrl(rel.dataUrl + 'index.json'));
       if (res.ok) {
         const index = await res.json();
-        for (const [table, file] of Object.entries(index.tables || {})) {
-          const r = await fetch(siteUrl(rel.dataUrl + file));
-          if (r.ok) insertTsv(folder, table, await r.text());
-        }
+        lazy = !!index.rows;
+        for (const [table, file] of Object.entries(index.tables || {})) { folder.bundled.set(table.toLowerCase(), file); folder.files.set(table.toLowerCase(), file); }
+        for (const [table, n] of Object.entries(index.rows || {})) folder.rowCounts.set(table.toLowerCase(), n);
       }
     } catch (e) { console.warn('[labkey] no bundled data for', rel.folderPath, e); }
-    // instructor uploads
+    // instructor uploads replace the bundled tables
     for (const key of await idb.keys(`labkey:${rel.folderPath}:`)) {
       const text = await idb.get(key);
       const table = key.split(':').pop();
-      if (text) insertTsv(folder, table, text, { replace: true });
+      if (text) { folder.files.delete(table.toLowerCase()); folder.uploaded.add(table.toLowerCase()); insertTsv(folder, table, text, { replace: true }); }
     }
+    if (!lazy) await ensure(folder, [...folder.files.keys()]);
     refreshCounts(folder);
     return folder;
+  }
+
+  /** Loads the bundled rows of these tables (fetched in parallel, each once). */
+  async function ensure(folder, names) {
+    const want = [...new Set(names.map(n => String(n).toLowerCase()))].filter(n => folder.files.has(n) || folder.pending.has(n));
+    await Promise.all(want.map((n) => {
+      if (!folder.pending.has(n)) {
+        const file = folder.files.get(n);
+        folder.pending.set(n, (async () => {
+          try {
+            const r = await fetch(siteUrl(folder.dataUrl + file));
+            const text = r.ok ? await r.text() : '';
+            // (an upload may have replaced the table while it was being fetched)
+            if (folder.files.get(n) === file) {
+              folder.files.delete(n);
+              if (text) insertTsv(folder, n, text);
+            }
+          } catch (e) {
+            console.warn('[labkey] cannot load', n, e);
+            folder.files.delete(n);
+          }
+          countTable(folder, n);
+        })());
+      }
+      return folder.pending.get(n);
+    }));
+  }
+
+  /** The tables a SQL text names (any word that is a table name; a few extra loads are harmless). */
+  function tablesIn(folder, sql) {
+    return tablesNamedIn(sql, [...folder.tables.keys()]);
   }
 
   function insertTsv(folder, tableName, text, { replace = false } = {}) {
     const t = folder.tables.get(String(tableName).toLowerCase());
     if (!t) { console.warn('[labkey] unknown table in data:', tableName); return 0; }
-    const { header, rows } = parseTsv(text);
-    const colByName = new Map(t.columns.map(c => [c.name.toLowerCase(), c]));
-    const usable = header.map(h => colByName.get(h.toLowerCase()) || null);
-    const unknown = header.filter((h, i) => !usable[i]);
+    const { rows, unknown } = insertTsvRows(folder.db, t.name, t.columns, text, { replace });
     if (unknown.length) console.warn(`[labkey] ${t.name}: ignoring unknown columns`, unknown);
-    const cols = usable.filter(Boolean);
-    if (!cols.length) return 0;
-    const db = folder.db;
-    db.run('BEGIN');
-    if (replace) db.run(`DELETE FROM ${quoteIdent(t.name)}`);
-    const stmt = db.prepare(`INSERT INTO ${quoteIdent(t.name)} (${cols.map(c => quoteIdent(c.name)).join(', ')}) VALUES (${cols.map(() => '?').join(', ')})`);
-    for (const r of rows) {
-      const vals = [];
-      usable.forEach((c, i) => { if (c) vals.push(convert(r[i], c.type)); });
-      stmt.run(vals);
-    }
-    stmt.free();
-    db.run('COMMIT');
     folder.loaded.push(t.name);
-    return rows.length;
+    return rows;
+  }
+
+  function countTable(folder, n) {
+    const t = folder.tables.get(n);
+    if (!t) return;
+    const r = folder.db.exec(`SELECT COUNT(*) FROM ${quoteIdent(t.name)}`);
+    folder.rowCounts.set(n, r[0]?.values[0][0] ?? 0);
   }
 
   function refreshCounts(folder) {
-    for (const t of folder.schema.tables) {
-      const r = folder.db.exec(`SELECT COUNT(*) FROM ${quoteIdent(t.name)}`);
-      folder.rowCounts.set(t.name.toLowerCase(), r[0]?.values[0][0] ?? 0);
-    }
+    // (a table still to be loaded keeps the count the index gives)
+    for (const t of folder.schema.tables) if (!folder.files.has(t.name.toLowerCase())) countTable(folder, t.name.toLowerCase());
   }
 
   function rowsFrom(result) {
@@ -225,6 +215,7 @@ export function createLabkeyServer(RE) {
       assertSchema(schemaName);
       const f = await open(folderPath);
       const t = await api.table(folderPath, queryName);
+      await ensure(f, [t.name]);
       const known = new Map(t.columns.map(c => [c.name.toLowerCase(), c.name]));
       const cols = (columns && columns.length ? columns : t.columns.map(c => c.name)).map(c => {
         const n = known.get(String(c).trim().toLowerCase());
@@ -253,6 +244,7 @@ export function createLabkeyServer(RE) {
     async executeSql({ folderPath, schemaName = 'lists', sql, maxRows = -1 }) {
       assertSchema(schemaName);
       const f = await open(folderPath);
+      await ensure(f, tablesIn(f, sql));
       const translated = translateLabkeySql(sql);
       let res;
       try {
@@ -271,6 +263,7 @@ export function createLabkeyServer(RE) {
     async distinctValues({ folderPath, queryName, column, filters = [], limit = 250 }) {
       const f = await open(folderPath);
       const t = await api.table(folderPath, queryName);
+      await ensure(f, [t.name]);
       const col = t.columns.find(c => c.name.toLowerCase() === String(column).toLowerCase());
       if (!col) return [];
       const where = buildWhere(filters.filter(x => x.column.toLowerCase() !== col.name.toLowerCase()));
@@ -278,9 +271,10 @@ export function createLabkeyServer(RE) {
       return (res[0]?.values || []).map(([v, n]) => ({ value: v, count: n }));
     },
 
-    /** SQLite file bytes for the R / Python clients: the tables plus _lk_tables and _lk_columns (captions, types). */
+    /** SQLite file bytes of the whole release: every table with its rows, plus _lk_tables and _lk_columns (captions, types). */
     async exportDatabase(folderPath) {
       const f = await open(folderPath);
+      await ensure(f, [...f.files.keys()]);
       const bytes = f.db.export();
       // (sql.js forgets the functions it was given when it exports)
       registerFunctions(f.db);
@@ -303,8 +297,51 @@ export function createLabkeyServer(RE) {
     },
 
     /**
+     * The database file R and Python start from: every table's columns, the rows of the tables loaded in Settings, and
+     * _lk_tables and _lk_columns (names, categories, row counts, captions, types) and _lk_files (the address of each
+     * bundled table's TSV). Their clients fetch a bundled table when one of their queries first names it.
+     */
+    async clientDatabase(folderPath) {
+      const f = await open(folderPath);
+      const SQL = await loadSqlJs();
+      const copy = new SQL.Database();
+      try {
+        copy.run('BEGIN');
+        for (const t of f.schema.tables) copy.run(createTableSql(t));
+        copy.run('CREATE TABLE _lk_tables (name TEXT, category TEXT, row_count INTEGER)');
+        copy.run('CREATE TABLE _lk_columns (table_name TEXT, column_name TEXT, caption TEXT, type TEXT, position INTEGER)');
+        copy.run('CREATE TABLE _lk_files (table_name TEXT, url TEXT)');
+        const st = copy.prepare('INSERT INTO _lk_tables VALUES (?, ?, ?)');
+        const sc = copy.prepare('INSERT INTO _lk_columns VALUES (?, ?, ?, ?, ?)');
+        const sf = copy.prepare('INSERT INTO _lk_files VALUES (?, ?)');
+        for (const t of f.schema.tables) {
+          const n = t.name.toLowerCase();
+          st.run([t.name, t.category || '', f.rowCounts.get(n) || 0]);
+          t.columns.forEach((c, i) => sc.run([t.name, c.name, c.label || c.name, c.type || 'String', i + 1]));
+          if (f.bundled.has(n) && !f.uploaded.has(n)) sf.run([t.name, siteUrl(f.dataUrl + f.bundled.get(n))]);
+        }
+        st.free(); sc.free(); sf.free();
+        copy.run('COMMIT');
+        // the tables loaded in Settings travel with their rows (they are in no file of the website)
+        for (const n of f.uploaded) {
+          const t = f.tables.get(n);
+          if (!t) continue;
+          const names = t.columns.map(c => quoteIdent(c.name)).join(', ');
+          const res = f.db.exec(`SELECT ${names} FROM ${quoteIdent(t.name)}`);
+          if (!res.length) continue;
+          copy.run('BEGIN');
+          const ins = copy.prepare(`INSERT INTO ${quoteIdent(t.name)} (${names}) VALUES (${t.columns.map(() => '?').join(', ')})`);
+          for (const row of res[0].values) ins.run(row);
+          ins.free();
+          copy.run('COMMIT');
+        }
+        return copy.export();
+      } finally { copy.close(); }
+    },
+
+    /**
      * The files R and Python read (written into the shared file system, which copies them into R's and Python's own):
-     *   /resources/labkey/<release folder>.sqlite   one database per data release
+     *   /resources/labkey/<release folder>.sqlite   one database per data release (clientDatabase)
      *   /resources/labkey/server.tsv                the server's names, its folders and the user
      * Done once, and again when table data change.
      */
@@ -326,7 +363,7 @@ export function createLabkeyServer(RE) {
             ...DB.projects.map(p => ['project', p.name])];
           for (const rel of releases()) {
             try {
-              const bytes = await api.exportDatabase(rel.folderPath);
+              const bytes = await api.clientDatabase(rel.folderPath);
               put(`/resources/labkey/${rel.folder}.sqlite`, { kind: 'blob', blob: new Blob([bytes], { type: 'application/vnd.sqlite3' }), size: bytes.length });
               lines.push(['release', rel.folderPath, `${rel.folder}.sqlite`, rel.project, rel.folder]);
             } catch (e) { console.warn('[labkey] cannot prepare', rel.folderPath, e); }
@@ -345,6 +382,8 @@ export function createLabkeyServer(RE) {
     /** Load (replace) a table from TSV text. persist=true keeps it in this browser. */
     async loadTable(folderPath, table, text, { persist = true } = {}) {
       const f = await open(folderPath);
+      f.files.delete(String(table).toLowerCase());
+      f.uploaded.add(String(table).toLowerCase());
       const n = insertTsv(f, table, text, { replace: true });
       refreshCounts(f);
       if (persist) await idb.set(`labkey:${f.folderPath}:${table.toLowerCase()}`, text);

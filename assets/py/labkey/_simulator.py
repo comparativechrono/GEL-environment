@@ -154,6 +154,23 @@ class _Median(_Stats):
         return s[k] if len(s) % 2 else (s[k - 1] + s[k]) / 2
 
 
+class _Connection:
+    """A release's database, kept open in memory between requests; pending = the tables whose rows are still on the
+    website (lower-case name -> (name, address)), fetched the first time a query names them."""
+
+    def __init__(self, con, pending):
+        self.con, self.pending = con, pending
+
+    def execute(self, *args):
+        return self.con.execute(*args)
+
+    def close(self):
+        pass  # (kept for the next request)
+
+
+_OPEN = {}
+
+
 def connect(rel):
     try:
         import sqlite3
@@ -164,15 +181,82 @@ def connect(rel):
     if not os.path.exists(path):
         raise RequestError(message="The data browser cannot be reached from this Python. Restart the kernel and try again.",
                            status_code=503)
+    st = os.stat(path)
+    key = (st.st_mtime, st.st_size)
+    held = _OPEN.get(path)
+    if held and held[0] == key:
+        return held[1]
     try:
-        con = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        disk = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
     except Exception:
-        con = sqlite3.connect(path)
+        disk = sqlite3.connect(path)
+    con = sqlite3.connect(":memory:")
+    disk.backup(con)
+    disk.close()
     con.create_function("regexp", 2, lambda pattern, s: 1 if s is not None and re.search(pattern, str(s)) else 0)
     con.create_aggregate("stdev", 1, _Stdev)
     con.create_aggregate("variance", 1, _Variance)
     con.create_aggregate("median", 1, _Median)
-    return con
+    try:
+        pending = {str(n).lower(): (str(n), str(u)) for n, u in con.execute("SELECT table_name, url FROM _lk_files")}
+    except Exception:  # a database with every table's rows in it
+        pending = {}
+    wrapped = _Connection(con, pending)
+    _OPEN[path] = (key, wrapped)
+    return wrapped
+
+
+_WORD = re.compile(r"[a-z_][a-z0-9_]*")
+_TRUE = re.compile(r"^(true|t|yes|y|1)$", re.I)
+_FALSE = re.compile(r"^(false|f|no|n|0)$", re.I)
+_INT = re.compile(r"^\s*[+-]?\d+")
+_FLOAT = re.compile(r"^\s*[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?")
+
+
+def _value(v, typ):
+    """A TSV field as the column's type stores it (as the data browser itself reads it)."""
+    if v is None or v in ("", "NA", "NULL", "null"):
+        return None
+    if typ == "Integer":
+        m = _INT.match(v)
+        return int(m.group(0)) if m else v
+    if typ in ("Decimal", "Double"):
+        m = _FLOAT.match(v)
+        return float(m.group(0)) if m else v
+    if typ == "Boolean":
+        return 1 if _TRUE.match(v) else 0 if _FALSE.match(v) else v
+    return v
+
+
+def ensure(con, sql):
+    """Fetches the rows of the tables that sql names and that are still on the website."""
+    if not getattr(con, "pending", None):
+        return
+    for word in set(_WORD.findall(str(sql).lower())):
+        item = con.pending.get(word)
+        if not item:
+            continue
+        name, url = item
+        try:
+            from pyodide.http import open_url
+            text = open_url(url).read()
+        except Exception as e:
+            raise RequestError(message=f"The data browser could not send the rows of {name}: {e}", status_code=503)
+        lines = [ln for ln in text.replace("\r", "").split("\n") if ln]
+        if lines:
+            header = [h.strip() for h in lines[0].split("\t")]
+            meta = {str(c).lower(): (c, t) for c, t in con.execute("SELECT column_name, type FROM _lk_columns WHERE table_name = ?", [name])}
+            use = [(i, meta[h.lower()]) for i, h in enumerate(header) if h.lower() in meta]
+            if use:
+                cols = ", ".join('"' + c.replace('"', '""') + '"' for _, (c, _t) in use)
+                ins = f'INSERT INTO "{name}" ({cols}) VALUES ({", ".join("?" for _ in use)})'
+                rows = []
+                for ln in lines[1:]:
+                    f = ln.split("\t")
+                    rows.append([_value(f[i] if i < len(f) else None, t) for i, (_c, t) in use])
+                con.con.executemany(ins, rows)
+                con.con.commit()
+        del con.pending[word]
 
 
 def run(con, sql, params=()):
@@ -301,6 +385,7 @@ def select_rows(server_context, schema_name, query_name, view_name=None, filter_
     con = connect(rel)
     try:
         tbl = table(con, schema_name, query_name)
+        ensure(con, tbl)
         if view_name and view_name != "~~DEFAULT~~":
             raise QueryNotFoundError(message=f"Unable to find the view '{view_name}' for query '{tbl}'.", status_code=404)
         meta = columns_of(con, tbl)
@@ -338,6 +423,7 @@ def execute_sql(server_context, schema_name, sql, container_path=None, max_rows=
         tr = str(_js().translateR(str(sql)))
         if tr.startswith("\u0001"):
             raise RequestError(message=tr[1:], status_code=400)
+        ensure(con, tr)
         if sort or (max_rows is not None and int(max_rows) >= 0):
             inner, _ = run(con, f"SELECT * FROM ({tr}) LIMIT 0")
             tr = f"SELECT * FROM ({tr})" + order(sort, inner) + limit(max_rows, None)

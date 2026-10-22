@@ -12,6 +12,7 @@ written to tests/out/. R and Python are downloaded from their CDNs (webR, Pyodid
 full run needs the internet.
 """
 import os
+import re
 import sys
 import time
 
@@ -222,12 +223,15 @@ def run():
                 for code in ['library(Rlabkey)',
                              'labkey.setDefaults(baseUrl = "https://labkey.prod.aws.gel.ac/labkey/")',
                              f'p <- labkey.selectRows(folderPath = "{RELEASE}", schemaName = "lists", queryName = "participant", colNameOpt = "rname")',
-                             'cat("rows:", nrow(p), "\\n")']:
+                             'cat("rows:", nrow(p), "\\n")',
+                             f'q <- labkey.executeSql(folderPath = "{RELEASE}", schemaName = "lists", colNameOpt = "rname", sql = "SELECT d.normalised_specific_disease, COUNT(*) AS n FROM rare_diseases_participant_disease d JOIN participant p ON p.participant_id = d.participant_id GROUP BY d.normalised_specific_disease")',
+                             'cat("diseases:", nrow(q), "\\n")']:
                     d.js('(c) => MG.app.rstudio.consoleRun(c)', code)
                     time.sleep(4)
                 time.sleep(6)
                 con = d.js("() => document.querySelector('.rs-conhost').innerText")
                 check('R: Rlabkey reads a table', 'rows: ' in con and 'rows: 0' not in con, con[-400:])
+                check('R: a query fetches the tables it names', re.search(r'diseases: [1-9]', con) is not None, con[-400:])
             else:
                 check('R: Rlabkey reads a table', False, 'R did not start')
             d.shot('rstudio')
@@ -240,10 +244,12 @@ def run():
                 d.js('(c) => MG.app.spyder.execute(c)',
                      'from labkey.api_wrapper import APIWrapper\n'
                      f'api = APIWrapper("labkey.prod.aws.gel.ac", "{RELEASE.lstrip("/")}", "labkey", use_ssl=True)\n'
-                     'r = api.query.select_rows("lists", "participant", max_rows=5)\nprint("rowCount:", r["rowCount"])')
-                ok = d.wait_for("() => /rowCount: \\d+/.test(MG.app.spyder.conScroll.innerText)", 120)
+                     'r = api.query.select_rows("lists", "participant", max_rows=5)\nprint("rowCount:", r["rowCount"])\n'
+                     's = api.query.execute_sql("lists", "SELECT COUNT(*) AS n FROM hes_apc")\nprint("episodes:", s["rows"][0]["n"])')
+                ok = d.wait_for("() => /episodes: \\d+/.test(MG.app.spyder.conScroll.innerText)", 120)
                 con = d.js('() => MG.app.spyder.conScroll.innerText')
                 check('Python: labkey reads a table', ok and 'rowCount: 0' not in con, con[-400:])
+                check('Python: a query fetches the tables it names', re.search(r'episodes: [1-9]', con) is not None, con[-400:])
             else:
                 check('Python: labkey reads a table', False, 'Python did not start')
             d.shot('spyder')
