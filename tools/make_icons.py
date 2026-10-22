@@ -172,11 +172,13 @@ ICONS["apps/participant-explorer"] = svg48(
     '<circle cx="31" cy="29" r="5" fill="none" stroke="#ffd36b" stroke-width="2.4"/><path d="M34.5 32.5l4 4" stroke="#ffd36b" stroke-width="2.8" stroke-linecap="round"/>',
     grad("g", "#f08a5d", "#c85a2e"))
 
+(_ra_front, _ra_back), (_rb_front, _rb_back), _r_pairs = helix_icon(cx=24, r=7.5, y0=8.5, y1=39.5, turn=34.0, rise=5.0)
 ICONS["apps/re-logo"] = svg48(
     '<circle cx="24" cy="24" r="21" fill="url(#g)"/>'
-    '<g fill="none" stroke-width="2.6" stroke-linecap="round"><path d="M17 9c12 7 12 15 0 22s-0 8 0 8" stroke="#ffffff"/>'
-    '<path d="M31 9c-12 7-12 15 0 22s0 8 0 8" stroke="#8fd3ff"/></g>'
-    '<g stroke="#ffffff" stroke-width="1.6" opacity=".75"><path d="M19.5 13h9M20 27h8M18.5 35h11"/></g>',
+    '<g fill="none" stroke-linecap="round" stroke-linejoin="round">'
+    f'<path d="{_ra_back}" stroke="#ffffff" stroke-width="2.3" opacity=".55"/><path d="{_rb_back}" stroke="#8fd3ff" stroke-width="2.3" opacity=".55"/>'
+    f'<path d="{_r_pairs}" stroke="#ffffff" stroke-width="1.6" opacity=".75"/>'
+    f'<path d="{_ra_front}" stroke="#ffffff" stroke-width="2.6"/><path d="{_rb_front}" stroke="#8fd3ff" stroke-width="2.6"/></g>',
     grad("g", "#3d7fd1", "#1c4f9a"))
 
 # ----------------------------------------------------------------------------- places
