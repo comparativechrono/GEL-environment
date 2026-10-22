@@ -25,6 +25,7 @@ BAM = '/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP30000
 HPC = 'doublehelix.helix.prod.aws.gel.ac'
 PLUGINS = '/gel_data_resources/example_scripts/workshop_scripts/bcftools_plugins'
 REPEATS = '/gel_data_resources/example_scripts/workshop_scripts/repeat_expansions/synthetic'
+KINSHIP = '/gel_data_resources/example_scripts/workshop_scripts/relatedness'
 # (is a SAM text coordinate-sorted? – by contig, as the records come, and then by position)
 SORTED = "awk '$3==c && $4+0<p {bad++} {c=$3; p=$4+0} END{print (bad ? \"UNSORTED\" : \"COORDINATE-SORTED\"), NR}'"
 
@@ -143,6 +144,12 @@ def run():
         d.type(f'samtools sort -o smoke.sorted.bam smoke_realigned.bam && samtools index smoke.sorted.bam && REViewer --reads smoke.sorted.bam --vcf smoke.vcf --reference {REPEATS}/reference.fa --catalog {REPEATS}/catalog.json --locus EXPANDED_CAG --output-prefix smoke > rv.log && ls smoke.EXPANDED_CAG.svg && cat smoke.metrics.tsv', 25)
         t = d.terminal_text()
         check('repeats: REViewer draws the reads (SVG) and counts them', 'smoke.EXPANDED_CAG.svg' in t and '12/77' in t.split('smoke.EXPANDED_CAG.svg')[-1], t[-300:])
+        # (relatedness with PLINK 2's KING-robust: the family and the duplicate of the synthetic cohort, the father's
+        # pairs included – the pairs of the first sample, which this build gets wrong with an odd number of samples)
+        d.type('module load plink2/2.0.0-b.1-dev', 1)
+        d.type(f"plink2 --bfile {KINSHIP}/cohort --make-king-table --king-table-filter 0.0442 --out smoke_king > king.log && awk 'NR > 1 {{ print $2, $4, $8 }}' smoke_king.kin0", 25)
+        t = d.terminal_text()
+        check('relatedness: PLINK 2 finds the family and the duplicate (KING-robust)', all(x in t for x in ('DUP CHILD1 0.5', 'CHILD1 DAD 0.246479', 'CHILD2 DAD 0.245414', 'CHILD2 CHILD1 0.250246')), t[-400:])
         d.type('module purge', 1)
 
         # ------------------------------------------------------- the HPC and LSF

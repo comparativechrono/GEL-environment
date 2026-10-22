@@ -5,6 +5,7 @@ Example scripts.
   labkey_api/select_rows.R      fetching (part of) a whole table with labkey.selectRows
   workshop_scripts/             materials of training sessions:
     bcftools_plugins/           BCFtools' plugins (+split-vep, +fill-tags, +mendelian …) on a small synthetic family
+    relatedness/                kinship with PLINK 2 (KING-robust): related pairs, a hidden duplicate, unrelated samples
     repeat_expansions/          ExpansionHunter and REViewer: genotyping repeat expansions and drawing their reads
 
 Copy a script into your own folder before changing it:

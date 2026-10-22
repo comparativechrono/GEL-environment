@@ -1,0 +1,22 @@
+How the samples of cohort.bed, .bim and .fam are related: the pedigree the genotypes were made from (genomics-wasm,
+datasets/king/truth.json), with the kinship and IBS0 that PLINK 2's KING-robust gives each pair.
+
+  sample 1     sample 2     relationship            kinship    IBS0
+  FAM DAD      FAM CHILD1   parent and child         0.2465    0
+  FAM DAD      FAM CHILD2   parent and child         0.2454    0
+  FAM MOM      FAM CHILD1   parent and child         0.2494    0
+  FAM MOM      FAM CHILD2   parent and child         0.2516    0
+  FAM CHILD1   FAM CHILD2   full siblings            0.2502    0.0216
+  COPY DUP     FAM CHILD1   the same genotypes       0.5       0
+  COPY DUP     FAM DAD      parent and child         0.2465    0
+  COPY DUP     FAM MOM      parent and child         0.2494    0
+  COPY DUP     FAM CHILD2   full siblings            0.2502    0.0216
+  FAM DAD      FAM MOM      unrelated               -0.0069    0.0857
+
+DUP is CHILD1 a second time, under another family ID: in a real cohort, a sample sequenced twice, a participant
+recruited twice, or identical twins. So DUP is also DAD's and MOM's child and CHILD2's sibling, which the .fam does
+not say.
+
+Every other pair is unrelated: kinship near 0 (from -0.020 to 0.016 here). U01 … U99 are unrelated founders. U20 has
+a fifth of its genotypes missing, so its pairs have fewer SNPs (NSNP 26,174 instead of 32,809). The full siblings
+share both, one or neither of their parents' copies of a stretch of chromosome, in turn, in blocks of about 10 Mb.
