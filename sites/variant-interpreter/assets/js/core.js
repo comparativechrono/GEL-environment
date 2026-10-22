@@ -236,6 +236,12 @@ export function limiter(n = 2, gapMs = 0) {
 
 /* ---------- downloads and the clipboard ---------- */
 export function downloadBlob(blob, filename) {
+  // RE simulator: inside the Research Environment the browser saves it in ~/Downloads (nothing reaches the
+  // computer; the Airlock is the only way out); the <a> below is only for the app run on its own, outside the RE.
+  try {
+    const b = window.frameElement && window.frameElement.reBrowser;
+    if (b && b.download) { b.download(filename, blob); return; }
+  } catch (e) { /* opened outside the RE desktop */ }
   const url = URL.createObjectURL(blob);
   const a = h('a', { href: url, download: filename, style: { display: 'none' } });
   document.body.appendChild(a);

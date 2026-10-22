@@ -1086,14 +1086,13 @@ shinyApp(ui = ui, server = server)
       const img = h('img', { src: p.plot.png(), alt: 'Plot', style: { maxWidth: '100%', display: 'block', margin: 'auto' } });
       m.box.querySelector('.modal-b').appendChild(img);
     }
-    plotExport() {
+    async plotExport() {
       const p = this.plots[this.plotAt];
       if (!p) return toast('There is no plot to export.', 'warn');
-      const a = h('a', { href: p.plot.png(), download: 'Rplot.png' });
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      toast('Rplot.png has been downloaded to your computer. (To save a plot into your files from R, use <code>png("plot.png")</code> … <code>dev.off()</code>, or <code>ggsave()</code>.)', null, 6000);
+      // RE simulator: into ~/Downloads inside the RE (MG.downloadBlob → MG.app.saveDownload), not the computer
+      const blob = await (await fetch(p.plot.png())).blob();
+      MG.downloadBlob(blob, 'Rplot.png');
+      toast('Rplot.png has been saved in ~/Downloads inside the Research Environment. (To save a plot into your files from R, use <code>png("plot.png")</code> … <code>dev.off()</code>, or <code>ggsave()</code>.)', null, 6000);
     }
     async plotCopy() {
       const p = this.plots[this.plotAt];

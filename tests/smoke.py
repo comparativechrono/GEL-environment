@@ -214,14 +214,20 @@ def run():
         projects = d.js("() => RE.services.submissions.projects().map((p) => (p.id || p.ref) + ':' + p.status)")
         check('Research Registry: the training project is approved', any(p.startswith('RR4001:approved') for p in projects), ', '.join(projects))
 
-        # ------------------------------------------------------- the clipboard stays inside the RE
+        # ------------------------------------------------------- the clipboard and downloads stay inside the RE
+        # The computer's own clipboard, through a SEPARATE browser context: the OS clipboard is shared within the one
+        # Chromium process, but that page does not load the RE, so it is not guarded. Isolation is always on (no
+        # switch), so this is the only way the test can see the real clipboard.
+        cpage = browser.new_context(permissions=['clipboard-read', 'clipboard-write']).new_page()
+        cpage.goto(BASE + 'README.md')
+
         def computer_clipboard(text=None):
-            # (the computer's own clipboard, through the page with the RE's rule switched off for a moment)
-            # (and the clipboard is only there for a page that has the focus – not a frame of it)
-            return d.js("""async (t) => { if (document.activeElement && document.activeElement.tagName === 'IFRAME') document.activeElement.blur();
-                window.focus(); RE.session.setSetting('isolateClipboard', false);
-                try { if (t !== null) await navigator.clipboard.writeText(t); return await navigator.clipboard.readText(); }
-                finally { RE.session.setSetting('isolateClipboard', true); } }""", text)
+            cpage.bring_to_front()
+            if text is not None:
+                cpage.evaluate('(t) => navigator.clipboard.writeText(t)', text)
+            v = cpage.evaluate('() => navigator.clipboard.readText()')
+            page.bring_to_front()
+            return v
 
         def editor_text():
             return d.js("() => document.querySelector('.CodeMirror').CodeMirror.getValue()")
@@ -248,6 +254,18 @@ def run():
         time.sleep(0.5)
         check('clipboard: a sandboxed page copies into the RE', d.js('() => RE.clipboard.readText()') == 'sandboxed' and computer_clipboard() == 'from the computer',
               d.js('() => RE.clipboard.readText()'))
+        d.close_all()
+
+        # downloads: a file "downloaded" from the terminal is saved in ~/Downloads inside the RE, and nothing reaches
+        # the computer (the only real download is the Airlock's approved export)
+        to_computer = []
+        page.on('download', lambda dl: to_computer.append(dl.suggested_filename))
+        d.launch('terminal', wait=3)
+        d.type('echo keep-me > leaving.txt', 1)
+        d.type('download leaving.txt', 1.5)
+        in_re = d.js("() => RE.vfs.exists('/home/jdoe/Downloads/leaving.txt')")
+        check('download: a terminal download is saved in ~/Downloads inside the RE', in_re)
+        check('download: nothing was downloaded to the computer', not to_computer, ', '.join(to_computer))
         d.close_all()
 
         if not QUICK:

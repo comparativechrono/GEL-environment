@@ -18,19 +18,19 @@
 // browser) cannot be reached from here: isolateHtml() puts the same code at the
 // top of it, and it talks to this page with postMessage.
 //
-// Settings ▸ Training controls ▸ "Keep the clipboard inside the Research
-// Environment" switches it off (CONFIG.isolateClipboard is the default). The
-// sign-in screens stand for the WorkSpaces client, outside the remote desktop:
-// they keep the computer's clipboard. A web page cannot stop screenshots,
-// retyping, the browser's developer tools or its PDF viewer, nor – on Linux –
-// the middle-click paste of text selected in the page.
+// It is always on: there is no setting to turn it off, so that the Airlock
+// stays the only way data can leave the RE. The sign-in screens stand for the
+// WorkSpaces client, outside the remote desktop, so they keep the computer's
+// clipboard. A web page cannot stop screenshots, retyping, the browser's
+// developer tools or its PDF viewer, nor – on Linux – the middle-click paste
+// of text selected in the page.
 // =============================================================================
 
 import { showMenu, closeMenus } from './menu.js';
 
 const clip = { text: '', html: '', blobs: null }; // what was copied last
 let RE = null;
-let isolated = true;
+const isolated = true;  // always on: the clipboard stays inside the RE – there is no switch to turn it off
 let explained = false;  // the first copy has been explained
 let baseline = null;    // the computer's clipboard as the first paste after a copy saw it
 let warnedAt = 0;
@@ -41,11 +41,6 @@ const watched = new WeakSet(); // documents whose new frames are watched
 /** Installs the RE's clipboard in this page (and its frames, as they appear): RE.clipboard. */
 export function installClipboard(re) {
   RE = re;
-  isolated = re.session.settings.isolateClipboard !== false;
-  re.bus.on('session:settings', (s) => {
-    const on = !!s && s.isolateClipboard !== false;
-    if (on !== isolated) { isolated = on; broadcast(); }
-  });
   window.addEventListener('message', onMessage);
   re.clipboard = {
     get isolated() { return isolated; },

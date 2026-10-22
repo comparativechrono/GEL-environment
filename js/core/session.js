@@ -13,8 +13,6 @@ const DEFAULT_SETTINGS = {
   autoReview: true,
   // samtools, bcftools … need `module load` first (as on the HPC)
   requireModules: true,
-  // the clipboard stays inside the RE (js/core/clipboard.js)
-  isolateClipboard: CONFIG.isolateClipboard !== false,
 };
 
 export const session = {

@@ -3190,11 +3190,13 @@ Try 'ls --help' for more information.`, 2);
     ctx.out(path + '\n');
   };
   B.download = async (ctx) => {
-    if (MG.app && MG.app.term && MG.app.term.agentCmd) throw userErr('download: this saves a file to the computer of the person at the terminal – not available to the agent');
+    // RE simulator: a copy is saved in ~/Downloads inside the Research Environment (MG.downloadBlob →
+    // MG.app.saveDownload), not on the person's computer; files leave the RE only through the Airlock.
+    if (MG.app && MG.app.term && MG.app.term.agentCmd) throw userErr('download: not available to the agent');
     const unknown = ctx.args.find((a) => /^-./.test(a));
-    if (unknown) throw userErr(`download: unknown option ${unknown}\nusage: download FILE|FOLDER …   (saves a copy to your computer; a folder as a .zip)`);
+    if (unknown) throw userErr(`download: unknown option ${unknown}\nusage: download FILE|FOLDER …   (saves a copy in ~/Downloads inside the RE; a folder as a .zip)`);
     const files = ctx.args.filter((a) => !a.startsWith('-'));
-    if (!files.length) throw userErr('usage: download FILE|FOLDER …   (saves a copy to your computer; a folder as a .zip)');
+    if (!files.length) throw userErr('usage: download FILE|FOLDER …   (saves a copy in ~/Downloads inside the RE; a folder as a .zip)');
     for (const f of files) {
       const e = ctx.fs.get(f);
       if (!e) throw userErr(`download: ${f}: No such file or directory`);
@@ -3202,12 +3204,12 @@ Try 'ls --help' for more information.`, 2);
         // a folder: as a .zip (what the buttons "Download … as a .zip" do)
         const abs = ctx.fs.resolve(f), name = (MG.path.basename(abs) || 'home') + '.zip';
         const zipped = await MG.project.download(abs, name, {});
-        if (zipped) ctx.out(`Saving ${name} (${MG.humanSize(zipped.size)}B) to your Downloads folder\n`);
+        if (zipped) ctx.out(`Saved ${name} (${MG.humanSize(zipped.size)}B) in ~/Downloads inside the Research Environment. To take files out of the RE, use the Airlock.\n`);
         continue;
       }
       const blob = await ctx.fs.toBlob(f);
       MG.downloadBlob(blob, MG.path.basename(ctx.fs.resolve(f)));
-      ctx.out(`Saving ${MG.path.basename(ctx.fs.resolve(f))} (${MG.humanSize(blob.size)}B) to your Downloads folder\n`);
+      ctx.out(`Saved ${MG.path.basename(ctx.fs.resolve(f))} (${MG.humanSize(blob.size)}B) in ~/Downloads inside the Research Environment. To take files out of the RE, use the Airlock.\n`);
     }
   };
   B.man = (ctx) => {

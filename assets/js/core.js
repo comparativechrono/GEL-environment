@@ -229,6 +229,9 @@
 
   /* ---------- downloads & clipboard ---------- */
   function downloadBlob(blob, filename) {
+    // RE simulator: files stay inside the Research Environment – a download is saved in ~/Downloads there
+    // (MG.app.saveDownload), not on the person's computer; the Airlock is the only way out.
+    if (MG.app && MG.app.saveDownload) { MG.app.saveDownload(filename, blob); return; }
     const url = URL.createObjectURL(blob);
     const a = h('a', { href: url, download: filename, style: { display: 'none' } });
     document.body.appendChild(a);

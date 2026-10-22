@@ -100,6 +100,34 @@ export function installAppAdapter(RE) {
     if (v.url) return app.browse(v.url);
   };
 
+  /**
+   * A "download" from any of the engine's tools (the terminal's `download`, Save session, RStudio's file and plot
+   * export, the project .zip buttons) is saved in ~/Downloads inside the Research Environment, not on the person's
+   * computer: as in the RE, files leave only through an Airlock export. `data` may be a Blob, a typed array, an
+   * ArrayBuffer or a string (and may belong to another realm – a site's frame). Returns the path it was saved at.
+   */
+  app.saveDownload = async (name, data, type) => {
+    const vfs = RE.vfs;
+    const dir = `${RE.session.home}/Downloads`;
+    if (!vfs.isDir(dir)) vfs.mkdir(dir, { recursive: true });
+    const base = String(name || 'download').replace(/[/\\]/g, '_');
+    const m = base.match(/^(.*?)(\.[^.]+)?$/);
+    let p = `${dir}/${base}`, i = 1;
+    while (vfs.exists(p)) p = `${dir}/${m[1]}(${i++})${m[2] || ''}`;
+    if (data && typeof data !== 'string') {
+      if (typeof data.arrayBuffer === 'function') data = await data.arrayBuffer();
+      data = ArrayBuffer.isView(data) ? new Uint8Array(data.buffer, data.byteOffset, data.byteLength) : new Uint8Array(data);
+    }
+    vfs.writeFile(p, data);
+    RE.notify({
+      title: 'Saved in the Research Environment',
+      body: `${vfs.basename(p)} was saved in ~/Downloads (inside the RE). Files leave the Research Environment only through an Airlock export request.`,
+      icon: 'assets/icons/places/folder-downloads.svg',
+      onClick: () => launch('file-manager', { path: dir, select: p }),
+    });
+    return p;
+  };
+
   /** "Upload files from your computer": not possible in the RE – only through an Airlock import */
   app.pickFiles = async () => {
     await RE.dialogs.message({

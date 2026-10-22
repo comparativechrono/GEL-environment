@@ -43,7 +43,12 @@ The page opens on the RE's sign-in screen, then the desktop: the panel at the to
 
 The Applications menu (Whisker Menu) has these and the **Settings Manager** (desktop, account, the instructors' *Training controls*, the data browser's tables). Files open in the right application by double-click, *Open With*, or from the terminal (`xdg-open`, `igv file.bam`, `rstudio script.R`, `mousepad notes.txt`).
 
-**The clipboard is the RE's own.** Copy and paste work between the programs of the desktop – the terminal, the editors, RStudio, Spyder, IGV and the websites – but, as in the RE, nothing copied in the simulator can be pasted on the student's computer, and nothing copied on the computer can be pasted in: Ctrl+V pastes what was last copied inside. Notices explain this the first time a student copies, and when they try to paste in something from their computer. Dragging text, links and pictures in or out is blocked too, and the right-click menu is the desktop's (Cut, Copy, Paste, Delete, Select All) instead of the browser's, which could copy or save a picture. The sign-in screens, which stand for the WorkSpaces client on the student's own computer, keep the computer's clipboard.
+**Nothing leaves except through the Airlock.** As in the real RE, data can only come out of the Research Environment through an Airlock export request, which is reviewed. Everything else stays inside:
+
+- *The clipboard is the RE's own.* Copy and paste work between the programs of the desktop – the terminal, the editors, RStudio, Spyder, IGV and the websites – but nothing copied in the simulator can be pasted on the student's computer, and nothing copied on the computer can be pasted in: Ctrl+V pastes what was last copied inside. Notices explain this the first time a student copies, and when they try to paste in something from their computer. Dragging text, links and pictures in or out is blocked too, and the right-click menu is the desktop's (Cut, Copy, Paste, Delete, Select All) instead of the browser's, which could copy or save a picture.
+- *Downloads go to `~/Downloads` inside the RE.* The terminal's `download`, *Save session*, RStudio's and Spyder's plot and file exports, the data browser's exports and the "download as .zip" buttons all save into the student's `~/Downloads` folder *inside* the Research Environment, not onto their computer; to take a result out, they put it through the Airlock.
+
+This is always on: there is no setting to turn it off, so that the Airlock cannot be circumvented. The sign-in screens, which stand for the WorkSpaces client on the student's own computer, keep the computer's clipboard.
 
 ## Put it on GitHub Pages
 
@@ -81,7 +86,6 @@ Addresses that help in a practical:
 - *Review submissions automatically* – on: the simulated Research Management Team, Access Review Committee and Airlock Team decide each submission after a delay (the delay can be changed, for example to 5 seconds); off: submissions wait for a decision made here.
 - *Enforce the 30-day rule for exports* – as in the RE, nothing leaves a project before it has been approved for 30 days. The training project RR4001, which every user is a member of, was approved 120 days ago; projects approved in the session can be backdated here.
 - *Require "module load"* – whether the programs of `module avail` need `module load` first, as in the RE (R and Python never do).
-- *Keep the clipboard inside the Research Environment* – on (the default; `isolateClipboard` in `js/config.js`): copy and paste stay inside the desktop, as in the RE; off: the computer's clipboard, for a demonstration in which you paste from your own notes.
 - The lists of proposals and Airlock requests, with buttons to approve, ask for revisions or more information, reject, and backdate; *Reset* clears the requests, or the whole simulator.
 
 **A route through the RE** (also on the RE Documentation page): find a cohort in LabKeeper (filter `rare_diseases_participant_disease`, look up `genome_file_paths_and_types`), export it or copy *Export ▸ Script* into RStudio; set up `~/.netrc` so that Rlabkey and labkey can sign in; look at a participant's BAM in IGV; log in to the HPC, `module load samtools`, submit `samtools flagstat` with `bsub -q short -P re_gecip_training`; register a project in the Research Registry; export a summary table through the Airlock – and see it rejected when it has a count below 5.
@@ -106,7 +110,7 @@ Names, host names and addresses live in one file: the environment's and the data
 
 ## What students keep, and privacy
 
-Each student's files, settings, proposals and requests are kept by their browser for the site's address (IndexedDB and localStorage) – not on a server. They survive closing the page; they are lost if the browser's data for the site are cleared, and a private window keeps nothing. Files leave through the Airlock (approved exports are downloaded) or `download FILE` in the terminal.
+Each student's files, settings, proposals and requests are kept by their browser for the site's address (IndexedDB and localStorage) – not on a server. They survive closing the page; they are lost if the browser's data for the site are cleared, and a private window keeps nothing. Files leave the Research Environment only through the Airlock (approved exports are downloaded to the student's real computer); downloads from inside the RE – the terminal's `download`, the exports, *Save session* – go to `~/Downloads` inside the RE, not onto the computer.
 
 The site sets no cookies and has no tracking. What leaves the computer: requests for the site's own files, R and Python and their packages (webR's and Pyodide's CDNs), the hosted genomes when chosen in IGV (igv.org, UCSC), the variant interpreter's queries to public web services, and – only if it is switched on – each submission to the instructor's Apps Script.
 
@@ -118,7 +122,7 @@ Current Chrome, Edge, Firefox and Safari on a laptop or desktop with 8 GB of mem
 - The HPC is simulated: jobs run in the same browser, with LSF's states (PEND, RUN, DONE, EXIT), output files and messages.
 - The hosted genomes in IGV (hg38, hg19) need the internet; the training genome does not.
 - Whitelisted websites cannot be shown inside the simulated browser (they refuse to be framed): they open in a tab of the student's own browser.
-- The clipboard rule copies the RE's behaviour; it does not secure anything (the data are synthetic). A web page cannot stop screenshots or retyping, the browser's developer tools, its own PDF viewer (text selected in a PDF can be copied out), or – on Linux – the middle-click paste of text selected in the page.
+- The clipboard and download rules copy the RE's behaviour for teaching; they are not a security boundary (the data are synthetic). A web page cannot stop screenshots or retyping, the browser's developer tools or console, its own PDF viewer (text selected in a PDF can be copied out), or – on Linux – the middle-click paste of text selected in the page. The point is to teach the habit of using the Airlock, on data that would not matter if it leaked.
 - `man` pages of the programs show examples with the bioinformatics workbench's file names; the terminal says so. Apart from the tumour/normal BAM files in `/genomes`, the simulator has no example inputs for the programs (FASTQ files, RNA-seq, metagenomic databases …): bring them through the Airlock's import, or add them to `data/fs`.
 
 ## Files

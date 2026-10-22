@@ -112,11 +112,6 @@ export const CONFIG = {
     ],
   },
 
-  // The RE's own clipboard (js/core/clipboard.js): copy and paste work inside the desktop, but nothing copied in it
-  // reaches the computer's clipboard, and nothing copied on the computer can be pasted in – as in the RE. The
-  // default for Settings ▸ Training controls, where an instructor can switch it off in their browser.
-  isolateClipboard: true,
-
   // The workbench engine (assets/js, from the comparativechrono workbenches) and the libraries it loads.
   engine: {
     webrBase: 'https://webr.r-wasm.org/v0.6.0/',
@@ -125,7 +120,7 @@ export const CONFIG = {
     pythonPreload: ['numpy', 'pandas', 'matplotlib'],
   },
   // Bumped when engine files change, so browsers fetch the new copies.
-  buildId: '2026-10-22.5',
+  buildId: '2026-10-22.6',
 
   cdn: {
     sqljs: 'assets/vendor/sqljs/',

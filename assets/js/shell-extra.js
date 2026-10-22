@@ -3243,7 +3243,7 @@ This is the terminal's own bc, written for this simulator: it does the sums as G
   + - * / %   = != < <= > >=   | &   STRING : REGEX   match STRING REGEX   substr STRING POS LENGTH   index STRING CHARS   length STRING   ( … )
 Status 0 if the result is neither empty nor 0, 1 if it is, 2 for a mistake. Whole numbers of any size.`,
     download: `Usage: download FILE|FOLDER...
-Save a copy on your computer (a folder as a .zip). For the person at the terminal: the agent cannot use it.`,
+Save a copy in ~/Downloads inside the Research Environment (a folder as a .zip). Files leave the RE only through an Airlock export request, not onto your own computer. For the person at the terminal: the agent cannot use it.`,
     open: `Usage: open FILE
 Show a file in the application that opens it (an HTML report, a table, a text).`
   };
