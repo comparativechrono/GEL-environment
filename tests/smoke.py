@@ -80,7 +80,8 @@ class Desktop:
 def run():
     with sync_playwright() as pw:
         browser = pw.chromium.launch(args=['--no-sandbox'])
-        page = browser.new_context(viewport={'width': 1400, 'height': 900}).new_page()
+        # (the clipboard permissions let the test look at the computer's clipboard: see computer_clipboard)
+        page = browser.new_context(viewport={'width': 1400, 'height': 900}, permissions=['clipboard-read', 'clipboard-write']).new_page()
         d = Desktop(page)
 
         # ------------------------------------------------------------- the desktop
@@ -212,6 +213,42 @@ def run():
         check('Airlock: a count below 5 fails the pre-check', 'fail:counts' in findings, ', '.join(findings))
         projects = d.js("() => RE.services.submissions.projects().map((p) => (p.id || p.ref) + ':' + p.status)")
         check('Research Registry: the training project is approved', any(p.startswith('RR4001:approved') for p in projects), ', '.join(projects))
+
+        # ------------------------------------------------------- the clipboard stays inside the RE
+        def computer_clipboard(text=None):
+            # (the computer's own clipboard, through the page with the RE's rule switched off for a moment)
+            # (and the clipboard is only there for a page that has the focus – not a frame of it)
+            return d.js("""async (t) => { if (document.activeElement && document.activeElement.tagName === 'IFRAME') document.activeElement.blur();
+                window.focus(); RE.session.setSetting('isolateClipboard', false);
+                try { if (t !== null) await navigator.clipboard.writeText(t); return await navigator.clipboard.readText(); }
+                finally { RE.session.setSetting('isolateClipboard', true); } }""", text)
+
+        def editor_text():
+            return d.js("() => document.querySelector('.CodeMirror').CodeMirror.getValue()")
+
+        computer_clipboard('from the computer')
+        d.launch('text-editor', wait=1.5)
+        page.click('.CodeMirror')
+        page.keyboard.type('inside the RE')
+        for key in ('Control+A', 'Control+C', 'Control+End', 'Control+V'):
+            page.keyboard.press(key)
+        time.sleep(0.3)
+        check('clipboard: copy and paste work inside the RE', editor_text() == 'inside the REinside the RE', repr(editor_text()))
+        check('clipboard: what is copied in the RE does not reach the computer', computer_clipboard() == 'from the computer')
+        page.keyboard.press('Control+V')
+        time.sleep(0.3)
+        check("clipboard: the computer's clipboard is not pasted in", 'from the computer' not in editor_text(), repr(editor_text()))
+        # (an HTML file in the web browser is in a sandboxed frame: its own copy of the rules)
+        d.js("""() => RE.vfs.writeFile('/home/jdoe/smoke.html', '<!doctype html><meta charset="utf-8"><body style="margin:0">'
+            + '<p style="position:absolute;left:10px;top:10px;margin:0;font:20px sans-serif">sandboxed</p></body>')""")
+        d.launch('web-browser', {'url': 'file:///home/jdoe/smoke.html'}, wait=2.5)
+        box = page.locator('.app-browser iframe.bw-frame').last.bounding_box()
+        page.mouse.dblclick(box['x'] + 40, box['y'] + 20)
+        page.keyboard.press('Control+C')
+        time.sleep(0.5)
+        check('clipboard: a sandboxed page copies into the RE', d.js('() => RE.clipboard.readText()') == 'sandboxed' and computer_clipboard() == 'from the computer',
+              d.js('() => RE.clipboard.readText()'))
+        d.close_all()
 
         if not QUICK:
             # ------------------------------------------------------- R: Rlabkey

@@ -45,6 +45,8 @@ function onKey(e) {
 
 function buildMenu(items, depth) {
   const menu = h('div.menu-popup', { role: 'menu' });
+  // (as in GTK, a menu does not take the focus: Paste goes where the cursor was)
+  menu.addEventListener('mousedown', (e) => e.preventDefault());
   for (const it of items) {
     if (!it) continue;
     if (it.type === 'separator') { menu.appendChild(h('div.menu-separator')); continue; }

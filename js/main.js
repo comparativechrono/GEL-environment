@@ -14,6 +14,7 @@ import { WindowManager } from './core/wm.js';
 import * as apps from './core/apps.js';
 import * as dialogs from './core/dialogs.js';
 import { notify as rawNotify } from './core/notify.js';
+import { installClipboard } from './core/clipboard.js';
 import { startEngine } from './engine/index.js';
 import { createPanel } from './shell/panel.js';
 import { createDesktop } from './shell/desktop.js';
@@ -50,6 +51,9 @@ async function boot() {
     try { indexedDB.deleteDatabase(`${CONFIG.storageNamespace}-files`); indexedDB.deleteDatabase(CONFIG.storageNamespace); } catch { /* ignore */ }
     history.replaceState(null, '', location.pathname);
   }
+
+  // the RE's own clipboard: copy and paste stay inside the desktop (js/core/clipboard.js)
+  installClipboard(RE);
 
   // ---- login (or reconnect to an existing session)
   if (params.get('user')) session.login({ username: params.get('user') });

@@ -7,6 +7,7 @@
 // =============================================================================
 
 import { CONFIG } from '../config.js';
+import { addLocalSite } from '../apps/browser/routes.js';
 
 export function installAppAdapter(RE) {
   const MG = window.MG;
@@ -73,6 +74,30 @@ export function installAppAdapter(RE) {
     if (/^https?:\/\//i.test(url)) return launch('web-browser', { url, newWindow: false });
     const p = app.fs.resolve(url.replace(/^file:\/\//, ''));
     return launch('web-browser', { url: 'file://' + p });
+  };
+
+  /** HTML for a sandboxed frame (RStudio's Viewer): with the RE's clipboard rules as its first script */
+  app.frameHtml = (html) => (RE.clipboard ? RE.clipboard.isolateHtml(html) : html);
+
+  /**
+   * RStudio's Viewer ▸ Show in a new window: the desktop's web browser, as on the RE (not a tab of the computer's own
+   * browser, which the RE's rules do not reach). v: the Viewer's {path, html, url, app (a Shiny app)}.
+   */
+  app.viewerWindow = async (v = {}) => {
+    if (v.app && v.app.port && v.app.url) {
+      const host = `127.0.0.1:${v.app.port}`;
+      addLocalSite(host, { page: v.app.url, title: v.title || v.app.title });
+      return launch('web-browser', { url: `http://${host}/` });
+    }
+    if (v.path) return launch('web-browser', { url: 'file://' + app.fs.resolve(v.path) });
+    if (v.html != null) {
+      // (as R does: an HTML page of the Viewer is written to R's temporary folder)
+      const tag = Math.random().toString(36).slice(2, 8);
+      const p = `/tmp/Rtmp${tag}/viewhtml${tag}/index.html`;
+      app.fs.writeText(p, String(v.html));
+      return launch('web-browser', { url: 'file://' + p });
+    }
+    if (v.url) return app.browse(v.url);
   };
 
   /** "Upload files from your computer": not possible in the RE – only through an Airlock import */

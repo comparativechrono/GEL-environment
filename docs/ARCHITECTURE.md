@@ -71,12 +71,26 @@ The web browser (`js/apps/browser/`) has tabs, an address bar, history, bookmark
 A site is plain HTML and JavaScript modules. `sites/common/site.js` gives it:
 
 - `RE` – the desktop's services (`window.parent.RE`): the file system, the session, the data server, submissions …;
-- `browser` – its tab (`iframe.reBrowser`): `navigate`, `download` (to `~/Downloads`, or to the real computer), `setTitle`;
+- `browser` – its tab (`iframe.reBrowser`): `navigate`, `back`, `forward`, `reload`, `download` (to `~/Downloads`, or to the real computer), `setTitle`;
 - `route(render)` – calls `render({path, query})` for each address; `go(path)` moves to another address of the site (with the loading delay); `url(path, params)` builds one.
 
 Code in a site runs in another realm than the desktop: objects from the desktop fail `instanceof` checks in the site, and arrays passed to the desktop should be made with `window.parent.Uint8Array`.
 
 To add a site: a folder in `sites/`, an entry in `SITES` in `routes.js` (and a host name in `CONFIG.sites`), and optionally an application in `js/apps/index.js` that opens it.
+
+## The clipboard
+
+As the RE's remote desktop does, the desktop keeps a clipboard of its own: copying fills it and pasting takes from it, and the computer's clipboard is neither written nor read. `js/core/clipboard.js` makes `RE.clipboard` (`readText`, `writeText`, `isolated`); its `guardWindow()` puts the rules in a window:
+
+- `copy` and `cut`: what a page writes into the event (its `clipboardData` methods are replaced for the event), or else the selection, goes to the RE's clipboard, and the event is cancelled with nothing in it – the computer's clipboard keeps what it had. A cut that the page does not handle itself is done with `execCommand('delete')`.
+- `paste`: the real event is stopped before any page code sees it, and a `paste` event of the desktop's own, carrying the RE's clipboard in a `DataTransfer`, goes to the same element – CodeMirror, the terminal and the consoles paste as usual; where nothing takes it, the text is typed in with `execCommand('insertText')` (so that undo works). The first copy brings a notice that explains the rule, and so does a paste while the computer's clipboard holds something new (what it held at the first paste after a copy is taken as old).
+- `navigator.clipboard` (`writeText`, `readText`, `write`, `read`) is the RE's clipboard: the Copy buttons and menus of the applications and the websites use it.
+- `dragstart` is cancelled, and nothing dragged in from outside is dropped – but files on a file box, or on an element marked `data-accept-file-drop` (the file manager, which explains that files come in through the Airlock).
+- The browser's right-click menu gives way to the desktop's: Cut, Copy, Paste, Delete, Select All (and Back, Forward and Reload in a website); none where there is nothing to edit or copy.
+
+The desktop's page is guarded as it starts (`js/main.js`), and every frame of the same origin as it appears and as it loads (a `MutationObserver` on each guarded document; `sites/common/site.js` also asks for it as a site starts). The guard belongs to the window, not the document: a frame's first page keeps the window of the empty page the frame starts with, listeners and all. A sandboxed frame cannot be reached from the desktop, so `isolateHtml()` writes the guard into its HTML as the first script (RStudio's Viewer, through `MG.app.frameHtml`; HTML files in the web browser), with a host that keeps a copy of the clipboard's text and talks to the desktop with `postMessage`. RStudio's *Show in a new window* opens the desktop's web browser, not a tab of the computer's own (`MG.app.viewerWindow`: the file, a page written to `/tmp/Rtmp…`, or a Shiny app at `http://127.0.0.1:PORT`, which `addLocalSite` in `routes.js` maps to the app).
+
+`CONFIG.isolateClipboard` is the default of the setting `isolateClipboard` (Settings ▸ Training controls). The sign-in screens (`#login`), which stand for the WorkSpaces client outside the remote desktop, are left alone.
 
 ## The data server and LabKeeper
 

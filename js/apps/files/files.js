@@ -37,7 +37,9 @@ export async function launch(ctx, args = {}) {
   const toolbar = h('div.gtk-toolbar.fm-toolbar', bBack, bFwd, bUp, bHome, h('div.sep'), pathBar, location, h('div.sep'), search, bView);
 
   const side = h('div.fm-side.gtk-scroll');
-  const main = h('div.fm-main.gtk-scroll', { tabindex: 0 });
+  // (data-accept-file-drop: files dropped on it are not stopped by js/core/clipboard.js – the handler below says why
+  // they cannot come in)
+  const main = h('div.fm-main.gtk-scroll', { tabindex: 0, 'data-accept-file-drop': '' });
   const status = h('div.gtk-statusbar.fm-status');
 
   const bar = menubar([

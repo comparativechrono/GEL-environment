@@ -12,6 +12,9 @@ export const RE = (() => { try { return window.parent && window.parent !== windo
 export const browser = (() => { try { return window.frameElement ? window.frameElement.reBrowser : null; } catch { return null; } })();
 export const CONFIG = RE ? RE.config : null;
 
+// The RE's clipboard rules (js/core/clipboard.js) from the start: the desktop adds them too, when the page has loaded
+try { RE?.clipboard?.installIn(window); } catch { /* opened outside the desktop */ }
+
 export { h, clear, escapeHtml, formatBytes, debounce, sleep, uid } from '../../js/core/util.js';
 import { h } from '../../js/core/util.js';
 

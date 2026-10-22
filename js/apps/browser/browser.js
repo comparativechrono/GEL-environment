@@ -265,6 +265,12 @@ class Browser {
       setTitle: (t) => self._setTab(tab, { title: t }),
       download: (name, data, type) => self.download(name, data, type),
       loading: (on) => self._setLoading(tab, on),
+      // (the page's right-click menu: js/core/clipboard.js)
+      back: () => { if (tab.index > 0) { tab.index--; self.navigate(tab, tab.history[tab.index], { fromHistory: true }); } },
+      forward: () => { if (tab.index < tab.history.length - 1) { tab.index++; self.navigate(tab, tab.history[tab.index], { fromHistory: true }); } },
+      reload: () => self.navigate(tab, tab.url, { fromHistory: true, reload: true }),
+      get canGoBack() { return tab.index > 0; },
+      get canGoForward() { return tab.index < tab.history.length - 1; },
       get url() { return tab.url; },
       site: site.id,
     };
@@ -392,7 +398,10 @@ class Browser {
       if (mime === 'application/pdf' || mime === 'text/html') {
         const bytes = await vfs.readFile(path);
         if (tab.blobUrl) URL.revokeObjectURL(tab.blobUrl);
-        tab.blobUrl = URL.createObjectURL(new Blob([bytes], { type: mime === 'application/pdf' ? 'application/pdf' : 'text/html' }));
+        // (an HTML page gets the RE's clipboard rules as its first script: its sandboxed frame cannot be reached from here)
+        tab.blobUrl = URL.createObjectURL(mime === 'text/html' && this.re.clipboard
+          ? new Blob([this.re.clipboard.isolateHtml(bytes)], { type: 'text/html;charset=utf-8' })
+          : new Blob([bytes], { type: mime === 'application/pdf' ? 'application/pdf' : 'text/html' }));
         const fr = h('iframe.bw-frame', { src: tab.blobUrl, sandbox: mime === 'text/html' ? 'allow-scripts allow-popups' : undefined });
         return this._page(tab, href, fr, { title: vfs.basename(path), opts });
       }

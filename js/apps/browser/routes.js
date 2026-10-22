@@ -24,9 +24,18 @@ export function isWhitelisted(host) {
   return CONFIG.whitelist.some(w => host === w || host.endsWith('.' + w));
 }
 
+// Web servers of the desktop's own programs (a Shiny app that RStudio runs, at http://127.0.0.1:PORT): host → its page
+const LOCAL = new Map();
+
+/** A program of the desktop serves web pages at host (127.0.0.1:PORT): the browser shows page (same origin) for it. */
+export function addLocalSite(host, { page, title }) {
+  const hh = String(host).toLowerCase();
+  LOCAL.set(hh, { id: 'local', hosts: [hh], page, title: title || hh, favicon: 'assets/icons/apps/web-browser.svg', latency: [100, 300], home: '/', hashRouting: true });
+}
+
 export function siteFor(host) {
   const hh = String(host || '').toLowerCase();
-  return SITES.find(s => s.hosts.includes(hh)) || null;
+  return SITES.find(s => s.hosts.includes(hh)) || LOCAL.get(hh) || null;
 }
 
 /** Normalise what was typed in the URL bar into a URL object, or {isSearch, query} for search terms. */

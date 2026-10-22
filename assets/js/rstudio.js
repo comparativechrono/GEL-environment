@@ -1277,7 +1277,8 @@ shinyApp(ui = ui, server = server)
       if (MG.Shiny && this.shinyApp) MG.Shiny.stop(this.S, true);
       this.viewerBox.innerHTML = '';
       const fr = h('iframe.rs-viewer', { title: title || 'Viewer', sandbox: 'allow-scripts allow-popups allow-popups-to-escape-sandbox' });
-      fr.srcdoc = html;
+      // RE simulator: the page gets the RE's clipboard rules as its first script (MG.app.frameHtml)
+      fr.srcdoc = MG.app && MG.app.frameHtml ? MG.app.frameHtml(html) : html;
       this.viewerBox.appendChild(fr);
       this.viewerTitle.textContent = title || '';
       this.viewerNow = { html, path, title };
@@ -1295,6 +1296,8 @@ shinyApp(ui = ui, server = server)
     viewerOpen() {
       const v = this.viewerNow;
       if (!v) return;
+      // RE simulator: in the desktop's web browser (MG.app.viewerWindow), not a tab of the computer's own
+      if (MG.app && MG.app.viewerWindow) return MG.app.viewerWindow(v);
       if (v.url) return window.open(v.url, '_blank');
       const u = URL.createObjectURL(new Blob([v.html], { type: 'text/html' }));
       window.open(u, '_blank');

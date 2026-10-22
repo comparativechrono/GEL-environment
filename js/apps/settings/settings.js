@@ -78,6 +78,8 @@ export async function launch(ctx, args = {}) {
         h('div.st-row', h('label', 'Time the simulated reviewers take (seconds): '), delay),
         check('Enforce the 30-day rule for exports', 'enforceExportWait', 'Projects must have been approved for 30 days before anything can be exported.'),
         check('Require "module load" before a module\'s programs (samtools, bcftools … – not R or Python)', 'requireModules', 'As in the RE: the programs of module avail are "command not found" until their module is loaded.')),
+      section('Clipboard',
+        check('Keep the clipboard inside the Research Environment', 'isolateClipboard', 'As in the RE: copy and paste work between the programs of the desktop, but what is copied here cannot be pasted on the computer, and what is copied on the computer cannot be pasted here. Dragging text and pictures in or out is blocked, and the browser\'s own right-click menu is replaced by the desktop\'s. Switch it off for a demonstration in which you paste in from your own notes.')),
       section('Research Registry proposals', projectsTable()),
       section('Airlock requests', airlockTable()),
       section('Reset', h('div.st-row',
