@@ -131,10 +131,12 @@ assets/js, assets/css  the engine: shell, terminal, R, Python, RStudio, Spyder (
 assets/r, assets/py    the Rlabkey and labkey stand-ins
 assets/vendor          WebAssembly programs and libraries, with their licences and sources
 assets/icons           the icon set (made by tools/make_icons.py)
+assets/wallpaper       the desktop's wallpaper (its DNA helix drawn by tools/wallpaper_helix.py)
 data/fs                the read-only folders (/genomes, /gel_data_resources, …) and their manifest
 data/labkey            the data releases: schema and (synthetic) rows
 apps-script            the Google Apps Script for submissions
-tools                  build_fs_manifest.py, build_labkey_schema.py, make_demo_data.py, make_icons.py
+tools                  build_fs_manifest.py, build_labkey_schema.py, make_demo_data.py, make_icons.py,
+                       wallpaper_helix.py
 tests/smoke.py         a smoke test in headless Chromium (Playwright): python3 tests/smoke.py
 docs/ARCHITECTURE.md   how it is put together, and how to extend it
 serve.py               a local server

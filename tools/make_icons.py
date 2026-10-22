@@ -7,6 +7,7 @@ Generate the simulator's icon set (original artwork, flat elementary-Xfce-like s
 Writes SVGs into assets/icons/{apps,places,mimes,status,actions,panel}/.
 Edit the shapes or palette here and re-run to restyle everything consistently.
 """
+import math
 import os
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "icons")
@@ -83,11 +84,46 @@ ICONS["apps/labkeeper"] = svg48(
     '<circle cx="7" cy="7" r="2.2" fill="#b58a1b"/><path d="M1.6 10.6l-6 6M-1.4 13.6l2 2M-3.4 15.6l2 2" stroke="#b58a1b" stroke-width="2.2" stroke-linecap="round"/></g>',
     grad("g", "#3aa894", "#1f7564"))
 
+def helix_icon(cx=14.5, r=6.0, y0=7.5, y1=40.5, turn=27.0, phi=0.36 * 2 * math.pi, rise=4.6):
+    """A small DNA double helix, right-handed as B-DNA is: each strand at height h has angle a = 2*pi*h/turn and lies at
+    x = cx + r*cos(a), nearer the viewer the larger -sin(a) is; the second strand is turned by phi, which leaves the
+    minor and major grooves between them. A strand in front of the axis climbs from lower left to upper right.
+    Returns, for each strand, its stretches in front and behind (path data), and the base pairs."""
+    def at(y, off):
+        a = 2 * math.pi * (y0 - y) / turn + off
+        return cx + r * math.cos(a), -math.sin(a)
+
+    def stretches(off):
+        out, cur, side, n = {True: [], False: []}, [], None, 120
+        for i in range(n + 1):
+            y = y0 + (y1 - y0) * i / n
+            x, f = at(y, off)
+            if side is None:
+                side = f > 0
+            if (f > 0) != side:
+                out[side].append(cur)
+                cur, side = [cur[-1]], f > 0
+            cur.append((x, y))
+        out[side].append(cur)
+        d = lambda pts: 'M' + ' '.join(f'{x:.2f} {y:.2f}' for x, y in pts)
+        return ' '.join(d(p) for p in out[True]), ' '.join(d(p) for p in out[False])
+
+    pairs, y = [], y0 + rise / 2
+    while y < y1:
+        xa, xb = at(y, 0)[0], at(y, phi)[0]
+        if abs(xa - xb) > 1.2:
+            pairs.append(f'M{xa:.2f} {y:.2f}H{xb:.2f}')
+        y += rise
+    return stretches(0.0), stretches(phi), ' '.join(pairs)
+
+
+(_va_front, _va_back), (_vb_front, _vb_back), _v_pairs = helix_icon()
 ICONS["apps/variant-interpreter"] = svg48(
     '<g filter="url(#s)"><rect x="5" y="5" width="38" height="38" rx="8" fill="url(#g)"/></g>'
-    '<g fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M12 9c10 6 10 12 0 18s-10 12 0 18" stroke="#ffd36b" transform="translate(2 -3)"/>'
-    '<path d="M24 9c-10 6-10 12 0 18s10 12 0 18" stroke="#ffffff" transform="translate(-6 -3)"/></g>'
-    '<g stroke="#ffffff" stroke-width="1.4" opacity=".7"><path d="M12 12h6M10 18h8M12 30h6M10 36h8"/></g>'
+    '<g fill="none" stroke-linecap="round" stroke-linejoin="round">'
+    f'<path d="{_va_back}" stroke="#ffd36b" stroke-width="2" opacity=".55"/><path d="{_vb_back}" stroke="#ffffff" stroke-width="2" opacity=".55"/>'
+    f'<path d="{_v_pairs}" stroke="#ffffff" stroke-width="1.3" opacity=".7"/>'
+    f'<path d="{_va_front}" stroke="#ffd36b" stroke-width="2.2"/><path d="{_vb_front}" stroke="#ffffff" stroke-width="2.2"/></g>'
     '<circle cx="31" cy="23" r="7" fill="rgba(255,255,255,.25)" stroke="#fff" stroke-width="2.4"/><path d="M36 28l5 5" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>',
     grad("g", "#a56be0", "#6a35b5"))
 
