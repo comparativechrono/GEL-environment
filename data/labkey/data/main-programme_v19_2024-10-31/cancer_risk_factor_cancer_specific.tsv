@@ -1,0 +1,1684 @@
+participant_id	cancer_type	malignant_melanoma_age_first_used_sunbed	malignant_melanoma_skin_type	renal_duration_of_dialysis	testicular_cryptorchidism	cancer_specific_risk_factors_idx	age_of_menarche	age_of_menopause	duration_of_hrt	duration_of_ocp	number_of_pregnancies	number_of_children_breastfed	number_of_births	event_date
+219000002	BreastCancerRiskFactors					1	13		0	10	1	1	1	2018-11-12 10:00:00
+219000006	BreastCancerRiskFactors					1	13	52	0	15	2	1	1	2018-02-07 10:00:00
+219000008	OvarianCancerRiskFactors					1	12	53	0	2	2	1	2	2016-09-29 10:00:00
+219000009	BreastCancerRiskFactors					1	13	51	0	10	7	3	4	2018-10-11 10:00:00
+219000011	BreastCancerRiskFactors					1	14	49	0	5	2	1	2	2018-01-27 10:00:00
+219000013	BreastCancerRiskFactors					1	14	47	0	15	3	0	2	2014-07-25 10:00:00
+219000014	EndometrialCancerRiskFactors					1	15	50	0	5	2	1	2	2017-11-26 10:00:00
+219000016	OvarianCancerRiskFactors					1	12	51	0	2	1	0	1	2016-09-29 10:00:00
+219000019	BreastCancerRiskFactors					1	13	50	0	2	2	1	2	2014-10-07 10:00:00
+219000020	BreastCancerRiskFactors					1	11	52	0	15	3	0	3	2016-11-01 10:00:00
+219000023	BreastCancerRiskFactors					1	14		0	10	0	0	0	2018-04-02 10:00:00
+219000027	BreastCancerRiskFactors					1	12		0	10	0	0	0	2015-01-23 10:00:00
+219000029	BreastCancerRiskFactors					1	14	52	5	10	4	2	2	2017-12-02 10:00:00
+219000032	BreastCancerRiskFactors					1	15		5	5	2	2	2	2014-09-24 10:00:00
+219000033	OvarianCancerRiskFactors					1	10	52	2	2	3	1	2	2018-11-17 10:00:00
+219000034	BreastCancerRiskFactors					1	12	58	2	10	1	1	1	2018-09-14 10:00:00
+219000036	BreastCancerRiskFactors					1	13	52	0	5	1	1	1	2018-06-19 10:00:00
+219000039	BreastCancerRiskFactors					1	13	48	0	0	2	2	2	2018-01-31 10:00:00
+219000043	BreastCancerRiskFactors					1	14	58	0	10	2	0	2	2016-07-15 10:00:00
+219000044	BreastCancerRiskFactors					1	11	49	0	5	2	1	2	2018-02-19 10:00:00
+219000048	BreastCancerRiskFactors					1	11	49	2	2	1	0	1	2015-12-02 10:00:00
+219000049	EndometrialCancerRiskFactors					1	12	54	5	0	1	0	1	2018-03-25 10:00:00
+219000050	BreastCancerRiskFactors					1	11	52	2	2	0	0	0	2017-07-31 10:00:00
+219000059	BreastCancerRiskFactors					1	14		0	10	4	4	4	2017-07-22 10:00:00
+219000060	BreastCancerRiskFactors					1	13	57	0	15	2	2	2	2017-11-23 10:00:00
+219000061	BreastCancerRiskFactors					1	14		0	0	5	3	4	2018-05-31 10:00:00
+219000062	BreastCancerRiskFactors					1	10	51	0	15	4	2	2	2016-05-13 10:00:00
+219000064	RenalCancerRiskFactors			0		1								2017-07-30 10:00:00
+219000065	BreastCancerRiskFactors					1	13		0	5	3	0	3	2014-12-26 10:00:00
+219000067	BreastCancerRiskFactors					1	12	52	0	0	2	1	2	2016-10-24 10:00:00
+219000068	BreastCancerRiskFactors					1	11	50	0	5	2	1	1	2014-08-14 10:00:00
+219000069	BreastCancerRiskFactors					1	10	48	0	10	4	4	4	2015-09-27 10:00:00
+219000070	EndometrialCancerRiskFactors					1	11	46	0	10	0	0	0	2018-10-12 10:00:00
+219000072	BreastCancerRiskFactors					1	14	46	0	2	4	3	4	2014-11-17 10:00:00
+219000074	EndometrialCancerRiskFactors					1	16		0	2	0	0	0	2016-11-12 10:00:00
+219000081	BreastCancerRiskFactors					1	11	58	2	2	4	2	4	2018-04-23 10:00:00
+219000082	EndometrialCancerRiskFactors					1	12		0	5	4	3	3	2018-08-06 10:00:00
+219000084	OvarianCancerRiskFactors					1	14	54	0	2	3	1	2	2018-07-22 10:00:00
+219000088	BreastCancerRiskFactors					1	15	53	0	10	2	1	2	2014-10-15 10:00:00
+219000091	BreastCancerRiskFactors					1	12	49	2	5	3	1	1	2017-10-31 10:00:00
+219000092	RenalCancerRiskFactors			0		1								2016-08-27 10:00:00
+219000095	BreastCancerRiskFactors					1	14		0	15	2	1	1	2019-01-12 10:00:00
+219000098	BreastCancerRiskFactors					1	13	51	2	0	5	1	3	2016-07-10 10:00:00
+219000101	BreastCancerRiskFactors					1	12	46	0	2	3	1	2	2018-01-13 10:00:00
+219000102	BreastCancerRiskFactors					1	14	53	2	0	2	2	2	2016-06-12 10:00:00
+219000105	BreastCancerRiskFactors					1	15	48	5	2	1	1	1	2017-09-24 10:00:00
+219000106	BreastCancerRiskFactors					1	13		0	5	3	2	2	2017-10-31 10:00:00
+219000107	BreastCancerRiskFactors					1	11	50	5	10	4	2	4	2018-08-24 10:00:00
+219000119	BreastCancerRiskFactors					1	13	54	5	5	4	2	3	2017-06-16 10:00:00
+219000126	MalignantMelanomaCancerRiskFactors	26	iii - sometimes mild burn, tans uniformly			1								2018-01-24 10:00:00
+219000128	BreastCancerRiskFactors					1	13	46	5	15	2	0	1	2016-05-03 10:00:00
+219000130	BreastCancerRiskFactors					1	12	54	0	0	2	2	2	2016-02-01 10:00:00
+219000132	EndometrialCancerRiskFactors					1	13	53	0	5	3	3	3	2015-06-21 10:00:00
+219000133	EndometrialCancerRiskFactors					1	13	49	2	2	3	2	2	2015-04-29 10:00:00
+219000137	OvarianCancerRiskFactors					1	13	54	0	10	0	0	0	2018-03-25 10:00:00
+219000139	EndometrialCancerRiskFactors					1	12		0	2	1	0	1	2018-03-30 10:00:00
+219000141	BreastCancerRiskFactors					1	13	45	0	5	0	0	0	2014-07-17 10:00:00
+219000145	OvarianCancerRiskFactors					1	10	42	5	2	1	0	0	2017-11-15 10:00:00
+219000148	RenalCancerRiskFactors			0		1								2016-06-20 10:00:00
+219000149	EndometrialCancerRiskFactors					1	12	48	0	15	0	0	0	2014-07-15 10:00:00
+219000155	OvarianCancerRiskFactors					1	11	48	0	10	0	0	0	2016-09-17 10:00:00
+219000160	MalignantMelanomaCancerRiskFactors	33	iii - sometimes mild burn, tans uniformly			1								2018-07-21 10:00:00
+219000163	BreastCancerRiskFactors					1	11	54	0	2	5	1	3	2015-11-02 10:00:00
+219000164	BreastCancerRiskFactors					1	13	54	0	15	2	1	2	2016-07-10 10:00:00
+219000165	BreastCancerRiskFactors					1	13		0	2	2	1	2	2018-01-25 10:00:00
+219000168	BreastCancerRiskFactors					1	12	51	0	0	2	2	2	2017-08-25 10:00:00
+219000171	BreastCancerRiskFactors					1	12	47	5	2	0	0	0	2017-07-20 10:00:00
+219000179	RenalCancerRiskFactors			0		1								2015-10-22 10:00:00
+219000181	BreastCancerRiskFactors					1	13	53	2	5	2	0	2	2016-02-15 10:00:00
+219000182	BreastCancerRiskFactors					1	13	45	0	10	1	0	1	2018-05-24 10:00:00
+219000183	EndometrialCancerRiskFactors					1	14	58	0	15	4	3	4	2016-07-08 10:00:00
+219000188	RenalCancerRiskFactors			0		1								2016-02-16 10:00:00
+219000190	EndometrialCancerRiskFactors					1	14	49	0	10	0	0	0	2017-01-17 10:00:00
+219000192	BreastCancerRiskFactors					1	12	48	0	0	1	0	0	2019-01-03 10:00:00
+219000193	BreastCancerRiskFactors					1	10	48	0	15	1	0	0	2018-05-23 10:00:00
+219000195	BreastCancerRiskFactors					1	14	52	0	5	0	0	0	2015-03-31 10:00:00
+219000196	OvarianCancerRiskFactors					1	11	54	0	10	2	2	2	2015-08-26 10:00:00
+219000198	BreastCancerRiskFactors					1	13	50	5	10	4	1	2	2018-02-06 10:00:00
+219000203	BreastCancerRiskFactors					1	13	45	0	5	5	2	2	2014-12-11 10:00:00
+219000204	EndometrialCancerRiskFactors					1	15	46	0	2	2	1	2	2018-07-01 10:00:00
+219000211	BreastCancerRiskFactors					1	13	45	0	0	1	0	1	2014-12-29 10:00:00
+219000214	RenalCancerRiskFactors			0		1								2016-12-17 10:00:00
+219000215	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2016-02-22 10:00:00
+219000216	BreastCancerRiskFactors					1	13		0	5	4	4	4	2018-06-06 10:00:00
+219000218	BreastCancerRiskFactors					1	11	53	5	0	4	2	3	2016-11-26 10:00:00
+219000220	BreastCancerRiskFactors					1	12	52	0	5	1	1	1	2018-08-01 10:00:00
+219000222	BreastCancerRiskFactors					1	12	52	0	2	1	1	1	2018-11-11 10:00:00
+219000225	BreastCancerRiskFactors					1	15	49	0	10	3	1	2	2015-01-29 10:00:00
+219000228	BreastCancerRiskFactors					1	12	48	0	10	0	0	0	2018-07-03 10:00:00
+219000231	OvarianCancerRiskFactors					1	14		0	0	0	0	0	2015-01-16 10:00:00
+219000232	BreastCancerRiskFactors					1	12	51	0	2	3	2	3	2015-09-03 10:00:00
+219000236	BreastCancerRiskFactors					1	12	49	5	10	1	1	1	2017-10-30 10:00:00
+219000237	BreastCancerRiskFactors					1	13		0	2	2	1	2	2018-01-02 10:00:00
+219000238	BreastCancerRiskFactors					1	13		0	0	1	0	0	2017-08-22 10:00:00
+219000239	BreastCancerRiskFactors					1	12	47	0	10	2	0	1	2018-09-19 10:00:00
+219000240	BreastCancerRiskFactors					1	10	53	0	2	5	3	4	2017-08-28 10:00:00
+219000244	RenalCancerRiskFactors			0		1								2018-10-17 10:00:00
+219000252	BreastCancerRiskFactors					1	13		0	2	2	2	2	2016-09-29 10:00:00
+219000254	EndometrialCancerRiskFactors					1	13	51	0	0	2	1	2	2018-10-25 10:00:00
+219000256	BreastCancerRiskFactors					1	13	51	0	15	0	0	0	2019-01-25 10:00:00
+219000262	EndometrialCancerRiskFactors					1	12	49	5	0	3	3	3	2018-03-27 10:00:00
+219000263	MalignantMelanomaCancerRiskFactors	19	ii - usually burns, tans minimally			1								2016-10-15 10:00:00
+219000266	RenalCancerRiskFactors			0		1								2018-01-07 10:00:00
+219000267	BreastCancerRiskFactors					1	14	45	2	10	4	2	3	2018-10-01 10:00:00
+219000271	BreastCancerRiskFactors					1	16	53	0	10	2	2	2	2015-06-04 10:00:00
+219000273	BreastCancerRiskFactors					1	12		0	2	1	0	1	2017-10-04 10:00:00
+219000274	BreastCancerRiskFactors					1	14		0	5	4	3	4	2018-07-18 10:00:00
+219000275	BreastCancerRiskFactors					1	14	55	0	10	2	0	2	2016-08-22 10:00:00
+219000278	RenalCancerRiskFactors			0		1								2015-09-27 10:00:00
+219000279	BreastCancerRiskFactors					1	17	50	0	2	1	0	0	2018-01-25 10:00:00
+219000280	RenalCancerRiskFactors			0		1								2017-10-19 10:00:00
+219000281	RenalCancerRiskFactors			0		1								2016-03-02 10:00:00
+219000282	BreastCancerRiskFactors					1	13		0	5	1	0	0	2015-01-15 10:00:00
+219000286	BreastCancerRiskFactors					1	11	50	0	10	0	0	0	2017-09-05 10:00:00
+219000288	OvarianCancerRiskFactors					1	14	50	2	15	4	2	3	2014-07-06 10:00:00
+219000290	BreastCancerRiskFactors					1	15	54	0	10	4	2	3	2015-08-28 10:00:00
+219000293	BreastCancerRiskFactors					1	15	52	0	2	2	2	2	2017-09-22 10:00:00
+219000300	BreastCancerRiskFactors					1	12	52	0	2	2	0	2	2018-08-23 10:00:00
+219000301	BreastCancerRiskFactors					1	12	48	0	2	2	2	2	2018-05-31 10:00:00
+219000303	BreastCancerRiskFactors					1	12		0	5	2	2	2	2016-06-11 10:00:00
+219000306	EndometrialCancerRiskFactors					1	12	51	0	5	1	0	1	2015-07-19 10:00:00
+219000310	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2015-04-22 10:00:00
+219000311	BreastCancerRiskFactors					1	13	50	0	2	4	3	3	2015-03-05 10:00:00
+219000312	RenalCancerRiskFactors			0		1								2016-10-06 10:00:00
+219000313	BreastCancerRiskFactors					1	11	51	0	5	0	0	0	2018-03-27 10:00:00
+219000314	OvarianCancerRiskFactors					1	11	53	0	10	2	2	2	2014-08-30 10:00:00
+219000315	BreastCancerRiskFactors					1	12	49	0	15	1	1	1	2018-09-07 10:00:00
+219000316	BreastCancerRiskFactors					1	14		0	2	0	0	0	2016-11-28 10:00:00
+219000317	BreastCancerRiskFactors					1	13		0	5	1	0	0	2014-06-04 10:00:00
+219000318	BreastCancerRiskFactors					1	11	47	5	10	1	1	1	2017-06-03 10:00:00
+219000321	BreastCancerRiskFactors					1	11		0	0	3	2	2	2015-05-31 10:00:00
+219000323	BreastCancerRiskFactors					1	12	51	0	15	3	3	3	2016-06-28 10:00:00
+219000325	BreastCancerRiskFactors					1	10	53	0	10	2	1	2	2016-10-31 10:00:00
+219000326	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2017-04-11 10:00:00
+219000328	BreastCancerRiskFactors					1	12	50	0	10	0	0	0	2018-12-17 10:00:00
+219000330	BreastCancerRiskFactors					1	13	52	0	15	2	2	2	2018-12-11 10:00:00
+219000331	BreastCancerRiskFactors					1	12	55	0	5	0	0	0	2019-02-20 10:00:00
+219000333	BreastCancerRiskFactors					1	12	42	0	10	2	0	2	2017-12-15 10:00:00
+219000338	BreastCancerRiskFactors					1	11	46	0	10	3	3	3	2015-10-08 10:00:00
+219000340	BreastCancerRiskFactors					1	12	54	0	2	3	3	3	2018-09-16 10:00:00
+219000344	BreastCancerRiskFactors					1	12		0	5	2	0	2	2017-04-11 10:00:00
+219000346	EndometrialCancerRiskFactors					1	15		0	5	1	0	1	2018-04-14 10:00:00
+219000348	OvarianCancerRiskFactors					1	13	50	0	2	2	2	2	2017-03-25 10:00:00
+219000349	OvarianCancerRiskFactors					1	13	46	2	2	2	2	2	2018-12-06 10:00:00
+219000358	BreastCancerRiskFactors					1	14		0	5	3	2	3	2014-07-01 10:00:00
+219000359	TesticularCancerRiskFactors				no	1								2015-11-24 10:00:00
+219000362	BreastCancerRiskFactors					1	12	56	5	0	3	3	3	2018-07-05 10:00:00
+219000368	RenalCancerRiskFactors			0		1								2016-05-26 10:00:00
+219000369	EndometrialCancerRiskFactors					1	13	49	2	2	0	0	0	2016-09-21 10:00:00
+219000371	RenalCancerRiskFactors			0		1								2016-01-20 10:00:00
+219000372	BreastCancerRiskFactors					1	12	46	0	5	4	3	4	2017-07-30 10:00:00
+219000376	RenalCancerRiskFactors			0		1								2017-06-07 10:00:00
+219000378	BreastCancerRiskFactors					1	13	54	0	10	2	2	2	2018-02-09 10:00:00
+219000379	BreastCancerRiskFactors					1	14	47	5	15	3	1	2	2017-08-08 10:00:00
+219000380	BreastCancerRiskFactors					1	12	50	2	2	2	1	1	2015-05-02 10:00:00
+219000382	BreastCancerRiskFactors					1	16	58	5	5	4	1	2	2017-01-11 10:00:00
+219000383	BreastCancerRiskFactors					1	12	50	0	0	1	0	1	2016-08-21 10:00:00
+219000384	BreastCancerRiskFactors					1	13	47	5	5	4	1	2	2017-09-04 10:00:00
+219000389	BreastCancerRiskFactors					1	11	52	2	5	2	2	2	2016-06-07 10:00:00
+219000391	BreastCancerRiskFactors					1	13	52	5	5	3	2	3	2018-06-13 10:00:00
+219000392	BreastCancerRiskFactors					1	12	50	0	5	3	3	3	2016-02-15 10:00:00
+219000394	BreastCancerRiskFactors					1	14		0	0	2	2	2	2018-10-02 10:00:00
+219000395	BreastCancerRiskFactors					1	14		0	5	2	1	2	2015-07-03 10:00:00
+219000396	MalignantMelanomaCancerRiskFactors	31	ii - usually burns, tans minimally			1								2016-08-26 10:00:00
+219000408	BreastCancerRiskFactors					1	14	53	0	15	2	1	2	2018-10-13 10:00:00
+219000411	BreastCancerRiskFactors					1	13		0	2	3	2	2	2018-10-29 10:00:00
+219000412	BreastCancerRiskFactors					1	14		0	15	5	3	4	2016-12-02 10:00:00
+219000413	OvarianCancerRiskFactors					1	12	52	0	10	2	1	2	2016-05-29 10:00:00
+219000414	BreastCancerRiskFactors					1	13	50	0	0	2	1	1	2015-04-25 10:00:00
+219000415	EndometrialCancerRiskFactors					1	13	57	0	0	4	2	3	2018-12-15 10:00:00
+219000417	RenalCancerRiskFactors			0		1								2015-03-15 10:00:00
+219000422	BreastCancerRiskFactors					1	13	51	2	0	1	0	1	2015-11-21 10:00:00
+219000424	BreastCancerRiskFactors					1	12	52	0	15	1	0	1	2016-02-08 10:00:00
+219000426	RenalCancerRiskFactors			0		1								2019-01-07 10:00:00
+219000429	BreastCancerRiskFactors					1	10	51	0	15	3	1	2	2018-08-22 10:00:00
+219000431	BreastCancerRiskFactors					1	14		0	10	3	1	2	2019-02-15 10:00:00
+219000433	BreastCancerRiskFactors					1	11	48	0	0	1	0	1	2017-11-26 10:00:00
+219000434	BreastCancerRiskFactors					1	14	54	0	2	0	0	0	2017-10-20 10:00:00
+219000438	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-11-12 10:00:00
+219000439	BreastCancerRiskFactors					1	11	49	0	15	0	0	0	2017-06-08 10:00:00
+219000442	BreastCancerRiskFactors					1	13	50	5	15	0	0	0	2017-11-20 10:00:00
+219000443	BreastCancerRiskFactors					1	12	49	0	5	3	2	2	2015-02-06 10:00:00
+219000451	BreastCancerRiskFactors					1	15		2	2	0	0	0	2016-11-09 10:00:00
+219000452	TesticularCancerRiskFactors				no	1								2016-08-15 10:00:00
+219000455	EndometrialCancerRiskFactors					1	12	48	0	10	0	0	0	2015-05-18 10:00:00
+219000456	BreastCancerRiskFactors					1	10		0	2	1	0	1	2017-04-17 10:00:00
+219000461	OvarianCancerRiskFactors					1	13		0	0	1	0	0	2016-07-26 10:00:00
+219000462	BreastCancerRiskFactors					1	13	50	2	10	4	3	3	2015-10-02 10:00:00
+219000469	BreastCancerRiskFactors					1	15	49	0	2	2	1	2	2014-07-20 10:00:00
+219000471	OvarianCancerRiskFactors					1	14	53	0	0	0	0	0	2016-06-17 10:00:00
+219000479	EndometrialCancerRiskFactors					1	11	46	0	15	2	1	1	2016-02-11 10:00:00
+219000483	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2019-01-27 10:00:00
+219000484	BreastCancerRiskFactors					1	14	46	5	15	0	0	0	2018-05-26 10:00:00
+219000485	BreastCancerRiskFactors					1	13	49	0	10	3	3	3	2015-05-22 10:00:00
+219000486	BreastCancerRiskFactors					1	13	53	0	10	3	2	3	2014-12-02 10:00:00
+219000489	BreastCancerRiskFactors					1	11		0	10	2	1	2	2017-03-09 10:00:00
+219000491	BreastCancerRiskFactors					1	13	51	0	5	3	2	3	2019-02-17 10:00:00
+219000494	BreastCancerRiskFactors					1	13	50	0	0	4	3	4	2017-01-19 10:00:00
+219000497	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2017-06-27 10:00:00
+219000500	BreastCancerRiskFactors					1	13	54	5	2	2	2	2	2018-01-29 10:00:00
+219000503	BreastCancerRiskFactors					1	13	51	0	15	3	2	3	2016-12-22 10:00:00
+219000506	BreastCancerRiskFactors					1	12	54	0	10	0	0	0	2018-05-17 10:00:00
+219000508	BreastCancerRiskFactors					1	12	49	0	2	2	1	1	2018-02-22 10:00:00
+219000509	RenalCancerRiskFactors			0		1								2015-02-13 10:00:00
+219000510	RenalCancerRiskFactors			0		1								2017-04-10 10:00:00
+219000514	BreastCancerRiskFactors					1	13	51	2	5	1	1	1	2016-12-09 10:00:00
+219000518	BreastCancerRiskFactors					1	12	50	0	0	4	3	3	2017-12-01 10:00:00
+219000519	BreastCancerRiskFactors					1	14		0	10	0	0	0	2015-06-28 10:00:00
+219000524	BreastCancerRiskFactors					1	12	54	5	2	1	1	1	2018-04-29 10:00:00
+219000525	BreastCancerRiskFactors					1	13	47	5	15	2	2	2	2018-06-05 10:00:00
+219000527	BreastCancerRiskFactors					1	13	55	0	15	1	1	1	2017-12-03 10:00:00
+219000528	BreastCancerRiskFactors					1	13	45	0	15	2	1	2	2017-03-03 10:00:00
+219000529	OvarianCancerRiskFactors					1	13		5	5	0	0	0	2018-12-09 10:00:00
+219000530	TesticularCancerRiskFactors				no	1								2019-01-17 10:00:00
+219000532	OvarianCancerRiskFactors					1	11	49	0	5	3	2	2	2018-01-09 10:00:00
+219000534	OvarianCancerRiskFactors					1	12	51	2	10	1	0	0	2017-09-14 10:00:00
+219000535	OvarianCancerRiskFactors					1	12	48	5	15	2	2	2	2017-12-25 10:00:00
+219000537	RenalCancerRiskFactors			0		1								2016-07-15 10:00:00
+219000544	BreastCancerRiskFactors					1	13	56	0	10	0	0	0	2017-02-04 10:00:00
+219000548	BreastCancerRiskFactors					1	13	43	0	0	2	1	2	2015-03-18 10:00:00
+219000549	OvarianCancerRiskFactors					1	14		0	15	2	1	1	2018-07-10 10:00:00
+219000552	BreastCancerRiskFactors					1	15	47	2	10	1	0	0	2018-07-07 10:00:00
+219000553	BreastCancerRiskFactors					1	14		0	15	2	1	2	2015-01-11 10:00:00
+219000555	BreastCancerRiskFactors					1	13	54	0	10	5	4	4	2016-07-07 10:00:00
+219000556	BreastCancerRiskFactors					1	10	53	5	15	3	1	2	2017-12-23 10:00:00
+219000560	BreastCancerRiskFactors					1	14		0	10	4	2	4	2015-08-21 10:00:00
+219000561	OvarianCancerRiskFactors					1	13	51	0	15	4	2	2	2018-09-02 10:00:00
+219000566	BreastCancerRiskFactors					1	13	51	0	10	2	1	2	2017-08-27 10:00:00
+219000567	BreastCancerRiskFactors					1	13		0	5	2	1	2	2017-11-04 10:00:00
+219000568	BreastCancerRiskFactors					1	16	46	0	15	4	1	3	2017-07-16 10:00:00
+219000569	BreastCancerRiskFactors					1	14		0	2	2	1	2	2019-01-04 10:00:00
+219000570	BreastCancerRiskFactors					1	12	50	5	5	0	0	0	2015-11-08 10:00:00
+219000572	BreastCancerRiskFactors					1	9	49	0	0	2	2	2	2018-04-08 10:00:00
+219000573	EndometrialCancerRiskFactors					1	12	50	0	15	1	1	1	2015-10-06 10:00:00
+219000578	BreastCancerRiskFactors					1	12	51	0	5	2	1	2	2018-01-16 10:00:00
+219000579	RenalCancerRiskFactors			0		1								2017-01-10 10:00:00
+219000581	EndometrialCancerRiskFactors					1	12	56	2	0	0	0	0	2017-01-04 10:00:00
+219000583	BreastCancerRiskFactors					1	12	48	2	5	2	1	2	2015-12-23 10:00:00
+219000584	BreastCancerRiskFactors					1	12	55	0	15	1	1	1	2016-06-05 10:00:00
+219000585	RenalCancerRiskFactors			0		1								2019-01-05 10:00:00
+219000594	BreastCancerRiskFactors					1	12		0	5	1	1	1	2018-09-11 10:00:00
+219000595	EndometrialCancerRiskFactors					1	13	47	0	2	4	4	4	2019-02-25 10:00:00
+219000597	BreastCancerRiskFactors					1	15		0	0	3	1	3	2016-05-31 10:00:00
+219000598	OvarianCancerRiskFactors					1	14	50	2	0	2	0	2	2016-08-04 10:00:00
+219000604	OvarianCancerRiskFactors					1	14	53	5	5	1	1	1	2016-07-19 10:00:00
+219000612	BreastCancerRiskFactors					1	12		0	0	0	0	0	2015-04-05 10:00:00
+219000613	OvarianCancerRiskFactors					1	16	50	0	0	2	0	1	2014-12-15 10:00:00
+219000614	BreastCancerRiskFactors					1	14	54	5	10	2	1	2	2014-11-05 10:00:00
+219000617	BreastCancerRiskFactors					1	13		0	0	2	1	2	2018-06-22 10:00:00
+219000623	RenalCancerRiskFactors			0		1								2018-04-12 10:00:00
+219000624	BreastCancerRiskFactors					1	11	46	5	15	2	2	2	2018-08-09 10:00:00
+219000630	BreastCancerRiskFactors					1	12	43	0	2	2	0	2	2017-02-20 10:00:00
+219000631	BreastCancerRiskFactors					1	11		0	0	4	4	4	2016-01-18 10:00:00
+219000632	EndometrialCancerRiskFactors					1	14	49	0	5	3	2	3	2018-03-26 10:00:00
+219000638	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2015-02-03 10:00:00
+219000639	EndometrialCancerRiskFactors					1	14	50	2	10	2	0	2	2016-09-19 10:00:00
+219000642	RenalCancerRiskFactors			0		1								2018-04-19 10:00:00
+219000647	RenalCancerRiskFactors			0		1								2016-12-06 10:00:00
+219000649	BreastCancerRiskFactors					1	13		0	15	2	2	2	2015-07-02 10:00:00
+219000650	BreastCancerRiskFactors					1	13	50	0	0	3	2	3	2016-03-25 10:00:00
+219000651	BreastCancerRiskFactors					1	12	51	0	0	2	0	1	2014-11-16 10:00:00
+219000654	BreastCancerRiskFactors					1	12	49	0	10	3	2	3	2014-11-08 10:00:00
+219000655	BreastCancerRiskFactors					1	15	55	5	2	3	3	3	2018-11-24 10:00:00
+219000656	BreastCancerRiskFactors					1	10		0	10	1	0	1	2018-10-16 10:00:00
+219000657	OvarianCancerRiskFactors					1	15	52	2	5	2	1	2	2014-07-15 10:00:00
+219000659	BreastCancerRiskFactors					1	13	52	2	0	4	2	3	2015-02-23 10:00:00
+219000661	BreastCancerRiskFactors					1	13	51	2	15	2	0	1	2016-06-14 10:00:00
+219000664	BreastCancerRiskFactors					1	15	51	0	2	4	3	3	2014-09-05 10:00:00
+219000667	BreastCancerRiskFactors					1	12	51	2	0	2	0	1	2018-01-18 10:00:00
+219000668	OvarianCancerRiskFactors					1	11	47	0	10	0	0	0	2014-10-15 10:00:00
+219000671	BreastCancerRiskFactors					1	12		0	5	1	0	1	2018-10-01 10:00:00
+219000672	BreastCancerRiskFactors					1	15	49	5	2	2	1	2	2016-07-09 10:00:00
+219000673	TesticularCancerRiskFactors				no	1								2017-07-26 10:00:00
+219000675	RenalCancerRiskFactors			0		1								2014-09-26 10:00:00
+219000679	BreastCancerRiskFactors					1	13	51	0	10	0	0	0	2017-11-21 10:00:00
+219000682	BreastCancerRiskFactors					1	16		0	5	2	2	2	2016-10-09 10:00:00
+219000685	BreastCancerRiskFactors					1	17		0	15	0	0	0	2018-11-30 10:00:00
+219000689	BreastCancerRiskFactors					1	11		2	5	6	3	4	2015-05-25 10:00:00
+219000690	BreastCancerRiskFactors					1	15	46	0	0	1	0	0	2015-08-04 10:00:00
+219000695	RenalCancerRiskFactors			0		1								2018-12-06 10:00:00
+219000704	BreastCancerRiskFactors					1	14	54	0	10	3	1	2	2017-07-22 10:00:00
+219000705	EndometrialCancerRiskFactors					1	17	52	2	10	0	0	0	2018-04-01 10:00:00
+219000708	BreastCancerRiskFactors					1	12	50	0	15	1	1	1	2016-06-02 10:00:00
+219000711	BreastCancerRiskFactors					1	14	54	2	15	3	2	3	2018-08-09 10:00:00
+219000712	RenalCancerRiskFactors			0		1								2017-02-08 10:00:00
+219000713	BreastCancerRiskFactors					1	14	49	0	2	1	1	1	2017-11-12 10:00:00
+219000714	BreastCancerRiskFactors					1	10	49	5	2	2	1	2	2015-08-07 10:00:00
+219000715	BreastCancerRiskFactors					1	10		5	0	4	2	2	2017-03-05 10:00:00
+219000719	BreastCancerRiskFactors					1	14		0	0	3	2	3	2015-03-14 10:00:00
+219000724	BreastCancerRiskFactors					1	11	52	0	15	1	0	1	2014-11-01 10:00:00
+219000728	BreastCancerRiskFactors					1	13	48	0	0	0	0	0	2016-02-28 10:00:00
+219000729	BreastCancerRiskFactors					1	13		0	2	3	2	3	2017-05-08 10:00:00
+219000733	OvarianCancerRiskFactors					1	12	51	0	15	1	1	1	2015-03-04 10:00:00
+219000737	OvarianCancerRiskFactors					1	16	53	0	2	0	0	0	2018-12-10 10:00:00
+219000739	MalignantMelanomaCancerRiskFactors	33	iii - sometimes mild burn, tans uniformly			1								2019-01-29 10:00:00
+219000742	BreastCancerRiskFactors					1	13	50	2	5	2	2	2	2017-12-21 10:00:00
+219000743	OvarianCancerRiskFactors					1	12		5	15	1	0	1	2015-08-07 10:00:00
+219000744	BreastCancerRiskFactors					1	14	45	0	10	3	3	3	2018-08-11 10:00:00
+219000746	BreastCancerRiskFactors					1	13	50	0	0	3	3	3	2016-08-17 10:00:00
+219000751	BreastCancerRiskFactors					1	16	53	0	5	3	2	2	2018-10-18 10:00:00
+219000753	BreastCancerRiskFactors					1	13		0	2	1	0	1	2016-06-20 10:00:00
+219000755	BreastCancerRiskFactors					1	10	48	0	10	4	3	4	2017-05-13 10:00:00
+219000756	BreastCancerRiskFactors					1	13		0	2	2	2	2	2015-12-14 10:00:00
+219000759	BreastCancerRiskFactors					1	12	49	0	10	4	1	2	2015-09-27 10:00:00
+219000768	BreastCancerRiskFactors					1	13		0	10	0	0	0	2016-12-17 10:00:00
+219000770	BreastCancerRiskFactors					1	14	44	5	10	4	4	4	2015-04-19 10:00:00
+219000771	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2017-05-16 10:00:00
+219000772	BreastCancerRiskFactors					1	14		0	5	4	4	4	2017-07-25 10:00:00
+219000773	BreastCancerRiskFactors					1	12	47	0	5	4	2	3	2014-11-18 10:00:00
+219000777	BreastCancerRiskFactors					1	12		0	0	2	2	2	2018-03-25 10:00:00
+219000779	BreastCancerRiskFactors					1	11	47	2	15	4	4	4	2017-02-26 10:00:00
+219000780	BreastCancerRiskFactors					1	14		0	0	2	2	2	2019-02-19 10:00:00
+219000783	EndometrialCancerRiskFactors					1	11	50	5	2	3	3	3	2016-07-10 10:00:00
+219000784	BreastCancerRiskFactors					1	15		0	2	4	2	4	2017-10-16 10:00:00
+219000785	BreastCancerRiskFactors					1	13	50	0	10	2	0	1	2017-12-28 10:00:00
+219000789	BreastCancerRiskFactors					1	13	48	2	0	3	1	2	2017-03-09 10:00:00
+219000790	BreastCancerRiskFactors					1	14	52	2	2	3	2	3	2016-05-26 10:00:00
+219000791	BreastCancerRiskFactors					1	13	51	0	0	0	0	0	2015-08-06 10:00:00
+219000792	RenalCancerRiskFactors			0		1								2018-11-15 10:00:00
+219000793	EndometrialCancerRiskFactors					1	13	56	2	2	1	1	1	2017-11-20 10:00:00
+219000795	BreastCancerRiskFactors					1	12	53	5	2	0	0	0	2014-06-29 10:00:00
+219000796	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2017-05-03 10:00:00
+219000798	OvarianCancerRiskFactors					1	16	50	0	15	2	1	2	2017-05-30 10:00:00
+219000800	BreastCancerRiskFactors					1	14	47	0	10	3	1	2	2016-12-21 10:00:00
+219000803	RenalCancerRiskFactors			0		1								2018-10-19 10:00:00
+219000804	BreastCancerRiskFactors					1	12		0	5	3	3	3	2018-10-28 10:00:00
+219000807	MalignantMelanomaCancerRiskFactors	33	ii - usually burns, tans minimally			1								2017-05-30 10:00:00
+219000815	RenalCancerRiskFactors			0		1								2017-11-12 10:00:00
+219000819	BreastCancerRiskFactors					1	15	50	0	0	3	2	2	2016-06-28 10:00:00
+219000820	RenalCancerRiskFactors			0		1								2017-03-29 10:00:00
+219000821	EndometrialCancerRiskFactors					1	12	47	0	2	3	1	3	2014-12-06 10:00:00
+219000824	EndometrialCancerRiskFactors					1	12	47	0	0	4	1	3	2018-05-15 10:00:00
+219000827	BreastCancerRiskFactors					1	12	54	0	2	3	2	3	2016-03-15 10:00:00
+219000829	BreastCancerRiskFactors					1	14	49	2	10	3	1	2	2015-04-24 10:00:00
+219000830	OvarianCancerRiskFactors					1	14		0	0	0	0	0	2015-08-28 10:00:00
+219000831	EndometrialCancerRiskFactors					1	14	46	5	5	0	0	0	2016-04-14 10:00:00
+219000834	OvarianCancerRiskFactors					1	12	48	5	10	2	1	2	2016-12-17 10:00:00
+219000842	BreastCancerRiskFactors					1	15	49	0	0	1	0	0	2014-07-25 10:00:00
+219000847	BreastCancerRiskFactors					1	14	52	0	10	1	0	0	2016-12-12 10:00:00
+219000848	RenalCancerRiskFactors			0		1								2017-10-19 10:00:00
+219000852	OvarianCancerRiskFactors					1	15	52	5	0	1	0	0	2017-11-01 10:00:00
+219000855	OvarianCancerRiskFactors					1	13	55	0	10	3	2	2	2017-03-04 10:00:00
+219000858	BreastCancerRiskFactors					1	14	54	0	2	3	2	3	2018-10-05 10:00:00
+219000859	BreastCancerRiskFactors					1	13	53	0	15	2	2	2	2017-05-09 10:00:00
+219000863	BreastCancerRiskFactors					1	14	53	5	0	3	1	3	2016-10-10 10:00:00
+219000866	BreastCancerRiskFactors					1	12		0	0	2	1	2	2017-10-14 10:00:00
+219000868	BreastCancerRiskFactors					1	13	51	0	2	0	0	0	2017-01-10 10:00:00
+219000869	EndometrialCancerRiskFactors					1	14	56	0	15	2	2	2	2014-08-10 10:00:00
+219000870	BreastCancerRiskFactors					1	12	51	0	15	4	2	3	2017-10-28 10:00:00
+219000874	MalignantMelanomaCancerRiskFactors	22	ii - usually burns, tans minimally			1								2018-09-09 10:00:00
+219000875	BreastCancerRiskFactors					1	12	58	0	5	2	2	2	2017-01-03 10:00:00
+219000880	OvarianCancerRiskFactors					1	14	53	0	15	1	0	1	2017-09-08 10:00:00
+219000881	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-08-05 10:00:00
+219000883	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2017-04-13 10:00:00
+219000884	EndometrialCancerRiskFactors					1	12	49	5	0	4	4	4	2017-04-15 10:00:00
+219000887	BreastCancerRiskFactors					1	12	38	0	10	3	1	2	2016-01-01 10:00:00
+219000889	BreastCancerRiskFactors					1	13	55	0	10	4	0	3	2018-03-01 10:00:00
+219000892	BreastCancerRiskFactors					1	12	48	0	2	0	0	0	2018-07-18 10:00:00
+219000893	BreastCancerRiskFactors					1	16		0	10	3	1	3	2018-01-18 10:00:00
+219000894	BreastCancerRiskFactors					1	12		0	5	2	1	2	2014-08-11 10:00:00
+219000895	BreastCancerRiskFactors					1	14		0	15	0	0	0	2018-05-08 10:00:00
+219000896	EndometrialCancerRiskFactors					1	12		0	15	3	2	2	2016-09-12 10:00:00
+219000898	BreastCancerRiskFactors					1	14	44	2	10	3	0	3	2016-05-01 10:00:00
+219000901	OvarianCancerRiskFactors					1	15		0	10	4	1	2	2015-11-06 10:00:00
+219000903	BreastCancerRiskFactors					1	12		0	15	4	2	4	2015-03-25 10:00:00
+219000906	BreastCancerRiskFactors					1	10		0	15	1	1	1	2016-11-18 10:00:00
+219000911	EndometrialCancerRiskFactors					1	14	50	0	10	2	1	2	2016-03-13 10:00:00
+219000915	EndometrialCancerRiskFactors					1	13	48	0	0	6	3	3	2018-05-19 10:00:00
+219000918	EndometrialCancerRiskFactors					1	14	52	5	10	3	1	1	2014-08-05 10:00:00
+219000919	BreastCancerRiskFactors					1	13		0	2	1	0	1	2015-03-21 10:00:00
+219000920	BreastCancerRiskFactors					1	11	55	0	15	1	0	1	2015-07-22 10:00:00
+219000921	TesticularCancerRiskFactors				no	1								2015-12-19 10:00:00
+219000924	BreastCancerRiskFactors					1	14	47	5	0	1	1	1	2015-02-16 10:00:00
+219000925	RenalCancerRiskFactors			0		1								2014-08-05 10:00:00
+219000926	BreastCancerRiskFactors					1	16	47	0	2	2	1	2	2014-08-19 10:00:00
+219000928	BreastCancerRiskFactors					1	13	50	0	10	3	0	2	2017-06-15 10:00:00
+219000929	BreastCancerRiskFactors					1	13		0	5	1	0	1	2018-06-13 10:00:00
+219000930	EndometrialCancerRiskFactors					1	11	49	5	5	2	1	2	2018-02-17 10:00:00
+219000932	BreastCancerRiskFactors					1	13	48	0	0	2	1	2	2016-05-18 10:00:00
+219000934	BreastCancerRiskFactors					1	12	51	0	10	1	0	0	2015-10-26 10:00:00
+219000940	EndometrialCancerRiskFactors					1	13	48	5	2	3	3	3	2016-02-10 10:00:00
+219000941	BreastCancerRiskFactors					1	12		0	5	2	1	2	2016-02-14 10:00:00
+219000946	BreastCancerRiskFactors					1	11	43	0	15	3	1	3	2016-04-12 10:00:00
+219000951	BreastCancerRiskFactors					1	11	50	5	15	4	3	4	2016-08-24 10:00:00
+219000953	BreastCancerRiskFactors					1	14	48	0	10	3	3	3	2015-02-19 10:00:00
+219000956	BreastCancerRiskFactors					1	12	50	5	0	1	1	1	2016-09-14 10:00:00
+219000957	BreastCancerRiskFactors					1	11	48	5	2	2	1	2	2016-01-26 10:00:00
+219000959	BreastCancerRiskFactors					1	12		0	10	3	2	3	2016-01-02 10:00:00
+219000960	BreastCancerRiskFactors					1	13	50	0	15	3	3	3	2016-10-17 10:00:00
+219000961	BreastCancerRiskFactors					1	10		0	15	4	3	4	2016-08-14 10:00:00
+219000962	BreastCancerRiskFactors					1	12	52	0	15	2	1	1	2015-07-16 10:00:00
+219000963	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2018-10-12 10:00:00
+219000966	BreastCancerRiskFactors					1	13	51	2	2	1	0	0	2015-11-22 10:00:00
+219000968	TesticularCancerRiskFactors				no	1								2018-09-12 10:00:00
+219000974	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2015-04-28 10:00:00
+219000975	EndometrialCancerRiskFactors					1	12	50	0	0	2	2	2	2016-08-04 10:00:00
+219000976	BreastCancerRiskFactors					1	13		0	5	0	0	0	2018-01-07 10:00:00
+219000977	BreastCancerRiskFactors					1	13		0	10	4	1	4	2015-08-08 10:00:00
+219000985	BreastCancerRiskFactors					1	13		0	2	1	1	1	2018-11-19 10:00:00
+219000986	BreastCancerRiskFactors					1	13		5	15	1	1	1	2017-06-20 10:00:00
+219000988	MalignantMelanomaCancerRiskFactors	18	iii - sometimes mild burn, tans uniformly			1								2018-06-29 10:00:00
+219000994	BreastCancerRiskFactors					1	12		0	0	4	3	4	2017-07-07 10:00:00
+219000997	BreastCancerRiskFactors					1	13		0	10	3	2	3	2015-10-22 10:00:00
+219000998	MalignantMelanomaCancerRiskFactors	32	ii - usually burns, tans minimally			1								2018-04-15 10:00:00
+219001005	OvarianCancerRiskFactors					1	15	52	0	10	0	0	0	2018-10-28 10:00:00
+219001008	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2017-07-22 10:00:00
+219001009	BreastCancerRiskFactors					1	12		0	15	2	2	2	2018-12-02 10:00:00
+219001011	BreastCancerRiskFactors					1	12		0	15	3	2	3	2014-07-04 10:00:00
+219001013	OvarianCancerRiskFactors					1	14		0	0	0	0	0	2015-11-15 10:00:00
+219001017	EndometrialCancerRiskFactors					1	13	48	0	10	1	1	1	2015-12-02 10:00:00
+219001022	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2017-05-25 10:00:00
+219001023	BreastCancerRiskFactors					1	11		0	10	2	1	2	2015-12-28 10:00:00
+219001025	BreastCancerRiskFactors					1	13		0	0	2	1	2	2015-09-09 10:00:00
+219001035	BreastCancerRiskFactors					1	12		0	2	2	2	2	2014-08-21 10:00:00
+219001036	MalignantMelanomaCancerRiskFactors	20	ii - usually burns, tans minimally			1								2016-12-04 10:00:00
+219001045	OvarianCancerRiskFactors					1	15	55	0	2	3	3	3	2016-07-23 10:00:00
+219001046	BreastCancerRiskFactors					1	13	50	0	5	0	0	0	2018-06-21 10:00:00
+219001057	BreastCancerRiskFactors					1	14		0	0	2	1	1	2016-01-07 10:00:00
+219001058	TesticularCancerRiskFactors				no	1								2017-09-22 10:00:00
+219001063	BreastCancerRiskFactors					1	14	54	0	15	1	1	1	2015-04-11 10:00:00
+219001065	BreastCancerRiskFactors					1	15	49	0	0	1	1	1	2018-10-02 10:00:00
+219001067	BreastCancerRiskFactors					1	14		0	5	2	2	2	2016-01-24 10:00:00
+219001068	BreastCancerRiskFactors					1	14	48	0	10	0	0	0	2015-08-10 10:00:00
+219001069	BreastCancerRiskFactors					1	12	49	0	10	0	0	0	2015-12-30 10:00:00
+219001070	MalignantMelanomaCancerRiskFactors	19	ii - usually burns, tans minimally			1								2017-04-08 10:00:00
+219001071	EndometrialCancerRiskFactors					1	12	48	5	10	1	0	0	2017-03-01 10:00:00
+219001073	BreastCancerRiskFactors					1	13	49	0	10	1	1	1	2018-01-01 10:00:00
+219001074	BreastCancerRiskFactors					1	10		0	10	0	0	0	2016-03-24 10:00:00
+219001076	OvarianCancerRiskFactors					1	13	48	5	5	2	1	1	2017-10-25 10:00:00
+219001081	BreastCancerRiskFactors					1	13	52	0	15	4	3	3	2018-04-10 10:00:00
+219001083	BreastCancerRiskFactors					1	12	53	0	2	2	0	1	2018-12-03 10:00:00
+219001085	EndometrialCancerRiskFactors					1	12	50	0	0	2	1	2	2016-09-06 10:00:00
+219001088	EndometrialCancerRiskFactors					1	14	48	5	15	1	0	0	2015-11-02 10:00:00
+219001090	BreastCancerRiskFactors					1	13	53	0	10	3	2	3	2015-12-03 10:00:00
+219001095	BreastCancerRiskFactors					1	11	54	0	2	3	3	3	2019-01-09 10:00:00
+219001096	BreastCancerRiskFactors					1	15		0	15	3	2	2	2014-06-29 10:00:00
+219001100	BreastCancerRiskFactors					1	15	52	0	15	2	1	1	2018-08-09 10:00:00
+219001101	BreastCancerRiskFactors					1	11	55	2	0	2	0	2	2014-08-24 10:00:00
+219001106	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-07-19 10:00:00
+219001108	OvarianCancerRiskFactors					1	12	47	5	15	0	0	0	2015-04-22 10:00:00
+219001110	BreastCancerRiskFactors					1	13	53	5	5	2	2	2	2015-03-14 10:00:00
+219001113	BreastCancerRiskFactors					1	12	50	0	15	3	2	3	2018-02-05 10:00:00
+219001116	OvarianCancerRiskFactors					1	15	50	0	5	2	1	2	2018-02-08 10:00:00
+219001117	RenalCancerRiskFactors			0		1								2016-01-31 10:00:00
+219001119	BreastCancerRiskFactors					1	11	45	0	5	4	2	2	2016-04-14 10:00:00
+219001124	BreastCancerRiskFactors					1	14	58	2	15	4	1	2	2014-08-27 10:00:00
+219001131	BreastCancerRiskFactors					1	12	51	0	2	1	0	1	2018-02-12 10:00:00
+219001134	EndometrialCancerRiskFactors					1	13		0	2	2	2	2	2016-10-01 10:00:00
+219001136	BreastCancerRiskFactors					1	14	48	0	5	2	2	2	2015-05-23 10:00:00
+219001138	RenalCancerRiskFactors			0		1								2014-09-07 10:00:00
+219001140	EndometrialCancerRiskFactors					1	13	49	2	5	1	0	1	2017-09-20 10:00:00
+219001146	BreastCancerRiskFactors					1	13	50	0	15	4	1	2	2018-07-13 10:00:00
+219001147	BreastCancerRiskFactors					1	12	51	0	0	2	0	1	2016-03-29 10:00:00
+219001149	BreastCancerRiskFactors					1	10	49	0	5	3	1	2	2015-08-19 10:00:00
+219001158	RenalCancerRiskFactors			0		1								2018-09-27 10:00:00
+219001160	BreastCancerRiskFactors					1	16	55	0	0	3	1	1	2015-01-27 10:00:00
+219001161	OvarianCancerRiskFactors					1	12	49	0	10	3	1	2	2017-03-04 10:00:00
+219001163	BreastCancerRiskFactors					1	12	48	5	0	3	0	3	2018-03-20 10:00:00
+219001165	BreastCancerRiskFactors					1	12		2	10	3	3	3	2018-05-16 10:00:00
+219001167	BreastCancerRiskFactors					1	12	51	2	0	4	2	4	2016-12-02 10:00:00
+219001171	BreastCancerRiskFactors					1	13		0	2	2	2	2	2016-01-11 10:00:00
+219001172	TesticularCancerRiskFactors				no	1								2018-08-17 10:00:00
+219001173	BreastCancerRiskFactors					1	15	46	0	15	2	2	2	2016-11-05 10:00:00
+219001178	BreastCancerRiskFactors					1	14	44	5	15	0	0	0	2017-08-29 10:00:00
+219001182	OvarianCancerRiskFactors					1	14	53	0	0	2	1	2	2018-06-22 10:00:00
+219001183	BreastCancerRiskFactors					1	16	47	0	0	2	1	1	2015-11-21 10:00:00
+219001184	BreastCancerRiskFactors					1	12	53	2	15	2	0	0	2017-05-20 10:00:00
+219001185	TesticularCancerRiskFactors				no	1								2015-12-27 10:00:00
+219001187	RenalCancerRiskFactors			0		1								2017-06-27 10:00:00
+219001194	BreastCancerRiskFactors					1	15	52	0	2	2	2	2	2016-02-12 10:00:00
+219001198	EndometrialCancerRiskFactors					1	13	58	0	0	4	2	2	2015-08-13 10:00:00
+219001199	BreastCancerRiskFactors					1	14	57	0	0	2	1	1	2017-08-29 10:00:00
+219001200	BreastCancerRiskFactors					1	12	51	0	5	2	2	2	2018-06-14 10:00:00
+219001204	OvarianCancerRiskFactors					1	13	49	0	15	1	0	0	2016-01-12 10:00:00
+219001209	BreastCancerRiskFactors					1	14		0	5	1	0	1	2017-06-16 10:00:00
+219001210	BreastCancerRiskFactors					1	14	47	0	2	3	2	2	2015-04-03 10:00:00
+219001212	BreastCancerRiskFactors					1	13	49	5	15	0	0	0	2015-06-03 10:00:00
+219001213	BreastCancerRiskFactors					1	12	53	0	2	3	1	2	2015-09-17 10:00:00
+219001215	OvarianCancerRiskFactors					1	15	45	0	15	1	0	0	2016-02-19 10:00:00
+219001218	BreastCancerRiskFactors					1	13	48	0	5	4	2	3	2016-02-20 10:00:00
+219001223	BreastCancerRiskFactors					1	11	50	0	15	1	0	0	2016-04-23 10:00:00
+219001224	BreastCancerRiskFactors					1	12		0	10	1	0	0	2018-12-01 10:00:00
+219001226	OvarianCancerRiskFactors					1	11	52	0	5	2	0	1	2016-09-19 10:00:00
+219001234	BreastCancerRiskFactors					1	15	50	0	0	2	2	2	2016-11-26 10:00:00
+219001237	RenalCancerRiskFactors			0		1								2015-04-25 10:00:00
+219001238	BreastCancerRiskFactors					1	14		0	0	3	0	1	2017-12-27 10:00:00
+219001239	BreastCancerRiskFactors					1	13	54	5	2	1	0	1	2015-02-10 10:00:00
+219001244	BreastCancerRiskFactors					1	13	50	0	2	1	1	1	2015-03-20 10:00:00
+219001245	BreastCancerRiskFactors					1	12	52	0	2	2	1	2	2017-09-17 10:00:00
+219001248	BreastCancerRiskFactors					1	11	47	5	5	5	3	4	2019-01-19 10:00:00
+219001250	BreastCancerRiskFactors					1	12	52	0	5	3	1	2	2018-09-05 10:00:00
+219001251	BreastCancerRiskFactors					1	12		0	15	4	1	4	2016-05-03 10:00:00
+219001253	BreastCancerRiskFactors					1	13		0	0	3	1	3	2016-08-28 10:00:00
+219001254	BreastCancerRiskFactors					1	11	48	0	2	3	1	3	2016-12-30 10:00:00
+219001261	BreastCancerRiskFactors					1	14		0	0	1	1	1	2018-07-17 10:00:00
+219001264	MalignantMelanomaCancerRiskFactors	19	iii - sometimes mild burn, tans uniformly			1								2016-05-28 10:00:00
+219001265	EndometrialCancerRiskFactors					1	12	51	2	2	3	2	2	2015-03-21 10:00:00
+219001266	RenalCancerRiskFactors			0		1								2014-09-14 10:00:00
+219001267	BreastCancerRiskFactors					1	11		0	2	0	0	0	2014-06-23 10:00:00
+219001269	BreastCancerRiskFactors					1	14	49	0	10	0	0	0	2016-08-19 10:00:00
+219001270	EndometrialCancerRiskFactors					1	13	55	0	15	2	2	2	2015-06-12 10:00:00
+219001271	BreastCancerRiskFactors					1	11	50	0	2	2	1	1	2017-12-07 10:00:00
+219001272	OvarianCancerRiskFactors					1	12	52	2	0	1	1	1	2017-06-21 10:00:00
+219001274	BreastCancerRiskFactors					1	15	51	2	2	1	0	0	2016-06-11 10:00:00
+219001275	RenalCancerRiskFactors			0		1								2017-05-28 10:00:00
+219001276	EndometrialCancerRiskFactors					1	11	47	0	15	3	1	3	2018-11-06 10:00:00
+219001280	OvarianCancerRiskFactors					1	14	52	0	0	0	0	0	2016-05-20 10:00:00
+219001283	OvarianCancerRiskFactors					1	14	58	0	15	2	1	2	2018-01-09 10:00:00
+219001284	BreastCancerRiskFactors					1	13	55	0	2	4	3	4	2018-11-28 10:00:00
+219001288	EndometrialCancerRiskFactors					1	13	49	0	0	3	2	3	2018-09-20 10:00:00
+219001293	BreastCancerRiskFactors					1	12		0	2	4	3	3	2018-04-12 10:00:00
+219001296	RenalCancerRiskFactors			0		1								2018-11-22 10:00:00
+219001298	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2017-06-12 10:00:00
+219001299	EndometrialCancerRiskFactors					1	12	55	5	10	3	1	2	2015-07-30 10:00:00
+219001300	BreastCancerRiskFactors					1	13	57	0	0	1	1	1	2016-05-25 10:00:00
+219001303	BreastCancerRiskFactors					1	14		5	15	3	2	3	2015-12-18 10:00:00
+219001306	BreastCancerRiskFactors					1	12	42	5	0	1	0	0	2015-07-27 10:00:00
+219001310	OvarianCancerRiskFactors					1	14	45	0	15	3	3	3	2016-01-06 10:00:00
+219001311	BreastCancerRiskFactors					1	13	49	0	5	3	2	2	2015-11-12 10:00:00
+219001317	BreastCancerRiskFactors					1	11	56	0	0	2	1	2	2016-08-05 10:00:00
+219001318	BreastCancerRiskFactors					1	15	43	5	5	3	1	3	2017-05-04 10:00:00
+219001319	BreastCancerRiskFactors					1	13	50	0	5	2	2	2	2017-03-31 10:00:00
+219001321	BreastCancerRiskFactors					1	12		0	5	3	3	3	2015-05-21 10:00:00
+219001326	BreastCancerRiskFactors					1	13	53	0	0	2	2	2	2016-09-19 10:00:00
+219001327	BreastCancerRiskFactors					1	10		0	5	1	1	1	2014-10-04 10:00:00
+219001334	BreastCancerRiskFactors					1	12	49	2	2	4	1	3	2016-07-05 10:00:00
+219001335	RenalCancerRiskFactors			0		1								2018-05-31 10:00:00
+219001336	BreastCancerRiskFactors					1	13	45	2	5	2	2	2	2017-09-23 10:00:00
+219001337	OvarianCancerRiskFactors					1	12	46	0	0	3	2	3	2016-05-18 10:00:00
+219001341	RenalCancerRiskFactors			0		1								2015-01-30 10:00:00
+219001342	BreastCancerRiskFactors					1	12	49	0	2	1	0	0	2016-07-11 10:00:00
+219001343	BreastCancerRiskFactors					1	12	49	5	10	0	0	0	2018-07-15 10:00:00
+219001345	BreastCancerRiskFactors					1	13	55	0	0	0	0	0	2016-09-26 10:00:00
+219001347	BreastCancerRiskFactors					1	13	51	0	2	2	1	2	2016-05-05 10:00:00
+219001349	BreastCancerRiskFactors					1	14	54	0	0	2	1	1	2016-12-01 10:00:00
+219001350	BreastCancerRiskFactors					1	12	54	2	10	4	1	2	2015-12-23 10:00:00
+219001352	EndometrialCancerRiskFactors					1	12	54	0	10	3	3	3	2015-11-19 10:00:00
+219001353	BreastCancerRiskFactors					1	12		0	15	2	1	2	2016-03-16 10:00:00
+219001354	OvarianCancerRiskFactors					1	11	46	0	5	0	0	0	2017-03-30 10:00:00
+219001357	BreastCancerRiskFactors					1	14	47	2	0	1	0	1	2014-06-16 10:00:00
+219001358	EndometrialCancerRiskFactors					1	14		0	15	2	1	2	2015-12-16 10:00:00
+219001361	BreastCancerRiskFactors					1	11		0	0	1	1	1	2017-08-11 10:00:00
+219001364	BreastCancerRiskFactors					1	12	54	2	10	1	0	1	2018-08-29 10:00:00
+219001366	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-08-14 10:00:00
+219001371	MalignantMelanomaCancerRiskFactors	29	i - always burns, never tans			1								2016-02-05 10:00:00
+219001372	BreastCancerRiskFactors					1	12	52	2	10	2	1	2	2014-09-03 10:00:00
+219001376	TesticularCancerRiskFactors				no	1								2014-07-21 10:00:00
+219001377	BreastCancerRiskFactors					1	14		5	15	2	1	2	2016-09-03 10:00:00
+219001380	BreastCancerRiskFactors					1	15	51	0	10	2	2	2	2015-10-06 10:00:00
+219001387	BreastCancerRiskFactors					1	13		0	5	3	2	3	2019-01-21 10:00:00
+219001393	BreastCancerRiskFactors					1	11		0	15	2	1	2	2015-12-26 10:00:00
+219001395	OvarianCancerRiskFactors					1	13	51	2	10	2	1	1	2019-01-24 10:00:00
+219001396	BreastCancerRiskFactors					1	13	50	0	5	3	1	3	2016-08-24 10:00:00
+219001397	BreastCancerRiskFactors					1	13		0	10	0	0	0	2017-07-19 10:00:00
+219001398	OvarianCancerRiskFactors					1	11	55	5	0	3	1	2	2014-08-29 10:00:00
+219001399	BreastCancerRiskFactors					1	13	47	5	5	2	1	2	2016-05-16 10:00:00
+219001402	BreastCancerRiskFactors					1	12		0	5	4	2	3	2014-10-06 10:00:00
+219001403	BreastCancerRiskFactors					1	11	55	0	10	2	2	2	2016-05-26 10:00:00
+219001405	BreastCancerRiskFactors					1	12	43	5	2	3	3	3	2014-08-29 10:00:00
+219001406	BreastCancerRiskFactors					1	12	46	0	15	2	1	2	2016-04-04 10:00:00
+219001407	BreastCancerRiskFactors					1	14		0	10	4	1	2	2019-01-09 10:00:00
+219001410	MalignantMelanomaCancerRiskFactors	25	i - always burns, never tans			1								2015-03-30 10:00:00
+219001416	BreastCancerRiskFactors					1	10	49	5	0	1	0	1	2016-05-21 10:00:00
+219001419	BreastCancerRiskFactors					1	13	45	0	5	0	0	0	2015-10-10 10:00:00
+219001422	BreastCancerRiskFactors					1	12	48	0	0	2	1	2	2014-08-13 10:00:00
+219001423	BreastCancerRiskFactors					1	11	38	5	10	4	2	3	2015-09-26 10:00:00
+219001424	BreastCancerRiskFactors					1	12	54	0	10	0	0	0	2019-01-17 10:00:00
+219001429	BreastCancerRiskFactors					1	10	47	5	0	1	0	1	2016-01-09 10:00:00
+219001432	BreastCancerRiskFactors					1	15		0	0	3	2	3	2018-10-19 10:00:00
+219001433	BreastCancerRiskFactors					1	16	49	2	10	3	2	3	2015-01-25 10:00:00
+219001434	OvarianCancerRiskFactors					1	12	51	5	2	3	2	3	2016-09-20 10:00:00
+219001435	BreastCancerRiskFactors					1	13		0	5	2	2	2	2015-04-08 10:00:00
+219001440	BreastCancerRiskFactors					1	14	52	0	5	2	1	2	2016-07-01 10:00:00
+219001444	BreastCancerRiskFactors					1	11	57	5	5	2	1	1	2019-02-21 10:00:00
+219001445	EndometrialCancerRiskFactors					1	12	51	0	10	3	1	2	2015-12-27 10:00:00
+219001448	BreastCancerRiskFactors					1	13	50	0	2	0	0	0	2016-05-02 10:00:00
+219001453	BreastCancerRiskFactors					1	14	54	0	15	4	2	3	2018-03-24 10:00:00
+219001455	BreastCancerRiskFactors					1	15	58	0	5	1	0	1	2016-05-01 10:00:00
+219001457	EndometrialCancerRiskFactors					1	14	54	0	2	2	1	2	2015-07-13 10:00:00
+219001460	BreastCancerRiskFactors					1	10	45	2	5	2	1	2	2017-01-09 10:00:00
+219001461	EndometrialCancerRiskFactors					1	14	51	5	15	3	2	3	2015-07-02 10:00:00
+219001469	BreastCancerRiskFactors					1	14		0	2	3	2	2	2015-04-23 10:00:00
+219001473	BreastCancerRiskFactors					1	13		2	0	5	2	4	2018-05-12 10:00:00
+219001479	BreastCancerRiskFactors					1	12		0	15	1	1	1	2016-03-24 10:00:00
+219001480	BreastCancerRiskFactors					1	12	53	5	2	2	0	2	2015-12-28 10:00:00
+219001482	BreastCancerRiskFactors					1	12		0	5	4	3	3	2018-08-02 10:00:00
+219001484	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-11-09 10:00:00
+219001485	RenalCancerRiskFactors			0		1								2018-12-07 10:00:00
+219001486	BreastCancerRiskFactors					1	13	54	0	15	3	2	3	2018-08-31 10:00:00
+219001499	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2015-12-25 10:00:00
+219001500	BreastCancerRiskFactors					1	12	55	0	5	0	0	0	2018-09-12 10:00:00
+219001504	EndometrialCancerRiskFactors					1	11		0	10	1	1	1	2017-10-06 10:00:00
+219001508	BreastCancerRiskFactors					1	14	51	2	10	3	0	1	2014-08-08 10:00:00
+219001511	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2015-09-12 10:00:00
+219001512	BreastCancerRiskFactors					1	15	51	2	2	0	0	0	2017-01-22 10:00:00
+219001514	OvarianCancerRiskFactors					1	11	41	0	2	3	2	3	2019-01-02 10:00:00
+219001515	BreastCancerRiskFactors					1	15	51	5	15	5	2	3	2017-01-13 10:00:00
+219001518	BreastCancerRiskFactors					1	12	54	0	5	5	1	2	2015-05-08 10:00:00
+219001521	BreastCancerRiskFactors					1	15	54	5	0	2	2	2	2015-01-30 10:00:00
+219001524	BreastCancerRiskFactors					1	11	58	0	0	4	1	3	2018-08-12 10:00:00
+219001526	BreastCancerRiskFactors					1	11	47	2	10	3	2	3	2015-02-06 10:00:00
+219001527	BreastCancerRiskFactors					1	13		0	2	2	1	2	2015-07-22 10:00:00
+219001529	BreastCancerRiskFactors					1	10		5	15	4	2	2	2016-11-26 10:00:00
+219001530	RenalCancerRiskFactors			0		1								2018-07-15 10:00:00
+219001531	BreastCancerRiskFactors					1	12	49	5	15	3	2	2	2015-07-15 10:00:00
+219001535	BreastCancerRiskFactors					1	12		0	5	3	0	1	2018-09-25 10:00:00
+219001536	BreastCancerRiskFactors					1	13	49	0	5	4	2	3	2014-12-01 10:00:00
+219001541	EndometrialCancerRiskFactors					1	13	44	0	2	5	2	4	2018-10-22 10:00:00
+219001544	BreastCancerRiskFactors					1	9	53	0	0	2	2	2	2015-12-04 10:00:00
+219001547	TesticularCancerRiskFactors				no	1								2017-04-07 10:00:00
+219001549	BreastCancerRiskFactors					1	15	51	0	0	1	1	1	2014-10-10 10:00:00
+219001553	BreastCancerRiskFactors					1	14	55	0	10	4	2	3	2016-01-14 10:00:00
+219001557	BreastCancerRiskFactors					1	12	51	0	0	3	1	3	2018-02-25 10:00:00
+219001562	OvarianCancerRiskFactors					1	13		0	10	4	1	3	2018-12-26 10:00:00
+219001563	BreastCancerRiskFactors					1	12	54	2	0	0	0	0	2015-08-24 10:00:00
+219001564	BreastCancerRiskFactors					1	12	57	0	15	3	1	3	2015-11-27 10:00:00
+219001568	BreastCancerRiskFactors					1	15	48	5	0	3	2	3	2019-02-27 10:00:00
+219001573	BreastCancerRiskFactors					1	11	48	2	2	4	2	4	2018-10-15 10:00:00
+219001576	EndometrialCancerRiskFactors					1	14	50	0	2	4	0	3	2018-12-11 10:00:00
+219001578	BreastCancerRiskFactors					1	14		0	10	4	3	3	2018-08-23 10:00:00
+219001585	EndometrialCancerRiskFactors					1	14	49	0	2	4	2	3	2018-12-05 10:00:00
+219001587	BreastCancerRiskFactors					1	12	47	5	0	1	1	1	2014-09-27 10:00:00
+219001588	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2015-04-23 10:00:00
+219001589	BreastCancerRiskFactors					1	12	50	0	15	4	1	2	2015-11-28 10:00:00
+219001591	RenalCancerRiskFactors			0		1								2018-12-16 10:00:00
+219001593	BreastCancerRiskFactors					1	10		0	15	2	2	2	2016-01-11 10:00:00
+219001594	BreastCancerRiskFactors					1	14	48	5	15	5	2	4	2017-02-16 10:00:00
+219001596	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-09-21 10:00:00
+219001598	BreastCancerRiskFactors					1	15		0	15	4	1	2	2016-09-21 10:00:00
+219001599	EndometrialCancerRiskFactors					1	14	51	0	10	4	1	3	2018-03-31 10:00:00
+219001605	BreastCancerRiskFactors					1	11		0	5	2	0	2	2016-01-26 10:00:00
+219001606	TesticularCancerRiskFactors				no	1								2015-09-12 10:00:00
+219001612	OvarianCancerRiskFactors					1	13	51	0	10	3	1	2	2015-06-23 10:00:00
+219001613	BreastCancerRiskFactors					1	14	54	0	10	2	2	2	2018-07-07 10:00:00
+219001617	OvarianCancerRiskFactors					1	14	47	0	2	1	1	1	2015-12-25 10:00:00
+219001620	RenalCancerRiskFactors			0		1								2014-07-06 10:00:00
+219001624	BreastCancerRiskFactors					1	14	53	0	5	2	2	2	2017-07-13 10:00:00
+219001626	BreastCancerRiskFactors					1	13	47	0	5	3	1	2	2014-12-02 10:00:00
+219001629	BreastCancerRiskFactors					1	13	47	0	10	5	3	4	2017-08-10 10:00:00
+219001632	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2014-09-03 10:00:00
+219001637	BreastCancerRiskFactors					1	11	55	2	15	4	2	3	2014-10-04 10:00:00
+219001641	EndometrialCancerRiskFactors					1	11	53	0	15	2	1	2	2015-04-18 10:00:00
+219001642	BreastCancerRiskFactors					1	9		0	2	2	2	2	2018-02-27 10:00:00
+219001643	BreastCancerRiskFactors					1	14	49	0	15	3	3	3	2014-08-02 10:00:00
+219001646	BreastCancerRiskFactors					1	12		0	10	1	0	0	2016-02-29 10:00:00
+219001647	RenalCancerRiskFactors			0		1								2016-05-21 10:00:00
+219001649	OvarianCancerRiskFactors					1	13	56	0	2	3	1	1	2016-12-13 10:00:00
+219001650	BreastCancerRiskFactors					1	13	45	0	5	1	0	1	2016-10-06 10:00:00
+219001651	BreastCancerRiskFactors					1	12	53	5	2	3	2	3	2015-03-24 10:00:00
+219001652	RenalCancerRiskFactors			0		1								2016-05-22 10:00:00
+219001656	BreastCancerRiskFactors					1	13	49	0	2	4	4	4	2015-07-26 10:00:00
+219001659	BreastCancerRiskFactors					1	11	53	0	0	2	2	2	2017-11-26 10:00:00
+219001660	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-07-14 10:00:00
+219001661	BreastCancerRiskFactors					1	13	52	5	5	2	0	1	2016-09-26 10:00:00
+219001662	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-04-03 10:00:00
+219001665	OvarianCancerRiskFactors					1	12	45	0	0	0	0	0	2014-06-26 10:00:00
+219001672	EndometrialCancerRiskFactors					1	12	55	5	2	4	1	3	2014-09-14 10:00:00
+219001673	BreastCancerRiskFactors					1	14	47	0	15	3	2	3	2015-02-16 10:00:00
+219001679	BreastCancerRiskFactors					1	12	50	0	10	1	0	0	2015-12-19 10:00:00
+219001682	BreastCancerRiskFactors					1	12		0	15	3	1	3	2016-05-11 10:00:00
+219001685	OvarianCancerRiskFactors					1	11	52	5	0	3	2	3	2015-09-05 10:00:00
+219001686	BreastCancerRiskFactors					1	14	54	0	10	3	2	3	2017-08-28 10:00:00
+219001694	BreastCancerRiskFactors					1	10	52	0	15	2	2	2	2014-10-31 10:00:00
+219001707	BreastCancerRiskFactors					1	9		0	0	2	1	2	2017-01-02 10:00:00
+219001708	BreastCancerRiskFactors					1	12	49	0	15	1	0	1	2018-12-27 10:00:00
+219001712	OvarianCancerRiskFactors					1	12	53	2	5	2	1	2	2015-12-17 10:00:00
+219001713	BreastCancerRiskFactors					1	11	49	2	10	4	1	2	2017-12-03 10:00:00
+219001717	MalignantMelanomaCancerRiskFactors	17	iii - sometimes mild burn, tans uniformly			1								2015-05-27 10:00:00
+219001718	BreastCancerRiskFactors					1	14	49	0	0	2	2	2	2016-11-23 10:00:00
+219001719	BreastCancerRiskFactors					1	13	55	0	10	0	0	0	2016-01-09 10:00:00
+219001721	OvarianCancerRiskFactors					1	14		0	15	2	0	1	2015-04-30 10:00:00
+219001722	BreastCancerRiskFactors					1	13	45	5	0	2	2	2	2017-12-20 10:00:00
+219001726	BreastCancerRiskFactors					1	13	44	2	2	3	2	2	2017-10-03 10:00:00
+219001727	BreastCancerRiskFactors					1	13	57	2	5	0	0	0	2016-04-21 10:00:00
+219001730	BreastCancerRiskFactors					1	14	50	0	15	3	1	2	2015-10-12 10:00:00
+219001735	RenalCancerRiskFactors			0		1								2017-04-02 10:00:00
+219001738	OvarianCancerRiskFactors					1	16	53	0	2	2	2	2	2015-01-16 10:00:00
+219001739	BreastCancerRiskFactors					1	12	53	0	0	0	0	0	2015-09-09 10:00:00
+219001741	OvarianCancerRiskFactors					1	11	53	2	15	2	0	1	2014-09-07 10:00:00
+219001744	EndometrialCancerRiskFactors					1	12	53	5	0	2	2	2	2016-12-16 10:00:00
+219001748	TesticularCancerRiskFactors				no	1								2015-07-07 10:00:00
+219001750	RenalCancerRiskFactors			0		1								2015-06-03 10:00:00
+219001751	EndometrialCancerRiskFactors					1	13	56	2	5	3	1	1	2016-02-07 10:00:00
+219001754	BreastCancerRiskFactors					1	12	54	2	5	0	0	0	2016-10-31 10:00:00
+219001756	BreastCancerRiskFactors					1	14	50	0	15	3	2	2	2016-10-23 10:00:00
+219001759	BreastCancerRiskFactors					1	11	50	2	15	2	2	2	2015-01-11 10:00:00
+219001761	BreastCancerRiskFactors					1	11		0	5	2	1	2	2018-11-30 10:00:00
+219001762	OvarianCancerRiskFactors					1	12	57	0	0	0	0	0	2015-11-01 10:00:00
+219001763	OvarianCancerRiskFactors					1	14	49	0	15	1	0	1	2014-07-05 10:00:00
+219001765	OvarianCancerRiskFactors					1	13	50	0	5	4	2	3	2016-11-07 10:00:00
+219001766	BreastCancerRiskFactors					1	14	51	0	15	3	1	2	2015-05-15 10:00:00
+219001768	MalignantMelanomaCancerRiskFactors	27	iii - sometimes mild burn, tans uniformly			1								2018-03-13 10:00:00
+219001769	BreastCancerRiskFactors					1	10		0	5	3	2	3	2015-01-08 10:00:00
+219001771	BreastCancerRiskFactors					1	12	50	0	0	3	2	2	2016-08-30 10:00:00
+219001775	BreastCancerRiskFactors					1	14	46	0	5	2	2	2	2016-09-30 10:00:00
+219001777	BreastCancerRiskFactors					1	11		0	2	2	2	2	2015-01-25 10:00:00
+219001780	BreastCancerRiskFactors					1	13		0	0	1	1	1	2014-11-05 10:00:00
+219001784	BreastCancerRiskFactors					1	13	51	0	15	2	2	2	2018-07-31 10:00:00
+219001785	BreastCancerRiskFactors					1	14	45	0	2	2	2	2	2017-06-09 10:00:00
+219001791	BreastCancerRiskFactors					1	12	45	0	15	1	1	1	2018-08-02 10:00:00
+219001795	BreastCancerRiskFactors					1	13	55	2	0	2	1	2	2014-10-19 10:00:00
+219001797	BreastCancerRiskFactors					1	11	50	5	0	3	2	3	2016-04-19 10:00:00
+219001798	BreastCancerRiskFactors					1	13	53	0	2	1	0	0	2018-08-09 10:00:00
+219001799	BreastCancerRiskFactors					1	12	55	0	0	3	3	3	2017-09-22 10:00:00
+219001801	BreastCancerRiskFactors					1	13	56	0	0	3	2	2	2016-09-04 10:00:00
+219001805	BreastCancerRiskFactors					1	14	51	0	10	1	1	1	2017-04-30 10:00:00
+219001806	BreastCancerRiskFactors					1	15	55	0	5	3	1	2	2014-10-30 10:00:00
+219001807	OvarianCancerRiskFactors					1	10	52	0	15	3	2	2	2017-11-22 10:00:00
+219001808	BreastCancerRiskFactors					1	14	53	0	0	2	2	2	2018-08-26 10:00:00
+219001809	BreastCancerRiskFactors					1	12	48	2	0	2	2	2	2017-08-07 10:00:00
+219001810	BreastCancerRiskFactors					1	10	51	2	5	4	2	4	2016-08-27 10:00:00
+219001812	OvarianCancerRiskFactors					1	14	44	0	15	2	1	2	2018-05-30 10:00:00
+219001814	EndometrialCancerRiskFactors					1	11	51	0	10	0	0	0	2014-10-28 10:00:00
+219001815	RenalCancerRiskFactors			0		1								2014-10-17 10:00:00
+219001817	BreastCancerRiskFactors					1	12		0	15	1	0	1	2018-12-28 10:00:00
+219001818	BreastCancerRiskFactors					1	13		0	0	2	2	2	2017-04-19 10:00:00
+219001819	BreastCancerRiskFactors					1	12		0	5	1	0	1	2017-06-06 10:00:00
+219001821	BreastCancerRiskFactors					1	13	49	5	0	4	2	2	2015-02-14 10:00:00
+219001823	BreastCancerRiskFactors					1	10	49	0	10	0	0	0	2018-01-15 10:00:00
+219001826	MalignantMelanomaCancerRiskFactors	25	i - always burns, never tans			1								2019-01-30 10:00:00
+219001833	EndometrialCancerRiskFactors					1	13	52	0	2	5	2	3	2018-02-24 10:00:00
+219001836	OvarianCancerRiskFactors					1	13	53	5	10	4	3	3	2015-06-12 10:00:00
+219001839	EndometrialCancerRiskFactors					1	13	52	2	5	1	0	0	2017-02-17 10:00:00
+219001843	RenalCancerRiskFactors			0		1								2016-04-29 10:00:00
+219001844	BreastCancerRiskFactors					1	12	50	2	2	3	2	3	2017-11-08 10:00:00
+219001845	TesticularCancerRiskFactors				yes	1								2018-12-29 10:00:00
+219001847	BreastCancerRiskFactors					1	12	48	0	5	2	2	2	2018-04-06 10:00:00
+219001848	BreastCancerRiskFactors					1	11	53	0	10	4	1	4	2018-05-29 10:00:00
+219001853	BreastCancerRiskFactors					1	12	50	5	0	3	1	2	2016-12-11 10:00:00
+219001858	OvarianCancerRiskFactors					1	14	56	0	0	2	2	2	2016-03-13 10:00:00
+219001860	BreastCancerRiskFactors					1	13		0	15	2	2	2	2015-01-10 10:00:00
+219001864	BreastCancerRiskFactors					1	13	50	5	5	3	2	3	2018-10-13 10:00:00
+219001872	BreastCancerRiskFactors					1	13		0	0	3	1	3	2017-01-07 10:00:00
+219001876	EndometrialCancerRiskFactors					1	14	48	2	10	3	0	2	2015-04-03 10:00:00
+219001878	BreastCancerRiskFactors					1	9	54	0	10	1	1	1	2017-09-10 10:00:00
+219001880	BreastCancerRiskFactors					1	12	54	5	5	5	2	4	2017-02-22 10:00:00
+219001881	BreastCancerRiskFactors					1	11	47	0	2	3	3	3	2017-07-19 10:00:00
+219001882	BreastCancerRiskFactors					1	13	58	5	5	2	1	1	2018-12-07 10:00:00
+219001884	BreastCancerRiskFactors					1	14	55	0	15	3	2	2	2016-10-24 10:00:00
+219001885	BreastCancerRiskFactors					1	13	49	0	5	0	0	0	2016-10-12 10:00:00
+219001886	BreastCancerRiskFactors					1	14		0	0	2	1	2	2017-02-06 10:00:00
+219001894	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-08-25 10:00:00
+219001897	BreastCancerRiskFactors					1	15	57	0	5	3	3	3	2017-02-27 10:00:00
+219001902	BreastCancerRiskFactors					1	12	49	0	5	2	1	1	2018-04-10 10:00:00
+219001909	BreastCancerRiskFactors					1	12	53	0	15	3	2	2	2015-06-14 10:00:00
+219001914	BreastCancerRiskFactors					1	12	44	0	5	2	1	2	2015-02-09 10:00:00
+219001917	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2014-06-27 10:00:00
+219001920	BreastCancerRiskFactors					1	13		0	10	3	2	3	2017-10-21 10:00:00
+219001923	OvarianCancerRiskFactors					1	12	56	0	15	2	1	2	2018-11-19 10:00:00
+219001930	BreastCancerRiskFactors					1	13		5	5	3	2	2	2017-06-14 10:00:00
+219001931	RenalCancerRiskFactors			0		1								2015-08-04 10:00:00
+219001932	BreastCancerRiskFactors					1	11	51	0	0	5	2	2	2014-07-22 10:00:00
+219001933	RenalCancerRiskFactors			0		1								2015-06-09 10:00:00
+219001934	BreastCancerRiskFactors					1	14		0	10	3	2	3	2014-10-12 10:00:00
+219001935	EndometrialCancerRiskFactors					1	12	53	5	5	2	0	1	2015-09-18 10:00:00
+219001937	BreastCancerRiskFactors					1	15	50	2	10	3	2	3	2016-02-09 10:00:00
+219001939	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2015-10-11 10:00:00
+219001941	BreastCancerRiskFactors					1	12	45	0	5	2	2	2	2016-08-16 10:00:00
+219001942	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-08-23 10:00:00
+219001943	BreastCancerRiskFactors					1	12	46	2	0	1	0	1	2014-10-17 10:00:00
+219001947	BreastCancerRiskFactors					1	13		5	15	3	0	2	2019-02-25 10:00:00
+219001961	BreastCancerRiskFactors					1	15	52	5	2	3	1	3	2014-06-06 10:00:00
+219001963	MalignantMelanomaCancerRiskFactors	26	ii - usually burns, tans minimally			1								2019-01-01 10:00:00
+219001965	EndometrialCancerRiskFactors					1	13		0	10	3	3	3	2015-10-03 10:00:00
+219001966	BreastCancerRiskFactors					1	13	54	0	0	0	0	0	2018-04-24 10:00:00
+219001970	OvarianCancerRiskFactors					1	15		0	0	2	1	1	2015-07-02 10:00:00
+219001971	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-02-27 10:00:00
+219001973	RenalCancerRiskFactors			0		1								2019-02-02 10:00:00
+219001974	EndometrialCancerRiskFactors					1	14	53	5	15	5	2	4	2014-10-09 10:00:00
+219001979	BreastCancerRiskFactors					1	11	49	0	15	5	2	3	2015-04-24 10:00:00
+219001987	EndometrialCancerRiskFactors					1	13	48	0	2	3	0	0	2015-07-08 10:00:00
+219001988	BreastCancerRiskFactors					1	13	47	0	15	2	2	2	2016-08-21 10:00:00
+219001992	BreastCancerRiskFactors					1	10	49	0	10	3	1	2	2018-03-15 10:00:00
+219001993	BreastCancerRiskFactors					1	15	50	5	2	4	2	3	2016-08-07 10:00:00
+219001995	BreastCancerRiskFactors					1	13		0	0	2	2	2	2017-05-23 10:00:00
+219001996	BreastCancerRiskFactors					1	14	47	2	2	4	3	4	2014-06-11 10:00:00
+219001998	EndometrialCancerRiskFactors					1	13		0	15	3	0	2	2017-09-26 10:00:00
+219001999	BreastCancerRiskFactors					1	13	54	0	15	0	0	0	2016-07-22 10:00:00
+219002000	BreastCancerRiskFactors					1	12	55	0	0	2	0	0	2018-08-13 10:00:00
+219002001	TesticularCancerRiskFactors				no	1								2017-06-17 10:00:00
+219002003	BreastCancerRiskFactors					1	13	55	0	10	2	1	2	2017-08-20 10:00:00
+219002004	BreastCancerRiskFactors					1	13	51	0	2	1	1	1	2016-10-30 10:00:00
+219002007	EndometrialCancerRiskFactors					1	14	45	0	0	4	3	4	2014-11-27 10:00:00
+219002008	BreastCancerRiskFactors					1	12	57	5	10	2	1	2	2018-01-10 10:00:00
+219002011	TesticularCancerRiskFactors				no	1								2015-03-13 10:00:00
+219002012	RenalCancerRiskFactors			0		1								2016-04-13 10:00:00
+219002014	BreastCancerRiskFactors					1	16	56	0	5	3	2	2	2015-01-22 10:00:00
+219002016	BreastCancerRiskFactors					1	13		0	0	3	2	3	2014-12-08 10:00:00
+219002018	BreastCancerRiskFactors					1	14	51	0	2	3	3	3	2017-08-02 10:00:00
+219002021	OvarianCancerRiskFactors					1	9	54	0	5	6	2	3	2018-11-14 10:00:00
+219002024	BreastCancerRiskFactors					1	12	51	5	15	4	1	4	2019-02-04 10:00:00
+219002032	BreastCancerRiskFactors					1	12	43	5	0	2	1	2	2016-05-02 10:00:00
+219002035	BreastCancerRiskFactors					1	14	49	0	15	2	1	2	2018-09-14 10:00:00
+219002037	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-07-18 10:00:00
+219002039	BreastCancerRiskFactors					1	13	53	0	2	0	0	0	2017-10-22 10:00:00
+219002042	RenalCancerRiskFactors			0		1								2015-09-15 10:00:00
+219002046	OvarianCancerRiskFactors					1	14	52	0	0	2	1	2	2019-01-18 10:00:00
+219002051	BreastCancerRiskFactors					1	13	46	2	10	1	0	1	2018-09-19 10:00:00
+219002055	BreastCancerRiskFactors					1	11	45	0	15	3	3	3	2017-04-16 10:00:00
+219002062	RenalCancerRiskFactors			0		1								2015-02-16 10:00:00
+219002065	OvarianCancerRiskFactors					1	13	50	5	5	3	2	3	2015-04-05 10:00:00
+219002066	BreastCancerRiskFactors					1	15	50	0	2	2	1	2	2018-06-17 10:00:00
+219002067	BreastCancerRiskFactors					1	13		0	2	1	0	0	2017-03-27 10:00:00
+219002068	EndometrialCancerRiskFactors					1	13	52	0	10	1	1	1	2014-11-16 10:00:00
+219002070	BreastCancerRiskFactors					1	11		0	5	3	3	3	2015-09-19 10:00:00
+219002074	BreastCancerRiskFactors					1	15		0	15	1	1	1	2015-07-28 10:00:00
+219002077	BreastCancerRiskFactors					1	13	44	0	2	4	2	3	2016-06-09 10:00:00
+219002079	OvarianCancerRiskFactors					1	15	53	0	0	5	4	4	2016-08-26 10:00:00
+219002080	BreastCancerRiskFactors					1	13	45	0	0	3	3	3	2018-11-17 10:00:00
+219002082	RenalCancerRiskFactors			0		1								2017-10-10 10:00:00
+219002083	EndometrialCancerRiskFactors					1	11	48	5	0	0	0	0	2018-03-07 10:00:00
+219002084	BreastCancerRiskFactors					1	13	49	0	15	1	0	1	2017-11-26 10:00:00
+219002087	BreastCancerRiskFactors					1	12	44	0	2	2	1	1	2014-12-12 10:00:00
+219002094	RenalCancerRiskFactors			0		1								2016-06-25 10:00:00
+219002096	BreastCancerRiskFactors					1	12	49	2	2	1	0	0	2015-05-15 10:00:00
+219002100	BreastCancerRiskFactors					1	11	54	2	15	1	0	0	2018-10-01 10:00:00
+219002102	BreastCancerRiskFactors					1	14	56	2	15	1	0	1	2016-08-08 10:00:00
+219002103	BreastCancerRiskFactors					1	14	50	5	15	2	0	1	2019-02-21 10:00:00
+219002114	OvarianCancerRiskFactors					1	14	52	5	10	1	0	1	2015-05-13 10:00:00
+219002117	BreastCancerRiskFactors					1	13		0	2	5	2	4	2016-11-18 10:00:00
+219002119	BreastCancerRiskFactors					1	13		0	15	3	3	3	2016-04-24 10:00:00
+219002121	TesticularCancerRiskFactors				no	1								2016-11-03 10:00:00
+219002125	BreastCancerRiskFactors					1	14	55	2	0	2	0	2	2018-07-07 10:00:00
+219002127	BreastCancerRiskFactors					1	14		0	15	0	0	0	2014-10-31 10:00:00
+219002129	BreastCancerRiskFactors					1	14	49	0	15	4	3	4	2018-06-05 10:00:00
+219002130	BreastCancerRiskFactors					1	14	48	2	10	1	1	1	2016-05-01 10:00:00
+219002132	RenalCancerRiskFactors			0		1								2017-02-20 10:00:00
+219002138	TesticularCancerRiskFactors				no	1								2016-04-16 10:00:00
+219002139	EndometrialCancerRiskFactors					1	14	58	5	15	3	1	2	2018-12-11 10:00:00
+219002146	EndometrialCancerRiskFactors					1	11	56	0	10	2	2	2	2017-08-13 10:00:00
+219002151	BreastCancerRiskFactors					1	13	55	0	2	3	2	2	2017-10-12 10:00:00
+219002155	BreastCancerRiskFactors					1	12	52	2	10	2	2	2	2014-10-22 10:00:00
+219002157	BreastCancerRiskFactors					1	13	48	0	2	1	0	1	2017-01-17 10:00:00
+219002158	BreastCancerRiskFactors					1	13		0	5	2	2	2	2016-05-11 10:00:00
+219002164	BreastCancerRiskFactors					1	12		0	15	3	1	2	2016-02-25 10:00:00
+219002166	BreastCancerRiskFactors					1	13		0	10	2	1	2	2016-03-23 10:00:00
+219002169	BreastCancerRiskFactors					1	11	54	0	5	3	3	3	2016-01-27 10:00:00
+219002172	TesticularCancerRiskFactors				no	1								2015-04-12 10:00:00
+219002176	BreastCancerRiskFactors					1	10	51	5	2	3	1	2	2018-09-17 10:00:00
+219002177	BreastCancerRiskFactors					1	14	53	0	2	2	1	2	2014-07-25 10:00:00
+219002178	BreastCancerRiskFactors					1	15	46	2	15	3	1	2	2017-08-26 10:00:00
+219002181	BreastCancerRiskFactors					1	13	50	2	15	3	3	3	2016-12-31 10:00:00
+219002182	TesticularCancerRiskFactors				no	1								2018-08-23 10:00:00
+219002185	BreastCancerRiskFactors					1	13	44	0	10	1	0	0	2014-09-09 10:00:00
+219002189	BreastCancerRiskFactors					1	13		0	0	4	1	2	2017-03-22 10:00:00
+219002191	BreastCancerRiskFactors					1	11	50	0	15	4	3	4	2014-10-04 10:00:00
+219002192	BreastCancerRiskFactors					1	13		2	2	2	0	2	2017-06-27 10:00:00
+219002196	BreastCancerRiskFactors					1	13		0	2	2	1	1	2016-11-19 10:00:00
+219002197	BreastCancerRiskFactors					1	11	48	5	0	3	2	3	2014-11-08 10:00:00
+219002198	BreastCancerRiskFactors					1	15	49	0	2	3	1	2	2016-10-22 10:00:00
+219002199	BreastCancerRiskFactors					1	13		0	15	4	3	3	2016-07-08 10:00:00
+219002205	BreastCancerRiskFactors					1	12		0	0	1	0	0	2016-03-13 10:00:00
+219002208	OvarianCancerRiskFactors					1	12	54	0	2	3	1	2	2018-05-11 10:00:00
+219002214	BreastCancerRiskFactors					1	13		0	15	3	2	2	2014-07-07 10:00:00
+219002215	BreastCancerRiskFactors					1	12	54	0	5	3	2	3	2016-06-16 10:00:00
+219002219	BreastCancerRiskFactors					1	13	51	0	15	1	1	1	2016-01-31 10:00:00
+219002226	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2017-02-17 10:00:00
+219002228	BreastCancerRiskFactors					1	13	51	0	0	2	2	2	2015-03-03 10:00:00
+219002238	EndometrialCancerRiskFactors					1	12	54	0	5	2	2	2	2017-08-31 10:00:00
+219002239	BreastCancerRiskFactors					1	12	49	5	2	1	1	1	2017-07-03 10:00:00
+219002240	BreastCancerRiskFactors					1	13	52	2	15	0	0	0	2016-08-31 10:00:00
+219002242	BreastCancerRiskFactors					1	13	54	0	5	2	0	0	2018-08-26 10:00:00
+219002245	MalignantMelanomaCancerRiskFactors	26	iii - sometimes mild burn, tans uniformly			1								2015-06-25 10:00:00
+219002246	BreastCancerRiskFactors					1	15	47	5	2	1	0	1	2018-04-22 10:00:00
+219002249	BreastCancerRiskFactors					1	15		0	10	3	2	3	2016-08-19 10:00:00
+219002253	BreastCancerRiskFactors					1	12	51	0	15	3	1	3	2017-03-07 10:00:00
+219002255	RenalCancerRiskFactors			0		1								2018-02-09 10:00:00
+219002257	BreastCancerRiskFactors					1	12	46	0	2	2	2	2	2016-11-09 10:00:00
+219002263	EndometrialCancerRiskFactors					1	13		0	10	3	1	2	2016-03-23 10:00:00
+219002264	BreastCancerRiskFactors					1	12	51	0	2	3	1	3	2017-06-09 10:00:00
+219002268	TesticularCancerRiskFactors				no	1								2016-05-17 10:00:00
+219002272	BreastCancerRiskFactors					1	13		0	2	2	2	2	2018-01-14 10:00:00
+219002273	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2016-07-29 10:00:00
+219002274	TesticularCancerRiskFactors				no	1								2018-09-05 10:00:00
+219002276	RenalCancerRiskFactors			0		1								2016-07-28 10:00:00
+219002279	BreastCancerRiskFactors					1	14	52	5	10	3	1	3	2016-11-10 10:00:00
+219002286	EndometrialCancerRiskFactors					1	13	49	5	5	1	1	1	2016-11-20 10:00:00
+219002287	BreastCancerRiskFactors					1	12		0	10	2	2	2	2015-03-09 10:00:00
+219002288	BreastCancerRiskFactors					1	11	42	0	10	3	2	3	2015-07-02 10:00:00
+219002290	EndometrialCancerRiskFactors					1	15	47	2	15	2	2	2	2016-04-06 10:00:00
+219002291	BreastCancerRiskFactors					1	14	50	0	2	2	2	2	2017-01-10 10:00:00
+219002297	BreastCancerRiskFactors					1	11	49	5	10	3	3	3	2018-09-10 10:00:00
+219002298	EndometrialCancerRiskFactors					1	12	51	2	2	2	1	2	2018-04-27 10:00:00
+219002299	BreastCancerRiskFactors					1	13	45	2	10	3	0	2	2016-05-03 10:00:00
+219002300	BreastCancerRiskFactors					1	12	48	2	10	3	2	2	2018-02-15 10:00:00
+219002301	EndometrialCancerRiskFactors					1	11		0	5	3	2	2	2015-12-09 10:00:00
+219002302	BreastCancerRiskFactors					1	12	49	2	10	2	2	2	2018-12-08 10:00:00
+219002305	RenalCancerRiskFactors			0		1								2018-12-02 10:00:00
+219002306	BreastCancerRiskFactors					1	12	58	0	5	4	3	4	2017-09-27 10:00:00
+219002307	OvarianCancerRiskFactors					1	9	55	0	10	4	2	2	2014-10-30 10:00:00
+219002308	BreastCancerRiskFactors					1	13	52	0	2	1	1	1	2016-03-08 10:00:00
+219002309	BreastCancerRiskFactors					1	12	40	0	10	1	1	1	2018-06-24 10:00:00
+219002314	BreastCancerRiskFactors					1	13	51	0	10	0	0	0	2019-01-17 10:00:00
+219002321	RenalCancerRiskFactors			0		1								2015-09-18 10:00:00
+219002322	BreastCancerRiskFactors					1	13		0	10	2	2	2	2014-09-09 10:00:00
+219002326	BreastCancerRiskFactors					1	11	51	0	5	2	1	2	2015-02-18 10:00:00
+219002327	RenalCancerRiskFactors			0		1								2018-07-18 10:00:00
+219002329	RenalCancerRiskFactors			0		1								2019-01-19 10:00:00
+219002331	BreastCancerRiskFactors					1	12		5	15	5	3	3	2016-01-06 10:00:00
+219002332	BreastCancerRiskFactors					1	14	47	0	0	3	3	3	2015-01-05 10:00:00
+219002333	BreastCancerRiskFactors					1	12	45	0	15	2	1	2	2018-03-07 10:00:00
+219002335	BreastCancerRiskFactors					1	13	46	0	5	2	1	2	2018-09-12 10:00:00
+219002336	BreastCancerRiskFactors					1	13		0	2	5	2	3	2014-07-31 10:00:00
+219002337	BreastCancerRiskFactors					1	13	52	5	5	2	2	2	2017-08-28 10:00:00
+219002338	RenalCancerRiskFactors			0		1								2016-01-06 10:00:00
+219002341	RenalCancerRiskFactors			0		1								2016-05-24 10:00:00
+219002348	BreastCancerRiskFactors					1	11	49	0	0	0	0	0	2016-08-11 10:00:00
+219002350	BreastCancerRiskFactors					1	10		0	2	2	2	2	2014-11-11 10:00:00
+219002357	TesticularCancerRiskFactors				no	1								2014-06-13 10:00:00
+219002358	EndometrialCancerRiskFactors					1	15	52	0	15	0	0	0	2018-06-06 10:00:00
+219002359	BreastCancerRiskFactors					1	10	53	2	15	3	2	2	2016-02-01 10:00:00
+219002363	BreastCancerRiskFactors					1	14		5	10	0	0	0	2016-12-25 10:00:00
+219002377	EndometrialCancerRiskFactors					1	12	54	0	15	2	2	2	2014-11-20 10:00:00
+219002383	OvarianCancerRiskFactors					1	16	50	0	2	2	2	2	2018-05-12 10:00:00
+219002389	BreastCancerRiskFactors					1	12	50	0	15	2	1	1	2017-01-23 10:00:00
+219002397	BreastCancerRiskFactors					1	12	52	0	15	4	4	4	2016-04-01 10:00:00
+219002401	BreastCancerRiskFactors					1	11	49	0	15	3	0	2	2017-05-13 10:00:00
+219002403	MalignantMelanomaCancerRiskFactors	33	iii - sometimes mild burn, tans uniformly			1								2015-08-14 10:00:00
+219002408	OvarianCancerRiskFactors					1	13	57	2	0	2	2	2	2015-09-11 10:00:00
+219002409	EndometrialCancerRiskFactors					1	11	50	0	15	0	0	0	2017-07-31 10:00:00
+219002412	BreastCancerRiskFactors					1	11	55	5	5	4	2	4	2015-02-25 10:00:00
+219002413	BreastCancerRiskFactors					1	12	52	0	10	1	0	0	2014-07-05 10:00:00
+219002415	OvarianCancerRiskFactors					1	10	50	2	2	1	1	1	2016-01-14 10:00:00
+219002417	BreastCancerRiskFactors					1	14		0	10	2	2	2	2018-08-14 10:00:00
+219002418	OvarianCancerRiskFactors					1	13		0	0	2	1	1	2016-04-16 10:00:00
+219002421	TesticularCancerRiskFactors				no	1								2016-01-31 10:00:00
+219002422	BreastCancerRiskFactors					1	14	58	2	15	3	3	3	2015-07-14 10:00:00
+219002426	BreastCancerRiskFactors					1	11		0	0	1	1	1	2015-10-11 10:00:00
+219002432	BreastCancerRiskFactors					1	14		0	2	2	2	2	2016-03-24 10:00:00
+219002435	BreastCancerRiskFactors					1	11	53	5	15	0	0	0	2015-04-27 10:00:00
+219002436	BreastCancerRiskFactors					1	13	49	2	15	1	0	0	2016-03-14 10:00:00
+219002437	BreastCancerRiskFactors					1	14	53	5	15	2	0	2	2016-11-11 10:00:00
+219002440	TesticularCancerRiskFactors				no	1								2015-08-31 10:00:00
+219002442	BreastCancerRiskFactors					1	13		0	10	5	1	2	2017-11-27 10:00:00
+219002444	BreastCancerRiskFactors					1	11	49	0	15	7	2	4	2015-02-08 10:00:00
+219002445	BreastCancerRiskFactors					1	11	47	0	10	3	2	2	2015-09-12 10:00:00
+219002451	BreastCancerRiskFactors					1	11	50	0	15	3	0	2	2016-09-01 10:00:00
+219002455	BreastCancerRiskFactors					1	12	51	2	15	3	2	3	2015-08-12 10:00:00
+219002462	BreastCancerRiskFactors					1	12	51	0	10	1	0	1	2017-03-11 10:00:00
+219002465	RenalCancerRiskFactors			0		1								2018-07-02 10:00:00
+219002470	TesticularCancerRiskFactors				no	1								2018-02-22 10:00:00
+219002474	BreastCancerRiskFactors					1	12		0	10	0	0	0	2015-11-28 10:00:00
+219002475	BreastCancerRiskFactors					1	15	53	0	2	0	0	0	2015-04-07 10:00:00
+219002476	OvarianCancerRiskFactors					1	11		0	15	4	2	3	2016-07-05 10:00:00
+219002477	BreastCancerRiskFactors					1	13		0	0	4	3	4	2017-12-01 10:00:00
+219002478	BreastCancerRiskFactors					1	12	50	0	0	1	1	1	2019-02-23 10:00:00
+219002482	BreastCancerRiskFactors					1	11	51	0	5	4	2	4	2018-09-19 10:00:00
+219002483	RenalCancerRiskFactors			0		1								2014-06-25 10:00:00
+219002485	BreastCancerRiskFactors					1	13	56	5	2	2	1	2	2015-01-09 10:00:00
+219002489	BreastCancerRiskFactors					1	15	53	2	0	0	0	0	2018-08-11 10:00:00
+219002490	BreastCancerRiskFactors					1	14	51	5	10	0	0	0	2018-12-24 10:00:00
+219002493	BreastCancerRiskFactors					1	15		0	5	3	2	2	2018-08-12 10:00:00
+219002497	OvarianCancerRiskFactors					1	14	51	2	2	3	1	3	2017-06-14 10:00:00
+219002499	BreastCancerRiskFactors					1	12	49	0	15	5	1	2	2014-07-31 10:00:00
+219002501	BreastCancerRiskFactors					1	12	54	2	5	0	0	0	2016-03-15 10:00:00
+219002508	EndometrialCancerRiskFactors					1	11	52	5	15	2	1	1	2016-05-08 10:00:00
+219002510	BreastCancerRiskFactors					1	14	48	5	10	3	2	2	2014-11-09 10:00:00
+219002511	BreastCancerRiskFactors					1	13	51	0	0	0	0	0	2018-01-20 10:00:00
+219002512	BreastCancerRiskFactors					1	13	54	0	15	2	0	2	2017-04-13 10:00:00
+219002513	RenalCancerRiskFactors			0		1								2017-04-22 10:00:00
+219002515	BreastCancerRiskFactors					1	11		0	5	0	0	0	2017-06-22 10:00:00
+219002522	BreastCancerRiskFactors					1	13	57	2	5	2	1	1	2017-10-05 10:00:00
+219002524	BreastCancerRiskFactors					1	11	50	0	5	0	0	0	2018-04-25 10:00:00
+219002527	TesticularCancerRiskFactors				no	1								2018-08-30 10:00:00
+219002528	RenalCancerRiskFactors			0		1								2015-03-29 10:00:00
+219002529	BreastCancerRiskFactors					1	15	51	5	10	3	3	3	2018-12-20 10:00:00
+219002532	BreastCancerRiskFactors					1	14	52	0	5	4	2	2	2014-06-06 10:00:00
+219002533	BreastCancerRiskFactors					1	11	54	5	5	3	0	1	2018-12-22 10:00:00
+219002535	BreastCancerRiskFactors					1	15	50	0	2	2	2	2	2015-02-23 10:00:00
+219002536	BreastCancerRiskFactors					1	14	51	0	15	3	2	2	2014-07-28 10:00:00
+219002542	BreastCancerRiskFactors					1	11	52	2	2	1	0	1	2018-09-24 10:00:00
+219002543	BreastCancerRiskFactors					1	12		0	15	4	1	3	2016-04-30 10:00:00
+219002544	RenalCancerRiskFactors			0		1								2015-07-27 10:00:00
+219002551	TesticularCancerRiskFactors				no	1								2016-07-06 10:00:00
+219002554	BreastCancerRiskFactors					1	14	48	2	5	2	1	2	2016-05-19 10:00:00
+219002555	OvarianCancerRiskFactors					1	13	54	0	15	6	3	3	2016-09-14 10:00:00
+219002557	BreastCancerRiskFactors					1	14	51	0	10	4	2	3	2014-12-08 10:00:00
+219002561	BreastCancerRiskFactors					1	13		0	5	0	0	0	2016-08-30 10:00:00
+219002562	EndometrialCancerRiskFactors					1	13	53	5	2	2	1	2	2015-08-31 10:00:00
+219002566	BreastCancerRiskFactors					1	11		0	5	1	0	0	2015-11-07 10:00:00
+219002567	RenalCancerRiskFactors			0		1								2018-10-09 10:00:00
+219002569	BreastCancerRiskFactors					1	12		0	10	0	0	0	2016-01-20 10:00:00
+219002571	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2016-10-11 10:00:00
+219002574	BreastCancerRiskFactors					1	15		5	5	0	0	0	2016-11-02 10:00:00
+219002580	OvarianCancerRiskFactors					1	14	53	0	0	4	3	4	2019-02-02 10:00:00
+219002583	BreastCancerRiskFactors					1	13		0	0	1	1	1	2018-12-22 10:00:00
+219002584	BreastCancerRiskFactors					1	13	47	0	15	5	2	4	2017-06-11 10:00:00
+219002587	BreastCancerRiskFactors					1	10		0	5	0	0	0	2014-06-03 10:00:00
+219002593	BreastCancerRiskFactors					1	13		0	0	3	1	2	2014-09-09 10:00:00
+219002595	BreastCancerRiskFactors					1	14		0	5	4	0	2	2017-07-10 10:00:00
+219002599	BreastCancerRiskFactors					1	14	54	0	2	3	0	3	2018-06-03 10:00:00
+219002601	BreastCancerRiskFactors					1	12	49	0	15	0	0	0	2016-09-13 10:00:00
+219002602	BreastCancerRiskFactors					1	14	48	0	15	0	0	0	2016-12-02 10:00:00
+219002603	BreastCancerRiskFactors					1	13		0	10	3	2	2	2017-08-24 10:00:00
+219002606	BreastCancerRiskFactors					1	13	44	2	0	1	1	1	2015-02-08 10:00:00
+219002607	OvarianCancerRiskFactors					1	12	54	0	10	3	1	2	2017-06-25 10:00:00
+219002609	BreastCancerRiskFactors					1	16	53	0	10	0	0	0	2016-10-15 10:00:00
+219002611	BreastCancerRiskFactors					1	14	54	0	10	0	0	0	2016-03-23 10:00:00
+219002614	EndometrialCancerRiskFactors					1	12	49	0	2	0	0	0	2014-12-07 10:00:00
+219002616	BreastCancerRiskFactors					1	13		0	5	0	0	0	2017-04-23 10:00:00
+219002619	BreastCancerRiskFactors					1	12		0	5	0	0	0	2015-12-06 10:00:00
+219002624	BreastCancerRiskFactors					1	14	58	0	2	3	2	3	2014-09-17 10:00:00
+219002634	BreastCancerRiskFactors					1	13	55	0	10	0	0	0	2018-04-08 10:00:00
+219002636	OvarianCancerRiskFactors					1	14	48	0	0	4	2	3	2017-09-11 10:00:00
+219002637	BreastCancerRiskFactors					1	13		0	5	3	2	2	2014-08-08 10:00:00
+219002639	BreastCancerRiskFactors					1	13		5	0	1	1	1	2017-10-16 10:00:00
+219002640	RenalCancerRiskFactors			0		1								2016-04-26 10:00:00
+219002644	BreastCancerRiskFactors					1	13	50	0	0	2	2	2	2018-11-13 10:00:00
+219002645	MalignantMelanomaCancerRiskFactors	26	ii - usually burns, tans minimally			1								2018-12-18 10:00:00
+219002650	BreastCancerRiskFactors					1	12	47	5	15	0	0	0	2015-10-30 10:00:00
+219002655	RenalCancerRiskFactors			0		1								2017-08-10 10:00:00
+219002661	BreastCancerRiskFactors					1	15	46	2	0	1	0	1	2015-07-23 10:00:00
+219002663	BreastCancerRiskFactors					1	14		0	15	1	1	1	2018-06-03 10:00:00
+219002664	TesticularCancerRiskFactors				no	1								2016-04-04 10:00:00
+219002667	BreastCancerRiskFactors					1	13		2	0	4	3	3	2016-12-17 10:00:00
+219002668	BreastCancerRiskFactors					1	12		0	5	5	1	3	2018-07-28 10:00:00
+219002669	BreastCancerRiskFactors					1	12	54	0	10	2	1	2	2016-08-18 10:00:00
+219002670	OvarianCancerRiskFactors					1	13	53	5	10	1	0	1	2018-07-01 10:00:00
+219002673	BreastCancerRiskFactors					1	13	51	0	5	2	2	2	2015-12-04 10:00:00
+219002678	EndometrialCancerRiskFactors					1	11	49	0	10	1	0	0	2014-12-09 10:00:00
+219002684	BreastCancerRiskFactors					1	15		0	15	4	2	2	2017-06-15 10:00:00
+219002685	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2014-12-18 10:00:00
+219002686	RenalCancerRiskFactors			0		1								2018-10-20 10:00:00
+219002692	BreastCancerRiskFactors					1	13	49	0	10	3	0	3	2016-10-09 10:00:00
+219002693	OvarianCancerRiskFactors					1	10	49	5	15	3	1	2	2014-06-12 10:00:00
+219002697	BreastCancerRiskFactors					1	15	48	0	5	2	1	2	2015-07-18 10:00:00
+219002698	BreastCancerRiskFactors					1	14	51	0	2	4	1	3	2015-07-22 10:00:00
+219002701	EndometrialCancerRiskFactors					1	12	52	2	15	2	1	2	2017-07-12 10:00:00
+219002703	BreastCancerRiskFactors					1	14	50	0	5	0	0	0	2014-10-03 10:00:00
+219002708	BreastCancerRiskFactors					1	14		0	0	2	2	2	2014-08-05 10:00:00
+219002711	EndometrialCancerRiskFactors					1	14	50	5	10	0	0	0	2018-03-09 10:00:00
+219002718	EndometrialCancerRiskFactors					1	13	48	0	10	2	0	1	2017-03-10 10:00:00
+219002720	BreastCancerRiskFactors					1	14		0	0	3	2	2	2019-01-17 10:00:00
+219002721	BreastCancerRiskFactors					1	15	53	5	0	1	0	0	2016-01-13 10:00:00
+219002722	BreastCancerRiskFactors					1	15		0	10	2	0	2	2018-04-29 10:00:00
+219002731	BreastCancerRiskFactors					1	12	49	0	15	0	0	0	2018-12-17 10:00:00
+219002734	RenalCancerRiskFactors			0		1								2015-09-27 10:00:00
+219002740	BreastCancerRiskFactors					1	13		0	5	0	0	0	2017-08-19 10:00:00
+219002741	BreastCancerRiskFactors					1	13	48	0	10	4	4	4	2016-03-24 10:00:00
+219002744	MalignantMelanomaCancerRiskFactors	28	ii - usually burns, tans minimally			1								2019-01-15 10:00:00
+219002745	BreastCancerRiskFactors					1	14	46	0	5	3	2	2	2016-05-16 10:00:00
+219002746	BreastCancerRiskFactors					1	15	48	2	5	1	1	1	2014-10-31 10:00:00
+219002751	TesticularCancerRiskFactors				no	1								2018-11-19 10:00:00
+219002752	BreastCancerRiskFactors					1	12		0	5	0	0	0	2017-12-25 10:00:00
+219002755	BreastCancerRiskFactors					1	12	43	0	0	3	2	3	2018-05-24 10:00:00
+219002757	BreastCancerRiskFactors					1	11		0	5	3	3	3	2018-01-16 10:00:00
+219002762	BreastCancerRiskFactors					1	12	52	2	15	2	2	2	2018-06-03 10:00:00
+219002764	BreastCancerRiskFactors					1	15	49	0	5	3	2	3	2018-10-30 10:00:00
+219002766	BreastCancerRiskFactors					1	14	54	5	2	2	1	2	2017-04-07 10:00:00
+219002768	BreastCancerRiskFactors					1	15	49	0	0	3	0	2	2018-03-24 10:00:00
+219002771	BreastCancerRiskFactors					1	12	50	0	15	3	2	3	2018-04-10 10:00:00
+219002777	BreastCancerRiskFactors					1	13	50	2	10	0	0	0	2015-09-23 10:00:00
+219002778	BreastCancerRiskFactors					1	14	49	5	15	4	3	4	2016-02-13 10:00:00
+219002779	BreastCancerRiskFactors					1	13		0	10	2	2	2	2018-10-12 10:00:00
+219002783	BreastCancerRiskFactors					1	15		0	15	1	1	1	2017-05-07 10:00:00
+219002784	TesticularCancerRiskFactors				no	1								2015-10-16 10:00:00
+219002786	BreastCancerRiskFactors					1	13	51	0	0	4	4	4	2017-05-16 10:00:00
+219002787	EndometrialCancerRiskFactors					1	10	55	0	5	2	1	2	2017-10-14 10:00:00
+219002789	BreastCancerRiskFactors					1	13	52	0	2	0	0	0	2016-01-02 10:00:00
+219002791	BreastCancerRiskFactors					1	11	52	5	15	3	2	2	2018-05-27 10:00:00
+219002792	BreastCancerRiskFactors					1	11		5	10	5	1	3	2016-05-01 10:00:00
+219002793	EndometrialCancerRiskFactors					1	14	58	5	0	2	2	2	2016-01-26 10:00:00
+219002794	OvarianCancerRiskFactors					1	11	47	2	10	2	2	2	2017-11-11 10:00:00
+219002795	TesticularCancerRiskFactors				no	1								2014-09-17 10:00:00
+219002796	BreastCancerRiskFactors					1	11	51	2	0	0	0	0	2018-11-25 10:00:00
+219002799	EndometrialCancerRiskFactors					1	15	51	0	10	2	0	1	2015-11-18 10:00:00
+219002801	BreastCancerRiskFactors					1	16		0	10	1	0	1	2019-02-07 10:00:00
+219002804	EndometrialCancerRiskFactors					1	15	49	2	15	2	1	2	2017-07-12 10:00:00
+219002805	BreastCancerRiskFactors					1	11	51	2	0	0	0	0	2016-06-22 10:00:00
+219002806	BreastCancerRiskFactors					1	13		0	15	1	1	1	2017-05-23 10:00:00
+219002810	BreastCancerRiskFactors					1	13	44	5	10	1	1	1	2014-08-13 10:00:00
+219002813	BreastCancerRiskFactors					1	12	51	0	15	2	2	2	2017-05-06 10:00:00
+219002814	BreastCancerRiskFactors					1	11	54	2	5	2	2	2	2014-08-04 10:00:00
+219002815	BreastCancerRiskFactors					1	14		0	15	1	1	1	2016-03-05 10:00:00
+219002818	OvarianCancerRiskFactors					1	10	49	2	10	3	2	3	2016-06-27 10:00:00
+219002824	BreastCancerRiskFactors					1	12	51	2	5	1	1	1	2018-06-17 10:00:00
+219002826	BreastCancerRiskFactors					1	11		2	0	2	2	2	2015-02-28 10:00:00
+219002827	BreastCancerRiskFactors					1	12	52	0	0	4	2	3	2018-12-05 10:00:00
+219002828	BreastCancerRiskFactors					1	13	48	0	0	2	0	2	2014-07-16 10:00:00
+219002829	TesticularCancerRiskFactors				no	1								2017-04-19 10:00:00
+219002831	BreastCancerRiskFactors					1	12		0	5	0	0	0	2017-11-23 10:00:00
+219002832	BreastCancerRiskFactors					1	13	53	0	5	4	2	4	2018-04-23 10:00:00
+219002834	BreastCancerRiskFactors					1	13		2	5	1	0	1	2016-02-12 10:00:00
+219002839	BreastCancerRiskFactors					1	12	50	5	0	4	1	2	2015-12-31 10:00:00
+219002841	BreastCancerRiskFactors					1	14	52	2	10	1	0	0	2015-12-14 10:00:00
+219002842	BreastCancerRiskFactors					1	15		0	15	2	1	2	2019-02-22 10:00:00
+219002843	BreastCancerRiskFactors					1	15	48	2	15	2	2	2	2015-12-30 10:00:00
+219002847	BreastCancerRiskFactors					1	11	53	5	10	1	0	0	2016-01-25 10:00:00
+219002852	RenalCancerRiskFactors			0		1								2018-07-23 10:00:00
+219002854	BreastCancerRiskFactors					1	14	54	0	0	2	1	2	2014-10-05 10:00:00
+219002857	BreastCancerRiskFactors					1	12	47	0	2	1	0	0	2018-08-24 10:00:00
+219002859	OvarianCancerRiskFactors					1	14	49	0	2	2	2	2	2017-07-05 10:00:00
+219002865	RenalCancerRiskFactors			0		1								2018-04-17 10:00:00
+219002869	BreastCancerRiskFactors					1	11		0	5	2	2	2	2017-07-30 10:00:00
+219002870	BreastCancerRiskFactors					1	16		0	0	3	2	3	2014-12-29 10:00:00
+219002872	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-10-13 10:00:00
+219002875	BreastCancerRiskFactors					1	13	47	0	10	4	2	3	2017-12-12 10:00:00
+219002877	BreastCancerRiskFactors					1	13		0	15	3	2	3	2017-11-29 10:00:00
+219002879	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2014-06-06 10:00:00
+219002880	RenalCancerRiskFactors			0		1								2017-05-29 10:00:00
+219002881	BreastCancerRiskFactors					1	14	48	5	5	4	2	4	2019-01-14 10:00:00
+219002882	BreastCancerRiskFactors					1	12		0	5	2	1	2	2014-11-20 10:00:00
+219002886	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2018-02-20 10:00:00
+219002887	BreastCancerRiskFactors					1	15	46	0	10	4	3	3	2015-08-02 10:00:00
+219002889	EndometrialCancerRiskFactors					1	14	49	0	15	2	2	2	2015-08-18 10:00:00
+219002890	OvarianCancerRiskFactors					1	10	53	0	2	2	2	2	2016-06-25 10:00:00
+219002891	BreastCancerRiskFactors					1	12	49	2	5	5	2	4	2018-08-08 10:00:00
+219002893	RenalCancerRiskFactors			0		1								2017-12-29 10:00:00
+219002894	OvarianCancerRiskFactors					1	11	44	0	0	2	1	1	2014-11-21 10:00:00
+219002898	BreastCancerRiskFactors					1	12		0	0	3	2	2	2015-10-21 10:00:00
+219002899	BreastCancerRiskFactors					1	12		0	0	1	0	0	2017-06-22 10:00:00
+219002901	BreastCancerRiskFactors					1	13	46	0	10	3	3	3	2015-11-10 10:00:00
+219002902	OvarianCancerRiskFactors					1	12	48	0	10	1	0	1	2015-04-23 10:00:00
+219002906	BreastCancerRiskFactors					1	13		0	5	2	1	2	2018-05-29 10:00:00
+219002907	BreastCancerRiskFactors					1	14	53	0	15	2	0	2	2015-06-27 10:00:00
+219002911	BreastCancerRiskFactors					1	14	54	0	15	1	0	1	2015-11-07 10:00:00
+219002913	TesticularCancerRiskFactors				no	1								2016-10-15 10:00:00
+219002914	RenalCancerRiskFactors			0		1								2017-10-12 10:00:00
+219002915	BreastCancerRiskFactors					1	14	49	0	5	3	2	3	2017-06-18 10:00:00
+219002916	BreastCancerRiskFactors					1	13	49	2	0	5	3	3	2016-10-04 10:00:00
+219002920	BreastCancerRiskFactors					1	13	48	0	2	3	1	3	2015-08-01 10:00:00
+219002921	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-05-09 10:00:00
+219002923	BreastCancerRiskFactors					1	13	52	2	10	3	2	2	2017-05-17 10:00:00
+219002926	OvarianCancerRiskFactors					1	11	54	0	0	4	3	3	2016-06-19 10:00:00
+219002929	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2015-05-26 10:00:00
+219002932	BreastCancerRiskFactors					1	15	52	5	10	2	2	2	2018-12-24 10:00:00
+219002937	BreastCancerRiskFactors					1	12	53	5	2	1	0	0	2018-10-04 10:00:00
+219002949	BreastCancerRiskFactors					1	13	49	5	5	1	1	1	2018-11-10 10:00:00
+219002954	BreastCancerRiskFactors					1	12	50	0	10	4	1	4	2017-10-27 10:00:00
+219002955	BreastCancerRiskFactors					1	12	51	0	15	1	1	1	2015-01-03 10:00:00
+219002956	EndometrialCancerRiskFactors					1	11	53	0	10	2	1	2	2015-08-12 10:00:00
+219002959	EndometrialCancerRiskFactors					1	15	51	0	0	2	1	2	2016-03-08 10:00:00
+219002962	BreastCancerRiskFactors					1	12	48	0	0	5	3	4	2017-09-01 10:00:00
+219002965	BreastCancerRiskFactors					1	12		0	2	0	0	0	2016-10-21 10:00:00
+219002969	OvarianCancerRiskFactors					1	16	48	0	5	2	2	2	2016-02-16 10:00:00
+219002970	EndometrialCancerRiskFactors					1	12	54	0	15	2	1	2	2015-02-04 10:00:00
+219002972	BreastCancerRiskFactors					1	9		0	5	2	2	2	2016-09-03 10:00:00
+219002973	OvarianCancerRiskFactors					1	12	48	2	10	3	1	2	2017-10-10 10:00:00
+219002974	BreastCancerRiskFactors					1	13		0	5	3	3	3	2018-08-23 10:00:00
+219002975	EndometrialCancerRiskFactors					1	15	54	0	15	2	2	2	2015-11-24 10:00:00
+219002976	RenalCancerRiskFactors			0		1								2017-07-18 10:00:00
+219002979	BreastCancerRiskFactors					1	14		0	0	3	2	3	2017-12-27 10:00:00
+219002982	BreastCancerRiskFactors					1	13	48	0	0	2	1	2	2018-05-30 10:00:00
+219002984	BreastCancerRiskFactors					1	10	52	5	0	3	2	3	2015-03-09 10:00:00
+219002985	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2018-05-25 10:00:00
+219002996	BreastCancerRiskFactors					1	12	51	5	0	2	1	2	2017-03-14 10:00:00
+219002998	BreastCancerRiskFactors					1	15	57	5	10	5	3	4	2016-11-15 10:00:00
+219003001	BreastCancerRiskFactors					1	13		5	2	3	1	2	2017-09-10 10:00:00
+219003005	OvarianCancerRiskFactors					1	12	52	5	5	3	0	1	2018-07-19 10:00:00
+219003007	BreastCancerRiskFactors					1	14	52	0	0	5	3	4	2014-08-05 10:00:00
+219003009	BreastCancerRiskFactors					1	12	51	2	5	2	1	2	2016-07-20 10:00:00
+219003012	BreastCancerRiskFactors					1	13	55	5	0	3	1	2	2015-04-05 10:00:00
+219003014	BreastCancerRiskFactors					1	13		0	10	2	1	1	2016-12-30 10:00:00
+219003015	OvarianCancerRiskFactors					1	13	55	0	0	2	1	1	2019-01-12 10:00:00
+219003016	BreastCancerRiskFactors					1	15	46	0	0	5	2	4	2017-01-15 10:00:00
+219003021	BreastCancerRiskFactors					1	14	43	0	0	2	2	2	2017-03-19 10:00:00
+219003024	OvarianCancerRiskFactors					1	10	53	0	5	2	0	0	2017-09-10 10:00:00
+219003025	BreastCancerRiskFactors					1	13	49	0	0	5	3	3	2019-01-03 10:00:00
+219003028	BreastCancerRiskFactors					1	13	47	0	5	0	0	0	2015-07-12 10:00:00
+219003031	OvarianCancerRiskFactors					1	12		0	15	1	0	0	2015-01-25 10:00:00
+219003033	BreastCancerRiskFactors					1	15	53	0	0	3	2	3	2014-06-09 10:00:00
+219003039	TesticularCancerRiskFactors				no	1								2014-11-01 10:00:00
+219003040	BreastCancerRiskFactors					1	14	50	0	5	3	1	2	2017-06-23 10:00:00
+219003051	OvarianCancerRiskFactors					1	16	49	0	0	2	0	1	2017-07-28 10:00:00
+219003052	EndometrialCancerRiskFactors					1	13	46	0	10	4	3	4	2015-10-06 10:00:00
+219003058	BreastCancerRiskFactors					1	13		0	5	3	2	3	2018-05-20 10:00:00
+219003060	BreastCancerRiskFactors					1	11	54	0	5	2	2	2	2015-10-06 10:00:00
+219003065	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2017-07-13 10:00:00
+219003070	BreastCancerRiskFactors					1	14	51	5	2	1	0	0	2016-08-24 10:00:00
+219003074	BreastCancerRiskFactors					1	14		5	15	1	1	1	2017-04-04 10:00:00
+219003075	OvarianCancerRiskFactors					1	13	45	5	2	3	0	1	2016-03-22 10:00:00
+219003076	BreastCancerRiskFactors					1	13	54	0	0	4	3	4	2015-03-11 10:00:00
+219003078	OvarianCancerRiskFactors					1	13	48	5	10	0	0	0	2017-07-06 10:00:00
+219003080	TesticularCancerRiskFactors				no	1								2016-05-27 10:00:00
+219003083	BreastCancerRiskFactors					1	12	49	0	0	1	0	0	2014-10-17 10:00:00
+219003087	BreastCancerRiskFactors					1	13	50	0	0	3	1	2	2018-07-14 10:00:00
+219003092	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2018-08-06 10:00:00
+219003096	OvarianCancerRiskFactors					1	16	46	5	0	2	1	2	2014-07-25 10:00:00
+219003098	BreastCancerRiskFactors					1	16		0	10	3	1	3	2015-07-06 10:00:00
+219003099	BreastCancerRiskFactors					1	11	51	0	5	1	1	1	2015-03-07 10:00:00
+219003102	EndometrialCancerRiskFactors					1	11	54	0	10	3	1	2	2017-09-09 10:00:00
+219003108	BreastCancerRiskFactors					1	16		0	0	4	1	2	2015-09-29 10:00:00
+219003111	BreastCancerRiskFactors					1	13	42	0	10	2	0	1	2014-07-20 10:00:00
+219003113	OvarianCancerRiskFactors					1	14	50	2	0	3	1	2	2017-10-31 10:00:00
+219003117	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2018-09-27 10:00:00
+219003118	BreastCancerRiskFactors					1	13	50	5	15	2	0	2	2014-07-27 10:00:00
+219003120	BreastCancerRiskFactors					1	14		0	10	3	2	3	2017-06-01 10:00:00
+219003121	BreastCancerRiskFactors					1	15	53	5	10	2	2	2	2018-12-23 10:00:00
+219003123	OvarianCancerRiskFactors					1	12	44	5	15	5	3	3	2018-05-18 10:00:00
+219003125	RenalCancerRiskFactors			0		1								2016-02-17 10:00:00
+219003126	EndometrialCancerRiskFactors					1	14	57	0	2	1	1	1	2015-08-24 10:00:00
+219003128	BreastCancerRiskFactors					1	14	52	2	10	2	1	1	2015-12-09 10:00:00
+219003131	BreastCancerRiskFactors					1	13		0	0	4	4	4	2016-10-16 10:00:00
+219003133	BreastCancerRiskFactors					1	12	50	0	10	3	1	2	2016-06-03 10:00:00
+219003134	BreastCancerRiskFactors					1	14		0	2	1	1	1	2016-07-26 10:00:00
+219003136	BreastCancerRiskFactors					1	12	49	2	10	2	2	2	2016-04-02 10:00:00
+219003137	EndometrialCancerRiskFactors					1	12	53	5	10	1	1	1	2014-07-18 10:00:00
+219003138	BreastCancerRiskFactors					1	13	47	5	2	2	1	2	2018-09-19 10:00:00
+219003142	BreastCancerRiskFactors					1	14	46	5	15	3	2	3	2015-08-05 10:00:00
+219003143	BreastCancerRiskFactors					1	12		0	0	5	2	4	2016-02-25 10:00:00
+219003145	BreastCancerRiskFactors					1	11	48	5	5	3	2	3	2015-09-19 10:00:00
+219003148	BreastCancerRiskFactors					1	11	54	2	10	4	3	3	2014-06-20 10:00:00
+219003152	RenalCancerRiskFactors			0		1								2017-04-15 10:00:00
+219003153	BreastCancerRiskFactors					1	15	55	0	2	3	1	2	2014-07-29 10:00:00
+219003157	RenalCancerRiskFactors			0		1								2014-11-25 10:00:00
+219003158	BreastCancerRiskFactors					1	14	46	0	10	1	1	1	2014-10-09 10:00:00
+219003165	OvarianCancerRiskFactors					1	14		0	5	0	0	0	2017-11-25 10:00:00
+219003167	BreastCancerRiskFactors					1	12	52	0	0	2	1	1	2015-02-23 10:00:00
+219003169	BreastCancerRiskFactors					1	14	52	0	10	0	0	0	2017-06-05 10:00:00
+219003170	TesticularCancerRiskFactors				no	1								2019-01-25 10:00:00
+219003171	BreastCancerRiskFactors					1	14	47	2	0	0	0	0	2018-07-31 10:00:00
+219003173	BreastCancerRiskFactors					1	12	47	0	10	3	2	3	2017-10-06 10:00:00
+219003175	BreastCancerRiskFactors					1	14		0	15	4	3	4	2019-01-31 10:00:00
+219003179	BreastCancerRiskFactors					1	14	50	2	10	5	3	4	2017-05-25 10:00:00
+219003180	BreastCancerRiskFactors					1	12	50	0	2	3	2	2	2014-12-19 10:00:00
+219003187	BreastCancerRiskFactors					1	14		0	15	1	0	0	2016-12-08 10:00:00
+219003190	OvarianCancerRiskFactors					1	13		0	2	1	0	0	2014-10-01 10:00:00
+219003191	BreastCancerRiskFactors					1	14	54	0	2	4	2	4	2016-05-25 10:00:00
+219003194	BreastCancerRiskFactors					1	14	54	0	15	1	0	0	2016-03-09 10:00:00
+219003195	OvarianCancerRiskFactors					1	12		0	10	2	1	2	2015-04-29 10:00:00
+219003198	EndometrialCancerRiskFactors					1	14	47	5	10	3	2	3	2015-11-15 10:00:00
+219003199	BreastCancerRiskFactors					1	13	49	2	2	0	0	0	2016-05-31 10:00:00
+219003201	OvarianCancerRiskFactors					1	14	48	0	5	1	0	1	2016-08-28 10:00:00
+219003202	BreastCancerRiskFactors					1	13	52	5	15	2	2	2	2014-12-27 10:00:00
+219003203	BreastCancerRiskFactors					1	13	51	5	5	2	1	2	2018-01-14 10:00:00
+219003206	BreastCancerRiskFactors					1	12	48	0	2	0	0	0	2016-11-29 10:00:00
+219003212	BreastCancerRiskFactors					1	15	54	5	2	2	2	2	2017-04-04 10:00:00
+219003213	BreastCancerRiskFactors					1	16	58	0	15	3	3	3	2017-01-26 10:00:00
+219003217	BreastCancerRiskFactors					1	14	42	0	10	1	0	0	2015-09-11 10:00:00
+219003220	BreastCancerRiskFactors					1	16	49	5	2	3	2	2	2015-01-19 10:00:00
+219003222	BreastCancerRiskFactors					1	11	54	0	0	2	1	2	2014-07-09 10:00:00
+219003226	EndometrialCancerRiskFactors					1	12	53	0	10	3	2	2	2016-02-17 10:00:00
+219003228	BreastCancerRiskFactors					1	15	55	5	2	0	0	0	2015-02-14 10:00:00
+219003232	OvarianCancerRiskFactors					1	12	48	5	15	3	2	3	2017-08-18 10:00:00
+219003233	EndometrialCancerRiskFactors					1	13	49	0	10	5	1	2	2018-03-25 10:00:00
+219003234	BreastCancerRiskFactors					1	13		2	5	4	2	2	2015-02-10 10:00:00
+219003236	BreastCancerRiskFactors					1	13	51	0	10	0	0	0	2017-02-05 10:00:00
+219003237	BreastCancerRiskFactors					1	13	54	0	0	0	0	0	2014-12-03 10:00:00
+219003238	BreastCancerRiskFactors					1	14		0	2	2	2	2	2018-12-08 10:00:00
+219003239	BreastCancerRiskFactors					1	12	48	0	10	1	1	1	2015-08-12 10:00:00
+219003243	BreastCancerRiskFactors					1	16		2	15	4	2	2	2015-04-09 10:00:00
+219003244	BreastCancerRiskFactors					1	12	49	5	2	3	2	2	2016-02-10 10:00:00
+219003247	BreastCancerRiskFactors					1	12	49	2	10	3	1	3	2015-02-09 10:00:00
+219003248	BreastCancerRiskFactors					1	14	54	5	2	0	0	0	2014-08-06 10:00:00
+219003249	BreastCancerRiskFactors					1	13	51	0	2	0	0	0	2015-01-24 10:00:00
+219003252	BreastCancerRiskFactors					1	12	50	0	15	3	1	3	2016-09-15 10:00:00
+219003253	BreastCancerRiskFactors					1	12		0	10	0	0	0	2018-02-05 10:00:00
+219003254	RenalCancerRiskFactors			0		1								2018-05-02 10:00:00
+219003256	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2018-04-17 10:00:00
+219003261	BreastCancerRiskFactors					1	16	47	0	10	2	2	2	2014-06-23 10:00:00
+219003262	BreastCancerRiskFactors					1	12	44	0	2	0	0	0	2016-12-23 10:00:00
+219003264	BreastCancerRiskFactors					1	12	52	0	10	1	1	1	2016-04-01 10:00:00
+219003266	OvarianCancerRiskFactors					1	12	48	0	0	0	0	0	2017-11-19 10:00:00
+219003275	BreastCancerRiskFactors					1	15	53	0	5	3	2	3	2015-02-17 10:00:00
+219003280	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2017-09-08 10:00:00
+219003284	EndometrialCancerRiskFactors					1	14		0	0	2	1	1	2016-08-13 10:00:00
+219003285	TesticularCancerRiskFactors				no	1								2017-09-26 10:00:00
+219003289	BreastCancerRiskFactors					1	12	50	5	5	3	2	3	2015-11-26 10:00:00
+219003290	BreastCancerRiskFactors					1	13	49	0	10	2	1	2	2017-09-14 10:00:00
+219003291	BreastCancerRiskFactors					1	13		0	15	2	1	2	2017-08-26 10:00:00
+219003293	BreastCancerRiskFactors					1	13	46	0	5	3	1	3	2014-10-28 10:00:00
+219003296	BreastCancerRiskFactors					1	14		0	10	3	3	3	2015-09-22 10:00:00
+219003297	OvarianCancerRiskFactors					1	12	47	2	0	3	2	2	2016-02-22 10:00:00
+219003298	BreastCancerRiskFactors					1	14		0	0	2	2	2	2017-03-25 10:00:00
+219003300	BreastCancerRiskFactors					1	12		0	0	0	0	0	2018-01-12 10:00:00
+219003307	OvarianCancerRiskFactors					1	12	56	2	15	0	0	0	2015-07-29 10:00:00
+219003312	BreastCancerRiskFactors					1	12	57	0	15	0	0	0	2015-10-24 10:00:00
+219003318	BreastCancerRiskFactors					1	15		0	0	4	2	3	2014-09-27 10:00:00
+219003320	RenalCancerRiskFactors			0		1								2017-07-18 10:00:00
+219003321	OvarianCancerRiskFactors					1	13	55	5	10	0	0	0	2017-01-10 10:00:00
+219003324	MalignantMelanomaCancerRiskFactors	17	ii - usually burns, tans minimally			1								2014-12-15 10:00:00
+219003330	BreastCancerRiskFactors					1	12	52	0	10	2	1	1	2018-01-08 10:00:00
+219003331	RenalCancerRiskFactors			0		1								2015-05-26 10:00:00
+219003334	EndometrialCancerRiskFactors					1	15	53	5	5	2	1	2	2016-10-18 10:00:00
+219003339	EndometrialCancerRiskFactors					1	14	52	5	2	2	2	2	2016-02-05 10:00:00
+219003342	BreastCancerRiskFactors					1	13	48	0	5	1	0	1	2018-10-11 10:00:00
+219003344	BreastCancerRiskFactors					1	10	53	0	10	1	1	1	2019-02-16 10:00:00
+219003346	RenalCancerRiskFactors			0		1								2018-07-18 10:00:00
+219003347	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2017-12-09 10:00:00
+219003348	BreastCancerRiskFactors					1	14	51	0	2	0	0	0	2016-02-02 10:00:00
+219003353	BreastCancerRiskFactors					1	12		0	0	2	1	2	2018-06-07 10:00:00
+219003355	OvarianCancerRiskFactors					1	14	49	5	10	2	2	2	2018-12-28 10:00:00
+219003365	BreastCancerRiskFactors					1	12		0	10	2	2	2	2018-12-10 10:00:00
+219003369	EndometrialCancerRiskFactors					1	13	57	0	2	5	3	4	2018-03-02 10:00:00
+219003370	OvarianCancerRiskFactors					1	13	49	2	2	3	3	3	2016-10-08 10:00:00
+219003378	BreastCancerRiskFactors					1	14	50	0	0	2	1	1	2016-05-07 10:00:00
+219003381	OvarianCancerRiskFactors					1	15	55	0	0	2	1	2	2014-08-12 10:00:00
+219003382	BreastCancerRiskFactors					1	14	51	2	2	3	2	3	2017-06-08 10:00:00
+219003384	RenalCancerRiskFactors			0		1								2017-06-24 10:00:00
+219003387	BreastCancerRiskFactors					1	13	49	0	5	3	2	3	2017-05-29 10:00:00
+219003391	TesticularCancerRiskFactors				yes	1								2015-11-02 10:00:00
+219003394	TesticularCancerRiskFactors				no	1								2016-12-17 10:00:00
+219003399	EndometrialCancerRiskFactors					1	13		0	15	1	1	1	2018-05-14 10:00:00
+219003403	RenalCancerRiskFactors			0		1								2014-12-04 10:00:00
+219003404	EndometrialCancerRiskFactors					1	11	51	0	15	3	3	3	2016-10-29 10:00:00
+219003410	TesticularCancerRiskFactors				no	1								2014-12-12 10:00:00
+219003411	BreastCancerRiskFactors					1	13	50	5	0	3	1	3	2016-03-03 10:00:00
+219003414	BreastCancerRiskFactors					1	12	44	0	5	2	2	2	2018-10-26 10:00:00
+219003415	TesticularCancerRiskFactors				no	1								2014-12-01 10:00:00
+219003416	BreastCancerRiskFactors					1	11		0	2	4	3	3	2016-04-09 10:00:00
+219003421	BreastCancerRiskFactors					1	12	50	5	0	2	1	2	2018-09-09 10:00:00
+219003425	BreastCancerRiskFactors					1	14	52	0	10	4	2	4	2016-02-10 10:00:00
+219003430	MalignantMelanomaCancerRiskFactors	24	iii - sometimes mild burn, tans uniformly			1								2015-04-24 10:00:00
+219003432	BreastCancerRiskFactors					1	14		5	5	2	2	2	2018-12-15 10:00:00
+219003435	OvarianCancerRiskFactors					1	11	51	5	2	2	0	2	2014-12-21 10:00:00
+219003441	BreastCancerRiskFactors					1	13		0	0	2	0	1	2017-06-30 10:00:00
+219003449	BreastCancerRiskFactors					1	13	52	0	2	1	0	0	2014-06-06 10:00:00
+219003450	BreastCancerRiskFactors					1	15	45	0	0	1	0	0	2017-12-29 10:00:00
+219003455	BreastCancerRiskFactors					1	16		5	5	2	1	2	2014-08-17 10:00:00
+219003456	BreastCancerRiskFactors					1	11	51	0	10	2	1	2	2017-05-23 10:00:00
+219003458	BreastCancerRiskFactors					1	12	45	0	10	0	0	0	2016-12-22 10:00:00
+219003459	BreastCancerRiskFactors					1	14	54	2	15	3	1	2	2016-12-31 10:00:00
+219003461	EndometrialCancerRiskFactors					1	13	48	5	5	3	0	2	2017-10-15 10:00:00
+219003462	BreastCancerRiskFactors					1	12		0	10	6	4	4	2017-07-31 10:00:00
+219003466	TesticularCancerRiskFactors				no	1								2016-09-27 10:00:00
+219003468	BreastCancerRiskFactors					1	14	50	0	15	0	0	0	2016-04-14 10:00:00
+219003469	BreastCancerRiskFactors					1	12		2	0	1	1	1	2019-02-13 10:00:00
+219003470	BreastCancerRiskFactors					1	11	50	0	10	2	2	2	2016-08-20 10:00:00
+219003471	EndometrialCancerRiskFactors					1	12	49	2	10	2	2	2	2014-08-28 10:00:00
+219003474	BreastCancerRiskFactors					1	14		0	0	2	1	1	2016-01-29 10:00:00
+219003478	BreastCancerRiskFactors					1	13	51	0	10	3	2	3	2014-07-30 10:00:00
+219003481	BreastCancerRiskFactors					1	13	52	2	10	2	2	2	2018-11-13 10:00:00
+219003483	BreastCancerRiskFactors					1	12		0	15	2	1	2	2016-07-03 10:00:00
+219003490	BreastCancerRiskFactors					1	13	50	0	0	2	0	0	2016-07-21 10:00:00
+219003493	BreastCancerRiskFactors					1	14		0	15	4	2	4	2015-04-28 10:00:00
+219003498	OvarianCancerRiskFactors					1	13	57	0	0	0	0	0	2016-11-07 10:00:00
+219003499	BreastCancerRiskFactors					1	14	46	5	0	3	2	3	2014-12-14 10:00:00
+219003500	BreastCancerRiskFactors					1	13	55	0	2	1	0	1	2017-01-14 10:00:00
+219003502	BreastCancerRiskFactors					1	13	49	0	5	2	0	0	2017-07-19 10:00:00
+219003503	BreastCancerRiskFactors					1	11		0	15	3	3	3	2017-10-05 10:00:00
+219003506	BreastCancerRiskFactors					1	10		0	5	3	2	3	2016-04-09 10:00:00
+219003507	BreastCancerRiskFactors					1	12	51	0	15	3	0	2	2014-09-26 10:00:00
+219003512	RenalCancerRiskFactors			0		1								2015-04-22 10:00:00
+219003513	RenalCancerRiskFactors			0		1								2018-04-13 10:00:00
+219003519	BreastCancerRiskFactors					1	13	51	5	0	3	3	3	2018-06-25 10:00:00
+219003521	EndometrialCancerRiskFactors					1	14	47	0	2	2	1	2	2018-04-19 10:00:00
+219003525	EndometrialCancerRiskFactors					1	13		0	2	1	0	0	2015-01-08 10:00:00
+219003526	BreastCancerRiskFactors					1	12		0	2	5	4	4	2016-05-16 10:00:00
+219003533	BreastCancerRiskFactors					1	11	54	5	0	3	2	3	2016-06-18 10:00:00
+219003534	OvarianCancerRiskFactors					1	12		0	5	3	2	2	2017-02-11 10:00:00
+219003535	BreastCancerRiskFactors					1	13		0	2	2	2	2	2018-07-04 10:00:00
+219003536	OvarianCancerRiskFactors					1	12	46	0	2	0	0	0	2016-11-26 10:00:00
+219003539	BreastCancerRiskFactors					1	11		0	2	1	0	1	2018-10-28 10:00:00
+219003541	BreastCancerRiskFactors					1	10	54	0	0	3	2	2	2014-09-17 10:00:00
+219003542	BreastCancerRiskFactors					1	14	56	0	2	4	3	3	2016-12-17 10:00:00
+219003544	BreastCancerRiskFactors					1	14	52	5	10	1	1	1	2018-05-27 10:00:00
+219003545	BreastCancerRiskFactors					1	16	50	0	2	2	2	2	2014-09-01 10:00:00
+219003546	EndometrialCancerRiskFactors					1	14	51	0	10	2	2	2	2017-04-10 10:00:00
+219003547	OvarianCancerRiskFactors					1	14	56	0	15	0	0	0	2018-08-03 10:00:00
+219003548	BreastCancerRiskFactors					1	12		0	0	2	1	2	2017-06-14 10:00:00
+219003549	BreastCancerRiskFactors					1	12	49	0	2	3	3	3	2018-01-05 10:00:00
+219003550	EndometrialCancerRiskFactors					1	12		0	15	2	1	1	2014-11-21 10:00:00
+219003551	RenalCancerRiskFactors			0		1								2017-01-30 10:00:00
+219003554	BreastCancerRiskFactors					1	11	51	0	5	0	0	0	2016-03-02 10:00:00
+219003558	BreastCancerRiskFactors					1	13	53	0	2	2	2	2	2016-01-11 10:00:00
+219003560	BreastCancerRiskFactors					1	12	45	0	10	0	0	0	2016-02-05 10:00:00
+219003562	BreastCancerRiskFactors					1	14	55	2	15	3	1	2	2017-09-17 10:00:00
+219003567	BreastCancerRiskFactors					1	13		0	2	0	0	0	2018-09-15 10:00:00
+219003570	BreastCancerRiskFactors					1	13	55	0	5	4	2	4	2017-02-22 10:00:00
+219003571	EndometrialCancerRiskFactors					1	12	52	0	15	3	2	3	2017-11-13 10:00:00
+219003575	BreastCancerRiskFactors					1	15	48	0	0	3	2	3	2015-02-21 10:00:00
+219003577	BreastCancerRiskFactors					1	16		0	10	0	0	0	2015-02-08 10:00:00
+219003578	BreastCancerRiskFactors					1	13	56	0	2	3	2	3	2014-07-08 10:00:00
+219003579	BreastCancerRiskFactors					1	13	49	0	0	2	1	2	2015-08-11 10:00:00
+219003580	RenalCancerRiskFactors			0		1								2017-05-23 10:00:00
+219003584	BreastCancerRiskFactors					1	14	42	2	5	0	0	0	2014-07-06 10:00:00
+219003588	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2017-12-14 10:00:00
+219003590	BreastCancerRiskFactors					1	13	49	0	15	3	2	2	2014-12-10 10:00:00
+219003591	BreastCancerRiskFactors					1	9	55	0	5	3	1	3	2016-08-09 10:00:00
+219003593	EndometrialCancerRiskFactors					1	15	48	5	10	0	0	0	2018-01-27 10:00:00
+219003594	BreastCancerRiskFactors					1	12	58	0	2	3	2	2	2017-08-24 10:00:00
+219003595	BreastCancerRiskFactors					1	13	47	5	0	1	0	0	2015-09-18 10:00:00
+219003597	BreastCancerRiskFactors					1	13		0	5	1	0	0	2018-10-05 10:00:00
+219003598	BreastCancerRiskFactors					1	14	50	0	0	3	2	2	2015-01-29 10:00:00
+219003599	OvarianCancerRiskFactors					1	13	55	2	15	4	2	3	2015-09-11 10:00:00
+219003607	OvarianCancerRiskFactors					1	13	51	0	10	4	2	2	2016-10-11 10:00:00
+219003609	RenalCancerRiskFactors			0		1								2018-11-18 10:00:00
+219003612	EndometrialCancerRiskFactors					1	13	49	0	2	2	1	1	2018-02-17 10:00:00
+219003613	BreastCancerRiskFactors					1	13	49	0	0	3	2	3	2016-03-10 10:00:00
+219003615	BreastCancerRiskFactors					1	15	51	5	15	3	2	2	2015-09-29 10:00:00
+219003617	BreastCancerRiskFactors					1	13	50	0	2	3	2	3	2017-11-02 10:00:00
+219003620	BreastCancerRiskFactors					1	15	50	5	10	2	2	2	2015-09-27 10:00:00
+219003622	OvarianCancerRiskFactors					1	12		0	5	4	1	4	2016-10-18 10:00:00
+219003625	BreastCancerRiskFactors					1	13	45	0	10	2	1	2	2018-11-07 10:00:00
+219003627	EndometrialCancerRiskFactors					1	15	47	5	10	4	2	3	2015-02-15 10:00:00
+219003628	BreastCancerRiskFactors					1	16	53	0	5	2	1	2	2015-07-22 10:00:00
+219003630	EndometrialCancerRiskFactors					1	13	54	2	15	2	1	2	2014-12-16 10:00:00
+219003631	TesticularCancerRiskFactors				no	1								2015-08-11 10:00:00
+219003635	BreastCancerRiskFactors					1	14	58	0	0	0	0	0	2016-03-17 10:00:00
+219003636	BreastCancerRiskFactors					1	13	43	2	0	1	1	1	2016-02-21 10:00:00
+219003642	BreastCancerRiskFactors					1	12	49	0	2	2	1	2	2018-06-15 10:00:00
+219003645	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2014-07-25 10:00:00
+219003653	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2016-07-17 10:00:00
+219003654	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2016-07-05 10:00:00
+219003655	RenalCancerRiskFactors			0		1								2018-04-29 10:00:00
+219003657	BreastCancerRiskFactors					1	13	56	0	10	2	2	2	2017-05-03 10:00:00
+219003660	RenalCancerRiskFactors			0		1								2018-02-15 10:00:00
+219003662	BreastCancerRiskFactors					1	13	53	0	5	4	2	4	2016-05-07 10:00:00
+219003663	BreastCancerRiskFactors					1	13	49	0	5	4	4	4	2015-03-13 10:00:00
+219003664	BreastCancerRiskFactors					1	12		0	10	3	1	2	2015-09-10 10:00:00
+219003665	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2018-12-26 10:00:00
+219003667	BreastCancerRiskFactors					1	12	53	0	2	0	0	0	2017-09-16 10:00:00
+219003670	BreastCancerRiskFactors					1	15	51	2	0	1	0	1	2018-10-18 10:00:00
+219003673	BreastCancerRiskFactors					1	14	48	0	2	1	1	1	2015-05-24 10:00:00
+219003679	OvarianCancerRiskFactors					1	13	49	0	0	3	3	3	2016-06-04 10:00:00
+219003680	RenalCancerRiskFactors			0		1								2016-11-19 10:00:00
+219003683	BreastCancerRiskFactors					1	12	50	5	10	2	0	2	2016-12-31 10:00:00
+219003684	BreastCancerRiskFactors					1	11	53	0	10	1	0	0	2018-11-29 10:00:00
+219003686	BreastCancerRiskFactors					1	13		0	2	4	2	3	2015-03-23 10:00:00
+219003687	BreastCancerRiskFactors					1	13	55	0	5	3	2	3	2016-09-07 10:00:00
+219003690	BreastCancerRiskFactors					1	13	43	0	2	4	3	3	2015-06-21 10:00:00
+219003691	BreastCancerRiskFactors					1	14	44	0	15	0	0	0	2015-04-01 10:00:00
+219003692	BreastCancerRiskFactors					1	13	48	0	2	4	3	3	2014-09-12 10:00:00
+219003694	EndometrialCancerRiskFactors					1	14	50	0	2	1	1	1	2016-02-19 10:00:00
+219003697	BreastCancerRiskFactors					1	14	53	0	2	3	1	3	2017-02-24 10:00:00
+219003698	BreastCancerRiskFactors					1	12	50	0	0	1	1	1	2019-02-12 10:00:00
+219003702	BreastCancerRiskFactors					1	13		0	0	0	0	0	2018-07-20 10:00:00
+219003705	EndometrialCancerRiskFactors					1	12	50	0	10	3	2	3	2018-04-04 10:00:00
+219003708	RenalCancerRiskFactors			0		1								2017-12-17 10:00:00
+219003710	EndometrialCancerRiskFactors					1	14	49	5	5	4	2	3	2015-10-11 10:00:00
+219003711	EndometrialCancerRiskFactors					1	16	50	0	5	2	2	2	2018-04-12 10:00:00
+219003720	BreastCancerRiskFactors					1	12	53	0	2	2	2	2	2019-02-22 10:00:00
+219003723	RenalCancerRiskFactors			0		1								2017-06-12 10:00:00
+219003732	BreastCancerRiskFactors					1	11	51	0	0	3	1	2	2018-09-03 10:00:00
+219003734	BreastCancerRiskFactors					1	15	51	0	10	1	0	0	2016-09-01 10:00:00
+219003736	RenalCancerRiskFactors			0		1								2014-12-07 10:00:00
+219003737	BreastCancerRiskFactors					1	15	55	0	2	3	2	3	2018-07-31 10:00:00
+219003739	EndometrialCancerRiskFactors					1	12	48	0	10	3	2	3	2017-05-12 10:00:00
+219003745	BreastCancerRiskFactors					1	14	54	0	15	2	1	2	2016-10-27 10:00:00
+219003748	BreastCancerRiskFactors					1	11	53	5	10	2	2	2	2017-05-14 10:00:00
+219003750	BreastCancerRiskFactors					1	12	48	0	10	2	2	2	2015-09-08 10:00:00
+219003754	RenalCancerRiskFactors			0		1								2018-02-06 10:00:00
+219003757	BreastCancerRiskFactors					1	12	50	0	10	2	2	2	2015-06-28 10:00:00
+219003760	BreastCancerRiskFactors					1	12		0	15	4	2	3	2018-07-31 10:00:00
+219003761	OvarianCancerRiskFactors					1	14	45	0	0	3	2	3	2014-12-31 10:00:00
+219003763	OvarianCancerRiskFactors					1	12	50	0	10	2	1	2	2018-10-31 10:00:00
+219003765	RenalCancerRiskFactors			0		1								2017-01-24 10:00:00
+219003767	BreastCancerRiskFactors					1	12	49	0	5	2	1	1	2018-04-13 10:00:00
+219003769	BreastCancerRiskFactors					1	11	47	0	5	2	1	2	2016-01-29 10:00:00
+219003771	BreastCancerRiskFactors					1	13		0	2	0	0	0	2017-09-16 10:00:00
+219003772	BreastCancerRiskFactors					1	12	51	0	10	3	2	3	2015-08-11 10:00:00
+219003775	BreastCancerRiskFactors					1	12	54	0	2	4	1	1	2015-08-15 10:00:00
+219003781	EndometrialCancerRiskFactors					1	12	54	5	10	3	1	2	2018-08-08 10:00:00
+219003782	BreastCancerRiskFactors					1	11	53	0	10	0	0	0	2018-12-03 10:00:00
+219003784	BreastCancerRiskFactors					1	13		0	2	3	1	3	2017-04-16 10:00:00
+219003785	EndometrialCancerRiskFactors					1	12		0	10	2	1	2	2015-08-14 10:00:00
+219003787	BreastCancerRiskFactors					1	15	50	0	5	2	2	2	2018-04-02 10:00:00
+219003789	BreastCancerRiskFactors					1	13	48	5	15	3	2	2	2017-10-23 10:00:00
+219003791	BreastCancerRiskFactors					1	14	51	2	5	0	0	0	2017-06-12 10:00:00
+219003797	BreastCancerRiskFactors					1	11		0	10	3	1	3	2016-09-04 10:00:00
+219003803	EndometrialCancerRiskFactors					1	13		0	2	4	4	4	2014-07-14 10:00:00
+219003804	BreastCancerRiskFactors					1	16	46	0	5	0	0	0	2018-03-04 10:00:00
+219003805	EndometrialCancerRiskFactors					1	14	50	0	0	1	0	1	2018-06-27 10:00:00
+219003808	BreastCancerRiskFactors					1	13	52	2	10	1	0	0	2017-09-13 10:00:00
+219003809	EndometrialCancerRiskFactors					1	13	53	2	5	1	1	1	2015-04-03 10:00:00
+219003811	BreastCancerRiskFactors					1	11	46	0	10	2	1	2	2018-02-26 10:00:00
+219003815	BreastCancerRiskFactors					1	12	50	0	15	3	0	2	2015-04-28 10:00:00
+219003819	BreastCancerRiskFactors					1	12		0	5	1	0	0	2018-09-27 10:00:00
+219003824	BreastCancerRiskFactors					1	14	58	0	0	2	2	2	2018-03-19 10:00:00
+219003827	BreastCancerRiskFactors					1	11		0	10	3	2	3	2015-04-21 10:00:00
+219003830	BreastCancerRiskFactors					1	12	53	2	2	2	2	2	2018-03-06 10:00:00
+219003831	BreastCancerRiskFactors					1	11		0	10	0	0	0	2017-04-17 10:00:00
+219003832	BreastCancerRiskFactors					1	11	52	2	15	3	1	2	2016-09-20 10:00:00
+219003835	BreastCancerRiskFactors					1	12	50	0	0	2	1	1	2017-03-26 10:00:00
+219003848	OvarianCancerRiskFactors					1	12	45	0	0	2	0	1	2018-11-02 10:00:00
+219003851	BreastCancerRiskFactors					1	11	52	0	5	3	2	3	2017-08-27 10:00:00
+219003852	BreastCancerRiskFactors					1	13	49	5	10	5	3	4	2017-01-06 10:00:00
+219003854	EndometrialCancerRiskFactors					1	12	47	0	5	3	2	3	2019-01-03 10:00:00
+219003856	BreastCancerRiskFactors					1	13	49	0	15	2	2	2	2016-05-10 10:00:00
+219003860	BreastCancerRiskFactors					1	16	52	2	10	3	1	2	2014-10-16 10:00:00
+219003866	BreastCancerRiskFactors					1	11	48	0	0	3	1	2	2017-11-06 10:00:00
+219003869	BreastCancerRiskFactors					1	13	58	0	15	4	2	4	2017-03-03 10:00:00
+219003871	OvarianCancerRiskFactors					1	13	55	0	5	1	0	0	2015-01-10 10:00:00
+219003875	EndometrialCancerRiskFactors					1	13	51	0	5	2	2	2	2017-02-14 10:00:00
+219003880	TesticularCancerRiskFactors				no	1								2015-01-21 10:00:00
+219003883	BreastCancerRiskFactors					1	12		0	2	2	1	1	2016-11-01 10:00:00
+219003890	BreastCancerRiskFactors					1	12	48	0	10	1	0	1	2017-07-12 10:00:00
+219003891	BreastCancerRiskFactors					1	15	53	5	2	0	0	0	2016-11-28 10:00:00
+219003893	BreastCancerRiskFactors					1	14	54	0	2	0	0	0	2015-10-03 10:00:00
+219003896	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2015-05-14 10:00:00
+219003897	BreastCancerRiskFactors					1	11		0	15	4	4	4	2018-07-05 10:00:00
+219003898	EndometrialCancerRiskFactors					1	12	51	0	5	1	1	1	2018-08-03 10:00:00
+219003899	BreastCancerRiskFactors					1	11		0	5	3	1	3	2018-03-01 10:00:00
+219003903	MalignantMelanomaCancerRiskFactors	32	iii - sometimes mild burn, tans uniformly			1								2016-12-24 10:00:00
+219003905	BreastCancerRiskFactors					1	12	53	2	2	2	2	2	2017-08-02 10:00:00
+219003906	BreastCancerRiskFactors					1	14	53	0	5	3	1	2	2015-06-05 10:00:00
+219003907	BreastCancerRiskFactors					1	11	55	2	0	3	1	2	2017-07-05 10:00:00
+219003908	BreastCancerRiskFactors					1	13		0	2	5	3	4	2016-11-14 10:00:00
+219003911	BreastCancerRiskFactors					1	14	46	2	2	2	0	1	2018-10-13 10:00:00
+219003912	BreastCancerRiskFactors					1	11		0	5	2	1	2	2018-10-14 10:00:00
+219003914	BreastCancerRiskFactors					1	13	48	0	2	4	3	4	2018-05-26 10:00:00
+219003916	RenalCancerRiskFactors			0		1								2017-12-11 10:00:00
+219003921	OvarianCancerRiskFactors					1	12	56	0	0	2	1	2	2017-08-12 10:00:00
+219003922	BreastCancerRiskFactors					1	14	49	0	10	2	0	2	2014-08-25 10:00:00
+219003924	BreastCancerRiskFactors					1	10	53	2	15	0	0	0	2018-04-09 10:00:00
+219003925	EndometrialCancerRiskFactors					1	12	53	0	2	1	0	0	2016-05-28 10:00:00
+219003926	BreastCancerRiskFactors					1	14		0	5	3	3	3	2015-01-08 10:00:00
+219003927	OvarianCancerRiskFactors					1	13	50	5	2	1	1	1	2015-10-19 10:00:00
+219003928	RenalCancerRiskFactors			0		1								2016-04-06 10:00:00
+219003936	BreastCancerRiskFactors					1	13	51	5	0	2	1	1	2015-07-14 10:00:00
+219003942	BreastCancerRiskFactors					1	12	54	0	15	2	1	2	2016-06-06 10:00:00
+219003945	BreastCancerRiskFactors					1	12	50	0	15	1	1	1	2018-04-12 10:00:00
+219003952	BreastCancerRiskFactors					1	12	50	2	5	1	0	1	2014-09-22 10:00:00
+219003959	BreastCancerRiskFactors					1	13		5	5	1	1	1	2014-10-12 10:00:00
+219003961	BreastCancerRiskFactors					1	13	49	0	0	3	2	2	2018-08-10 10:00:00
+219003962	EndometrialCancerRiskFactors					1	14	51	2	2	3	1	2	2017-06-15 10:00:00
+219003963	BreastCancerRiskFactors					1	14	46	0	10	1	1	1	2018-09-05 10:00:00
+219003964	BreastCancerRiskFactors					1	12	48	5	2	2	1	1	2017-11-16 10:00:00
+219003965	OvarianCancerRiskFactors					1	13	47	0	10	3	1	3	2016-08-12 10:00:00
+219003966	BreastCancerRiskFactors					1	13	51	2	10	2	0	2	2014-07-01 10:00:00
+219003968	RenalCancerRiskFactors			0		1								2014-07-18 10:00:00
+219003971	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2018-05-01 10:00:00
+219003972	BreastCancerRiskFactors					1	12	51	5	15	3	1	2	2014-09-25 10:00:00
+219003975	BreastCancerRiskFactors					1	11		0	2	3	2	2	2014-10-24 10:00:00
+219003977	OvarianCancerRiskFactors					1	11		0	15	0	0	0	2017-10-20 10:00:00
+219003978	BreastCancerRiskFactors					1	14	49	0	5	3	1	3	2018-07-10 10:00:00
+219003980	BreastCancerRiskFactors					1	14	43	2	5	2	1	2	2017-08-30 10:00:00
+219003982	BreastCancerRiskFactors					1	13	52	0	15	3	2	3	2016-07-23 10:00:00
+219003983	TesticularCancerRiskFactors				no	1								2015-06-05 10:00:00
+219003985	BreastCancerRiskFactors					1	12		0	10	2	1	2	2017-09-06 10:00:00
+219003986	TesticularCancerRiskFactors				no	1								2015-11-04 10:00:00
+219003989	OvarianCancerRiskFactors					1	15	47	0	15	2	2	2	2018-12-30 10:00:00
+219003991	BreastCancerRiskFactors					1	13		0	0	1	1	1	2018-05-26 10:00:00
+219003993	OvarianCancerRiskFactors					1	12	52	0	10	3	3	3	2015-04-29 10:00:00
+219003994	OvarianCancerRiskFactors					1	14	53	0	0	2	1	1	2014-12-06 10:00:00
+219003995	BreastCancerRiskFactors					1	12		0	10	4	3	3	2016-02-19 10:00:00
+219003997	BreastCancerRiskFactors					1	13	47	2	0	5	2	3	2015-08-15 10:00:00
+219003998	MalignantMelanomaCancerRiskFactors		iii - sometimes mild burn, tans uniformly			1								2017-08-13 10:00:00
+219003999	BreastCancerRiskFactors					1	14	53	5	0	2	2	2	2015-09-29 10:00:00
+219004002	BreastCancerRiskFactors					1	14	51	0	10	3	2	3	2015-01-10 10:00:00
+219004004	MalignantMelanomaCancerRiskFactors	25	iii - sometimes mild burn, tans uniformly			1								2016-02-24 10:00:00
+219004005	BreastCancerRiskFactors					1	12		0	0	1	1	1	2017-09-19 10:00:00
+219004006	BreastCancerRiskFactors					1	15	53	5	2	4	3	3	2015-08-14 10:00:00
+219004007	BreastCancerRiskFactors					1	15	51	5	10	2	2	2	2016-07-30 10:00:00
+219004008	BreastCancerRiskFactors					1	12	51	2	5	3	2	2	2016-03-16 10:00:00
+219004009	OvarianCancerRiskFactors					1	14	56	5	15	3	2	2	2018-09-07 10:00:00
+219004010	BreastCancerRiskFactors					1	14		0	15	3	1	1	2014-07-16 10:00:00
+219004011	EndometrialCancerRiskFactors					1	14	58	0	0	4	3	4	2017-10-22 10:00:00
+219004012	BreastCancerRiskFactors					1	12	49	0	0	0	0	0	2018-11-29 10:00:00
+219004014	OvarianCancerRiskFactors					1	11	48	2	0	4	3	4	2016-01-04 10:00:00
+219004019	RenalCancerRiskFactors			0		1								2016-01-16 10:00:00
+219004021	BreastCancerRiskFactors					1	9	43	0	0	2	2	2	2015-04-27 10:00:00
+219004026	BreastCancerRiskFactors					1	12		0	2	3	3	3	2015-12-04 10:00:00
+219004027	EndometrialCancerRiskFactors					1	13	47	2	2	3	1	1	2014-12-23 10:00:00
+219004028	BreastCancerRiskFactors					1	15	47	5	15	2	0	2	2017-01-02 10:00:00
+219004034	BreastCancerRiskFactors					1	15		0	10	5	2	3	2016-06-22 10:00:00
+219004043	BreastCancerRiskFactors					1	14	49	0	0	1	1	1	2016-03-21 10:00:00
+219004050	OvarianCancerRiskFactors					1	14	51	0	10	2	2	2	2018-10-20 10:00:00
+219004054	BreastCancerRiskFactors					1	11	58	5	15	2	1	2	2017-02-14 10:00:00
+219004055	BreastCancerRiskFactors					1	11		0	0	1	1	1	2016-07-19 10:00:00
+219004061	BreastCancerRiskFactors					1	12	50	2	2	4	2	2	2019-02-14 10:00:00
+219004062	BreastCancerRiskFactors					1	12	51	5	10	2	1	2	2016-09-15 10:00:00
+219004065	BreastCancerRiskFactors					1	13	48	0	10	4	1	2	2016-06-14 10:00:00
+219004072	BreastCancerRiskFactors					1	13		0	10	4	1	2	2018-12-10 10:00:00
+219004073	BreastCancerRiskFactors					1	12	47	0	15	1	1	1	2015-11-04 10:00:00
+219004074	BreastCancerRiskFactors					1	12	47	2	0	1	0	0	2015-10-19 10:00:00
+219004076	BreastCancerRiskFactors					1	12	50	0	0	4	2	4	2016-05-13 10:00:00
+219004080	RenalCancerRiskFactors			0		1								2016-08-15 10:00:00
+219004081	EndometrialCancerRiskFactors					1	12	50	0	10	2	1	2	2017-10-25 10:00:00
+219004082	BreastCancerRiskFactors					1	12		0	0	3	2	3	2017-07-03 10:00:00
+219004084	BreastCancerRiskFactors					1	14		0	10	1	1	1	2019-01-01 10:00:00
+219004085	BreastCancerRiskFactors					1	11	47	0	0	3	2	3	2016-03-31 10:00:00
+219004088	BreastCancerRiskFactors					1	11	54	0	2	3	3	3	2014-10-08 10:00:00
+219004090	BreastCancerRiskFactors					1	10	43	2	15	3	2	3	2017-03-11 10:00:00
+219004091	RenalCancerRiskFactors			0		1								2016-10-30 10:00:00
+219004093	BreastCancerRiskFactors					1	13	46	0	10	3	2	2	2016-01-22 10:00:00
+219004095	BreastCancerRiskFactors					1	10		0	5	0	0	0	2016-04-24 10:00:00
+219004096	BreastCancerRiskFactors					1	12		0	2	3	2	2	2015-06-14 10:00:00
+219004097	BreastCancerRiskFactors					1	12		0	2	0	0	0	2019-01-13 10:00:00
+219004098	OvarianCancerRiskFactors					1	12	53	0	2	4	4	4	2014-07-11 10:00:00
+219004102	BreastCancerRiskFactors					1	13		0	2	2	1	2	2015-08-26 10:00:00
+219004103	BreastCancerRiskFactors					1	12	54	0	0	1	1	1	2016-05-24 10:00:00
+219004105	BreastCancerRiskFactors					1	13	55	0	15	1	0	1	2017-10-15 10:00:00
+219004106	BreastCancerRiskFactors					1	12	52	2	2	4	3	4	2018-06-02 10:00:00
+219004110	EndometrialCancerRiskFactors					1	13	54	0	2	4	3	4	2014-08-14 10:00:00
+219004113	EndometrialCancerRiskFactors					1	14		0	15	1	1	1	2015-04-07 10:00:00
+219004116	BreastCancerRiskFactors					1	15	49	5	10	2	2	2	2016-01-23 10:00:00
+219004124	BreastCancerRiskFactors					1	16	46	2	2	3	2	2	2016-05-19 10:00:00
+219004127	BreastCancerRiskFactors					1	11		0	5	5	3	3	2017-01-21 10:00:00
+219004128	TesticularCancerRiskFactors				no	1								2017-12-22 10:00:00
+219004129	BreastCancerRiskFactors					1	11	54	0	15	2	1	2	2015-07-07 10:00:00
+219004130	BreastCancerRiskFactors					1	13		0	15	3	2	3	2018-07-28 10:00:00
+219004132	BreastCancerRiskFactors					1	13	50	2	2	2	1	2	2015-05-20 10:00:00
+219004136	BreastCancerRiskFactors					1	14	50	0	10	1	0	0	2014-09-13 10:00:00
+219004137	BreastCancerRiskFactors					1	13	46	2	0	4	1	2	2015-02-08 10:00:00
+219004139	BreastCancerRiskFactors					1	14	50	2	15	5	1	2	2015-02-26 10:00:00
+219004141	TesticularCancerRiskFactors				no	1								2016-06-12 10:00:00
+219004148	BreastCancerRiskFactors					1	14	50	0	0	3	0	3	2014-08-15 10:00:00
+219004152	OvarianCancerRiskFactors					1	9	49	0	5	2	2	2	2015-03-16 10:00:00
+219004155	BreastCancerRiskFactors					1	13	50	0	2	3	2	2	2014-08-16 10:00:00
+219004156	BreastCancerRiskFactors					1	15	51	0	10	1	0	0	2018-12-11 10:00:00
+219004157	BreastCancerRiskFactors					1	11	46	5	0	0	0	0	2014-07-31 10:00:00
+219004164	BreastCancerRiskFactors					1	12	46	0	2	2	1	2	2018-06-06 10:00:00
+219004167	BreastCancerRiskFactors					1	14	48	5	10	0	0	0	2018-02-12 10:00:00
+219004173	BreastCancerRiskFactors					1	13		0	10	3	3	3	2015-05-18 10:00:00
+219004174	BreastCancerRiskFactors					1	12	54	5	0	2	0	2	2017-01-29 10:00:00
+219004177	BreastCancerRiskFactors					1	14	48	0	5	2	1	2	2015-08-20 10:00:00
+219004178	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2017-06-01 10:00:00
+219004183	BreastCancerRiskFactors					1	12	48	0	10	2	1	2	2014-12-30 10:00:00
+219004186	BreastCancerRiskFactors					1	15	51	2	10	2	2	2	2018-05-14 10:00:00
+219004188	BreastCancerRiskFactors					1	12		0	2	1	1	1	2015-05-13 10:00:00
+219004197	BreastCancerRiskFactors					1	14	53	0	15	2	2	2	2018-02-08 10:00:00
+219004203	BreastCancerRiskFactors					1	16	51	0	10	1	0	1	2018-04-26 10:00:00
+219004205	BreastCancerRiskFactors					1	14	43	5	10	2	2	2	2017-05-15 10:00:00
+219004206	BreastCancerRiskFactors					1	11		0	2	4	3	4	2019-02-17 10:00:00
+219004212	BreastCancerRiskFactors					1	12	52	0	10	3	1	2	2015-11-15 10:00:00
+219004214	MalignantMelanomaCancerRiskFactors	17	i - always burns, never tans			1								2015-05-04 10:00:00
+219004218	BreastCancerRiskFactors					1	13	57	0	15	2	0	2	2018-10-17 10:00:00
+219004220	BreastCancerRiskFactors					1	13	45	0	10	1	0	1	2018-05-11 10:00:00
+219004222	BreastCancerRiskFactors					1	12	50	5	0	3	1	2	2018-05-05 10:00:00
+219004224	EndometrialCancerRiskFactors					1	12	53	0	10	3	2	2	2016-07-31 10:00:00
+219004228	BreastCancerRiskFactors					1	11	41	0	10	0	0	0	2016-10-14 10:00:00
+219004229	BreastCancerRiskFactors					1	12	56	0	0	2	2	2	2019-01-15 10:00:00
+219004230	BreastCancerRiskFactors					1	12	51	2	15	3	1	3	2017-05-14 10:00:00
+219004231	BreastCancerRiskFactors					1	13	51	2	2	0	0	0	2015-08-26 10:00:00
+219004237	RenalCancerRiskFactors			0		1								2015-12-31 10:00:00
+219004249	EndometrialCancerRiskFactors					1	15	50	0	15	2	2	2	2015-11-13 10:00:00
+219004251	MalignantMelanomaCancerRiskFactors	31	i - always burns, never tans			1								2018-04-17 10:00:00
+219004252	BreastCancerRiskFactors					1	10	48	5	5	4	3	4	2016-11-30 10:00:00
+219004256	BreastCancerRiskFactors					1	13	44	0	15	3	3	3	2015-04-09 10:00:00
+219004260	EndometrialCancerRiskFactors					1	13	54	0	15	2	2	2	2016-01-21 10:00:00
+219004264	MalignantMelanomaCancerRiskFactors	16	ii - usually burns, tans minimally			1								2016-02-07 10:00:00
+219004267	RenalCancerRiskFactors			0		1								2014-12-12 10:00:00
+219004270	BreastCancerRiskFactors					1	11	47	0	0	1	0	1	2017-05-27 10:00:00
+219004272	BreastCancerRiskFactors					1	12	51	0	2	2	1	2	2015-09-05 10:00:00
+219004273	BreastCancerRiskFactors					1	13		0	0	1	0	0	2016-03-24 10:00:00
+219004274	BreastCancerRiskFactors					1	9		0	0	0	0	0	2015-10-08 10:00:00
+219004279	BreastCancerRiskFactors					1	12	50	0	5	2	2	2	2018-11-30 10:00:00
+219004281	MalignantMelanomaCancerRiskFactors		ii - usually burns, tans minimally			1								2015-11-29 10:00:00
+219004282	OvarianCancerRiskFactors					1	14	44	5	15	1	1	1	2019-02-06 10:00:00
+219004287	BreastCancerRiskFactors					1	14	52	2	2	4	2	3	2017-08-25 10:00:00
+219004293	BreastCancerRiskFactors					1	16	51	0	15	0	0	0	2017-05-19 10:00:00
+219004298	BreastCancerRiskFactors					1	16	47	0	5	0	0	0	2016-08-18 10:00:00
+219004302	BreastCancerRiskFactors					1	15		0	10	4	2	3	2017-05-06 10:00:00
+219004303	BreastCancerRiskFactors					1	16	48	0	2	2	0	1	2014-11-02 10:00:00
+219004308	BreastCancerRiskFactors					1	13	53	0	2	2	2	2	2017-08-10 10:00:00
+219004309	EndometrialCancerRiskFactors					1	14	49	2	0	2	1	2	2017-11-04 10:00:00
+219004310	BreastCancerRiskFactors					1	13	46	0	10	1	1	1	2019-01-30 10:00:00
+219004312	TesticularCancerRiskFactors				no	1								2015-08-15 10:00:00
+219004315	EndometrialCancerRiskFactors					1	14	53	0	15	4	0	3	2017-09-29 10:00:00
+219004318	BreastCancerRiskFactors					1	14	53	5	0	4	2	4	2017-02-03 10:00:00
+219004321	BreastCancerRiskFactors					1	14		0	5	3	2	2	2018-03-24 10:00:00
+219004325	BreastCancerRiskFactors					1	12	53	2	0	4	3	3	2015-08-24 10:00:00
+219004331	BreastCancerRiskFactors					1	14	44	2	15	3	2	3	2016-04-29 10:00:00
+219004332	RenalCancerRiskFactors			0		1								2015-09-07 10:00:00
+219004334	OvarianCancerRiskFactors					1	15	43	0	15	1	1	1	2018-07-06 10:00:00
+219004336	BreastCancerRiskFactors					1	12	52	0	15	2	1	2	2014-06-27 10:00:00
+219004341	EndometrialCancerRiskFactors					1	12		0	5	4	2	3	2016-03-26 10:00:00
+219004343	BreastCancerRiskFactors					1	14	47	5	2	0	0	0	2016-12-08 10:00:00
+219004345	BreastCancerRiskFactors					1	13	51	0	15	2	1	2	2019-02-18 10:00:00
+219004346	BreastCancerRiskFactors					1	16		0	2	2	2	2	2017-07-18 10:00:00
+219004349	BreastCancerRiskFactors					1	12	50	0	0	2	1	2	2017-05-21 10:00:00
+219004350	BreastCancerRiskFactors					1	15	51	0	15	5	3	3	2017-05-28 10:00:00
+219004351	OvarianCancerRiskFactors					1	12		0	10	2	2	2	2015-08-23 10:00:00
+219004354	BreastCancerRiskFactors					1	12		0	5	2	0	2	2016-05-27 10:00:00
+219004357	BreastCancerRiskFactors					1	10		2	2	3	3	3	2017-06-06 10:00:00
+219004359	BreastCancerRiskFactors					1	10	49	2	0	3	1	3	2018-12-01 10:00:00
+219004361	BreastCancerRiskFactors					1	14	49	0	10	0	0	0	2017-06-29 10:00:00
+219004362	RenalCancerRiskFactors			0		1								2016-07-30 10:00:00
+219004365	BreastCancerRiskFactors					1	10	54	5	2	1	0	1	2016-04-09 10:00:00
+219004366	BreastCancerRiskFactors					1	15	54	5	2	3	2	3	2017-07-31 10:00:00
+219004370	BreastCancerRiskFactors					1	12	49	0	15	2	0	2	2015-09-10 10:00:00
+219004372	OvarianCancerRiskFactors					1	12		0	0	3	2	3	2014-07-14 10:00:00
+219004374	MalignantMelanomaCancerRiskFactors	32	ii - usually burns, tans minimally			1								2015-06-10 10:00:00
+219004376	OvarianCancerRiskFactors					1	15	49	0	15	0	0	0	2016-09-28 10:00:00
+219004379	BreastCancerRiskFactors					1	13		0	2	2	1	2	2018-11-14 10:00:00
+219004381	BreastCancerRiskFactors					1	14		0	15	2	2	2	2015-11-08 10:00:00
+219004383	EndometrialCancerRiskFactors					1	12		0	15	1	1	1	2018-12-02 10:00:00
+219004384	BreastCancerRiskFactors					1	12		0	15	3	2	2	2018-12-26 10:00:00
+219004388	BreastCancerRiskFactors					1	13	49	0	5	1	1	1	2016-08-19 10:00:00
+219004389	BreastCancerRiskFactors					1	12	50	5	15	0	0	0	2017-04-05 10:00:00
+219004392	EndometrialCancerRiskFactors					1	12	54	0	15	4	2	3	2015-09-08 10:00:00
+219004393	BreastCancerRiskFactors					1	13		0	0	2	1	1	2017-04-18 10:00:00
+219004395	BreastCancerRiskFactors					1	11		0	5	4	1	3	2017-05-18 10:00:00
+219004397	BreastCancerRiskFactors					1	14	48	0	10	4	3	4	2014-08-10 10:00:00
+219004398	RenalCancerRiskFactors			0		1								2018-06-02 10:00:00
+219004399	BreastCancerRiskFactors					1	10	50	0	0	2	2	2	2017-09-13 10:00:00
+219004400	MalignantMelanomaCancerRiskFactors		i - always burns, never tans			1								2019-01-08 10:00:00
+219000001	BreastCancerRiskFactors					1	11	52	0	5	3	0	1	2016-04-11 10:00:00
+219004402	BreastCancerRiskFactors					1	11	57	5	0	2	2	2	2018-03-15 10:00:00
+219004403	BreastCancerRiskFactors					1	13	48	5	15	2	2	2	2017-08-07 10:00:00
+219004404	BreastCancerRiskFactors					1	12	48	5	0	5	0	0	2017-08-01 10:00:00
+219004405	BreastCancerRiskFactors					1	13	55	2	15	5	3	3	2017-11-26 10:00:00

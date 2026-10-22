@@ -1,0 +1,451 @@
+actual_body_site	actual_body_site_description	participant_id	primary_body_site	primary_body_site_description	tumour_uid
+C43.9	Melanoma	p10000001401	C43.9	Melanoma	T0004406
+C50.9	Breast cancer	p10000001402	C50.9	Breast cancer	T0004407
+C64	Renal cancer	p10000001403	C64	Renal cancer	T0004408
+C18.9	Colorectal carcinoma	p10000001404	C18.9	Colorectal carcinoma	T0004409
+C50.9	Breast cancer	p10000001405	C50.9	Breast cancer	T0004410
+C18.9	Colorectal carcinoma	p10000001406	C18.9	Colorectal carcinoma	T0004411
+C34.9	Lung cancer	p10000001407	C34.9	Lung cancer	T0004412
+C67.9	Bladder cancer	p10000001408	C67.9	Bladder cancer	T0004413
+C45.0	Soft tissue sarcoma	p10000001409	C45.0	Soft tissue sarcoma	T0004414
+C64	Renal cancer	p10000001410	C64	Renal cancer	T0004415
+C34.9	Lung cancer	p10000001411	C34.9	Lung cancer	T0004416
+C49.9	Soft tissue sarcoma	p10000001412	C49.9	Soft tissue sarcoma	T0004417
+C16.9	Soft tissue sarcoma	p10000001413	C16.9	Soft tissue sarcoma	T0004418
+C49.9	Soft tissue sarcoma	p10000001414	C49.9	Soft tissue sarcoma	T0004419
+C34.9	Lung cancer	p10000001415	C34.9	Lung cancer	T0004420
+C18.9	Colorectal carcinoma	p10000001416	C18.9	Colorectal carcinoma	T0004421
+C64	Renal cancer	p10000001417	C64	Renal cancer	T0004422
+C18.9	Colorectal carcinoma	p10000001418	C18.9	Colorectal carcinoma	T0004423
+C56	Ovarian carcinoma	p10000001419	C56	Ovarian carcinoma	T0004424
+C90.0	Haematological malignancy	p10000001420	C90.0	Haematological malignancy	T0004425
+C64	Renal cancer	p10000001421	C64	Renal cancer	T0004426
+C34.9	Lung cancer	p10000001422	C34.9	Lung cancer	T0004427
+C50.9	Breast cancer	p10000001423	C50.9	Breast cancer	T0004428
+C80.9	Carcinoma of unknown primary	p10000001424	C80.9	Carcinoma of unknown primary	T0004429
+C56	Ovarian carcinoma	p10000001425	C56	Ovarian carcinoma	T0004430
+C18.9	Colorectal carcinoma	p10000001426	C18.9	Colorectal carcinoma	T0004431
+C50.9	Breast cancer	p10000001427	C50.9	Breast cancer	T0004432
+C18.9	Colorectal carcinoma	p10000001428	C18.9	Colorectal carcinoma	T0004433
+C49.9	Soft tissue sarcoma	p10000001429	C49.9	Soft tissue sarcoma	T0004434
+C61	Prostate cancer	p10000001430	C61	Prostate cancer	T0004435
+C34.9	Lung cancer	p10000001431	C34.9	Lung cancer	T0004436
+C18.9	Colorectal carcinoma	p10000001432	C18.9	Colorectal carcinoma	T0004437
+C50.9	Breast cancer	p10000001433	C50.9	Breast cancer	T0004438
+C18.9	Colorectal carcinoma	p10000001434	C18.9	Colorectal carcinoma	T0004439
+C18.9	Colorectal carcinoma	p10000001435	C18.9	Colorectal carcinoma	T0004440
+C61	Prostate cancer	p10000001436	C61	Prostate cancer	T0004441
+C64	Renal cancer	p10000001437	C64	Renal cancer	T0004442
+C50.9	Breast cancer	p10000001438	C50.9	Breast cancer	T0004443
+C18.9	Colorectal carcinoma	p10000001439	C18.9	Colorectal carcinoma	T0004444
+C25.9	Hepatopancreatobiliary cancer	p10000001440	C25.9	Hepatopancreatobiliary cancer	T0004445
+C64	Renal cancer	p10000001441	C64	Renal cancer	T0004446
+C92.0	Haematological malignancy	p10000001442	C92.0	Haematological malignancy	T0004447
+C34.9	Lung cancer	p10000001443	C34.9	Lung cancer	T0004448
+C50.9	Breast cancer	p10000001444	C50.9	Breast cancer	T0004449
+C49.9	Soft tissue sarcoma	p10000001445	C49.9	Soft tissue sarcoma	T0004450
+C61	Prostate cancer	p10000001446	C61	Prostate cancer	T0004451
+C49.9	Soft tissue sarcoma	p10000001447	C49.9	Soft tissue sarcoma	T0004452
+C50.9	Breast cancer	p10000001448	C50.9	Breast cancer	T0004453
+C18.9	Colorectal carcinoma	p10000001449	C18.9	Colorectal carcinoma	T0004454
+C18.9	Colorectal carcinoma	p10000001450	C18.9	Colorectal carcinoma	T0004455
+C61	Prostate cancer	p10000001451	C61	Prostate cancer	T0004456
+C64	Renal cancer	p10000001452	C64	Renal cancer	T0004457
+C64	Renal cancer	p10000001453	C64	Renal cancer	T0004458
+C91.1	Haematological malignancy	p10000001454	C91.1	Haematological malignancy	T0004459
+C91.1	Haematological malignancy	p10000001455	C91.1	Haematological malignancy	T0004460
+C54.9	Endometrial cancer	p10000001456	C54.9	Endometrial cancer	T0004461
+C50.9	Breast cancer	p10000001457	C50.9	Breast cancer	T0004462
+C34.9	Lung cancer	p10000001458	C34.9	Lung cancer	T0004463
+C64	Renal cancer	p10000001459	C64	Renal cancer	T0004464
+C49.9	Soft tissue sarcoma	p10000001460	C49.9	Soft tissue sarcoma	T0004465
+C50.9	Breast cancer	p10000001461	C50.9	Breast cancer	T0004466
+C61	Prostate cancer	p10000001462	C61	Prostate cancer	T0004467
+C16.9	Upper gastrointestinal cancer	p10000001463	C16.9	Upper gastrointestinal cancer	T0004468
+C50.9	Breast cancer	p10000001464	C50.9	Breast cancer	T0004469
+C18.9	Colorectal carcinoma	p10000001465	C18.9	Colorectal carcinoma	T0004470
+C18.9	Colorectal carcinoma	p10000001466	C18.9	Colorectal carcinoma	T0004471
+C56	Ovarian carcinoma	p10000001467	C56	Ovarian carcinoma	T0004472
+C54.9	Endometrial cancer	p10000001468	C54.9	Endometrial cancer	T0004473
+C62.9	Testicular germ cell tumour	p10000001469	C62.9	Testicular germ cell tumour	T0004474
+C61	Prostate cancer	p10000001470	C61	Prostate cancer	T0004475
+C18.9	Colorectal carcinoma	p10000001471	C18.9	Colorectal carcinoma	T0004476
+C61	Prostate cancer	p10000001472	C61	Prostate cancer	T0004477
+C50.9	Breast cancer	p10000001473	C50.9	Breast cancer	T0004478
+C49.9	Soft tissue sarcoma	p10000001474	C49.9	Soft tissue sarcoma	T0004479
+C67.9	Bladder cancer	p10000001475	C67.9	Bladder cancer	T0004480
+C50.9	Breast cancer	p10000001476	C50.9	Breast cancer	T0004481
+C54.9	Endometrial cancer	p10000001477	C54.9	Endometrial cancer	T0004482
+C18.9	Colorectal carcinoma	p10000001478	C18.9	Colorectal carcinoma	T0004483
+C54.9	Endometrial cancer	p10000001479	C54.9	Endometrial cancer	T0004484
+C50.9	Breast cancer	p10000001480	C50.9	Breast cancer	T0004485
+C18.9	Colorectal carcinoma	p10000001481	C18.9	Colorectal carcinoma	T0004486
+C50.9	Breast cancer	p10000001482	C50.9	Breast cancer	T0004487
+C49.9	Soft tissue sarcoma	p10000001483	C49.9	Soft tissue sarcoma	T0004488
+C50.9	Breast cancer	p10000001484	C50.9	Breast cancer	T0004489
+C10.9	Head and neck cancer	p10000001485	C10.9	Head and neck cancer	T0004490
+C18.9	Colorectal carcinoma	p10000001486	C18.9	Colorectal carcinoma	T0004491
+C61	Prostate cancer	p10000001487	C61	Prostate cancer	T0004492
+C56	Ovarian carcinoma	p10000001488	C56	Ovarian carcinoma	T0004493
+C49.9	Soft tissue sarcoma	p10000001489	C49.9	Soft tissue sarcoma	T0004494
+C18.9	Colorectal carcinoma	p10000001490	C18.9	Colorectal carcinoma	T0004495
+C18.9	Colorectal carcinoma	p10000001491	C18.9	Colorectal carcinoma	T0004496
+C50.9	Breast cancer	p10000001492	C50.9	Breast cancer	T0004497
+C18.9	Colorectal carcinoma	p10000001493	C18.9	Colorectal carcinoma	T0004498
+C49.9	Soft tissue sarcoma	p10000001494	C49.9	Soft tissue sarcoma	T0004499
+C50.9	Breast cancer	p10000001495	C50.9	Breast cancer	T0004500
+C49.9	Soft tissue sarcoma	p10000001496	C49.9	Soft tissue sarcoma	T0004501
+C74.9	Paediatric tumours	p10000001497	C74.9	Paediatric tumours	T0004502
+C34.9	Lung cancer	p10000001498	C34.9	Lung cancer	T0004503
+C50.9	Breast cancer	p10000001499	C50.9	Breast cancer	T0004504
+C18.9	Colorectal carcinoma	p10000001500	C18.9	Colorectal carcinoma	T0004505
+C56	Ovarian carcinoma	p10000001501	C56	Ovarian carcinoma	T0004506
+C74.9	Paediatric tumours	p10000001502	C74.9	Paediatric tumours	T0004507
+C67.9	Bladder cancer	p10000001503	C67.9	Bladder cancer	T0004508
+C74.9	Paediatric tumours	p10000001504	C74.9	Paediatric tumours	T0004509
+C54.9	Endometrial cancer	p10000001505	C54.9	Endometrial cancer	T0004510
+C18.9	Colorectal carcinoma	p10000001506	C18.9	Colorectal carcinoma	T0004511
+C43.9	Melanoma	p10000001507	C43.9	Melanoma	T0004512
+C91.1	Haematological malignancy	p10000001508	C91.1	Haematological malignancy	T0004513
+C54.9	Endometrial cancer	p10000001509	C54.9	Endometrial cancer	T0004514
+C43.9	Melanoma	p10000001510	C43.9	Melanoma	T0004515
+C49.9	Soft tissue sarcoma	p10000001511	C49.9	Soft tissue sarcoma	T0004516
+C50.9	Breast cancer	p10000001512	C50.9	Breast cancer	T0004517
+C91.1	Haematological malignancy	p10000001513	C91.1	Haematological malignancy	T0004518
+C61	Prostate cancer	p10000001514	C61	Prostate cancer	T0004519
+C56	Ovarian carcinoma	p10000001515	C56	Ovarian carcinoma	T0004520
+C49.9	Soft tissue sarcoma	p10000001516	C49.9	Soft tissue sarcoma	T0004521
+C18.9	Colorectal carcinoma	p10000001517	C18.9	Colorectal carcinoma	T0004522
+C16.9	Upper gastrointestinal cancer	p10000001518	C16.9	Upper gastrointestinal cancer	T0004523
+C64	Renal cancer	p10000001519	C64	Renal cancer	T0004524
+C49.9	Soft tissue sarcoma	p10000001520	C49.9	Soft tissue sarcoma	T0004525
+C54.9	Endometrial cancer	p10000001521	C54.9	Endometrial cancer	T0004526
+C71.9	Adult glioma	p10000001522	C71.9	Adult glioma	T0004527
+C54.9	Endometrial cancer	p10000001523	C54.9	Endometrial cancer	T0004528
+C34.9	Lung cancer	p10000001524	C34.9	Lung cancer	T0004529
+C64	Renal cancer	p10000001525	C64	Renal cancer	T0004530
+C54.9	Endometrial cancer	p10000001526	C54.9	Endometrial cancer	T0004531
+C50.9	Breast cancer	p10000001527	C50.9	Breast cancer	T0004532
+C16.9	Soft tissue sarcoma	p10000001528	C16.9	Soft tissue sarcoma	T0004533
+C34.9	Lung cancer	p10000001529	C34.9	Lung cancer	T0004534
+C61	Prostate cancer	p10000001530	C61	Prostate cancer	T0004535
+C64	Renal cancer	p10000001531	C64	Renal cancer	T0004536
+C54.9	Endometrial cancer	p10000001532	C54.9	Endometrial cancer	T0004537
+C49.9	Soft tissue sarcoma	p10000001533	C49.9	Soft tissue sarcoma	T0004538
+C92.0	Haematological malignancy	p10000001534	C92.0	Haematological malignancy	T0004539
+C67.9	Bladder cancer	p10000001535	C67.9	Bladder cancer	T0004540
+C49.9	Soft tissue sarcoma	p10000001536	C49.9	Soft tissue sarcoma	T0004541
+C64	Renal cancer	p10000001537	C64	Renal cancer	T0004542
+C74.9	Paediatric tumours	p10000001538	C74.9	Paediatric tumours	T0004543
+C64	Renal cancer	p10000001539	C64	Renal cancer	T0004544
+C16.9	Soft tissue sarcoma	p10000001540	C16.9	Soft tissue sarcoma	T0004545
+C56	Ovarian carcinoma	p10000001541	C56	Ovarian carcinoma	T0004546
+C49.9	Soft tissue sarcoma	p10000001542	C49.9	Soft tissue sarcoma	T0004547
+C64	Renal cancer	p10000001543	C64	Renal cancer	T0004548
+C18.9	Colorectal carcinoma	p10000001544	C18.9	Colorectal carcinoma	T0004549
+C18.9	Colorectal carcinoma	p10000001545	C18.9	Colorectal carcinoma	T0004550
+C62.9	Testicular germ cell tumour	p10000001546	C62.9	Testicular germ cell tumour	T0004551
+C18.9	Colorectal carcinoma	p10000001547	C18.9	Colorectal carcinoma	T0004552
+C34.9	Lung cancer	p10000001548	C34.9	Lung cancer	T0004553
+C34.9	Lung cancer	p10000001549	C34.9	Lung cancer	T0004554
+C18.9	Colorectal carcinoma	p10000001550	C18.9	Colorectal carcinoma	T0004555
+C50.9	Breast cancer	p10000001551	C50.9	Breast cancer	T0004556
+C61	Prostate cancer	p10000001552	C61	Prostate cancer	T0004557
+C64	Renal cancer	p10000001553	C64	Renal cancer	T0004558
+C64	Renal cancer	p10000001554	C64	Renal cancer	T0004559
+C49.9	Soft tissue sarcoma	p10000001555	C49.9	Soft tissue sarcoma	T0004560
+C50.9	Breast cancer	p10000001556	C50.9	Breast cancer	T0004561
+C18.9	Colorectal carcinoma	p10000001557	C18.9	Colorectal carcinoma	T0004562
+C50.9	Breast cancer	p10000001558	C50.9	Breast cancer	T0004563
+C15.9	Upper gastrointestinal cancer	p10000001559	C15.9	Upper gastrointestinal cancer	T0004564
+C16.9	Soft tissue sarcoma	p10000001560	C16.9	Soft tissue sarcoma	T0004565
+C50.9	Breast cancer	p10000001561	C50.9	Breast cancer	T0004566
+C61	Prostate cancer	p10000001562	C61	Prostate cancer	T0004567
+C64	Renal cancer	p10000001563	C64	Renal cancer	T0004568
+C49.9	Soft tissue sarcoma	p10000001564	C49.9	Soft tissue sarcoma	T0004569
+C50.9	Breast cancer	p10000001565	C50.9	Breast cancer	T0004570
+C54.9	Endometrial cancer	p10000001566	C54.9	Endometrial cancer	T0004571
+C50.9	Breast cancer	p10000001567	C50.9	Breast cancer	T0004572
+C56	Ovarian carcinoma	p10000001568	C56	Ovarian carcinoma	T0004573
+C74.9	Paediatric tumours	p10000001569	C74.9	Paediatric tumours	T0004574
+C71.9	Adult glioma	p10000001570	C71.9	Adult glioma	T0004575
+C50.9	Breast cancer	p10000001571	C50.9	Breast cancer	T0004576
+C50.9	Breast cancer	p10000001572	C50.9	Breast cancer	T0004577
+C49.9	Soft tissue sarcoma	p10000001573	C49.9	Soft tissue sarcoma	T0004578
+C34.9	Lung cancer	p10000001574	C34.9	Lung cancer	T0004579
+C71.9	Adult glioma	p10000001575	C71.9	Adult glioma	T0004580
+C56	Ovarian carcinoma	p10000001576	C56	Ovarian carcinoma	T0004581
+C18.9	Colorectal carcinoma	p10000001577	C18.9	Colorectal carcinoma	T0004582
+C18.9	Colorectal carcinoma	p10000001578	C18.9	Colorectal carcinoma	T0004583
+C50.9	Breast cancer	p10000001579	C50.9	Breast cancer	T0004584
+C50.9	Breast cancer	p10000001580	C50.9	Breast cancer	T0004585
+C43.9	Melanoma	p10000001581	C43.9	Melanoma	T0004586
+C71.9	Adult glioma	p10000001582	C71.9	Adult glioma	T0004587
+C50.9	Breast cancer	p10000001583	C50.9	Breast cancer	T0004588
+C34.9	Lung cancer	p10000001584	C34.9	Lung cancer	T0004589
+C50.9	Breast cancer	p10000001585	C50.9	Breast cancer	T0004590
+C34.9	Lung cancer	p10000001586	C34.9	Lung cancer	T0004591
+C92.0	Haematological malignancy	p10000001587	C92.0	Haematological malignancy	T0004592
+C64	Renal cancer	p10000001588	C64	Renal cancer	T0004593
+C49.9	Soft tissue sarcoma	p10000001589	C49.9	Soft tissue sarcoma	T0004594
+C18.9	Colorectal carcinoma	p10000001590	C18.9	Colorectal carcinoma	T0004595
+C50.9	Breast cancer	p10000001591	C50.9	Breast cancer	T0004596
+C18.9	Colorectal carcinoma	p10000001592	C18.9	Colorectal carcinoma	T0004597
+C71.9	Adult glioma	p10000001593	C71.9	Adult glioma	T0004598
+C49.9	Soft tissue sarcoma	p10000001594	C49.9	Soft tissue sarcoma	T0004599
+C18.9	Colorectal carcinoma	p10000001595	C18.9	Colorectal carcinoma	T0004600
+C18.9	Colorectal carcinoma	p10000001596	C18.9	Colorectal carcinoma	T0004601
+C45.0	Soft tissue sarcoma	p10000001597	C45.0	Soft tissue sarcoma	T0004602
+C34.9	Lung cancer	p10000001598	C34.9	Lung cancer	T0004603
+C64	Renal cancer	p10000001599	C64	Renal cancer	T0004604
+C61	Prostate cancer	p10000001600	C61	Prostate cancer	T0004605
+C34.9	Lung cancer	p10000001601	C34.9	Lung cancer	T0004606
+C50.9	Breast cancer	p10000001602	C50.9	Breast cancer	T0004607
+C43.9	Melanoma	p10000001603	C43.9	Melanoma	T0004608
+C49.9	Soft tissue sarcoma	p10000001604	C49.9	Soft tissue sarcoma	T0004609
+C50.9	Breast cancer	p10000001605	C50.9	Breast cancer	T0004610
+C56	Ovarian carcinoma	p10000001606	C56	Ovarian carcinoma	T0004611
+C18.9	Colorectal carcinoma	p10000001607	C18.9	Colorectal carcinoma	T0004612
+C74.9	Paediatric tumours	p10000001608	C74.9	Paediatric tumours	T0004613
+C61	Prostate cancer	p10000001609	C61	Prostate cancer	T0004614
+C18.9	Colorectal carcinoma	p10000001610	C18.9	Colorectal carcinoma	T0004615
+C50.9	Breast cancer	p10000001611	C50.9	Breast cancer	T0004616
+C50.9	Breast cancer	p10000001612	C50.9	Breast cancer	T0004617
+C16.9	Upper gastrointestinal cancer	p10000001613	C16.9	Upper gastrointestinal cancer	T0004618
+C15.9	Upper gastrointestinal cancer	p10000001614	C15.9	Upper gastrointestinal cancer	T0004619
+C61	Prostate cancer	p10000001615	C61	Prostate cancer	T0004620
+C15.9	Upper gastrointestinal cancer	p10000001616	C15.9	Upper gastrointestinal cancer	T0004621
+C49.9	Soft tissue sarcoma	p10000001617	C49.9	Soft tissue sarcoma	T0004622
+C64	Renal cancer	p10000001618	C64	Renal cancer	T0004623
+C64	Renal cancer	p10000001619	C64	Renal cancer	T0004624
+C50.9	Breast cancer	p10000001620	C50.9	Breast cancer	T0004625
+C16.9	Upper gastrointestinal cancer	p10000001621	C16.9	Upper gastrointestinal cancer	T0004626
+C18.9	Colorectal carcinoma	p10000001622	C18.9	Colorectal carcinoma	T0004627
+C18.9	Colorectal carcinoma	p10000001623	C18.9	Colorectal carcinoma	T0004628
+C34.9	Lung cancer	p10000001624	C34.9	Lung cancer	T0004629
+C18.9	Colorectal carcinoma	p10000001625	C18.9	Colorectal carcinoma	T0004630
+C50.9	Breast cancer	p10000001626	C50.9	Breast cancer	T0004631
+C50.9	Breast cancer	p10000001627	C50.9	Breast cancer	T0004632
+C50.9	Breast cancer	p10000001628	C50.9	Breast cancer	T0004633
+C50.9	Breast cancer	p10000001629	C50.9	Breast cancer	T0004634
+C50.9	Breast cancer	p10000001630	C50.9	Breast cancer	T0004635
+C90.0	Haematological malignancy	p10000001631	C90.0	Haematological malignancy	T0004636
+C34.9	Lung cancer	p10000001632	C34.9	Lung cancer	T0004637
+C18.9	Colorectal carcinoma	p10000001633	C18.9	Colorectal carcinoma	T0004638
+C64	Renal cancer	p10000001634	C64	Renal cancer	T0004639
+C18.9	Colorectal carcinoma	p10000001635	C18.9	Colorectal carcinoma	T0004640
+C18.9	Colorectal carcinoma	p10000001636	C18.9	Colorectal carcinoma	T0004641
+C18.9	Colorectal carcinoma	p10000001637	C18.9	Colorectal carcinoma	T0004642
+C18.9	Colorectal carcinoma	p10000001638	C18.9	Colorectal carcinoma	T0004643
+C50.9	Breast cancer	p10000001639	C50.9	Breast cancer	T0004644
+C54.9	Endometrial cancer	p10000001640	C54.9	Endometrial cancer	T0004645
+C64	Renal cancer	p10000001641	C64	Renal cancer	T0004646
+C43.9	Melanoma	p10000001642	C43.9	Melanoma	T0004647
+C91.1	Haematological malignancy	p10000001643	C91.1	Haematological malignancy	T0004648
+C18.9	Colorectal carcinoma	p10000001644	C18.9	Colorectal carcinoma	T0004649
+C50.9	Breast cancer	p10000001645	C50.9	Breast cancer	T0004650
+C50.9	Breast cancer	p10000001646	C50.9	Breast cancer	T0004651
+C49.9	Soft tissue sarcoma	p10000001647	C49.9	Soft tissue sarcoma	T0004652
+C74.9	Paediatric tumours	p10000001648	C74.9	Paediatric tumours	T0004653
+C64	Renal cancer	p10000001649	C64	Renal cancer	T0004654
+C90.0	Haematological malignancy	p10000001650	C90.0	Haematological malignancy	T0004655
+C56	Ovarian carcinoma	p10000001651	C56	Ovarian carcinoma	T0004656
+C50.9	Breast cancer	p10000001652	C50.9	Breast cancer	T0004657
+C50.9	Breast cancer	p10000001653	C50.9	Breast cancer	T0004658
+C64	Renal cancer	p10000001654	C64	Renal cancer	T0004659
+C50.9	Breast cancer	p10000001655	C50.9	Breast cancer	T0004660
+C43.9	Melanoma	p10000001656	C43.9	Melanoma	T0004661
+C43.9	Melanoma	p10000001657	C43.9	Melanoma	T0004662
+C34.9	Lung cancer	p10000001658	C34.9	Lung cancer	T0004663
+C18.9	Colorectal carcinoma	p10000001659	C18.9	Colorectal carcinoma	T0004664
+C90.0	Haematological malignancy	p10000001660	C90.0	Haematological malignancy	T0004665
+C54.9	Endometrial cancer	p10000001661	C54.9	Endometrial cancer	T0004666
+C64	Renal cancer	p10000001662	C64	Renal cancer	T0004667
+C50.9	Breast cancer	p10000001663	C50.9	Breast cancer	T0004668
+C49.9	Soft tissue sarcoma	p10000001664	C49.9	Soft tissue sarcoma	T0004669
+C43.9	Melanoma	p10000001665	C43.9	Melanoma	T0004670
+C49.9	Soft tissue sarcoma	p10000001666	C49.9	Soft tissue sarcoma	T0004671
+C64	Renal cancer	p10000001667	C64	Renal cancer	T0004672
+C50.9	Breast cancer	p10000001668	C50.9	Breast cancer	T0004673
+C92.0	Haematological malignancy	p10000001669	C92.0	Haematological malignancy	T0004674
+C61	Prostate cancer	p10000001670	C61	Prostate cancer	T0004675
+C61	Prostate cancer	p10000001671	C61	Prostate cancer	T0004676
+C34.9	Lung cancer	p10000001672	C34.9	Lung cancer	T0004677
+C50.9	Breast cancer	p10000001673	C50.9	Breast cancer	T0004678
+C34.9	Lung cancer	p10000001674	C34.9	Lung cancer	T0004679
+C54.9	Endometrial cancer	p10000001675	C54.9	Endometrial cancer	T0004680
+C50.9	Breast cancer	p10000001676	C50.9	Breast cancer	T0004681
+C50.9	Breast cancer	p10000001677	C50.9	Breast cancer	T0004682
+C16.9	Soft tissue sarcoma	p10000001678	C16.9	Soft tissue sarcoma	T0004683
+C80.9	Carcinoma of unknown primary	p10000001679	C80.9	Carcinoma of unknown primary	T0004684
+C49.9	Soft tissue sarcoma	p10000001680	C49.9	Soft tissue sarcoma	T0004685
+C18.9	Colorectal carcinoma	p10000001681	C18.9	Colorectal carcinoma	T0004686
+C16.9	Soft tissue sarcoma	p10000001682	C16.9	Soft tissue sarcoma	T0004687
+C64	Renal cancer	p10000001683	C64	Renal cancer	T0004688
+C18.9	Colorectal carcinoma	p10000001684	C18.9	Colorectal carcinoma	T0004689
+C18.9	Colorectal carcinoma	p10000001685	C18.9	Colorectal carcinoma	T0004690
+C64	Renal cancer	p10000001686	C64	Renal cancer	T0004691
+C71.9	Adult glioma	p10000001687	C71.9	Adult glioma	T0004692
+C50.9	Breast cancer	p10000001688	C50.9	Breast cancer	T0004693
+C56	Ovarian carcinoma	p10000001689	C56	Ovarian carcinoma	T0004694
+C18.9	Colorectal carcinoma	p10000001690	C18.9	Colorectal carcinoma	T0004695
+C50.9	Breast cancer	p10000001691	C50.9	Breast cancer	T0004696
+C64	Renal cancer	p10000001692	C64	Renal cancer	T0004697
+C16.9	Upper gastrointestinal cancer	p10000001693	C16.9	Upper gastrointestinal cancer	T0004698
+C18.9	Colorectal carcinoma	p10000001694	C18.9	Colorectal carcinoma	T0004699
+C64	Renal cancer	p10000001695	C64	Renal cancer	T0004700
+C56	Ovarian carcinoma	p10000001696	C56	Ovarian carcinoma	T0004701
+C50.9	Breast cancer	p10000001697	C50.9	Breast cancer	T0004702
+C50.9	Breast cancer	p10000001698	C50.9	Breast cancer	T0004703
+C49.9	Soft tissue sarcoma	p10000001699	C49.9	Soft tissue sarcoma	T0004704
+C18.9	Colorectal carcinoma	p10000001700	C18.9	Colorectal carcinoma	T0004705
+C50.9	Breast cancer	p10000001701	C50.9	Breast cancer	T0004706
+C64	Renal cancer	p10000001702	C64	Renal cancer	T0004707
+C50.9	Breast cancer	p10000001703	C50.9	Breast cancer	T0004708
+C64	Renal cancer	p10000001704	C64	Renal cancer	T0004709
+C64	Renal cancer	p10000001705	C64	Renal cancer	T0004710
+C50.9	Breast cancer	p10000001706	C50.9	Breast cancer	T0004711
+C49.9	Soft tissue sarcoma	p10000001707	C49.9	Soft tissue sarcoma	T0004712
+C18.9	Colorectal carcinoma	p10000001708	C18.9	Colorectal carcinoma	T0004713
+C18.9	Colorectal carcinoma	p10000001709	C18.9	Colorectal carcinoma	T0004714
+C50.9	Breast cancer	p10000001710	C50.9	Breast cancer	T0004715
+C74.9	Paediatric tumours	p10000001711	C74.9	Paediatric tumours	T0004716
+C34.9	Lung cancer	p10000001712	C34.9	Lung cancer	T0004717
+C34.9	Lung cancer	p10000001713	C34.9	Lung cancer	T0004718
+C56	Ovarian carcinoma	p10000001714	C56	Ovarian carcinoma	T0004719
+C15.9	Upper gastrointestinal cancer	p10000001715	C15.9	Upper gastrointestinal cancer	T0004720
+C64	Renal cancer	p10000001716	C64	Renal cancer	T0004721
+C80.9	Carcinoma of unknown primary	p10000001717	C80.9	Carcinoma of unknown primary	T0004722
+C61	Prostate cancer	p10000001718	C61	Prostate cancer	T0004723
+C34.9	Lung cancer	p10000001719	C34.9	Lung cancer	T0004724
+C18.9	Colorectal carcinoma	p10000001720	C18.9	Colorectal carcinoma	T0004725
+C64	Renal cancer	p10000001721	C64	Renal cancer	T0004726
+C18.9	Colorectal carcinoma	p10000001722	C18.9	Colorectal carcinoma	T0004727
+C50.9	Breast cancer	p10000001723	C50.9	Breast cancer	T0004728
+C80.9	Carcinoma of unknown primary	p10000001724	C80.9	Carcinoma of unknown primary	T0004729
+C50.9	Breast cancer	p10000001725	C50.9	Breast cancer	T0004730
+C43.9	Melanoma	p10000001726	C43.9	Melanoma	T0004731
+C18.9	Colorectal carcinoma	p10000001727	C18.9	Colorectal carcinoma	T0004732
+C64	Renal cancer	p10000001728	C64	Renal cancer	T0004733
+C90.0	Haematological malignancy	p10000001729	C90.0	Haematological malignancy	T0004734
+C18.9	Colorectal carcinoma	p10000001730	C18.9	Colorectal carcinoma	T0004735
+C34.9	Lung cancer	p10000001731	C34.9	Lung cancer	T0004736
+C91.1	Haematological malignancy	p10000001732	C91.1	Haematological malignancy	T0004737
+C71.9	Adult glioma	p10000001733	C71.9	Adult glioma	T0004738
+C18.9	Colorectal carcinoma	p10000001734	C18.9	Colorectal carcinoma	T0004739
+C64	Renal cancer	p10000001735	C64	Renal cancer	T0004740
+C61	Prostate cancer	p10000001736	C61	Prostate cancer	T0004741
+C50.9	Breast cancer	p10000001737	C50.9	Breast cancer	T0004742
+C71.9	Adult glioma	p10000001738	C71.9	Adult glioma	T0004743
+C49.9	Soft tissue sarcoma	p10000001739	C49.9	Soft tissue sarcoma	T0004744
+C50.9	Breast cancer	p10000001740	C50.9	Breast cancer	T0004745
+C50.9	Breast cancer	p10000001741	C50.9	Breast cancer	T0004746
+C18.9	Colorectal carcinoma	p10000001742	C18.9	Colorectal carcinoma	T0004747
+C49.9	Soft tissue sarcoma	p10000001743	C49.9	Soft tissue sarcoma	T0004748
+C67.9	Bladder cancer	p10000001744	C67.9	Bladder cancer	T0004749
+C49.9	Soft tissue sarcoma	p10000001745	C49.9	Soft tissue sarcoma	T0004750
+C49.9	Soft tissue sarcoma	p10000001746	C49.9	Soft tissue sarcoma	T0004751
+C50.9	Breast cancer	p10000001747	C50.9	Breast cancer	T0004752
+C61	Prostate cancer	p10000001748	C61	Prostate cancer	T0004753
+C56	Ovarian carcinoma	p10000001749	C56	Ovarian carcinoma	T0004754
+C64	Renal cancer	p10000001750	C64	Renal cancer	T0004755
+C54.9	Endometrial cancer	p10000001751	C54.9	Endometrial cancer	T0004756
+C54.9	Endometrial cancer	p10000001752	C54.9	Endometrial cancer	T0004757
+C71.9	Adult glioma	p10000001753	C71.9	Adult glioma	T0004758
+C18.9	Colorectal carcinoma	p10000001754	C18.9	Colorectal carcinoma	T0004759
+C71.9	Adult glioma	p10000001755	C71.9	Adult glioma	T0004760
+C50.9	Breast cancer	p10000001756	C50.9	Breast cancer	T0004761
+C18.9	Colorectal carcinoma	p10000001757	C18.9	Colorectal carcinoma	T0004762
+C50.9	Breast cancer	p10000001758	C50.9	Breast cancer	T0004763
+C15.9	Upper gastrointestinal cancer	p10000001759	C15.9	Upper gastrointestinal cancer	T0004764
+C64	Renal cancer	p10000001760	C64	Renal cancer	T0004765
+C10.9	Head and neck cancer	p10000001761	C10.9	Head and neck cancer	T0004766
+C50.9	Breast cancer	p10000001762	C50.9	Breast cancer	T0004767
+C71.9	Adult glioma	p10000001763	C71.9	Adult glioma	T0004768
+C34.9	Lung cancer	p10000001764	C34.9	Lung cancer	T0004769
+C50.9	Breast cancer	p10000001765	C50.9	Breast cancer	T0004770
+C54.9	Endometrial cancer	p10000001766	C54.9	Endometrial cancer	T0004771
+C18.9	Colorectal carcinoma	p10000001767	C18.9	Colorectal carcinoma	T0004772
+C34.9	Lung cancer	p10000001768	C34.9	Lung cancer	T0004773
+C61	Prostate cancer	p10000001769	C61	Prostate cancer	T0004774
+C18.9	Colorectal carcinoma	p10000001770	C18.9	Colorectal carcinoma	T0004775
+C54.9	Endometrial cancer	p10000001771	C54.9	Endometrial cancer	T0004776
+C92.0	Haematological malignancy	p10000001772	C92.0	Haematological malignancy	T0004777
+C49.9	Soft tissue sarcoma	p10000001773	C49.9	Soft tissue sarcoma	T0004778
+C71.9	Adult glioma	p10000001774	C71.9	Adult glioma	T0004779
+C50.9	Breast cancer	p10000001775	C50.9	Breast cancer	T0004780
+C64	Renal cancer	p10000001776	C64	Renal cancer	T0004781
+C64	Renal cancer	p10000001777	C64	Renal cancer	T0004782
+C50.9	Breast cancer	p10000001778	C50.9	Breast cancer	T0004783
+C18.9	Colorectal carcinoma	p10000001779	C18.9	Colorectal carcinoma	T0004784
+C50.9	Breast cancer	p10000001780	C50.9	Breast cancer	T0004785
+C54.9	Endometrial cancer	p10000001781	C54.9	Endometrial cancer	T0004786
+C25.9	Hepatopancreatobiliary cancer	p10000001782	C25.9	Hepatopancreatobiliary cancer	T0004787
+C54.9	Endometrial cancer	p10000001783	C54.9	Endometrial cancer	T0004788
+C49.9	Soft tissue sarcoma	p10000001784	C49.9	Soft tissue sarcoma	T0004789
+C50.9	Breast cancer	p10000001785	C50.9	Breast cancer	T0004790
+C50.9	Breast cancer	p10000001786	C50.9	Breast cancer	T0004791
+C18.9	Colorectal carcinoma	p10000001787	C18.9	Colorectal carcinoma	T0004792
+C56	Ovarian carcinoma	p10000001788	C56	Ovarian carcinoma	T0004793
+C64	Renal cancer	p10000001789	C64	Renal cancer	T0004794
+C91.1	Haematological malignancy	p10000001790	C91.1	Haematological malignancy	T0004795
+C50.9	Breast cancer	p10000001791	C50.9	Breast cancer	T0004796
+C49.9	Soft tissue sarcoma	p10000001792	C49.9	Soft tissue sarcoma	T0004797
+C50.9	Breast cancer	p10000001793	C50.9	Breast cancer	T0004798
+C50.9	Breast cancer	p10000001794	C50.9	Breast cancer	T0004799
+C18.9	Colorectal carcinoma	p10000001795	C18.9	Colorectal carcinoma	T0004800
+C34.9	Lung cancer	p10000001796	C34.9	Lung cancer	T0004801
+C50.9	Breast cancer	p10000001797	C50.9	Breast cancer	T0004802
+C56	Ovarian carcinoma	p10000001798	C56	Ovarian carcinoma	T0004803
+C64	Renal cancer	p10000001799	C64	Renal cancer	T0004804
+C43.9	Melanoma	p10000001800	C43.9	Melanoma	T0004805
+C43.9	Melanoma	p10000001801	C43.9	Melanoma	T0004806
+C18.9	Colorectal carcinoma	p10000001802	C18.9	Colorectal carcinoma	T0004807
+C74.9	Paediatric tumours	p10000001803	C74.9	Paediatric tumours	T0004808
+C34.9	Lung cancer	p10000001804	C34.9	Lung cancer	T0004809
+C64	Renal cancer	p10000001805	C64	Renal cancer	T0004810
+C18.9	Colorectal carcinoma	p10000001806	C18.9	Colorectal carcinoma	T0004811
+C64	Renal cancer	p10000001807	C64	Renal cancer	T0004812
+C15.9	Upper gastrointestinal cancer	p10000001808	C15.9	Upper gastrointestinal cancer	T0004813
+C50.9	Breast cancer	p10000001809	C50.9	Breast cancer	T0004814
+C64	Renal cancer	p10000001810	C64	Renal cancer	T0004815
+C67.9	Bladder cancer	p10000001811	C67.9	Bladder cancer	T0004816
+C50.9	Breast cancer	p10000001812	C50.9	Breast cancer	T0004817
+C64	Renal cancer	p10000001813	C64	Renal cancer	T0004818
+C25.9	Hepatopancreatobiliary cancer	p10000001814	C25.9	Hepatopancreatobiliary cancer	T0004819
+C90.0	Haematological malignancy	p10000001815	C90.0	Haematological malignancy	T0004820
+C92.0	Haematological malignancy	p10000001816	C92.0	Haematological malignancy	T0004821
+C16.9	Soft tissue sarcoma	p10000001817	C16.9	Soft tissue sarcoma	T0004822
+C18.9	Colorectal carcinoma	p10000001818	C18.9	Colorectal carcinoma	T0004823
+C16.9	Soft tissue sarcoma	p10000001819	C16.9	Soft tissue sarcoma	T0004824
+C74.9	Paediatric tumours	p10000001820	C74.9	Paediatric tumours	T0004825
+C18.9	Colorectal carcinoma	p10000001821	C18.9	Colorectal carcinoma	T0004826
+C64	Renal cancer	p10000001822	C64	Renal cancer	T0004827
+C92.0	Haematological malignancy	p10000001823	C92.0	Haematological malignancy	T0004828
+C18.9	Colorectal carcinoma	p10000001824	C18.9	Colorectal carcinoma	T0004829
+C50.9	Breast cancer	p10000001825	C50.9	Breast cancer	T0004830
+C49.9	Soft tissue sarcoma	p10000001826	C49.9	Soft tissue sarcoma	T0004831
+C34.9	Lung cancer	p10000001827	C34.9	Lung cancer	T0004832
+C50.9	Breast cancer	p10000001828	C50.9	Breast cancer	T0004833
+C34.9	Lung cancer	p10000001829	C34.9	Lung cancer	T0004834
+C64	Renal cancer	p10000001830	C64	Renal cancer	T0004835
+C49.9	Soft tissue sarcoma	p10000001831	C49.9	Soft tissue sarcoma	T0004836
+C50.9	Breast cancer	p10000001832	C50.9	Breast cancer	T0004837
+C67.9	Bladder cancer	p10000001833	C67.9	Bladder cancer	T0004838
+C71.9	Adult glioma	p10000001834	C71.9	Adult glioma	T0004839
+C49.9	Soft tissue sarcoma	p10000001835	C49.9	Soft tissue sarcoma	T0004840
+C34.9	Lung cancer	p10000001836	C34.9	Lung cancer	T0004841
+C92.0	Haematological malignancy	p10000001837	C92.0	Haematological malignancy	T0004842
+C18.9	Colorectal carcinoma	p10000001838	C18.9	Colorectal carcinoma	T0004843
+C50.9	Breast cancer	p10000001839	C50.9	Breast cancer	T0004844
+C61	Prostate cancer	p10000001840	C61	Prostate cancer	T0004845
+C92.0	Haematological malignancy	p10000001841	C92.0	Haematological malignancy	T0004846
+C64	Renal cancer	p10000001842	C64	Renal cancer	T0004847
+C90.0	Haematological malignancy	p10000001843	C90.0	Haematological malignancy	T0004848
+C64	Renal cancer	p10000001844	C64	Renal cancer	T0004849
+C50.9	Breast cancer	p10000001845	C50.9	Breast cancer	T0004850
+C18.9	Colorectal carcinoma	p10000001846	C18.9	Colorectal carcinoma	T0004851
+C18.9	Colorectal carcinoma	p10000001847	C18.9	Colorectal carcinoma	T0004852
+C64	Renal cancer	p10000001848	C64	Renal cancer	T0004853
+C74.9	Paediatric tumours	p10000001849	C74.9	Paediatric tumours	T0004854
+C54.9	Endometrial cancer	p10000001850	C54.9	Endometrial cancer	T0004855

@@ -1,0 +1,452 @@
+cancer_participant_tumour_sk	metastatic_site	valid_metastatic_site_enumeration	participant_id
+900001	Liver	true	219000002
+900007	Other metastatic site	true	219000008
+900007	Other metastatic site	true	219000008
+900015	Other metastatic site	true	219000016
+900015	Other metastatic site	true	219000016
+900026	Brain	true	219000027
+900032	Other metastatic site	true	219000033
+900052	Liver	true	219000053
+900052	Lung	true	219000053
+900089	Lung	true	219000090
+900102	Lung	true	219000103
+900102	Lung	true	219000103
+900109	Lung	true	219000110
+900109	Liver	true	219000110
+900110	Bone (excluding Bone Marrow)	true	219000111
+900110	Bone (excluding Bone Marrow)	true	219000111
+900113	Bone (excluding Bone Marrow)	true	219000114
+900131	Unknown metastatic site	true	219000132
+900134	Lung	true	219000135
+900134	Liver	true	219000135
+900218	Liver	true	219000219
+900232	Lung	true	219000233
+900232	Lung	true	219000233
+900235	Lung	true	219000236
+900238	Liver	true	219000239
+900238	Liver	true	219000239
+900265	Lung	true	219000266
+900265	Lung	true	219000266
+900309	Skin	true	219000310
+900309	Lung	true	219000310
+900321	Brain	true	219000322
+900321	Bone (excluding Bone Marrow)	true	219000322
+900323	Bone (excluding Bone Marrow)	true	219000324
+900323	Bone (excluding Bone Marrow)	true	219000324
+900403	Bone (excluding Bone Marrow)	true	219000404
+900404	Lung	true	219000405
+900408	Lung	true	219000409
+900415	Liver	true	219000416
+900415	Liver	true	219000416
+900437	Lung	true	219000438
+900437	Liver	true	219000438
+900441	Liver	true	219000442
+900451	Unknown metastatic site	true	219000452
+900451	Unknown metastatic site	true	219000452
+900452	Lung	true	219000453
+900455	Brain	true	219000456
+900457	Lung	true	219000458
+900457	Lung	true	219000458
+900520	Lung	true	219000521
+900530	Liver	true	219000531
+900530	Liver	true	219000531
+900533	Other metastatic site	true	219000534
+900540	Liver	true	219000541
+900540	Liver	true	219000541
+900574	Lung	true	219000575
+900607	Lung	true	219000608
+900609	Lung	true	219000610
+900609	Bone (excluding Bone Marrow)	true	219000610
+900613	Bone (excluding Bone Marrow)	true	219000614
+900645	Bone (excluding Bone Marrow)	true	219000646
+900658	Bone (excluding Bone Marrow)	true	219000659
+900658	Brain	true	219000659
+900670	Bone (excluding Bone Marrow)	true	219000671
+900683	Lung	true	219000684
+900685	Liver	true	219000686
+900696	Liver	true	219000697
+900696	Liver	true	219000697
+900720	Lung	true	219000721
+900720	Bone (excluding Bone Marrow)	true	219000721
+900758	Brain	true	219000759
+900765	Lung	true	219000766
+900774	Liver	true	219000775
+900790	Brain	true	219000791
+900790	Liver	true	219000791
+900801	Unknown metastatic site	true	219000802
+900813	Lung	true	219000814
+900813	Liver	true	219000814
+900820	Unknown metastatic site	true	219000821
+900820	Unknown metastatic site	true	219000821
+900826	Liver	true	219000827
+900827	Liver	true	219000828
+900827	Lung	true	219000828
+900837	Lung	true	219000838
+900867	Liver	true	219000868
+900867	Liver	true	219000868
+900871	Brain	true	219000872
+900872	Liver	true	219000873
+900872	Liver	true	219000873
+900887	Lung	true	219000888
+900895	Unknown metastatic site	true	219000896
+900895	Unknown metastatic site	true	219000896
+900904	Liver	true	219000905
+900904	Bone (excluding Bone Marrow)	true	219000905
+900938	Lung	true	219000939
+900938	Lung	true	219000939
+900968	Lung	true	219000969
+900971	Bone (excluding Bone Marrow)	true	219000972
+900990	Bone (excluding Bone Marrow)	true	219000991
+900990	Brain	true	219000991
+901011	Bone (excluding Bone Marrow)	true	219001012
+901011	Lung	true	219001012
+901030	Lung	true	219001031
+901030	Lung	true	219001031
+901033	Bone (excluding Bone Marrow)	true	219001034
+901033	Bone (excluding Bone Marrow)	true	219001034
+901039	Lung	true	219001040
+901073	Lung	true	219001074
+901076	Lung	true	219001077
+901076	Bone (excluding Bone Marrow)	true	219001077
+901082	Liver	true	219001083
+901082	Liver	true	219001083
+901083	Bone (excluding Bone Marrow)	true	219001084
+901083	Lung	true	219001084
+901107	Other metastatic site	true	219001108
+901107	Other metastatic site	true	219001108
+901111	Brain	true	219001112
+901122	Lung	true	219001123
+901122	Lung	true	219001123
+901124	Liver	true	219001125
+901124	Liver	true	219001125
+901129	Bone (excluding Bone Marrow)	true	219001130
+901141	Brain	true	219001142
+901150	Lung	true	219001151
+901160	Other metastatic site	true	219001161
+901175	Liver	true	219001176
+901177	Bone (excluding Bone Marrow)	true	219001178
+901192	Lung	true	219001193
+901192	Lung	true	219001193
+901205	Liver	true	219001206
+901205	Bone (excluding Bone Marrow)	true	219001206
+901210	Lung	true	219001211
+901219	Bone (excluding Bone Marrow)	true	219001220
+901219	Lung	true	219001220
+901255	Lung	true	219001256
+901255	Liver	true	219001256
+901309	Other metastatic site	true	219001310
+901309	Other metastatic site	true	219001310
+901312	Lung	true	219001313
+901350	Liver	true	219001351
+901406	Bone (excluding Bone Marrow)	true	219001407
+901406	Bone (excluding Bone Marrow)	true	219001407
+901433	Other metastatic site	true	219001434
+901451	Liver	true	219001452
+901451	Liver	true	219001452
+901463	Liver	true	219001464
+901463	Liver	true	219001464
+901468	Brain	true	219001469
+901468	Lung	true	219001469
+901474	Bone (excluding Bone Marrow)	true	219001475
+901474	Lung	true	219001475
+901510	Brain	true	219001511
+901538	Liver	true	219001539
+901580	Lung	true	219001581
+901611	Other metastatic site	true	219001612
+901611	Other metastatic site	true	219001612
+901619	Lung	true	219001620
+901619	Lung	true	219001620
+901622	Lung	true	219001623
+901622	Lung	true	219001623
+901634	Lung	true	219001635
+901636	Bone (excluding Bone Marrow)	true	219001637
+901636	Liver	true	219001637
+901672	Bone (excluding Bone Marrow)	true	219001673
+901688	Bone (excluding Bone Marrow)	true	219001689
+901688	Liver	true	219001689
+901690	Liver	true	219001691
+901690	Liver	true	219001691
+901703	Liver	true	219001704
+901703	Lung	true	219001704
+901704	Liver	true	219001705
+901704	Lung	true	219001705
+901711	Other metastatic site	true	219001712
+901711	Other metastatic site	true	219001712
+901735	Lung	true	219001736
+901735	Lung	true	219001736
+901736	Liver	true	219001737
+901745	Lung	true	219001746
+901745	Lung	true	219001746
+901748	Brain	true	219001749
+901752	Lung	true	219001753
+901752	Lung	true	219001753
+901761	Other metastatic site	true	219001762
+901761	Other metastatic site	true	219001762
+901768	Bone (excluding Bone Marrow)	true	219001769
+901768	Brain	true	219001769
+901788	Liver	true	219001789
+901788	Liver	true	219001789
+901798	Bone (excluding Bone Marrow)	true	219001799
+901815	Bone (excluding Bone Marrow)	true	219001816
+901819	Unknown metastatic site	true	219001820
+901819	Unknown metastatic site	true	219001820
+901825	Lung	true	219001826
+901841	Liver	true	219001842
+901841	Lung	true	219001842
+901849	Lung	true	219001850
+901859	Bone (excluding Bone Marrow)	true	219001860
+901870	Lung	true	219001871
+901889	Bone (excluding Bone Marrow)	true	219001890
+901889	Bone (excluding Bone Marrow)	true	219001890
+901891	Lung	true	219001892
+901891	Lung	true	219001892
+901893	Lung	true	219001894
+901900	Lung	true	219001901
+901918	Lung	true	219001919
+901923	Lung	true	219001924
+901923	Lung	true	219001924
+901928	Lung	true	219001929
+901928	Lung	true	219001929
+901930	Lung	true	219001931
+901930	Lung	true	219001931
+901969	Other metastatic site	true	219001970
+901969	Other metastatic site	true	219001970
+901994	Brain	true	219001995
+902064	Other metastatic site	true	219002065
+902065	Lung	true	219002066
+902069	Brain	true	219002070
+902090	Lung	true	219002091
+902115	Lung	true	219002116
+902115	Lung	true	219002116
+902121	Lung	true	219002122
+902131	Lung	true	219002132
+902131	Bone (excluding Bone Marrow)	true	219002132
+902171	Unknown metastatic site	true	219002172
+902193	Lung	true	219002194
+902200	Liver	true	219002201
+902200	Liver	true	219002201
+902204	Liver	true	219002205
+902206	Liver	true	219002207
+902206	Bone (excluding Bone Marrow)	true	219002207
+902216	Lung	true	219002217
+902235	Bone (excluding Bone Marrow)	true	219002236
+902241	Liver	true	219002242
+902257	Bone (excluding Bone Marrow)	true	219002258
+902257	Bone (excluding Bone Marrow)	true	219002258
+902297	Unknown metastatic site	true	219002298
+902297	Unknown metastatic site	true	219002298
+902304	Bone (excluding Bone Marrow)	true	219002305
+902322	Liver	true	219002323
+902322	Liver	true	219002323
+902337	Lung	true	219002338
+902374	Lung	true	219002375
+902374	Lung	true	219002375
+902382	Other metastatic site	true	219002383
+902403	Lung	true	219002404
+902406	Lung	true	219002407
+902406	Liver	true	219002407
+902420	Unknown metastatic site	true	219002421
+902436	Liver	true	219002437
+902442	Liver	true	219002443
+902447	Bone (excluding Bone Marrow)	true	219002448
+902497	Lung	true	219002498
+902520	Liver	true	219002521
+902522	Lung	true	219002523
+902553	Liver	true	219002554
+902553	Liver	true	219002554
+902554	Other metastatic site	true	219002555
+902579	Other metastatic site	true	219002580
+902579	Other metastatic site	true	219002580
+902584	Liver	true	219002585
+902603	Bone (excluding Bone Marrow)	true	219002604
+902621	Liver	true	219002622
+902621	Liver	true	219002622
+902624	Lung	true	219002625
+902624	Lung	true	219002625
+902640	Liver	true	219002641
+902654	Bone (excluding Bone Marrow)	true	219002655
+902655	Liver	true	219002656
+902662	Lung	true	219002663
+902662	Lung	true	219002663
+902665	Brain	true	219002666
+902674	Lung	true	219002675
+902702	Bone (excluding Bone Marrow)	true	219002703
+902702	Lung	true	219002703
+902736	Liver	true	219002737
+902753	Liver	true	219002754
+902756	Brain	true	219002757
+902761	Liver	true	219002762
+902778	Liver	true	219002779
+902796	Brain	true	219002797
+902796	Liver	true	219002797
+902813	Liver	true	219002814
+902813	Lung	true	219002814
+902816	Lung	true	219002817
+902816	Bone (excluding Bone Marrow)	true	219002817
+902832	Unknown metastatic site	true	219002833
+902832	Unknown metastatic site	true	219002833
+902892	Lung	true	219002893
+902892	Bone (excluding Bone Marrow)	true	219002893
+902903	Lung	true	219002904
+902904	Lung	true	219002905
+902904	Lung	true	219002905
+902909	Liver	true	219002910
+902909	Bone (excluding Bone Marrow)	true	219002910
+902911	Bone (excluding Bone Marrow)	true	219002912
+902911	Bone (excluding Bone Marrow)	true	219002912
+902921	Liver	true	219002922
+902928	Brain	true	219002929
+902932	Lung	true	219002933
+902932	Lung	true	219002933
+902936	Brain	true	219002937
+902953	Liver	true	219002954
+902962	Bone (excluding Bone Marrow)	true	219002963
+902962	Bone (excluding Bone Marrow)	true	219002963
+902967	Liver	true	219002968
+902989	Liver	true	219002990
+902994	Lung	true	219002995
+902998	Lung	true	219002999
+902998	Bone (excluding Bone Marrow)	true	219002999
+903001	Bone (excluding Bone Marrow)	true	219003002
+903018	Lung	true	219003019
+903018	Lung	true	219003019
+903030	Other metastatic site	true	219003031
+903030	Other metastatic site	true	219003031
+903053	Liver	true	219003054
+903067	Liver	true	219003068
+903074	Other metastatic site	true	219003075
+903092	Lung	true	219003093
+903092	Lung	true	219003093
+903111	Lung	true	219003112
+903111	Lung	true	219003112
+903118	Bone (excluding Bone Marrow)	true	219003119
+903140	Unknown metastatic site	true	219003141
+903155	Lung	true	219003156
+903185	Lung	true	219003186
+903185	Lung	true	219003186
+903191	Lung	true	219003192
+903217	Lung	true	219003218
+903217	Liver	true	219003218
+903237	Lung	true	219003238
+903262	Lung	true	219003263
+903264	Bone (excluding Bone Marrow)	true	219003265
+903306	Other metastatic site	true	219003307
+903306	Other metastatic site	true	219003307
+903309	Bone (excluding Bone Marrow)	true	219003310
+903313	Lung	true	219003314
+903317	Bone (excluding Bone Marrow)	true	219003318
+903317	Lung	true	219003318
+903330	Bone (excluding Bone Marrow)	true	219003331
+903350	Liver	true	219003351
+903350	Liver	true	219003351
+903375	Bone (excluding Bone Marrow)	true	219003376
+903375	Lung	true	219003376
+903388	Brain	true	219003389
+903388	Bone (excluding Bone Marrow)	true	219003389
+903422	Lung	true	219003423
+903427	Liver	true	219003428
+903456	Lung	true	219003457
+903456	Lung	true	219003457
+903464	Liver	true	219003465
+903514	Lung	true	219003515
+903533	Other metastatic site	true	219003534
+903561	Bone (excluding Bone Marrow)	true	219003562
+903592	Unknown metastatic site	true	219003593
+903594	Bone (excluding Bone Marrow)	true	219003595
+903598	Other metastatic site	true	219003599
+903598	Other metastatic site	true	219003599
+903605	Liver	true	219003606
+903620	Liver	true	219003621
+903622	Liver	true	219003623
+903622	Liver	true	219003623
+903678	Other metastatic site	true	219003679
+903678	Other metastatic site	true	219003679
+903699	Lung	true	219003700
+903699	Bone (excluding Bone Marrow)	true	219003700
+903700	Lung	true	219003701
+903700	Lung	true	219003701
+903711	Bone (excluding Bone Marrow)	true	219003712
+903711	Lung	true	219003712
+903718	Liver	true	219003719
+903718	Lung	true	219003719
+903764	Bone (excluding Bone Marrow)	true	219003765
+903778	Unknown metastatic site	true	219003779
+903778	Unknown metastatic site	true	219003779
+903782	Lung	true	219003783
+903790	Liver	true	219003791
+903790	Liver	true	219003791
+903791	Lung	true	219003792
+903791	Lung	true	219003792
+903793	Lung	true	219003794
+903793	Lung	true	219003794
+903811	Lung	true	219003812
+903811	Lung	true	219003812
+903829	Lung	true	219003830
+903829	Liver	true	219003830
+903844	Liver	true	219003845
+903871	Liver	true	219003872
+903871	Liver	true	219003872
+903883	Lung	true	219003884
+903887	Lung	true	219003888
+903887	Lung	true	219003888
+903893	Lung	true	219003894
+903893	Lung	true	219003894
+903896	Bone (excluding Bone Marrow)	true	219003897
+903914	Lung	true	219003915
+903914	Liver	true	219003915
+903923	Liver	true	219003924
+903923	Lung	true	219003924
+903946	Lung	true	219003947
+903946	Lung	true	219003947
+903947	Liver	true	219003948
+903947	Lung	true	219003948
+903964	Other metastatic site	true	219003965
+904009	Lung	true	219004010
+904013	Other metastatic site	true	219004014
+904013	Other metastatic site	true	219004014
+904026	Unknown metastatic site	true	219004027
+904026	Unknown metastatic site	true	219004027
+904048	Lung	true	219004049
+904050	Brain	true	219004051
+904053	Liver	true	219004054
+904084	Bone (excluding Bone Marrow)	true	219004085
+904084	Liver	true	219004085
+904092	Bone (excluding Bone Marrow)	true	219004093
+904092	Lung	true	219004093
+904097	Other metastatic site	true	219004098
+904108	Lung	true	219004109
+904118	Bone (excluding Bone Marrow)	true	219004119
+904119	Lung	true	219004120
+904147	Liver	true	219004148
+904147	Lung	true	219004148
+904151	Other metastatic site	true	219004152
+904151	Other metastatic site	true	219004152
+904160	Lung	true	219004161
+904168	Lung	true	219004169
+904196	Brain	true	219004197
+904196	Brain	true	219004197
+904197	Lung	true	219004198
+904207	Liver	true	219004208
+904207	Liver	true	219004208
+904213	Lung	true	219004214
+904232	Lung	true	219004233
+904235	Lung	true	219004236
+904235	Liver	true	219004236
+904252	Bone (excluding Bone Marrow)	true	219004253
+904252	Bone (excluding Bone Marrow)	true	219004253
+904266	Bone (excluding Bone Marrow)	true	219004267
+904269	Brain	true	219004270
+904269	Bone (excluding Bone Marrow)	true	219004270
+904281	Other metastatic site	true	219004282
+904281	Other metastatic site	true	219004282
+904284	Liver	true	219004285
+904284	Liver	true	219004285
+904294	Lung	true	219004295
+904294	Lung	true	219004295
+904313	Brain	true	219004314
+904313	Brain	true	219004314
+904332	Lung	true	219004333
+904369	Lung	true	219004370
+904369	Liver	true	219004370
+904383	Brain	true	219004384
+904404	Liver	true	219004404

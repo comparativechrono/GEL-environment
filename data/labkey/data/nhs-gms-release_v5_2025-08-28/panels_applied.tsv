@@ -1,0 +1,970 @@
+participant_id	referral_id	interpretation_cohort_id	interpretation_request_id	platekey	phenotype	panel_name	panel_version	panel_identifier
+p10000000003	r20000000001	RD000001	12001-1	LP5100001-DNA_A03	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000004	r20000000002	RD000002	12002-2	LP5100001-DNA_A04	Paediatric disorders	Intellectual disability	3.1	285
+p10000000004	r20000000002	RD000002	12002-2	LP5100001-DNA_A04	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000007	r20000000003	RD000003	12003-1	LP5100001-DNA_A07	Intellectual disability	Intellectual disability	3.1	285
+p10000000008	r20000000004	RD000004	12004-1	LP5100001-DNA_A08	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000009	r20000000005	RD000005	12005-1	LP5100001-DNA_A09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000009	r20000000005	RD000005	12005-1	LP5100001-DNA_A09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000010	r20000000006	RD000006	12006-1	LP5100001-DNA_A10	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000011	r20000000007	RD000007	12007-2	LP5100001-DNA_A11	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000012	r20000000008	RD000008	12008-1	LP5100001-DNA_A12	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000015	r20000000009	RD000009	12009-1	LP5100001-DNA_B03	Paediatric disorders	Intellectual disability	3.1	285
+p10000000015	r20000000009	RD000009	12009-1	LP5100001-DNA_B03	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000016	r20000000010	RD000010	12010-1	LP5100001-DNA_B04	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000019	r20000000011	RD000011	12011-1	LP5100001-DNA_B07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000020	r20000000012	RD000012	12012-2	LP5100001-DNA_B08	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000023	r20000000013	RD000013	12013-1	LP5100001-DNA_B11	Intellectual disability	Intellectual disability	3.1	285
+p10000000024	r20000000014	RD000014	12014-2	LP5100001-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000027	r20000000015	RD000015	12015-2	LP5100001-DNA_C03	Paediatric disorders	Intellectual disability	3.1	285
+p10000000027	r20000000015	RD000015	12015-2	LP5100001-DNA_C03	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000028	r20000000016	RD000016	12016-1	LP5100001-DNA_C04	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000029	r20000000017	RD000017	12017-1	LP5100001-DNA_C05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000030	r20000000018	RD000018	12018-2	LP5100001-DNA_C06	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000031	r20000000019	RD000019	12019-2	LP5100001-DNA_C07	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000034	r20000000020	RD000020	12020-1	LP5100001-DNA_C10	Intellectual disability	Intellectual disability	3.1	285
+p10000000035	r20000000021	RD000021	12021-1	LP5100001-DNA_C11	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000036	r20000000022	RD000022	12022-1	LP5100001-DNA_C12	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000039	r20000000023	RD000023	12023-2	LP5100001-DNA_D03	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000042	r20000000024	RD000024	12024-2	LP5100001-DNA_D06	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000045	r20000000025	RD000025	12025-1	LP5100001-DNA_D09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000045	r20000000025	RD000025	12025-1	LP5100001-DNA_D09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000048	r20000000026	RD000026	12026-1	LP5100001-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000000051	r20000000027	RD000027	12027-1	LP5100001-DNA_E03	Retinal disorders	Retinal disorders	3.2	307
+p10000000054	r20000000028	RD000028	12028-1	LP5100001-DNA_E06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000055	r20000000029	RD000029	12029-1	LP5100001-DNA_E07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000056	r20000000030	RD000030	12030-2	LP5100001-DNA_E08	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000057	r20000000031	RD000031	12031-1	LP5100001-DNA_E09	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000058	r20000000032	RD000032	12032-1	LP5100001-DNA_E10	Intellectual disability	Intellectual disability	3.1	285
+p10000000059	r20000000033	RD000033	12033-2	LP5100001-DNA_E11	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000060	r20000000034	RD000034	12034-1	LP5100001-DNA_E12	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000061	r20000000035	RD000035	12035-1	LP5100001-DNA_F01	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000062	r20000000036	RD000036	12036-1	LP5100001-DNA_F02	Intellectual disability	Intellectual disability	3.1	285
+p10000000065	r20000000037	RD000037	12037-1	LP5100001-DNA_F05	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000000066	r20000000038	RD000038	12038-1	LP5100001-DNA_F06	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000069	r20000000039	RD000039	12039-1	LP5100001-DNA_F09	Intellectual disability	Intellectual disability	3.1	285
+p10000000070	r20000000040	RD000040	12040-1	LP5100001-DNA_F10	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000073	r20000000041	RD000041	12041-1	LP5100001-DNA_G01	Paediatric disorders	Intellectual disability	3.1	285
+p10000000073	r20000000041	RD000041	12041-1	LP5100001-DNA_G01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000074	r20000000042	RD000042	12042-1	LP5100001-DNA_G02	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000075	r20000000043	RD000043	12043-1	LP5100001-DNA_G03	Intellectual disability	Intellectual disability	3.1	285
+p10000000076	r20000000044	RD000044	12044-1	LP5100001-DNA_G04	Intellectual disability	Intellectual disability	3.1	285
+p10000000079	r20000000045	RD000045	12045-2	LP5100001-DNA_G07	Intellectual disability	Intellectual disability	3.1	285
+p10000000080	r20000000046	RD000046	12046-1	LP5100001-DNA_G08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000083	r20000000047	RD000047	12047-1	LP5100001-DNA_G11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000084	r20000000048	RD000048	12048-1	LP5100001-DNA_G12	Intellectual disability	Intellectual disability	3.1	285
+p10000000087	r20000000049	RD000049	12049-1	LP5100001-DNA_H03	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000090	r20000000050	RD000050	12050-1	LP5100001-DNA_H06	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000093	r20000000051	RD000051	12051-1	LP5100001-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000000094	r20000000052	RD000052	12052-2	LP5100001-DNA_H10	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000097	r20000000053	RD000053	12053-1	LP5100002-DNA_A01	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000098	r20000000054	RD000054	12054-1	LP5100002-DNA_A02	Paediatric disorders	Intellectual disability	3.1	285
+p10000000098	r20000000054	RD000054	12054-1	LP5100002-DNA_A02	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000099	r20000000055	RD000055	12055-1	LP5100002-DNA_A03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000100	r20000000056	RD000056	12056-2	LP5100002-DNA_A04	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000101	r20000000057	RD000057	12057-1	LP5100002-DNA_A05	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000102	r20000000058	RD000058	12058-2	LP5100002-DNA_A06	Paediatric disorders	Intellectual disability	3.1	285
+p10000000102	r20000000058	RD000058	12058-2	LP5100002-DNA_A06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000105	r20000000059	RD000059	12059-1	LP5100002-DNA_A09	Intellectual disability	Intellectual disability	3.1	285
+p10000000106	r20000000060	RD000060	12060-1	LP5100002-DNA_A10	Intellectual disability	Intellectual disability	3.1	285
+p10000000107	r20000000061	RD000061	12061-1	LP5100002-DNA_A11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000110	r20000000062	RD000062	12062-1	LP5100002-DNA_B02	Intellectual disability	Intellectual disability	3.1	285
+p10000000111	r20000000063	RD000063	12063-1	LP5100002-DNA_B03	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000112	r20000000064	RD000064	12064-1	LP5100002-DNA_B04	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000113	r20000000065	RD000065	12065-2	LP5100002-DNA_B05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000114	r20000000066	RD000066	12066-2	LP5100002-DNA_B06	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000115	r20000000067	RD000067	12067-2	LP5100002-DNA_B07	Retinal disorders	Retinal disorders	3.2	307
+p10000000116	r20000000068	RD000068	12068-1	LP5100002-DNA_B08	Paediatric disorders	Intellectual disability	3.1	285
+p10000000116	r20000000068	RD000068	12068-1	LP5100002-DNA_B08	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000117	r20000000069	RD000069	12069-1	LP5100002-DNA_B09	Retinal disorders	Retinal disorders	3.2	307
+p10000000118	r20000000070	RD000070	12070-1	LP5100002-DNA_B10	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000119	r20000000071	RD000071	12071-1	LP5100002-DNA_B11	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000120	r20000000072	RD000072	12072-2	LP5100002-DNA_B12	Paediatric disorders	Intellectual disability	3.1	285
+p10000000120	r20000000072	RD000072	12072-2	LP5100002-DNA_B12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000121	r20000000073	RD000073	12073-1	LP5100002-DNA_C01	Retinal disorders	Retinal disorders	3.2	307
+p10000000124	r20000000074	RD000074	12074-1	LP5100002-DNA_C04	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000127	r20000000075	RD000075	12075-2	LP5100002-DNA_C07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000128	r20000000076	RD000076	12076-1	LP5100002-DNA_C08	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000129	r20000000077	RD000077	12077-1	LP5100002-DNA_C09	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000132	r20000000078	RD000078	12078-1	LP5100002-DNA_C12	Paediatric disorders	Intellectual disability	3.1	285
+p10000000132	r20000000078	RD000078	12078-1	LP5100002-DNA_C12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000135	r20000000079	RD000079	12079-1	LP5100002-DNA_D03	Intellectual disability	Intellectual disability	3.1	285
+p10000000136	r20000000080	RD000080	12080-1	LP5100002-DNA_D04	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000000139	r20000000081	RD000081	12081-1	LP5100002-DNA_D07	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000140	r20000000082	RD000082	12082-1	LP5100002-DNA_D08	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000141	r20000000083	RD000083	12083-1	LP5100002-DNA_D09	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000142	r20000000084	RD000084	12084-2	LP5100002-DNA_D10	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000143	r20000000085	RD000085	12085-1	LP5100002-DNA_D11	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000146	r20000000086	RD000086	12086-2	LP5100002-DNA_E02	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000149	r20000000087	RD000087	12087-1	LP5100002-DNA_E05	Intellectual disability	Intellectual disability	3.1	285
+p10000000152	r20000000088	RD000088	12088-1	LP5100002-DNA_E08	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000153	r20000000089	RD000089	12089-1	LP5100002-DNA_E09	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000154	r20000000090	RD000090	12090-1	LP5100002-DNA_E10	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000157	r20000000091	RD000091	12091-1	LP5100002-DNA_F01	Intellectual disability	Intellectual disability	3.1	285
+p10000000158	r20000000092	RD000092	12092-1	LP5100002-DNA_F02	Intellectual disability	Intellectual disability	3.1	285
+p10000000161	r20000000093	RD000093	12093-2	LP5100002-DNA_F05	Retinal disorders	Retinal disorders	3.2	307
+p10000000162	r20000000094	RD000094	12094-1	LP5100002-DNA_F06	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000163	r20000000095	RD000095	12095-2	LP5100002-DNA_F07	Retinal disorders	Retinal disorders	3.2	307
+p10000000164	r20000000096	RD000096	12096-1	LP5100002-DNA_F08	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000165	r20000000097	RD000097	12097-2	LP5100002-DNA_F09	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000166	r20000000098	RD000098	12098-2	LP5100002-DNA_F10	Paediatric disorders	Intellectual disability	3.1	285
+p10000000166	r20000000098	RD000098	12098-2	LP5100002-DNA_F10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000167	r20000000099	RD000099	12099-2	LP5100002-DNA_F11	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000168	r20000000100	RD000100	12100-1	LP5100002-DNA_F12	Intellectual disability	Intellectual disability	3.1	285
+p10000000169	r20000000101	RD000101	12101-1	LP5100002-DNA_G01	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000170	r20000000102	RD000102	12102-1	LP5100002-DNA_G02	Retinal disorders	Retinal disorders	3.2	307
+p10000000173	r20000000103	RD000103	12103-1	LP5100002-DNA_G05	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000174	r20000000104	RD000104	12104-1	LP5100002-DNA_G06	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000175	r20000000105	RD000105	12105-1	LP5100002-DNA_G07	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000178	r20000000106	RD000106	12106-1	LP5100002-DNA_G10	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000181	r20000000107	RD000107	12107-1	LP5100002-DNA_H01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000182	r20000000108	RD000108	12108-1	LP5100002-DNA_H02	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000185	r20000000109	RD000109	12109-1	LP5100002-DNA_H05	Intellectual disability	Intellectual disability	3.1	285
+p10000000186	r20000000110	RD000110	12110-1	LP5100002-DNA_H06	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000187	r20000000111	RD000111	12111-1	LP5100002-DNA_H07	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000187	r20000000111	RD000111	12111-1	LP5100002-DNA_H07	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000188	r20000000112	RD000112	12112-1	LP5100002-DNA_H08	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000189	r20000000113	RD000113	12113-1	LP5100002-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000000192	r20000000114	RD000114	12114-2	LP5100002-DNA_H12	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000193	r20000000115	RD000115	12115-2	LP5100003-DNA_A01	Intellectual disability	Intellectual disability	3.1	285
+p10000000194	r20000000116	RD000116	12116-1	LP5100003-DNA_A02	Intellectual disability	Intellectual disability	3.1	285
+p10000000195	r20000000117	RD000117	12117-2	LP5100003-DNA_A03	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000198	r20000000118	RD000118	12118-1	LP5100003-DNA_A06	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000000201	r20000000119	RD000119	12119-1	LP5100003-DNA_A09	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000202	r20000000120	RD000120	12120-1	LP5100003-DNA_A10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000203	r20000000121	RD000121	12121-1	LP5100003-DNA_A11	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000204	r20000000122	RD000122	12122-2	LP5100003-DNA_A12	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000205	r20000000123	RD000123	12123-1	LP5100003-DNA_B01	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000206	r20000000124	RD000124	12124-1	LP5100003-DNA_B02	Intellectual disability	Intellectual disability	3.1	285
+p10000000207	r20000000125	RD000125	12125-1	LP5100003-DNA_B03	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000208	r20000000126	RD000126	12126-1	LP5100003-DNA_B04	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000209	r20000000127	RD000127	12127-2	LP5100003-DNA_B05	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000212	r20000000128	RD000128	12128-1	LP5100003-DNA_B08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000213	r20000000129	RD000129	12129-1	LP5100003-DNA_B09	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000216	r20000000130	RD000130	12130-2	LP5100003-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000217	r20000000131	RD000131	12131-1	LP5100003-DNA_C01	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000218	r20000000132	RD000132	12132-1	LP5100003-DNA_C02	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000219	r20000000133	RD000133	12133-1	LP5100003-DNA_C03	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000220	r20000000134	RD000134	12134-1	LP5100003-DNA_C04	Intellectual disability	Intellectual disability	3.1	285
+p10000000221	r20000000135	RD000135	12135-1	LP5100003-DNA_C05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000222	r20000000136	RD000136	12136-1	LP5100003-DNA_C06	Intellectual disability	Intellectual disability	3.1	285
+p10000000225	r20000000137	RD000137	12137-2	LP5100003-DNA_C09	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000228	r20000000138	RD000138	12138-1	LP5100003-DNA_C12	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000229	r20000000139	RD000139	12139-1	LP5100003-DNA_D01	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000230	r20000000140	RD000140	12140-2	LP5100003-DNA_D02	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000231	r20000000141	RD000141	12141-1	LP5100003-DNA_D03	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000232	r20000000142	RD000142	12142-1	LP5100003-DNA_D04	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000235	r20000000143	RD000143	12143-1	LP5100003-DNA_D07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000236	r20000000144	RD000144	12144-1	LP5100003-DNA_D08	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000239	r20000000145	RD000145	12145-1	LP5100003-DNA_D11	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000240	r20000000146	RD000146	12146-1	LP5100003-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000000241	r20000000147	RD000147	12147-1	LP5100003-DNA_E01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000244	r20000000148	RD000148	12148-1	LP5100003-DNA_E04	Intellectual disability	Intellectual disability	3.1	285
+p10000000247	r20000000149	RD000149	12149-2	LP5100003-DNA_E07	Intellectual disability	Intellectual disability	3.1	285
+p10000000248	r20000000150	RD000150	12150-1	LP5100003-DNA_E08	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000248	r20000000150	RD000150	12150-1	LP5100003-DNA_E08	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000249	r20000000151	RD000151	12151-1	LP5100003-DNA_E09	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000250	r20000000152	RD000152	12152-1	LP5100003-DNA_E10	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000253	r20000000153	RD000153	12153-2	LP5100003-DNA_F01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000254	r20000000154	RD000154	12154-1	LP5100003-DNA_F02	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000255	r20000000155	RD000155	12155-1	LP5100003-DNA_F03	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000258	r20000000156	RD000156	12156-1	LP5100003-DNA_F06	Paediatric disorders	Intellectual disability	3.1	285
+p10000000258	r20000000156	RD000156	12156-1	LP5100003-DNA_F06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000261	r20000000157	RD000157	12157-1	LP5100003-DNA_F09	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000262	r20000000158	RD000158	12158-1	LP5100003-DNA_F10	Intellectual disability	Intellectual disability	3.1	285
+p10000000265	r20000000159	RD000159	12159-1	LP5100003-DNA_G01	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000268	r20000000160	RD000160	12160-1	LP5100003-DNA_G04	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000269	r20000000161	RD000161	12161-1	LP5100003-DNA_G05	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000272	r20000000162	RD000162	12162-1	LP5100003-DNA_G08	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000273	r20000000163	RD000163	12163-2	LP5100003-DNA_G09	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000276	r20000000164	RD000164	12164-2	LP5100003-DNA_G12	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000277	r20000000165	RD000165	12165-1	LP5100003-DNA_H01	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000278	r20000000166	RD000166	12166-1	LP5100003-DNA_H02	Paediatric disorders	Intellectual disability	3.1	285
+p10000000278	r20000000166	RD000166	12166-1	LP5100003-DNA_H02	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000279	r20000000167	RD000167	12167-1	LP5100003-DNA_H03	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000280	r20000000168	RD000168	12168-1	LP5100003-DNA_H04	Paediatric disorders	Intellectual disability	3.1	285
+p10000000280	r20000000168	RD000168	12168-1	LP5100003-DNA_H04	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000283	r20000000169	RD000169	12169-1	LP5100003-DNA_H07	Intellectual disability	Intellectual disability	3.1	285
+p10000000286	r20000000170	RD000170	12170-2	LP5100003-DNA_H10	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000287	r20000000171	RD000171	12171-1	LP5100003-DNA_H11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000288	r20000000172	RD000172	12172-2	LP5100003-DNA_H12	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000289	r20000000173	RD000173	12173-1	LP5100004-DNA_A01	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000290	r20000000174	RD000174	12174-1	LP5100004-DNA_A02	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000291	r20000000175	RD000175	12175-1	LP5100004-DNA_A03	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000292	r20000000176	RD000176	12176-1	LP5100004-DNA_A04	Intellectual disability	Intellectual disability	3.1	285
+p10000000295	r20000000177	RD000177	12177-1	LP5100004-DNA_A07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000295	r20000000177	RD000177	12177-1	LP5100004-DNA_A07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000296	r20000000178	RD000178	12178-1	LP5100004-DNA_A08	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000297	r20000000179	RD000179	12179-1	LP5100004-DNA_A09	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000298	r20000000180	RD000180	12180-1	LP5100004-DNA_A10	Intellectual disability	Intellectual disability	3.1	285
+p10000000299	r20000000181	RD000181	12181-1	LP5100004-DNA_A11	Intellectual disability	Intellectual disability	3.1	285
+p10000000300	r20000000182	RD000182	12182-1	LP5100004-DNA_A12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000303	r20000000183	RD000183	12183-1	LP5100004-DNA_B03	Intellectual disability	Intellectual disability	3.1	285
+p10000000304	r20000000184	RD000184	12184-1	LP5100004-DNA_B04	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000307	r20000000185	RD000185	12185-1	LP5100004-DNA_B07	Intellectual disability	Intellectual disability	3.1	285
+p10000000308	r20000000186	RD000186	12186-1	LP5100004-DNA_B08	Paediatric disorders	Intellectual disability	3.1	285
+p10000000308	r20000000186	RD000186	12186-1	LP5100004-DNA_B08	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000309	r20000000187	RD000187	12187-2	LP5100004-DNA_B09	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000310	r20000000188	RD000188	12188-1	LP5100004-DNA_B10	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000311	r20000000189	RD000189	12189-1	LP5100004-DNA_B11	Retinal disorders	Retinal disorders	3.2	307
+p10000000312	r20000000190	RD000190	12190-1	LP5100004-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000315	r20000000191	RD000191	12191-1	LP5100004-DNA_C03	Intellectual disability	Intellectual disability	3.1	285
+p10000000316	r20000000192	RD000192	12192-1	LP5100004-DNA_C04	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000319	r20000000193	RD000193	12193-1	LP5100004-DNA_C07	Intellectual disability	Intellectual disability	3.1	285
+p10000000320	r20000000194	RD000194	12194-1	LP5100004-DNA_C08	Retinal disorders	Retinal disorders	3.2	307
+p10000000321	r20000000195	RD000195	12195-2	LP5100004-DNA_C09	Retinal disorders	Retinal disorders	3.2	307
+p10000000322	r20000000196	RD000196	12196-2	LP5100004-DNA_C10	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000325	r20000000197	RD000197	12197-2	LP5100004-DNA_D01	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000328	r20000000198	RD000198	12198-1	LP5100004-DNA_D04	Intellectual disability	Intellectual disability	3.1	285
+p10000000329	r20000000199	RD000199	12199-1	LP5100004-DNA_D05	Retinal disorders	Retinal disorders	3.2	307
+p10000000332	r20000000200	RD000200	12200-1	LP5100004-DNA_D08	Paediatric disorders	Intellectual disability	3.1	285
+p10000000332	r20000000200	RD000200	12200-1	LP5100004-DNA_D08	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000333	r20000000201	RD000201	12201-1	LP5100004-DNA_D09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000334	r20000000202	RD000202	12202-2	LP5100004-DNA_D10	Intellectual disability	Intellectual disability	3.1	285
+p10000000335	r20000000203	RD000203	12203-2	LP5100004-DNA_D11	Retinal disorders	Retinal disorders	3.2	307
+p10000000338	r20000000204	RD000204	12204-1	LP5100004-DNA_E02	Intellectual disability	Intellectual disability	3.1	285
+p10000000339	r20000000205	RD000205	12205-2	LP5100004-DNA_E03	Intellectual disability	Intellectual disability	3.1	285
+p10000000342	r20000000206	RD000206	12206-2	LP5100004-DNA_E06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000345	r20000000207	RD000207	12207-1	LP5100004-DNA_E09	Intellectual disability	Intellectual disability	3.1	285
+p10000000346	r20000000208	RD000208	12208-1	LP5100004-DNA_E10	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000347	r20000000209	RD000209	12209-1	LP5100004-DNA_E11	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000348	r20000000210	RD000210	12210-1	LP5100004-DNA_E12	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000349	r20000000211	RD000211	12211-1	LP5100004-DNA_F01	Intellectual disability	Intellectual disability	3.1	285
+p10000000350	r20000000212	RD000212	12212-1	LP5100004-DNA_F02	Retinal disorders	Retinal disorders	3.2	307
+p10000000351	r20000000213	RD000213	12213-1	LP5100004-DNA_F03	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000352	r20000000214	RD000214	12214-2	LP5100004-DNA_F04	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000353	r20000000215	RD000215	12215-1	LP5100004-DNA_F05	Intellectual disability	Intellectual disability	3.1	285
+p10000000354	r20000000216	RD000216	12216-1	LP5100004-DNA_F06	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000355	r20000000217	RD000217	12217-2	LP5100004-DNA_F07	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000356	r20000000218	RD000218	12218-1	LP5100004-DNA_F08	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000357	r20000000219	RD000219	12219-1	LP5100004-DNA_F09	Retinal disorders	Retinal disorders	3.2	307
+p10000000358	r20000000220	RD000220	12220-2	LP5100004-DNA_F10	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000359	r20000000221	RD000221	12221-1	LP5100004-DNA_F11	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000360	r20000000222	RD000222	12222-1	LP5100004-DNA_F12	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000363	r20000000223	RD000223	12223-2	LP5100004-DNA_G03	Intellectual disability	Intellectual disability	3.1	285
+p10000000364	r20000000224	RD000224	12224-1	LP5100004-DNA_G04	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000365	r20000000225	RD000225	12225-2	LP5100004-DNA_G05	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000365	r20000000225	RD000225	12225-2	LP5100004-DNA_G05	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000366	r20000000226	RD000226	12226-1	LP5100004-DNA_G06	Intellectual disability	Intellectual disability	3.1	285
+p10000000367	r20000000227	RD000227	12227-2	LP5100004-DNA_G07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000367	r20000000227	RD000227	12227-2	LP5100004-DNA_G07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000368	r20000000228	RD000228	12228-1	LP5100004-DNA_G08	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000369	r20000000229	RD000229	12229-1	LP5100004-DNA_G09	Intellectual disability	Intellectual disability	3.1	285
+p10000000370	r20000000230	RD000230	12230-1	LP5100004-DNA_G10	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000371	r20000000231	RD000231	12231-1	LP5100004-DNA_G11	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000374	r20000000232	RD000232	12232-2	LP5100004-DNA_H02	Intellectual disability	Intellectual disability	3.1	285
+p10000000375	r20000000233	RD000233	12233-2	LP5100004-DNA_H03	Intellectual disability	Intellectual disability	3.1	285
+p10000000376	r20000000234	RD000234	12234-1	LP5100004-DNA_H04	Intellectual disability	Intellectual disability	3.1	285
+p10000000377	r20000000235	RD000235	12235-2	LP5100004-DNA_H05	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000378	r20000000236	RD000236	12236-2	LP5100004-DNA_H06	Intellectual disability	Intellectual disability	3.1	285
+p10000000379	r20000000237	RD000237	12237-1	LP5100004-DNA_H07	Intellectual disability	Intellectual disability	3.1	285
+p10000000380	r20000000238	RD000238	12238-1	LP5100004-DNA_H08	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000381	r20000000239	RD000239	12239-1	LP5100004-DNA_H09	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000382	r20000000240	RD000240	12240-1	LP5100004-DNA_H10	Paediatric disorders	Intellectual disability	3.1	285
+p10000000382	r20000000240	RD000240	12240-1	LP5100004-DNA_H10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000383	r20000000241	RD000241	12241-1	LP5100004-DNA_H11	Paediatric disorders	Intellectual disability	3.1	285
+p10000000383	r20000000241	RD000241	12241-1	LP5100004-DNA_H11	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000386	r20000000242	RD000242	12242-1	LP5100005-DNA_A02	Intellectual disability	Intellectual disability	3.1	285
+p10000000389	r20000000243	RD000243	12243-1	LP5100005-DNA_A05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000390	r20000000244	RD000244	12244-1	LP5100005-DNA_A06	Intellectual disability	Intellectual disability	3.1	285
+p10000000391	r20000000245	RD000245	12245-2	LP5100005-DNA_A07	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000392	r20000000246	RD000246	12246-1	LP5100005-DNA_A08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000393	r20000000247	RD000247	12247-1	LP5100005-DNA_A09	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000394	r20000000248	RD000248	12248-2	LP5100005-DNA_A10	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000397	r20000000249	RD000249	12249-1	LP5100005-DNA_B01	Intellectual disability	Intellectual disability	3.1	285
+p10000000400	r20000000250	RD000250	12250-1	LP5100005-DNA_B04	Intellectual disability	Intellectual disability	3.1	285
+p10000000401	r20000000251	RD000251	12251-1	LP5100005-DNA_B05	Intellectual disability	Intellectual disability	3.1	285
+p10000000402	r20000000252	RD000252	12252-1	LP5100005-DNA_B06	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000403	r20000000253	RD000253	12253-1	LP5100005-DNA_B07	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000404	r20000000254	RD000254	12254-1	LP5100005-DNA_B08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000405	r20000000255	RD000255	12255-2	LP5100005-DNA_B09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000408	r20000000256	RD000256	12256-1	LP5100005-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000411	r20000000257	RD000257	12257-1	LP5100005-DNA_C03	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000412	r20000000258	RD000258	12258-1	LP5100005-DNA_C04	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000413	r20000000259	RD000259	12259-1	LP5100005-DNA_C05	Intellectual disability	Intellectual disability	3.1	285
+p10000000414	r20000000260	RD000260	12260-2	LP5100005-DNA_C06	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000415	r20000000261	RD000261	12261-2	LP5100005-DNA_C07	Intellectual disability	Intellectual disability	3.1	285
+p10000000418	r20000000262	RD000262	12262-1	LP5100005-DNA_C10	Intellectual disability	Intellectual disability	3.1	285
+p10000000419	r20000000263	RD000263	12263-1	LP5100005-DNA_C11	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000420	r20000000264	RD000264	12264-1	LP5100005-DNA_C12	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000423	r20000000265	RD000265	12265-1	LP5100005-DNA_D03	Intellectual disability	Intellectual disability	3.1	285
+p10000000424	r20000000266	RD000266	12266-1	LP5100005-DNA_D04	Intellectual disability	Intellectual disability	3.1	285
+p10000000425	r20000000267	RD000267	12267-1	LP5100005-DNA_D05	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000426	r20000000268	RD000268	12268-1	LP5100005-DNA_D06	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000000427	r20000000269	RD000269	12269-1	LP5100005-DNA_D07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000427	r20000000269	RD000269	12269-1	LP5100005-DNA_D07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000428	r20000000270	RD000270	12270-1	LP5100005-DNA_D08	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000429	r20000000271	RD000271	12271-1	LP5100005-DNA_D09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000430	r20000000272	RD000272	12272-1	LP5100005-DNA_D10	Intellectual disability	Intellectual disability	3.1	285
+p10000000431	r20000000273	RD000273	12273-1	LP5100005-DNA_D11	Intellectual disability	Intellectual disability	3.1	285
+p10000000432	r20000000274	RD000274	12274-1	LP5100005-DNA_D12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000433	r20000000275	RD000275	12275-1	LP5100005-DNA_E01	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000434	r20000000276	RD000276	12276-2	LP5100005-DNA_E02	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000437	r20000000277	RD000277	12277-1	LP5100005-DNA_E05	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000440	r20000000278	RD000278	12278-1	LP5100005-DNA_E08	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000441	r20000000279	RD000279	12279-1	LP5100005-DNA_E09	Intellectual disability	Intellectual disability	3.1	285
+p10000000444	r20000000280	RD000280	12280-1	LP5100005-DNA_E12	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000445	r20000000281	RD000281	12281-1	LP5100005-DNA_F01	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000448	r20000000282	RD000282	12282-2	LP5100005-DNA_F04	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000451	r20000000283	RD000283	12283-2	LP5100005-DNA_F07	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000452	r20000000284	RD000284	12284-1	LP5100005-DNA_F08	Retinal disorders	Retinal disorders	3.2	307
+p10000000453	r20000000285	RD000285	12285-2	LP5100005-DNA_F09	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000456	r20000000286	RD000286	12286-1	LP5100005-DNA_F12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000457	r20000000287	RD000287	12287-1	LP5100005-DNA_G01	Retinal disorders	Retinal disorders	3.2	307
+p10000000458	r20000000288	RD000288	12288-1	LP5100005-DNA_G02	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000459	r20000000289	RD000289	12289-1	LP5100005-DNA_G03	Retinal disorders	Retinal disorders	3.2	307
+p10000000460	r20000000290	RD000290	12290-1	LP5100005-DNA_G04	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000463	r20000000291	RD000291	12291-2	LP5100005-DNA_G07	Intellectual disability	Intellectual disability	3.1	285
+p10000000464	r20000000292	RD000292	12292-2	LP5100005-DNA_G08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000465	r20000000293	RD000293	12293-1	LP5100005-DNA_G09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000466	r20000000294	RD000294	12294-1	LP5100005-DNA_G10	Retinal disorders	Retinal disorders	3.2	307
+p10000000469	r20000000295	RD000295	12295-1	LP5100005-DNA_H01	Paediatric disorders	Intellectual disability	3.1	285
+p10000000469	r20000000295	RD000295	12295-1	LP5100005-DNA_H01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000472	r20000000296	RD000296	12296-1	LP5100005-DNA_H04	Intellectual disability	Intellectual disability	3.1	285
+p10000000473	r20000000297	RD000297	12297-1	LP5100005-DNA_H05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000474	r20000000298	RD000298	12298-1	LP5100005-DNA_H06	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000475	r20000000299	RD000299	12299-1	LP5100005-DNA_H07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000478	r20000000300	RD000300	12300-1	LP5100005-DNA_H10	Intellectual disability	Intellectual disability	3.1	285
+p10000000479	r20000000301	RD000301	12301-1	LP5100005-DNA_H11	Paediatric disorders	Intellectual disability	3.1	285
+p10000000479	r20000000301	RD000301	12301-1	LP5100005-DNA_H11	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000480	r20000000302	RD000302	12302-1	LP5100005-DNA_H12	Paediatric disorders	Intellectual disability	3.1	285
+p10000000480	r20000000302	RD000302	12302-1	LP5100005-DNA_H12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000481	r20000000303	RD000303	12303-1	LP5100006-DNA_A01	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000482	r20000000304	RD000304	12304-1	LP5100006-DNA_A02	Intellectual disability	Intellectual disability	3.1	285
+p10000000483	r20000000305	RD000305	12305-1	LP5100006-DNA_A03	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000486	r20000000306	RD000306	12306-1	LP5100006-DNA_A06	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000489	r20000000307	RD000307	12307-1	LP5100006-DNA_A09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000489	r20000000307	RD000307	12307-1	LP5100006-DNA_A09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000490	r20000000308	RD000308	12308-1	LP5100006-DNA_A10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000491	r20000000309	RD000309	12309-1	LP5100006-DNA_A11	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000492	r20000000310	RD000310	12310-1	LP5100006-DNA_A12	Intellectual disability	Intellectual disability	3.1	285
+p10000000495	r20000000311	RD000311	12311-1	LP5100006-DNA_B03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000496	r20000000312	RD000312	12312-1	LP5100006-DNA_B04	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000499	r20000000313	RD000313	12313-1	LP5100006-DNA_B07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000500	r20000000314	RD000314	12314-1	LP5100006-DNA_B08	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000501	r20000000315	RD000315	12315-1	LP5100006-DNA_B09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000502	r20000000316	RD000316	12316-1	LP5100006-DNA_B10	Intellectual disability	Intellectual disability	3.1	285
+p10000000503	r20000000317	RD000317	12317-1	LP5100006-DNA_B11	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000504	r20000000318	RD000318	12318-1	LP5100006-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000507	r20000000319	RD000319	12319-1	LP5100006-DNA_C03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000508	r20000000320	RD000320	12320-1	LP5100006-DNA_C04	Intellectual disability	Intellectual disability	3.1	285
+p10000000511	r20000000321	RD000321	12321-1	LP5100006-DNA_C07	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000514	r20000000322	RD000322	12322-2	LP5100006-DNA_C10	Paediatric disorders	Intellectual disability	3.1	285
+p10000000514	r20000000322	RD000322	12322-2	LP5100006-DNA_C10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000515	r20000000323	RD000323	12323-1	LP5100006-DNA_C11	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000516	r20000000324	RD000324	12324-1	LP5100006-DNA_C12	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000517	r20000000325	RD000325	12325-1	LP5100006-DNA_D01	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000518	r20000000326	RD000326	12326-1	LP5100006-DNA_D02	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000519	r20000000327	RD000327	12327-1	LP5100006-DNA_D03	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000520	r20000000328	RD000328	12328-1	LP5100006-DNA_D04	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000521	r20000000329	RD000329	12329-1	LP5100006-DNA_D05	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000522	r20000000330	RD000330	12330-2	LP5100006-DNA_D06	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000523	r20000000331	RD000331	12331-1	LP5100006-DNA_D07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000523	r20000000331	RD000331	12331-1	LP5100006-DNA_D07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000526	r20000000332	RD000332	12332-1	LP5100006-DNA_D10	Intellectual disability	Intellectual disability	3.1	285
+p10000000527	r20000000333	RD000333	12333-1	LP5100006-DNA_D11	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000530	r20000000334	RD000334	12334-1	LP5100006-DNA_E02	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000533	r20000000335	RD000335	12335-1	LP5100006-DNA_E05	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000536	r20000000336	RD000336	12336-1	LP5100006-DNA_E08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000537	r20000000337	RD000337	12337-1	LP5100006-DNA_E09	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000540	r20000000338	RD000338	12338-1	LP5100006-DNA_E12	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000541	r20000000339	RD000339	12339-2	LP5100006-DNA_F01	Intellectual disability	Intellectual disability	3.1	285
+p10000000542	r20000000340	RD000340	12340-1	LP5100006-DNA_F02	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000543	r20000000341	RD000341	12341-2	LP5100006-DNA_F03	Intellectual disability	Intellectual disability	3.1	285
+p10000000546	r20000000342	RD000342	12342-1	LP5100006-DNA_F06	Retinal disorders	Retinal disorders	3.2	307
+p10000000547	r20000000343	RD000343	12343-1	LP5100006-DNA_F07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000548	r20000000344	RD000344	12344-1	LP5100006-DNA_F08	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000551	r20000000345	RD000345	12345-1	LP5100006-DNA_F11	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000552	r20000000346	RD000346	12346-2	LP5100006-DNA_F12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000553	r20000000347	RD000347	12347-1	LP5100006-DNA_G01	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000554	r20000000348	RD000348	12348-1	LP5100006-DNA_G02	Retinal disorders	Retinal disorders	3.2	307
+p10000000557	r20000000349	RD000349	12349-1	LP5100006-DNA_G05	Intellectual disability	Intellectual disability	3.1	285
+p10000000558	r20000000350	RD000350	12350-1	LP5100006-DNA_G06	Intellectual disability	Intellectual disability	3.1	285
+p10000000559	r20000000351	RD000351	12351-1	LP5100006-DNA_G07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000560	r20000000352	RD000352	12352-1	LP5100006-DNA_G08	Retinal disorders	Retinal disorders	3.2	307
+p10000000561	r20000000353	RD000353	12353-1	LP5100006-DNA_G09	Retinal disorders	Retinal disorders	3.2	307
+p10000000562	r20000000354	RD000354	12354-2	LP5100006-DNA_G10	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000563	r20000000355	RD000355	12355-1	LP5100006-DNA_G11	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000566	r20000000356	RD000356	12356-1	LP5100006-DNA_H02	Paediatric disorders	Intellectual disability	3.1	285
+p10000000566	r20000000356	RD000356	12356-1	LP5100006-DNA_H02	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000569	r20000000357	RD000357	12357-1	LP5100006-DNA_H05	Intellectual disability	Intellectual disability	3.1	285
+p10000000570	r20000000358	RD000358	12358-1	LP5100006-DNA_H06	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000573	r20000000359	RD000359	12359-1	LP5100006-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000000574	r20000000360	RD000360	12360-1	LP5100006-DNA_H10	Intellectual disability	Intellectual disability	3.1	285
+p10000000577	r20000000361	RD000361	12361-1	LP5100007-DNA_A01	Intellectual disability	Intellectual disability	3.1	285
+p10000000578	r20000000362	RD000362	12362-1	LP5100007-DNA_A02	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000579	r20000000363	RD000363	12363-1	LP5100007-DNA_A03	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000580	r20000000364	RD000364	12364-1	LP5100007-DNA_A04	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000583	r20000000365	RD000365	12365-2	LP5100007-DNA_A07	Intellectual disability	Intellectual disability	3.1	285
+p10000000584	r20000000366	RD000366	12366-1	LP5100007-DNA_A08	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000585	r20000000367	RD000367	12367-1	LP5100007-DNA_A09	Intellectual disability	Intellectual disability	3.1	285
+p10000000586	r20000000368	RD000368	12368-1	LP5100007-DNA_A10	Paediatric disorders	Intellectual disability	3.1	285
+p10000000586	r20000000368	RD000368	12368-1	LP5100007-DNA_A10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000587	r20000000369	RD000369	12369-1	LP5100007-DNA_A11	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000588	r20000000370	RD000370	12370-1	LP5100007-DNA_A12	Intellectual disability	Intellectual disability	3.1	285
+p10000000591	r20000000371	RD000371	12371-1	LP5100007-DNA_B03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000592	r20000000372	RD000372	12372-1	LP5100007-DNA_B04	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000595	r20000000373	RD000373	12373-1	LP5100007-DNA_B07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000596	r20000000374	RD000374	12374-1	LP5100007-DNA_B08	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000597	r20000000375	RD000375	12375-1	LP5100007-DNA_B09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000597	r20000000375	RD000375	12375-1	LP5100007-DNA_B09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000600	r20000000376	RD000376	12376-1	LP5100007-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000601	r20000000377	RD000377	12377-1	LP5100007-DNA_C01	Intellectual disability	Intellectual disability	3.1	285
+p10000000604	r20000000378	RD000378	12378-1	LP5100007-DNA_C04	Paediatric disorders	Intellectual disability	3.1	285
+p10000000604	r20000000378	RD000378	12378-1	LP5100007-DNA_C04	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000607	r20000000379	RD000379	12379-1	LP5100007-DNA_C07	Intellectual disability	Intellectual disability	3.1	285
+p10000000608	r20000000380	RD000380	12380-1	LP5100007-DNA_C08	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000609	r20000000381	RD000381	12381-1	LP5100007-DNA_C09	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000612	r20000000382	RD000382	12382-1	LP5100007-DNA_C12	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000615	r20000000383	RD000383	12383-1	LP5100007-DNA_D03	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000616	r20000000384	RD000384	12384-1	LP5100007-DNA_D04	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000617	r20000000385	RD000385	12385-1	LP5100007-DNA_D05	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000618	r20000000386	RD000386	12386-1	LP5100007-DNA_D06	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000621	r20000000387	RD000387	12387-1	LP5100007-DNA_D09	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000622	r20000000388	RD000388	12388-1	LP5100007-DNA_D10	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000623	r20000000389	RD000389	12389-2	LP5100007-DNA_D11	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000624	r20000000390	RD000390	12390-1	LP5100007-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000000625	r20000000391	RD000391	12391-1	LP5100007-DNA_E01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000626	r20000000392	RD000392	12392-1	LP5100007-DNA_E02	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000629	r20000000393	RD000393	12393-1	LP5100007-DNA_E05	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000630	r20000000394	RD000394	12394-1	LP5100007-DNA_E06	Intellectual disability	Intellectual disability	3.1	285
+p10000000631	r20000000395	RD000395	12395-2	LP5100007-DNA_E07	Retinal disorders	Retinal disorders	3.2	307
+p10000000632	r20000000396	RD000396	12396-1	LP5100007-DNA_E08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000633	r20000000397	RD000397	12397-1	LP5100007-DNA_E09	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000634	r20000000398	RD000398	12398-2	LP5100007-DNA_E10	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000635	r20000000399	RD000399	12399-1	LP5100007-DNA_E11	Retinal disorders	Retinal disorders	3.2	307
+p10000000638	r20000000400	RD000400	12400-1	LP5100007-DNA_F02	Intellectual disability	Intellectual disability	3.1	285
+p10000000641	r20000000401	RD000401	12401-1	LP5100007-DNA_F05	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000642	r20000000402	RD000402	12402-1	LP5100007-DNA_F06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000645	r20000000403	RD000403	12403-1	LP5100007-DNA_F09	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000646	r20000000404	RD000404	12404-2	LP5100007-DNA_F10	Intellectual disability	Intellectual disability	3.1	285
+p10000000649	r20000000405	RD000405	12405-1	LP5100007-DNA_G01	Intellectual disability	Intellectual disability	3.1	285
+p10000000650	r20000000406	RD000406	12406-1	LP5100007-DNA_G02	Retinal disorders	Retinal disorders	3.2	307
+p10000000651	r20000000407	RD000407	12407-2	LP5100007-DNA_G03	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000652	r20000000408	RD000408	12408-1	LP5100007-DNA_G04	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000652	r20000000408	RD000408	12408-1	LP5100007-DNA_G04	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000655	r20000000409	RD000409	12409-1	LP5100007-DNA_G07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000656	r20000000410	RD000410	12410-2	LP5100007-DNA_G08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000657	r20000000411	RD000411	12411-1	LP5100007-DNA_G09	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000658	r20000000412	RD000412	12412-1	LP5100007-DNA_G10	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000659	r20000000413	RD000413	12413-1	LP5100007-DNA_G11	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000662	r20000000414	RD000414	12414-1	LP5100007-DNA_H02	Paediatric disorders	Intellectual disability	3.1	285
+p10000000662	r20000000414	RD000414	12414-1	LP5100007-DNA_H02	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000663	r20000000415	RD000415	12415-1	LP5100007-DNA_H03	Paediatric disorders	Intellectual disability	3.1	285
+p10000000663	r20000000415	RD000415	12415-1	LP5100007-DNA_H03	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000666	r20000000416	RD000416	12416-1	LP5100007-DNA_H06	Paediatric disorders	Intellectual disability	3.1	285
+p10000000666	r20000000416	RD000416	12416-1	LP5100007-DNA_H06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000669	r20000000417	RD000417	12417-1	LP5100007-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000000670	r20000000418	RD000418	12418-1	LP5100007-DNA_H10	Retinal disorders	Retinal disorders	3.2	307
+p10000000671	r20000000419	RD000419	12419-1	LP5100007-DNA_H11	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000672	r20000000420	RD000420	12420-1	LP5100007-DNA_H12	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000673	r20000000421	RD000421	12421-1	LP5100008-DNA_A01	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000674	r20000000422	RD000422	12422-1	LP5100008-DNA_A02	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000677	r20000000423	RD000423	12423-2	LP5100008-DNA_A05	Intellectual disability	Intellectual disability	3.1	285
+p10000000678	r20000000424	RD000424	12424-2	LP5100008-DNA_A06	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000679	r20000000425	RD000425	12425-1	LP5100008-DNA_A07	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000682	r20000000426	RD000426	12426-1	LP5100008-DNA_A10	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000683	r20000000427	RD000427	12427-1	LP5100008-DNA_A11	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000686	r20000000428	RD000428	12428-2	LP5100008-DNA_B02	Intellectual disability	Intellectual disability	3.1	285
+p10000000687	r20000000429	RD000429	12429-1	LP5100008-DNA_B03	Retinal disorders	Retinal disorders	3.2	307
+p10000000690	r20000000430	RD000430	12430-1	LP5100008-DNA_B06	Paediatric disorders	Intellectual disability	3.1	285
+p10000000690	r20000000430	RD000430	12430-1	LP5100008-DNA_B06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000691	r20000000431	RD000431	12431-1	LP5100008-DNA_B07	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000692	r20000000432	RD000432	12432-2	LP5100008-DNA_B08	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000693	r20000000433	RD000433	12433-1	LP5100008-DNA_B09	Retinal disorders	Retinal disorders	3.2	307
+p10000000696	r20000000434	RD000434	12434-2	LP5100008-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000697	r20000000435	RD000435	12435-1	LP5100008-DNA_C01	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000698	r20000000436	RD000436	12436-1	LP5100008-DNA_C02	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000699	r20000000437	RD000437	12437-2	LP5100008-DNA_C03	Intellectual disability	Intellectual disability	3.1	285
+p10000000700	r20000000438	RD000438	12438-1	LP5100008-DNA_C04	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000701	r20000000439	RD000439	12439-1	LP5100008-DNA_C05	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000702	r20000000440	RD000440	12440-1	LP5100008-DNA_C06	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000703	r20000000441	RD000441	12441-1	LP5100008-DNA_C07	Retinal disorders	Retinal disorders	3.2	307
+p10000000704	r20000000442	RD000442	12442-1	LP5100008-DNA_C08	Retinal disorders	Retinal disorders	3.2	307
+p10000000707	r20000000443	RD000443	12443-1	LP5100008-DNA_C11	Paediatric disorders	Intellectual disability	3.1	285
+p10000000707	r20000000443	RD000443	12443-1	LP5100008-DNA_C11	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000708	r20000000444	RD000444	12444-1	LP5100008-DNA_C12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000709	r20000000445	RD000445	12445-1	LP5100008-DNA_D01	Intellectual disability	Intellectual disability	3.1	285
+p10000000710	r20000000446	RD000446	12446-1	LP5100008-DNA_D02	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000713	r20000000447	RD000447	12447-1	LP5100008-DNA_D05	Intellectual disability	Intellectual disability	3.1	285
+p10000000714	r20000000448	RD000448	12448-2	LP5100008-DNA_D06	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000715	r20000000449	RD000449	12449-1	LP5100008-DNA_D07	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000716	r20000000450	RD000450	12450-1	LP5100008-DNA_D08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000717	r20000000451	RD000451	12451-1	LP5100008-DNA_D09	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000720	r20000000452	RD000452	12452-2	LP5100008-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000000721	r20000000453	RD000453	12453-2	LP5100008-DNA_E01	Intellectual disability	Intellectual disability	3.1	285
+p10000000722	r20000000454	RD000454	12454-1	LP5100008-DNA_E02	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000723	r20000000455	RD000455	12455-2	LP5100008-DNA_E03	Intellectual disability	Intellectual disability	3.1	285
+p10000000724	r20000000456	RD000456	12456-1	LP5100008-DNA_E04	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000727	r20000000457	RD000457	12457-1	LP5100008-DNA_E07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000730	r20000000458	RD000458	12458-2	LP5100008-DNA_E10	Intellectual disability	Intellectual disability	3.1	285
+p10000000731	r20000000459	RD000459	12459-1	LP5100008-DNA_E11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000732	r20000000460	RD000460	12460-1	LP5100008-DNA_E12	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000733	r20000000461	RD000461	12461-1	LP5100008-DNA_F01	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000734	r20000000462	RD000462	12462-1	LP5100008-DNA_F02	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000735	r20000000463	RD000463	12463-1	LP5100008-DNA_F03	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000736	r20000000464	RD000464	12464-1	LP5100008-DNA_F04	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000737	r20000000465	RD000465	12465-1	LP5100008-DNA_F05	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000738	r20000000466	RD000466	12466-2	LP5100008-DNA_F06	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000739	r20000000467	RD000467	12467-2	LP5100008-DNA_F07	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000739	r20000000467	RD000467	12467-2	LP5100008-DNA_F07	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000740	r20000000468	RD000468	12468-1	LP5100008-DNA_F08	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000741	r20000000469	RD000469	12469-1	LP5100008-DNA_F09	Retinal disorders	Retinal disorders	3.2	307
+p10000000744	r20000000470	RD000470	12470-2	LP5100008-DNA_F12	Intellectual disability	Intellectual disability	3.1	285
+p10000000745	r20000000471	RD000471	12471-1	LP5100008-DNA_G01	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000748	r20000000472	RD000472	12472-1	LP5100008-DNA_G04	Intellectual disability	Intellectual disability	3.1	285
+p10000000751	r20000000473	RD000473	12473-1	LP5100008-DNA_G07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000752	r20000000474	RD000474	12474-1	LP5100008-DNA_G08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000755	r20000000475	RD000475	12475-1	LP5100008-DNA_G11	Intellectual disability	Intellectual disability	3.1	285
+p10000000756	r20000000476	RD000476	12476-1	LP5100008-DNA_G12	Paediatric disorders	Intellectual disability	3.1	285
+p10000000756	r20000000476	RD000476	12476-1	LP5100008-DNA_G12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000757	r20000000477	RD000477	12477-1	LP5100008-DNA_H01	Paediatric disorders	Intellectual disability	3.1	285
+p10000000757	r20000000477	RD000477	12477-1	LP5100008-DNA_H01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000760	r20000000478	RD000478	12478-1	LP5100008-DNA_H04	Intellectual disability	Intellectual disability	3.1	285
+p10000000763	r20000000479	RD000479	12479-1	LP5100008-DNA_H07	Intellectual disability	Intellectual disability	3.1	285
+p10000000764	r20000000480	RD000480	12480-2	LP5100008-DNA_H08	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000765	r20000000481	RD000481	12481-1	LP5100008-DNA_H09	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000766	r20000000482	RD000482	12482-1	LP5100008-DNA_H10	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000769	r20000000483	RD000483	12483-1	LP5100009-DNA_A01	Paediatric disorders	Intellectual disability	3.1	285
+p10000000769	r20000000483	RD000483	12483-1	LP5100009-DNA_A01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000770	r20000000484	RD000484	12484-2	LP5100009-DNA_A02	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000773	r20000000485	RD000485	12485-1	LP5100009-DNA_A05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000774	r20000000486	RD000486	12486-1	LP5100009-DNA_A06	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000777	r20000000487	RD000487	12487-1	LP5100009-DNA_A09	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000780	r20000000488	RD000488	12488-2	LP5100009-DNA_A12	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000783	r20000000489	RD000489	12489-1	LP5100009-DNA_B03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000784	r20000000490	RD000490	12490-1	LP5100009-DNA_B04	Retinal disorders	Retinal disorders	3.2	307
+p10000000785	r20000000491	RD000491	12491-2	LP5100009-DNA_B05	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000786	r20000000492	RD000492	12492-1	LP5100009-DNA_B06	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000787	r20000000493	RD000493	12493-1	LP5100009-DNA_B07	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000788	r20000000494	RD000494	12494-2	LP5100009-DNA_B08	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000789	r20000000495	RD000495	12495-1	LP5100009-DNA_B09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000790	r20000000496	RD000496	12496-1	LP5100009-DNA_B10	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000791	r20000000497	RD000497	12497-1	LP5100009-DNA_B11	Intellectual disability	Intellectual disability	3.1	285
+p10000000792	r20000000498	RD000498	12498-2	LP5100009-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000000793	r20000000499	RD000499	12499-1	LP5100009-DNA_C01	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000796	r20000000500	RD000500	12500-1	LP5100009-DNA_C04	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000797	r20000000501	RD000501	12501-2	LP5100009-DNA_C05	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000798	r20000000502	RD000502	12502-1	LP5100009-DNA_C06	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000799	r20000000503	RD000503	12503-1	LP5100009-DNA_C07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000800	r20000000504	RD000504	12504-1	LP5100009-DNA_C08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000801	r20000000505	RD000505	12505-1	LP5100009-DNA_C09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000801	r20000000505	RD000505	12505-1	LP5100009-DNA_C09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000802	r20000000506	RD000506	12506-2	LP5100009-DNA_C10	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000805	r20000000507	RD000507	12507-1	LP5100009-DNA_D01	Intellectual disability	Intellectual disability	3.1	285
+p10000000806	r20000000508	RD000508	12508-2	LP5100009-DNA_D02	Retinal disorders	Retinal disorders	3.2	307
+p10000000807	r20000000509	RD000509	12509-1	LP5100009-DNA_D03	Intellectual disability	Intellectual disability	3.1	285
+p10000000808	r20000000510	RD000510	12510-1	LP5100009-DNA_D04	Retinal disorders	Retinal disorders	3.2	307
+p10000000809	r20000000511	RD000511	12511-1	LP5100009-DNA_D05	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000812	r20000000512	RD000512	12512-2	LP5100009-DNA_D08	Intellectual disability	Intellectual disability	3.1	285
+p10000000815	r20000000513	RD000513	12513-1	LP5100009-DNA_D11	Paediatric disorders	Intellectual disability	3.1	285
+p10000000815	r20000000513	RD000513	12513-1	LP5100009-DNA_D11	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000816	r20000000514	RD000514	12514-1	LP5100009-DNA_D12	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000819	r20000000515	RD000515	12515-1	LP5100009-DNA_E03	Intellectual disability	Intellectual disability	3.1	285
+p10000000822	r20000000516	RD000516	12516-2	LP5100009-DNA_E06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000825	r20000000517	RD000517	12517-1	LP5100009-DNA_E09	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000826	r20000000518	RD000518	12518-1	LP5100009-DNA_E10	Retinal disorders	Retinal disorders	3.2	307
+p10000000827	r20000000519	RD000519	12519-1	LP5100009-DNA_E11	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000828	r20000000520	RD000520	12520-1	LP5100009-DNA_E12	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000829	r20000000521	RD000521	12521-2	LP5100009-DNA_F01	Paediatric disorders	Intellectual disability	3.1	285
+p10000000829	r20000000521	RD000521	12521-2	LP5100009-DNA_F01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000830	r20000000522	RD000522	12522-1	LP5100009-DNA_F02	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000831	r20000000523	RD000523	12523-1	LP5100009-DNA_F03	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000832	r20000000524	RD000524	12524-1	LP5100009-DNA_F04	Intellectual disability	Intellectual disability	3.1	285
+p10000000833	r20000000525	RD000525	12525-1	LP5100009-DNA_F05	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000834	r20000000526	RD000526	12526-2	LP5100009-DNA_F06	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000835	r20000000527	RD000527	12527-2	LP5100009-DNA_F07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000836	r20000000528	RD000528	12528-1	LP5100009-DNA_F08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000839	r20000000529	RD000529	12529-1	LP5100009-DNA_F11	Retinal disorders	Retinal disorders	3.2	307
+p10000000840	r20000000530	RD000530	12530-1	LP5100009-DNA_F12	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000841	r20000000531	RD000531	12531-1	LP5100009-DNA_G01	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000841	r20000000531	RD000531	12531-1	LP5100009-DNA_G01	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000842	r20000000532	RD000532	12532-2	LP5100009-DNA_G02	Retinal disorders	Retinal disorders	3.2	307
+p10000000845	r20000000533	RD000533	12533-1	LP5100009-DNA_G05	Intellectual disability	Intellectual disability	3.1	285
+p10000000848	r20000000534	RD000534	12534-2	LP5100009-DNA_G08	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000849	r20000000535	RD000535	12535-1	LP5100009-DNA_G09	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000000850	r20000000536	RD000536	12536-1	LP5100009-DNA_G10	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000853	r20000000537	RD000537	12537-2	LP5100009-DNA_H01	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000854	r20000000538	RD000538	12538-1	LP5100009-DNA_H02	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000855	r20000000539	RD000539	12539-1	LP5100009-DNA_H03	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000855	r20000000539	RD000539	12539-1	LP5100009-DNA_H03	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000858	r20000000540	RD000540	12540-1	LP5100009-DNA_H06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000859	r20000000541	RD000541	12541-2	LP5100009-DNA_H07	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000860	r20000000542	RD000542	12542-1	LP5100009-DNA_H08	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000861	r20000000543	RD000543	12543-1	LP5100009-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000000864	r20000000544	RD000544	12544-1	LP5100009-DNA_H12	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000865	r20000000545	RD000545	12545-1	LP5100010-DNA_A01	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000866	r20000000546	RD000546	12546-1	LP5100010-DNA_A02	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000867	r20000000547	RD000547	12547-1	LP5100010-DNA_A03	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000868	r20000000548	RD000548	12548-2	LP5100010-DNA_A04	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000869	r20000000549	RD000549	12549-1	LP5100010-DNA_A05	Retinal disorders	Retinal disorders	3.2	307
+p10000000870	r20000000550	RD000550	12550-1	LP5100010-DNA_A06	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000871	r20000000551	RD000551	12551-1	LP5100010-DNA_A07	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000872	r20000000552	RD000552	12552-1	LP5100010-DNA_A08	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000000873	r20000000553	RD000553	12553-1	LP5100010-DNA_A09	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000874	r20000000554	RD000554	12554-2	LP5100010-DNA_A10	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000875	r20000000555	RD000555	12555-2	LP5100010-DNA_A11	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000876	r20000000556	RD000556	12556-1	LP5100010-DNA_A12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000877	r20000000557	RD000557	12557-1	LP5100010-DNA_B01	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000880	r20000000558	RD000558	12558-1	LP5100010-DNA_B04	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000881	r20000000559	RD000559	12559-1	LP5100010-DNA_B05	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000884	r20000000560	RD000560	12560-1	LP5100010-DNA_B08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000885	r20000000561	RD000561	12561-1	LP5100010-DNA_B09	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000886	r20000000562	RD000562	12562-2	LP5100010-DNA_B10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000887	r20000000563	RD000563	12563-1	LP5100010-DNA_B11	Intellectual disability	Intellectual disability	3.1	285
+p10000000888	r20000000564	RD000564	12564-1	LP5100010-DNA_B12	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000000889	r20000000565	RD000565	12565-1	LP5100010-DNA_C01	Intellectual disability	Intellectual disability	3.1	285
+p10000000890	r20000000566	RD000566	12566-1	LP5100010-DNA_C02	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000891	r20000000567	RD000567	12567-1	LP5100010-DNA_C03	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000892	r20000000568	RD000568	12568-1	LP5100010-DNA_C04	Intellectual disability	Intellectual disability	3.1	285
+p10000000893	r20000000569	RD000569	12569-1	LP5100010-DNA_C05	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000894	r20000000570	RD000570	12570-1	LP5100010-DNA_C06	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000895	r20000000571	RD000571	12571-1	LP5100010-DNA_C07	Retinal disorders	Retinal disorders	3.2	307
+p10000000898	r20000000572	RD000572	12572-1	LP5100010-DNA_C10	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000899	r20000000573	RD000573	12573-1	LP5100010-DNA_C11	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000000899	r20000000573	RD000573	12573-1	LP5100010-DNA_C11	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000000900	r20000000574	RD000574	12574-1	LP5100010-DNA_C12	Intellectual disability	Intellectual disability	3.1	285
+p10000000901	r20000000575	RD000575	12575-1	LP5100010-DNA_D01	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000902	r20000000576	RD000576	12576-1	LP5100010-DNA_D02	Retinal disorders	Retinal disorders	3.2	307
+p10000000903	r20000000577	RD000577	12577-1	LP5100010-DNA_D03	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000904	r20000000578	RD000578	12578-2	LP5100010-DNA_D04	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000907	r20000000579	RD000579	12579-1	LP5100010-DNA_D07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000908	r20000000580	RD000580	12580-2	LP5100010-DNA_D08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000909	r20000000581	RD000581	12581-1	LP5100010-DNA_D09	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000000910	r20000000582	RD000582	12582-1	LP5100010-DNA_D10	Retinal disorders	Retinal disorders	3.2	307
+p10000000911	r20000000583	RD000583	12583-2	LP5100010-DNA_D11	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000912	r20000000584	RD000584	12584-1	LP5100010-DNA_D12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000915	r20000000585	RD000585	12585-1	LP5100010-DNA_E03	Intellectual disability	Intellectual disability	3.1	285
+p10000000916	r20000000586	RD000586	12586-2	LP5100010-DNA_E04	Intellectual disability	Intellectual disability	3.1	285
+p10000000917	r20000000587	RD000587	12587-1	LP5100010-DNA_E05	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000000918	r20000000588	RD000588	12588-2	LP5100010-DNA_E06	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000919	r20000000589	RD000589	12589-1	LP5100010-DNA_E07	Retinal disorders	Retinal disorders	3.2	307
+p10000000922	r20000000590	RD000590	12590-1	LP5100010-DNA_E10	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000925	r20000000591	RD000591	12591-2	LP5100010-DNA_F01	Intellectual disability	Intellectual disability	3.1	285
+p10000000928	r20000000592	RD000592	12592-1	LP5100010-DNA_F04	Intellectual disability	Intellectual disability	3.1	285
+p10000000929	r20000000593	RD000593	12593-2	LP5100010-DNA_F05	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000930	r20000000594	RD000594	12594-2	LP5100010-DNA_F06	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000933	r20000000595	RD000595	12595-2	LP5100010-DNA_F09	Intellectual disability	Intellectual disability	3.1	285
+p10000000934	r20000000596	RD000596	12596-1	LP5100010-DNA_F10	Paediatric disorders	Intellectual disability	3.1	285
+p10000000934	r20000000596	RD000596	12596-1	LP5100010-DNA_F10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000937	r20000000597	RD000597	12597-1	LP5100010-DNA_G01	Intellectual disability	Intellectual disability	3.1	285
+p10000000940	r20000000598	RD000598	12598-1	LP5100010-DNA_G04	Intellectual disability	Intellectual disability	3.1	285
+p10000000941	r20000000599	RD000599	12599-1	LP5100010-DNA_G05	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000000942	r20000000600	RD000600	12600-2	LP5100010-DNA_G06	Retinal disorders	Retinal disorders	3.2	307
+p10000000943	r20000000601	RD000601	12601-1	LP5100010-DNA_G07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000943	r20000000601	RD000601	12601-1	LP5100010-DNA_G07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000944	r20000000602	RD000602	12602-1	LP5100010-DNA_G08	Intellectual disability	Intellectual disability	3.1	285
+p10000000945	r20000000603	RD000603	12603-1	LP5100010-DNA_G09	Paediatric disorders	Intellectual disability	3.1	285
+p10000000945	r20000000603	RD000603	12603-1	LP5100010-DNA_G09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000948	r20000000604	RD000604	12604-1	LP5100010-DNA_G12	Intellectual disability	Intellectual disability	3.1	285
+p10000000951	r20000000605	RD000605	12605-1	LP5100010-DNA_H03	Intellectual disability	Intellectual disability	3.1	285
+p10000000954	r20000000606	RD000606	12606-1	LP5100010-DNA_H06	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000955	r20000000607	RD000607	12607-2	LP5100010-DNA_H07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000000956	r20000000608	RD000608	12608-1	LP5100010-DNA_H08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000000957	r20000000609	RD000609	12609-2	LP5100010-DNA_H09	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000958	r20000000610	RD000610	12610-1	LP5100010-DNA_H10	Monogenic hearing loss	Hearing loss	2.33	126
+p10000000959	r20000000611	RD000611	12611-1	LP5100010-DNA_H11	Retinal disorders	Retinal disorders	3.2	307
+p10000000962	r20000000612	RD000612	12612-1	LP5100011-DNA_A02	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000965	r20000000613	RD000613	12613-1	LP5100011-DNA_A05	Intellectual disability	Intellectual disability	3.1	285
+p10000000966	r20000000614	RD000614	12614-1	LP5100011-DNA_A06	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000000969	r20000000615	RD000615	12615-1	LP5100011-DNA_A09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000000970	r20000000616	RD000616	12616-1	LP5100011-DNA_A10	Retinal disorders	Retinal disorders	3.2	307
+p10000000973	r20000000617	RD000617	12617-1	LP5100011-DNA_B01	Intellectual disability	Intellectual disability	3.1	285
+p10000000974	r20000000618	RD000618	12618-1	LP5100011-DNA_B02	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000975	r20000000619	RD000619	12619-1	LP5100011-DNA_B03	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000978	r20000000620	RD000620	12620-1	LP5100011-DNA_B06	Craniosynostosis	Craniosynostosis	2.8	168
+p10000000979	r20000000621	RD000621	12621-1	LP5100011-DNA_B07	Paediatric disorders	Intellectual disability	3.1	285
+p10000000979	r20000000621	RD000621	12621-1	LP5100011-DNA_B07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000000980	r20000000622	RD000622	12622-1	LP5100011-DNA_B08	Congenital myopathy	Congenital myopathy	2.35	136
+p10000000983	r20000000623	RD000623	12623-2	LP5100011-DNA_B11	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000000984	r20000000624	RD000624	12624-1	LP5100011-DNA_B12	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000000985	r20000000625	RD000625	12625-2	LP5100011-DNA_C01	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000000988	r20000000626	RD000626	12626-1	LP5100011-DNA_C04	Intellectual disability	Intellectual disability	3.1	285
+p10000000991	r20000000627	RD000627	12627-1	LP5100011-DNA_C07	Intellectual disability	Intellectual disability	3.1	285
+p10000000992	r20000000628	RD000628	12628-1	LP5100011-DNA_C08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000000993	r20000000629	RD000629	12629-1	LP5100011-DNA_C09	Intellectual disability	Intellectual disability	3.1	285
+p10000000994	r20000000630	RD000630	12630-1	LP5100011-DNA_C10	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000000997	r20000000631	RD000631	12631-1	LP5100011-DNA_D01	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000000998	r20000000632	RD000632	12632-1	LP5100011-DNA_D02	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000000999	r20000000633	RD000633	12633-1	LP5100011-DNA_D03	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001002	r20000000634	RD000634	12634-1	LP5100011-DNA_D06	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000001002	r20000000634	RD000634	12634-1	LP5100011-DNA_D06	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000001005	r20000000635	RD000635	12635-1	LP5100011-DNA_D09	Intellectual disability	Intellectual disability	3.1	285
+p10000001006	r20000000636	RD000636	12636-1	LP5100011-DNA_D10	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001007	r20000000637	RD000637	12637-1	LP5100011-DNA_D11	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001008	r20000000638	RD000638	12638-1	LP5100011-DNA_D12	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001009	r20000000639	RD000639	12639-1	LP5100011-DNA_E01	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001010	r20000000640	RD000640	12640-1	LP5100011-DNA_E02	Retinal disorders	Retinal disorders	3.2	307
+p10000001011	r20000000641	RD000641	12641-1	LP5100011-DNA_E03	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001012	r20000000642	RD000642	12642-1	LP5100011-DNA_E04	Paediatric disorders	Intellectual disability	3.1	285
+p10000001012	r20000000642	RD000642	12642-1	LP5100011-DNA_E04	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001013	r20000000643	RD000643	12643-1	LP5100011-DNA_E05	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001016	r20000000644	RD000644	12644-1	LP5100011-DNA_E08	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001017	r20000000645	RD000645	12645-1	LP5100011-DNA_E09	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001020	r20000000646	RD000646	12646-1	LP5100011-DNA_E12	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001023	r20000000647	RD000647	12647-1	LP5100011-DNA_F03	Intellectual disability	Intellectual disability	3.1	285
+p10000001024	r20000000648	RD000648	12648-1	LP5100011-DNA_F04	Intellectual disability	Intellectual disability	3.1	285
+p10000001027	r20000000649	RD000649	12649-1	LP5100011-DNA_F07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001028	r20000000650	RD000650	12650-1	LP5100011-DNA_F08	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001031	r20000000651	RD000651	12651-1	LP5100011-DNA_F11	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001032	r20000000652	RD000652	12652-1	LP5100011-DNA_F12	Congenital myopathy	Congenital myopathy	2.35	136
+p10000001033	r20000000653	RD000653	12653-1	LP5100011-DNA_G01	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000001036	r20000000654	RD000654	12654-1	LP5100011-DNA_G04	Craniosynostosis	Craniosynostosis	2.8	168
+p10000001039	r20000000655	RD000655	12655-1	LP5100011-DNA_G07	Intellectual disability	Intellectual disability	3.1	285
+p10000001040	r20000000656	RD000656	12656-1	LP5100011-DNA_G08	Retinal disorders	Retinal disorders	3.2	307
+p10000001043	r20000000657	RD000657	12657-2	LP5100011-DNA_G11	Intellectual disability	Intellectual disability	3.1	285
+p10000001044	r20000000658	RD000658	12658-1	LP5100011-DNA_G12	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001045	r20000000659	RD000659	12659-2	LP5100011-DNA_H01	Intellectual disability	Intellectual disability	3.1	285
+p10000001046	r20000000660	RD000660	12660-1	LP5100011-DNA_H02	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001047	r20000000661	RD000661	12661-1	LP5100011-DNA_H03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001050	r20000000662	RD000662	12662-1	LP5100011-DNA_H06	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001051	r20000000663	RD000663	12663-1	LP5100011-DNA_H07	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001052	r20000000664	RD000664	12664-1	LP5100011-DNA_H08	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001053	r20000000665	RD000665	12665-1	LP5100011-DNA_H09	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001054	r20000000666	RD000666	12666-1	LP5100011-DNA_H10	Intellectual disability	Intellectual disability	3.1	285
+p10000001055	r20000000667	RD000667	12667-2	LP5100011-DNA_H11	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001058	r20000000668	RD000668	12668-1	LP5100012-DNA_A02	Intellectual disability	Intellectual disability	3.1	285
+p10000001059	r20000000669	RD000669	12669-1	LP5100012-DNA_A03	Retinal disorders	Retinal disorders	3.2	307
+p10000001060	r20000000670	RD000670	12670-1	LP5100012-DNA_A04	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001063	r20000000671	RD000671	12671-1	LP5100012-DNA_A07	Intellectual disability	Intellectual disability	3.1	285
+p10000001064	r20000000672	RD000672	12672-2	LP5100012-DNA_A08	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001065	r20000000673	RD000673	12673-1	LP5100012-DNA_A09	Intellectual disability	Intellectual disability	3.1	285
+p10000001068	r20000000674	RD000674	12674-1	LP5100012-DNA_A12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001071	r20000000675	RD000675	12675-1	LP5100012-DNA_B03	Intellectual disability	Intellectual disability	3.1	285
+p10000001074	r20000000676	RD000676	12676-1	LP5100012-DNA_B06	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000001075	r20000000677	RD000677	12677-2	LP5100012-DNA_B07	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000001076	r20000000678	RD000678	12678-2	LP5100012-DNA_B08	Intellectual disability	Intellectual disability	3.1	285
+p10000001079	r20000000679	RD000679	12679-1	LP5100012-DNA_B11	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001080	r20000000680	RD000680	12680-2	LP5100012-DNA_B12	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000001081	r20000000681	RD000681	12681-1	LP5100012-DNA_C01	Retinal disorders	Retinal disorders	3.2	307
+p10000001082	r20000000682	RD000682	12682-2	LP5100012-DNA_C02	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001083	r20000000683	RD000683	12683-1	LP5100012-DNA_C03	Retinal disorders	Retinal disorders	3.2	307
+p10000001084	r20000000684	RD000684	12684-1	LP5100012-DNA_C04	Intellectual disability	Intellectual disability	3.1	285
+p10000001085	r20000000685	RD000685	12685-1	LP5100012-DNA_C05	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001088	r20000000686	RD000686	12686-1	LP5100012-DNA_C08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001091	r20000000687	RD000687	12687-1	LP5100012-DNA_C11	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001092	r20000000688	RD000688	12688-1	LP5100012-DNA_C12	Retinal disorders	Retinal disorders	3.2	307
+p10000001095	r20000000689	RD000689	12689-1	LP5100012-DNA_D03	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001096	r20000000690	RD000690	12690-1	LP5100012-DNA_D04	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001097	r20000000691	RD000691	12691-1	LP5100012-DNA_D05	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001098	r20000000692	RD000692	12692-2	LP5100012-DNA_D06	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001099	r20000000693	RD000693	12693-1	LP5100012-DNA_D07	Paediatric disorders	Intellectual disability	3.1	285
+p10000001099	r20000000693	RD000693	12693-1	LP5100012-DNA_D07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001100	r20000000694	RD000694	12694-1	LP5100012-DNA_D08	Intellectual disability	Intellectual disability	3.1	285
+p10000001103	r20000000695	RD000695	12695-2	LP5100012-DNA_D11	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001104	r20000000696	RD000696	12696-1	LP5100012-DNA_D12	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001105	r20000000697	RD000697	12697-1	LP5100012-DNA_E01	Retinal disorders	Retinal disorders	3.2	307
+p10000001106	r20000000698	RD000698	12698-2	LP5100012-DNA_E02	Retinal disorders	Retinal disorders	3.2	307
+p10000001107	r20000000699	RD000699	12699-1	LP5100012-DNA_E03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001108	r20000000700	RD000700	12700-1	LP5100012-DNA_E04	Intellectual disability	Intellectual disability	3.1	285
+p10000001109	r20000000701	RD000701	12701-1	LP5100012-DNA_E05	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001110	r20000000702	RD000702	12702-1	LP5100012-DNA_E06	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001111	r20000000703	RD000703	12703-1	LP5100012-DNA_E07	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001112	r20000000704	RD000704	12704-1	LP5100012-DNA_E08	Retinal disorders	Retinal disorders	3.2	307
+p10000001113	r20000000705	RD000705	12705-1	LP5100012-DNA_E09	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001114	r20000000706	RD000706	12706-1	LP5100012-DNA_E10	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001117	r20000000707	RD000707	12707-1	LP5100012-DNA_F01	Congenital myopathy	Congenital myopathy	2.35	136
+p10000001118	r20000000708	RD000708	12708-1	LP5100012-DNA_F02	Intellectual disability	Intellectual disability	3.1	285
+p10000001119	r20000000709	RD000709	12709-1	LP5100012-DNA_F03	Intellectual disability	Intellectual disability	3.1	285
+p10000001122	r20000000710	RD000710	12710-1	LP5100012-DNA_F06	Intellectual disability	Intellectual disability	3.1	285
+p10000001123	r20000000711	RD000711	12711-1	LP5100012-DNA_F07	Paediatric disorders	Intellectual disability	3.1	285
+p10000001123	r20000000711	RD000711	12711-1	LP5100012-DNA_F07	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001124	r20000000712	RD000712	12712-1	LP5100012-DNA_F08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001125	r20000000713	RD000713	12713-1	LP5100012-DNA_F09	Intellectual disability	Intellectual disability	3.1	285
+p10000001126	r20000000714	RD000714	12714-1	LP5100012-DNA_F10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001127	r20000000715	RD000715	12715-1	LP5100012-DNA_F11	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001128	r20000000716	RD000716	12716-1	LP5100012-DNA_F12	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001129	r20000000717	RD000717	12717-2	LP5100012-DNA_G01	Paediatric disorders	Intellectual disability	3.1	285
+p10000001129	r20000000717	RD000717	12717-2	LP5100012-DNA_G01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001130	r20000000718	RD000718	12718-2	LP5100012-DNA_G02	Intellectual disability	Intellectual disability	3.1	285
+p10000001131	r20000000719	RD000719	12719-1	LP5100012-DNA_G03	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001132	r20000000720	RD000720	12720-2	LP5100012-DNA_G04	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001133	r20000000721	RD000721	12721-1	LP5100012-DNA_G05	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000001134	r20000000722	RD000722	12722-1	LP5100012-DNA_G06	Paediatric disorders	Intellectual disability	3.1	285
+p10000001134	r20000000722	RD000722	12722-1	LP5100012-DNA_G06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001135	r20000000723	RD000723	12723-1	LP5100012-DNA_G07	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001136	r20000000724	RD000724	12724-1	LP5100012-DNA_G08	Intellectual disability	Intellectual disability	3.1	285
+p10000001137	r20000000725	RD000725	12725-1	LP5100012-DNA_G09	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001138	r20000000726	RD000726	12726-1	LP5100012-DNA_G10	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001139	r20000000727	RD000727	12727-1	LP5100012-DNA_G11	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000001140	r20000000728	RD000728	12728-1	LP5100012-DNA_G12	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001141	r20000000729	RD000729	12729-1	LP5100012-DNA_H01	Retinal disorders	Retinal disorders	3.2	307
+p10000001142	r20000000730	RD000730	12730-1	LP5100012-DNA_H02	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001143	r20000000731	RD000731	12731-1	LP5100012-DNA_H03	Intellectual disability	Intellectual disability	3.1	285
+p10000001146	r20000000732	RD000732	12732-1	LP5100012-DNA_H06	Paediatric disorders	Intellectual disability	3.1	285
+p10000001146	r20000000732	RD000732	12732-1	LP5100012-DNA_H06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001149	r20000000733	RD000733	12733-1	LP5100012-DNA_H09	Intellectual disability	Intellectual disability	3.1	285
+p10000001150	r20000000734	RD000734	12734-1	LP5100012-DNA_H10	Paediatric disorders	Intellectual disability	3.1	285
+p10000001150	r20000000734	RD000734	12734-1	LP5100012-DNA_H10	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001151	r20000000735	RD000735	12735-1	LP5100012-DNA_H11	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001152	r20000000736	RD000736	12736-1	LP5100012-DNA_H12	Retinal disorders	Retinal disorders	3.2	307
+p10000001153	r20000000737	RD000737	12737-1	LP5100013-DNA_A01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001156	r20000000738	RD000738	12738-1	LP5100013-DNA_A04	Intellectual disability	Intellectual disability	3.1	285
+p10000001159	r20000000739	RD000739	12739-1	LP5100013-DNA_A07	Retinal disorders	Retinal disorders	3.2	307
+p10000001160	r20000000740	RD000740	12740-1	LP5100013-DNA_A08	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001161	r20000000741	RD000741	12741-1	LP5100013-DNA_A09	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001164	r20000000742	RD000742	12742-1	LP5100013-DNA_A12	Paediatric disorders	Intellectual disability	3.1	285
+p10000001164	r20000000742	RD000742	12742-1	LP5100013-DNA_A12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001165	r20000000743	RD000743	12743-1	LP5100013-DNA_B01	Paediatric disorders	Intellectual disability	3.1	285
+p10000001165	r20000000743	RD000743	12743-1	LP5100013-DNA_B01	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001166	r20000000744	RD000744	12744-1	LP5100013-DNA_B02	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001169	r20000000745	RD000745	12745-1	LP5100013-DNA_B05	Intellectual disability	Intellectual disability	3.1	285
+p10000001170	r20000000746	RD000746	12746-1	LP5100013-DNA_B06	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001171	r20000000747	RD000747	12747-1	LP5100013-DNA_B07	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001172	r20000000748	RD000748	12748-1	LP5100013-DNA_B08	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001173	r20000000749	RD000749	12749-1	LP5100013-DNA_B09	Paediatric disorders	Intellectual disability	3.1	285
+p10000001173	r20000000749	RD000749	12749-1	LP5100013-DNA_B09	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001176	r20000000750	RD000750	12750-1	LP5100013-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000001177	r20000000751	RD000751	12751-2	LP5100013-DNA_C01	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001178	r20000000752	RD000752	12752-1	LP5100013-DNA_C02	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001179	r20000000753	RD000753	12753-2	LP5100013-DNA_C03	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001180	r20000000754	RD000754	12754-1	LP5100013-DNA_C04	Retinal disorders	Retinal disorders	3.2	307
+p10000001181	r20000000755	RD000755	12755-1	LP5100013-DNA_C05	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001182	r20000000756	RD000756	12756-1	LP5100013-DNA_C06	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001183	r20000000757	RD000757	12757-2	LP5100013-DNA_C07	Intellectual disability	Intellectual disability	3.1	285
+p10000001184	r20000000758	RD000758	12758-1	LP5100013-DNA_C08	Intellectual disability	Intellectual disability	3.1	285
+p10000001185	r20000000759	RD000759	12759-2	LP5100013-DNA_C09	Intellectual disability	Intellectual disability	3.1	285
+p10000001186	r20000000760	RD000760	12760-2	LP5100013-DNA_C10	Intellectual disability	Intellectual disability	3.1	285
+p10000001187	r20000000761	RD000761	12761-1	LP5100013-DNA_C11	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001190	r20000000762	RD000762	12762-1	LP5100013-DNA_D02	Intellectual disability	Intellectual disability	3.1	285
+p10000001191	r20000000763	RD000763	12763-1	LP5100013-DNA_D03	Retinal disorders	Retinal disorders	3.2	307
+p10000001192	r20000000764	RD000764	12764-1	LP5100013-DNA_D04	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001195	r20000000765	RD000765	12765-1	LP5100013-DNA_D07	Craniosynostosis	Craniosynostosis	2.8	168
+p10000001196	r20000000766	RD000766	12766-1	LP5100013-DNA_D08	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001197	r20000000767	RD000767	12767-1	LP5100013-DNA_D09	Intellectual disability	Intellectual disability	3.1	285
+p10000001198	r20000000768	RD000768	12768-2	LP5100013-DNA_D10	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001199	r20000000769	RD000769	12769-1	LP5100013-DNA_D11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001200	r20000000770	RD000770	12770-1	LP5100013-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000001201	r20000000771	RD000771	12771-1	LP5100013-DNA_E01	Retinal disorders	Retinal disorders	3.2	307
+p10000001204	r20000000772	RD000772	12772-1	LP5100013-DNA_E04	Intellectual disability	Intellectual disability	3.1	285
+p10000001205	r20000000773	RD000773	12773-1	LP5100013-DNA_E05	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001206	r20000000774	RD000774	12774-1	LP5100013-DNA_E06	Intellectual disability	Intellectual disability	3.1	285
+p10000001209	r20000000775	RD000775	12775-1	LP5100013-DNA_E09	Intellectual disability	Intellectual disability	3.1	285
+p10000001210	r20000000776	RD000776	12776-1	LP5100013-DNA_E10	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001211	r20000000777	RD000777	12777-2	LP5100013-DNA_E11	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001212	r20000000778	RD000778	12778-1	LP5100013-DNA_E12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001215	r20000000779	RD000779	12779-2	LP5100013-DNA_F03	Intellectual disability	Intellectual disability	3.1	285
+p10000001218	r20000000780	RD000780	12780-2	LP5100013-DNA_F06	Paediatric disorders	Intellectual disability	3.1	285
+p10000001218	r20000000780	RD000780	12780-2	LP5100013-DNA_F06	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001221	r20000000781	RD000781	12781-2	LP5100013-DNA_F09	Intellectual disability	Intellectual disability	3.1	285
+p10000001222	r20000000782	RD000782	12782-1	LP5100013-DNA_F10	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001225	r20000000783	RD000783	12783-1	LP5100013-DNA_G01	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001226	r20000000784	RD000784	12784-1	LP5100013-DNA_G02	Adult onset neurodegenerative disorder	Early onset dementia	1.28	217
+p10000001227	r20000000785	RD000785	12785-1	LP5100013-DNA_G03	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001228	r20000000786	RD000786	12786-1	LP5100013-DNA_G04	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001229	r20000000787	RD000787	12787-2	LP5100013-DNA_G05	Intellectual disability	Intellectual disability	3.1	285
+p10000001230	r20000000788	RD000788	12788-2	LP5100013-DNA_G06	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001231	r20000000789	RD000789	12789-2	LP5100013-DNA_G07	Retinal disorders	Retinal disorders	3.2	307
+p10000001232	r20000000790	RD000790	12790-1	LP5100013-DNA_G08	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001233	r20000000791	RD000791	12791-1	LP5100013-DNA_G09	Intellectual disability	Intellectual disability	3.1	285
+p10000001234	r20000000792	RD000792	12792-1	LP5100013-DNA_G10	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001235	r20000000793	RD000793	12793-1	LP5100013-DNA_G11	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001238	r20000000794	RD000794	12794-1	LP5100013-DNA_H02	Intellectual disability	Intellectual disability	3.1	285
+p10000001241	r20000000795	RD000795	12795-1	LP5100013-DNA_H05	Intellectual disability	Intellectual disability	3.1	285
+p10000001242	r20000000796	RD000796	12796-1	LP5100013-DNA_H06	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001243	r20000000797	RD000797	12797-2	LP5100013-DNA_H07	Intellectual disability	Intellectual disability	3.1	285
+p10000001244	r20000000798	RD000798	12798-1	LP5100013-DNA_H08	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001245	r20000000799	RD000799	12799-1	LP5100013-DNA_H09	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000001246	r20000000800	RD000800	12800-1	LP5100013-DNA_H10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001247	r20000000801	RD000801	12801-1	LP5100013-DNA_H11	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000001248	r20000000802	RD000802	12802-1	LP5100013-DNA_H12	Paediatric disorders	Intellectual disability	3.1	285
+p10000001248	r20000000802	RD000802	12802-1	LP5100013-DNA_H12	Paediatric disorders	Fetal anomalies	1.85	478
+p10000001249	r20000000803	RD000803	12803-1	LP5100014-DNA_A01	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001250	r20000000804	RD000804	12804-1	LP5100014-DNA_A02	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001253	r20000000805	RD000805	12805-1	LP5100014-DNA_A05	Intellectual disability	Intellectual disability	3.1	285
+p10000001254	r20000000806	RD000806	12806-2	LP5100014-DNA_A06	Intellectual disability	Intellectual disability	3.1	285
+p10000001257	r20000000807	RD000807	12807-1	LP5100014-DNA_A09	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001258	r20000000808	RD000808	12808-1	LP5100014-DNA_A10	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001259	r20000000809	RD000809	12809-2	LP5100014-DNA_A11	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001262	r20000000810	RD000810	12810-1	LP5100014-DNA_B02	Monogenic diabetes	Diabetes - neonatal onset	1.3	486
+p10000001262	r20000000810	RD000810	12810-1	LP5100014-DNA_B02	Monogenic diabetes	Monogenic diabetes	1.25	472
+p10000001263	r20000000811	RD000811	12811-2	LP5100014-DNA_B03	Intellectual disability	Intellectual disability	3.1	285
+p10000001266	r20000000812	RD000812	12812-1	LP5100014-DNA_B06	Intellectual disability	Intellectual disability	3.1	285
+p10000001267	r20000000813	RD000813	12813-1	LP5100014-DNA_B07	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001268	r20000000814	RD000814	12814-1	LP5100014-DNA_B08	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001269	r20000000815	RD000815	12815-1	LP5100014-DNA_B09	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000001270	r20000000816	RD000816	12816-1	LP5100014-DNA_B10	Retinal disorders	Retinal disorders	3.2	307
+p10000001271	r20000000817	RD000817	12817-1	LP5100014-DNA_B11	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001272	r20000000818	RD000818	12818-1	LP5100014-DNA_B12	Retinal disorders	Retinal disorders	3.2	307
+p10000001273	r20000000819	RD000819	12819-1	LP5100014-DNA_C01	Intellectual disability	Intellectual disability	3.1	285
+p10000001274	r20000000820	RD000820	12820-1	LP5100014-DNA_C02	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001275	r20000000821	RD000821	12821-1	LP5100014-DNA_C03	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001278	r20000000822	RD000822	12822-1	LP5100014-DNA_C06	Intellectual disability	Intellectual disability	3.1	285
+p10000001279	r20000000823	RD000823	12823-1	LP5100014-DNA_C07	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001280	r20000000824	RD000824	12824-1	LP5100014-DNA_C08	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001281	r20000000825	RD000825	12825-1	LP5100014-DNA_C09	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001282	r20000000826	RD000826	12826-1	LP5100014-DNA_C10	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001283	r20000000827	RD000827	12827-2	LP5100014-DNA_C11	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000001286	r20000000828	RD000828	12828-1	LP5100014-DNA_D02	Intellectual disability	Intellectual disability	3.1	285
+p10000001289	r20000000829	RD000829	12829-1	LP5100014-DNA_D05	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001290	r20000000830	RD000830	12830-1	LP5100014-DNA_D06	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001291	r20000000831	RD000831	12831-1	LP5100014-DNA_D07	Skeletal dysplasia	Skeletal dysplasia	2.12	309
+p10000001292	r20000000832	RD000832	12832-2	LP5100014-DNA_D08	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001293	r20000000833	RD000833	12833-2	LP5100014-DNA_D09	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001294	r20000000834	RD000834	12834-1	LP5100014-DNA_D10	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001295	r20000000835	RD000835	12835-1	LP5100014-DNA_D11	Retinal disorders	Retinal disorders	3.2	307
+p10000001296	r20000000836	RD000836	12836-1	LP5100014-DNA_D12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001297	r20000000837	RD000837	12837-2	LP5100014-DNA_E01	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001298	r20000000838	RD000838	12838-1	LP5100014-DNA_E02	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001301	r20000000839	RD000839	12839-1	LP5100014-DNA_E05	Intellectual disability	Intellectual disability	3.1	285
+p10000001302	r20000000840	RD000840	12840-1	LP5100014-DNA_E06	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001305	r20000000841	RD000841	12841-1	LP5100014-DNA_E09	Intellectual disability	Intellectual disability	3.1	285
+p10000001306	r20000000842	RD000842	12842-1	LP5100014-DNA_E10	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001307	r20000000843	RD000843	12843-1	LP5100014-DNA_E11	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001308	r20000000844	RD000844	12844-1	LP5100014-DNA_E12	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001309	r20000000845	RD000845	12845-1	LP5100014-DNA_F01	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001310	r20000000846	RD000846	12846-1	LP5100014-DNA_F02	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000001313	r20000000847	RD000847	12847-1	LP5100014-DNA_F05	Intellectual disability	Intellectual disability	3.1	285
+p10000001316	r20000000848	RD000848	12848-1	LP5100014-DNA_F08	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001317	r20000000849	RD000849	12849-1	LP5100014-DNA_F09	Intellectual disability	Intellectual disability	3.1	285
+p10000001320	r20000000850	RD000850	12850-2	LP5100014-DNA_F12	Hereditary neuropathy or pain disorder	Charcot-Marie-Tooth disease	2.21	85
+p10000001321	r20000000851	RD000851	12851-1	LP5100014-DNA_G01	Retinal disorders	Retinal disorders	3.2	307
+p10000001324	r20000000852	RD000852	12852-1	LP5100014-DNA_G04	Intellectual disability	Intellectual disability	3.1	285
+p10000001327	r20000000853	RD000853	12853-1	LP5100014-DNA_G07	Unexplained young onset end-stage renal disease	Unexplained kidney failure in young people	1.75	292
+p10000001328	r20000000854	RD000854	12854-1	LP5100014-DNA_G08	Retinal disorders	Retinal disorders	3.2	307
+p10000001329	r20000000855	RD000855	12855-1	LP5100014-DNA_G09	Hereditary spastic paraplegia - adult onset	Hereditary spastic paraplegia - adult onset	1.62	235
+p10000001330	r20000000856	RD000856	12856-1	LP5100014-DNA_G10	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001331	r20000000857	RD000857	12857-1	LP5100014-DNA_G11	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001332	r20000000858	RD000858	12858-1	LP5100014-DNA_G12	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001333	r20000000859	RD000859	12859-1	LP5100014-DNA_H01	Intellectual disability	Intellectual disability	3.1	285
+p10000001334	r20000000860	RD000860	12860-2	LP5100014-DNA_H02	Retinal disorders	Retinal disorders	3.2	307
+p10000001335	r20000000861	RD000861	12861-1	LP5100014-DNA_H03	Intellectual disability	Intellectual disability	3.1	285
+p10000001338	r20000000862	RD000862	12862-1	LP5100014-DNA_H06	Intellectual disability	Intellectual disability	3.1	285
+p10000001339	r20000000863	RD000863	12863-1	LP5100014-DNA_H07	Early onset or syndromic epilepsy	Genetic epilepsy syndromes	2.4	402
+p10000001342	r20000000864	RD000864	12864-1	LP5100014-DNA_H10	Intellectual disability	Intellectual disability	3.1	285
+p10000001343	r20000000865	RD000865	12865-1	LP5100014-DNA_H11	Craniosynostosis	Craniosynostosis	2.8	168
+p10000001344	r20000000866	RD000866	12866-1	LP5100014-DNA_H12	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001345	r20000000867	RD000867	12867-1	LP5100015-DNA_A01	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001346	r20000000868	RD000868	12868-1	LP5100015-DNA_A02	Cystic renal disease	Cystic renal disease	2.3	21
+p10000001347	r20000000869	RD000869	12869-2	LP5100015-DNA_A03	Intellectual disability	Intellectual disability	3.1	285
+p10000001348	r20000000870	RD000870	12870-1	LP5100015-DNA_A04	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001349	r20000000871	RD000871	12871-1	LP5100015-DNA_A05	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001350	r20000000872	RD000872	12872-2	LP5100015-DNA_A06	Familial hypercholesterolaemia - targeted testing	Familial hypercholesterolaemia	1.12	772
+p10000001351	r20000000873	RD000873	12873-1	LP5100015-DNA_A07	Intellectual disability	Intellectual disability	3.1	285
+p10000001354	r20000000874	RD000874	12874-1	LP5100015-DNA_A10	Intellectual disability	Intellectual disability	3.1	285
+p10000001357	r20000000875	RD000875	12875-1	LP5100015-DNA_B01	Hereditary ataxia with onset in adulthood	Hereditary ataxia	1.32	9
+p10000001360	r20000000876	RD000876	12876-1	LP5100015-DNA_B04	Possible mitochondrial disorder - nuclear genes	Mitochondrial disorders	2.4	112
+p10000001361	r20000000877	RD000877	12877-1	LP5100015-DNA_B05	Intellectual disability	Intellectual disability	3.1	285
+p10000001362	r20000000878	RD000878	12878-1	LP5100015-DNA_B06	Intellectual disability	Intellectual disability	3.1	285
+p10000001365	r20000000879	RD000879	12879-1	LP5100015-DNA_B09	Intellectual disability	Intellectual disability	3.1	285
+p10000001368	r20000000880	RD000880	12880-1	LP5100015-DNA_B12	Intellectual disability	Intellectual disability	3.1	285
+p10000001369	r20000000881	RD000881	12881-1	LP5100015-DNA_C01	Intellectual disability	Intellectual disability	3.1	285
+p10000001370	r20000000882	RD000882	12882-2	LP5100015-DNA_C02	Monogenic hearing loss	Hearing loss	2.33	126
+p10000001371	r20000000883	RD000883	12883-1	LP5100015-DNA_C03	Intellectual disability	Intellectual disability	3.1	285
+p10000001374	r20000000884	RD000884	12884-1	LP5100015-DNA_C06	Intellectual disability	Intellectual disability	3.1	285
+p10000001377	r20000000885	RD000885	12885-1	LP5100015-DNA_C09	Primary immunodeficiency or monogenic inflammatory bowel disease	Primary immunodeficiency	2.8	398
+p10000001378	r20000000886	RD000886	12886-1	LP5100015-DNA_C10	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001379	r20000000887	RD000887	12887-1	LP5100015-DNA_C11	Hypertrophic cardiomyopathy - teen and adult	Hypertrophic cardiomyopathy	2.15	49
+p10000001380	r20000000888	RD000888	12888-1	LP5100015-DNA_C12	Hereditary parkinsonism	Parkinson Disease and Complex Parkinsonism	1.94	39
+p10000001381	r20000000889	RD000889	12889-1	LP5100015-DNA_D01	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001384	r20000000890	RD000890	12890-1	LP5100015-DNA_D04	Intellectual disability	Intellectual disability	3.1	285
+p10000001385	r20000000891	RD000891	12891-1	LP5100015-DNA_D05	Congenital anomaly of the kidney and urinary tract	CAKUT	1.18	234
+p10000001386	r20000000892	RD000892	12892-1	LP5100015-DNA_D06	Inherited polyposis and early onset colorectal cancer - germline testing	Familial colon cancer	1.3	254
+p10000001387	r20000000893	RD000893	12893-1	LP5100015-DNA_D07	Intellectual disability	Intellectual disability	3.1	285
+p10000001388	r20000000894	RD000894	12894-2	LP5100015-DNA_D08	Dilated cardiomyopathy - adult and teen	Dilated Cardiomyopathy and conduction defects	2.6	147
+p10000001389	r20000000895	RD000895	12895-1	LP5100015-DNA_D09	Inherited breast and ovarian cancer	Inherited breast cancer and ovarian cancer	1.1	158
+p10000001392	r20000000896	RD000896	12896-1	LP5100015-DNA_D12	Intellectual disability	Intellectual disability	3.1	285
+p10000001395	r20000000897	RD000897	12897-1	LP5100015-DNA_E03	Craniosynostosis	Craniosynostosis	2.8	168
+p10000001398	r20000000898	RD000898	12898-1	LP5100015-DNA_E06	Intellectual disability	Intellectual disability	3.1	285
+p10000001399	r20000000899	RD000899	12899-2	LP5100015-DNA_E07	Thoracic aortic aneurysm or dissection	Thoracic aortic aneurysm or dissection	1.4	700
+p10000001400	r20000000900	RD000900	12900-1	LP5100015-DNA_E08	Intellectual disability	Intellectual disability	3.1	285

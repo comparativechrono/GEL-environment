@@ -1,0 +1,28 @@
+participant_id	gene_of_interest	group	variant_of_interest	chromosome	position	reference	alternate	genome_build	zygosity	reporting_to_glh_date	notes
+119000305	22q11.2 deletion	Neurology and neurodevelopmental disorders	22q11.2 deletion					GRCh38	heterozygous	2022-04-17	Structural variant or repeat expansion found by research analysis
+119000453	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-09-21	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119000578	RFC1	Neurology and neurodevelopmental disorders	RFC1					GRCh38	heterozygous	2021-03-19	Structural variant or repeat expansion found by research analysis
+119001230	UNC13A	Neurology and neurodevelopmental disorders	NM_001080421.3:c.2394del p.(Tyr799PhefsTer57)	19	17660514	GC	G	GRCh38	heterozygous	2023-03-12	Candidate gene from a gene-based burden analysis; not yet in PanelApp
+119001756	16p11.2 deletion	Neurology and neurodevelopmental disorders	16p11.2 deletion					GRCh38	heterozygous	2023-01-26	Structural variant or repeat expansion found by research analysis
+119002042	C9orf72 expansion	Neurology and neurodevelopmental disorders	C9orf72 expansion					GRCh38	heterozygous	2023-04-27	Structural variant or repeat expansion found by research analysis
+119002245	PMP22 duplication	Neurology and neurodevelopmental disorders	PMP22 duplication					GRCh38	heterozygous	2023-03-20	Structural variant or repeat expansion found by research analysis
+119002283	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-09-10	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119002666	22q11.2 deletion	Neurology and neurodevelopmental disorders	22q11.2 deletion					GRCh38	heterozygous	2021-09-25	Structural variant or repeat expansion found by research analysis
+119003023	RFC1	Neurology and neurodevelopmental disorders	RFC1					GRCh38	heterozygous	2021-08-19	Structural variant or repeat expansion found by research analysis
+119003093	NPHP1 deletion	Renal and urinary tract disorders	NPHP1 deletion					GRCh38	heterozygous	2023-08-23	Structural variant or repeat expansion found by research analysis
+119003353	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-05-06	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119004953	1q21.1 deletion	Neurology and neurodevelopmental disorders	1q21.1 deletion					GRCh38	heterozygous	2022-10-20	Structural variant or repeat expansion found by research analysis
+119005013	PMP22 duplication	Neurology and neurodevelopmental disorders	PMP22 duplication					GRCh38	heterozygous	2023-05-11	Structural variant or repeat expansion found by research analysis
+119005149	RFC1	Neurology and neurodevelopmental disorders	RFC1					GRCh38	heterozygous	2021-11-01	Structural variant or repeat expansion found by research analysis
+119005216	1q21.1 deletion	Neurology and neurodevelopmental disorders	1q21.1 deletion					GRCh38	heterozygous	2023-09-12	Structural variant or repeat expansion found by research analysis
+119005790	FXN	Neurology and neurodevelopmental disorders	FXN					GRCh38	heterozygous	2022-11-30	Structural variant or repeat expansion found by research analysis
+119006015	FGF14	Neurology and neurodevelopmental disorders	FGF14					GRCh38	heterozygous	2022-06-28	Structural variant or repeat expansion found by research analysis
+119006202	PMP22 duplication	Neurology and neurodevelopmental disorders	PMP22 duplication					GRCh38	heterozygous	2022-12-20	Structural variant or repeat expansion found by research analysis
+119006499	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-09-17	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119006563	FXN	Neurology and neurodevelopmental disorders	FXN					GRCh38	heterozygous	2023-12-31	Structural variant or repeat expansion found by research analysis
+119006766	RBFOX3	Neurology and neurodevelopmental disorders	NM_001350451.2:c.4061C>T p.(His1354Tyr)	17	79183801	C	T	GRCh38	heterozygous	2024-03-08	Candidate gene from a gene-based burden analysis; not yet in PanelApp
+119007556	ATXN2	Neurology and neurodevelopmental disorders	ATXN2					GRCh38	heterozygous	2023-07-30	Structural variant or repeat expansion found by research analysis
+119007739	ATXN3	Neurology and neurodevelopmental disorders	ATXN3					GRCh38	heterozygous	2021-10-20	Structural variant or repeat expansion found by research analysis
+119007806	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-06-23	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119008197	RNU4-2	Neurology and neurodevelopmental disorders	NR_003137.3:n.64_65insT	12	120291839	A	AA	GRCh38	heterozygous	2024-08-10	De novo variant in RNU4-2 (ReNU syndrome); missed by tiering (non-coding)
+119008364	RBFOX3	Neurology and neurodevelopmental disorders	NM_001350451.2:c.413C>G p.(Tyr138Cys)	17	79190250	C	G	GRCh38	heterozygous	2023-11-30	Candidate gene from a gene-based burden analysis; not yet in PanelApp

@@ -1,0 +1,570 @@
+participant_id	anon_event_id	anon_tumour_id	number_of_tumours	eventcode	eventdesc	eventdate	providercode	providerdesc	trust_code	trust_name	within_six_months_flag	six_months_after_flag	opcs4_code	opcs4_name	radiocode	radiodesc
+p10000000082	5000001	5976	1	01a	Surgery – curative	2016-11-02	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	T871	Excision biopsy		
+p10000000118	5000007	6227	1	01a	Surgery – curative	2023-01-30	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000153	5000009	6230	1	01a	Surgery – curative	2023-12-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000211	5000015	5978	1	01a	Surgery – curative	2021-09-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000213	5000018	6234	1	01a	Surgery – curative	2023-12-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000249	5000019	6235	1	03	Hormone Therapy	2012-05-01	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	0	1				
+p10000000249	5000024	6235	1	01a	Surgery – curative	2011-11-09	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000288	5000027	6237	1	03	Hormone Therapy	2016-11-18	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000000290	5000032	6238	1	03	Hormone Therapy	2002-02-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000290	5000035	6238	1	01a	Surgery – curative	2002-02-20	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000296	5000041	6239	1	03	Hormone Therapy	2022-08-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000000296	5000047	6239	1	01a	Surgery – curative	2022-05-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000322	5000051	6240	1	03	Hormone Therapy	2018-03-25	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000000377	5000055	6241	1	03	Hormone Therapy	2023-02-12	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000000377	5000057	6241	1	01a	Surgery – curative	2023-01-07	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000391	5000058	6242	1	03	Hormone Therapy	2023-07-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000000391	5000062	6242	1	01a	Surgery – curative	2023-02-15	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000420	5000069	6243	1	03	Hormone Therapy	2002-12-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000420	5000072	6243	1	01a	Surgery – curative	2002-11-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000522	5000073	5983	2	01a	Surgery – curative	2011-05-14	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000552	5000077	5986	1	01a	Surgery – curative	2015-12-01	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000563	5000084	6244	1	03	Hormone Therapy	2020-09-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000000563	5000088	6244	1	01a	Surgery – curative	2020-07-02	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000618	5000095	6246	1	03	Hormone Therapy	2023-05-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000674	5000096	6247	1	03	Hormone Therapy	2009-05-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000674	5000104	6247	1	01a	Surgery – curative	2009-03-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000736	5000107	6248	1	01a	Surgery – curative	2023-08-16	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000798	5000111	6249	1	01a	Surgery – curative	2023-02-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000868	5000114	6250	1	03	Hormone Therapy	2023-06-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000868	5000117	6250	1	01a	Surgery – curative	2023-05-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000888	5000119	5988	1	01a	Surgery – curative	2018-03-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000941	5000123	6251	1	01a	Surgery – curative	1998-10-03	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000000984	5000129	6253	1	03	Hormone Therapy	2012-03-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000000996	5000137	5990	1	01a	Surgery – curative	2023-08-06	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001011	5000138	6254	1	03	Hormone Therapy	2023-12-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001064	5000139	6257	1	03	Hormone Therapy	2003-04-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001133	5000146	6258	1	01a	Surgery – curative	2022-11-15	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001177	5000147	5992	1	01a	Surgery – curative	2018-02-22	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001250	5000151	6261	1	03	Hormone Therapy	1996-03-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001250	5000156	6261	1	01a	Surgery – curative	1995-11-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001264	5000159	5993	1	03	Hormone Therapy	1998-02-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001297	5000160	6263	1	01a	Surgery – curative	2023-12-11	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001386	5000163	6265	1	01a	Surgery – curative	2020-07-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001389	5000167	6266	1	03	Hormone Therapy	2022-08-29	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001389	5000172	6266	1	01a	Surgery – curative	2022-05-15	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001401	5000174	4406	1	01a	Surgery – curative	2021-04-09	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	S061	Excision of lesion of skin		
+p10000001405	5000178	4410	2	01a	Surgery – curative	2023-05-06	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001405	5000181	4410	2	03	Hormone Therapy	2023-06-21	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001405	5000185	5994	2	03	Hormone Therapy	2015-11-21	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001405	5000192	5994	2	01a	Surgery – curative	2015-07-08	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001407	5000194	4412	1	01a	Surgery – curative	2021-10-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001408	5000202	4413	1	01a	Surgery – curative	2022-05-13	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	M343	Cystectomy		
+p10000001408	5000207	4413	1	05	RT – Teletherapy	2022-06-12	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001410	5000211	4415	1	01a	Surgery – curative	2022-05-31	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	M021	Total nephrectomy		
+p10000001411	5000215	4416	1	01a	Surgery – curative	2022-03-06	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001411	5000222	4416	1	02	Cytotoxic Chemotherapy	2022-03-08	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001414	5000225	4419	1	01a	Surgery – curative	2022-02-07	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001414	5000233	4419	1	02	Cytotoxic Chemotherapy	2022-02-10	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001415	5000235	4420	2	01a	Surgery – curative	2023-12-07	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001415	5000241	5995	2	01a	Surgery – curative	2012-12-10	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001416	5000245	4421	1	01a	Surgery – curative	2023-01-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001417	5000252	4422	1	01a	Surgery – curative	2021-04-17	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001418	5000253	4423	1	01a	Surgery – curative	2021-12-24	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001418	5000258	4423	1	02	Cytotoxic Chemotherapy	2022-02-20	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001420	5000265	5996	2	01a	Surgery – curative	2019-02-19	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001421	5000268	4426	1	01a	Surgery – curative	2023-04-05	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001424	5000272	4429	1	02	Cytotoxic Chemotherapy	2022-12-10	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001425	5000276	4430	1	01a	Surgery – curative	2021-04-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001425	5000283	4430	1	02	Cytotoxic Chemotherapy	2021-05-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001431	5000288	4436	1	01a	Surgery – curative	2023-06-04	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001432	5000291	4437	1	01a	Surgery – curative	2023-06-24	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001432	5000296	4437	1	05	RT – Teletherapy	2023-08-12	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001434	5000297	4439	2	01a	Surgery – curative	2023-01-04	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001435	5000300	4440	1	01a	Surgery – curative	2022-09-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001436	5000304	4441	1	01a	Surgery – curative	2022-12-18	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	M611	Total excision of prostate		
+p10000001436	5000310	4441	1	05	RT – Teletherapy	2023-03-26	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0			1	EXTERNAL BEAM
+p10000001437	5000318	4442	2	01a	Surgery – curative	2022-05-24	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001437	5000325	4442	2	15	Immunotherapy	2022-07-29	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001438	5000328	4443	1	03	Hormone Therapy	2022-10-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001439	5000334	4444	1	01a	Surgery – curative	2022-04-10	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001439	5000340	4444	1	02	Cytotoxic Chemotherapy	2022-04-26	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001440	5000348	4445	1	02	Cytotoxic Chemotherapy	2022-10-08	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001441	5000354	4446	1	01a	Surgery – curative	2023-06-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001441	5000358	4446	1	02	Cytotoxic Chemotherapy	2023-06-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001442	5000364	4447	1	02	Cytotoxic Chemotherapy	2023-11-17	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001444	5000371	4449	1	01a	Surgery – curative	2023-03-05	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001444	5000377	4449	1	05	RT – Teletherapy	2023-04-26	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001444	5000378	4449	1	03	Hormone Therapy	2023-04-23	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001446	5000381	4451	1	01a	Surgery – curative	2022-03-19	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001446	5000385	4451	1	05	RT – Teletherapy	2022-08-17	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	0	1			1	EXTERNAL BEAM
+p10000001448	5000393	4453	1	01a	Surgery – curative	2022-07-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001448	5000400	4453	1	05	RT – Teletherapy	2022-12-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001449	5000407	4454	1	01a	Surgery – curative	2022-01-06	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	H073	Right hemicolectomy		
+p10000001449	5000411	4454	1	02	Cytotoxic Chemotherapy	2022-01-30	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001453	5000418	6000	1	03	Hormone Therapy	2022-02-12	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001453	5000421	6000	1	01a	Surgery – curative	2021-11-24	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001454	5000427	4459	1	02	Cytotoxic Chemotherapy	2021-06-17	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001456	5000433	4461	2	01a	Surgery – curative	2022-12-30	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001456	5000438	4461	2	05	RT – Teletherapy	2023-02-01	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001456	5000440	6001	2	01a	Surgery – curative	2012-11-26	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001457	5000443	4462	1	01a	Surgery – curative	2022-10-06	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001457	5000449	4462	1	03	Hormone Therapy	2022-11-24	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001459	5000457	4464	1	15	Immunotherapy	2023-03-20	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001461	5000459	4466	1	01a	Surgery – curative	2022-07-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001461	5000467	4466	1	02	Cytotoxic Chemotherapy	2022-07-28	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001461	5000470	4466	1	05	RT – Teletherapy	2022-10-31	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001464	5000472	4469	1	02	Cytotoxic Chemotherapy	2022-06-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001466	5000476	4471	1	01a	Surgery – curative	2021-03-27	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001466	5000483	4471	1	05	RT – Teletherapy	2021-05-22	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001467	5000484	4472	1	01a	Surgery – curative	2022-07-11	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001467	5000490	4472	1	02	Cytotoxic Chemotherapy	2022-09-17	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001468	5000495	4473	2	01a	Surgery – curative	2022-07-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001468	5000499	4473	2	02	Cytotoxic Chemotherapy	2022-09-03	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001468	5000502	4473	2	05	RT – Teletherapy	2022-12-02	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001469	5000504	4474	1	01a	Surgery – curative	2021-09-11	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	N051	Orchidectomy		
+p10000001470	5000506	4475	1	01a	Surgery – curative	2022-05-09	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001470	5000512	4475	1	05	RT – Teletherapy	2022-08-13	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001471	5000516	4476	1	01a	Surgery – curative	2022-12-30	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001471	5000523	4476	1	02	Cytotoxic Chemotherapy	2023-02-04	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001473	5000527	4478	1	01a	Surgery – curative	2022-03-21	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001473	5000533	4478	1	02	Cytotoxic Chemotherapy	2022-04-21	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001474	5000534	4479	1	01a	Surgery – curative	2022-03-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001476	5000542	4481	1	01a	Surgery – curative	2022-08-16	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001476	5000544	4481	1	05	RT – Teletherapy	2022-09-02	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001476	5000552	4481	1	03	Hormone Therapy	2022-10-21	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001477	5000559	4482	1	01a	Surgery – curative	2021-04-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001479	5000566	4484	1	01a	Surgery – curative	2021-11-10	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001481	5000571	4486	1	01a	Surgery – curative	2022-01-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001483	5000578	4488	1	01a	Surgery – curative	2021-10-08	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001485	5000581	4490	1	05	RT – Teletherapy	2022-12-14	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001485	5000583	4490	1	01a	Surgery – curative	2022-12-15	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	F343	Excision of tonsil		
+p10000001486	5000591	4491	1	01a	Surgery – curative	2023-06-20	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001487	5000597	4492	1	01a	Surgery – curative	2022-07-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001487	5000600	4492	1	05	RT – Teletherapy	2022-08-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001489	5000602	4494	1	01a	Surgery – curative	2022-09-27	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001489	5000607	4494	1	02	Cytotoxic Chemotherapy	2022-11-05	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001491	5000611	4496	2	01a	Surgery – curative	2023-10-01	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001491	5000615	6003	2	01a	Surgery – curative	2007-08-28	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001492	5000618	4497	2	03	Hormone Therapy	2022-04-30	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001493	5000619	4498	1	01a	Surgery – curative	2022-09-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001494	5000621	4499	2	01a	Surgery – curative	2022-06-14	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001494	5000629	4499	2	05	RT – Teletherapy	2022-09-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001494	5000637	6005	2	01a	Surgery – curative	2001-09-08	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001498	5000643	4503	1	01a	Surgery – curative	2022-12-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001501	5000647	4506	1	01a	Surgery – curative	2021-12-14	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001501	5000653	4506	1	02	Cytotoxic Chemotherapy	2022-01-22	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001502	5000657	4507	1	01a	Surgery – curative	2021-03-29	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001502	5000661	4507	1	02	Cytotoxic Chemotherapy	2021-04-13	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001503	5000665	4508	1	01a	Surgery – curative	2022-10-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	M343	Cystectomy		
+p10000001504	5000672	4509	1	01a	Surgery – curative	2021-06-26	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001505	5000675	4510	1	01a	Surgery – curative	2021-11-09	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001505	5000681	4510	1	02	Cytotoxic Chemotherapy	2021-11-30	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001505	5000684	4510	1	05	RT – Teletherapy	2022-02-04	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001506	5000691	4511	1	01a	Surgery – curative	2023-08-02	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001506	5000696	4511	1	02	Cytotoxic Chemotherapy	2023-08-25	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001508	5000701	4513	1	02	Cytotoxic Chemotherapy	2023-03-25	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001508	5000704	4513	1	05	RT – Teletherapy	2023-05-20	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001510	5000708	4515	1	01a	Surgery – curative	2021-05-13	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	S061	Excision of lesion of skin		
+p10000001510	5000712	4515	1	15	Immunotherapy	2021-06-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001511	5000718	4516	1	01a	Surgery – curative	2021-04-04	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001512	5000724	4517	1	02	Cytotoxic Chemotherapy	2022-06-29	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001512	5000731	4517	1	05	RT – Teletherapy	2022-07-22	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001512	5000736	4517	1	03	Hormone Therapy	2022-07-19	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001513	5000738	4518	2	05	RT – Teletherapy	2022-02-25	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001513	5000739	6006	2	03	Hormone Therapy	2022-04-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	0	1				
+p10000001513	5000741	6006	2	01a	Surgery – curative	2021-11-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001515	5000746	6007	1	01a	Surgery – curative	2021-03-01	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001516	5000751	4521	1	01a	Surgery – curative	2022-08-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001517	5000755	4522	1	01a	Surgery – curative	2021-02-27	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001517	5000758	4522	1	02	Cytotoxic Chemotherapy	2021-04-19	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001518	5000763	4523	1	01a	Surgery – curative	2021-05-13	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001520	5000764	4525	1	01a	Surgery – curative	2021-09-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001521	5000767	4526	1	01a	Surgery – curative	2021-04-23	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001521	5000769	4526	1	05	RT – Teletherapy	2021-05-01	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001522	5000773	4527	1	01a	Surgery – curative	2022-02-10	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001523	5000776	4528	1	01a	Surgery – curative	2023-04-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001524	5000777	6008	2	03	Hormone Therapy	2018-01-17	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001524	5000780	6008	2	01a	Surgery – curative	2017-10-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001524	5000783	6009	2	03	Hormone Therapy	2019-02-13	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001525	5000791	4530	1	01a	Surgery – curative	2023-03-09	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001526	5000799	4531	2	01a	Surgery – curative	2021-12-06	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001529	5000806	4534	1	01a	Surgery – curative	2023-11-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001530	5000811	4535	1	01a	Surgery – curative	2022-02-21	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001530	5000812	4535	1	05	RT – Teletherapy	2022-04-22	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001531	5000820	4536	1	01a	Surgery – curative	2023-05-16	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001531	5000824	4536	1	02	Cytotoxic Chemotherapy	2023-07-01	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001532	5000827	4537	1	05	RT – Teletherapy	2021-12-02	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001533	5000833	4538	1	01a	Surgery – curative	2023-05-31	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001536	5000839	4541	1	01a	Surgery – curative	2022-07-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001536	5000844	4541	1	02	Cytotoxic Chemotherapy	2022-11-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001537	5000852	4542	1	15	Immunotherapy	2021-10-28	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001538	5000860	4543	1	01a	Surgery – curative	2022-05-15	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001538	5000865	4543	1	02	Cytotoxic Chemotherapy	2022-07-06	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001542	5000868	4547	1	01a	Surgery – curative	2023-01-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001542	5000874	4547	1	05	RT – Teletherapy	2023-06-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001543	5000879	4548	1	01a	Surgery – curative	2023-03-02	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001544	5000882	4549	1	01a	Surgery – curative	2022-11-15	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001544	5000885	4549	1	02	Cytotoxic Chemotherapy	2023-01-01	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001546	5000887	4551	1	01a	Surgery – curative	2022-11-11	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	N051	Orchidectomy		
+p10000001547	5000893	4552	1	01a	Surgery – curative	2023-04-14	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001548	5000895	4553	1	01a	Surgery – curative	2021-06-13	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001548	5000903	4553	1	02	Cytotoxic Chemotherapy	2021-07-01	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001549	5000905	4554	1	01a	Surgery – curative	2022-11-21	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001552	5000909	6011	2	01a	Surgery – curative	2010-04-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001553	5000917	4558	1	01a	Surgery – curative	2022-05-02	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	M021	Total nephrectomy		
+p10000001555	5000919	4560	1	01a	Surgery – curative	2021-03-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001555	5000923	4560	1	05	RT – Teletherapy	2021-07-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001556	5000925	4561	1	01a	Surgery – curative	2022-03-29	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001556	5000930	4561	1	03	Hormone Therapy	2022-06-13	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001558	5000934	4563	1	01a	Surgery – curative	2023-06-13	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001558	5000936	4563	1	02	Cytotoxic Chemotherapy	2023-08-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001559	5000938	4564	1	01a	Surgery – curative	2021-11-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001559	5000945	4564	1	05	RT – Teletherapy	2022-05-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	0	1			1	EXTERNAL BEAM
+p10000001561	5000953	4566	1	05	RT – Teletherapy	2023-09-11	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001561	5000957	4566	1	01a	Surgery – curative	2023-10-03	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001561	5000963	4566	1	02	Cytotoxic Chemotherapy	2023-11-17	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001561	5000965	4566	1	03	Hormone Therapy	2023-12-04	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001562	5000966	4567	1	01a	Surgery – curative	2021-10-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001563	5000973	4568	1	01a	Surgery – curative	2022-05-12	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001564	5000980	4569	1	01a	Surgery – curative	2023-08-12	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001564	5000984	4569	1	02	Cytotoxic Chemotherapy	2023-09-20	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001565	5000990	4570	1	05	RT – Teletherapy	2022-09-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001565	5000994	4570	1	03	Hormone Therapy	2022-11-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001566	5000995	4571	1	01a	Surgery – curative	2022-01-29	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001566	5000999	4571	1	05	RT – Teletherapy	2022-04-24	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0			1	EXTERNAL BEAM
+p10000001567	5001006	4572	1	03	Hormone Therapy	2021-05-17	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001568	5001009	4573	1	01a	Surgery – curative	2023-05-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001568	5001016	4573	1	02	Cytotoxic Chemotherapy	2023-05-31	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001569	5001018	4574	1	01a	Surgery – curative	2021-12-10	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001569	5001021	4574	1	02	Cytotoxic Chemotherapy	2022-01-27	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001570	5001027	4575	1	01a	Surgery – curative	2022-11-20	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001570	5001032	4575	1	05	RT – Teletherapy	2023-03-24	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001572	5001033	4577	1	01a	Surgery – curative	2021-04-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001572	5001040	4577	1	05	RT – Teletherapy	2021-04-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001572	5001046	4577	1	03	Hormone Therapy	2021-09-12	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	0	1				
+p10000001574	5001052	4579	1	01a	Surgery – curative	2021-02-22	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001575	5001059	4580	1	05	RT – Teletherapy	2023-07-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001575	5001060	4580	1	01a	Surgery – curative	2023-07-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001576	5001068	4581	1	02	Cytotoxic Chemotherapy	2021-07-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001576	5001069	4581	1	05	RT – Teletherapy	2021-10-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001577	5001073	4582	1	01a	Surgery – curative	2023-10-09	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001578	5001077	4583	1	01a	Surgery – curative	2022-06-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001578	5001082	4583	1	02	Cytotoxic Chemotherapy	2022-06-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001579	5001084	4584	1	01a	Surgery – curative	2022-05-21	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	B275	Total mastectomy		
+p10000001579	5001085	4584	1	02	Cytotoxic Chemotherapy	2022-06-28	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001579	5001090	4584	1	05	RT – Teletherapy	2022-07-01	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0			1	EXTERNAL BEAM
+p10000001579	5001096	4584	1	03	Hormone Therapy	2022-07-14	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001580	5001099	4585	1	01a	Surgery – curative	2022-04-21	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001581	5001102	4586	1	01a	Surgery – curative	2023-09-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	S061	Excision of lesion of skin		
+p10000001581	5001106	4586	1	05	RT – Teletherapy	2023-11-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001582	5001107	4587	1	01a	Surgery – curative	2022-10-23	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001582	5001108	4587	1	05	RT – Teletherapy	2023-02-01	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001583	5001113	4588	1	01a	Surgery – curative	2021-04-24	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001583	5001117	4588	1	03	Hormone Therapy	2021-09-12	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001584	5001119	4589	1	01a	Surgery – curative	2023-01-25	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001585	5001127	4590	1	01a	Surgery – curative	2022-07-31	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001585	5001128	4590	1	05	RT – Teletherapy	2022-08-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001585	5001133	4590	1	03	Hormone Therapy	2022-10-14	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001586	5001134	4591	1	01a	Surgery – curative	2021-05-21	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001588	5001139	4593	1	01a	Surgery – curative	2023-07-09	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001589	5001142	4594	1	01a	Surgery – curative	2021-06-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001589	5001145	4594	1	02	Cytotoxic Chemotherapy	2021-08-01	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001589	5001149	4594	1	05	RT – Teletherapy	2021-10-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001590	5001150	4595	1	01a	Surgery – curative	2023-10-22	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001591	5001152	4596	1	01a	Surgery – curative	2023-10-10	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001591	5001155	4596	1	05	RT – Teletherapy	2023-11-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001591	5001159	4596	1	03	Hormone Therapy	2023-12-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001593	5001166	4598	1	01a	Surgery – curative	2021-10-19	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001593	5001174	4598	1	05	RT – Teletherapy	2021-12-18	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001593	5001180	4598	1	02	Cytotoxic Chemotherapy	2022-01-08	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001594	5001186	4599	1	01a	Surgery – curative	2021-08-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001599	5001191	4604	1	02	Cytotoxic Chemotherapy	2021-11-29	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001599	5001196	4604	1	01a	Surgery – curative	2021-12-09	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001600	5001200	4605	1	01a	Surgery – curative	2023-07-09	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001600	5001205	4605	1	05	RT – Teletherapy	2023-11-12	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	0	1			1	EXTERNAL BEAM
+p10000001601	5001209	4606	1	01a	Surgery – curative	2023-03-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001605	5001212	4610	2	01a	Surgery – curative	2022-11-18	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	B282	Partial excision of breast		
+p10000001605	5001219	4610	2	02	Cytotoxic Chemotherapy	2022-12-09	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001605	5001220	4610	2	03	Hormone Therapy	2023-02-06	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001605	5001221	6012	2	01a	Surgery – curative	2021-10-31	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	T871	Excision biopsy		
+p10000001606	5001226	4611	1	02	Cytotoxic Chemotherapy	2021-12-05	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001608	5001232	4613	1	01a	Surgery – curative	2023-01-01	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001608	5001239	4613	1	02	Cytotoxic Chemotherapy	2023-01-15	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001614	5001241	4619	1	01a	Surgery – curative	2023-09-12	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001615	5001248	4620	1	01a	Surgery – curative	2021-12-06	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001617	5001254	4622	1	02	Cytotoxic Chemotherapy	2021-07-25	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001617	5001262	4622	1	01a	Surgery – curative	2021-08-08	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001617	5001270	4622	1	05	RT – Teletherapy	2021-11-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001618	5001276	4623	1	15	Immunotherapy	2021-12-13	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001619	5001278	4624	1	01a	Surgery – curative	2022-09-09	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001621	5001279	6013	1	01a	Surgery – curative	2014-02-21	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001622	5001284	4627	1	02	Cytotoxic Chemotherapy	2021-03-27	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001622	5001286	4627	1	01a	Surgery – curative	2021-05-05	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001623	5001289	4628	1	01a	Surgery – curative	2021-09-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001623	5001295	4628	1	02	Cytotoxic Chemotherapy	2021-10-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001626	5001298	4631	1	01a	Surgery – curative	2022-10-05	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001626	5001305	4631	1	02	Cytotoxic Chemotherapy	2022-10-18	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001626	5001313	4631	1	05	RT – Teletherapy	2022-11-06	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001626	5001320	4631	1	03	Hormone Therapy	2022-12-19	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001628	5001326	4633	2	01a	Surgery – curative	2022-04-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001628	5001334	4633	2	05	RT – Teletherapy	2022-06-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001628	5001341	4633	2	03	Hormone Therapy	2022-07-30	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001628	5001343	6014	2	01a	Surgery – curative	2017-01-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001629	5001345	4634	1	01a	Surgery – curative	2022-08-04	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001629	5001353	4634	1	05	RT – Teletherapy	2022-09-05	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001629	5001361	4634	1	03	Hormone Therapy	2022-11-07	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001630	5001363	4635	2	01a	Surgery – curative	2023-04-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001630	5001368	4635	2	05	RT – Teletherapy	2023-08-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001630	5001373	4635	2	03	Hormone Therapy	2023-06-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001634	5001380	6017	1	01a	Surgery – curative	2017-10-02	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001635	5001387	4640	1	01a	Surgery – curative	2023-04-23	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001635	5001390	4640	1	02	Cytotoxic Chemotherapy	2023-06-19	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001636	5001398	4641	1	01a	Surgery – curative	2021-06-19	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001638	5001399	4643	1	01a	Surgery – curative	2023-05-13	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001638	5001405	4643	1	02	Cytotoxic Chemotherapy	2023-05-20	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001639	5001408	4644	1	01a	Surgery – curative	2023-08-26	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001639	5001411	4644	1	02	Cytotoxic Chemotherapy	2023-10-21	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001639	5001414	4644	1	03	Hormone Therapy	2023-11-19	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001640	5001415	4645	1	01a	Surgery – curative	2023-07-11	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001641	5001417	4646	1	01a	Surgery – curative	2023-10-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001643	5001423	4648	1	05	RT – Teletherapy	2021-09-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001644	5001431	4649	1	01a	Surgery – curative	2023-09-03	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	H073	Right hemicolectomy		
+p10000001646	5001434	4651	1	01a	Surgery – curative	2023-08-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001646	5001442	4651	1	05	RT – Teletherapy	2023-11-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001646	5001450	4651	1	03	Hormone Therapy	2023-09-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001647	5001458	4652	1	01a	Surgery – curative	2023-02-03	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001648	5001466	4653	1	01a	Surgery – curative	2023-10-17	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001649	5001471	4654	1	01a	Surgery – curative	2022-04-07	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001652	5001475	4657	2	01a	Surgery – curative	2021-10-29	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001652	5001481	4657	2	03	Hormone Therapy	2022-03-05	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	0	1				
+p10000001652	5001489	6018	2	01a	Surgery – curative	2007-12-13	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001653	5001492	4658	3	01a	Surgery – curative	2022-09-02	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001653	5001494	4658	3	02	Cytotoxic Chemotherapy	2022-09-13	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001653	5001495	4658	3	03	Hormone Therapy	2022-09-24	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001653	5001502	6019	3	01a	Surgery – curative	2010-08-21	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001653	5001505	6020	3	03	Hormone Therapy	2019-10-23	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001653	5001506	6020	3	01a	Surgery – curative	2019-09-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001658	5001512	4663	1	01a	Surgery – curative	2021-04-21	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001658	5001517	4663	1	02	Cytotoxic Chemotherapy	2021-06-07	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001659	5001519	4664	1	01a	Surgery – curative	2021-10-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001660	5001526	4665	1	02	Cytotoxic Chemotherapy	2022-05-21	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001661	5001528	4666	1	01a	Surgery – curative	2021-12-31	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001663	5001534	4668	1	03	Hormone Therapy	2023-08-01	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001664	5001540	4669	1	01a	Surgery – curative	2022-07-08	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001668	5001546	4673	1	01a	Surgery – curative	2023-12-14	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001669	5001552	6021	2	01a	Surgery – curative	1996-06-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001671	5001558	4676	1	01a	Surgery – curative	2023-04-06	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001671	5001565	4676	1	05	RT – Teletherapy	2023-08-26	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001672	5001566	4677	1	01a	Surgery – curative	2021-08-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001673	5001571	4678	1	01a	Surgery – curative	2023-02-15	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001673	5001578	4678	1	02	Cytotoxic Chemotherapy	2023-04-22	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001673	5001586	4678	1	03	Hormone Therapy	2023-04-03	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001674	5001588	4679	1	01a	Surgery – curative	2022-01-16	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001674	5001590	4679	1	05	RT – Teletherapy	2022-02-05	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001675	5001594	4680	2	01a	Surgery – curative	2023-08-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001675	5001596	4680	2	05	RT – Teletherapy	2023-09-11	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001675	5001601	6022	2	01a	Surgery – curative	2015-07-15	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001676	5001609	4681	1	01a	Surgery – curative	2023-12-15	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001681	5001617	4686	1	01a	Surgery – curative	2022-09-24	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001681	5001619	4686	1	05	RT – Teletherapy	2023-01-03	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001682	5001622	4687	2	01a	Surgery – curative	2021-03-31	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001682	5001624	4687	2	02	Cytotoxic Chemotherapy	2021-06-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001683	5001630	4688	1	01a	Surgery – curative	2022-03-12	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	M021	Total nephrectomy		
+p10000001684	5001638	4689	1	01a	Surgery – curative	2022-11-24	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001684	5001645	4689	1	02	Cytotoxic Chemotherapy	2023-01-02	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001684	5001652	4689	1	05	RT – Teletherapy	2023-01-16	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001685	5001653	4690	1	02	Cytotoxic Chemotherapy	2022-10-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001685	5001656	4690	1	01a	Surgery – curative	2022-10-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001687	5001662	4692	1	01a	Surgery – curative	2022-03-03	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001687	5001666	4692	1	02	Cytotoxic Chemotherapy	2022-04-26	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001687	5001672	4692	1	05	RT – Teletherapy	2022-06-11	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001690	5001678	4695	1	01a	Surgery – curative	2023-07-04	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001691	5001681	4696	1	01a	Surgery – curative	2022-12-24	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001691	5001683	4696	1	03	Hormone Therapy	2023-01-31	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001693	5001687	4698	1	01a	Surgery – curative	2023-07-06	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001693	5001691	4698	1	02	Cytotoxic Chemotherapy	2023-10-07	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001693	5001696	4698	1	05	RT – Teletherapy	2023-12-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001696	5001698	4701	1	01a	Surgery – curative	2023-03-07	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001696	5001699	4701	1	02	Cytotoxic Chemotherapy	2023-04-13	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001696	5001700	4701	1	02	Cytotoxic Chemotherapy	2023-09-18	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	0	1				
+p10000001697	5001702	4702	1	01a	Surgery – curative	2023-08-02	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001697	5001709	4702	1	05	RT – Teletherapy	2023-12-03	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001698	5001715	4703	1	01a	Surgery – curative	2022-09-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001698	5001720	4703	1	05	RT – Teletherapy	2023-01-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001698	5001725	4703	1	03	Hormone Therapy	2023-01-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001699	5001726	4704	1	02	Cytotoxic Chemotherapy	2022-04-26	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001699	5001727	4704	1	01a	Surgery – curative	2022-05-28	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001701	5001733	4706	1	02	Cytotoxic Chemotherapy	2023-05-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001701	5001739	4706	1	03	Hormone Therapy	2023-07-24	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001705	5001742	4710	2	01a	Surgery – curative	2022-03-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001706	5001749	4711	1	01a	Surgery – curative	2023-04-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001706	5001757	4711	1	03	Hormone Therapy	2023-06-30	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001707	5001759	4712	1	01a	Surgery – curative	2022-10-29	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001707	5001765	4712	1	05	RT – Teletherapy	2023-03-11	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	0	1			1	EXTERNAL BEAM
+p10000001708	5001772	4713	1	01a	Surgery – curative	2021-08-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001710	5001774	4715	1	01a	Surgery – curative	2021-09-08	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001710	5001780	4715	1	05	RT – Teletherapy	2021-09-29	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001710	5001784	4715	1	03	Hormone Therapy	2021-10-25	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001712	5001788	4717	1	01a	Surgery – curative	2022-03-06	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001712	5001794	4717	1	05	RT – Teletherapy	2022-05-27	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001713	5001798	4718	1	01a	Surgery – curative	2023-10-09	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001714	5001802	4719	1	02	Cytotoxic Chemotherapy	2023-05-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001715	5001808	4720	1	01a	Surgery – curative	2023-12-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001718	5001809	4723	1	01a	Surgery – curative	2023-04-04	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001718	5001815	4723	1	05	RT – Teletherapy	2023-05-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001719	5001821	4724	1	01a	Surgery – curative	2023-04-17	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001721	5001827	4726	1	01a	Surgery – curative	2023-10-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001721	5001835	4726	1	02	Cytotoxic Chemotherapy	2023-11-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001723	5001842	4728	1	01a	Surgery – curative	2022-07-07	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001723	5001846	4728	1	03	Hormone Therapy	2022-12-16	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001725	5001849	4730	1	01a	Surgery – curative	2022-05-24	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001725	5001853	4730	1	05	RT – Teletherapy	2022-06-14	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001725	5001860	4730	1	03	Hormone Therapy	2022-08-23	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0				
+p10000001726	5001866	4731	1	01a	Surgery – curative	2022-07-02	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	S061	Excision of lesion of skin		
+p10000001726	5001872	4731	1	15	Immunotherapy	2022-09-02	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001734	5001878	4739	1	01a	Surgery – curative	2021-10-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001735	5001880	4740	1	01a	Surgery – curative	2022-12-05	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	M021	Total nephrectomy		
+p10000001736	5001884	4741	1	01a	Surgery – curative	2023-12-18	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001737	5001889	4742	2	01a	Surgery – curative	2022-10-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001737	5001896	4742	2	02	Cytotoxic Chemotherapy	2022-11-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001737	5001901	6026	2	03	Hormone Therapy	2011-08-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	0	1				
+p10000001737	5001909	6026	2	01a	Surgery – curative	2011-03-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001739	5001912	4744	1	01a	Surgery – curative	2022-01-21	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001739	5001917	4744	1	05	RT – Teletherapy	2022-03-23	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001739	5001919	4744	1	02	Cytotoxic Chemotherapy	2022-03-31	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001740	5001925	4745	1	01a	Surgery – curative	2023-05-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001740	5001928	4745	1	02	Cytotoxic Chemotherapy	2023-06-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001740	5001934	4745	1	05	RT – Teletherapy	2023-09-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001740	5001942	4745	1	03	Hormone Therapy	2023-06-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0				
+p10000001741	5001946	4746	1	05	RT – Teletherapy	2023-11-05	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001741	5001950	4746	1	01a	Surgery – curative	2023-11-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001742	5001956	4747	1	01a	Surgery – curative	2022-03-05	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001742	5001957	4747	1	05	RT – Teletherapy	2022-04-16	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001742	5001960	4747	1	02	Cytotoxic Chemotherapy	2022-04-30	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001743	5001966	4748	1	02	Cytotoxic Chemotherapy	2022-10-16	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001743	5001967	4748	1	01a	Surgery – curative	2022-10-27	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001744	5001969	4749	1	01a	Surgery – curative	2021-09-19	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M343	Cystectomy		
+p10000001746	5001974	4751	1	02	Cytotoxic Chemotherapy	2022-08-05	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001746	5001978	4751	1	05	RT – Teletherapy	2022-08-10	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001747	5001982	4752	1	01a	Surgery – curative	2023-07-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001747	5001988	4752	1	02	Cytotoxic Chemotherapy	2023-08-20	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001747	5001991	4752	1	05	RT – Teletherapy	2023-09-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001747	5001997	4752	1	03	Hormone Therapy	2023-09-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001749	5001998	4754	2	01a	Surgery – curative	2022-11-27	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	Q074	Abdominal hysterectomy and bilateral salpingo-oophorectomy		
+p10000001749	5002003	4754	2	02	Cytotoxic Chemotherapy	2022-12-15	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001749	5002008	4754	2	02	Cytotoxic Chemotherapy	2023-06-16	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	0	1				
+p10000001749	5002011	6028	2	01a	Surgery – curative	2007-06-24	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001750	5002014	4755	2	01a	Surgery – curative	2023-01-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001752	5002018	4757	4	01a	Surgery – curative	2022-06-18	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001752	5002024	6030	4	01a	Surgery – curative	2004-10-14	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001752	5002031	6031	4	01a	Surgery – curative	2017-11-29	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001752	5002037	6032	4	03	Hormone Therapy	2019-09-27	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001752	5002042	6032	4	01a	Surgery – curative	2019-05-20	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001753	5002047	4758	1	01a	Surgery – curative	2021-06-14	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001753	5002048	4758	1	05	RT – Teletherapy	2021-08-26	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001754	5002053	4759	1	01a	Surgery – curative	2023-06-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001754	5002060	4759	1	02	Cytotoxic Chemotherapy	2023-07-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001755	5002062	4760	1	01a	Surgery – curative	2023-12-05	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001756	5002070	4761	1	01a	Surgery – curative	2023-09-12	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001756	5002072	4761	1	03	Hormone Therapy	2023-10-01	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001757	5002076	4762	1	01a	Surgery – curative	2022-06-02	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001757	5002078	4762	1	05	RT – Teletherapy	2022-08-21	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001759	5002082	4764	1	01a	Surgery – curative	2023-04-08	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001760	5002090	4765	1	01a	Surgery – curative	2023-07-10	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001760	5002097	4765	1	15	Immunotherapy	2023-08-20	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001760	5002101	4765	1	05	RT – Teletherapy	2023-10-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001761	5002108	4766	1	01a	Surgery – curative	2023-08-06	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	F343	Excision of tonsil		
+p10000001765	5002111	4770	1	02	Cytotoxic Chemotherapy	2023-06-28	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001765	5002119	4770	1	01a	Surgery – curative	2023-07-08	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001765	5002121	4770	1	05	RT – Teletherapy	2023-08-07	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001766	5002129	4771	1	01a	Surgery – curative	2021-07-18	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		
+p10000001767	5002135	4772	1	01a	Surgery – curative	2023-05-29	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001768	5002138	4773	1	01a	Surgery – curative	2023-02-01	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001768	5002143	4773	1	05	RT – Teletherapy	2023-04-15	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001768	5002151	4773	1	02	Cytotoxic Chemotherapy	2023-05-06	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001769	5002153	4774	1	01a	Surgery – curative	2022-01-14	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001773	5002155	4778	1	02	Cytotoxic Chemotherapy	2021-05-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001773	5002157	4778	1	01a	Surgery – curative	2021-05-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001774	5002162	4779	1	01a	Surgery – curative	2021-09-12	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	A021	Excision of lesion of tissue of brain		
+p10000001774	5002166	4779	1	02	Cytotoxic Chemotherapy	2021-11-04	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001774	5002168	4779	1	05	RT – Teletherapy	2021-11-17	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0			1	EXTERNAL BEAM
+p10000001777	5002172	4782	1	01a	Surgery – curative	2021-10-28	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001778	5002173	4783	1	01a	Surgery – curative	2023-07-05	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001778	5002178	4783	1	02	Cytotoxic Chemotherapy	2023-08-02	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0				
+p10000001779	5002182	4784	1	01a	Surgery – curative	2021-07-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001780	5002183	4785	1	01a	Surgery – curative	2022-12-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001781	5002188	6033	1	01a	Surgery – curative	2017-07-22	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001782	5002191	4787	1	01a	Surgery – curative	2021-12-28	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	J561	Pancreaticoduodenectomy		
+p10000001782	5002197	4787	1	02	Cytotoxic Chemotherapy	2022-01-03	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001784	5002200	4789	2	01a	Surgery – curative	2021-04-04	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001784	5002205	4789	2	02	Cytotoxic Chemotherapy	2021-05-23	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001784	5002207	6034	2	01a	Surgery – curative	2022-03-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001785	5002209	4790	1	01a	Surgery – curative	2023-09-16	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001785	5002216	4790	1	05	RT – Teletherapy	2023-12-26	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001785	5002222	4790	1	03	Hormone Therapy	2023-12-14	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001786	5002226	4791	1	01a	Surgery – curative	2022-05-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001786	5002234	4791	1	05	RT – Teletherapy	2022-05-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001786	5002242	4791	1	03	Hormone Therapy	2022-09-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001788	5002250	4793	1	02	Cytotoxic Chemotherapy	2022-05-30	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001789	5002254	4794	1	01a	Surgery – curative	2021-07-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001789	5002256	4794	1	02	Cytotoxic Chemotherapy	2021-08-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001789	5002258	4794	1	05	RT – Teletherapy	2021-10-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001793	5002266	4798	1	01a	Surgery – curative	2022-02-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001793	5002270	4798	1	02	Cytotoxic Chemotherapy	2022-04-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001793	5002272	4798	1	05	RT – Teletherapy	2022-05-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001793	5002273	4798	1	03	Hormone Therapy	2022-07-02	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001794	5002278	4799	1	01a	Surgery – curative	2022-07-05	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001794	5002280	4799	1	05	RT – Teletherapy	2022-09-25	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001794	5002281	4799	1	03	Hormone Therapy	2022-07-30	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0				
+p10000001795	5002287	4800	1	01a	Surgery – curative	2022-12-08	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001796	5002291	4801	1	01a	Surgery – curative	2021-09-03	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001797	5002292	4802	1	01a	Surgery – curative	2022-12-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	B275	Total mastectomy		
+p10000001797	5002300	4802	1	05	RT – Teletherapy	2023-03-31	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001797	5002302	4802	1	03	Hormone Therapy	2023-05-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001798	5002309	6036	2	03	Hormone Therapy	2021-09-28	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001798	5002315	6036	2	01a	Surgery – curative	2021-06-17	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001799	5002321	4804	1	01a	Surgery – curative	2023-02-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001799	5002325	4804	1	02	Cytotoxic Chemotherapy	2023-03-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001805	5002331	4810	1	01a	Surgery – curative	2023-12-17	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001807	5002332	4812	1	01a	Surgery – curative	2023-02-04	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001808	5002333	4813	2	01a	Surgery – curative	2022-05-28	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	G011	Oesophagectomy		
+p10000001810	5002337	4815	1	02	Cytotoxic Chemotherapy	2023-01-25	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001810	5002338	4815	1	01a	Surgery – curative	2023-02-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001811	5002343	4816	1	05	RT – Teletherapy	2022-04-30	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001812	5002350	4817	1	01a	Surgery – curative	2023-08-06	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001812	5002354	4817	1	03	Hormone Therapy	2023-12-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001814	5002360	4819	1	02	Cytotoxic Chemotherapy	2022-07-13	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0				
+p10000001815	5002361	4820	1	05	RT – Teletherapy	2023-10-19	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001815	5002365	4820	1	02	Cytotoxic Chemotherapy	2023-11-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0				
+p10000001817	5002368	6038	2	01a	Surgery – curative	2001-09-13	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001819	5002370	4824	1	01a	Surgery – curative	2022-07-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001819	5002377	4824	1	02	Cytotoxic Chemotherapy	2022-09-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001820	5002380	4825	1	01a	Surgery – curative	2022-08-27	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001822	5002384	4827	1	01a	Surgery – curative	2022-09-22	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001823	5002385	6039	1	01a	Surgery – curative	2010-04-12	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T871	Excision biopsy		
+p10000001824	5002389	4829	1	02	Cytotoxic Chemotherapy	2022-06-15	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001825	5002390	4830	1	01a	Surgery – curative	2023-09-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001825	5002395	4830	1	05	RT – Teletherapy	2023-11-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001827	5002397	4832	1	01a	Surgery – curative	2022-01-22	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001828	5002404	4833	1	01a	Surgery – curative	2023-03-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	1	0	B282	Partial excision of breast		
+p10000001830	5002408	4835	1	01a	Surgery – curative	2021-04-08	RTH	Oxford University Hospitals NHS Foundation Trust	RTH	Oxford University Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001831	5002412	4836	1	01a	Surgery – curative	2021-05-26	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001834	5002414	4839	1	05	RT – Teletherapy	2022-09-06	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001835	5002422	4840	1	01a	Surgery – curative	2022-11-24	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	T962	Excision of lesion of soft tissue		
+p10000001835	5002430	4840	1	05	RT – Teletherapy	2022-12-11	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001835	5002436	4840	1	02	Cytotoxic Chemotherapy	2023-01-19	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001836	5002440	4841	1	01a	Surgery – curative	2021-06-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	E544	Excision of lobe of lung		
+p10000001838	5002442	4843	1	02	Cytotoxic Chemotherapy	2023-02-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0				
+p10000001838	5002446	4843	1	01a	Surgery – curative	2023-03-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001839	5002451	4844	3	05	RT – Teletherapy	2021-09-23	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0			1	EXTERNAL BEAM
+p10000001839	5002457	4844	3	03	Hormone Therapy	2021-08-19	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001839	5002460	6040	3	03	Hormone Therapy	2015-03-04	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0				
+p10000001839	5002467	6041	3	01a	Surgery – curative	2018-02-19	RYJ	Imperial College Healthcare NHS Trust	RYJ	Imperial College Healthcare NHS Trust	1	0	T871	Excision biopsy		
+p10000001840	5002474	4845	1	01a	Surgery – curative	2022-04-29	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0	M611	Total excision of prostate		
+p10000001840	5002482	4845	1	05	RT – Teletherapy	2022-06-07	RRV	University College London Hospitals NHS Foundation Trust	RRV	University College London Hospitals NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001842	5002489	4847	1	01a	Surgery – curative	2023-09-19	RGT	Cambridge University Hospitals NHS Foundation Trust	RGT	Cambridge University Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001844	5002490	4849	1	01a	Surgery – curative	2021-05-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	RJ1	Guy's and St Thomas' NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001845	5002498	4850	1	02	Cytotoxic Chemotherapy	2022-09-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0				
+p10000001845	5002500	4850	1	05	RT – Teletherapy	2022-12-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	1	0			1	EXTERNAL BEAM
+p10000001845	5002501	4850	1	03	Hormone Therapy	2023-02-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	RQ3	Birmingham Women's and Children's NHS Foundation Trust	0	1				
+p10000001846	5002502	4851	1	01a	Surgery – curative	2023-10-20	REP	Liverpool Women's NHS Foundation Trust	REP	Liverpool Women's NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001847	5002510	4852	1	02	Cytotoxic Chemotherapy	2021-10-21	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0				
+p10000001847	5002512	4852	1	01a	Surgery – curative	2021-10-29	R0A	Manchester University NHS Foundation Trust	R0A	Manchester University NHS Foundation Trust	1	0	H073	Right hemicolectomy		
+p10000001848	5002519	4853	1	01a	Surgery – curative	2023-02-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0	M021	Total nephrectomy		
+p10000001848	5002524	4853	1	02	Cytotoxic Chemotherapy	2023-03-30	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	1	0				
+p10000001849	5002532	4854	1	01a	Surgery – curative	2022-11-24	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0	T962	Excision of tumour		
+p10000001849	5002533	4854	1	02	Cytotoxic Chemotherapy	2022-12-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	1	0				
+p10000001850	5002535	4855	1	02	Cytotoxic Chemotherapy	2023-02-05	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0				
+p10000001850	5002542	4855	1	01a	Surgery – curative	2023-02-27	RHM	University Hospital Southampton NHS Foundation Trust	RHM	University Hospital Southampton NHS Foundation Trust	1	0	Q074	Total abdominal hysterectomy		

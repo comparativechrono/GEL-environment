@@ -1,5 +1,1351 @@
-referral_id	category	clinical_indication_code	clinical_indication_full_name	date_submitted	priority	status
-r99000000001	rare_diseases	R29	Intellectual disability	2023-10-27	routine	completed
-r99000000002	rare_diseases	R59	Early onset or syndromic epilepsy	2023-01-19	routine	completed
-r99000000003	rare_diseases	R134	Familial hypercholesterolaemia	2023-02-02	routine	completed
-r99000000004	rare_diseases	R193	Cystic renal disease	2022-07-30	routine	completed
+category	clinical_indication_code	clinical_indication_full_name	date_submitted	ordering_entity_code	ordering_entity_name	priority	referral_id	status	tumour_uid
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-01-10	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000001	completed	
+rare_diseases	R27	Paediatric disorders	2021-07-29	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000002	completed	
+rare_diseases	R29	Intellectual disability	2024-02-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000003	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-08-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000004	completed	
+rare_diseases	R27	Paediatric disorders	2021-08-24	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000005	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-05-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000006	completed	
+rare_diseases	R57	Hereditary parkinsonism	2022-04-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000007	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-11-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000008	completed	
+rare_diseases	R27	Paediatric disorders	2021-10-24	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000009	completed	
+rare_diseases	R57	Hereditary parkinsonism	2025-02-25	R0A	Manchester University NHS Foundation Trust	routine	r20000000010	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-08-29	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000011	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-03-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000012	completed	
+rare_diseases	R29	Intellectual disability	2024-08-18	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000013	completed	
+rare_diseases	R29	Intellectual disability	2024-07-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000014	completed	
+rare_diseases	R27	Paediatric disorders	2022-06-10	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000015	completed	
+rare_diseases	R57	Hereditary parkinsonism	2022-07-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000016	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-05-15	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000017	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-08-19	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000018	completed	
+rare_diseases	R67	Monogenic hearing loss	2021-04-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000019	completed	
+rare_diseases	R29	Intellectual disability	2022-06-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000020	completed	
+rare_diseases	R193	Cystic renal disease	2023-11-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000021	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-05-09	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000022	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-04-21	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000023	completed	
+rare_diseases	R123	Craniosynostosis	2023-10-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000024	completed	
+rare_diseases	R27	Paediatric disorders	2023-01-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000025	completed	
+rare_diseases	R29	Intellectual disability	2023-09-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000026	completed	
+rare_diseases	R32	Retinal disorders	2023-12-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000027	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-08-30	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000028	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2021-08-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000029	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-05-24	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000030	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2023-07-15	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000031	active	
+rare_diseases	R29	Intellectual disability	2022-09-22	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000032	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-09-20	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000033	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2023-04-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000034	active	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-07-04	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000035	completed	
+rare_diseases	R29	Intellectual disability	2023-09-25	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000036	completed	
+rare_diseases	R104	Skeletal dysplasia	2023-08-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000037	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-11-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000038	completed	
+rare_diseases	R29	Intellectual disability	2024-03-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000039	completed	
+rare_diseases	R67	Monogenic hearing loss	2021-08-29	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000040	completed	
+rare_diseases	R27	Paediatric disorders	2024-02-02	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000041	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-05-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000042	completed	
+rare_diseases	R29	Intellectual disability	2022-10-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000043	completed	
+rare_diseases	R29	Intellectual disability	2024-11-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000044	completed	
+rare_diseases	R29	Intellectual disability	2023-04-10	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000045	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-01-14	R0A	Manchester University NHS Foundation Trust	routine	r20000000046	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-12-12	RYJ	Imperial College Healthcare NHS Trust	urgent	r20000000047	active	
+rare_diseases	R29	Intellectual disability	2024-01-10	R0A	Manchester University NHS Foundation Trust	routine	r20000000048	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-04-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000049	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-10-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000050	completed	
+rare_diseases	R29	Intellectual disability	2023-12-02	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000051	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-10-31	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000052	completed	
+rare_diseases	R193	Cystic renal disease	2023-12-24	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000053	completed	
+rare_diseases	R27	Paediatric disorders	2021-07-29	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000054	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-10-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000055	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-09-10	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000056	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-11-15	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000057	completed	
+rare_diseases	R27	Paediatric disorders	2023-01-29	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000058	completed	
+rare_diseases	R29	Intellectual disability	2023-01-26	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000059	completed	
+rare_diseases	R29	Intellectual disability	2023-02-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000060	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-04-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000061	completed	
+rare_diseases	R29	Intellectual disability	2023-06-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000062	completed	
+rare_diseases	R57	Hereditary parkinsonism	2025-02-13	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000063	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-12-31	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000064	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-01-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000065	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-03-27	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000066	completed	
+rare_diseases	R32	Retinal disorders	2021-12-21	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000067	completed	
+rare_diseases	R27	Paediatric disorders	2024-04-08	R0A	Manchester University NHS Foundation Trust	routine	r20000000068	completed	
+rare_diseases	R32	Retinal disorders	2021-08-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000069	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-01-02	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000070	completed	
+rare_diseases	R193	Cystic renal disease	2024-07-20	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000071	completed	
+rare_diseases	R27	Paediatric disorders	2022-08-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000072	completed	
+rare_diseases	R32	Retinal disorders	2024-03-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000073	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-03-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000074	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-12-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000075	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2022-07-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000076	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-03-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000077	completed	
+rare_diseases	R27	Paediatric disorders	2024-03-02	R0A	Manchester University NHS Foundation Trust	routine	r20000000078	completed	
+rare_diseases	R29	Intellectual disability	2021-12-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000079	completed	
+rare_diseases	R104	Skeletal dysplasia	2022-11-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000080	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-08-03	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000081	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-11-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000082	active	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2022-07-02	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000083	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-04-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000084	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2024-04-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000085	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-06-29	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000086	completed	
+rare_diseases	R29	Intellectual disability	2022-03-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000087	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-12-01	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000088	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-11-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000089	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-04-03	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000090	completed	
+rare_diseases	R29	Intellectual disability	2021-08-30	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000091	completed	
+rare_diseases	R29	Intellectual disability	2022-10-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000092	completed	
+rare_diseases	R32	Retinal disorders	2022-04-29	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000093	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-01-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000094	completed	
+rare_diseases	R32	Retinal disorders	2021-11-10	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000095	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-08-22	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000096	completed	
+rare_diseases	R57	Hereditary parkinsonism	2021-11-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000097	completed	
+rare_diseases	R27	Paediatric disorders	2023-06-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000098	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-02-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000099	completed	
+rare_diseases	R29	Intellectual disability	2023-02-14	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000100	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-03-16	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000101	completed	
+rare_diseases	R32	Retinal disorders	2024-10-08	R0A	Manchester University NHS Foundation Trust	routine	r20000000102	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-10-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000103	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2021-12-02	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000104	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-06-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000105	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-10-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000106	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-06-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000107	active	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-12-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000108	active	
+rare_diseases	R29	Intellectual disability	2024-02-16	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000109	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-04-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000110	completed	
+rare_diseases	R141	Monogenic diabetes	2023-07-01	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000111	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2024-07-11	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000112	completed	
+rare_diseases	R29	Intellectual disability	2022-04-20	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000113	completed	
+rare_diseases	R67	Monogenic hearing loss	2022-08-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000114	active	
+rare_diseases	R29	Intellectual disability	2023-07-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000115	completed	
+rare_diseases	R29	Intellectual disability	2024-08-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000116	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-09-30	R0A	Manchester University NHS Foundation Trust	routine	r20000000117	completed	
+rare_diseases	R104	Skeletal dysplasia	2024-03-14	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000118	active	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2021-10-26	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000119	completed	
+rare_diseases	R193	Cystic renal disease	2022-03-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000120	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2025-01-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000121	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-03-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000122	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-04-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000123	completed	
+rare_diseases	R29	Intellectual disability	2022-01-31	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000124	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-03-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000125	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-04-22	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000126	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-11-28	R0A	Manchester University NHS Foundation Trust	routine	r20000000127	completed	
+rare_diseases	R193	Cystic renal disease	2021-12-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000128	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-03-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000129	completed	
+rare_diseases	R29	Intellectual disability	2023-11-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000130	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2021-12-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000131	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2021-07-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000132	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-08-22	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000133	completed	
+rare_diseases	R29	Intellectual disability	2023-09-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000134	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-04-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000135	completed	
+rare_diseases	R29	Intellectual disability	2024-12-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000136	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2022-05-31	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000137	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-11-26	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000138	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-12-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000139	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-06-29	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000140	completed	
+rare_diseases	R81	Congenital myopathy	2022-04-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000141	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2024-03-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000142	active	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-07-19	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000143	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-10-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000144	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-06-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000145	completed	
+rare_diseases	R29	Intellectual disability	2023-05-05	R0A	Manchester University NHS Foundation Trust	routine	r20000000146	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-11-15	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000147	completed	
+rare_diseases	R29	Intellectual disability	2023-09-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000148	completed	
+rare_diseases	R29	Intellectual disability	2021-11-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000149	completed	
+rare_diseases	R141	Monogenic diabetes	2021-10-31	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000150	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2021-04-21	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000151	completed	
+rare_diseases	R81	Congenital myopathy	2024-11-11	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000152	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-06-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000153	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-05-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000154	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-03-08	R0A	Manchester University NHS Foundation Trust	routine	r20000000155	completed	
+rare_diseases	R27	Paediatric disorders	2023-09-03	R0A	Manchester University NHS Foundation Trust	routine	r20000000156	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-01-08	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000157	completed	
+rare_diseases	R29	Intellectual disability	2023-04-11	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000158	active	
+rare_diseases	R123	Craniosynostosis	2022-10-18	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000159	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2021-05-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000160	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-10-06	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000161	active	
+rare_diseases	R67	Monogenic hearing loss	2021-12-18	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000162	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2025-02-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000163	completed	
+rare_diseases	R123	Craniosynostosis	2022-03-07	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000164	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-10-05	R0A	Manchester University NHS Foundation Trust	routine	r20000000165	completed	
+rare_diseases	R27	Paediatric disorders	2023-01-23	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000166	active	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-02-03	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000167	completed	
+rare_diseases	R27	Paediatric disorders	2022-07-26	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000168	completed	
+rare_diseases	R29	Intellectual disability	2021-04-10	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000169	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-03-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000170	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-02-08	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000171	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-10-19	R0A	Manchester University NHS Foundation Trust	routine	r20000000172	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-02-06	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000173	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-09-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000174	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-10-11	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000175	completed	
+rare_diseases	R29	Intellectual disability	2022-12-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000176	completed	
+rare_diseases	R27	Paediatric disorders	2023-12-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000177	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-03-26	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000178	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-04-15	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000179	completed	
+rare_diseases	R29	Intellectual disability	2024-07-30	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000180	completed	
+rare_diseases	R29	Intellectual disability	2023-05-25	R0A	Manchester University NHS Foundation Trust	routine	r20000000181	completed	
+rare_diseases	R193	Cystic renal disease	2021-12-20	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000182	completed	
+rare_diseases	R29	Intellectual disability	2024-07-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000183	active	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-07-25	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000184	completed	
+rare_diseases	R29	Intellectual disability	2024-01-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000185	completed	
+rare_diseases	R27	Paediatric disorders	2023-09-02	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000186	completed	
+rare_diseases	R123	Craniosynostosis	2022-01-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000187	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-02-27	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000188	completed	
+rare_diseases	R32	Retinal disorders	2021-11-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000189	completed	
+rare_diseases	R29	Intellectual disability	2024-06-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000190	completed	
+rare_diseases	R29	Intellectual disability	2022-07-30	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000191	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-02-09	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000192	completed	
+rare_diseases	R29	Intellectual disability	2021-07-27	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000193	completed	
+rare_diseases	R32	Retinal disorders	2022-11-17	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000194	completed	
+rare_diseases	R32	Retinal disorders	2021-07-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000195	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-12-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000196	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-09-04	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000197	completed	
+rare_diseases	R29	Intellectual disability	2024-08-30	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000198	completed	
+rare_diseases	R32	Retinal disorders	2024-12-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000199	completed	
+rare_diseases	R27	Paediatric disorders	2023-09-09	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000200	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-07-16	R0A	Manchester University NHS Foundation Trust	routine	r20000000201	active	
+rare_diseases	R29	Intellectual disability	2021-12-03	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000202	active	
+rare_diseases	R32	Retinal disorders	2022-10-21	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000203	completed	
+rare_diseases	R29	Intellectual disability	2025-02-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000204	completed	
+rare_diseases	R29	Intellectual disability	2022-02-09	R0A	Manchester University NHS Foundation Trust	routine	r20000000205	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2025-02-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000206	completed	
+rare_diseases	R29	Intellectual disability	2023-08-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000207	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-06-15	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000208	completed	
+rare_diseases	R193	Cystic renal disease	2024-12-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000209	active	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2021-07-05	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000210	active	
+rare_diseases	R29	Intellectual disability	2024-03-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000211	completed	
+rare_diseases	R32	Retinal disorders	2023-08-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000212	completed	
+rare_diseases	R123	Craniosynostosis	2024-01-07	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000000213	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-04-18	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000214	completed	
+rare_diseases	R29	Intellectual disability	2022-03-04	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000215	completed	
+rare_diseases	R193	Cystic renal disease	2022-09-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000216	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-03-05	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000217	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-08-10	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000218	completed	
+rare_diseases	R32	Retinal disorders	2022-07-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000219	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-07-10	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000220	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-08-21	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000221	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-07-20	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000222	completed	
+rare_diseases	R29	Intellectual disability	2022-11-10	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000223	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-04-26	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000224	active	
+rare_diseases	R141	Monogenic diabetes	2025-01-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000225	completed	
+rare_diseases	R29	Intellectual disability	2023-07-06	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000226	completed	
+rare_diseases	R27	Paediatric disorders	2024-01-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000227	completed	
+rare_diseases	R57	Hereditary parkinsonism	2021-06-27	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000228	completed	
+rare_diseases	R29	Intellectual disability	2021-11-30	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000229	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2022-09-09	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000230	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-04-20	R0A	Manchester University NHS Foundation Trust	routine	r20000000231	completed	
+rare_diseases	R29	Intellectual disability	2022-04-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000232	completed	
+rare_diseases	R29	Intellectual disability	2024-06-06	R0A	Manchester University NHS Foundation Trust	routine	r20000000233	completed	
+rare_diseases	R29	Intellectual disability	2023-12-24	R0A	Manchester University NHS Foundation Trust	routine	r20000000234	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-12-14	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000235	completed	
+rare_diseases	R29	Intellectual disability	2023-08-28	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000236	completed	
+rare_diseases	R29	Intellectual disability	2023-03-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000237	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-01-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000238	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-01-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000239	completed	
+rare_diseases	R27	Paediatric disorders	2022-04-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000240	active	
+rare_diseases	R27	Paediatric disorders	2024-09-18	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000241	completed	
+rare_diseases	R29	Intellectual disability	2021-11-13	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000242	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-11-06	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000243	completed	
+rare_diseases	R29	Intellectual disability	2021-11-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000244	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-01-23	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000245	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-08-24	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000246	completed	
+rare_diseases	R67	Monogenic hearing loss	2022-11-18	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000247	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2024-02-10	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000248	completed	
+rare_diseases	R29	Intellectual disability	2024-03-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000249	completed	
+rare_diseases	R29	Intellectual disability	2021-06-15	R0A	Manchester University NHS Foundation Trust	routine	r20000000250	completed	
+rare_diseases	R29	Intellectual disability	2022-03-03	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000251	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2023-12-19	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000252	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-12-31	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000253	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-04-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000254	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-08-04	R0A	Manchester University NHS Foundation Trust	routine	r20000000255	completed	
+rare_diseases	R29	Intellectual disability	2024-12-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000256	completed	
+rare_diseases	R123	Craniosynostosis	2022-05-09	R0A	Manchester University NHS Foundation Trust	routine	r20000000257	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-08-18	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000258	completed	
+rare_diseases	R29	Intellectual disability	2024-01-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000259	completed	
+rare_diseases	R193	Cystic renal disease	2024-10-23	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000260	completed	
+rare_diseases	R29	Intellectual disability	2021-07-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000261	completed	
+rare_diseases	R29	Intellectual disability	2021-11-04	R0A	Manchester University NHS Foundation Trust	routine	r20000000262	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2021-04-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000263	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-10-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000264	completed	
+rare_diseases	R29	Intellectual disability	2023-10-20	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000265	completed	
+rare_diseases	R29	Intellectual disability	2022-03-01	R0A	Manchester University NHS Foundation Trust	routine	r20000000266	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-08-10	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000000267	completed	
+rare_diseases	R104	Skeletal dysplasia	2024-12-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000268	completed	
+rare_diseases	R27	Paediatric disorders	2022-04-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000269	active	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-12-19	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000270	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-04-08	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000271	completed	
+rare_diseases	R29	Intellectual disability	2024-09-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000272	completed	
+rare_diseases	R29	Intellectual disability	2021-11-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000273	completed	
+rare_diseases	R193	Cystic renal disease	2024-07-07	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000274	completed	
+rare_diseases	R67	Monogenic hearing loss	2025-02-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000275	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2021-04-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000276	completed	
+rare_diseases	R123	Craniosynostosis	2023-02-22	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000277	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-07-30	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000278	completed	
+rare_diseases	R29	Intellectual disability	2021-09-22	R0A	Manchester University NHS Foundation Trust	routine	r20000000279	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-06-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000280	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2025-02-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000281	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-06-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000282	completed	
+rare_diseases	R81	Congenital myopathy	2024-01-24	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000283	completed	
+rare_diseases	R32	Retinal disorders	2023-04-21	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000284	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-02-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000285	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-04-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000286	completed	
+rare_diseases	R32	Retinal disorders	2023-04-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000287	completed	
+rare_diseases	R67	Monogenic hearing loss	2021-08-09	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000288	completed	
+rare_diseases	R32	Retinal disorders	2024-06-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000289	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-12-13	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000290	completed	
+rare_diseases	R29	Intellectual disability	2023-01-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000291	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-09-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000292	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-08-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000293	completed	
+rare_diseases	R32	Retinal disorders	2022-10-19	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000294	completed	
+rare_diseases	R27	Paediatric disorders	2021-09-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000295	completed	
+rare_diseases	R29	Intellectual disability	2022-10-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000296	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-02-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000297	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-12-23	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000298	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-09-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000299	completed	
+rare_diseases	R29	Intellectual disability	2022-01-25	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000300	completed	
+rare_diseases	R27	Paediatric disorders	2021-04-24	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000301	completed	
+rare_diseases	R27	Paediatric disorders	2024-03-06	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000302	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2025-02-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000303	completed	
+rare_diseases	R29	Intellectual disability	2023-07-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000304	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-01-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000305	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-09-13	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000306	completed	
+rare_diseases	R27	Paediatric disorders	2022-04-13	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000307	completed	
+rare_diseases	R193	Cystic renal disease	2024-12-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000308	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-01-18	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000309	completed	
+rare_diseases	R29	Intellectual disability	2023-06-08	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000310	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-06-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000311	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-09-25	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000312	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2025-02-26	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000313	completed	
+rare_diseases	R81	Congenital myopathy	2024-02-23	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000314	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-12-26	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000315	completed	
+rare_diseases	R29	Intellectual disability	2022-04-23	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000316	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2021-07-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000317	active	
+rare_diseases	R29	Intellectual disability	2021-04-19	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000318	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-06-18	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000319	completed	
+rare_diseases	R29	Intellectual disability	2022-07-17	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000320	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-09-08	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000321	completed	
+rare_diseases	R27	Paediatric disorders	2023-12-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000322	active	
+rare_diseases	R57	Hereditary parkinsonism	2023-11-18	R0A	Manchester University NHS Foundation Trust	routine	r20000000323	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-10-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000324	completed	
+rare_diseases	R57	Hereditary parkinsonism	2021-06-11	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000325	completed	
+rare_diseases	R193	Cystic renal disease	2021-06-30	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000326	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2021-04-23	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000327	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-11-09	R0A	Manchester University NHS Foundation Trust	routine	r20000000328	completed	
+rare_diseases	R193	Cystic renal disease	2023-12-02	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000329	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-08-28	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000330	completed	
+rare_diseases	R27	Paediatric disorders	2022-11-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000331	completed	
+rare_diseases	R29	Intellectual disability	2022-06-20	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000332	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2021-07-09	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000333	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-10-01	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000334	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-01-31	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000335	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-12-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000336	completed	
+rare_diseases	R193	Cystic renal disease	2021-10-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000337	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-04-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000338	completed	
+rare_diseases	R29	Intellectual disability	2024-12-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000339	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-01-20	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000340	completed	
+rare_diseases	R29	Intellectual disability	2023-12-20	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000341	completed	
+rare_diseases	R32	Retinal disorders	2025-02-06	R0A	Manchester University NHS Foundation Trust	routine	r20000000342	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-03-09	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000343	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-02-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000344	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2024-12-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000345	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-06-14	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000346	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-05-12	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000347	completed	
+rare_diseases	R32	Retinal disorders	2023-07-22	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000348	completed	
+rare_diseases	R29	Intellectual disability	2024-11-18	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000349	completed	
+rare_diseases	R29	Intellectual disability	2022-10-05	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000350	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-08-28	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000351	completed	
+rare_diseases	R32	Retinal disorders	2022-08-10	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000352	completed	
+rare_diseases	R32	Retinal disorders	2024-02-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000353	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-05-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000354	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-04-09	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000355	completed	
+rare_diseases	R27	Paediatric disorders	2024-02-03	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000356	completed	
+rare_diseases	R29	Intellectual disability	2021-07-10	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000357	completed	
+rare_diseases	R193	Cystic renal disease	2024-08-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000358	completed	
+rare_diseases	R29	Intellectual disability	2022-07-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000359	completed	
+rare_diseases	R29	Intellectual disability	2023-11-03	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000360	completed	
+rare_diseases	R29	Intellectual disability	2022-06-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000361	completed	
+rare_diseases	R193	Cystic renal disease	2023-08-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000362	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2025-02-04	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000363	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-12-20	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000364	completed	
+rare_diseases	R29	Intellectual disability	2023-03-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000365	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2024-07-04	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000366	completed	
+rare_diseases	R29	Intellectual disability	2022-04-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000367	completed	
+rare_diseases	R27	Paediatric disorders	2023-08-04	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000368	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2023-11-26	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000369	completed	
+rare_diseases	R29	Intellectual disability	2024-01-02	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000370	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-12-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000371	completed	
+rare_diseases	R193	Cystic renal disease	2022-09-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000372	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-09-12	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000373	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2022-03-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000374	completed	
+rare_diseases	R27	Paediatric disorders	2021-08-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000375	completed	
+rare_diseases	R29	Intellectual disability	2024-05-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000376	completed	
+rare_diseases	R29	Intellectual disability	2024-11-24	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000377	completed	
+rare_diseases	R27	Paediatric disorders	2024-01-06	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000378	completed	
+rare_diseases	R29	Intellectual disability	2024-10-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000379	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2024-12-18	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000380	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2022-01-08	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000381	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-08-07	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000382	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2021-09-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000383	completed	
+rare_diseases	R193	Cystic renal disease	2023-08-09	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000384	active	
+rare_diseases	R81	Congenital myopathy	2022-09-27	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000385	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-02-10	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000386	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-07-10	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000387	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-02-11	R0A	Manchester University NHS Foundation Trust	routine	r20000000388	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-04-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000389	completed	
+rare_diseases	R29	Intellectual disability	2024-12-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000390	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-02-11	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000391	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-12-11	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000392	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-01-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000393	completed	
+rare_diseases	R29	Intellectual disability	2022-04-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000394	completed	
+rare_diseases	R32	Retinal disorders	2022-05-07	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000395	active	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-08-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000396	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-01-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000397	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-11-02	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000398	completed	
+rare_diseases	R32	Retinal disorders	2025-03-17	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000399	completed	
+rare_diseases	R29	Intellectual disability	2021-11-27	R0A	Manchester University NHS Foundation Trust	routine	r20000000400	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2025-02-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000401	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-10-23	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000402	completed	
+rare_diseases	R81	Congenital myopathy	2024-04-04	R0A	Manchester University NHS Foundation Trust	routine	r20000000403	completed	
+rare_diseases	R29	Intellectual disability	2021-06-24	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000404	completed	
+rare_diseases	R29	Intellectual disability	2025-02-05	R0A	Manchester University NHS Foundation Trust	routine	r20000000405	completed	
+rare_diseases	R32	Retinal disorders	2024-05-01	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000406	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2024-09-06	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000407	completed	
+rare_diseases	R141	Monogenic diabetes	2022-08-25	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000408	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-09-23	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000409	active	
+rare_diseases	R193	Cystic renal disease	2022-09-11	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000410	completed	
+rare_diseases	R193	Cystic renal disease	2023-01-02	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000411	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-01-29	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000412	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-10-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000413	completed	
+rare_diseases	R27	Paediatric disorders	2023-06-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000414	completed	
+rare_diseases	R27	Paediatric disorders	2022-09-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000415	completed	
+rare_diseases	R27	Paediatric disorders	2024-03-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000416	completed	
+rare_diseases	R29	Intellectual disability	2024-10-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000417	completed	
+rare_diseases	R32	Retinal disorders	2023-06-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000418	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-08-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000419	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-04-05	R0A	Manchester University NHS Foundation Trust	routine	r20000000420	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-09-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000421	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2021-12-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000422	completed	
+rare_diseases	R29	Intellectual disability	2023-03-10	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000423	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2022-02-17	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000424	completed	
+rare_diseases	R193	Cystic renal disease	2023-07-11	R0A	Manchester University NHS Foundation Trust	routine	r20000000425	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-03-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000426	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-01-15	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000427	completed	
+rare_diseases	R29	Intellectual disability	2022-07-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000428	completed	
+rare_diseases	R32	Retinal disorders	2023-10-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000429	completed	
+rare_diseases	R27	Paediatric disorders	2024-07-21	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000430	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2024-12-26	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000431	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-06-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000432	active	
+rare_diseases	R32	Retinal disorders	2024-09-24	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000433	active	
+rare_diseases	R29	Intellectual disability	2022-03-07	R0A	Manchester University NHS Foundation Trust	urgent	r20000000434	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2023-05-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000435	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-02-24	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000436	completed	
+rare_diseases	R29	Intellectual disability	2023-05-30	R0A	Manchester University NHS Foundation Trust	routine	r20000000437	completed	
+rare_diseases	R67	Monogenic hearing loss	2022-07-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000438	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2024-08-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000439	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2022-03-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000440	completed	
+rare_diseases	R32	Retinal disorders	2024-08-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000441	completed	
+rare_diseases	R32	Retinal disorders	2024-06-13	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000442	completed	
+rare_diseases	R27	Paediatric disorders	2022-07-25	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000443	completed	
+rare_diseases	R193	Cystic renal disease	2024-06-01	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000444	completed	
+rare_diseases	R29	Intellectual disability	2022-01-18	R0A	Manchester University NHS Foundation Trust	routine	r20000000445	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-12-09	R0A	Manchester University NHS Foundation Trust	routine	r20000000446	active	
+rare_diseases	R29	Intellectual disability	2021-11-09	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000447	active	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-07-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000448	completed	
+rare_diseases	R67	Monogenic hearing loss	2024-08-16	R0A	Manchester University NHS Foundation Trust	routine	r20000000449	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-12-04	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000450	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-06-23	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000451	completed	
+rare_diseases	R29	Intellectual disability	2024-11-21	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000452	completed	
+rare_diseases	R29	Intellectual disability	2024-06-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000453	completed	
+rare_diseases	R193	Cystic renal disease	2023-12-19	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000454	completed	
+rare_diseases	R29	Intellectual disability	2022-04-05	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000455	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2023-08-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000456	active	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-03-27	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000457	completed	
+rare_diseases	R29	Intellectual disability	2022-01-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000458	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2023-01-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000459	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-07-23	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000460	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2022-08-13	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000000461	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-03-01	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000462	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2022-08-12	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000463	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-11-24	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000464	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-07-05	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000465	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-09-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000466	completed	
+rare_diseases	R141	Monogenic diabetes	2021-11-03	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000467	completed	
+rare_diseases	R81	Congenital myopathy	2023-12-08	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000468	completed	
+rare_diseases	R32	Retinal disorders	2025-02-19	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000469	completed	
+rare_diseases	R29	Intellectual disability	2022-09-15	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000470	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-11-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000471	completed	
+rare_diseases	R29	Intellectual disability	2024-04-10	R0A	Manchester University NHS Foundation Trust	urgent	r20000000472	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-06-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000473	active	
+rare_diseases	R193	Cystic renal disease	2023-03-01	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000474	completed	
+rare_diseases	R29	Intellectual disability	2024-07-12	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000475	completed	
+rare_diseases	R27	Paediatric disorders	2021-05-25	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000476	completed	
+rare_diseases	R27	Paediatric disorders	2022-06-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000477	completed	
+rare_diseases	R29	Intellectual disability	2023-10-04	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000478	completed	
+rare_diseases	R29	Intellectual disability	2025-02-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000479	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-05-01	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000480	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2024-12-11	R0A	Manchester University NHS Foundation Trust	routine	r20000000481	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2021-10-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000482	completed	
+rare_diseases	R27	Paediatric disorders	2023-06-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000483	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-07-11	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000484	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-07-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000485	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-12-01	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000486	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-12-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000487	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-10-07	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000488	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-05-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000489	completed	
+rare_diseases	R32	Retinal disorders	2023-09-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000490	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2021-10-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000491	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-08-10	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000492	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2023-03-17	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000493	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-01-01	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000494	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-07-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000495	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2024-07-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000496	completed	
+rare_diseases	R29	Intellectual disability	2022-08-06	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000497	completed	
+rare_diseases	R29	Intellectual disability	2024-04-24	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000498	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-12-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000499	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-07-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000500	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2025-03-08	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000501	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-12-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000502	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2023-12-23	R0A	Manchester University NHS Foundation Trust	routine	r20000000503	completed	
+rare_diseases	R193	Cystic renal disease	2024-10-03	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000504	completed	
+rare_diseases	R27	Paediatric disorders	2021-10-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000505	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-11-24	R0A	Manchester University NHS Foundation Trust	routine	r20000000506	completed	
+rare_diseases	R29	Intellectual disability	2025-01-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000507	completed	
+rare_diseases	R32	Retinal disorders	2022-11-07	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000508	completed	
+rare_diseases	R29	Intellectual disability	2024-01-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000509	completed	
+rare_diseases	R32	Retinal disorders	2024-08-21	R0A	Manchester University NHS Foundation Trust	routine	r20000000510	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-11-17	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000511	completed	
+rare_diseases	R29	Intellectual disability	2024-12-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000512	completed	
+rare_diseases	R27	Paediatric disorders	2022-04-07	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000513	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-02-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000514	completed	
+rare_diseases	R29	Intellectual disability	2024-11-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000515	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-10-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000516	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-12-17	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000517	completed	
+rare_diseases	R32	Retinal disorders	2021-09-10	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000518	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-03-24	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000519	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-09-03	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000520	completed	
+rare_diseases	R27	Paediatric disorders	2023-02-23	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000521	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2023-11-24	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000522	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2022-12-17	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000523	completed	
+rare_diseases	R29	Intellectual disability	2024-10-17	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000524	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-08-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000525	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-06-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000526	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-03-08	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000527	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-03-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000528	completed	
+rare_diseases	R32	Retinal disorders	2021-08-15	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000529	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-05-28	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000530	completed	
+rare_diseases	R141	Monogenic diabetes	2022-02-06	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000531	completed	
+rare_diseases	R32	Retinal disorders	2023-12-31	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000532	completed	
+rare_diseases	R29	Intellectual disability	2022-11-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000533	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2022-07-12	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000534	active	
+rare_diseases	R57	Hereditary parkinsonism	2021-05-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000535	completed	
+rare_diseases	R123	Craniosynostosis	2021-08-18	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000536	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2025-01-22	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000537	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2024-06-25	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000538	completed	
+rare_diseases	R141	Monogenic diabetes	2021-07-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000539	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-06-15	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000540	completed	
+rare_diseases	R193	Cystic renal disease	2023-08-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000541	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-12-14	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000542	completed	
+rare_diseases	R29	Intellectual disability	2022-02-16	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000543	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-10-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000544	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2022-02-12	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000545	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-01-02	R0A	Manchester University NHS Foundation Trust	routine	r20000000546	completed	
+rare_diseases	R123	Craniosynostosis	2023-04-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000547	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-10-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000548	completed	
+rare_diseases	R32	Retinal disorders	2021-09-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000549	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-02-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000550	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-11-19	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000551	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-08-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000552	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-01-17	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000553	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-06-22	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000554	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-04-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000555	active	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-12-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000556	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-02-19	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000557	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-06-26	R0A	Manchester University NHS Foundation Trust	routine	r20000000558	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-10-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000559	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-12-25	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000560	active	
+rare_diseases	R59	Early onset or syndromic epilepsy	2025-03-30	R0A	Manchester University NHS Foundation Trust	routine	r20000000561	completed	
+rare_diseases	R193	Cystic renal disease	2023-07-18	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000562	completed	
+rare_diseases	R29	Intellectual disability	2021-07-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000563	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2022-06-22	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000564	completed	
+rare_diseases	R29	Intellectual disability	2023-08-08	R0A	Manchester University NHS Foundation Trust	routine	r20000000565	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-12-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000566	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-07-15	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000567	completed	
+rare_diseases	R29	Intellectual disability	2024-08-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000568	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-09-06	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000000569	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2025-03-24	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000570	completed	
+rare_diseases	R32	Retinal disorders	2024-02-01	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000571	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-08-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000572	completed	
+rare_diseases	R141	Monogenic diabetes	2023-03-19	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000573	completed	
+rare_diseases	R29	Intellectual disability	2024-07-27	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000574	completed	
+rare_diseases	R193	Cystic renal disease	2023-06-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000575	active	
+rare_diseases	R32	Retinal disorders	2025-01-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000576	completed	
+rare_diseases	R193	Cystic renal disease	2023-05-27	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000577	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-08-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000578	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-11-11	R0A	Manchester University NHS Foundation Trust	routine	r20000000579	completed	
+rare_diseases	R193	Cystic renal disease	2023-02-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000580	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-08-19	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000581	completed	
+rare_diseases	R32	Retinal disorders	2024-11-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000582	completed	
+rare_diseases	R193	Cystic renal disease	2025-03-30	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000583	active	
+rare_diseases	R193	Cystic renal disease	2025-03-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000584	active	
+rare_diseases	R29	Intellectual disability	2022-11-11	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000585	completed	
+rare_diseases	R29	Intellectual disability	2023-03-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000586	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2022-04-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000587	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-03-30	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000588	completed	
+rare_diseases	R32	Retinal disorders	2023-04-30	R0A	Manchester University NHS Foundation Trust	routine	r20000000589	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-12-20	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000590	completed	
+rare_diseases	R29	Intellectual disability	2021-05-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000591	completed	
+rare_diseases	R29	Intellectual disability	2023-01-28	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000000592	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-07-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000593	completed	
+rare_diseases	R193	Cystic renal disease	2021-06-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000594	completed	
+rare_diseases	R29	Intellectual disability	2023-07-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000595	completed	
+rare_diseases	R27	Paediatric disorders	2022-11-25	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000596	completed	
+rare_diseases	R29	Intellectual disability	2021-07-26	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000597	completed	
+rare_diseases	R29	Intellectual disability	2022-11-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000598	active	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-08-15	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000599	completed	
+rare_diseases	R32	Retinal disorders	2024-11-06	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000600	completed	
+rare_diseases	R27	Paediatric disorders	2023-03-22	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000601	completed	
+rare_diseases	R29	Intellectual disability	2021-07-07	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000602	completed	
+rare_diseases	R27	Paediatric disorders	2023-09-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000603	completed	
+rare_diseases	R29	Intellectual disability	2022-04-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000604	active	
+rare_diseases	R29	Intellectual disability	2023-07-12	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000605	completed	
+rare_diseases	R123	Craniosynostosis	2025-01-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000606	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-01-08	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000607	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-03-08	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000608	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-04-20	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000609	active	
+rare_diseases	R67	Monogenic hearing loss	2023-05-16	R0A	Manchester University NHS Foundation Trust	routine	r20000000610	completed	
+rare_diseases	R32	Retinal disorders	2024-01-21	R0A	Manchester University NHS Foundation Trust	routine	r20000000611	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-02-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000612	completed	
+rare_diseases	R29	Intellectual disability	2023-08-07	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000613	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-10-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000614	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-12-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000615	completed	
+rare_diseases	R32	Retinal disorders	2024-12-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000616	completed	
+rare_diseases	R29	Intellectual disability	2022-08-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000617	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-03-26	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000618	completed	
+rare_diseases	R193	Cystic renal disease	2024-05-26	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000619	completed	
+rare_diseases	R123	Craniosynostosis	2024-09-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000620	completed	
+rare_diseases	R27	Paediatric disorders	2022-04-13	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000621	completed	
+rare_diseases	R81	Congenital myopathy	2023-10-04	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000622	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2023-07-12	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000623	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-04-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000624	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-03-19	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000625	completed	
+rare_diseases	R29	Intellectual disability	2021-08-31	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000626	completed	
+rare_diseases	R29	Intellectual disability	2023-02-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000627	completed	
+rare_diseases	R193	Cystic renal disease	2022-10-21	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000628	completed	
+rare_diseases	R29	Intellectual disability	2024-02-04	RYJ	Imperial College Healthcare NHS Trust	urgent	r20000000629	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-04-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000630	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2022-04-21	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000631	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2022-07-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000632	completed	
+rare_diseases	R193	Cystic renal disease	2024-11-13	RYJ	Imperial College Healthcare NHS Trust	urgent	r20000000633	completed	
+rare_diseases	R141	Monogenic diabetes	2024-05-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000634	completed	
+rare_diseases	R29	Intellectual disability	2024-01-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000635	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-05-19	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000636	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-11-13	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000637	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-11-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000638	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-01-31	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000639	active	
+rare_diseases	R32	Retinal disorders	2023-02-04	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000640	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-04-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000641	completed	
+rare_diseases	R27	Paediatric disorders	2023-01-21	R0A	Manchester University NHS Foundation Trust	routine	r20000000642	completed	
+rare_diseases	R193	Cystic renal disease	2024-01-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000643	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2025-01-12	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000644	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-10-22	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000000645	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-07-12	R0A	Manchester University NHS Foundation Trust	routine	r20000000646	completed	
+rare_diseases	R29	Intellectual disability	2024-04-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000647	active	
+rare_diseases	R29	Intellectual disability	2022-06-11	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000648	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-02-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000649	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-10-22	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000650	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-10-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000651	completed	
+rare_diseases	R81	Congenital myopathy	2024-11-29	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000652	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-04-13	R0A	Manchester University NHS Foundation Trust	routine	r20000000653	completed	
+rare_diseases	R123	Craniosynostosis	2025-03-02	R0A	Manchester University NHS Foundation Trust	routine	r20000000654	active	
+rare_diseases	R29	Intellectual disability	2022-07-29	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000655	completed	
+rare_diseases	R32	Retinal disorders	2024-12-01	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000656	completed	
+rare_diseases	R29	Intellectual disability	2021-07-03	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000657	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-05-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000658	completed	
+rare_diseases	R29	Intellectual disability	2024-12-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000659	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2021-09-14	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000660	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-07-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000661	completed	
+rare_diseases	R67	Monogenic hearing loss	2024-04-06	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000662	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2022-03-23	R0A	Manchester University NHS Foundation Trust	routine	r20000000663	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2021-08-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000664	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2025-03-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000665	active	
+rare_diseases	R29	Intellectual disability	2021-05-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000666	completed	
+rare_diseases	R67	Monogenic hearing loss	2025-02-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000667	completed	
+rare_diseases	R29	Intellectual disability	2024-02-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000668	completed	
+rare_diseases	R32	Retinal disorders	2023-06-02	R0A	Manchester University NHS Foundation Trust	routine	r20000000669	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2021-08-21	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000670	completed	
+rare_diseases	R29	Intellectual disability	2023-01-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000671	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-11-11	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000672	completed	
+rare_diseases	R29	Intellectual disability	2024-09-08	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000673	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-03-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000674	completed	
+rare_diseases	R29	Intellectual disability	2023-11-09	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000675	completed	
+rare_diseases	R104	Skeletal dysplasia	2022-05-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000676	completed	
+rare_diseases	R104	Skeletal dysplasia	2024-09-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000677	active	
+rare_diseases	R29	Intellectual disability	2021-11-12	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000678	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-06-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000679	completed	
+rare_diseases	R104	Skeletal dysplasia	2023-12-01	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000680	completed	
+rare_diseases	R32	Retinal disorders	2024-05-20	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000681	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-05-15	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000682	active	
+rare_diseases	R32	Retinal disorders	2022-03-22	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000683	active	
+rare_diseases	R29	Intellectual disability	2021-06-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000684	active	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-10-23	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000685	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-05-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000686	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2023-08-30	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000687	completed	
+rare_diseases	R32	Retinal disorders	2023-04-23	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000688	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2023-07-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000689	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2021-12-03	R0A	Manchester University NHS Foundation Trust	routine	r20000000690	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-11-22	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000691	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-08-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000692	completed	
+rare_diseases	R27	Paediatric disorders	2021-07-07	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000693	completed	
+rare_diseases	R29	Intellectual disability	2022-03-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000694	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-11-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000695	completed	
+rare_diseases	R67	Monogenic hearing loss	2024-01-27	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000696	completed	
+rare_diseases	R32	Retinal disorders	2023-07-06	R0A	Manchester University NHS Foundation Trust	routine	r20000000697	completed	
+rare_diseases	R32	Retinal disorders	2024-05-22	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000698	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2022-02-02	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000699	completed	
+rare_diseases	R29	Intellectual disability	2025-01-20	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000700	completed	
+rare_diseases	R193	Cystic renal disease	2021-05-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000701	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-08-02	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000702	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-10-08	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000703	completed	
+rare_diseases	R32	Retinal disorders	2024-06-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000704	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-01-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000705	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-03-03	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000706	completed	
+rare_diseases	R81	Congenital myopathy	2023-06-20	R0A	Manchester University NHS Foundation Trust	urgent	r20000000707	completed	
+rare_diseases	R29	Intellectual disability	2023-08-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000708	completed	
+rare_diseases	R29	Intellectual disability	2024-09-01	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000709	completed	
+rare_diseases	R29	Intellectual disability	2022-12-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000710	completed	
+rare_diseases	R27	Paediatric disorders	2022-10-04	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000711	completed	
+rare_diseases	R193	Cystic renal disease	2023-06-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000712	completed	
+rare_diseases	R29	Intellectual disability	2025-03-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000713	completed	
+rare_diseases	R193	Cystic renal disease	2023-10-07	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000714	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2024-12-04	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000715	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-12-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000716	completed	
+rare_diseases	R27	Paediatric disorders	2021-09-02	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000717	completed	
+rare_diseases	R29	Intellectual disability	2023-11-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000718	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2021-09-27	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000719	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2022-07-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000720	active	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2022-10-02	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000721	completed	
+rare_diseases	R27	Paediatric disorders	2022-03-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000722	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2024-10-13	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000723	completed	
+rare_diseases	R29	Intellectual disability	2021-10-19	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000724	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-03-25	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000725	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2024-07-08	R0A	Manchester University NHS Foundation Trust	urgent	r20000000726	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2024-08-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000727	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-09-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000728	completed	
+rare_diseases	R32	Retinal disorders	2022-05-08	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000729	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-12-25	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000730	completed	
+rare_diseases	R29	Intellectual disability	2024-08-15	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000731	completed	
+rare_diseases	R27	Paediatric disorders	2023-05-05	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000732	completed	
+rare_diseases	R29	Intellectual disability	2023-05-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000733	completed	
+rare_diseases	R27	Paediatric disorders	2023-10-15	R0A	Manchester University NHS Foundation Trust	routine	r20000000734	completed	
+rare_diseases	R193	Cystic renal disease	2023-10-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000735	completed	
+rare_diseases	R32	Retinal disorders	2021-06-07	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000736	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-08-24	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000737	active	
+rare_diseases	R29	Intellectual disability	2023-04-15	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000738	completed	
+rare_diseases	R32	Retinal disorders	2022-05-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000739	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-03-02	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000740	completed	
+rare_diseases	R67	Monogenic hearing loss	2021-10-01	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000741	completed	
+rare_diseases	R27	Paediatric disorders	2024-09-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000742	completed	
+rare_diseases	R27	Paediatric disorders	2022-07-12	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000743	completed	
+rare_diseases	R193	Cystic renal disease	2022-02-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000744	completed	
+rare_diseases	R29	Intellectual disability	2025-03-25	R0A	Manchester University NHS Foundation Trust	urgent	r20000000745	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-07-03	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000746	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-03-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000747	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-10-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000748	completed	
+rare_diseases	R27	Paediatric disorders	2022-01-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000749	completed	
+rare_diseases	R29	Intellectual disability	2025-03-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000750	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2021-06-28	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000751	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2023-07-31	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000752	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-02-22	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000753	completed	
+rare_diseases	R32	Retinal disorders	2021-11-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000754	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-02-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000755	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2021-10-15	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000756	completed	
+rare_diseases	R29	Intellectual disability	2022-06-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000757	completed	
+rare_diseases	R29	Intellectual disability	2022-09-06	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000000758	completed	
+rare_diseases	R29	Intellectual disability	2023-10-20	R0A	Manchester University NHS Foundation Trust	routine	r20000000759	completed	
+rare_diseases	R29	Intellectual disability	2022-09-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000760	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2024-11-11	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000761	completed	
+rare_diseases	R29	Intellectual disability	2023-08-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000762	completed	
+rare_diseases	R32	Retinal disorders	2025-03-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000763	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2023-03-26	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000764	completed	
+rare_diseases	R123	Craniosynostosis	2023-11-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000765	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2023-12-20	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000766	completed	
+rare_diseases	R29	Intellectual disability	2022-05-01	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000767	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-05-09	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000768	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-03-24	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000000769	completed	
+rare_diseases	R29	Intellectual disability	2022-12-14	R0A	Manchester University NHS Foundation Trust	routine	r20000000770	completed	
+rare_diseases	R32	Retinal disorders	2024-09-19	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000771	completed	
+rare_diseases	R29	Intellectual disability	2023-11-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000772	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-03-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000773	completed	
+rare_diseases	R29	Intellectual disability	2021-04-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000774	completed	
+rare_diseases	R29	Intellectual disability	2021-07-28	R0A	Manchester University NHS Foundation Trust	routine	r20000000775	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-01-26	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000776	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2021-09-26	R0A	Manchester University NHS Foundation Trust	routine	r20000000777	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-06-18	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000778	completed	
+rare_diseases	R29	Intellectual disability	2021-06-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000779	completed	
+rare_diseases	R27	Paediatric disorders	2023-08-08	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000780	completed	
+rare_diseases	R29	Intellectual disability	2025-02-10	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000781	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-02-28	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000782	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-12-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000783	completed	
+rare_diseases	R60	Adult onset neurodegenerative disorder	2022-11-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000784	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2024-04-20	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000785	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2024-09-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000786	completed	
+rare_diseases	R29	Intellectual disability	2022-03-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000787	completed	
+rare_diseases	R193	Cystic renal disease	2021-10-03	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000788	completed	
+rare_diseases	R32	Retinal disorders	2022-11-22	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000789	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2021-05-02	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000790	completed	
+rare_diseases	R29	Intellectual disability	2024-03-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000791	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-07-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000792	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-07-20	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000793	completed	
+rare_diseases	R29	Intellectual disability	2023-04-29	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000794	completed	
+rare_diseases	R29	Intellectual disability	2025-03-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000795	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-10-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000796	completed	
+rare_diseases	R29	Intellectual disability	2024-07-08	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000797	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2022-02-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000798	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2024-12-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000799	active	
+rare_diseases	R193	Cystic renal disease	2022-04-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000800	completed	
+rare_diseases	R104	Skeletal dysplasia	2023-09-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000801	completed	
+rare_diseases	R27	Paediatric disorders	2022-06-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000000802	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2022-05-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000803	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-03-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000804	completed	
+rare_diseases	R29	Intellectual disability	2021-10-01	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000805	completed	
+rare_diseases	R29	Intellectual disability	2021-05-25	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000806	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-05-01	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000807	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-10-14	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000808	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-01-09	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000809	completed	
+rare_diseases	R141	Monogenic diabetes	2023-11-04	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000810	active	
+rare_diseases	R29	Intellectual disability	2023-11-30	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000811	completed	
+rare_diseases	R29	Intellectual disability	2021-10-20	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000812	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2023-08-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000813	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2025-03-17	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000814	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2023-02-09	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000815	completed	
+rare_diseases	R32	Retinal disorders	2024-10-31	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000816	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-01-03	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000817	completed	
+rare_diseases	R32	Retinal disorders	2023-12-26	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000818	completed	
+rare_diseases	R29	Intellectual disability	2024-08-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000819	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2024-10-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000820	completed	
+rare_diseases	R57	Hereditary parkinsonism	2023-03-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000821	completed	
+rare_diseases	R29	Intellectual disability	2024-10-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000822	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2023-07-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000823	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2021-05-11	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000000824	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2021-09-25	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000825	completed	
+rare_diseases	R57	Hereditary parkinsonism	2022-03-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000826	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2022-03-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000827	completed	
+rare_diseases	R29	Intellectual disability	2022-06-01	R0A	Manchester University NHS Foundation Trust	routine	r20000000828	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-01-22	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000829	completed	
+rare_diseases	R67	Monogenic hearing loss	2021-09-12	R0A	Manchester University NHS Foundation Trust	routine	r20000000830	completed	
+rare_diseases	R104	Skeletal dysplasia	2024-12-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000831	active	
+rare_diseases	R193	Cystic renal disease	2023-12-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000832	active	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2025-03-20	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000833	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2021-11-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000834	completed	
+rare_diseases	R32	Retinal disorders	2023-11-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000835	completed	
+rare_diseases	R193	Cystic renal disease	2022-03-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000836	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2024-04-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000837	completed	
+rare_diseases	R67	Monogenic hearing loss	2022-08-09	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000838	completed	
+rare_diseases	R29	Intellectual disability	2021-10-21	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000839	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2023-07-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000840	completed	
+rare_diseases	R29	Intellectual disability	2024-12-23	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000841	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2023-08-06	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000842	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2025-03-20	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000843	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2022-07-15	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000844	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2023-11-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000845	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2023-11-07	R0A	Manchester University NHS Foundation Trust	urgent	r20000000846	completed	
+rare_diseases	R29	Intellectual disability	2024-04-07	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000847	completed	
+rare_diseases	R67	Monogenic hearing loss	2023-03-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000848	completed	
+rare_diseases	R29	Intellectual disability	2023-12-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000849	completed	
+rare_diseases	R78	Hereditary neuropathy or pain disorder	2022-12-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000850	completed	
+rare_diseases	R32	Retinal disorders	2022-09-16	RYJ	Imperial College Healthcare NHS Trust	urgent	r20000000851	completed	
+rare_diseases	R29	Intellectual disability	2023-11-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000852	completed	
+rare_diseases	R257	Unexplained young onset end-stage renal disease	2022-11-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000853	completed	
+rare_diseases	R32	Retinal disorders	2022-12-08	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000854	completed	
+rare_diseases	R61	Hereditary spastic paraplegia - adult onset	2024-09-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000855	completed	
+rare_diseases	R193	Cystic renal disease	2021-08-15	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000856	completed	
+rare_diseases	R57	Hereditary parkinsonism	2024-01-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000857	completed	
+rare_diseases	R193	Cystic renal disease	2023-11-19	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000858	completed	
+rare_diseases	R29	Intellectual disability	2023-07-26	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000859	completed	
+rare_diseases	R32	Retinal disorders	2024-08-02	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000860	completed	
+rare_diseases	R29	Intellectual disability	2022-04-10	R0A	Manchester University NHS Foundation Trust	routine	r20000000861	completed	
+rare_diseases	R29	Intellectual disability	2023-11-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000862	completed	
+rare_diseases	R59	Early onset or syndromic epilepsy	2023-07-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000863	completed	
+rare_diseases	R29	Intellectual disability	2022-09-22	R0A	Manchester University NHS Foundation Trust	routine	r20000000864	completed	
+rare_diseases	R123	Craniosynostosis	2024-09-05	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000865	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2021-04-06	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000866	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-10-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000867	completed	
+rare_diseases	R193	Cystic renal disease	2024-07-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000868	completed	
+rare_diseases	R29	Intellectual disability	2023-06-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000869	completed	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2021-05-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000870	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2023-09-11	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000871	completed	
+rare_diseases	R134	Familial hypercholesterolaemia - targeted testing	2024-01-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000872	completed	
+rare_diseases	R29	Intellectual disability	2022-10-22	R0A	Manchester University NHS Foundation Trust	routine	r20000000873	completed	
+rare_diseases	R29	Intellectual disability	2024-04-17	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000874	active	
+rare_diseases	R54	Hereditary ataxia with onset in adulthood	2024-04-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000875	completed	
+rare_diseases	R4	Possible mitochondrial disorder - nuclear genes	2023-08-16	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000876	completed	
+rare_diseases	R29	Intellectual disability	2024-11-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000877	active	
+rare_diseases	R29	Intellectual disability	2021-05-01	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000878	completed	
+rare_diseases	R29	Intellectual disability	2022-10-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000879	completed	
+rare_diseases	R29	Intellectual disability	2022-06-07	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000880	completed	
+rare_diseases	R29	Intellectual disability	2025-01-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000881	completed	
+rare_diseases	R67	Monogenic hearing loss	2022-01-13	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000882	completed	
+rare_diseases	R29	Intellectual disability	2023-02-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000883	completed	
+rare_diseases	R29	Intellectual disability	2022-12-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000884	completed	
+rare_diseases	R15	Primary immunodeficiency or monogenic inflammatory bowel disease	2025-03-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000885	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2022-12-23	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000886	completed	
+rare_diseases	R131	Hypertrophic cardiomyopathy - teen and adult	2022-01-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000887	completed	
+rare_diseases	R57	Hereditary parkinsonism	2022-05-18	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000888	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-05-11	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000889	active	
+rare_diseases	R29	Intellectual disability	2024-10-13	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000890	completed	
+rare_diseases	R194	Congenital anomaly of the kidney and urinary tract	2024-08-20	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000891	completed	
+rare_diseases	R211	Inherited polyposis and early onset colorectal cancer - germline testing	2023-08-06	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000892	completed	
+rare_diseases	R29	Intellectual disability	2022-05-09	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000893	completed	
+rare_diseases	R133	Dilated cardiomyopathy - adult and teen	2021-04-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000894	completed	
+rare_diseases	R208	Inherited breast and ovarian cancer	2022-04-28	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000895	active	
+rare_diseases	R29	Intellectual disability	2023-08-15	R0A	Manchester University NHS Foundation Trust	routine	r20000000896	completed	
+rare_diseases	R123	Craniosynostosis	2024-03-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000897	completed	
+rare_diseases	R29	Intellectual disability	2025-01-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000898	completed	
+rare_diseases	R125	Thoracic aortic aneurysm or dissection	2024-09-29	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000899	completed	
+rare_diseases	R29	Intellectual disability	2024-08-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000900	completed	
+cancer	M8	Melanoma	2021-02-12	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000901	completed	T0004406
+cancer	M3	Breast cancer	2024-01-13	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000902	completed	T0004407
+cancer	M125	Renal cancer	2025-01-18	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000903	completed	T0004408
+cancer	M1	Colorectal carcinoma	2021-06-13	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000904	completed	T0004409
+cancer	M3	Breast cancer	2023-02-23	R0A	Manchester University NHS Foundation Trust	routine	r20000000905	completed	T0004410
+cancer	M1	Colorectal carcinoma	2023-01-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000906	completed	T0004411
+cancer	M2	Lung cancer	2021-09-07	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000907	active	T0004412
+cancer	M7	Bladder cancer	2022-03-30	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000908	completed	T0004413
+cancer	M223	Soft tissue sarcoma	2024-12-20	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000909	completed	T0004414
+cancer	M125	Renal cancer	2022-05-16	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000910	completed	T0004415
+cancer	M2	Lung cancer	2022-01-02	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000911	completed	T0004416
+cancer	M223	Soft tissue sarcoma	2024-12-15	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000912	completed	T0004417
+cancer	M223	Soft tissue sarcoma	2023-07-08	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000913	active	T0004418
+cancer	M223	Soft tissue sarcoma	2021-12-06	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000914	active	T0004419
+cancer	M2	Lung cancer	2023-11-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000000915	completed	T0004420
+cancer	M1	Colorectal carcinoma	2022-12-08	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000916	completed	T0004421
+cancer	M125	Renal cancer	2021-02-07	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000917	completed	T0004422
+cancer	M1	Colorectal carcinoma	2021-12-04	R0A	Manchester University NHS Foundation Trust	routine	r20000000918	completed	T0004423
+cancer	M4	Ovarian carcinoma	2025-01-15	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000919	completed	T0004424
+cancer	M81	Haematological malignancy	2023-08-26	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000920	completed	T0004425
+cancer	M125	Renal cancer	2023-02-07	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000921	completed	T0004426
+cancer	M2	Lung cancer	2023-12-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000922	completed	T0004427
+cancer	M3	Breast cancer	2023-12-27	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000923	completed	T0004428
+cancer	M13	Carcinoma of unknown primary	2022-09-29	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000924	completed	T0004429
+cancer	M4	Ovarian carcinoma	2021-03-10	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000925	active	T0004430
+cancer	M1	Colorectal carcinoma	2024-10-04	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000926	completed	T0004431
+cancer	M3	Breast cancer	2024-12-16	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000927	active	T0004432
+cancer	M1	Colorectal carcinoma	2023-11-13	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000928	completed	T0004433
+cancer	M223	Soft tissue sarcoma	2024-06-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000929	completed	T0004434
+cancer	M6	Prostate cancer	2021-06-30	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000930	completed	T0004435
+cancer	M2	Lung cancer	2023-03-28	R0A	Manchester University NHS Foundation Trust	routine	r20000000931	completed	T0004436
+cancer	M1	Colorectal carcinoma	2023-04-28	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000000932	completed	T0004437
+cancer	M3	Breast cancer	2023-12-13	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000933	completed	T0004438
+cancer	M1	Colorectal carcinoma	2022-11-12	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000934	active	T0004439
+cancer	M1	Colorectal carcinoma	2022-07-31	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000935	completed	T0004440
+cancer	M6	Prostate cancer	2022-11-02	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000936	completed	T0004441
+cancer	M125	Renal cancer	2022-04-30	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000937	completed	T0004442
+cancer	M3	Breast cancer	2022-07-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000938	completed	T0004443
+cancer	M1	Colorectal carcinoma	2022-03-21	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000939	completed	T0004444
+cancer	M10	Hepatopancreatobiliary cancer	2022-06-19	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000940	completed	T0004445
+cancer	M125	Renal cancer	2023-04-17	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000941	completed	T0004446
+cancer	M81	Haematological malignancy	2023-09-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000942	completed	T0004447
+cancer	M2	Lung cancer	2024-04-13	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000943	completed	T0004448
+cancer	M3	Breast cancer	2023-01-07	R0A	Manchester University NHS Foundation Trust	routine	r20000000944	completed	T0004449
+cancer	M223	Soft tissue sarcoma	2023-12-22	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000945	completed	T0004450
+cancer	M6	Prostate cancer	2022-01-30	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000946	completed	T0004451
+cancer	M223	Soft tissue sarcoma	2024-09-09	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000947	completed	T0004452
+cancer	M3	Breast cancer	2022-06-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000948	completed	T0004453
+cancer	M1	Colorectal carcinoma	2021-12-04	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000949	completed	T0004454
+cancer	M1	Colorectal carcinoma	2024-08-22	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000950	completed	T0004455
+cancer	M6	Prostate cancer	2024-03-23	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000951	completed	T0004456
+cancer	M125	Renal cancer	2024-02-15	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000000952	completed	T0004457
+cancer	M125	Renal cancer	2024-12-28	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000953	completed	T0004458
+cancer	M81	Haematological malignancy	2021-03-26	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000954	completed	T0004459
+cancer	M81	Haematological malignancy	2023-03-12	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000955	completed	T0004460
+cancer	M5	Endometrial cancer	2022-12-09	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000956	completed	T0004461
+cancer	M3	Breast cancer	2022-07-25	R0A	Manchester University NHS Foundation Trust	routine	r20000000957	completed	T0004462
+cancer	M2	Lung cancer	2025-01-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000958	completed	T0004463
+cancer	M125	Renal cancer	2022-11-23	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000959	completed	T0004464
+cancer	M223	Soft tissue sarcoma	2024-08-31	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000960	completed	T0004465
+cancer	M3	Breast cancer	2022-06-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000961	active	T0004466
+cancer	M6	Prostate cancer	2022-11-03	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000962	completed	T0004467
+cancer	M9	Upper gastrointestinal cancer	2024-06-25	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000000963	active	T0004468
+cancer	M3	Breast cancer	2022-03-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000000964	completed	T0004469
+cancer	M1	Colorectal carcinoma	2024-09-13	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000965	completed	T0004470
+cancer	M1	Colorectal carcinoma	2021-03-10	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000000966	completed	T0004471
+cancer	M4	Ovarian carcinoma	2022-05-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000967	completed	T0004472
+cancer	M5	Endometrial cancer	2022-06-25	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000968	completed	T0004473
+cancer	M12	Testicular germ cell tumour	2021-07-04	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000969	completed	T0004474
+cancer	M6	Prostate cancer	2022-03-10	R0A	Manchester University NHS Foundation Trust	routine	r20000000970	completed	T0004475
+cancer	M1	Colorectal carcinoma	2022-11-20	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000971	completed	T0004476
+cancer	M6	Prostate cancer	2024-01-02	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000972	completed	T0004477
+cancer	M3	Breast cancer	2022-02-10	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000973	completed	T0004478
+cancer	M223	Soft tissue sarcoma	2022-01-02	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000000974	completed	T0004479
+cancer	M7	Bladder cancer	2024-11-12	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000975	completed	T0004480
+cancer	M3	Breast cancer	2022-06-17	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000976	completed	T0004481
+cancer	M5	Endometrial cancer	2021-01-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000977	completed	T0004482
+cancer	M1	Colorectal carcinoma	2024-12-24	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000978	active	T0004483
+cancer	M5	Endometrial cancer	2021-09-20	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000979	completed	T0004484
+cancer	M3	Breast cancer	2024-09-14	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000980	completed	T0004485
+cancer	M1	Colorectal carcinoma	2021-11-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000000981	completed	T0004486
+cancer	M3	Breast cancer	2024-09-25	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000982	completed	T0004487
+cancer	M223	Soft tissue sarcoma	2021-09-16	R0A	Manchester University NHS Foundation Trust	routine	r20000000983	completed	T0004488
+cancer	M3	Breast cancer	2024-11-30	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000984	completed	T0004489
+cancer	M11	Head and neck cancer	2022-10-23	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000985	completed	T0004490
+cancer	M1	Colorectal carcinoma	2023-05-20	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000986	completed	T0004491
+cancer	M6	Prostate cancer	2022-06-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000000987	completed	T0004492
+cancer	M4	Ovarian carcinoma	2024-03-21	RYJ	Imperial College Healthcare NHS Trust	routine	r20000000988	completed	T0004493
+cancer	M223	Soft tissue sarcoma	2022-09-04	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000000989	completed	T0004494
+cancer	M1	Colorectal carcinoma	2025-01-29	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000000990	completed	T0004495
+cancer	M1	Colorectal carcinoma	2023-08-21	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000000991	completed	T0004496
+cancer	M3	Breast cancer	2021-12-18	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000000992	completed	T0004497
+cancer	M1	Colorectal carcinoma	2022-08-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000000993	completed	T0004498
+cancer	M223	Soft tissue sarcoma	2022-05-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000000994	completed	T0004499
+cancer	M3	Breast cancer	2024-04-08	REP	Liverpool Women's NHS Foundation Trust	routine	r20000000995	completed	T0004500
+cancer	M223	Soft tissue sarcoma	2023-12-17	R0A	Manchester University NHS Foundation Trust	routine	r20000000996	completed	T0004501
+cancer	M210	Paediatric tumours	2024-05-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000000997	completed	T0004502
+cancer	M2	Lung cancer	2022-10-12	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000000998	completed	T0004503
+cancer	M3	Breast cancer	2024-01-20	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000000999	completed	T0004504
+cancer	M1	Colorectal carcinoma	2024-07-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001000	completed	T0004505
+cancer	M4	Ovarian carcinoma	2021-10-10	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001001	completed	T0004506
+cancer	M210	Paediatric tumours	2021-01-27	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001002	completed	T0004507
+cancer	M7	Bladder cancer	2022-08-25	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000001003	completed	T0004508
+cancer	M210	Paediatric tumours	2021-05-12	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001004	completed	T0004509
+cancer	M5	Endometrial cancer	2021-09-19	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001005	completed	T0004510
+cancer	M1	Colorectal carcinoma	2023-07-18	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001006	completed	T0004511
+cancer	M8	Melanoma	2023-02-13	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001007	completed	T0004512
+cancer	M81	Haematological malignancy	2023-01-29	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001008	active	T0004513
+cancer	M5	Endometrial cancer	2025-01-30	R0A	Manchester University NHS Foundation Trust	routine	r20000001009	completed	T0004514
+cancer	M8	Melanoma	2021-03-15	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001010	completed	T0004515
+cancer	M223	Soft tissue sarcoma	2021-02-20	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001011	completed	T0004516
+cancer	M3	Breast cancer	2022-04-07	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001012	completed	T0004517
+cancer	M81	Haematological malignancy	2021-11-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001013	completed	T0004518
+cancer	M6	Prostate cancer	2024-02-26	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001014	completed	T0004519
+cancer	M4	Ovarian carcinoma	2024-12-01	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001015	completed	T0004520
+cancer	M223	Soft tissue sarcoma	2022-06-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000001016	completed	T0004521
+cancer	M1	Colorectal carcinoma	2021-01-26	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000001017	completed	T0004522
+cancer	M9	Upper gastrointestinal cancer	2021-03-31	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001018	active	T0004523
+cancer	M125	Renal cancer	2025-01-16	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001019	completed	T0004524
+cancer	M223	Soft tissue sarcoma	2021-08-23	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001020	completed	T0004525
+cancer	M5	Endometrial cancer	2021-02-28	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001021	completed	T0004526
+cancer	M80	Adult glioma	2022-01-09	R0A	Manchester University NHS Foundation Trust	urgent	r20000001022	completed	T0004527
+cancer	M5	Endometrial cancer	2023-03-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001023	completed	T0004528
+cancer	M2	Lung cancer	2024-04-27	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001024	completed	T0004529
+cancer	M125	Renal cancer	2023-02-08	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001025	completed	T0004530
+cancer	M5	Endometrial cancer	2021-10-08	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001026	completed	T0004531
+cancer	M3	Breast cancer	2024-02-26	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001027	completed	T0004532
+cancer	M223	Soft tissue sarcoma	2025-01-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001028	completed	T0004533
+cancer	M2	Lung cancer	2023-10-10	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001029	completed	T0004534
+cancer	M6	Prostate cancer	2021-12-09	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001030	completed	T0004535
+cancer	M125	Renal cancer	2023-04-25	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001031	completed	T0004536
+cancer	M5	Endometrial cancer	2021-07-31	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001032	completed	T0004537
+cancer	M223	Soft tissue sarcoma	2023-04-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000001033	completed	T0004538
+cancer	M81	Haematological malignancy	2023-12-08	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001034	completed	T0004539
+cancer	M7	Bladder cancer	2024-06-27	R0A	Manchester University NHS Foundation Trust	urgent	r20000001035	active	T0004540
+cancer	M223	Soft tissue sarcoma	2022-07-11	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001036	completed	T0004541
+cancer	M125	Renal cancer	2021-09-25	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001037	completed	T0004542
+cancer	M210	Paediatric tumours	2022-03-24	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001038	completed	T0004543
+cancer	M125	Renal cancer	2024-02-17	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001039	active	T0004544
+cancer	M223	Soft tissue sarcoma	2024-02-10	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001040	completed	T0004545
+cancer	M4	Ovarian carcinoma	2024-05-30	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001041	completed	T0004546
+cancer	M223	Soft tissue sarcoma	2023-01-02	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001042	completed	T0004547
+cancer	M125	Renal cancer	2023-02-10	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001043	completed	T0004548
+cancer	M1	Colorectal carcinoma	2022-10-04	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001044	active	T0004549
+cancer	M1	Colorectal carcinoma	2024-04-24	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001045	completed	T0004550
+cancer	M12	Testicular germ cell tumour	2022-09-30	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001046	completed	T0004551
+cancer	M1	Colorectal carcinoma	2023-03-02	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001047	completed	T0004552
+cancer	M2	Lung cancer	2021-04-23	R0A	Manchester University NHS Foundation Trust	routine	r20000001048	completed	T0004553
+cancer	M2	Lung cancer	2022-11-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001049	completed	T0004554
+cancer	M1	Colorectal carcinoma	2023-12-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001050	completed	T0004555
+cancer	M3	Breast cancer	2024-06-24	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001051	completed	T0004556
+cancer	M6	Prostate cancer	2021-11-22	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001052	completed	T0004557
+cancer	M125	Renal cancer	2022-03-15	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001053	active	T0004558
+cancer	M125	Renal cancer	2023-11-26	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000001054	completed	T0004559
+cancer	M223	Soft tissue sarcoma	2021-01-14	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001055	completed	T0004560
+cancer	M3	Breast cancer	2022-01-17	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001056	completed	T0004561
+cancer	M1	Colorectal carcinoma	2024-10-10	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000001057	completed	T0004562
+cancer	M3	Breast cancer	2023-05-29	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001058	completed	T0004563
+cancer	M9	Upper gastrointestinal cancer	2021-11-04	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000001059	completed	T0004564
+cancer	M223	Soft tissue sarcoma	2024-04-30	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001060	completed	T0004565
+cancer	M3	Breast cancer	2023-07-23	R0A	Manchester University NHS Foundation Trust	routine	r20000001061	completed	T0004566
+cancer	M6	Prostate cancer	2021-09-27	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001062	completed	T0004567
+cancer	M125	Renal cancer	2022-04-04	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001063	completed	T0004568
+cancer	M223	Soft tissue sarcoma	2023-07-02	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001064	completed	T0004569
+cancer	M3	Breast cancer	2022-06-15	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001065	completed	T0004570
+cancer	M5	Endometrial cancer	2021-12-18	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001066	completed	T0004571
+cancer	M3	Breast cancer	2021-01-09	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001067	completed	T0004572
+cancer	M4	Ovarian carcinoma	2023-04-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001068	completed	T0004573
+cancer	M210	Paediatric tumours	2021-11-10	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001069	completed	T0004574
+cancer	M80	Adult glioma	2022-10-29	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000001070	completed	T0004575
+cancer	M3	Breast cancer	2024-10-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001071	completed	T0004576
+cancer	M3	Breast cancer	2021-03-08	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001072	completed	T0004577
+cancer	M223	Soft tissue sarcoma	2022-11-09	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001073	completed	T0004578
+cancer	M2	Lung cancer	2021-02-01	R0A	Manchester University NHS Foundation Trust	routine	r20000001074	completed	T0004579
+cancer	M80	Adult glioma	2023-05-07	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001075	completed	T0004580
+cancer	M4	Ovarian carcinoma	2021-04-23	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000001076	completed	T0004581
+cancer	M1	Colorectal carcinoma	2023-09-07	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001077	completed	T0004582
+cancer	M1	Colorectal carcinoma	2022-04-13	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001078	completed	T0004583
+cancer	M3	Breast cancer	2022-03-12	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001079	completed	T0004584
+cancer	M3	Breast cancer	2022-03-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001080	completed	T0004585
+cancer	M8	Melanoma	2023-07-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001081	completed	T0004586
+cancer	M80	Adult glioma	2022-09-06	RGT	Cambridge University Hospitals NHS Foundation Trust	urgent	r20000001082	completed	T0004587
+cancer	M3	Breast cancer	2021-03-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001083	completed	T0004588
+cancer	M2	Lung cancer	2022-12-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001084	completed	T0004589
+cancer	M3	Breast cancer	2022-06-15	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001085	completed	T0004590
+cancer	M2	Lung cancer	2021-04-27	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001086	completed	T0004591
+cancer	M81	Haematological malignancy	2024-02-23	R0A	Manchester University NHS Foundation Trust	routine	r20000001087	completed	T0004592
+cancer	M125	Renal cancer	2023-05-08	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001088	completed	T0004593
+cancer	M223	Soft tissue sarcoma	2021-05-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001089	completed	T0004594
+cancer	M1	Colorectal carcinoma	2023-08-22	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001090	completed	T0004595
+cancer	M3	Breast cancer	2023-08-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001091	completed	T0004596
+cancer	M1	Colorectal carcinoma	2024-11-01	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001092	completed	T0004597
+cancer	M80	Adult glioma	2021-09-29	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001093	completed	T0004598
+cancer	M223	Soft tissue sarcoma	2021-07-26	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001094	completed	T0004599
+cancer	M1	Colorectal carcinoma	2022-09-25	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001095	completed	T0004600
+cancer	M1	Colorectal carcinoma	2024-04-14	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001096	completed	T0004601
+cancer	M223	Soft tissue sarcoma	2024-03-21	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001097	completed	T0004602
+cancer	M2	Lung cancer	2024-07-27	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001098	completed	T0004603
+cancer	M125	Renal cancer	2021-10-28	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001099	completed	T0004604
+cancer	M6	Prostate cancer	2023-05-04	R0A	Manchester University NHS Foundation Trust	routine	r20000001100	completed	T0004605
+cancer	M2	Lung cancer	2023-02-10	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001101	completed	T0004606
+cancer	M3	Breast cancer	2024-12-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001102	completed	T0004607
+cancer	M8	Melanoma	2023-12-05	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001103	completed	T0004608
+cancer	M223	Soft tissue sarcoma	2024-12-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000001104	completed	T0004609
+cancer	M3	Breast cancer	2022-09-08	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001105	completed	T0004610
+cancer	M4	Ovarian carcinoma	2021-10-03	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001106	completed	T0004611
+cancer	M1	Colorectal carcinoma	2024-01-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000001107	completed	T0004612
+cancer	M210	Paediatric tumours	2022-11-27	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001108	completed	T0004613
+cancer	M6	Prostate cancer	2024-10-27	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001109	completed	T0004614
+cancer	M1	Colorectal carcinoma	2022-11-24	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001110	completed	T0004615
+cancer	M3	Breast cancer	2024-11-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001111	completed	T0004616
+cancer	M3	Breast cancer	2024-02-12	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001112	completed	T0004617
+cancer	M9	Upper gastrointestinal cancer	2024-01-05	R0A	Manchester University NHS Foundation Trust	routine	r20000001113	completed	T0004618
+cancer	M9	Upper gastrointestinal cancer	2023-07-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001114	completed	T0004619
+cancer	M6	Prostate cancer	2021-11-22	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001115	completed	T0004620
+cancer	M9	Upper gastrointestinal cancer	2024-03-02	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001116	completed	T0004621
+cancer	M223	Soft tissue sarcoma	2021-06-19	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001117	completed	T0004622
+cancer	M125	Renal cancer	2021-09-04	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001118	completed	T0004623
+cancer	M125	Renal cancer	2022-07-04	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001119	completed	T0004624
+cancer	M3	Breast cancer	2024-02-05	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001120	completed	T0004625
+cancer	M9	Upper gastrointestinal cancer	2024-10-29	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001121	completed	T0004626
+cancer	M1	Colorectal carcinoma	2021-02-21	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001122	completed	T0004627
+cancer	M1	Colorectal carcinoma	2021-08-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001123	completed	T0004628
+cancer	M2	Lung cancer	2024-05-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001124	completed	T0004629
+cancer	M1	Colorectal carcinoma	2023-12-22	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001125	active	T0004630
+cancer	M3	Breast cancer	2022-08-21	R0A	Manchester University NHS Foundation Trust	routine	r20000001126	completed	T0004631
+cancer	M3	Breast cancer	2024-04-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001127	completed	T0004632
+cancer	M3	Breast cancer	2022-02-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001128	completed	T0004633
+cancer	M3	Breast cancer	2022-05-24	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000001129	completed	T0004634
+cancer	M3	Breast cancer	2023-03-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001130	completed	T0004635
+cancer	M81	Haematological malignancy	2024-05-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001131	completed	T0004636
+cancer	M2	Lung cancer	2024-05-07	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001132	completed	T0004637
+cancer	M1	Colorectal carcinoma	2024-06-13	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001133	completed	T0004638
+cancer	M125	Renal cancer	2025-01-30	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001134	completed	T0004639
+cancer	M1	Colorectal carcinoma	2023-04-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001135	completed	T0004640
+cancer	M1	Colorectal carcinoma	2021-05-27	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001136	completed	T0004641
+cancer	M1	Colorectal carcinoma	2024-11-28	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000001137	active	T0004642
+cancer	M1	Colorectal carcinoma	2023-03-24	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000001138	completed	T0004643
+cancer	M3	Breast cancer	2023-08-02	R0A	Manchester University NHS Foundation Trust	routine	r20000001139	completed	T0004644
+cancer	M5	Endometrial cancer	2023-05-16	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001140	completed	T0004645
+cancer	M125	Renal cancer	2023-09-21	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001141	completed	T0004646
+cancer	M8	Melanoma	2024-07-31	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001142	completed	T0004647
+cancer	M81	Haematological malignancy	2021-06-26	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001143	completed	T0004648
+cancer	M1	Colorectal carcinoma	2023-06-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001144	active	T0004649
+cancer	M3	Breast cancer	2024-02-14	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001145	completed	T0004650
+cancer	M3	Breast cancer	2023-06-15	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001146	completed	T0004651
+cancer	M223	Soft tissue sarcoma	2023-01-08	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001147	completed	T0004652
+cancer	M210	Paediatric tumours	2023-09-05	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001148	completed	T0004653
+cancer	M125	Renal cancer	2022-02-22	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001149	completed	T0004654
+cancer	M81	Haematological malignancy	2023-08-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001150	completed	T0004655
+cancer	M4	Ovarian carcinoma	2023-12-28	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001151	completed	T0004656
+cancer	M3	Breast cancer	2021-08-27	R0A	Manchester University NHS Foundation Trust	routine	r20000001152	completed	T0004657
+cancer	M3	Breast cancer	2022-07-06	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001153	completed	T0004658
+cancer	M125	Renal cancer	2024-12-19	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001154	completed	T0004659
+cancer	M3	Breast cancer	2024-04-11	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001155	completed	T0004660
+cancer	M8	Melanoma	2024-02-07	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001156	completed	T0004661
+cancer	M8	Melanoma	2024-01-24	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001157	completed	T0004662
+cancer	M2	Lung cancer	2021-02-26	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001158	completed	T0004663
+cancer	M1	Colorectal carcinoma	2021-08-06	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001159	completed	T0004664
+cancer	M81	Haematological malignancy	2022-02-26	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001160	completed	T0004665
+cancer	M5	Endometrial cancer	2021-11-21	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001161	completed	T0004666
+cancer	M125	Renal cancer	2023-12-31	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001162	completed	T0004667
+cancer	M3	Breast cancer	2023-03-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001163	completed	T0004668
+cancer	M223	Soft tissue sarcoma	2022-04-30	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001164	completed	T0004669
+cancer	M8	Melanoma	2024-03-04	R0A	Manchester University NHS Foundation Trust	routine	r20000001165	completed	T0004670
+cancer	M223	Soft tissue sarcoma	2024-06-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001166	completed	T0004671
+cancer	M125	Renal cancer	2024-08-30	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001167	completed	T0004672
+cancer	M3	Breast cancer	2023-11-10	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001168	completed	T0004673
+cancer	M81	Haematological malignancy	2021-06-18	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001169	completed	T0004674
+cancer	M6	Prostate cancer	2023-12-29	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001170	completed	T0004675
+cancer	M6	Prostate cancer	2023-03-19	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001171	completed	T0004676
+cancer	M2	Lung cancer	2021-06-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001172	completed	T0004677
+cancer	M3	Breast cancer	2023-01-07	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001173	completed	T0004678
+cancer	M2	Lung cancer	2021-11-03	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001174	completed	T0004679
+cancer	M5	Endometrial cancer	2023-07-19	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001175	completed	T0004680
+cancer	M3	Breast cancer	2023-11-24	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001176	completed	T0004681
+cancer	M3	Breast cancer	2024-02-23	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001177	completed	T0004682
+cancer	M223	Soft tissue sarcoma	2024-03-22	R0A	Manchester University NHS Foundation Trust	routine	r20000001178	completed	T0004683
+cancer	M13	Carcinoma of unknown primary	2023-06-22	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001179	completed	T0004684
+cancer	M223	Soft tissue sarcoma	2024-02-17	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001180	completed	T0004685
+cancer	M1	Colorectal carcinoma	2022-07-18	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001181	completed	T0004686
+cancer	M223	Soft tissue sarcoma	2021-02-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001182	completed	T0004687
+cancer	M125	Renal cancer	2022-01-05	RYJ	Imperial College Healthcare NHS Trust	urgent	r20000001183	completed	T0004688
+cancer	M1	Colorectal carcinoma	2022-09-29	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001184	completed	T0004689
+cancer	M1	Colorectal carcinoma	2022-08-11	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001185	completed	T0004690
+cancer	M125	Renal cancer	2024-03-28	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001186	completed	T0004691
+cancer	M80	Adult glioma	2022-02-03	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001187	completed	T0004692
+cancer	M3	Breast cancer	2023-11-02	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001188	completed	T0004693
+cancer	M4	Ovarian carcinoma	2024-03-18	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001189	completed	T0004694
+cancer	M1	Colorectal carcinoma	2023-05-13	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001190	completed	T0004695
+cancer	M3	Breast cancer	2022-11-11	R0A	Manchester University NHS Foundation Trust	urgent	r20000001191	completed	T0004696
+cancer	M125	Renal cancer	2023-11-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001192	completed	T0004697
+cancer	M9	Upper gastrointestinal cancer	2023-06-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000001193	completed	T0004698
+cancer	M1	Colorectal carcinoma	2023-12-02	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001194	completed	T0004699
+cancer	M125	Renal cancer	2024-12-01	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001195	completed	T0004700
+cancer	M4	Ovarian carcinoma	2023-02-01	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001196	completed	T0004701
+cancer	M3	Breast cancer	2023-06-22	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001197	completed	T0004702
+cancer	M3	Breast cancer	2022-08-30	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001198	completed	T0004703
+cancer	M223	Soft tissue sarcoma	2022-03-18	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001199	completed	T0004704
+cancer	M1	Colorectal carcinoma	2024-10-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001200	completed	T0004705
+cancer	M3	Breast cancer	2023-04-06	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001201	completed	T0004706
+cancer	M125	Renal cancer	2024-02-17	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001202	completed	T0004707
+cancer	M3	Breast cancer	2024-03-09	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001203	completed	T0004708
+cancer	M125	Renal cancer	2024-02-15	R0A	Manchester University NHS Foundation Trust	routine	r20000001204	completed	T0004709
+cancer	M125	Renal cancer	2022-03-11	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001205	completed	T0004710
+cancer	M3	Breast cancer	2023-03-16	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001206	completed	T0004711
+cancer	M223	Soft tissue sarcoma	2022-08-25	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001207	active	T0004712
+cancer	M1	Colorectal carcinoma	2021-07-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001208	completed	T0004713
+cancer	M1	Colorectal carcinoma	2024-08-30	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001209	completed	T0004714
+cancer	M3	Breast cancer	2021-07-04	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001210	completed	T0004715
+cancer	M210	Paediatric tumours	2021-02-07	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001211	completed	T0004716
+cancer	M2	Lung cancer	2022-01-19	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001212	completed	T0004717
+cancer	M2	Lung cancer	2023-09-22	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001213	completed	T0004718
+cancer	M4	Ovarian carcinoma	2023-02-23	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001214	completed	T0004719
+cancer	M9	Upper gastrointestinal cancer	2023-10-16	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001215	completed	T0004720
+cancer	M125	Renal cancer	2024-06-18	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001216	completed	T0004721
+cancer	M13	Carcinoma of unknown primary	2023-03-08	R0A	Manchester University NHS Foundation Trust	routine	r20000001217	completed	T0004722
+cancer	M6	Prostate cancer	2023-03-05	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001218	completed	T0004723
+cancer	M2	Lung cancer	2023-02-25	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001219	completed	T0004724
+cancer	M1	Colorectal carcinoma	2024-12-15	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001220	completed	T0004725
+cancer	M125	Renal cancer	2023-08-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001221	completed	T0004726
+cancer	M1	Colorectal carcinoma	2024-10-25	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001222	completed	T0004727
+cancer	M3	Breast cancer	2022-06-20	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001223	completed	T0004728
+cancer	M13	Carcinoma of unknown primary	2022-08-18	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001224	active	T0004729
+cancer	M3	Breast cancer	2022-04-18	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001225	completed	T0004730
+cancer	M8	Melanoma	2022-05-28	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001226	completed	T0004731
+cancer	M1	Colorectal carcinoma	2024-04-20	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001227	completed	T0004732
+cancer	M125	Renal cancer	2024-02-18	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001228	completed	T0004733
+cancer	M81	Haematological malignancy	2023-10-09	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001229	completed	T0004734
+cancer	M1	Colorectal carcinoma	2023-11-18	R0A	Manchester University NHS Foundation Trust	routine	r20000001230	completed	T0004735
+cancer	M2	Lung cancer	2025-01-12	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001231	completed	T0004736
+cancer	M81	Haematological malignancy	2024-12-08	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001232	completed	T0004737
+cancer	M80	Adult glioma	2024-08-24	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001233	completed	T0004738
+cancer	M1	Colorectal carcinoma	2021-08-12	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001234	completed	T0004739
+cancer	M125	Renal cancer	2022-11-21	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001235	completed	T0004740
+cancer	M6	Prostate cancer	2023-10-27	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001236	completed	T0004741
+cancer	M3	Breast cancer	2022-08-28	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001237	completed	T0004742
+cancer	M80	Adult glioma	2024-02-20	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001238	completed	T0004743
+cancer	M223	Soft tissue sarcoma	2021-12-23	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001239	completed	T0004744
+cancer	M3	Breast cancer	2023-03-30	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001240	completed	T0004745
+cancer	M3	Breast cancer	2023-09-20	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001241	completed	T0004746
+cancer	M1	Colorectal carcinoma	2022-02-10	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001242	completed	T0004747
+cancer	M223	Soft tissue sarcoma	2022-08-26	R0A	Manchester University NHS Foundation Trust	routine	r20000001243	completed	T0004748
+cancer	M7	Bladder cancer	2021-08-17	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001244	completed	T0004749
+cancer	M223	Soft tissue sarcoma	2023-01-02	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001245	completed	T0004750
+cancer	M223	Soft tissue sarcoma	2022-05-18	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001246	completed	T0004751
+cancer	M3	Breast cancer	2023-05-21	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001247	completed	T0004752
+cancer	M6	Prostate cancer	2023-02-08	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001248	completed	T0004753
+cancer	M4	Ovarian carcinoma	2022-10-23	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000001249	completed	T0004754
+cancer	M125	Renal cancer	2022-12-09	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000001250	completed	T0004755
+cancer	M5	Endometrial cancer	2024-09-23	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001251	completed	T0004756
+cancer	M5	Endometrial cancer	2022-06-04	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001252	completed	T0004757
+cancer	M80	Adult glioma	2021-04-26	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001253	completed	T0004758
+cancer	M1	Colorectal carcinoma	2023-04-10	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001254	completed	T0004759
+cancer	M80	Adult glioma	2023-11-13	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001255	completed	T0004760
+cancer	M3	Breast cancer	2023-07-12	R0A	Manchester University NHS Foundation Trust	routine	r20000001256	completed	T0004761
+cancer	M1	Colorectal carcinoma	2022-04-14	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001257	active	T0004762
+cancer	M3	Breast cancer	2024-07-18	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001258	completed	T0004763
+cancer	M9	Upper gastrointestinal cancer	2023-02-19	RHM	University Hospital Southampton NHS Foundation Trust	urgent	r20000001259	completed	T0004764
+cancer	M125	Renal cancer	2023-05-09	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000001260	completed	T0004765
+cancer	M11	Head and neck cancer	2023-07-21	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001261	completed	T0004766
+cancer	M3	Breast cancer	2024-08-02	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001262	completed	T0004767
+cancer	M80	Adult glioma	2024-12-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001263	completed	T0004768
+cancer	M2	Lung cancer	2025-01-09	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001264	completed	T0004769
+cancer	M3	Breast cancer	2023-05-17	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000001265	completed	T0004770
+cancer	M5	Endometrial cancer	2021-06-11	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001266	completed	T0004771
+cancer	M1	Colorectal carcinoma	2023-04-10	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001267	completed	T0004772
+cancer	M2	Lung cancer	2023-01-08	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001268	completed	T0004773
+cancer	M6	Prostate cancer	2021-12-01	R0A	Manchester University NHS Foundation Trust	routine	r20000001269	completed	T0004774
+cancer	M1	Colorectal carcinoma	2024-10-25	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001270	completed	T0004775
+cancer	M5	Endometrial cancer	2023-12-16	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001271	completed	T0004776
+cancer	M81	Haematological malignancy	2024-06-10	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001272	completed	T0004777
+cancer	M223	Soft tissue sarcoma	2021-03-30	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001273	completed	T0004778
+cancer	M80	Adult glioma	2021-08-17	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001274	active	T0004779
+cancer	M3	Breast cancer	2024-02-03	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001275	completed	T0004780
+cancer	M125	Renal cancer	2023-12-20	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001276	completed	T0004781
+cancer	M125	Renal cancer	2021-10-08	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001277	completed	T0004782
+cancer	M3	Breast cancer	2023-05-31	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001278	completed	T0004783
+cancer	M1	Colorectal carcinoma	2021-06-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001279	completed	T0004784
+cancer	M3	Breast cancer	2022-10-09	RQ3	Birmingham Women's and Children's NHS Foundation Trust	urgent	r20000001280	completed	T0004785
+cancer	M5	Endometrial cancer	2024-12-18	REP	Liverpool Women's NHS Foundation Trust	urgent	r20000001281	completed	T0004786
+cancer	M10	Hepatopancreatobiliary cancer	2021-10-24	R0A	Manchester University NHS Foundation Trust	routine	r20000001282	completed	T0004787
+cancer	M5	Endometrial cancer	2024-06-09	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	urgent	r20000001283	active	T0004788
+cancer	M223	Soft tissue sarcoma	2021-03-19	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001284	completed	T0004789
+cancer	M3	Breast cancer	2023-07-06	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001285	completed	T0004790
+cancer	M3	Breast cancer	2022-04-05	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001286	completed	T0004791
+cancer	M1	Colorectal carcinoma	2021-07-15	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001287	completed	T0004792
+cancer	M4	Ovarian carcinoma	2022-04-15	RRV	University College London Hospitals NHS Foundation Trust	urgent	r20000001288	completed	T0004793
+cancer	M125	Renal cancer	2021-05-21	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001289	completed	T0004794
+cancer	M81	Haematological malignancy	2021-03-02	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001290	completed	T0004795
+cancer	M3	Breast cancer	2025-01-26	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001291	completed	T0004796
+cancer	M223	Soft tissue sarcoma	2024-05-28	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001292	completed	T0004797
+cancer	M3	Breast cancer	2022-01-21	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001293	completed	T0004798
+cancer	M3	Breast cancer	2022-05-19	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001294	completed	T0004799
+cancer	M1	Colorectal carcinoma	2022-09-25	R0A	Manchester University NHS Foundation Trust	urgent	r20000001295	completed	T0004800
+cancer	M2	Lung cancer	2021-07-09	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001296	completed	T0004801
+cancer	M3	Breast cancer	2022-11-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001297	completed	T0004802
+cancer	M4	Ovarian carcinoma	2023-12-03	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001298	completed	T0004803
+cancer	M125	Renal cancer	2023-01-08	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	urgent	r20000001299	completed	T0004804
+cancer	M8	Melanoma	2024-05-27	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001300	completed	T0004805
+cancer	M8	Melanoma	2024-06-21	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001301	completed	T0004806
+cancer	M1	Colorectal carcinoma	2024-08-22	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001302	completed	T0004807
+cancer	M210	Paediatric tumours	2023-06-30	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001303	completed	T0004808
+cancer	M2	Lung cancer	2024-08-12	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001304	completed	T0004809
+cancer	M125	Renal cancer	2023-11-12	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001305	completed	T0004810
+cancer	M1	Colorectal carcinoma	2021-11-13	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001306	completed	T0004811
+cancer	M125	Renal cancer	2022-12-02	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001307	completed	T0004812
+cancer	M9	Upper gastrointestinal cancer	2022-03-16	R0A	Manchester University NHS Foundation Trust	urgent	r20000001308	completed	T0004813
+cancer	M3	Breast cancer	2024-05-26	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001309	completed	T0004814
+cancer	M125	Renal cancer	2022-12-10	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001310	completed	T0004815
+cancer	M7	Bladder cancer	2021-12-05	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001311	completed	T0004816
+cancer	M3	Breast cancer	2023-06-16	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001312	completed	T0004817
+cancer	M125	Renal cancer	2025-01-16	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001313	completed	T0004818
+cancer	M10	Hepatopancreatobiliary cancer	2022-06-03	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001314	completed	T0004819
+cancer	M81	Haematological malignancy	2023-08-17	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001315	completed	T0004820
+cancer	M81	Haematological malignancy	2022-08-16	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001316	completed	T0004821
+cancer	M223	Soft tissue sarcoma	2023-12-20	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001317	completed	T0004822
+cancer	M1	Colorectal carcinoma	2024-02-25	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001318	completed	T0004823
+cancer	M223	Soft tissue sarcoma	2022-05-31	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001319	completed	T0004824
+cancer	M210	Paediatric tumours	2022-07-21	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001320	completed	T0004825
+cancer	M1	Colorectal carcinoma	2021-06-05	R0A	Manchester University NHS Foundation Trust	routine	r20000001321	completed	T0004826
+cancer	M125	Renal cancer	2022-07-19	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001322	completed	T0004827
+cancer	M81	Haematological malignancy	2024-10-05	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001323	completed	T0004828
+cancer	M1	Colorectal carcinoma	2022-03-05	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001324	completed	T0004829
+cancer	M3	Breast cancer	2023-08-24	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001325	completed	T0004830
+cancer	M223	Soft tissue sarcoma	2023-12-23	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001326	completed	T0004831
+cancer	M2	Lung cancer	2021-11-27	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001327	completed	T0004832
+cancer	M3	Breast cancer	2023-02-03	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	urgent	r20000001328	completed	T0004833
+cancer	M2	Lung cancer	2024-02-07	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001329	completed	T0004834
+cancer	M125	Renal cancer	2021-03-10	RTH	Oxford University Hospitals NHS Foundation Trust	routine	r20000001330	completed	T0004835
+cancer	M223	Soft tissue sarcoma	2021-03-29	RJ1	Guy's and St Thomas' NHS Foundation Trust	routine	r20000001331	completed	T0004836
+cancer	M3	Breast cancer	2024-06-07	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001332	completed	T0004837
+cancer	M7	Bladder cancer	2024-10-12	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001333	completed	T0004838
+cancer	M80	Adult glioma	2022-03-27	R0A	Manchester University NHS Foundation Trust	routine	r20000001334	completed	T0004839
+cancer	M223	Soft tissue sarcoma	2022-10-27	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001335	completed	T0004840
+cancer	M2	Lung cancer	2021-05-03	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	routine	r20000001336	completed	T0004841
+cancer	M81	Haematological malignancy	2021-01-17	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001337	completed	T0004842
+cancer	M1	Colorectal carcinoma	2022-12-23	RA7	University Hospitals Bristol and Weston NHS Foundation Trust	routine	r20000001338	completed	T0004843
+cancer	M3	Breast cancer	2021-05-20	RYJ	Imperial College Healthcare NHS Trust	routine	r20000001339	completed	T0004844
+cancer	M6	Prostate cancer	2022-03-29	RRV	University College London Hospitals NHS Foundation Trust	routine	r20000001340	completed	T0004845
+cancer	M81	Haematological malignancy	2022-08-12	RP4	Great Ormond Street Hospital for Children NHS Foundation Trust	routine	r20000001341	completed	T0004846
+cancer	M125	Renal cancer	2023-07-29	RGT	Cambridge University Hospitals NHS Foundation Trust	routine	r20000001342	completed	T0004847
+cancer	M81	Haematological malignancy	2021-07-11	RTH	Oxford University Hospitals NHS Foundation Trust	urgent	r20000001343	completed	T0004848
+cancer	M125	Renal cancer	2021-04-01	RJ1	Guy's and St Thomas' NHS Foundation Trust	urgent	r20000001344	completed	T0004849
+cancer	M3	Breast cancer	2022-07-26	RQ3	Birmingham Women's and Children's NHS Foundation Trust	routine	r20000001345	completed	T0004850
+cancer	M1	Colorectal carcinoma	2023-08-15	REP	Liverpool Women's NHS Foundation Trust	routine	r20000001346	completed	T0004851
+cancer	M1	Colorectal carcinoma	2021-09-07	R0A	Manchester University NHS Foundation Trust	routine	r20000001347	completed	T0004852
+cancer	M125	Renal cancer	2022-12-29	RHQ	Sheffield Teaching Hospitals NHS Foundation Trust	routine	r20000001348	completed	T0004853
+cancer	M210	Paediatric tumours	2022-09-17	RTD	The Newcastle upon Tyne Hospitals NHS Foundation Trust	urgent	r20000001349	completed	T0004854
+cancer	M5	Endometrial cancer	2023-01-04	RHM	University Hospital Southampton NHS Foundation Trust	routine	r20000001350	completed	T0004855

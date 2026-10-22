@@ -1,0 +1,22 @@
+participant_id	rare_diseases_family_id	delivery_type	flow_cell_chemistry	genome_build	path	filename	file_type	file_sub_type
+119000086	119100038	rare disease germline	R10	GRCh38	/genomes/long_read/119000086	119000086.bam	Assembly	BAM
+119000177	119100080	rare disease germline	R9	GRCh38	/genomes/long_read/119000177	119000177.bam	Assembly	BAM
+119000419	119100195	rare disease germline	R10	GRCh38	/genomes/long_read/119000419	119000419.bam	Assembly	BAM
+119000568	119100271	rare disease germline	R9	GRCh38	/genomes/long_read/119000568	119000568.bam	Assembly	BAM
+119000739	119100352	rare disease germline	R9	GRCh38	/genomes/long_read/119000739	119000739.bam	Assembly	BAM
+119000780	119100372	rare disease germline	R9	GRCh38	/genomes/long_read/119000780	119000780.bam	Assembly	BAM
+119000814	119100389	rare disease germline	R10	GRCh38	/genomes/long_read/119000814	119000814.bam	Assembly	BAM
+119000817	119100390	rare disease germline	R10	GRCh38	/genomes/long_read/119000817	119000817.bam	Assembly	BAM
+119000875	119100418	rare disease germline	R10	GRCh38	/genomes/long_read/119000875	119000875.bam	Assembly	BAM
+119000907	119100431	rare disease germline	R9	GRCh38	/genomes/long_read/119000907	119000907.bam	Assembly	BAM
+119000908	119100432	rare disease germline	R9	GRCh38	/genomes/long_read/119000908	119000908.bam	Assembly	BAM
+119000925	119100441	rare disease germline	R10	GRCh38	/genomes/long_read/119000925	119000925.bam	Assembly	BAM
+119000957	119100460	rare disease germline	R9	GRCh38	/genomes/long_read/119000957	119000957.bam	Assembly	BAM
+119001018	119100491	rare disease germline	R9	GRCh38	/genomes/long_read/119001018	119001018.bam	Assembly	BAM
+119001090	119100524	rare disease germline	R9	GRCh38	/genomes/long_read/119001090	119001090.bam	Assembly	BAM
+119001141	119100546	rare disease germline	R10	GRCh38	/genomes/long_read/119001141	119001141.bam	Assembly	BAM
+119001165	119100557	rare disease germline	R9	GRCh38	/genomes/long_read/119001165	119001165.bam	Assembly	BAM
+119001217	119100580	rare disease germline	R9	GRCh38	/genomes/long_read/119001217	119001217.bam	Assembly	BAM
+119001296	119100625	rare disease germline	R9	GRCh38	/genomes/long_read/119001296	119001296.bam	Assembly	BAM
+119001309	119100632	rare disease germline	R10	GRCh38	/genomes/long_read/119001309	119001309.bam	Assembly	BAM
+119001416	119100678	rare disease germline	R9	GRCh38	/genomes/long_read/119001416	119001416.bam	Assembly	BAM

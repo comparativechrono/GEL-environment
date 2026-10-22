@@ -570,6 +570,67 @@
 "mtime": "2024-10-31T09:00:00Z"
 },
 {
+"path": "/gel_data_resources/gms/aggregation",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/PCs",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/PCs/gms_PCs_projected_ancestry.tsv",
+"type": "file",
+"size": 485614,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/PCs/gms_PCs_projected_ancestry.tsv"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/README.txt",
+"type": "file",
+"size": 563,
+"mtime": "2026-10-22T14:18:59Z",
+"text": "GMS germline common-variant extract (PLINK 1 binary)\n=====================================================\n\ngms_common_variants_extract.bed/.bim/.fam\n\nThe same SNPs as the main programme's aggV2 extract, for the NHS GMS germline\ngenomes (data release v5; probands and the relatives sequenced with them).\nFID and IID are plate keys; the counted allele (A1) is the ALT allele; sex is\nthe recorded sex. No QC has been applied.\n\n../PCs/gms_PCs_projected_ancestry.tsv  the genomes projected onto the main\nprogramme's principal components, with ancestry probabilities.\n",
+"src": "data/fs/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/README.txt"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.bed",
+"type": "file",
+"size": 3333603,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.bed"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.bim",
+"type": "file",
+"size": 260770,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.bim"
+},
+{
+"path": "/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.fam",
+"type": "file",
+"size": 83250,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/gms/aggregation/gms_germline_v5/additional_data/genotypes_plink/gms_common_variants_extract.fam"
+},
+{
 "path": "/gel_data_resources/main_programme",
 "type": "dir",
 "mtime": "2024-10-31T09:00:00Z"
@@ -586,6 +647,101 @@
 "path": "/gel_data_resources/main_programme/aggregation",
 "type": "dir",
 "mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/README.txt",
+"type": "file",
+"size": 1059,
+"mtime": "2026-10-22T14:18:59Z",
+"text": "aggV2 principal components, ancestry and relatedness\n===================================================\n\naggV2_PCs_ancestry_relatedness.tsv\n  participant_id, platekey  the genome\n  PC1 .. PC20               principal components computed on unrelated genomes\n                            (one per pair closer than third degree removed),\n                            relatives projected onto them\n  pred_EUR .. pred_AMR      probability of each 1000 Genomes superpopulation\n  ancestry0_8               the superpopulation with probability above 0.8\n                            (NA when none reaches it)\n  unrelated_set             1 = in the maximal set of unrelated genomes\n\nrelatedness/  PLINK 2 KING-robust kinship on high-quality common autosomal SNPs\n  make_king_table.kin0                         pairs with kinship >= 0.0442\n  assign_relatedness.king.cutoff.in.id/.out.id  the unrelated set (--king-cutoff 0.0442)\n\nKinship of about 0.5 means duplicate samples (or monozygotic twins),\n0.25 first-degree relatives, 0.125 second-degree, 0.0625 third-degree.\n",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/README.txt"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/aggV2_PCs_ancestry_relatedness.tsv",
+"type": "file",
+"size": 3343303,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/aggV2_PCs_ancestry_relatedness.tsv"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/assign_relatedness.king.cutoff.in.id",
+"type": "file",
+"size": 298377,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/assign_relatedness.king.cutoff.in.id"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/assign_relatedness.king.cutoff.out.id",
+"type": "file",
+"size": 165501,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/assign_relatedness.king.cutoff.out.id"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/make_king_table.kin0",
+"type": "file",
+"size": 11393866,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/PCs_relatedness/relatedness/make_king_table.kin0"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink",
+"type": "dir",
+"mtime": "2024-10-31T09:00:00Z"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/README.txt",
+"type": "file",
+"size": 1121,
+"mtime": "2026-10-22T14:18:59Z",
+"text": "aggV2 common-variant extract (PLINK 1 binary)\n=============================================\n\naggV2_common_variants_extract.bed/.bim/.fam\n\nGenotypes of every main programme germline genome (rare disease participants,\ntheir relatives and cancer participants) at a set of common and low-frequency\nSNPs on the autosomes and chromosome X, extracted from aggV2 (GRCh38).\n\n  .fam   FID and IID are the plate keys (platekey in LabKey tables such as\n         aggregate_gvcf_sample_stats, plated_sample and sequencing_report);\n         sex is the participant's recorded sex (1 = male, 2 = female);\n         the phenotype column is missing (-9).\n  .bim   variant IDs are chr:pos:ref:alt; the counted allele (A1, column 5) is\n         the ALT allele.\n\nNo sample or variant QC has been applied: missing calls, SNPs out of\nHardy-Weinberg equilibrium, sequencing-batch differences, related and\nduplicated samples are all still present.\n\nPrincipal components, ancestry and relatedness for the same genomes:\n  ../PCs_relatedness/aggV2_PCs_ancestry_relatedness.tsv\n  ../PCs_relatedness/relatedness/   (PLINK 2 KING-robust, cut-off 0.0442)\n",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/README.txt"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.bed",
+"type": "file",
+"size": 23198403,
+"mtime": "2026-10-22T14:18:58Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.bed"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.bim",
+"type": "file",
+"size": 260770,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.bim"
+},
+{
+"path": "/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.fam",
+"type": "file",
+"size": 579825,
+"mtime": "2026-10-22T14:18:59Z",
+"src": "data/fs/gel_data_resources/main_programme/aggregation/aggregate_gVCF_strelka/aggV2/additional_data/genotypes_plink/aggV2_common_variants_extract.fam"
 },
 {
 "path": "/gel_data_resources/main_programme/cancer",

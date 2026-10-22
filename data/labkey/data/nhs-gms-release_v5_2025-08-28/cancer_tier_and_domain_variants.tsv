@@ -1,0 +1,581 @@
+participant_id	tumour_sample_platekey	clinical_indication_full_name	type	origin	gene	transcript	cellbase_consequence	change	protein_change	chr	pos	ref	alt	vaf	domain	relevance
+p10000001401	LP5100015-DNA_E10	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.372	1	(likely)pathogenic
+p10000001403	LP5100015-DNA_F02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	start_lost	c.1T>C	p.(Met1?)	3	10152497	T	C	0.29	1	path_LoF
+p10000001404	LP5100015-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	start_lost	c.1C>A	p.(Met1?)	5	112845251	C	A	0.198	1	path_LoF
+p10000001405	LP5100015-DNA_F06	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4668C>T	p.(Leu1557Tyr)	3	179221644	C	T	0.296	1	(likely)pathogenic
+p10000001405	LP5100015-DNA_F06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.110C>A	p.(Asp37Val)	17	7672416	C	A	0.319	1	(likely)pathogenic
+p10000001406	LP5100015-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.2806+1G>A	p.?	5	112844668	G	A	0.266	1	path_LoF
+p10000001406	LP5100015-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.362	1	(likely)pathogenic
+p10000001407	LP5100015-DNA_F10	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1115C>G	p.(Tyr372His)	17	7683688	C	G	0.145	1	(likely)pathogenic
+p10000001409	LP5100015-DNA_G02	Soft tissue sarcoma	Solid tumour sample	somatic	BAP1	NM_004656.4	stop_gained	c.502A>T	p.(Val168Ter)	3	52404752	A	T	0.293	2	LoF
+p10000001410	LP5100015-DNA_G04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.2593_2596del	p.(Val865AspfsTer43)	3	10152000	ACTGC	A	0.147	1	path_LoF
+p10000001410	LP5100015-DNA_G04	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	inframe_deletion	c.2020_2022del	p.(Cys674del)	3	47152911	GACA	G	0.232	2	other
+p10000001412	LP5100015-DNA_G08	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.636C>G	p.(Ile213Lys)	17	7684029	C	G	0.123	1	(likely)pathogenic
+p10000001412	LP5100015-DNA_G08	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	stop_gained	c.3706C>T	p.(Lys1236Ter)	13	48409463	C	T	0.271	1	path_LoF
+p10000001413	LP5100015-DNA_G10	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.493	1	(likely)pathogenic
+p10000001415	LP5100015-DNA_H02	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2066C>A	p.(Asn689Ser)	17	7679271	C	A	0.167	1	(likely)pathogenic
+p10000001416	LP5100015-DNA_H04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.74T>A	p.(Ser25Lys)	17	7672394	T	A	0.178	1	(likely)pathogenic
+p10000001416	LP5100015-DNA_H04	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.172	1	(likely)pathogenic
+p10000001416	LP5100015-DNA_H04	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	missense_variant	c.809G>T	p.(Asp270His)	4	152328372	G	T	0.123	2	other
+p10000001417	LP5100015-DNA_H06	Renal cancer	Solid tumour sample	somatic	MET	NM_000245.4	missense_variant	c.3263G>T	p.(Tyr1088Thr)	7	116715879	G	T	0.451	1	(likely)pathogenic
+p10000001418	LP5100015-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.3732T>G	p.(Cys1245Tyr)	5	112789183	T	G	0.214	1	(likely)pathogenic
+p10000001418	LP5100015-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.205	1	(likely)pathogenic
+p10000001419	LP5100015-DNA_H10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4782A>G	p.(Gln1595Val)	17	7679036	A	G	0.327	1	(likely)pathogenic
+p10000001421	LP5100016-DNA_A02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	splice_acceptor_variant	c.1704-1G>T	p.?	3	10146092	G	T	0.354	1	path_LoF
+p10000001421	LP5100016-DNA_A02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	missense_variant	c.548C>T	p.(Trp183His)	3	52644287	C	T	0.356	2	other
+p10000001422	LP5100016-DNA_A04	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.347	1	(likely)pathogenic
+p10000001423	LP5100016-DNA_A06	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.568	1	(likely)pathogenic
+p10000001423	LP5100016-DNA_A06	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	stop_gained	c.3132A>C	p.(Asp1045Ter)	10	8060625	A	C	0.377	2	LoF
+p10000001425	LP5100016-DNA_A10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1945C>A	p.(Ser649Tyr)	17	7668611	C	A	0.244	1	(likely)pathogenic
+p10000001426	LP5100016-DNA_A12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2261_2264dup	p.(Ala754ArgfsTer4)	5	112811790	G	GAGCA	0.341	1	path_LoF
+p10000001426	LP5100016-DNA_A12	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1910C>T	p.(Val637Leu)	17	7680015	C	T	0.352	1	(likely)pathogenic
+p10000001428	LP5100016-DNA_B04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.2137C>T	p.(Tyr713Arg)	5	112767028	C	T	0.18	1	(likely)pathogenic
+p10000001428	LP5100016-DNA_B04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2160T>C	p.(Val721Arg)	17	7674771	T	C	0.155	1	(likely)pathogenic
+p10000001428	LP5100016-DNA_B04	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.106	1	(likely)pathogenic
+p10000001430	LP5100016-DNA_B08	Prostate cancer	Solid tumour sample	somatic	SPOP	NM_001007228.2	missense_variant	c.4040C>A	p.(Trp1347Met)	17	49631810	C	A	0.299	2	other
+p10000001431	LP5100016-DNA_B10	Lung cancer	Solid tumour sample	somatic	STK11	NM_000455.5	frameshift_variant	c.37_41dup	p.(Met13PhefsTer28)	19	1208946	G	GCATGT	0.349	2	LoF
+p10000001432	LP5100016-DNA_B12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.36dup	p.(Lys13ThrfsTer51)	5	112740493	A	AA	0.243	1	path_LoF
+p10000001432	LP5100016-DNA_B12	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.217	1	(likely)pathogenic
+p10000001433	LP5100016-DNA_C02	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.245	1	(likely)pathogenic
+p10000001433	LP5100016-DNA_C02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1313A>C	p.(Ser438Met)	17	7682997	A	C	0.425	1	(likely)pathogenic
+p10000001434	LP5100016-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3344A>C	p.(Cys1115Glu)	17	7670559	A	C	0.44	1	(likely)pathogenic
+p10000001434	LP5100016-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	frameshift_variant	c.794_795dup	p.(Phe265ThrfsTer20)	18	51051939	G	GCT	0.451	2	LoF
+p10000001434	LP5100016-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.431	1	(likely)pathogenic
+p10000001434	LP5100016-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	TCF7L2	NM_001367943.1	missense_variant	c.4404C>T	p.(Ser1469Asn)	10	113080928	C	T	0.359	2	other
+p10000001435	LP5100016-DNA_C06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.2241G>C	p.(Ala748Ter)	5	112752292	G	C	0.424	1	path_LoF
+p10000001436	LP5100016-DNA_C08	Prostate cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.964dup	p.(Phe322PhefsTer59)	10	87953247	G	GC	0.282	2	LoF
+p10000001437	LP5100016-DNA_C10	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	frameshift_variant	c.1629_1633dup	p.(Glu544SerfsTer5)	3	52573660	T	TAGCCT	0.232	2	LoF
+p10000001437	LP5100016-DNA_C10	Renal cancer	Solid tumour sample	somatic	KDM5C	NM_004187.5	missense_variant	c.3462T>C	p.(Ala1155Pro)	X	53221826	T	C	0.28	2	other
+p10000001438	LP5100016-DNA_C12	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.35	1	(likely)pathogenic
+p10000001438	LP5100016-DNA_C12	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	missense_variant	c.4513T>A	p.(Glu1505Trp)	10	8067981	T	A	0.339	2	other
+p10000001438	LP5100016-DNA_C12	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	stop_gained	c.1569A>G	p.(Val524Ter)	16	68785161	A	G	0.308	2	LoF
+p10000001438	LP5100016-DNA_C12	Breast cancer	Solid tumour sample	somatic	ERBB2	NM_004448.4	missense_variant	c.2563A>C	p.(Glu855Tyr)	17	39707599	A	C	0.26	1	(likely)pathogenic
+p10000001439	LP5100016-DNA_D02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.3933A>G	p.(Met1312Gly)	5	112738219	A	G	0.182	1	(likely)pathogenic
+p10000001439	LP5100016-DNA_D02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1478T>C	p.(Val493Pro)	17	7686586	T	C	0.259	1	(likely)pathogenic
+p10000001439	LP5100016-DNA_D02	Colorectal carcinoma	Solid tumour sample	germline	MSH6	NM_000179.3	stop_gained	c.166A>C		2	47800369	A	C	0.5	1	path_LoF
+p10000001440	LP5100016-DNA_D04	Hepatopancreatobiliary cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.384	1	(likely)pathogenic
+p10000001445	LP5100016-DNA_E02	Soft tissue sarcoma	Solid tumour sample	somatic	NF1	NM_001042492.3	frameshift_variant	c.3279_3285del	p.(Phe1094GlnfsTer3)	17	31134105	CCGGGCAA	C	0.304	2	LoF
+p10000001447	LP5100016-DNA_E06	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	frameshift_variant	c.4404del	p.(Ile1469TrpfsTer50)	13	48439113	CT	C	0.261	1	path_LoF
+p10000001449	LP5100016-DNA_E10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.947G>C	p.(Pro316Ter)	5	112787774	G	C	0.391	1	path_LoF
+p10000001450	LP5100016-DNA_E12	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.963G>C	p.(Thr322Glu)	17	7686180	G	C	0.269	1	(likely)pathogenic
+p10000001450	LP5100016-DNA_E12	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.263	1	(likely)pathogenic
+p10000001450	LP5100016-DNA_E12	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.24	1	(likely)pathogenic
+p10000001452	LP5100016-DNA_F04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.969C>A	p.(Ala324Gln)	3	10150617	C	A	0.187	1	(likely)pathogenic
+p10000001452	LP5100016-DNA_F04	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	splice_acceptor_variant	c.2977-2G>A	p.?	3	52611310	G	A	0.343	2	LoF
+p10000001453	LP5100016-DNA_F06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.2538T>C	p.(Ala847Ter)	3	10149582	T	C	0.305	1	path_LoF
+p10000001453	LP5100016-DNA_F06	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	splice_acceptor_variant	c.4377-2G>T	p.?	3	52561877	G	T	0.275	2	LoF
+p10000001453	LP5100016-DNA_F06	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	missense_variant	c.4351A>G	p.(Tyr1451Ser)	3	52408266	A	G	0.204	2	other
+p10000001454	LP5100016-DNA_F08	Haematological malignancy	Liquid tumour sample	somatic	SF3B1	NM_012433.4	splice_region_variant	c.3942+5A>G	p.?	2	197430432	A	G	0.397	2	other
+p10000001456	LP5100016-DNA_F12	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	inframe_deletion	c.1790_1792del	p.(Asn597del)	10	87907003	TAAT	T	0.145	2	other
+p10000001456	LP5100016-DNA_F12	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.213	1	(likely)pathogenic
+p10000001456	LP5100016-DNA_F12	Endometrial cancer	Solid tumour sample	somatic	PIK3R1	NM_181523.3	missense_variant	c.1848G>A	p.(Trp617Ser)	5	68300662	G	A	0.209	2	other
+p10000001457	LP5100016-DNA_G02	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	stop_gained	c.800G>C	p.(Met267Ter)	10	8055046	G	C	0.293	2	LoF
+p10000001458	LP5100016-DNA_G04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2236G>A	p.(Met746Gly)	17	7670370	G	A	0.255	1	(likely)pathogenic
+p10000001458	LP5100016-DNA_G04	Lung cancer	Solid tumour sample	somatic	KEAP1	NM_203500.2	frameshift_variant	c.2128_2131del	p.(Gln710SerfsTer18)	19	10488672	TTCGG	T	0.262	2	LoF
+p10000001459	LP5100016-DNA_G06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.2741del	p.(Asn914IlefsTer7)	3	10153000	TT	T	0.383	1	path_LoF
+p10000001459	LP5100016-DNA_G06	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	splice_region_variant	c.520+6T>A	p.?	3	52592510	T	A	0.275	2	other
+p10000001462	LP5100016-DNA_G12	Prostate cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.569T>G	p.(Asn190Tyr)	17	7669577	T	G	0.341	1	(likely)pathogenic
+p10000001463	LP5100016-DNA_H02	Upper gastrointestinal cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1786T>A	p.(Arg596His)	12	25229706	T	A	0.246	1	(likely)pathogenic
+p10000001464	LP5100016-DNA_H04	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3992T>G	p.(Phe1331Arg)	17	7675589	T	G	0.42	1	(likely)pathogenic
+p10000001465	LP5100016-DNA_H06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.672T>C	p.(Gly225Ter)	5	112831141	T	C	0.245	1	path_LoF
+p10000001465	LP5100016-DNA_H06	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4554T>A	p.(Asp1519Val)	17	7681644	T	A	0.164	1	(likely)pathogenic
+p10000001466	LP5100016-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	start_lost	c.1C>T	p.(Met1?)	5	112825264	C	T	0.325	1	path_LoF
+p10000001466	LP5100016-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.835C>T	p.(Ile279Cys)	17	7671536	C	T	0.264	1	(likely)pathogenic
+p10000001466	LP5100016-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.28	1	(likely)pathogenic
+p10000001467	LP5100016-DNA_H10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.191C>A	p.(Ser64Asn)	17	7681071	C	A	0.363	1	(likely)pathogenic
+p10000001468	LP5100016-DNA_H12	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.2819C>T	p.(Gln940Ter)	10	87966813	C	T	0.315	2	LoF
+p10000001469	LP5100017-DNA_A02	Testicular germ cell tumour	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.39	1	(likely)pathogenic
+p10000001471	LP5100017-DNA_A06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.4195_4196dup	p.(Met1399GlnfsTer10)	5	112759168	A	AAC	0.202	1	path_LoF
+p10000001471	LP5100017-DNA_A06	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2375G>T	p.(Glu792Lys)	17	7686260	G	T	0.287	1	(likely)pathogenic
+p10000001471	LP5100017-DNA_A06	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	inframe_insertion	c.789_790insATC	p.(Ser264_Lys265insAsp)	4	152526412	T	TATC	0.25	2	other
+p10000001473	LP5100017-DNA_A10	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	missense_variant	c.3509T>A	p.(Met1170Lys)	16	68814376	T	A	0.374	2	other
+p10000001473	LP5100017-DNA_A10	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.3794A>T	p.(Val1265Ter)	10	87946734	A	T	0.106	2	LoF
+p10000001474	LP5100017-DNA_A12	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1869C>T	p.(Trp624Glu)	17	7685253	C	T	0.263	1	(likely)pathogenic
+p10000001474	LP5100017-DNA_A12	Soft tissue sarcoma	Solid tumour sample	germline	TP53	NM_000546.6	frameshift_variant	c.4704dup		17	7685045	G	GG	0.5	1	path_LoF
+p10000001476	LP5100017-DNA_B04	Breast cancer	Solid tumour sample	germline	PALB2	NM_024675.4	frameshift_variant	c.3859del		16	23632181	GA	G	0.5	1	path_LoF
+p10000001477	LP5100017-DNA_B06	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.2215G>T	p.(Ser739Ter)	10	87958322	G	T	0.088	2	LoF
+p10000001477	LP5100017-DNA_B06	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.740A>C	p.(Lys247Ala)	3	179192303	A	C	0.093	1	(likely)pathogenic
+p10000001477	LP5100017-DNA_B06	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	missense_variant	c.3955T>A	p.(Lys1319Gly)	1	26780660	T	A	0.083	2	other
+p10000001477	LP5100017-DNA_B06	Endometrial cancer	Solid tumour sample	somatic	PIK3R1	NM_181523.3	missense_variant	c.1595C>A	p.(Tyr532Gln)	5	68250377	C	A	0.097	2	other
+p10000001477	LP5100017-DNA_B06	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.962T>G	p.(Gly321Val)	17	7669717	T	G	0.086	1	(likely)pathogenic
+p10000001478	LP5100017-DNA_B08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.218T>G	p.(Phe73Arg)	5	112758349	T	G	0.449	1	(likely)pathogenic
+p10000001479	LP5100017-DNA_B10	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.303	1	(likely)pathogenic
+p10000001479	LP5100017-DNA_B10	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	frameshift_variant	c.3659del	p.(His1220HisfsTer26)	1	26772858	GT	G	0.271	2	LoF
+p10000001479	LP5100017-DNA_B10	Endometrial cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.208	1	(likely)pathogenic
+p10000001481	LP5100017-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.872T>A	p.(Met291Ser)	5	112838517	T	A	0.382	1	(likely)pathogenic
+p10000001481	LP5100017-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_insertion	c.323_324insCTC	p.(His108_Pro109insIle)	17	7671437	C	CCTC	0.333	1	(likely)pathogenic
+p10000001482	LP5100017-DNA_C04	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	stop_gained	c.2321C>G	p.(Ser774Ter)	16	68802622	C	G	0.37	2	LoF
+p10000001484	LP5100017-DNA_C08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.324	1	(likely)pathogenic
+p10000001484	LP5100017-DNA_C08	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	splice_donor_variant	c.2550+2A>G	p.?	10	8055057	A	G	0.619	2	LoF
+p10000001484	LP5100017-DNA_C08	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	missense_variant	c.3131A>G	p.(Trp1044Val)	16	68752150	A	G	0.264	2	other
+p10000001485	LP5100017-DNA_C10	Head and neck cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1282C>A	p.(Tyr428Asp)	17	7680819	C	A	0.118	1	(likely)pathogenic
+p10000001486	LP5100017-DNA_C12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.3616C>G	p.(His1206Ter)	5	112761677	C	G	0.327	1	path_LoF
+p10000001486	LP5100017-DNA_C12	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.4505_4507del	p.(Asn1502del)	17	7687009	GCAT	G	0.268	1	(likely)pathogenic
+p10000001486	LP5100017-DNA_C12	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1501A>C	p.(Phe501Leu)	12	25249493	A	C	0.374	1	(likely)pathogenic
+p10000001486	LP5100017-DNA_C12	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	missense_variant	c.3836T>A	p.(Val1279Ala)	18	51040339	T	A	0.228	2	other
+p10000001487	LP5100017-DNA_D02	Prostate cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.971T>C	p.(Asn324Met)	17	7685899	T	C	0.445	1	(likely)pathogenic
+p10000001488	LP5100017-DNA_D04	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.3691+5G>C	p.?	17	7676200	G	C	0.334	1	(likely)pathogenic
+p10000001489	LP5100017-DNA_D06	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1256G>C	p.(Asn419Glu)	17	7681344	G	C	0.304	1	(likely)pathogenic
+p10000001489	LP5100017-DNA_D06	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	missense_variant	c.3559C>G	p.(Ser1187Glu)	X	77725972	C	G	0.28	2	other
+p10000001489	LP5100017-DNA_D06	Soft tissue sarcoma	Solid tumour sample	somatic	NF1	NM_001042492.3	splice_acceptor_variant	c.2504-1A>T	p.?	17	31317796	A	T	0.132	2	LoF
+p10000001490	LP5100017-DNA_D08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.4557C>G	p.(Gly1520Trp)	5	112753838	C	G	0.474	1	(likely)pathogenic
+p10000001491	LP5100017-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_acceptor_variant	c.3535-1A>C	p.?	5	112744015	A	C	0.438	1	path_LoF
+p10000001491	LP5100017-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	missense_variant	c.826T>C	p.(Pro276Gln)	4	152400996	T	C	0.269	2	other
+p10000001492	LP5100017-DNA_D12	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	frameshift_variant	c.2983del	p.(Met995AspfsTer4)	10	8062552	AA	A	0.232	2	LoF
+p10000001492	LP5100017-DNA_D12	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	stop_gained	c.353T>G	p.(Thr118Ter)	16	68791587	T	G	0.142	2	LoF
+p10000001493	LP5100017-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.727del	p.(Gly243SerfsTer17)	5	112822189	AG	A	0.275	1	path_LoF
+p10000001493	LP5100017-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	frameshift_variant	c.526_532del	p.(Cys176GlnfsTer7)	18	51033384	GCTAACAG	G	0.279	2	LoF
+p10000001495	LP5100017-DNA_E06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.266C>G	p.(Val89Trp)	17	7686653	C	G	0.371	1	(likely)pathogenic
+p10000001499	LP5100017-DNA_F02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.507T>C	p.(Lys170Ile)	17	7668687	T	C	0.404	1	(likely)pathogenic
+p10000001499	LP5100017-DNA_F02	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	stop_gained	c.40C>A	p.(Trp14Ter)	10	8059224	C	A	0.226	2	LoF
+p10000001500	LP5100017-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.3747del	p.(Gln1250ProfsTer12)	5	112755916	TT	T	0.322	1	path_LoF
+p10000001501	LP5100017-DNA_F06	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2894G>C	p.(Met965Ala)	17	7683317	G	C	0.334	1	(likely)pathogenic
+p10000001503	LP5100017-DNA_F10	Bladder cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1643A>T	p.(Asp548Tyr)	17	7684159	A	T	0.294	1	(likely)pathogenic
+p10000001503	LP5100017-DNA_F10	Bladder cancer	Solid tumour sample	somatic	RB1	NM_000321.3	stop_gained	c.290T>G	p.(Leu97Ter)	13	48331655	T	G	0.226	1	path_LoF
+p10000001505	LP5100017-DNA_G02	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.265	1	(likely)pathogenic
+p10000001505	LP5100017-DNA_G02	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	missense_variant	c.1796G>A	p.(Ser599Phe)	1	26705667	G	A	0.39	2	other
+p10000001505	LP5100017-DNA_G02	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.710T>C	p.(Phe237Gln)	17	7668960	T	C	0.269	1	(likely)pathogenic
+p10000001506	LP5100017-DNA_G04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_acceptor_variant	c.2751-1A>T	p.?	5	112772258	A	T	0.498	1	path_LoF
+p10000001506	LP5100017-DNA_G04	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.201	1	(likely)pathogenic
+p10000001507	LP5100017-DNA_G06	Melanoma	Solid tumour sample	somatic	NF1	NM_001042492.3	stop_gained	c.1366A>C	p.(Tyr456Ter)	17	31120269	A	C	0.532	2	LoF
+p10000001509	LP5100017-DNA_G10	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.4366_4370del	p.(Pro1456ProfsTer32)	10	87898936	AGAAGG	A	0.29	2	LoF
+p10000001509	LP5100017-DNA_G10	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	frameshift_variant	c.3886_3887dup	p.(Arg1296ProfsTer38)	1	26723095	C	CTT	0.367	2	LoF
+p10000001509	LP5100017-DNA_G10	Endometrial cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.403	1	(likely)pathogenic
+p10000001510	LP5100017-DNA_G12	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.152	1	(likely)pathogenic
+p10000001511	LP5100017-DNA_H02	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.360G>C	p.(Arg121Met)	17	7685124	G	C	0.353	1	(likely)pathogenic
+p10000001511	LP5100017-DNA_H02	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	stop_gained	c.2545T>A	p.(Leu849Ter)	13	48336157	T	A	0.634	1	path_LoF
+p10000001512	LP5100017-DNA_H04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.264	1	(likely)pathogenic
+p10000001513	LP5100017-DNA_H06	Haematological malignancy	Liquid tumour sample	somatic	SF3B1	NM_012433.4	missense_variant	c.3230C>A	p.(Lys700Glu)	2	197422957	C	A	0.326	2	other
+p10000001515	LP5100017-DNA_H10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3611T>C	p.(Met1204Asn)	17	7682912	T	C	0.379	1	(likely)pathogenic
+p10000001517	LP5100018-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_acceptor_variant	c.284-1T>A	p.?	5	112818301	T	A	0.452	1	path_LoF
+p10000001517	LP5100018-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.322	1	(likely)pathogenic
+p10000001518	LP5100018-DNA_A04	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.533T>C	p.(Ala178Leu)	17	7685591	T	C	0.416	1	(likely)pathogenic
+p10000001520	LP5100018-DNA_A08	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1878G>T	p.(Thr627Pro)	17	7670633	G	T	0.224	1	(likely)pathogenic
+p10000001521	LP5100018-DNA_A10	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.3839T>A	p.(His1280Ter)	10	87901277	T	A	0.363	2	LoF
+p10000001521	LP5100018-DNA_A10	Endometrial cancer	Solid tumour sample	somatic	PIK3R1	NM_181523.3	missense_variant	c.825G>A	p.(Phe276Gly)	5	68257054	G	A	0.322	2	other
+p10000001523	LP5100018-DNA_B02	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.428	1	(likely)pathogenic
+p10000001523	LP5100018-DNA_B02	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3343C>A	p.(Asn1115Met)	17	7678708	C	A	0.48	1	(likely)pathogenic
+p10000001524	LP5100018-DNA_B04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.718C>G	p.(Gln240Met)	17	7670073	C	G	0.154	1	(likely)pathogenic
+p10000001525	LP5100018-DNA_B06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.1708T>A	p.(Ile570Ter)	3	10148264	T	A	0.199	1	path_LoF
+p10000001525	LP5100018-DNA_B06	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	frameshift_variant	c.1398_1404del	p.(Ile467ArgfsTer37)	3	52661293	GGAAAATT	G	0.46	2	LoF
+p10000001526	LP5100018-DNA_B08	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.2201del	p.(Ile734ThrfsTer19)	10	87913916	GT	G	0.185	2	LoF
+p10000001526	LP5100018-DNA_B08	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1072T>A	p.(Ala358Tyr)	17	7686973	T	A	0.316	1	(likely)pathogenic
+p10000001529	LP5100018-DNA_C02	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3513C>T	p.(Ile1172His)	17	7682608	C	T	0.48	1	(likely)pathogenic
+p10000001529	LP5100018-DNA_C02	Lung cancer	Solid tumour sample	somatic	KEAP1	NM_203500.2	frameshift_variant	c.4744del	p.(Glu1582PhefsTer26)	19	10501935	TC	T	0.267	2	LoF
+p10000001531	LP5100018-DNA_C06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.3471T>G	p.(Met1158Gln)	3	10148035	T	G	0.261	1	(likely)pathogenic
+p10000001532	LP5100018-DNA_C08	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	frameshift_variant	c.2216_2217dup	p.(Ile739CysfsTer38)	1	26729355	C	CCC	0.171	2	LoF
+p10000001532	LP5100018-DNA_C08	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1847G>A	p.(Trp616Glu)	17	7686413	G	A	0.135	1	(likely)pathogenic
+p10000001537	LP5100018-DNA_D06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.2421G>C	p.(Ala808Ter)	3	10147241	G	C	0.388	1	path_LoF
+p10000001539	LP5100018-DNA_D10	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.3725del	p.(Val1242AlafsTer49)	3	10143291	CC	C	0.248	1	path_LoF
+p10000001540	LP5100018-DNA_D12	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.342	1	(likely)pathogenic
+p10000001541	LP5100018-DNA_E02	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2383C>G	p.(Ser795Ile)	17	7677967	C	G	0.232	1	(likely)pathogenic
+p10000001543	LP5100018-DNA_E06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.733C>G	p.(Ala245Ter)	3	10150011	C	G	0.467	1	path_LoF
+p10000001544	LP5100018-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2084del	p.(Lys695GlufsTer59)	5	112757312	GC	G	0.066	1	path_LoF
+p10000001544	LP5100018-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.1162+7T>A	p.?	17	7682375	T	A	0.067	1	(likely)pathogenic
+p10000001544	LP5100018-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.055	1	(likely)pathogenic
+p10000001545	LP5100018-DNA_E10	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.573	1	(likely)pathogenic
+p10000001545	LP5100018-DNA_E10	Colorectal carcinoma	Solid tumour sample	somatic	TCF7L2	NM_001367943.1	missense_variant	c.4183T>G	p.(Tyr1395His)	10	113157155	T	G	0.251	2	other
+p10000001546	LP5100018-DNA_E12	Testicular germ cell tumour	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.213	1	(likely)pathogenic
+p10000001547	LP5100018-DNA_F02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.4490+2G>T	p.?	5	112780557	G	T	0.392	1	path_LoF
+p10000001547	LP5100018-DNA_F02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.1149+5T>C	p.?	17	7684146	T	C	0.329	1	(likely)pathogenic
+p10000001547	LP5100018-DNA_F02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.47	1	(likely)pathogenic
+p10000001548	LP5100018-DNA_F04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1471C>G	p.(Leu491Thr)	17	7679610	C	G	0.189	1	(likely)pathogenic
+p10000001549	LP5100018-DNA_F06	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.182	1	(likely)pathogenic
+p10000001550	LP5100018-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.3520C>G	p.(Ala1174Ter)	5	112747411	C	G	0.188	1	path_LoF
+p10000001550	LP5100018-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.748C>G	p.(Gly250Gln)	17	7672889	C	G	0.25	1	(likely)pathogenic
+p10000001550	LP5100018-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	TCF7L2	NM_001367943.1	missense_variant	c.2011A>C	p.(Pro671Asp)	10	113141136	A	C	0.335	2	other
+p10000001552	LP5100018-DNA_F12	Prostate cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1671A>T	p.(Thr558Ser)	17	7671772	A	T	0.107	1	(likely)pathogenic
+p10000001553	LP5100018-DNA_G02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.4661_4667del	p.(Trp1554IlefsTer57)	3	10149979	ATTTGCAC	A	0.387	1	path_LoF
+p10000001553	LP5100018-DNA_G02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	frameshift_variant	c.2895del	p.(Trp966AspfsTer25)	3	52681038	TA	T	0.254	2	LoF
+p10000001554	LP5100018-DNA_G04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	splice_acceptor_variant	c.1573-2T>A	p.?	3	10149109	T	A	0.322	1	path_LoF
+p10000001554	LP5100018-DNA_G04	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.3621G>T	p.(Phe1208Ter)	3	52626818	G	T	0.217	2	LoF
+p10000001555	LP5100018-DNA_G06	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	missense_variant	c.530C>G	p.(Arg177Asp)	13	48329318	C	G	0.396	1	(likely)pathogenic
+p10000001556	LP5100018-DNA_G08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.221	1	(likely)pathogenic
+p10000001557	LP5100018-DNA_G10	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.941C>T	p.(Lys314Ile)	17	7670287	C	T	0.581	1	(likely)pathogenic
+p10000001557	LP5100018-DNA_G10	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	splice_donor_variant	c.1725+1T>A	p.?	18	51040238	T	A	0.393	2	LoF
+p10000001557	LP5100018-DNA_G10	Colorectal carcinoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.449	1	(likely)pathogenic
+p10000001558	LP5100018-DNA_G12	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4747T>C	p.(Trp1583Lys)	17	7680459	T	C	0.244	1	(likely)pathogenic
+p10000001559	LP5100018-DNA_H02	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1557C>T	p.(Trp520Lys)	17	7679403	C	T	0.112	1	(likely)pathogenic
+p10000001560	LP5100018-DNA_H04	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.285	1	(likely)pathogenic
+p10000001560	LP5100018-DNA_H04	Soft tissue sarcoma	Solid tumour sample	somatic	PDGFRA	NM_006206.6	missense_variant	c.1038T>C	p.(Glu347Asn)	4	54242993	T	C	0.461	1	(likely)pathogenic
+p10000001561	LP5100018-DNA_H06	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	splice_acceptor_variant	c.4169-2A>G	p.?	7	152268572	A	G	0.183	2	LoF
+p10000001561	LP5100018-DNA_H06	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.194dup	p.(His65PhefsTer46)	10	87936755	T	TA	0.186	2	LoF
+p10000001563	LP5100018-DNA_H10	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.677T>C	p.(Tyr226Arg)	3	10142386	T	C	0.274	1	(likely)pathogenic
+p10000001563	LP5100018-DNA_H10	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.4213C>A	p.(His1405Ter)	3	52572454	C	A	0.287	2	LoF
+p10000001563	LP5100018-DNA_H10	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	frameshift_variant	c.3339dup	p.(Leu1114MetfsTer8)	3	52407328	G	GT	0.367	2	LoF
+p10000001565	LP5100019-DNA_A02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.1418+7C>G	p.?	17	7684760	C	G	0.486	1	(likely)pathogenic
+p10000001566	LP5100019-DNA_A04	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.2210_2213del	p.(Met737GlyfsTer7)	10	87864323	CATGG	C	0.246	2	LoF
+p10000001566	LP5100019-DNA_A04	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.447	1	(likely)pathogenic
+p10000001567	LP5100019-DNA_A06	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	splice_region_variant	c.2553+4A>C	p.?	3	179168272	A	C	0.359	1	(likely)pathogenic
+p10000001567	LP5100019-DNA_A06	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	frameshift_variant	c.4548_4549dup	p.(Asp1517ProfsTer23)	16	68828775	T	TCT	0.345	2	LoF
+p10000001568	LP5100019-DNA_A08	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.368G>C	p.(Val123Trp)	17	7685039	G	C	0.152	1	(likely)pathogenic
+p10000001569	LP5100019-DNA_A10	Paediatric tumours	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2176A>G	p.(His726Glu)	17	7671442	A	G	0.311	1	(likely)pathogenic
+p10000001570	LP5100019-DNA_A12	Adult glioma	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.230C>T	p.(Lys77Ter)	10	87963951	C	T	0.202	2	LoF
+p10000001570	LP5100019-DNA_A12	Adult glioma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4004A>G	p.(Lys1335Ile)	17	7676884	A	G	0.307	1	(likely)pathogenic
+p10000001571	LP5100019-DNA_B02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1784A>T	p.(Val595Arg)	17	7681609	A	T	0.207	1	(likely)pathogenic
+p10000001572	LP5100019-DNA_B04	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	splice_acceptor_variant	c.374-1C>G	p.?	10	8055079	C	G	0.333	2	LoF
+p10000001573	LP5100019-DNA_B06	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	splice_donor_variant	c.2760+2C>G	p.?	13	48336508	C	G	0.415	1	path_LoF
+p10000001573	LP5100019-DNA_B06	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	splice_donor_variant	c.3889+2T>A	p.?	X	77574843	T	A	0.415	2	LoF
+p10000001574	LP5100019-DNA_B08	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2620A>C	p.(Gln874Val)	17	7684410	A	C	0.287	1	(likely)pathogenic
+p10000001575	LP5100019-DNA_B10	Adult glioma	Solid tumour sample	somatic	PTEN	NM_000314.8	missense_variant	c.1805C>G	p.(Leu602Arg)	10	87943654	C	G	0.333	2	other
+p10000001575	LP5100019-DNA_B10	Adult glioma	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.3863+5A>C	p.?	17	7677987	A	C	0.169	1	(likely)pathogenic
+p10000001576	LP5100019-DNA_B12	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.844G>C	p.(Arg282Ile)	17	7683938	G	C	0.461	1	(likely)pathogenic
+p10000001577	LP5100019-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.1964+1T>C	p.?	5	112820928	T	C	0.478	1	path_LoF
+p10000001577	LP5100019-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.467	1	(likely)pathogenic
+p10000001578	LP5100019-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	frameshift_variant	c.4734del	p.(Tyr1579ProfsTer12)	18	51083756	AT	A	0.246	2	LoF
+p10000001578	LP5100019-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.346	1	(likely)pathogenic
+p10000001579	LP5100019-DNA_C06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.921C>A	p.(Lys308Trp)	17	7673599	C	A	0.203	1	(likely)pathogenic
+p10000001580	LP5100019-DNA_C08	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.363T>G	p.(Ile122His)	17	7679509	T	G	0.249	1	(likely)pathogenic
+p10000001581	LP5100019-DNA_C10	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.469	1	(likely)pathogenic
+p10000001581	LP5100019-DNA_C10	Melanoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.253	1	(likely)pathogenic
+p10000001582	LP5100019-DNA_C12	Adult glioma	Solid tumour sample	somatic	IDH1	NM_005896.4	missense_variant	c.393G>A	p.(Ala132Ile)	2	208250740	G	A	0.437	1	(likely)pathogenic
+p10000001583	LP5100019-DNA_D02	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	missense_variant	c.4593T>A	p.(Ile1532Met)	7	152311569	T	A	0.252	2	other
+p10000001584	LP5100019-DNA_D04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3252A>T	p.(His1085Ile)	17	7681154	A	T	0.35	1	(likely)pathogenic
+p10000001585	LP5100019-DNA_D06	Breast cancer	Solid tumour sample	germline	PALB2	NM_024675.4	splice_donor_variant	c.4699+1G>A		16	23627650	G	A	0.5	1	path_LoF
+p10000001586	LP5100019-DNA_D08	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2571T>G	p.(Phe858Gln)	17	7673440	T	G	0.372	1	(likely)pathogenic
+p10000001586	LP5100019-DNA_D08	Lung cancer	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.1221T>C	p.(Asn408Thr)	9	21968665	T	C	0.322	1	(likely)pathogenic
+p10000001587	LP5100019-DNA_D10	Haematological malignancy	Liquid tumour sample	somatic	NPM1	NM_002520.7	missense_variant	c.3914C>A	p.(Trp288CysfsTer12)	5	171400862	C	A	0.101	1	(likely)pathogenic
+p10000001587	LP5100019-DNA_D10	Haematological malignancy	Liquid tumour sample	somatic	DNMT3A	NM_022552.5	missense_variant	c.713C>T	p.(Met238Asp)	2	25269678	C	T	0.139	2	other
+p10000001588	LP5100019-DNA_D12	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.1144del	p.(Ile382MetfsTer28)	3	10149611	AG	A	0.416	1	path_LoF
+p10000001589	LP5100019-DNA_E02	Soft tissue sarcoma	Solid tumour sample	somatic	NF1	NM_001042492.3	stop_gained	c.3805T>G	p.(Leu1269Ter)	17	31287247	T	G	0.307	2	LoF
+p10000001590	LP5100019-DNA_E04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.1213T>C	p.(His405Val)	5	112775003	T	C	0.166	1	(likely)pathogenic
+p10000001590	LP5100019-DNA_E04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3870T>A	p.(Glu1291Pro)	17	7673282	T	A	0.161	1	(likely)pathogenic
+p10000001590	LP5100019-DNA_E04	Colorectal carcinoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.171	1	(likely)pathogenic
+p10000001591	LP5100019-DNA_E06	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.222	1	(likely)pathogenic
+p10000001592	LP5100019-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.4553C>G	p.(Asn1518Ter)	5	112744112	C	G	0.347	1	path_LoF
+p10000001592	LP5100019-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.506	1	(likely)pathogenic
+p10000001592	LP5100019-DNA_E08	Colorectal carcinoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.251	1	(likely)pathogenic
+p10000001593	LP5100019-DNA_E10	Adult glioma	Solid tumour sample	somatic	IDH1	NM_005896.4	missense_variant	c.3132T>C	p.(Arg132His)	2	208240629	T	C	0.381	1	(likely)pathogenic
+p10000001594	LP5100019-DNA_E12	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	frameshift_variant	c.4133del	p.(Met1378ArgfsTer44)	X	77633536	CA	C	0.167	2	LoF
+p10000001596	LP5100019-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.2374G>A	p.(Cys792Gln)	5	112835453	G	A	0.293	1	(likely)pathogenic
+p10000001596	LP5100019-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3718C>G	p.(Ser1240Ala)	17	7674566	C	G	0.229	1	(likely)pathogenic
+p10000001598	LP5100019-DNA_F08	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3228T>A	p.(Gly1077Asp)	17	7668876	T	A	0.456	1	(likely)pathogenic
+p10000001598	LP5100019-DNA_F08	Lung cancer	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.3745C>G	p.(Val1249Tyr)	9	21971375	C	G	0.337	1	(likely)pathogenic
+p10000001599	LP5100019-DNA_F10	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.2184_2187dup	p.(Ser729MetfsTer16)	3	10142556	C	CCGAC	0.349	1	path_LoF
+p10000001601	LP5100019-DNA_G02	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4045G>A	p.(Lys1349Cys)	17	7679097	G	A	0.118	1	(likely)pathogenic
+p10000001601	LP5100019-DNA_G02	Lung cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.94_100dup	p.(His32AsnfsTer9)	10	87895963	T	TGCGAGCC	0.167	2	LoF
+p10000001603	LP5100019-DNA_G06	Melanoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.466	1	(likely)pathogenic
+p10000001606	LP5100019-DNA_G12	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4084G>T	p.(His1362Ile)	17	7684802	G	T	0.264	1	(likely)pathogenic
+p10000001607	LP5100019-DNA_H02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.25	1	(likely)pathogenic
+p10000001609	LP5100019-DNA_H06	Prostate cancer	Solid tumour sample	somatic	FOXA1	NM_004496.5	missense_variant	c.1216A>T	p.(Lys406Thr)	14	37591937	A	T	0.306	2	other
+p10000001610	LP5100019-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.2490G>A	p.(Gln831Thr)	5	112837758	G	A	0.416	1	(likely)pathogenic
+p10000001610	LP5100019-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.431	1	(likely)pathogenic
+p10000001611	LP5100019-DNA_H10	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3070C>A	p.(Gly1024Met)	17	7683098	C	A	0.573	1	(likely)pathogenic
+p10000001611	LP5100019-DNA_H10	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	frameshift_variant	c.3680del	p.(Asn1227SerfsTer48)	10	8063649	AT	A	0.289	2	LoF
+p10000001614	LP5100020-DNA_A04	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.534A>T	p.(Trp179Gly)	17	7674233	A	T	0.304	1	(likely)pathogenic
+p10000001615	LP5100020-DNA_A06	Prostate cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.1178T>A	p.(Ile393Ter)	10	87908467	T	A	0.123	2	LoF
+p10000001616	LP5100020-DNA_A08	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3259G>A	p.(Cys1087Lys)	17	7685663	G	A	0.535	1	(likely)pathogenic
+p10000001616	LP5100020-DNA_A08	Upper gastrointestinal cancer	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.320A>T	p.(Asn107Met)	9	21967760	A	T	0.308	1	(likely)pathogenic
+p10000001618	LP5100020-DNA_A12	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.1365G>C	p.(Thr456Met)	3	10152141	G	C	0.551	1	(likely)pathogenic
+p10000001619	LP5100020-DNA_B02	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	missense_variant	c.248G>T	p.(Thr83Ala)	3	52407855	G	T	0.362	2	other
+p10000001620	LP5100020-DNA_B04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.631	1	(likely)pathogenic
+p10000001621	LP5100020-DNA_B06	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.3043+7A>G	p.?	17	7678151	A	G	0.343	1	(likely)pathogenic
+p10000001621	LP5100020-DNA_B06	Upper gastrointestinal cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	frameshift_variant	c.2353del	p.(Gln785TyrfsTer35)	16	68820214	CG	C	0.39	2	LoF
+p10000001622	LP5100020-DNA_B08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.1793T>A	p.(His598Phe)	5	112784950	T	A	0.319	1	(likely)pathogenic
+p10000001622	LP5100020-DNA_B08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2406G>A	p.(Pro803Leu)	17	7678786	G	A	0.264	1	(likely)pathogenic
+p10000001624	LP5100020-DNA_B12	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.733A>G	p.(Lys245His)	17	7685505	A	G	0.341	1	(likely)pathogenic
+p10000001625	LP5100020-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.3987G>T	p.(Ile1330Met)	5	112841425	G	T	0.153	1	(likely)pathogenic
+p10000001625	LP5100020-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.3976C>G	p.(Asp1326Trp)	12	25226974	C	G	0.172	1	(likely)pathogenic
+p10000001625	LP5100020-DNA_C02	Colorectal carcinoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.142	1	(likely)pathogenic
+p10000001626	LP5100020-DNA_C04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.293	1	(likely)pathogenic
+p10000001628	LP5100020-DNA_C08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.131	1	(likely)pathogenic
+p10000001628	LP5100020-DNA_C08	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	stop_gained	c.915A>C	p.(Met306Ter)	10	8073498	A	C	0.467	2	LoF
+p10000001628	LP5100020-DNA_C08	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.4115C>G	p.(Pro1372Ter)	10	87912275	C	G	0.299	2	LoF
+p10000001632	LP5100020-DNA_D04	Lung cancer	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.2957G>A	p.(Tyr986Thr)	9	21969472	G	A	0.173	1	(likely)pathogenic
+p10000001633	LP5100020-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.1806A>G	p.(Leu603Gln)	5	112808290	A	G	0.223	1	(likely)pathogenic
+p10000001633	LP5100020-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.273	1	(likely)pathogenic
+p10000001633	LP5100020-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.287	1	(likely)pathogenic
+p10000001633	LP5100020-DNA_D06	Colorectal carcinoma	Solid tumour sample	germline	MLH1	NM_000249.4	frameshift_variant	c.2426del		3	37047702	CC	C	0.5	1	path_LoF
+p10000001634	LP5100020-DNA_D08	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.900C>G	p.(Asn301Ter)	3	10153159	C	G	0.348	1	path_LoF
+p10000001634	LP5100020-DNA_D08	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	missense_variant	c.3269G>A	p.(Phe1090Ala)	3	52661356	G	A	0.578	2	other
+p10000001635	LP5100020-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.3952G>A	p.(Pro1318Trp)	5	112781316	G	A	0.42	1	(likely)pathogenic
+p10000001635	LP5100020-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.627	1	(likely)pathogenic
+p10000001636	LP5100020-DNA_D12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.3473C>T	p.(Met1158Ter)	5	112788320	C	T	0.508	1	path_LoF
+p10000001637	LP5100020-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.1628G>C	p.(Ala543Ter)	5	112746462	G	C	0.286	1	path_LoF
+p10000001637	LP5100020-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	inframe_insertion	c.3081_3082insCCC	p.(Asp1028_Arg1029insPro)	12	25226312	A	ACCC	0.227	1	(likely)pathogenic
+p10000001638	LP5100020-DNA_E04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.2951C>A	p.(Pro984Gly)	5	112813349	C	A	0.385	1	(likely)pathogenic
+p10000001640	LP5100020-DNA_E08	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	stop_gained	c.3771G>A	p.(Trp1258Ter)	10	87908601	G	A	0.293	2	LoF
+p10000001640	LP5100020-DNA_E08	Endometrial cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	stop_gained	c.1121A>G	p.(Gln374Ter)	1	26761170	A	G	0.233	2	LoF
+p10000001640	LP5100020-DNA_E08	Endometrial cancer	Solid tumour sample	somatic	PIK3R1	NM_181523.3	missense_variant	c.2784A>C	p.(Ser929Thr)	5	68299282	A	C	0.186	2	other
+p10000001641	LP5100020-DNA_E10	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.3633G>T	p.(Val1212Pro)	3	10146160	G	T	0.325	1	(likely)pathogenic
+p10000001641	LP5100020-DNA_E10	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	missense_variant	c.2508A>G	p.(Asp837Met)	3	52660479	A	G	0.276	2	other
+p10000001641	LP5100020-DNA_E10	Renal cancer	Solid tumour sample	somatic	KDM5C	NM_004187.5	stop_gained	c.4316A>T	p.(Pro1439Ter)	X	53213352	A	T	0.368	2	LoF
+p10000001642	LP5100020-DNA_E12	Melanoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2037T>A	p.(Val680Arg)	17	7685954	T	A	0.248	1	(likely)pathogenic
+p10000001643	LP5100020-DNA_F02	Haematological malignancy	Liquid tumour sample	somatic	ATM	NM_000051.4	stop_gained	c.1476T>C	p.(Phe493Ter)	11	108239800	T	C	0.214	1	path_LoF
+p10000001644	LP5100020-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.4293_4296dup	p.(Val1432ArgfsTer12)	5	112790598	G	GGCGA	0.256	1	path_LoF
+p10000001644	LP5100020-DNA_F04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.203C>T	p.(Thr68Asn)	17	7685207	C	T	0.26	1	(likely)pathogenic
+p10000001645	LP5100020-DNA_F06	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.289	1	(likely)pathogenic
+p10000001645	LP5100020-DNA_F06	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	missense_variant	c.458T>A	p.(Cys153Glu)	7	152355233	T	A	0.217	2	other
+p10000001646	LP5100020-DNA_F08	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	splice_acceptor_variant	c.2259-2G>C	p.?	10	87915949	G	C	0.389	2	LoF
+p10000001649	LP5100020-DNA_G02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.3615G>T	p.(Glu1206Ter)	3	10153381	G	T	0.296	1	path_LoF
+p10000001649	LP5100020-DNA_G02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.4465T>G	p.(Trp1489Ter)	3	52664095	T	G	0.264	2	LoF
+p10000001651	LP5100020-DNA_G06	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.32_34del	p.(Trp11del)	17	7680529	CACG	C	0.476	1	(likely)pathogenic
+p10000001651	LP5100020-DNA_G06	Ovarian carcinoma	Solid tumour sample	somatic	NF1	NM_001042492.3	missense_variant	c.1065A>T	p.(Met356Lys)	17	31328141	A	T	0.35	2	other
+p10000001652	LP5100020-DNA_G08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.419	1	(likely)pathogenic
+p10000001653	LP5100020-DNA_G10	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.269	1	(likely)pathogenic
+p10000001653	LP5100020-DNA_G10	Breast cancer	Solid tumour sample	somatic	MAP3K1	NM_005921.2	stop_gained	c.1919A>G	p.(Val640Ter)	5	56843730	A	G	0.444	2	LoF
+p10000001654	LP5100020-DNA_G12	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.1849T>G	p.(Met617Ter)	3	10151357	T	G	0.359	1	path_LoF
+p10000001654	LP5100020-DNA_G12	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	missense_variant	c.3345G>T	p.(Ala1116Ser)	3	52572356	G	T	0.316	2	other
+p10000001654	LP5100020-DNA_G12	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	frameshift_variant	c.2824del	p.(His942ValfsTer40)	3	52407631	CG	C	0.299	2	LoF
+p10000001656	LP5100020-DNA_H04	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.172	1	(likely)pathogenic
+p10000001656	LP5100020-DNA_H04	Melanoma	Solid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.421	1	(likely)pathogenic
+p10000001657	LP5100020-DNA_H06	Melanoma	Solid tumour sample	somatic	NF1	NM_001042492.3	stop_gained	c.3231C>G	p.(Lys1078Ter)	17	31311610	C	G	0.26	2	LoF
+p10000001657	LP5100020-DNA_H06	Melanoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.321T>C	p.(Thr108His)	17	7679603	T	C	0.338	1	(likely)pathogenic
+p10000001658	LP5100020-DNA_H08	Lung cancer	Solid tumour sample	somatic	EGFR	NM_005228.5	missense_variant	c.567G>C	p.(Leu858Arg)	7	55028792	G	C	0.211	1	(likely)pathogenic
+p10000001659	LP5100020-DNA_H10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.4501G>C	p.(Lys1501Gln)	5	112819447	G	C	0.363	1	(likely)pathogenic
+p10000001659	LP5100020-DNA_H10	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4452G>A	p.(Pro1485Lys)	17	7684593	G	A	0.537	1	(likely)pathogenic
+p10000001660	LP5100020-DNA_H12	Haematological malignancy	Liquid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.214C>T	p.(Met72Ile)	1	114715706	C	T	0.203	1	(likely)pathogenic
+p10000001661	LP5100021-DNA_A02	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.3048del	p.(Gln1017AspfsTer25)	10	87909841	AG	A	0.274	2	LoF
+p10000001661	LP5100021-DNA_A02	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.346	1	(likely)pathogenic
+p10000001662	LP5100021-DNA_A04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	inframe_deletion	c.1681_1683del	p.(Gly561del)	3	10148707	CCGG	C	0.29	1	(likely)pathogenic
+p10000001666	LP5100021-DNA_A12	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1914C>T	p.(Trp639Glu)	17	7686031	C	T	0.397	1	(likely)pathogenic
+p10000001667	LP5100021-DNA_B02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.2538C>A	p.(Lys847Met)	3	10150447	C	A	0.211	1	(likely)pathogenic
+p10000001667	LP5100021-DNA_B02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	splice_acceptor_variant	c.2559-2T>A	p.?	3	52675179	T	A	0.226	2	LoF
+p10000001668	LP5100021-DNA_B04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.38	1	(likely)pathogenic
+p10000001669	LP5100021-DNA_B06	Haematological malignancy	Liquid tumour sample	somatic	NPM1	NM_002520.7	missense_variant	c.3914C>A	p.(Trp288CysfsTer12)	5	171400862	C	A	0.516	1	(likely)pathogenic
+p10000001672	LP5100021-DNA_B12	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.2667+5A>C	p.?	17	7679879	A	C	0.321	1	(likely)pathogenic
+p10000001672	LP5100021-DNA_B12	Lung cancer	Solid tumour sample	somatic	EGFR	NM_005228.5	missense_variant	c.567G>C	p.(Leu858Arg)	7	55028792	G	C	0.151	1	(likely)pathogenic
+p10000001673	LP5100021-DNA_C02	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	start_lost	c.1C>G	p.(Met1?)	10	8066233	C	G	0.332	2	LoF
+p10000001673	LP5100021-DNA_C02	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	missense_variant	c.3494A>G	p.(Cys1165Thr)	10	87938121	A	G	0.285	2	other
+p10000001674	LP5100021-DNA_C04	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.308	1	(likely)pathogenic
+p10000001675	LP5100021-DNA_C06	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	splice_donor_variant	c.3586+1A>G	p.?	10	87909148	A	G	0.382	2	LoF
+p10000001675	LP5100021-DNA_C06	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.255	1	(likely)pathogenic
+p10000001676	LP5100021-DNA_C08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.536A>G	p.(Met179Thr)	3	179166912	A	G	0.222	1	(likely)pathogenic
+p10000001678	LP5100021-DNA_C12	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.566	1	(likely)pathogenic
+p10000001680	LP5100021-DNA_D04	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3898G>C	p.(Ala1300Gly)	17	7669597	G	C	0.471	1	(likely)pathogenic
+p10000001681	LP5100021-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2868dup	p.(Arg957IlefsTer47)	5	112769245	A	AG	0.367	1	path_LoF
+p10000001681	LP5100021-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.2028_2030del	p.(Thr677del)	17	7676135	ATAA	A	0.255	1	(likely)pathogenic
+p10000001681	LP5100021-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.22	1	(likely)pathogenic
+p10000001681	LP5100021-DNA_D06	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.2120C>G	p.(Asp707Lys)	3	179237680	C	G	0.244	1	(likely)pathogenic
+p10000001682	LP5100021-DNA_D08	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.128C>G	p.(Cys43Tyr)	4	54698062	C	G	0.359	1	(likely)pathogenic
+p10000001684	LP5100021-DNA_D12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2134_2135del	p.(Lys712HisfsTer9)	5	112797056	TGT	T	0.542	1	path_LoF
+p10000001684	LP5100021-DNA_D12	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3306A>G	p.(Gly1103Cys)	17	7676240	A	G	0.34	1	(likely)pathogenic
+p10000001684	LP5100021-DNA_D12	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.359	1	(likely)pathogenic
+p10000001685	LP5100021-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.3143+1C>T	p.?	5	112796510	C	T	0.575	1	path_LoF
+p10000001685	LP5100021-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2767A>T	p.(Asp923Cys)	17	7684057	A	T	0.289	1	(likely)pathogenic
+p10000001685	LP5100021-DNA_E02	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	inframe_insertion	c.2123_2124insGTT	p.(Glu708_Ser709insCys)	3	179161635	A	AGTT	0.445	1	(likely)pathogenic
+p10000001686	LP5100021-DNA_E04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	splice_acceptor_variant	c.2002-1C>A	p.?	3	10141827	C	A	0.425	1	path_LoF
+p10000001687	LP5100021-DNA_E06	Adult glioma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1051T>A	p.(Cys351His)	17	7682730	T	A	0.297	1	(likely)pathogenic
+p10000001688	LP5100021-DNA_E08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.2292T>G	p.(Gln765Val)	3	179202663	T	G	0.227	1	(likely)pathogenic
+p10000001688	LP5100021-DNA_E08	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2697T>C	p.(His900Met)	17	7682712	T	C	0.213	1	(likely)pathogenic
+p10000001688	LP5100021-DNA_E08	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	missense_variant	c.2204C>G	p.(Ala735Tyr)	7	152210536	C	G	0.245	2	other
+p10000001689	LP5100021-DNA_E10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2650T>G	p.(Phe884Gly)	17	7682852	T	G	0.552	1	(likely)pathogenic
+p10000001690	LP5100021-DNA_E12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2189_2190del	p.(Leu730CysfsTer43)	5	112834266	CCT	C	0.242	1	path_LoF
+p10000001691	LP5100021-DNA_F02	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.332	1	(likely)pathogenic
+p10000001692	LP5100021-DNA_F04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.1939G>C	p.(Ala647Ter)	3	10150167	G	C	0.416	1	path_LoF
+p10000001692	LP5100021-DNA_F04	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	frameshift_variant	c.942_945del	p.(Leu315GlyfsTer51)	3	52408756	GATCG	G	0.349	2	LoF
+p10000001693	LP5100021-DNA_F06	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3163A>G	p.(Ser1055Pro)	17	7670912	A	G	0.33	1	(likely)pathogenic
+p10000001693	LP5100021-DNA_F06	Upper gastrointestinal cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.497	1	(likely)pathogenic
+p10000001694	LP5100021-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.376	1	(likely)pathogenic
+p10000001695	LP5100021-DNA_F10	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.3427A>G	p.(Tyr1143Ter)	3	10153407	A	G	0.401	1	path_LoF
+p10000001696	LP5100021-DNA_F12	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2976T>A	p.(Gln993Thr)	17	7681501	T	A	0.276	1	(likely)pathogenic
+p10000001696	LP5100021-DNA_F12	Ovarian carcinoma	Solid tumour sample	somatic	BRCA1	NM_007294.4	frameshift_variant	c.3863_3864dup	p.(Glu1288MetfsTer43)	17	43089583	C	CAT	0.531	1	path_LoF
+p10000001696	LP5100021-DNA_F12	Ovarian carcinoma	Solid tumour sample	germline	BRCA2	NM_000059.4	splice_acceptor_variant	c.1231-1C>T		13	32353415	C	T	0.5	1	path_LoF
+p10000001697	LP5100021-DNA_G02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_insertion	c.3720_3721insTAC	p.(Asn1241_Cys1242insAsn)	17	7678236	A	ATAC	0.545	1	(likely)pathogenic
+p10000001697	LP5100021-DNA_G02	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	frameshift_variant	c.2053_2057del	p.(Pro685CysfsTer14)	7	152345144	TTGGTC	T	0.383	2	LoF
+p10000001698	LP5100021-DNA_G04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.297	1	(likely)pathogenic
+p10000001700	LP5100021-DNA_G08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.2394dup	p.(Trp799ThrfsTer25)	5	112799834	C	CC	0.355	1	path_LoF
+p10000001700	LP5100021-DNA_G08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2928A>G	p.(Trp977Ser)	17	7672135	A	G	0.221	1	(likely)pathogenic
+p10000001701	LP5100021-DNA_G10	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	stop_gained	c.3972G>A	p.(Cys1325Ter)	16	68817492	G	A	0.262	2	LoF
+p10000001701	LP5100021-DNA_G10	Breast cancer	Solid tumour sample	somatic	AKT1	NM_001382430.1	missense_variant	c.750C>A	p.(Glu17Lys)	14	104779220	C	A	0.295	2	other
+p10000001702	LP5100021-DNA_G12	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	start_lost	c.1T>A	p.(Met1?)	3	10152776	T	A	0.262	1	path_LoF
+p10000001702	LP5100021-DNA_G12	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	frameshift_variant	c.3318del	p.(Tyr1107SerfsTer11)	3	52655100	TC	T	0.195	2	LoF
+p10000001703	LP5100021-DNA_H02	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.216	1	(likely)pathogenic
+p10000001703	LP5100021-DNA_H02	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3992C>T	p.(His1331Leu)	17	7672418	C	T	0.143	1	(likely)pathogenic
+p10000001703	LP5100021-DNA_H02	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	missense_variant	c.3874C>T	p.(Thr1292Met)	10	8059863	C	T	0.138	2	other
+p10000001705	LP5100021-DNA_H06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.3035T>G	p.(Asn1012Arg)	3	10148665	T	G	0.26	1	(likely)pathogenic
+p10000001705	LP5100021-DNA_H06	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	splice_donor_variant	c.4633+1G>T	p.?	3	52589636	G	T	0.28	2	LoF
+p10000001707	LP5100021-DNA_H10	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2554A>G	p.(Val852Leu)	17	7682535	A	G	0.149	1	(likely)pathogenic
+p10000001708	LP5100021-DNA_H12	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.4241_4242dup	p.(Pro1414GlnfsTer12)	5	112825708	G	GTC	0.508	1	path_LoF
+p10000001708	LP5100021-DNA_H12	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4619C>T	p.(Val1540Met)	17	7679867	C	T	0.213	1	(likely)pathogenic
+p10000001708	LP5100021-DNA_H12	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.29	1	(likely)pathogenic
+p10000001709	LP5100022-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.944dup	p.(Tyr315TyrfsTer50)	5	112765593	C	CA	0.351	1	path_LoF
+p10000001709	LP5100022-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4345G>C	p.(His1449Met)	17	7686847	G	C	0.222	1	(likely)pathogenic
+p10000001709	LP5100022-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.347	1	(likely)pathogenic
+p10000001709	LP5100022-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.341	1	(likely)pathogenic
+p10000001709	LP5100022-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	missense_variant	c.2708A>C	p.(Met903Asp)	4	152535570	A	C	0.2	2	other
+p10000001710	LP5100022-DNA_A04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.415A>T	p.(Phe139Met)	3	179157232	A	T	0.364	1	(likely)pathogenic
+p10000001710	LP5100022-DNA_A04	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_insertion	c.3679_3680insCGT	p.(Pro1227_Tyr1228insGlu)	17	7669839	C	CCGT	0.27	1	(likely)pathogenic
+p10000001713	LP5100022-DNA_A10	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.1519_1521del	p.(Leu507del)	17	7681757	GGCC	G	0.177	1	(likely)pathogenic
+p10000001713	LP5100022-DNA_A10	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.234	1	(likely)pathogenic
+p10000001713	LP5100022-DNA_A10	Lung cancer	Solid tumour sample	somatic	STK11	NM_000455.5	frameshift_variant	c.3504dup	p.(Glu1169SerfsTer4)	19	1223203	T	TG	0.256	2	LoF
+p10000001714	LP5100022-DNA_A12	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1083C>T	p.(Asp362Ala)	17	7669697	C	T	0.201	1	(likely)pathogenic
+p10000001715	LP5100022-DNA_B02	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3432C>A	p.(Gln1145Trp)	17	7676215	C	A	0.174	1	(likely)pathogenic
+p10000001716	LP5100022-DNA_B04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.4283G>A	p.(Cys1428Ter)	3	10152622	G	A	0.354	1	path_LoF
+p10000001716	LP5100022-DNA_B04	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.1066T>A	p.(Val356Ter)	3	52586911	T	A	0.439	2	LoF
+p10000001717	LP5100022-DNA_B06	Carcinoma of unknown primary	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.580A>C	p.(Asp194Met)	17	7684176	A	C	0.266	1	(likely)pathogenic
+p10000001717	LP5100022-DNA_B06	Carcinoma of unknown primary	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.292	1	(likely)pathogenic
+p10000001717	LP5100022-DNA_B06	Carcinoma of unknown primary	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.1909C>T	p.(Asp637Ala)	9	21973117	C	T	0.296	1	(likely)pathogenic
+p10000001718	LP5100022-DNA_B08	Prostate cancer	Solid tumour sample	somatic	SPOP	NM_001007228.2	missense_variant	c.1502A>T	p.(Phe133Val)	17	49670706	A	T	0.313	2	other
+p10000001719	LP5100022-DNA_B10	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.354	1	(likely)pathogenic
+p10000001720	LP5100022-DNA_B12	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.263	1	(likely)pathogenic
+p10000001721	LP5100022-DNA_C02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.2381G>T	p.(Cys794Ter)	3	10152700	G	T	0.291	1	path_LoF
+p10000001721	LP5100022-DNA_C02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.2382C>G	p.(Cys795Ter)	3	52557454	C	G	0.383	2	LoF
+p10000001723	LP5100022-DNA_C06	Breast cancer	Solid tumour sample	somatic	GATA3	NM_001002295.2	missense_variant	c.1991A>T	p.(Thr664Gly)	10	8055596	A	T	0.216	2	other
+p10000001724	LP5100022-DNA_C08	Carcinoma of unknown primary	Solid tumour sample	somatic	TP53	NM_000546.6	splice_region_variant	c.4174+7A>T	p.?	17	7669442	A	T	0.191	1	(likely)pathogenic
+p10000001724	LP5100022-DNA_C08	Carcinoma of unknown primary	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.209	1	(likely)pathogenic
+p10000001725	LP5100022-DNA_C10	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.341	1	(likely)pathogenic
+p10000001725	LP5100022-DNA_C10	Breast cancer	Solid tumour sample	somatic	AKT1	NM_001382430.1	missense_variant	c.750C>A	p.(Glu17Lys)	14	104779220	C	A	0.425	2	other
+p10000001726	LP5100022-DNA_C12	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.4040T>G	p.(Asn1347His)	7	140863478	T	G	0.19	1	(likely)pathogenic
+p10000001727	LP5100022-DNA_D02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.3388+2G>A	p.?	5	112763416	G	A	0.337	1	path_LoF
+p10000001727	LP5100022-DNA_D02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3242T>G	p.(Gln1081Trp)	17	7669219	T	G	0.281	1	(likely)pathogenic
+p10000001727	LP5100022-DNA_D02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.406	1	(likely)pathogenic
+p10000001729	LP5100022-DNA_D06	Haematological malignancy	Liquid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.607	1	(likely)pathogenic
+p10000001729	LP5100022-DNA_D06	Haematological malignancy	Liquid tumour sample	somatic	DIS3	NM_014953.5	stop_gained	c.3391G>C	p.(Ile1131Ter)	13	72760526	G	C	0.324	2	LoF
+p10000001730	LP5100022-DNA_D08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3945T>C	p.(Met1316Ser)	17	7682175	T	C	0.355	1	(likely)pathogenic
+p10000001730	LP5100022-DNA_D08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.347	1	(likely)pathogenic
+p10000001731	LP5100022-DNA_D10	Lung cancer	Solid tumour sample	somatic	NF1	NM_001042492.3	start_lost	c.2T>G	p.(Met1?)	17	31192861	T	G	0.405	2	LoF
+p10000001734	LP5100022-DNA_E04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1332A>G	p.(Glu445Val)	17	7669953	A	G	0.304	1	(likely)pathogenic
+p10000001735	LP5100022-DNA_E06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	splice_acceptor_variant	c.377-2G>C	p.?	3	10150706	G	C	0.322	1	path_LoF
+p10000001735	LP5100022-DNA_E06	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	splice_donor_variant	c.1899+1C>A	p.?	3	52404393	C	A	0.285	2	LoF
+p10000001739	LP5100022-DNA_F02	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1210G>A	p.(Arg404Ser)	17	7675972	G	A	0.174	1	(likely)pathogenic
+p10000001739	LP5100022-DNA_F02	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	stop_gained	c.4124C>T	p.(Tyr1375Ter)	X	77677783	C	T	0.188	2	LoF
+p10000001740	LP5100022-DNA_F04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.241	1	(likely)pathogenic
+p10000001741	LP5100022-DNA_F06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.3944_3946del	p.(His1315del)	17	7679612	CTAC	C	0.213	1	(likely)pathogenic
+p10000001741	LP5100022-DNA_F06	Breast cancer	Solid tumour sample	somatic	MAP3K1	NM_005921.2	missense_variant	c.4626C>G	p.(His1543Cys)	5	56889800	C	G	0.426	2	other
+p10000001742	LP5100022-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_donor_variant	c.1374+2C>A	p.?	5	112843176	C	A	0.524	1	path_LoF
+p10000001742	LP5100022-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3058C>T	p.(Ala1020Arg)	17	7677187	C	T	0.346	1	(likely)pathogenic
+p10000001743	LP5100022-DNA_F10	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3624G>C	p.(Cys1209Ile)	17	7680033	G	C	0.475	1	(likely)pathogenic
+p10000001743	LP5100022-DNA_F10	Soft tissue sarcoma	Solid tumour sample	somatic	RB1	NM_000321.3	frameshift_variant	c.203_204del	p.(Tyr68TrpfsTer43)	13	48444099	CGT	C	0.308	1	path_LoF
+p10000001744	LP5100022-DNA_F12	Bladder cancer	Solid tumour sample	somatic	KDM6A	NM_001291415.2	frameshift_variant	c.4173_4179dup	p.(Gly1392SerfsTer59)	X	45009400	A	AGTCTAAG	0.305	2	LoF
+p10000001744	LP5100022-DNA_F12	Bladder cancer	Solid tumour sample	somatic	FGFR3	NM_000142.5	missense_variant	c.1547G>A	p.(Ser249Cys)	4	1804854	G	A	0.598	1	(likely)pathogenic
+p10000001744	LP5100022-DNA_F12	Bladder cancer	Solid tumour sample	somatic	RB1	NM_000321.3	missense_variant	c.3174T>G	p.(Gly1059Ser)	13	48327782	T	G	0.388	1	(likely)pathogenic
+p10000001745	LP5100022-DNA_G02	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3002C>T	p.(Asn1001Tyr)	17	7677461	C	T	0.297	1	(likely)pathogenic
+p10000001745	LP5100022-DNA_G02	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	splice_donor_variant	c.244+1G>T	p.?	X	77543247	G	T	0.343	2	LoF
+p10000001747	LP5100022-DNA_G06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4544A>G	p.(Ser1515Pro)	17	7671294	A	G	0.177	1	(likely)pathogenic
+p10000001749	LP5100022-DNA_G10	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2884G>A	p.(Gly962Met)	17	7668780	G	A	0.298	1	(likely)pathogenic
+p10000001751	LP5100022-DNA_H02	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2206A>T	p.(Val736Pro)	17	7675074	A	T	0.273	1	(likely)pathogenic
+p10000001752	LP5100022-DNA_H04	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.144	1	(likely)pathogenic
+p10000001752	LP5100022-DNA_H04	Endometrial cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_insertion	c.527_528insATC	p.(Met176_Tyr177insHis)	17	7685691	G	GATC	0.154	1	(likely)pathogenic
+p10000001753	LP5100022-DNA_H06	Adult glioma	Solid tumour sample	somatic	EGFR	NM_005228.5	missense_variant	c.567G>C	p.(Leu858Arg)	7	55028792	G	C	0.325	1	(likely)pathogenic
+p10000001754	LP5100022-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2266G>A	p.(Arg756Lys)	17	7676123	G	A	0.304	1	(likely)pathogenic
+p10000001755	LP5100022-DNA_H10	Adult glioma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2378C>A	p.(Asp793Ser)	17	7682843	C	A	0.175	1	(likely)pathogenic
+p10000001755	LP5100022-DNA_H10	Adult glioma	Solid tumour sample	somatic	CIC	NM_001386298.1	stop_gained	c.3994A>C	p.(Lys1332Ter)	19	42289239	A	C	0.266	2	LoF
+p10000001756	LP5100022-DNA_H12	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4593C>G	p.(Asn1532Ile)	17	7686423	C	G	0.306	1	(likely)pathogenic
+p10000001757	LP5100023-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_acceptor_variant	c.196-2C>A	p.?	5	112844117	C	A	0.185	1	path_LoF
+p10000001757	LP5100023-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1422T>C	p.(Glu475Tyr)	17	7686012	T	C	0.219	1	(likely)pathogenic
+p10000001757	LP5100023-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.145	1	(likely)pathogenic
+p10000001757	LP5100023-DNA_A02	Colorectal carcinoma	Solid tumour sample	somatic	TCF7L2	NM_001367943.1	missense_variant	c.4397G>A	p.(Ile1466Tyr)	10	113049012	G	A	0.129	2	other
+p10000001759	LP5100023-DNA_A06	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.982A>T	p.(Trp328Val)	17	7675037	A	T	0.428	1	(likely)pathogenic
+p10000001760	LP5100023-DNA_A08	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.103C>G	p.(Gln35Ter)	3	52672312	C	G	0.241	2	LoF
+p10000001760	LP5100023-DNA_A08	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	missense_variant	c.3263T>C	p.(Asn1088Val)	3	47026268	T	C	0.257	2	other
+p10000001761	LP5100023-DNA_A10	Head and neck cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3737T>A	p.(Leu1246Ile)	17	7670689	T	A	0.292	1	(likely)pathogenic
+p10000001763	LP5100023-DNA_B02	Adult glioma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2857G>A	p.(Met953Tyr)	17	7686832	G	A	0.348	1	(likely)pathogenic
+p10000001763	LP5100023-DNA_B02	Adult glioma	Solid tumour sample	somatic	EGFR	NM_005228.5	missense_variant	c.2337A>T	p.(Glu780Tyr)	7	55185174	A	T	0.426	1	(likely)pathogenic
+p10000001764	LP5100023-DNA_B04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3686C>T	p.(His1229Met)	17	7673413	C	T	0.259	1	(likely)pathogenic
+p10000001765	LP5100023-DNA_B06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4069T>G	p.(Asp1357Gly)	17	7678005	T	G	0.213	1	(likely)pathogenic
+p10000001766	LP5100023-DNA_B08	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	splice_donor_variant	c.1601+1T>A	p.?	10	87925372	T	A	0.365	2	LoF
+p10000001767	LP5100023-DNA_B10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.4775dup	p.(Phe1592ThrfsTer19)	5	112816480	T	TC	0.585	1	path_LoF
+p10000001767	LP5100023-DNA_B10	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3551C>T	p.(Gln1184Val)	17	7672050	C	T	0.358	1	(likely)pathogenic
+p10000001767	LP5100023-DNA_B10	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	stop_gained	c.222T>C	p.(Arg75Ter)	18	51080718	T	C	0.267	2	LoF
+p10000001767	LP5100023-DNA_B10	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	missense_variant	c.154T>A	p.(Phe52Gly)	4	152487564	T	A	0.337	2	other
+p10000001768	LP5100023-DNA_B12	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2585A>C	p.(Ser862Trp)	17	7671564	A	C	0.332	1	(likely)pathogenic
+p10000001770	LP5100023-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.3898del	p.(Lys1300TyrfsTer48)	5	112840393	AG	A	0.248	1	path_LoF
+p10000001770	LP5100023-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3855C>G	p.(Asp1286Asn)	17	7675940	C	G	0.295	1	(likely)pathogenic
+p10000001770	LP5100023-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	splice_region_variant	c.3588+3T>A	p.?	4	152478505	T	A	0.246	2	other
+p10000001770	LP5100023-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	TCF7L2	NM_001367943.1	missense_variant	c.2957A>G	p.(Ile986Gln)	10	113097379	A	G	0.168	2	other
+p10000001771	LP5100023-DNA_C06	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.235	1	(likely)pathogenic
+p10000001772	LP5100023-DNA_C08	Haematological malignancy	Liquid tumour sample	somatic	IDH2	NM_002168.4	missense_variant	c.3304A>G	p.(Arg140Gln)	15	90084790	A	G	0.142	1	(likely)pathogenic
+p10000001773	LP5100023-DNA_C10	Soft tissue sarcoma	Solid tumour sample	somatic	ATRX	NM_000489.6	missense_variant	c.3270A>G	p.(His1091Asn)	X	77546810	A	G	0.403	2	other
+p10000001775	LP5100023-DNA_D02	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.265	1	(likely)pathogenic
+p10000001775	LP5100023-DNA_D02	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	frameshift_variant	c.256del	p.(Phe86ThrfsTer19)	16	68792774	AG	A	0.363	2	LoF
+p10000001776	LP5100023-DNA_D04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.3830G>A	p.(Ala1277Glu)	3	10153664	G	A	0.287	1	(likely)pathogenic
+p10000001777	LP5100023-DNA_D06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.3136_3142del	p.(Ser1046TrpfsTer53)	3	10146023	ACGTGCTA	A	0.253	1	path_LoF
+p10000001777	LP5100023-DNA_D06	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	frameshift_variant	c.928dup	p.(Glu310ThrfsTer6)	3	47062626	C	CT	0.396	2	LoF
+p10000001778	LP5100023-DNA_D08	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.349	1	(likely)pathogenic
+p10000001778	LP5100023-DNA_D08	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4594G>A	p.(Ile1532Tyr)	17	7685361	G	A	0.212	1	(likely)pathogenic
+p10000001779	LP5100023-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.4292_4293del	p.(Arg1431SerfsTer39)	5	112795433	CTA	C	0.415	1	path_LoF
+p10000001779	LP5100023-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2752G>C	p.(Asn918Ala)	17	7679295	G	C	0.356	1	(likely)pathogenic
+p10000001779	LP5100023-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.661	1	(likely)pathogenic
+p10000001779	LP5100023-DNA_D10	Colorectal carcinoma	Solid tumour sample	somatic	SMAD4	NM_005359.6	stop_gained	c.3942A>T	p.(Gln1315Ter)	18	51046011	A	T	0.389	2	LoF
+p10000001780	LP5100023-DNA_D12	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	start_lost	c.1T>A	p.(Met1?)	10	87935282	T	A	0.303	2	LoF
+p10000001781	LP5100023-DNA_E02	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	missense_variant	c.1025C>A	p.(Ala342Gly)	10	87873778	C	A	0.175	2	other
+p10000001782	LP5100023-DNA_E04	Hepatopancreatobiliary cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.093	1	(likely)pathogenic
+p10000001782	LP5100023-DNA_E04	Hepatopancreatobiliary cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3955C>A	p.(Ser1319Tyr)	17	7680067	C	A	0.139	1	(likely)pathogenic
+p10000001783	LP5100023-DNA_E06	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.4464dup	p.(Glu1489LysfsTer59)	10	87966812	A	AT	0.466	2	LoF
+p10000001783	LP5100023-DNA_E06	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.378	1	(likely)pathogenic
+p10000001786	LP5100023-DNA_E12	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.326	1	(likely)pathogenic
+p10000001787	LP5100023-DNA_F02	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.3380G>C	p.(Asn1127Gly)	12	25205297	G	C	0.218	1	(likely)pathogenic
+p10000001788	LP5100023-DNA_F04	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4403C>T	p.(Lys1468Ser)	17	7683762	C	T	0.249	1	(likely)pathogenic
+p10000001789	LP5100023-DNA_F06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.2102del	p.(Cys701AspfsTer29)	3	10150785	GC	G	0.356	1	path_LoF
+p10000001791	LP5100023-DNA_F10	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.2915_2917del	p.(Cys972del)	17	7676748	CTGG	C	0.26	1	(likely)pathogenic
+p10000001792	LP5100023-DNA_F12	Soft tissue sarcoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.825T>A	p.(Asn276Gly)	17	7683936	T	A	0.169	1	(likely)pathogenic
+p10000001793	LP5100023-DNA_G02	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	stop_gained	c.1459A>T	p.(Met487Ter)	16	68763334	A	T	0.474	2	LoF
+p10000001794	LP5100023-DNA_G04	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.512	1	(likely)pathogenic
+p10000001795	LP5100023-DNA_G06	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	frameshift_variant	c.3166_3167del	p.(Phe1056ArgfsTer43)	5	112831249	ACC	A	0.503	1	path_LoF
+p10000001795	LP5100023-DNA_G06	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.437	1	(likely)pathogenic
+p10000001796	LP5100023-DNA_G08	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.3711_3713del	p.(Asn1238del)	17	7681338	TTAG	T	0.267	1	(likely)pathogenic
+p10000001797	LP5100023-DNA_G10	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4697C>T	p.(Ile1566Gln)	17	7676826	C	T	0.187	1	(likely)pathogenic
+p10000001798	LP5100023-DNA_G12	Ovarian carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4723C>G	p.(Gly1575Cys)	17	7677422	C	G	0.264	1	(likely)pathogenic
+p10000001799	LP5100023-DNA_H02	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	splice_acceptor_variant	c.3147-1A>G	p.?	3	10150557	A	G	0.267	1	path_LoF
+p10000001799	LP5100023-DNA_H02	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.3050T>G	p.(Asp1017Ter)	3	52622164	T	G	0.444	2	LoF
+p10000001800	LP5100023-DNA_H04	Melanoma	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.3482C>T	p.(Thr1161Cys)	7	140777216	C	T	0.117	1	(likely)pathogenic
+p10000001802	LP5100023-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	missense_variant	c.3106G>A	p.(Val1036Glu)	5	112824768	G	A	0.253	1	(likely)pathogenic
+p10000001802	LP5100023-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.140G>T	p.(Ile47Arg)	17	7683834	G	T	0.183	1	(likely)pathogenic
+p10000001802	LP5100023-DNA_H08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.211	1	(likely)pathogenic
+p10000001804	LP5100023-DNA_H12	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1724G>A	p.(Glu575Ala)	17	7686500	G	A	0.374	1	(likely)pathogenic
+p10000001804	LP5100023-DNA_H12	Lung cancer	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.261	1	(likely)pathogenic
+p10000001804	LP5100023-DNA_H12	Lung cancer	Solid tumour sample	somatic	NF1	NM_001042492.3	stop_gained	c.292G>C	p.(Phe98Ter)	17	31322341	G	C	0.257	2	LoF
+p10000001804	LP5100023-DNA_H12	Lung cancer	Solid tumour sample	somatic	BRAF	NM_004333.6	missense_variant	c.1801C>A	p.(Val600Glu)	7	140867330	C	A	0.377	1	(likely)pathogenic
+p10000001806	LP5100024-DNA_A04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	splice_acceptor_variant	c.3837-1A>C	p.?	5	112792302	A	C	0.22	1	path_LoF
+p10000001806	LP5100024-DNA_A04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.275A>C	p.(Phe92Met)	17	7675380	A	C	0.422	1	(likely)pathogenic
+p10000001807	LP5100024-DNA_A06	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	missense_variant	c.2835T>C	p.(Arg946Tyr)	3	52632671	T	C	0.237	2	other
+p10000001807	LP5100024-DNA_A06	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	stop_gained	c.3376G>C	p.(Ala1126Ter)	3	47049757	G	C	0.273	2	LoF
+p10000001808	LP5100024-DNA_A08	Upper gastrointestinal cancer	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.3271_3273del	p.(Ile1091del)	17	7682196	AGGT	A	0.311	1	(likely)pathogenic
+p10000001810	LP5100024-DNA_A12	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.3874G>A	p.(Thr1292Ter)	3	52600844	G	A	0.288	2	LoF
+p10000001810	LP5100024-DNA_A12	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	missense_variant	c.2725T>C	p.(Lys909Arg)	3	47068497	T	C	0.189	2	other
+p10000001812	LP5100024-DNA_B04	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1606A>T	p.(His536Gly)	17	7675238	A	T	0.317	1	(likely)pathogenic
+p10000001813	LP5100024-DNA_B06	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.3192_3198del	p.(Gln1065GlnfsTer5)	3	10145576	GGCGCTCT	G	0.565	1	path_LoF
+p10000001814	LP5100024-DNA_B08	Hepatopancreatobiliary cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.858G>C	p.(Tyr287Met)	17	7676370	G	C	0.288	1	(likely)pathogenic
+p10000001815	LP5100024-DNA_B10	Haematological malignancy	Liquid tumour sample	somatic	NRAS	NM_002524.5	missense_variant	c.4012G>C	p.(Gln61Arg)	1	114714892	G	C	0.236	1	(likely)pathogenic
+p10000001816	LP5100024-DNA_B12	Haematological malignancy	Liquid tumour sample	somatic	NPM1	NM_002520.7	missense_variant	c.2267A>T	p.(Ser756Asp)	5	171394904	A	T	0.543	1	(likely)pathogenic
+p10000001816	LP5100024-DNA_B12	Haematological malignancy	Liquid tumour sample	somatic	FLT3	NM_004119.3	missense_variant	c.4671T>A	p.(Ile1558Asn)	13	28082188	T	A	0.421	1	(likely)pathogenic
+p10000001816	LP5100024-DNA_B12	Haematological malignancy	Liquid tumour sample	somatic	DNMT3A	NM_022552.5	missense_variant	c.1417A>G	p.(Val473Met)	2	25261390	A	G	0.376	2	other
+p10000001817	LP5100024-DNA_C02	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.211	1	(likely)pathogenic
+p10000001818	LP5100024-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.611T>A	p.(Asn204Ter)	5	112811825	T	A	0.378	1	path_LoF
+p10000001818	LP5100024-DNA_C04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4750C>G	p.(Ser1584Thr)	17	7681907	C	G	0.226	1	(likely)pathogenic
+p10000001819	LP5100024-DNA_C06	Soft tissue sarcoma	Solid tumour sample	somatic	KIT	NM_000222.3	missense_variant	c.4771A>C	p.(Val560Asp)	4	54739798	A	C	0.395	1	(likely)pathogenic
+p10000001821	LP5100024-DNA_C10	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.1068G>T	p.(Phe357Ter)	5	112744628	G	T	0.401	1	path_LoF
+p10000001821	LP5100024-DNA_C10	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2508C>A	p.(Asp837Pro)	17	7680052	C	A	0.145	1	(likely)pathogenic
+p10000001821	LP5100024-DNA_C10	Colorectal carcinoma	Solid tumour sample	somatic	FBXW7	NM_001349798.2	missense_variant	c.1581T>C	p.(Thr528Tyr)	4	152433144	T	C	0.302	2	other
+p10000001822	LP5100024-DNA_C12	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.1874C>G	p.(Thr625Ter)	3	10141808	C	G	0.329	1	path_LoF
+p10000001822	LP5100024-DNA_C12	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	missense_variant	c.4727T>C	p.(Gln1576His)	3	47082370	T	C	0.364	2	other
+p10000001824	LP5100024-DNA_D04	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.256A>G	p.(Ile86Ter)	5	112741705	A	G	0.432	1	path_LoF
+p10000001824	LP5100024-DNA_D04	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	inframe_deletion	c.1428_1430del	p.(Trp477del)	17	7669793	TAGC	T	0.287	1	(likely)pathogenic
+p10000001825	LP5100024-DNA_D06	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3325C>T	p.(Trp1109His)	17	7675634	C	T	0.353	1	(likely)pathogenic
+p10000001825	LP5100024-DNA_D06	Breast cancer	Solid tumour sample	somatic	MAP3K1	NM_005921.2	missense_variant	c.338A>T	p.(Asn113Cys)	5	56881550	A	T	0.154	2	other
+p10000001825	LP5100024-DNA_D06	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	splice_acceptor_variant	c.2238-2C>G	p.?	7	152407674	C	G	0.333	2	LoF
+p10000001827	LP5100024-DNA_D10	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2687C>T	p.(Gln896Pro)	17	7682438	C	T	0.528	1	(likely)pathogenic
+p10000001828	LP5100024-DNA_D12	Breast cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.624G>A	p.(Gly209His)	3	179236983	G	A	0.439	1	(likely)pathogenic
+p10000001828	LP5100024-DNA_D12	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.4589C>G	p.(Thr1530Asn)	17	7681968	C	G	0.35	1	(likely)pathogenic
+p10000001828	LP5100024-DNA_D12	Breast cancer	Solid tumour sample	somatic	CDH1	NM_004360.5	splice_donor_variant	c.2326+2C>G	p.?	16	68739397	C	G	0.342	2	LoF
+p10000001828	LP5100024-DNA_D12	Breast cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	frameshift_variant	c.4027_4033dup	p.(Lys1343ValfsTer59)	10	87962184	G	GATACGAA	0.383	2	LoF
+p10000001828	LP5100024-DNA_D12	Breast cancer	Solid tumour sample	germline	ATM	NM_000051.4	start_lost	c.1T>A		11	108355936	T	A	0.5	1	path_LoF
+p10000001829	LP5100024-DNA_E02	Lung cancer	Solid tumour sample	somatic	EGFR	NM_005228.5	missense_variant	c.567G>C	p.(Leu858Arg)	7	55028792	G	C	0.409	1	(likely)pathogenic
+p10000001830	LP5100024-DNA_E04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	frameshift_variant	c.157_160dup	p.(Asp53GlnfsTer36)	3	10153499	G	GCTTG	0.32	1	path_LoF
+p10000001830	LP5100024-DNA_E04	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	start_lost	c.1C>G	p.(Met1?)	3	47035430	C	G	0.503	2	LoF
+p10000001830	LP5100024-DNA_E04	Renal cancer	Solid tumour sample	somatic	BAP1	NM_004656.4	stop_gained	c.2708C>T	p.(Ala903Ter)	3	52402434	C	T	0.373	2	LoF
+p10000001832	LP5100024-DNA_E08	Breast cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.3869T>A	p.(Gln1290His)	17	7687011	T	A	0.496	1	(likely)pathogenic
+p10000001833	LP5100024-DNA_E10	Bladder cancer	Solid tumour sample	somatic	ARID1A	NM_006015.6	missense_variant	c.503A>C	p.(Met168Leu)	1	26779280	A	C	0.157	2	other
+p10000001834	LP5100024-DNA_E12	Adult glioma	Solid tumour sample	somatic	PTEN	NM_000314.8	missense_variant	c.678A>T	p.(Asp227Leu)	10	87914228	A	T	0.389	2	other
+p10000001836	LP5100024-DNA_F04	Lung cancer	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.909T>G	p.(His304Lys)	17	7679424	T	G	0.468	1	(likely)pathogenic
+p10000001836	LP5100024-DNA_F04	Lung cancer	Solid tumour sample	somatic	CDKN2A	NM_000077.5	missense_variant	c.3373G>T	p.(Gln1125Met)	9	21973660	G	T	0.624	1	(likely)pathogenic
+p10000001836	LP5100024-DNA_F04	Lung cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.359	1	(likely)pathogenic
+p10000001837	LP5100024-DNA_F06	Haematological malignancy	Liquid tumour sample	somatic	NPM1	NM_002520.7	missense_variant	c.3914C>A	p.(Trp288CysfsTer12)	5	171400862	C	A	0.42	1	(likely)pathogenic
+p10000001838	LP5100024-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	start_lost	c.3T>G	p.(Met1?)	5	112757204	T	G	0.659	1	path_LoF
+p10000001838	LP5100024-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.1232C>T	p.(Phe411Thr)	17	7676443	C	T	0.479	1	(likely)pathogenic
+p10000001838	LP5100024-DNA_F08	Colorectal carcinoma	Solid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.332	1	(likely)pathogenic
+p10000001840	LP5100024-DNA_F12	Prostate cancer	Solid tumour sample	somatic	SPOP	NM_001007228.2	inframe_insertion	c.4727_4728insCTT	p.(Arg1576_Lys1577insArg)	17	49628114	G	GCTT	0.369	2	other
+p10000001842	LP5100024-DNA_G04	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	stop_gained	c.4225A>C	p.(Asn1409Ter)	3	52639973	A	C	0.464	2	LoF
+p10000001843	LP5100024-DNA_G06	Haematological malignancy	Liquid tumour sample	somatic	KRAS	NM_004985.5	missense_variant	c.1017A>T	p.(Gly12Asp)	12	25234985	A	T	0.361	1	(likely)pathogenic
+p10000001844	LP5100024-DNA_G08	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	missense_variant	c.4526A>T	p.(Asn1509Asp)	3	10147117	A	T	0.443	1	(likely)pathogenic
+p10000001844	LP5100024-DNA_G08	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	missense_variant	c.2260C>G	p.(His754Tyr)	3	47046991	C	G	0.154	2	other
+p10000001844	LP5100024-DNA_G08	Renal cancer	Solid tumour sample	somatic	KDM5C	NM_004187.5	splice_acceptor_variant	c.4553-2A>C	p.?	X	53194963	A	C	0.172	2	LoF
+p10000001845	LP5100024-DNA_G10	Breast cancer	Solid tumour sample	somatic	KMT2C	NM_170606.3	stop_gained	c.1128A>T	p.(Ile377Ter)	7	152425465	A	T	0.306	2	LoF
+p10000001847	LP5100024-DNA_H02	Colorectal carcinoma	Solid tumour sample	somatic	APC	NM_000038.6	stop_gained	c.2081A>T	p.(Glu694Ter)	5	112784719	A	T	0.345	1	path_LoF
+p10000001847	LP5100024-DNA_H02	Colorectal carcinoma	Solid tumour sample	somatic	TP53	NM_000546.6	missense_variant	c.2841T>G	p.(Cys948Glu)	17	7680881	T	G	0.252	1	(likely)pathogenic
+p10000001848	LP5100024-DNA_H04	Renal cancer	Solid tumour sample	somatic	VHL	NM_000551.4	stop_gained	c.3898A>C	p.(Cys1300Ter)	3	10151173	A	C	0.167	1	path_LoF
+p10000001848	LP5100024-DNA_H04	Renal cancer	Solid tumour sample	somatic	PBRM1	NM_001405607.1	frameshift_variant	c.1817_1820dup	p.(Gln606LeufsTer48)	3	52572801	T	TTTGG	0.101	2	LoF
+p10000001848	LP5100024-DNA_H04	Renal cancer	Solid tumour sample	somatic	SETD2	NM_014159.7	frameshift_variant	c.935del	p.(Ser312ValfsTer44)	3	47044991	GA	G	0.124	2	LoF
+p10000001850	LP5100024-DNA_H08	Endometrial cancer	Solid tumour sample	somatic	PTEN	NM_000314.8	missense_variant	c.1098C>A	p.(Val367Gly)	10	87892212	C	A	0.244	2	other
+p10000001850	LP5100024-DNA_H08	Endometrial cancer	Solid tumour sample	somatic	PIK3CA	NM_006218.4	missense_variant	c.4030G>C	p.(His1047Arg)	3	179222058	G	C	0.288	1	(likely)pathogenic

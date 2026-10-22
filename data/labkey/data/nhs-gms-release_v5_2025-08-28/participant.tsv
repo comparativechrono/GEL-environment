@@ -1,13 +1,1851 @@
-participant_id	referral_id	category	administrative_gender	phenotypic_sex	karyotypic_sex	ethnicity	ethnicity_description	participant_year_of_birth	life_status	participant_is_foetal_participant
-p99000000001	r99000000001	rare disease	female	female	XX	A	White - British	1999	alive	false
-p99000000002	r99000000001	rare disease	female	female	XX	A	White - British	1987	alive	false
-p99000000003	r99000000001	rare disease	male	male	XY	A	White - British	1975	alive	false
-p99000000004	r99000000002	rare disease	male	male	XY	A	White - British	1993	alive	false
-p99000000005	r99000000002	rare disease	female	female	XX	A	White - British	1966	alive	false
-p99000000006	r99000000002	rare disease	male	male	XY	A	White - British	1989	alive	false
-p99000000007	r99000000003	rare disease	male	male	XY	A	White - British	1996	alive	false
-p99000000008	r99000000003	rare disease	female	female	XX	A	White - British	2011	alive	false
-p99000000009	r99000000003	rare disease	male	male	XY	A	White - British	2001	alive	false
-p99000000010	r99000000004	rare disease	male	male	XY	A	White - British	2016	alive	false
-p99000000011	r99000000004	rare disease	female	female	XX	A	White - British	1966	alive	false
-p99000000012	r99000000004	rare disease	male	male	XY	A	White - British	2006	alive	false
+referral_id	category	administrative_gender	ethnicity	ethnicity_description	karyotypic_sex	life_status	participant_id	participant_is_foetal_participant	participant_year_of_birth	participant_year_of_death	phenotypic_sex	programme_consent_status
+r20000000001	rare disease	male	A	White - British	XY	alive	p10000000003	false	2004		male	Consenting
+r20000000001	rare disease	female	A	White - British	XX	alive	p10000000001	false	1966		female	Consenting
+r20000000001	rare disease	male	A	White - British	XY	alive	p10000000002	false	1963		male	Consenting
+r20000000002	rare disease	female	C	White - Any other White background	XX	alive	p10000000004	false	2015		female	Consenting
+r20000000003	rare disease	female	A	White - British	XX	alive	p10000000007	false	2019		female	Consenting
+r20000000003	rare disease	female	A	White - British	XX	alive	p10000000005	false	1997		female	Consenting
+r20000000003	rare disease	male	A	White - British	XY	alive	p10000000006	false	1990		male	Consenting
+r20000000004	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000008	false	1984		male	Consenting
+r20000000005	rare disease	female	A	White - British	XX	alive	p10000000009	false	2014		female	Consenting
+r20000000006	rare disease	male	A	White - British	XY	alive	p10000000010	false	2017		male	Consenting
+r20000000007	rare disease	female	A	White - British	XX	alive	p10000000011	false	1988		female	Consenting
+r20000000008	rare disease	male	A	White - British	XY	alive	p10000000012	false	1979		male	Consenting
+r20000000009	rare disease	male	A	White - British	XY	alive	p10000000015	false	2017		male	Consenting
+r20000000009	rare disease	female	A	White - British	XX	alive	p10000000013	false	1993		female	Consenting
+r20000000009	rare disease	male	A	White - British	XY	alive	p10000000014	false	1992		male	Consenting
+r20000000010	rare disease	female	A	White - British	XX	alive	p10000000016	false	1967		female	Consenting
+r20000000011	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000019	false	2021		male	Consenting
+r20000000011	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000017	false	1999		female	Consenting
+r20000000011	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000018	false	1997		male	Consenting
+r20000000012	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000020	false	1995		female	Consenting
+r20000000013	rare disease	female	A	White - British	XX	alive	p10000000023	false	2014		female	Consenting
+r20000000013	rare disease	female	A	White - British	XX	alive	p10000000021	false	1993		female	Consenting
+r20000000013	rare disease	male	A	White - British	XY	alive	p10000000022	false	1987		male	Consenting
+r20000000014	rare disease	male	A	White - British	XY	alive	p10000000024	false	2019		male	Consenting
+r20000000015	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000027	false	2018		female	Consenting
+r20000000015	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000025	false	1979		female	Consenting
+r20000000015	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000026	false	1973		male	Consenting
+r20000000016	rare disease	female	A	White - British	XX	alive	p10000000028	false	1986		female	Consenting
+r20000000017	rare disease	male	A	White - British	XY	alive	p10000000029	false	2017		male	Consenting
+r20000000018	rare disease	male	C	White - Any other White background	XY	alive	p10000000030	false	2005		male	Consenting
+r20000000019	rare disease	male	A	White - British	XY	alive	p10000000031	false	1973		male	Consenting
+r20000000020	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000000034	false	2011		female	Consenting
+r20000000020	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000000032	false	1977		female	Consenting
+r20000000020	rare disease	male	E	Mixed - White and Black African	XY	alive	p10000000033	false	1977		male	Consenting
+r20000000021	rare disease	female	A	White - British	XX	alive	p10000000035	false	1992		female	Consenting
+r20000000022	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000036	false	2018		male	Consenting
+r20000000023	rare disease	male	A	White - British	XY	alive	p10000000039	false	2019		male	Consenting
+r20000000023	rare disease	female	A	White - British	XX	alive	p10000000037	false	1989		female	Consenting
+r20000000023	rare disease	male	A	White - British	XY	alive	p10000000038	false	1982		male	Consenting
+r20000000024	rare disease	female	A	White - British	XX	alive	p10000000042	false	2016		female	Consenting
+r20000000024	rare disease	female	A	White - British	XX	alive	p10000000040	false	1982		female	Consenting
+r20000000024	rare disease	male	A	White - British	XY	alive	p10000000041	false	1984		male	Consenting
+r20000000025	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000045	false	2016		female	Consenting
+r20000000025	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000043	false	1992		female	Consenting
+r20000000025	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000044	false	1988		male	Consenting
+r20000000026	rare disease	male	A	White - British	XY	alive	p10000000048	false	2021		male	Consenting
+r20000000026	rare disease	female	A	White - British	XX	alive	p10000000046	false	1989		female	Consenting
+r20000000026	rare disease	male	A	White - British	XY	alive	p10000000047	false	1989		male	Consenting
+r20000000027	rare disease	male	A	White - British	XY	alive	p10000000051	false	2019		male	Consenting
+r20000000027	rare disease	female	A	White - British	XX	alive	p10000000049	false	1989		female	Consenting
+r20000000027	rare disease	male	A	White - British	XY	alive	p10000000050	false	1988		male	Consenting
+r20000000028	rare disease	male	A	White - British	XY	alive	p10000000054	false	2017		male	Consenting
+r20000000028	rare disease	female	A	White - British	XX	alive	p10000000052	false	1990		female	Consenting
+r20000000028	rare disease	male	A	White - British	XY	alive	p10000000053	false	1992		male	Consenting
+r20000000029	rare disease	female	A	White - British	XX	alive	p10000000055	false	1990		female	Consenting
+r20000000030	rare disease	male	A	White - British	XY	alive	p10000000056	false	1943		male	Consenting
+r20000000031	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000057	false	1971		female	Consenting
+r20000000032	rare disease	male	A	White - British	XY	alive	p10000000058	false	2012		male	Consenting
+r20000000033	rare disease	female	A	White - British	XX	alive	p10000000059	false	2004		female	Consenting
+r20000000034	rare disease	male	A	White - British	XY	alive	p10000000060	false	1958		male	Consenting
+r20000000035	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000061	false	1993		female	Consenting
+r20000000036	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000062	false	2019		female	Consenting
+r20000000037	rare disease	female	A	White - British	XX	alive	p10000000065	false	2013		female	Consenting
+r20000000037	rare disease	female	A	White - British	XX	alive	p10000000063	false	1983		female	Consenting
+r20000000037	rare disease	male	A	White - British	XY	alive	p10000000064	false	1978		male	Consenting
+r20000000038	rare disease	female	A	White - British	XX	alive	p10000000066	false	1985		female	Consenting
+r20000000039	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000000069	false	2020		male	Consenting
+r20000000039	rare disease	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000000067	false	1992		female	Consenting
+r20000000039	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000000068	false	1989		male	Consenting
+r20000000040	rare disease	female	A	White - British	XX	alive	p10000000070	false	1989		female	Consenting
+r20000000041	rare disease	female	A	White - British	XX	alive	p10000000073	false	2023		female	Consenting
+r20000000041	rare disease	female	A	White - British	XX	alive	p10000000071	false	1989		female	Consenting
+r20000000041	rare disease	male	A	White - British	XY	alive	p10000000072	false	1989		male	Consenting
+r20000000042	rare disease	male	A	White - British	XY	alive	p10000000074	false	2014		male	Consenting
+r20000000043	rare disease	male	A	White - British	XY	alive	p10000000075	false	1954		male	Consenting
+r20000000044	rare disease	female	B	White - Irish	XX	alive	p10000000076	false	2017		female	Consenting
+r20000000045	rare disease	female	A	White - British	XX	alive	p10000000079	false	2019		female	Consenting
+r20000000045	rare disease	female	A	White - British	XX	alive	p10000000077	false	1993		female	Consenting
+r20000000045	rare disease	male	A	White - British	XY	alive	p10000000078	false	1989		male	Consenting
+r20000000046	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000080	false	1975		female	Consenting
+r20000000047	rare disease	male	C	White - Any other White background	XY	alive	p10000000083	false	2003		male	Consenting
+r20000000047	rare disease	female	C	White - Any other White background	XX	alive	p10000000081	false	1973		female	Consenting
+r20000000047	rare disease	male	C	White - Any other White background	XY	alive	p10000000082	false	1970		male	Consenting
+r20000000048	rare disease	female	A	White - British	XX	alive	p10000000084	false	2015		female	Consenting
+r20000000049	rare disease	male	A	White - British	XY	alive	p10000000087	false	2018		male	Consenting
+r20000000049	rare disease	female	A	White - British	XX	alive	p10000000085	false	1995		female	Consenting
+r20000000049	rare disease	male	A	White - British	XY	alive	p10000000086	false	1988		male	Consenting
+r20000000050	rare disease	female	A	White - British	XX	alive	p10000000090	false	2010		female	Consenting
+r20000000050	rare disease	female	A	White - British	XX	alive	p10000000088	false	1985		female	Consenting
+r20000000050	rare disease	male	A	White - British	XY	alive	p10000000089	false	1982		male	Consenting
+r20000000051	rare disease	male	C	White - Any other White background	XY	alive	p10000000093	false	2014		male	Consenting
+r20000000051	rare disease	female	C	White - Any other White background	XX	alive	p10000000091	false	1989		female	Consenting
+r20000000051	rare disease	male	C	White - Any other White background	XY	alive	p10000000092	false	1991		male	Consenting
+r20000000052	rare disease	male	A	White - British	XY	alive	p10000000094	false	1973		male	Consenting
+r20000000053	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000097	false	2016		female	Consenting
+r20000000053	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000095	false	1978		female	Consenting
+r20000000053	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000096	false	1978		male	Consenting
+r20000000054	rare disease	male	A	White - British	XY	alive	p10000000098	false	1954		male	Consenting
+r20000000055	rare disease	male	A	White - British	XY	alive	p10000000099	false	2019		male	Consenting
+r20000000056	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000100	false	2014		female	Consenting
+r20000000057	rare disease	male	A	White - British	XY	alive	p10000000101	false	1980		male	Consenting
+r20000000058	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000102	false	2020		male	Consenting
+r20000000059	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000105	false	2014		female	Consenting
+r20000000059	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000103	false	1993		female	Consenting
+r20000000059	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000104	false	1991		male	Consenting
+r20000000060	rare disease	male	A	White - British	XY	alive	p10000000106	false	2020		male	Consenting
+r20000000061	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000107	false	1993		female	Consenting
+r20000000062	rare disease	male	A	White - British	XY	alive	p10000000110	false	2018		male	Consenting
+r20000000062	rare disease	female	A	White - British	XX	alive	p10000000108	false	1985		female	Consenting
+r20000000062	rare disease	male	A	White - British	XY	alive	p10000000109	false	1984		male	Consenting
+r20000000063	rare disease	male	A	White - British	XY	alive	p10000000111	false	1951		male	Consenting
+r20000000064	rare disease	female	N	Black or Black British - African	XX	alive	p10000000112	false	1998		female	Consenting
+r20000000065	rare disease	female	A	White - British	XX	alive	p10000000113	false	1974		female	Consenting
+r20000000066	rare disease	female	B	White - Irish	XX	alive	p10000000114	false	1985		female	Consenting
+r20000000067	rare disease	male	A	White - British	XY	alive	p10000000115	false	1986		male	Consenting
+r20000000068	rare disease	male	C	White - Any other White background	XY	alive	p10000000116	false	1967		male	Consenting
+r20000000069	rare disease	male	A	White - British	XY	alive	p10000000117	false	2010		male	Consenting
+r20000000070	rare disease	female	A	White - British	XX	alive	p10000000118	false	1982		female	Consenting
+r20000000071	rare disease	male	B	White - Irish	XY	alive	p10000000119	false	1973		male	Consenting
+r20000000072	rare disease	male	A	White - British	XY	alive	p10000000120	false	2013		male	Consenting
+r20000000073	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000121	false	1983		female	Consenting
+r20000000074	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000124	false	2023		female	Consenting
+r20000000074	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000122	false	1991		female	Consenting
+r20000000074	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000123	false	1984		male	Consenting
+r20000000075	rare disease	male	B	White - Irish	XY	alive	p10000000127	false	2014		male	Consenting
+r20000000075	rare disease	female	B	White - Irish	XX	alive	p10000000125	false	1989		female	Consenting
+r20000000075	rare disease	male	B	White - Irish	XY	alive	p10000000126	false	1982		male	Consenting
+r20000000076	rare disease	male	Z	Not Stated	XY	alive	p10000000128	false	2004		male	Consenting
+r20000000077	rare disease	female	A	White - British	XX	alive	p10000000129	false	1988		female	Consenting
+r20000000078	rare disease	male	A	White - British	XY	alive	p10000000132	false	2006		male	Consenting
+r20000000078	rare disease	female	A	White - British	XX	alive	p10000000130	false	1971		female	Consenting
+r20000000078	rare disease	male	A	White - British	XY	alive	p10000000131	false	1964		male	Consenting
+r20000000079	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000135	false	2018		male	Consenting
+r20000000079	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000133	false	1982		female	Consenting
+r20000000079	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000134	false	1980		male	Consenting
+r20000000080	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000136	false	2020		male	Consenting
+r20000000081	rare disease	male	A	White - British	XY	alive	p10000000139	false	2019		male	Consenting
+r20000000081	rare disease	female	A	White - British	XX	alive	p10000000137	false	1993		female	Consenting
+r20000000081	rare disease	male	A	White - British	XY	alive	p10000000138	false	1988		male	Consenting
+r20000000082	rare disease	male	A	White - British	XY	alive	p10000000140	false	2005		male	Consenting
+r20000000083	rare disease	male	A	White - British	XY	alive	p10000000141	false	1976		male	Consenting
+r20000000084	rare disease	male	A	White - British	XY	alive	p10000000142	false	2015		male	Consenting
+r20000000085	rare disease	male	A	White - British	XY	alive	p10000000143	false	1984		male	Consenting
+r20000000086	rare disease	female	A	White - British	XX	alive	p10000000146	false	2017		female	Consenting
+r20000000086	rare disease	female	A	White - British	XX	alive	p10000000144	false	1993		female	Consenting
+r20000000086	rare disease	male	A	White - British	XY	alive	p10000000145	false	1989		male	Consenting
+r20000000087	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000149	false	2019		female	Consenting
+r20000000087	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000147	false	1984		female	Consenting
+r20000000087	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000148	false	1983		male	Consenting
+r20000000088	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000152	false	2016		female	Consenting
+r20000000088	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000150	false	1995		female	Consenting
+r20000000088	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000151	false	1992		male	Consenting
+r20000000089	rare disease	female	A	White - British	XX	alive	p10000000153	false	1990		female	Consenting
+r20000000090	rare disease	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000000154	false	2019		male	Consenting
+r20000000091	rare disease	female	A	White - British	XX	alive	p10000000157	false	2015		female	Consenting
+r20000000091	rare disease	female	A	White - British	XX	alive	p10000000155	false	1989		female	Consenting
+r20000000091	rare disease	male	A	White - British	XY	alive	p10000000156	false	1989		male	Consenting
+r20000000092	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000158	false	1985		male	Consenting
+r20000000093	rare disease	female	A	White - British	XX	alive	p10000000161	false	2020		female	Consenting
+r20000000093	rare disease	female	A	White - British	XX	alive	p10000000159	false	1985		female	Consenting
+r20000000093	rare disease	male	A	White - British	XY	alive	p10000000160	false	1982		male	Consenting
+r20000000094	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000162	false	2005		male	Consenting
+r20000000095	rare disease	male	Z	Not Stated	XY	alive	p10000000163	false	1995		male	Consenting
+r20000000096	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000164	false	1964		female	Consenting
+r20000000097	rare disease	female	A	White - British	XX	alive	p10000000165	false	1986		female	Consenting
+r20000000098	rare disease	female	A	White - British	XX	alive	p10000000166	false	2018		female	Consenting
+r20000000099	rare disease	female	A	White - British	XX	alive	p10000000167	false	1963		female	Consenting
+r20000000100	rare disease	female	A	White - British	XX	alive	p10000000168	false	2017		female	Consenting
+r20000000101	rare disease	male	A	White - British	XY	alive	p10000000169	false	1982		male	Consenting
+r20000000102	rare disease	male	A	White - British	XY	alive	p10000000170	false	1976		male	Consenting
+r20000000103	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000173	false	2017		female	Consenting
+r20000000103	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000171	false	1992		female	Consenting
+r20000000103	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000172	false	1989		male	Consenting
+r20000000104	rare disease	male	A	White - British	XY	alive	p10000000174	false	2003		male	Consenting
+r20000000105	rare disease	female	N	Black or Black British - African	XX	alive	p10000000175	false	1978		female	Consenting
+r20000000106	rare disease	female	A	White - British	XX	alive	p10000000178	false	2017		female	Consenting
+r20000000106	rare disease	female	A	White - British	XX	alive	p10000000176	false	1996		female	Consenting
+r20000000106	rare disease	male	A	White - British	XY	alive	p10000000177	false	1997		male	Consenting
+r20000000107	rare disease	male	A	White - British	XY	alive	p10000000181	false	2019		male	Consenting
+r20000000107	rare disease	female	A	White - British	XX	alive	p10000000179	false	1996		female	Consenting
+r20000000107	rare disease	male	A	White - British	XY	alive	p10000000180	false	1991		male	Consenting
+r20000000108	rare disease	male	A	White - British	XY	alive	p10000000182	false	1974		male	Consenting
+r20000000109	rare disease	female	A	White - British	XX	alive	p10000000185	false	2020		female	Consenting
+r20000000109	rare disease	female	A	White - British	XX	alive	p10000000183	false	1992		female	Consenting
+r20000000109	rare disease	male	A	White - British	XY	alive	p10000000184	false	1990		male	Consenting
+r20000000110	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000186	false	1975		female	Consenting
+r20000000111	rare disease	male	A	White - British	XY	alive	p10000000187	false	1988		male	Consenting
+r20000000112	rare disease	female	A	White - British	XX	alive	p10000000188	false	1961		female	Consenting
+r20000000113	rare disease	male	A	White - British	XY	alive	p10000000189	false	2014		male	Consenting
+r20000000114	rare disease	female	Z	Not Stated	XX	alive	p10000000192	false	2012		female	Consenting
+r20000000114	rare disease	female	Z	Not Stated	XX	alive	p10000000190	false	1992		female	Consenting
+r20000000114	rare disease	male	Z	Not Stated	XY	alive	p10000000191	false	1989		male	Consenting
+r20000000115	rare disease	female	A	White - British	XX	alive	p10000000193	false	2019		female	Consenting
+r20000000116	rare disease	male	A	White - British	XY	alive	p10000000194	false	1959		male	Consenting
+r20000000117	rare disease	female	A	White - British	XX	alive	p10000000195	false	1979		female	Consenting
+r20000000118	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000198	false	2023		female	Consenting
+r20000000118	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000196	false	1992		female	Consenting
+r20000000118	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000197	false	1992		male	Consenting
+r20000000119	rare disease	male	A	White - British	XY	alive	p10000000201	false	2018		male	Consenting
+r20000000119	rare disease	female	A	White - British	XX	alive	p10000000199	false	1995		female	Consenting
+r20000000119	rare disease	male	A	White - British	XY	alive	p10000000200	false	1988		male	Consenting
+r20000000120	rare disease	male	N	Black or Black British - African	XY	alive	p10000000202	false	1987		male	Consenting
+r20000000121	rare disease	female	C	White - Any other White background	XX	alive	p10000000203	false	2023		female	Consenting
+r20000000122	rare disease	male	A	White - British	XY	alive	p10000000204	false	1970		male	Consenting
+r20000000123	rare disease	male	A	White - British	XY	alive	p10000000205	false	2017		male	Consenting
+r20000000124	rare disease	male	A	White - British	XY	alive	p10000000206	false	1994		male	Consenting
+r20000000125	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000207	false	1988		female	Consenting
+r20000000126	rare disease	male	A	White - British	XY	alive	p10000000208	false	1977		male	Consenting
+r20000000127	rare disease	female	A	White - British	XX	alive	p10000000209	false	1978		female	Consenting
+r20000000128	rare disease	male	C	White - Any other White background	XY	alive	p10000000212	false	2003		male	Consenting
+r20000000128	rare disease	female	C	White - Any other White background	XX	alive	p10000000210	false	1964		female	Consenting
+r20000000128	rare disease	male	C	White - Any other White background	XY	alive	p10000000211	false	1965		male	Consenting
+r20000000129	rare disease	male	A	White - British	XY	alive	p10000000213	false	1998		male	Consenting
+r20000000130	rare disease	male	N	Black or Black British - African	XY	alive	p10000000216	false	2014		male	Consenting
+r20000000130	rare disease	female	N	Black or Black British - African	XX	alive	p10000000214	false	1985		female	Consenting
+r20000000130	rare disease	male	N	Black or Black British - African	XY	alive	p10000000215	false	1979		male	Consenting
+r20000000131	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000217	false	1970		male	Consenting
+r20000000132	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000218	false	1970		female	Consenting
+r20000000133	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000219	false	1984		male	Consenting
+r20000000134	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000220	false	2018		male	Consenting
+r20000000135	rare disease	female	A	White - British	XX	alive	p10000000221	false	1996		female	Consenting
+r20000000136	rare disease	female	A	White - British	XX	alive	p10000000222	false	2020		female	Consenting
+r20000000137	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000225	false	2016		male	Consenting
+r20000000137	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000223	false	1985		female	Consenting
+r20000000137	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000224	false	1978		male	Consenting
+r20000000138	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000228	false	2020		male	Consenting
+r20000000138	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000226	false	1993		female	Consenting
+r20000000138	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000227	false	1987		male	Consenting
+r20000000139	rare disease	male	A	White - British	XY	alive	p10000000229	false	1974		male	Consenting
+r20000000140	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000230	false	1996		male	Consenting
+r20000000141	rare disease	female	A	White - British	XX	alive	p10000000231	false	2020		female	Consenting
+r20000000142	rare disease	female	A	White - British	XX	alive	p10000000232	false	1983		female	Consenting
+r20000000143	rare disease	female	A	White - British	XX	alive	p10000000235	false	2016		female	Consenting
+r20000000143	rare disease	female	A	White - British	XX	alive	p10000000233	false	1983		female	Consenting
+r20000000143	rare disease	male	A	White - British	XY	alive	p10000000234	false	1983		male	Consenting
+r20000000144	rare disease	female	C	White - Any other White background	XX	alive	p10000000236	false	1981		female	Consenting
+r20000000145	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000239	false	2020		male	Consenting
+r20000000145	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000237	false	1981		female	Consenting
+r20000000145	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000238	false	1975		male	Consenting
+r20000000146	rare disease	male	C	White - Any other White background	XY	alive	p10000000240	false	2008		male	Consenting
+r20000000147	rare disease	male	A	White - British	XY	alive	p10000000241	false	2016		male	Consenting
+r20000000148	rare disease	male	A	White - British	XY	alive	p10000000244	false	2014		male	Consenting
+r20000000148	rare disease	female	A	White - British	XX	alive	p10000000242	false	1983		female	Consenting
+r20000000148	rare disease	male	A	White - British	XY	alive	p10000000243	false	1980		male	Consenting
+r20000000149	rare disease	male	A	White - British	XY	alive	p10000000247	false	2017		male	Consenting
+r20000000149	rare disease	female	A	White - British	XX	alive	p10000000245	false	1983		female	Consenting
+r20000000149	rare disease	male	A	White - British	XY	alive	p10000000246	false	1985		male	Consenting
+r20000000150	rare disease	female	A	White - British	XX	alive	p10000000248	false	2019		female	Consenting
+r20000000151	rare disease	male	A	White - British	XY	alive	p10000000249	false	1975		male	Consenting
+r20000000152	rare disease	female	A	White - British	XX	alive	p10000000250	false	2008		female	Consenting
+r20000000153	rare disease	female	A	White - British	XX	alive	p10000000253	false	2022		female	Consenting
+r20000000153	rare disease	female	A	White - British	XX	alive	p10000000251	false	1987		female	Consenting
+r20000000153	rare disease	male	A	White - British	XY	alive	p10000000252	false	1989		male	Consenting
+r20000000154	rare disease	female	A	White - British	XX	alive	p10000000254	false	2013		female	Consenting
+r20000000155	rare disease	male	A	White - British	XY	alive	p10000000255	false	2018		male	Consenting
+r20000000156	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000258	false	2015		male	Consenting
+r20000000156	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000256	false	1986		female	Consenting
+r20000000156	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000257	false	1983		male	Consenting
+r20000000157	rare disease	male	A	White - British	XY	alive	p10000000261	false	2021		male	Consenting
+r20000000157	rare disease	female	A	White - British	XX	alive	p10000000259	false	1996		female	Consenting
+r20000000157	rare disease	male	A	White - British	XY	alive	p10000000260	false	1997		male	Consenting
+r20000000158	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000262	false	2020		female	Consenting
+r20000000159	rare disease	female	A	White - British	XX	alive	p10000000265	false	2019		female	Consenting
+r20000000159	rare disease	female	A	White - British	XX	alive	p10000000263	false	1986		female	Consenting
+r20000000159	rare disease	male	A	White - British	XY	alive	p10000000264	false	1988		male	Consenting
+r20000000160	rare disease	male	Z	Not Stated	XY	alive	p10000000268	false	2020		male	Consenting
+r20000000160	rare disease	female	Z	Not Stated	XX	alive	p10000000266	false	1994		female	Consenting
+r20000000160	rare disease	male	Z	Not Stated	XY	alive	p10000000267	false	1990		male	Consenting
+r20000000161	rare disease	male	Z	Not Stated	XY	alive	p10000000269	false	1957		male	Consenting
+r20000000162	rare disease	female	A	White - British	XX	alive	p10000000272	false	2008		female	Consenting
+r20000000162	rare disease	female	A	White - British	XX	alive	p10000000270	false	1977		female	Consenting
+r20000000162	rare disease	male	A	White - British	XY	alive	p10000000271	false	1971		male	Consenting
+r20000000163	rare disease	female	A	White - British	XX	alive	p10000000273	false	1984		female	Consenting
+r20000000164	rare disease	male	A	White - British	XY	alive	p10000000276	false	2017		male	Consenting
+r20000000164	rare disease	female	A	White - British	XX	alive	p10000000274	false	1988		female	Consenting
+r20000000164	rare disease	male	A	White - British	XY	alive	p10000000275	false	1984		male	Consenting
+r20000000165	rare disease	male	C	White - Any other White background	XY	alive	p10000000277	false	1987		male	Consenting
+r20000000166	rare disease	female	A	White - British	XX	alive	p10000000278	false	2014		female	Consenting
+r20000000167	rare disease	female	A	White - British	XX	alive	p10000000279	false	1961		female	Consenting
+r20000000168	rare disease	female	A	White - British	XX	alive	p10000000280	false	1977		female	Consenting
+r20000000169	rare disease	female	A	White - British	XX	alive	p10000000283	false	2018		female	Consenting
+r20000000169	rare disease	female	A	White - British	XX	alive	p10000000281	false	1994		female	Consenting
+r20000000169	rare disease	male	A	White - British	XY	alive	p10000000282	false	1989		male	Consenting
+r20000000170	rare disease	female	C	White - Any other White background	XX	alive	p10000000286	false	2019		female	Consenting
+r20000000170	rare disease	female	C	White - Any other White background	XX	alive	p10000000284	false	1985		female	Consenting
+r20000000170	rare disease	male	C	White - Any other White background	XY	alive	p10000000285	false	1982		male	Consenting
+r20000000171	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000287	false	2020		male	Consenting
+r20000000172	rare disease	male	A	White - British	XY	alive	p10000000288	false	1965		male	Consenting
+r20000000173	rare disease	female	A	White - British	XX	alive	p10000000289	false	1963		female	Consenting
+r20000000174	rare disease	male	A	White - British	XY	alive	p10000000290	false	1961		male	Consenting
+r20000000175	rare disease	male	A	White - British	XY	alive	p10000000291	false	2002		male	Consenting
+r20000000176	rare disease	male	A	White - British	XY	alive	p10000000292	false	2017		male	Consenting
+r20000000177	rare disease	male	A	White - British	XY	alive	p10000000295	false	2017		male	Consenting
+r20000000177	rare disease	female	A	White - British	XX	alive	p10000000293	false	1989		female	Consenting
+r20000000177	rare disease	male	A	White - British	XY	alive	p10000000294	false	1984		male	Consenting
+r20000000178	rare disease	female	A	White - British	XX	alive	p10000000296	false	1980		female	Consenting
+r20000000179	rare disease	male	A	White - British	XY	alive	p10000000297	false	1999		male	Consenting
+r20000000180	rare disease	female	A	White - British	XX	alive	p10000000298	false	1963		female	Consenting
+r20000000181	rare disease	male	A	White - British	XY	alive	p10000000299	false	1968		male	Consenting
+r20000000182	rare disease	male	A	White - British	XY	alive	p10000000300	false	1974		male	Consenting
+r20000000183	rare disease	male	A	White - British	XY	alive	p10000000303	false	2006		male	Consenting
+r20000000183	rare disease	female	A	White - British	XX	alive	p10000000301	false	1981		female	Consenting
+r20000000183	rare disease	male	A	White - British	XY	alive	p10000000302	false	1975		male	Consenting
+r20000000184	rare disease	male	Z	Not Stated	XY	alive	p10000000304	false	1986		male	Consenting
+r20000000185	rare disease	male	A	White - British	XY	alive	p10000000307	false	2022		male	Consenting
+r20000000185	rare disease	female	A	White - British	XX	alive	p10000000305	false	1987		female	Consenting
+r20000000185	rare disease	male	A	White - British	XY	alive	p10000000306	false	1985		male	Consenting
+r20000000186	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000308	false	2005		female	Consenting
+r20000000187	rare disease	female	A	White - British	XX	alive	p10000000309	false	2019		female	Consenting
+r20000000188	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000310	false	1969		male	Consenting
+r20000000189	rare disease	female	A	White - British	XX	alive	p10000000311	false	1986		female	Consenting
+r20000000190	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000312	false	2016		male	Consenting
+r20000000191	rare disease	female	A	White - British	XX	alive	p10000000315	false	2018		female	Consenting
+r20000000191	rare disease	female	A	White - British	XX	alive	p10000000313	false	1989		female	Consenting
+r20000000191	rare disease	male	A	White - British	XY	alive	p10000000314	false	1990		male	Consenting
+r20000000192	rare disease	female	A	White - British	XX	alive	p10000000316	false	2023		female	Consenting
+r20000000193	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000319	false	2019		female	Consenting
+r20000000193	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000317	false	1996		female	Consenting
+r20000000193	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000318	false	1991		male	Consenting
+r20000000194	rare disease	male	N	Black or Black British - African	XY	alive	p10000000320	false	1972		male	Consenting
+r20000000195	rare disease	male	C	White - Any other White background	XY	alive	p10000000321	false	1998		male	Consenting
+r20000000196	rare disease	male	Z	Not Stated	XY	alive	p10000000322	false	1973		male	Consenting
+r20000000197	rare disease	male	A	White - British	XY	alive	p10000000325	false	2021		male	Consenting
+r20000000197	rare disease	female	A	White - British	XX	alive	p10000000323	false	1983		female	Consenting
+r20000000197	rare disease	male	A	White - British	XY	alive	p10000000324	false	1977		male	Consenting
+r20000000198	rare disease	male	A	White - British	XY	alive	p10000000328	false	2021		male	Consenting
+r20000000198	rare disease	female	A	White - British	XX	alive	p10000000326	false	1991		female	Consenting
+r20000000198	rare disease	male	A	White - British	XY	alive	p10000000327	false	1986		male	Consenting
+r20000000199	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000329	false	1990		female	Consenting
+r20000000200	rare disease	male	C	White - Any other White background	XY	alive	p10000000332	false	2021		male	Consenting
+r20000000200	rare disease	female	C	White - Any other White background	XX	alive	p10000000330	false	1982		female	Consenting
+r20000000200	rare disease	male	C	White - Any other White background	XY	alive	p10000000331	false	1978		male	Consenting
+r20000000201	rare disease	male	A	White - British	XY	alive	p10000000333	false	1955		male	Consenting
+r20000000202	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000334	false	2015		female	Consenting
+r20000000203	rare disease	male	A	White - British	XY	alive	p10000000335	false	1955		male	Consenting
+r20000000204	rare disease	female	A	White - British	XX	alive	p10000000338	false	2022		female	Consenting
+r20000000204	rare disease	female	A	White - British	XX	alive	p10000000336	false	1992		female	Consenting
+r20000000204	rare disease	male	A	White - British	XY	alive	p10000000337	false	1994		male	Consenting
+r20000000205	rare disease	male	A	White - British	XY	alive	p10000000339	false	1975		male	Consenting
+r20000000206	rare disease	female	A	White - British	XX	alive	p10000000342	false	2018		female	Consenting
+r20000000206	rare disease	female	A	White - British	XX	alive	p10000000340	false	1986		female	Consenting
+r20000000206	rare disease	male	A	White - British	XY	alive	p10000000341	false	1979		male	Consenting
+r20000000207	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000345	false	2018		female	Consenting
+r20000000207	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000343	false	1993		female	Consenting
+r20000000207	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000344	false	1987		male	Consenting
+r20000000208	rare disease	male	B	White - Irish	XY	alive	p10000000346	false	1991		male	Consenting
+r20000000209	rare disease	male	A	White - British	XY	alive	p10000000347	false	2019		male	Consenting
+r20000000210	rare disease	female	A	White - British	XX	alive	p10000000348	false	2003		female	Consenting
+r20000000211	rare disease	female	A	White - British	XX	alive	p10000000349	false	2021		female	Consenting
+r20000000212	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000350	false	2018		female	Consenting
+r20000000213	rare disease	female	A	White - British	XX	alive	p10000000351	false	2020		female	Consenting
+r20000000214	rare disease	female	A	White - British	XX	alive	p10000000352	false	2008		female	Consenting
+r20000000215	rare disease	female	A	White - British	XX	alive	p10000000353	false	2009		female	Consenting
+r20000000216	rare disease	male	A	White - British	XY	alive	p10000000354	false	1966		male	Consenting
+r20000000217	rare disease	female	Z	Not Stated	XX	alive	p10000000355	false	2004		female	Consenting
+r20000000218	rare disease	female	N	Black or Black British - African	XX	alive	p10000000356	false	1941		female	Consenting
+r20000000219	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000357	false	1968		male	Consenting
+r20000000220	rare disease	male	A	White - British	XY	alive	p10000000358	false	1969		male	Consenting
+r20000000221	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000359	false	2004		male	Consenting
+r20000000222	rare disease	male	A	White - British	XY	alive	p10000000360	false	1993		male	Consenting
+r20000000223	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000363	false	2016		male	Consenting
+r20000000223	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000361	false	1988		female	Consenting
+r20000000223	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000362	false	1987		male	Consenting
+r20000000224	rare disease	male	A	White - British	XY	alive	p10000000364	false	2020		male	Consenting
+r20000000225	rare disease	male	A	White - British	XY	alive	p10000000365	false	1962		male	Consenting
+r20000000226	rare disease	female	A	White - British	XX	alive	p10000000366	false	2017		female	Consenting
+r20000000227	rare disease	female	A	White - British	XX	alive	p10000000367	false	2006		female	Consenting
+r20000000228	rare disease	female	A	White - British	XX	alive	p10000000368	false	1953		female	Consenting
+r20000000229	rare disease	male	Z	Not Stated	XY	alive	p10000000369	false	1993		male	Consenting
+r20000000230	rare disease	male	A	White - British	XY	alive	p10000000370	false	1971		male	Consenting
+r20000000231	rare disease	female	A	White - British	XX	alive	p10000000371	false	1998		female	Consenting
+r20000000232	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000374	false	2020		female	Consenting
+r20000000232	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000372	false	1981		female	Consenting
+r20000000232	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000373	false	1983		male	Consenting
+r20000000233	rare disease	female	Z	Not Stated	XX	alive	p10000000375	false	2019		female	Consenting
+r20000000234	rare disease	female	A	White - British	XX	alive	p10000000376	false	2003		female	Consenting
+r20000000235	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000377	false	1982		male	Consenting
+r20000000236	rare disease	male	N	Black or Black British - African	XY	alive	p10000000378	false	2005		male	Consenting
+r20000000237	rare disease	female	A	White - British	XX	alive	p10000000379	false	1938		female	Consenting
+r20000000238	rare disease	male	A	White - British	XY	alive	p10000000380	false	1997		male	Consenting
+r20000000239	rare disease	female	A	White - British	XX	alive	p10000000381	false	2019		female	Consenting
+r20000000240	rare disease	male	B	White - Irish	XY	alive	p10000000382	false	1973		male	Consenting
+r20000000241	rare disease	male	A	White - British	XY	alive	p10000000383	false	1996		male	Consenting
+r20000000242	rare disease	female	A	White - British	XX	alive	p10000000386	false	2015		female	Consenting
+r20000000242	rare disease	female	A	White - British	XX	alive	p10000000384	false	1979		female	Consenting
+r20000000242	rare disease	male	A	White - British	XY	alive	p10000000385	false	1981		male	Consenting
+r20000000243	rare disease	female	A	White - British	XX	alive	p10000000389	false	2015		female	Consenting
+r20000000243	rare disease	female	A	White - British	XX	alive	p10000000387	false	1991		female	Consenting
+r20000000243	rare disease	male	A	White - British	XY	alive	p10000000388	false	1984		male	Consenting
+r20000000244	rare disease	female	A	White - British	XX	alive	p10000000390	false	2013		female	Consenting
+r20000000245	rare disease	female	A	White - British	XX	alive	p10000000391	false	1989		female	Consenting
+r20000000246	rare disease	female	A	White - British	XX	alive	p10000000392	false	1981		female	Consenting
+r20000000247	rare disease	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000000393	false	2009		male	Consenting
+r20000000248	rare disease	male	A	White - British	XY	alive	p10000000394	false	1979		male	Consenting
+r20000000249	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000397	false	2019		male	Consenting
+r20000000249	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000395	false	1985		female	Consenting
+r20000000249	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000396	false	1987		male	Consenting
+r20000000250	rare disease	male	A	White - British	XY	alive	p10000000400	false	2016		male	Consenting
+r20000000250	rare disease	female	A	White - British	XX	alive	p10000000398	false	1982		female	Consenting
+r20000000250	rare disease	male	A	White - British	XY	alive	p10000000399	false	1982		male	Consenting
+r20000000251	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000401	false	2020		male	Consenting
+r20000000252	rare disease	male	A	White - British	XY	alive	p10000000402	false	1991		male	Consenting
+r20000000253	rare disease	female	A	White - British	XX	alive	p10000000403	false	1994		female	Consenting
+r20000000254	rare disease	male	A	White - British	XY	alive	p10000000404	false	2018		male	Consenting
+r20000000255	rare disease	female	A	White - British	XX	alive	p10000000405	false	1978		female	Consenting
+r20000000256	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000408	false	2015		female	Consenting
+r20000000256	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000406	false	1991		female	Consenting
+r20000000256	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000407	false	1991		male	Consenting
+r20000000257	rare disease	female	Z	Not Stated	XX	alive	p10000000411	false	2018		female	Consenting
+r20000000257	rare disease	female	Z	Not Stated	XX	alive	p10000000409	false	1989		female	Consenting
+r20000000257	rare disease	male	Z	Not Stated	XY	alive	p10000000410	false	1982		male	Consenting
+r20000000258	rare disease	female	Z	Not Stated	XX	alive	p10000000412	false	2008		female	Consenting
+r20000000259	rare disease	female	C	White - Any other White background	XX	alive	p10000000413	false	2012		female	Consenting
+r20000000260	rare disease	male	C	White - Any other White background	XY	alive	p10000000414	false	1993		male	Consenting
+r20000000261	rare disease	female	A	White - British	XX	alive	p10000000415	false	1961		female	Consenting
+r20000000262	rare disease	male	A	White - British	XY	alive	p10000000418	false	2011		male	Consenting
+r20000000262	rare disease	female	A	White - British	XX	alive	p10000000416	false	1974		female	Consenting
+r20000000262	rare disease	male	A	White - British	XY	alive	p10000000417	false	1969		male	Consenting
+r20000000263	rare disease	female	A	White - British	XX	alive	p10000000419	false	2015		female	Consenting
+r20000000264	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000420	false	1959		male	Consenting
+r20000000265	rare disease	female	A	White - British	XX	alive	p10000000423	false	2005		female	Consenting
+r20000000265	rare disease	female	A	White - British	XX	alive	p10000000421	false	1969		female	Consenting
+r20000000265	rare disease	male	A	White - British	XY	alive	p10000000422	false	1964		male	Consenting
+r20000000266	rare disease	female	A	White - British	XX	alive	p10000000424	false	2014		female	Consenting
+r20000000267	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000425	false	1966		female	Consenting
+r20000000268	rare disease	female	A	White - British	XX	alive	p10000000426	false	1986		female	Consenting
+r20000000269	rare disease	female	A	White - British	XX	alive	p10000000427	false	1979		female	Consenting
+r20000000270	rare disease	male	A	White - British	XY	alive	p10000000428	false	1976		male	Consenting
+r20000000271	rare disease	female	A	White - British	XX	alive	p10000000429	false	1981		female	Consenting
+r20000000272	rare disease	male	A	White - British	XY	alive	p10000000430	false	2016		male	Consenting
+r20000000273	rare disease	male	A	White - British	XY	alive	p10000000431	false	2017		male	Consenting
+r20000000274	rare disease	female	A	White - British	XX	alive	p10000000432	false	1964		female	Consenting
+r20000000275	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000433	false	2007		male	Consenting
+r20000000276	rare disease	female	A	White - British	XX	alive	p10000000434	false	1981		female	Consenting
+r20000000277	rare disease	female	B	White - Irish	XX	alive	p10000000437	false	2013		female	Consenting
+r20000000277	rare disease	female	B	White - Irish	XX	alive	p10000000435	false	1985		female	Consenting
+r20000000277	rare disease	male	B	White - Irish	XY	alive	p10000000436	false	1987		male	Consenting
+r20000000278	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000440	false	2010		male	Consenting
+r20000000278	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000438	false	1989		female	Consenting
+r20000000278	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000439	false	1990		male	Consenting
+r20000000279	rare disease	male	A	White - British	XY	alive	p10000000441	false	2019		male	Consenting
+r20000000280	rare disease	male	A	White - British	XY	alive	p10000000444	false	2018		male	Consenting
+r20000000280	rare disease	female	A	White - British	XX	alive	p10000000442	false	1980		female	Consenting
+r20000000280	rare disease	male	A	White - British	XY	alive	p10000000443	false	1973		male	Consenting
+r20000000281	rare disease	female	A	White - British	XX	alive	p10000000445	false	1966		female	Consenting
+r20000000282	rare disease	female	A	White - British	XX	alive	p10000000448	false	2015		female	Consenting
+r20000000282	rare disease	female	A	White - British	XX	alive	p10000000446	false	1994		female	Consenting
+r20000000282	rare disease	male	A	White - British	XY	alive	p10000000447	false	1994		male	Consenting
+r20000000283	rare disease	female	A	White - British	XX	alive	p10000000451	false	2019		female	Consenting
+r20000000283	rare disease	female	A	White - British	XX	alive	p10000000449	false	1996		female	Consenting
+r20000000283	rare disease	male	A	White - British	XY	alive	p10000000450	false	1997		male	Consenting
+r20000000284	rare disease	female	A	White - British	XX	alive	p10000000452	false	1980		female	Consenting
+r20000000285	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000453	false	2021		female	Consenting
+r20000000286	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000456	false	2020		male	Consenting
+r20000000286	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000454	false	1991		female	Consenting
+r20000000286	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000455	false	1992		male	Consenting
+r20000000287	rare disease	female	A	White - British	XX	alive	p10000000457	false	1970		female	Consenting
+r20000000288	rare disease	female	N	Black or Black British - African	XX	alive	p10000000458	false	1985		female	Consenting
+r20000000289	rare disease	female	A	White - British	XX	alive	p10000000459	false	1996		female	Consenting
+r20000000290	rare disease	male	A	White - British	XY	alive	p10000000460	false	1963		male	Consenting
+r20000000291	rare disease	female	A	White - British	XX	alive	p10000000463	false	2019		female	Consenting
+r20000000291	rare disease	female	A	White - British	XX	alive	p10000000461	false	1997		female	Consenting
+r20000000291	rare disease	male	A	White - British	XY	alive	p10000000462	false	1990		male	Consenting
+r20000000292	rare disease	female	Z	Not Stated	XX	alive	p10000000464	false	1980		female	Consenting
+r20000000293	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000465	false	1967		male	Consenting
+r20000000294	rare disease	male	Z	Not Stated	XY	alive	p10000000466	false	2016		male	Consenting
+r20000000295	rare disease	female	A	White - British	XX	alive	p10000000469	false	2009		female	Consenting
+r20000000295	rare disease	female	A	White - British	XX	alive	p10000000467	false	1973		female	Consenting
+r20000000295	rare disease	male	A	White - British	XY	alive	p10000000468	false	1973		male	Consenting
+r20000000296	rare disease	female	A	White - British	XX	alive	p10000000472	false	2014		female	Consenting
+r20000000296	rare disease	female	A	White - British	XX	alive	p10000000470	false	1987		female	Consenting
+r20000000296	rare disease	male	A	White - British	XY	alive	p10000000471	false	1989		male	Consenting
+r20000000297	rare disease	male	A	White - British	XY	alive	p10000000473	false	2018		male	Consenting
+r20000000298	rare disease	male	A	White - British	XY	alive	p10000000474	false	2016		male	Consenting
+r20000000299	rare disease	male	A	White - British	XY	alive	p10000000475	false	1996		male	Consenting
+r20000000300	rare disease	female	A	White - British	XX	alive	p10000000478	false	2014		female	Consenting
+r20000000300	rare disease	female	A	White - British	XX	alive	p10000000476	false	1982		female	Consenting
+r20000000300	rare disease	male	A	White - British	XY	alive	p10000000477	false	1976		male	Consenting
+r20000000301	rare disease	male	A	White - British	XY	alive	p10000000479	false	1984		male	Consenting
+r20000000302	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000480	false	1981		female	Consenting
+r20000000303	rare disease	female	C	White - Any other White background	XX	alive	p10000000481	false	1993		female	Consenting
+r20000000304	rare disease	female	A	White - British	XX	alive	p10000000482	false	2020		female	Consenting
+r20000000305	rare disease	male	A	White - British	XY	alive	p10000000483	false	1965		male	Consenting
+r20000000306	rare disease	female	A	White - British	XX	alive	p10000000486	false	2018		female	Consenting
+r20000000306	rare disease	female	A	White - British	XX	alive	p10000000484	false	1988		female	Consenting
+r20000000306	rare disease	male	A	White - British	XY	alive	p10000000485	false	1986		male	Consenting
+r20000000307	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000489	false	2018		female	Consenting
+r20000000307	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000487	false	1990		female	Consenting
+r20000000307	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000488	false	1989		male	Consenting
+r20000000308	rare disease	female	A	White - British	XX	alive	p10000000490	false	1966		female	Consenting
+r20000000309	rare disease	male	A	White - British	XY	alive	p10000000491	false	1977		male	Consenting
+r20000000310	rare disease	female	C	White - Any other White background	XX	alive	p10000000492	false	2021		female	Consenting
+r20000000311	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000495	false	2003		female	Consenting
+r20000000311	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000493	false	1977		female	Consenting
+r20000000311	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000494	false	1974		male	Consenting
+r20000000312	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000496	false	1995		female	Consenting
+r20000000313	rare disease	female	A	White - British	XX	alive	p10000000499	false	2007		female	Consenting
+r20000000313	rare disease	female	A	White - British	XX	alive	p10000000497	false	1968		female	Consenting
+r20000000313	rare disease	male	A	White - British	XY	alive	p10000000498	false	1966		male	Consenting
+r20000000314	rare disease	male	A	White - British	XY	alive	p10000000500	false	2020		male	Consenting
+r20000000315	rare disease	female	A	White - British	XX	alive	p10000000501	false	1949		female	Consenting
+r20000000316	rare disease	female	A	White - British	XX	alive	p10000000502	false	2013		female	Consenting
+r20000000317	rare disease	male	A	White - British	XY	alive	p10000000503	false	1979		male	Consenting
+r20000000318	rare disease	male	A	White - British	XY	alive	p10000000504	false	2018		male	Consenting
+r20000000319	rare disease	male	A	White - British	XY	alive	p10000000507	false	2011		male	Consenting
+r20000000319	rare disease	female	A	White - British	XX	alive	p10000000505	false	1980		female	Consenting
+r20000000319	rare disease	male	A	White - British	XY	alive	p10000000506	false	1974		male	Consenting
+r20000000320	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000508	false	2004		male	Consenting
+r20000000321	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000511	false	2012		male	Consenting
+r20000000321	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000509	false	1980		female	Consenting
+r20000000321	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000510	false	1974		male	Consenting
+r20000000322	rare disease	male	A	White - British	XY	alive	p10000000514	false	2011		male	Consenting
+r20000000322	rare disease	female	A	White - British	XX	alive	p10000000512	false	1986		female	Consenting
+r20000000322	rare disease	male	A	White - British	XY	alive	p10000000513	false	1983		male	Consenting
+r20000000323	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000515	false	1971		male	Consenting
+r20000000324	rare disease	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000000516	false	1992		female	Consenting
+r20000000325	rare disease	female	Z	Not Stated	XX	alive	p10000000517	false	1994		female	Consenting
+r20000000326	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000518	false	1981		female	Consenting
+r20000000327	rare disease	female	A	White - British	XX	alive	p10000000519	false	1966		female	Consenting
+r20000000328	rare disease	female	Z	Not Stated	XX	alive	p10000000520	false	1972		female	Consenting
+r20000000329	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000521	false	1968		male	Consenting
+r20000000330	rare disease	female	A	White - British	XX	alive	p10000000522	false	1953		female	Consenting
+r20000000331	rare disease	male	A	White - British	XY	alive	p10000000523	false	2018		male	Consenting
+r20000000332	rare disease	male	A	White - British	XY	alive	p10000000526	false	2007		male	Consenting
+r20000000332	rare disease	female	A	White - British	XX	alive	p10000000524	false	1982		female	Consenting
+r20000000332	rare disease	male	A	White - British	XY	alive	p10000000525	false	1977		male	Consenting
+r20000000333	rare disease	female	A	White - British	XX	alive	p10000000527	false	2014		female	Consenting
+r20000000334	rare disease	male	Z	Not Stated	XY	alive	p10000000530	false	2004		male	Consenting
+r20000000334	rare disease	female	Z	Not Stated	XX	alive	p10000000528	false	1969		female	Consenting
+r20000000334	rare disease	male	Z	Not Stated	XY	alive	p10000000529	false	1965		male	Consenting
+r20000000335	rare disease	female	A	White - British	XX	alive	p10000000533	false	2013		female	Consenting
+r20000000335	rare disease	female	A	White - British	XX	alive	p10000000531	false	1987		female	Consenting
+r20000000335	rare disease	male	A	White - British	XY	alive	p10000000532	false	1984		male	Consenting
+r20000000336	rare disease	male	A	White - British	XY	alive	p10000000536	false	2018		male	Consenting
+r20000000336	rare disease	female	A	White - British	XX	alive	p10000000534	false	1996		female	Consenting
+r20000000336	rare disease	male	A	White - British	XY	alive	p10000000535	false	1992		male	Consenting
+r20000000337	rare disease	male	A	White - British	XY	alive	p10000000537	false	2005		male	Consenting
+r20000000338	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000540	false	2015		male	Consenting
+r20000000338	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000538	false	1984		female	Consenting
+r20000000338	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000539	false	1984		male	Consenting
+r20000000339	rare disease	male	A	White - British	XY	alive	p10000000541	false	2022		male	Consenting
+r20000000340	rare disease	male	A	White - British	XY	alive	p10000000542	false	2017		male	Consenting
+r20000000341	rare disease	female	A	White - British	XX	alive	p10000000543	false	2017		female	Consenting
+r20000000342	rare disease	male	A	White - British	XY	alive	p10000000546	false	2015		male	Consenting
+r20000000342	rare disease	female	A	White - British	XX	alive	p10000000544	false	1987		female	Consenting
+r20000000342	rare disease	male	A	White - British	XY	alive	p10000000545	false	1986		male	Consenting
+r20000000343	rare disease	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000000547	false	1951		female	Consenting
+r20000000344	rare disease	male	C	White - Any other White background	XY	alive	p10000000548	false	2022		male	Consenting
+r20000000345	rare disease	female	Z	Not Stated	XX	alive	p10000000551	false	2010		female	Consenting
+r20000000345	rare disease	female	Z	Not Stated	XX	alive	p10000000549	false	1972		female	Consenting
+r20000000345	rare disease	male	Z	Not Stated	XY	alive	p10000000550	false	1974		male	Consenting
+r20000000346	rare disease	male	A	White - British	XY	alive	p10000000552	false	1985		male	Consenting
+r20000000347	rare disease	female	A	White - British	XX	alive	p10000000553	false	1975		female	Consenting
+r20000000348	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000554	false	1974		female	Consenting
+r20000000349	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000557	false	2021		female	Consenting
+r20000000349	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000555	false	1992		female	Consenting
+r20000000349	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000556	false	1990		male	Consenting
+r20000000350	rare disease	female	A	White - British	XX	alive	p10000000558	false	2018		female	Consenting
+r20000000351	rare disease	female	A	White - British	XX	alive	p10000000559	false	1983		female	Consenting
+r20000000352	rare disease	male	A	White - British	XY	alive	p10000000560	false	1989		male	Consenting
+r20000000353	rare disease	female	A	White - British	XX	alive	p10000000561	false	1992		female	Consenting
+r20000000354	rare disease	female	B	White - Irish	XX	alive	p10000000562	false	2016		female	Consenting
+r20000000355	rare disease	female	B	White - Irish	XX	alive	p10000000563	false	1984		female	Consenting
+r20000000356	rare disease	female	A	White - British	XX	alive	p10000000566	false	2022		female	Consenting
+r20000000356	rare disease	female	A	White - British	XX	alive	p10000000564	false	1984		female	Consenting
+r20000000356	rare disease	male	A	White - British	XY	alive	p10000000565	false	1980		male	Consenting
+r20000000357	rare disease	male	A	White - British	XY	alive	p10000000569	false	2013		male	Consenting
+r20000000357	rare disease	female	A	White - British	XX	alive	p10000000567	false	1975		female	Consenting
+r20000000357	rare disease	male	A	White - British	XY	alive	p10000000568	false	1971		male	Consenting
+r20000000358	rare disease	male	Z	Not Stated	XY	alive	p10000000570	false	1995		male	Consenting
+r20000000359	rare disease	male	N	Black or Black British - African	XY	alive	p10000000573	false	2018		male	Consenting
+r20000000359	rare disease	female	N	Black or Black British - African	XX	alive	p10000000571	false	1995		female	Consenting
+r20000000359	rare disease	male	N	Black or Black British - African	XY	alive	p10000000572	false	1988		male	Consenting
+r20000000360	rare disease	male	A	White - British	XY	alive	p10000000574	false	2007		male	Consenting
+r20000000361	rare disease	male	A	White - British	XY	alive	p10000000577	false	2018		male	Consenting
+r20000000361	rare disease	female	A	White - British	XX	alive	p10000000575	false	1991		female	Consenting
+r20000000361	rare disease	male	A	White - British	XY	alive	p10000000576	false	1989		male	Consenting
+r20000000362	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000578	false	1997		female	Consenting
+r20000000363	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000579	false	1982		male	Consenting
+r20000000364	rare disease	male	A	White - British	XY	alive	p10000000580	false	1957		male	Consenting
+r20000000365	rare disease	male	A	White - British	XY	alive	p10000000583	false	2009		male	Consenting
+r20000000365	rare disease	female	A	White - British	XX	alive	p10000000581	false	1977		female	Consenting
+r20000000365	rare disease	male	A	White - British	XY	alive	p10000000582	false	1978		male	Consenting
+r20000000366	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000584	false	2002		female	Consenting
+r20000000367	rare disease	male	A	White - British	XY	alive	p10000000585	false	2018		male	Consenting
+r20000000368	rare disease	male	A	White - British	XY	alive	p10000000586	false	2019		male	Consenting
+r20000000369	rare disease	female	A	White - British	XX	alive	p10000000587	false	1985		female	Consenting
+r20000000370	rare disease	male	A	White - British	XY	alive	p10000000588	false	1993		male	Consenting
+r20000000371	rare disease	male	A	White - British	XY	alive	p10000000591	false	2004		male	Consenting
+r20000000371	rare disease	female	A	White - British	XX	alive	p10000000589	false	1975		female	Consenting
+r20000000371	rare disease	male	A	White - British	XY	alive	p10000000590	false	1968		male	Consenting
+r20000000372	rare disease	male	A	White - British	XY	alive	p10000000592	false	1989		male	Consenting
+r20000000373	rare disease	female	A	White - British	XX	alive	p10000000595	false	2016		female	Consenting
+r20000000373	rare disease	female	A	White - British	XX	alive	p10000000593	false	1979		female	Consenting
+r20000000373	rare disease	male	A	White - British	XY	alive	p10000000594	false	1979		male	Consenting
+r20000000374	rare disease	male	A	White - British	XY	alive	p10000000596	false	1962		male	Consenting
+r20000000375	rare disease	male	Z	Not Stated	XY	alive	p10000000597	false	2008		male	Consenting
+r20000000376	rare disease	male	A	White - British	XY	alive	p10000000600	false	2018		male	Consenting
+r20000000376	rare disease	female	A	White - British	XX	alive	p10000000598	false	1983		female	Consenting
+r20000000376	rare disease	male	A	White - British	XY	alive	p10000000599	false	1982		male	Consenting
+r20000000377	rare disease	male	A	White - British	XY	alive	p10000000601	false	2017		male	Consenting
+r20000000378	rare disease	female	A	White - British	XX	alive	p10000000604	false	2020		female	Consenting
+r20000000378	rare disease	female	A	White - British	XX	alive	p10000000602	false	1986		female	Consenting
+r20000000378	rare disease	male	A	White - British	XY	alive	p10000000603	false	1980		male	Consenting
+r20000000379	rare disease	male	A	White - British	XY	alive	p10000000607	false	2017		male	Consenting
+r20000000379	rare disease	female	A	White - British	XX	alive	p10000000605	false	1989		female	Consenting
+r20000000379	rare disease	male	A	White - British	XY	alive	p10000000606	false	1987		male	Consenting
+r20000000380	rare disease	female	A	White - British	XX	alive	p10000000608	false	1989		female	Consenting
+r20000000381	rare disease	female	A	White - British	XX	alive	p10000000609	false	1984		female	Consenting
+r20000000382	rare disease	male	C	White - Any other White background	XY	alive	p10000000612	false	2016		male	Consenting
+r20000000382	rare disease	female	C	White - Any other White background	XX	alive	p10000000610	false	1993		female	Consenting
+r20000000382	rare disease	male	C	White - Any other White background	XY	alive	p10000000611	false	1989		male	Consenting
+r20000000383	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000615	false	2015		male	Consenting
+r20000000383	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000613	false	1994		female	Consenting
+r20000000383	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000614	false	1988		male	Consenting
+r20000000384	rare disease	male	A	White - British	XY	alive	p10000000616	false	1969		male	Consenting
+r20000000385	rare disease	male	B	White - Irish	XY	alive	p10000000617	false	2015		male	Consenting
+r20000000386	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000618	false	1991		male	Consenting
+r20000000387	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000621	false	2014		female	Consenting
+r20000000387	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000619	false	1982		female	Consenting
+r20000000387	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000620	false	1983		male	Consenting
+r20000000388	rare disease	male	A	White - British	XY	alive	p10000000622	false	1994		male	Consenting
+r20000000389	rare disease	female	A	White - British	XX	alive	p10000000623	false	1988		female	Consenting
+r20000000390	rare disease	male	A	White - British	XY	alive	p10000000624	false	2012		male	Consenting
+r20000000391	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000000625	false	2017		female	Consenting
+r20000000392	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000626	false	1959		female	Consenting
+r20000000393	rare disease	female	A	White - British	XX	alive	p10000000629	false	2022		female	Consenting
+r20000000393	rare disease	female	A	White - British	XX	alive	p10000000627	false	1983		female	Consenting
+r20000000393	rare disease	male	A	White - British	XY	alive	p10000000628	false	1982		male	Consenting
+r20000000394	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000630	false	2008		male	Consenting
+r20000000395	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000631	false	1983		male	Consenting
+r20000000396	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000632	false	1980		female	Consenting
+r20000000397	rare disease	female	A	White - British	XX	alive	p10000000633	false	1997		female	Consenting
+r20000000398	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000634	false	1947		male	Consenting
+r20000000399	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000635	false	1990		female	Consenting
+r20000000400	rare disease	male	A	White - British	XY	alive	p10000000638	false	2013		male	Consenting
+r20000000400	rare disease	female	A	White - British	XX	alive	p10000000636	false	1981		female	Consenting
+r20000000400	rare disease	male	A	White - British	XY	alive	p10000000637	false	1983		male	Consenting
+r20000000401	rare disease	female	A	White - British	XX	alive	p10000000641	false	2017		female	Consenting
+r20000000401	rare disease	female	A	White - British	XX	alive	p10000000639	false	1989		female	Consenting
+r20000000401	rare disease	male	A	White - British	XY	alive	p10000000640	false	1982		male	Consenting
+r20000000402	rare disease	male	A	White - British	XY	alive	p10000000642	false	1995		male	Consenting
+r20000000403	rare disease	male	A	White - British	XY	alive	p10000000645	false	2017		male	Consenting
+r20000000403	rare disease	female	A	White - British	XX	alive	p10000000643	false	1980		female	Consenting
+r20000000403	rare disease	male	A	White - British	XY	alive	p10000000644	false	1978		male	Consenting
+r20000000404	rare disease	female	A	White - British	XX	alive	p10000000646	false	2020		female	Consenting
+r20000000405	rare disease	female	A	White - British	XX	alive	p10000000649	false	2020		female	Consenting
+r20000000405	rare disease	female	A	White - British	XX	alive	p10000000647	false	2000		female	Consenting
+r20000000405	rare disease	male	A	White - British	XY	alive	p10000000648	false	1997		male	Consenting
+r20000000406	rare disease	male	A	White - British	XY	alive	p10000000650	false	1951		male	Consenting
+r20000000407	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000651	false	1961		male	Consenting
+r20000000408	rare disease	female	C	White - Any other White background	XX	alive	p10000000652	false	1963		female	Consenting
+r20000000409	rare disease	female	A	White - British	XX	alive	p10000000655	false	2022		female	Consenting
+r20000000409	rare disease	female	A	White - British	XX	alive	p10000000653	false	1991		female	Consenting
+r20000000409	rare disease	male	A	White - British	XY	alive	p10000000654	false	1992		male	Consenting
+r20000000410	rare disease	male	Z	Not Stated	XY	alive	p10000000656	false	2001		male	Consenting
+r20000000411	rare disease	female	A	White - British	XX	alive	p10000000657	false	1965		female	Consenting
+r20000000412	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000658	false	2019		male	Consenting
+r20000000413	rare disease	male	A	White - British	XY	alive	p10000000659	false	2005		male	Consenting
+r20000000414	rare disease	female	A	White - British	XX	alive	p10000000662	false	2020		female	Consenting
+r20000000414	rare disease	female	A	White - British	XX	alive	p10000000660	false	1985		female	Consenting
+r20000000414	rare disease	male	A	White - British	XY	alive	p10000000661	false	1981		male	Consenting
+r20000000415	rare disease	female	A	White - British	XX	alive	p10000000663	false	1987		female	Consenting
+r20000000416	rare disease	female	A	White - British	XX	alive	p10000000666	false	2016		female	Consenting
+r20000000416	rare disease	female	A	White - British	XX	alive	p10000000664	false	1995		female	Consenting
+r20000000416	rare disease	male	A	White - British	XY	alive	p10000000665	false	1991		male	Consenting
+r20000000417	rare disease	female	A	White - British	XX	alive	p10000000669	false	2020		female	Consenting
+r20000000417	rare disease	female	A	White - British	XX	alive	p10000000667	false	1990		female	Consenting
+r20000000417	rare disease	male	A	White - British	XY	alive	p10000000668	false	1991		male	Consenting
+r20000000418	rare disease	male	A	White - British	XY	alive	p10000000670	false	2008		male	Consenting
+r20000000419	rare disease	male	A	White - British	XY	alive	p10000000671	false	2006		male	Consenting
+r20000000420	rare disease	male	A	White - British	XY	alive	p10000000672	false	1969		male	Consenting
+r20000000421	rare disease	female	Z	Not Stated	XX	alive	p10000000673	false	1978		female	Consenting
+r20000000422	rare disease	female	A	White - British	XX	alive	p10000000674	false	1960		female	Consenting
+r20000000423	rare disease	female	N	Black or Black British - African	XX	alive	p10000000677	false	2021		female	Consenting
+r20000000423	rare disease	female	N	Black or Black British - African	XX	alive	p10000000675	false	1995		female	Consenting
+r20000000423	rare disease	male	N	Black or Black British - African	XY	alive	p10000000676	false	1996		male	Consenting
+r20000000424	rare disease	male	A	White - British	XY	alive	p10000000678	false	1979		male	Consenting
+r20000000425	rare disease	male	A	White - British	XY	alive	p10000000679	false	2002		male	Consenting
+r20000000426	rare disease	male	A	White - British	XY	alive	p10000000682	false	2015		male	Consenting
+r20000000426	rare disease	female	A	White - British	XX	alive	p10000000680	false	1979		female	Consenting
+r20000000426	rare disease	male	A	White - British	XY	alive	p10000000681	false	1974		male	Consenting
+r20000000427	rare disease	female	A	White - British	XX	alive	p10000000683	false	1963		female	Consenting
+r20000000428	rare disease	male	N	Black or Black British - African	XY	alive	p10000000686	false	2018		male	Consenting
+r20000000428	rare disease	female	N	Black or Black British - African	XX	alive	p10000000684	false	1982		female	Consenting
+r20000000428	rare disease	male	N	Black or Black British - African	XY	alive	p10000000685	false	1982		male	Consenting
+r20000000429	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000687	false	2015		male	Consenting
+r20000000430	rare disease	female	A	White - British	XX	alive	p10000000690	false	2020		female	Consenting
+r20000000430	rare disease	female	A	White - British	XX	alive	p10000000688	false	1992		female	Consenting
+r20000000430	rare disease	male	A	White - British	XY	alive	p10000000689	false	1991		male	Consenting
+r20000000431	rare disease	female	C	White - Any other White background	XX	alive	p10000000691	false	2006		female	Consenting
+r20000000432	rare disease	female	A	White - British	XX	alive	p10000000692	false	1998		female	Consenting
+r20000000433	rare disease	male	A	White - British	XY	alive	p10000000693	false	1977		male	Consenting
+r20000000434	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000696	false	2012		female	Consenting
+r20000000434	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000694	false	1978		female	Consenting
+r20000000434	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000695	false	1979		male	Consenting
+r20000000435	rare disease	male	A	White - British	XY	alive	p10000000697	false	1980		male	Consenting
+r20000000436	rare disease	male	A	White - British	XY	alive	p10000000698	false	1985		male	Consenting
+r20000000437	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000699	false	2017		male	Consenting
+r20000000438	rare disease	male	A	White - British	XY	alive	p10000000700	false	1968		male	Consenting
+r20000000439	rare disease	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000000701	false	2017		female	Consenting
+r20000000440	rare disease	male	Z	Not Stated	XY	alive	p10000000702	false	1977		male	Consenting
+r20000000441	rare disease	male	A	White - British	XY	alive	p10000000703	false	1972		male	Consenting
+r20000000442	rare disease	male	C	White - Any other White background	XY	alive	p10000000704	false	2006		male	Consenting
+r20000000443	rare disease	male	Z	Not Stated	XY	alive	p10000000707	false	2019		male	Consenting
+r20000000443	rare disease	female	Z	Not Stated	XX	alive	p10000000705	false	1998		female	Consenting
+r20000000443	rare disease	male	Z	Not Stated	XY	alive	p10000000706	false	1993		male	Consenting
+r20000000444	rare disease	female	A	White - British	XX	alive	p10000000708	false	1985		female	Consenting
+r20000000445	rare disease	female	A	White - British	XX	alive	p10000000709	false	2016		female	Consenting
+r20000000446	rare disease	male	A	White - British	XY	alive	p10000000710	false	1991		male	Consenting
+r20000000447	rare disease	male	A	White - British	XY	alive	p10000000713	false	2015		male	Consenting
+r20000000447	rare disease	female	A	White - British	XX	alive	p10000000711	false	1976		female	Consenting
+r20000000447	rare disease	male	A	White - British	XY	alive	p10000000712	false	1976		male	Consenting
+r20000000448	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000714	false	1961		female	Consenting
+r20000000449	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000715	false	2020		male	Consenting
+r20000000450	rare disease	female	A	White - British	XX	alive	p10000000716	false	1975		female	Consenting
+r20000000451	rare disease	female	A	White - British	XX	alive	p10000000717	false	2003		female	Consenting
+r20000000452	rare disease	male	A	White - British	XY	alive	p10000000720	false	2006		male	Consenting
+r20000000452	rare disease	female	A	White - British	XX	alive	p10000000718	false	1981		female	Consenting
+r20000000452	rare disease	male	A	White - British	XY	alive	p10000000719	false	1980		male	Consenting
+r20000000453	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000721	false	2024		male	Consenting
+r20000000454	rare disease	female	A	White - British	XX	alive	p10000000722	false	1973		female	Consenting
+r20000000455	rare disease	male	A	White - British	XY	alive	p10000000723	false	2008		male	Consenting
+r20000000456	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000724	false	2018		male	Consenting
+r20000000457	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000727	false	2017		male	Consenting
+r20000000457	rare disease	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000000725	false	1995		female	Consenting
+r20000000457	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000726	false	1992		male	Consenting
+r20000000458	rare disease	male	A	White - British	XY	alive	p10000000730	false	2015		male	Consenting
+r20000000458	rare disease	female	A	White - British	XX	alive	p10000000728	false	1988		female	Consenting
+r20000000458	rare disease	male	A	White - British	XY	alive	p10000000729	false	1982		male	Consenting
+r20000000459	rare disease	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000000731	false	1958		male	Consenting
+r20000000460	rare disease	female	A	White - British	XX	alive	p10000000732	false	1978		female	Consenting
+r20000000461	rare disease	female	A	White - British	XX	alive	p10000000733	false	1953		female	Consenting
+r20000000462	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000734	false	2017		male	Consenting
+r20000000463	rare disease	female	A	White - British	XX	alive	p10000000735	false	1973		female	Consenting
+r20000000464	rare disease	male	A	White - British	XY	alive	p10000000736	false	1984		male	Consenting
+r20000000465	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000737	false	1984		female	Consenting
+r20000000466	rare disease	male	A	White - British	XY	alive	p10000000738	false	2003		male	Consenting
+r20000000467	rare disease	male	A	White - British	XY	alive	p10000000739	false	2010		male	Consenting
+r20000000468	rare disease	male	A	White - British	XY	alive	p10000000740	false	2019		male	Consenting
+r20000000469	rare disease	female	C	White - Any other White background	XX	alive	p10000000741	false	1990		female	Consenting
+r20000000470	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000744	false	2021		male	Consenting
+r20000000470	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000742	false	1989		female	Consenting
+r20000000470	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000743	false	1990		male	Consenting
+r20000000471	rare disease	male	C	White - Any other White background	XY	alive	p10000000745	false	2017		male	Consenting
+r20000000472	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000748	false	2014		female	Consenting
+r20000000472	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000000746	false	1986		female	Consenting
+r20000000472	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000747	false	1982		male	Consenting
+r20000000473	rare disease	male	A	White - British	XY	alive	p10000000751	false	2014		male	Consenting
+r20000000473	rare disease	female	A	White - British	XX	alive	p10000000749	false	1978		female	Consenting
+r20000000473	rare disease	male	A	White - British	XY	alive	p10000000750	false	1980		male	Consenting
+r20000000474	rare disease	female	A	White - British	XX	alive	p10000000752	false	1958		female	Consenting
+r20000000475	rare disease	male	A	White - British	XY	alive	p10000000755	false	2017		male	Consenting
+r20000000475	rare disease	female	A	White - British	XX	alive	p10000000753	false	1987		female	Consenting
+r20000000475	rare disease	male	A	White - British	XY	alive	p10000000754	false	1983		male	Consenting
+r20000000476	rare disease	male	A	White - British	XY	alive	p10000000756	false	2003		male	Consenting
+r20000000477	rare disease	male	A	White - British	XY	alive	p10000000757	false	2009		male	Consenting
+r20000000478	rare disease	female	A	White - British	XX	alive	p10000000760	false	2017		female	Consenting
+r20000000478	rare disease	female	A	White - British	XX	alive	p10000000758	false	1979		female	Consenting
+r20000000478	rare disease	male	A	White - British	XY	alive	p10000000759	false	1974		male	Consenting
+r20000000479	rare disease	female	A	White - British	XX	alive	p10000000763	false	2021		female	Consenting
+r20000000479	rare disease	female	A	White - British	XX	alive	p10000000761	false	2001		female	Consenting
+r20000000479	rare disease	male	A	White - British	XY	alive	p10000000762	false	1995		male	Consenting
+r20000000480	rare disease	female	A	White - British	XX	alive	p10000000764	false	1998		female	Consenting
+r20000000481	rare disease	male	A	White - British	XY	alive	p10000000765	false	1970		male	Consenting
+r20000000482	rare disease	male	A	White - British	XY	alive	p10000000766	false	2016		male	Consenting
+r20000000483	rare disease	male	A	White - British	XY	alive	p10000000769	false	2008		male	Consenting
+r20000000483	rare disease	female	A	White - British	XX	alive	p10000000767	false	1987		female	Consenting
+r20000000483	rare disease	male	A	White - British	XY	alive	p10000000768	false	1981		male	Consenting
+r20000000484	rare disease	male	A	White - British	XY	alive	p10000000770	false	2004		male	Consenting
+r20000000485	rare disease	female	A	White - British	XX	alive	p10000000773	false	2015		female	Consenting
+r20000000485	rare disease	female	A	White - British	XX	alive	p10000000771	false	1994		female	Consenting
+r20000000485	rare disease	male	A	White - British	XY	alive	p10000000772	false	1992		male	Consenting
+r20000000486	rare disease	male	E	Mixed - White and Black African	XY	alive	p10000000774	false	1987		male	Consenting
+r20000000487	rare disease	male	C	White - Any other White background	XY	alive	p10000000777	false	2020		male	Consenting
+r20000000487	rare disease	female	C	White - Any other White background	XX	alive	p10000000775	false	1994		female	Consenting
+r20000000487	rare disease	male	C	White - Any other White background	XY	alive	p10000000776	false	1994		male	Consenting
+r20000000488	rare disease	female	A	White - British	XX	alive	p10000000780	false	2021		female	Consenting
+r20000000488	rare disease	female	A	White - British	XX	alive	p10000000778	false	1985		female	Consenting
+r20000000488	rare disease	male	A	White - British	XY	alive	p10000000779	false	1985		male	Consenting
+r20000000489	rare disease	male	A	White - British	XY	alive	p10000000783	false	2005		male	Consenting
+r20000000489	rare disease	female	A	White - British	XX	alive	p10000000781	false	1978		female	Consenting
+r20000000489	rare disease	male	A	White - British	XY	alive	p10000000782	false	1973		male	Consenting
+r20000000490	rare disease	female	C	White - Any other White background	XX	alive	p10000000784	false	1970		female	Consenting
+r20000000491	rare disease	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000000785	false	1968		female	Consenting
+r20000000492	rare disease	male	C	White - Any other White background	XY	alive	p10000000786	false	2005		male	Consenting
+r20000000493	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000787	false	2005		female	Consenting
+r20000000494	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000000788	false	1991		male	Consenting
+r20000000495	rare disease	male	A	White - British	XY	alive	p10000000789	false	1984		male	Consenting
+r20000000496	rare disease	male	A	White - British	XY	alive	p10000000790	false	2020		male	Consenting
+r20000000497	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000791	false	2014		female	Consenting
+r20000000498	rare disease	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000000792	false	2019		male	Consenting
+r20000000499	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000793	false	1981		female	Consenting
+r20000000500	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000796	false	2018		female	Consenting
+r20000000500	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000794	false	1983		female	Consenting
+r20000000500	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000795	false	1985		male	Consenting
+r20000000501	rare disease	female	C	White - Any other White background	XX	alive	p10000000797	false	2007		female	Consenting
+r20000000502	rare disease	female	A	White - British	XX	alive	p10000000798	false	1994		female	Consenting
+r20000000503	rare disease	male	A	White - British	XY	alive	p10000000799	false	1978		male	Consenting
+r20000000504	rare disease	male	A	White - British	XY	alive	p10000000800	false	1986		male	Consenting
+r20000000505	rare disease	male	C	White - Any other White background	XY	alive	p10000000801	false	2017		male	Consenting
+r20000000506	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000000802	false	1991		female	Consenting
+r20000000507	rare disease	male	A	White - British	XY	alive	p10000000805	false	2020		male	Consenting
+r20000000507	rare disease	female	A	White - British	XX	alive	p10000000803	false	2000		female	Consenting
+r20000000507	rare disease	male	A	White - British	XY	alive	p10000000804	false	2002		male	Consenting
+r20000000508	rare disease	male	A	White - British	XY	alive	p10000000806	false	2020		male	Consenting
+r20000000509	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000807	false	2013		male	Consenting
+r20000000510	rare disease	female	Z	Not Stated	XX	alive	p10000000808	false	1966		female	Consenting
+r20000000511	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000000809	false	1947		male	Consenting
+r20000000512	rare disease	male	A	White - British	XY	alive	p10000000812	false	2014		male	Consenting
+r20000000512	rare disease	female	A	White - British	XX	alive	p10000000810	false	1977		female	Consenting
+r20000000512	rare disease	male	A	White - British	XY	alive	p10000000811	false	1976		male	Consenting
+r20000000513	rare disease	male	N	Black or Black British - African	XY	alive	p10000000815	false	2012		male	Consenting
+r20000000513	rare disease	female	N	Black or Black British - African	XX	alive	p10000000813	false	1983		female	Consenting
+r20000000513	rare disease	male	N	Black or Black British - African	XY	alive	p10000000814	false	1978		male	Consenting
+r20000000514	rare disease	female	A	White - British	XX	alive	p10000000816	false	1979		female	Consenting
+r20000000515	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000819	false	2020		male	Consenting
+r20000000515	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000817	false	1988		female	Consenting
+r20000000515	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000818	false	1986		male	Consenting
+r20000000516	rare disease	female	B	White - Irish	XX	alive	p10000000822	false	2015		female	Consenting
+r20000000516	rare disease	female	B	White - Irish	XX	alive	p10000000820	false	1984		female	Consenting
+r20000000516	rare disease	male	B	White - Irish	XY	alive	p10000000821	false	1986		male	Consenting
+r20000000517	rare disease	female	A	White - British	XX	alive	p10000000825	false	2004		female	Consenting
+r20000000517	rare disease	female	A	White - British	XX	alive	p10000000823	false	1970		female	Consenting
+r20000000517	rare disease	male	A	White - British	XY	alive	p10000000824	false	1967		male	Consenting
+r20000000518	rare disease	male	A	White - British	XY	alive	p10000000826	false	1986		male	Consenting
+r20000000519	rare disease	female	A	White - British	XX	alive	p10000000827	false	1986		female	Consenting
+r20000000520	rare disease	female	A	White - British	XX	alive	p10000000828	false	1990		female	Consenting
+r20000000521	rare disease	female	A	White - British	XX	alive	p10000000829	false	1961		female	Consenting
+r20000000522	rare disease	female	A	White - British	XX	alive	p10000000830	false	2016		female	Consenting
+r20000000523	rare disease	male	A	White - British	XY	alive	p10000000831	false	2004		male	Consenting
+r20000000524	rare disease	female	A	White - British	XX	alive	p10000000832	false	2019		female	Consenting
+r20000000525	rare disease	male	A	White - British	XY	alive	p10000000833	false	2017		male	Consenting
+r20000000526	rare disease	male	B	White - Irish	XY	alive	p10000000834	false	1966		male	Consenting
+r20000000527	rare disease	male	A	White - British	XY	alive	p10000000835	false	1983		male	Consenting
+r20000000528	rare disease	female	A	White - British	XX	alive	p10000000836	false	2019		female	Consenting
+r20000000529	rare disease	female	A	White - British	XX	alive	p10000000839	false	2017		female	Consenting
+r20000000529	rare disease	female	A	White - British	XX	alive	p10000000837	false	1986		female	Consenting
+r20000000529	rare disease	male	A	White - British	XY	alive	p10000000838	false	1987		male	Consenting
+r20000000530	rare disease	female	A	White - British	XX	alive	p10000000840	false	1983		female	Consenting
+r20000000531	rare disease	female	A	White - British	XX	alive	p10000000841	false	1957		female	Consenting
+r20000000532	rare disease	male	A	White - British	XY	alive	p10000000842	false	1977		male	Consenting
+r20000000533	rare disease	female	A	White - British	XX	alive	p10000000845	false	2014		female	Consenting
+r20000000533	rare disease	female	A	White - British	XX	alive	p10000000843	false	1977		female	Consenting
+r20000000533	rare disease	male	A	White - British	XY	alive	p10000000844	false	1976		male	Consenting
+r20000000534	rare disease	male	A	White - British	XY	alive	p10000000848	false	2013		male	Consenting
+r20000000534	rare disease	female	A	White - British	XX	alive	p10000000846	false	1988		female	Consenting
+r20000000534	rare disease	male	A	White - British	XY	alive	p10000000847	false	1989		male	Consenting
+r20000000535	rare disease	female	C	White - Any other White background	XX	alive	p10000000849	false	1963		female	Consenting
+r20000000536	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000850	false	2014		female	Consenting
+r20000000537	rare disease	male	A	White - British	XY	alive	p10000000853	false	2021		male	Consenting
+r20000000537	rare disease	female	A	White - British	XX	alive	p10000000851	false	1982		female	Consenting
+r20000000537	rare disease	male	A	White - British	XY	alive	p10000000852	false	1977		male	Consenting
+r20000000538	rare disease	female	A	White - British	XX	alive	p10000000854	false	1993		female	Consenting
+r20000000539	rare disease	male	A	White - British	XY	alive	p10000000855	false	1975		male	Consenting
+r20000000540	rare disease	male	A	White - British	XY	alive	p10000000858	false	2020		male	Consenting
+r20000000540	rare disease	female	A	White - British	XX	alive	p10000000856	false	1981		female	Consenting
+r20000000540	rare disease	male	A	White - British	XY	alive	p10000000857	false	1976		male	Consenting
+r20000000541	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000859	false	1999		male	Consenting
+r20000000542	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000000860	false	2006		male	Consenting
+r20000000543	rare disease	female	A	White - British	XX	alive	p10000000861	false	2012		female	Consenting
+r20000000544	rare disease	female	A	White - British	XX	alive	p10000000864	false	2017		female	Consenting
+r20000000544	rare disease	female	A	White - British	XX	alive	p10000000862	false	1984		female	Consenting
+r20000000544	rare disease	male	A	White - British	XY	alive	p10000000863	false	1986		male	Consenting
+r20000000545	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000865	false	1973		male	Consenting
+r20000000546	rare disease	female	A	White - British	XX	alive	p10000000866	false	2019		female	Consenting
+r20000000547	rare disease	male	A	White - British	XY	alive	p10000000867	false	2019		male	Consenting
+r20000000548	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000868	false	1967		female	Consenting
+r20000000549	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000869	false	2011		male	Consenting
+r20000000550	rare disease	female	A	White - British	XX	alive	p10000000870	false	1963		female	Consenting
+r20000000551	rare disease	female	A	White - British	XX	alive	p10000000871	false	1957		female	Consenting
+r20000000552	rare disease	male	A	White - British	XY	alive	p10000000872	false	1984		male	Consenting
+r20000000553	rare disease	male	A	White - British	XY	alive	p10000000873	false	1965		male	Consenting
+r20000000554	rare disease	male	A	White - British	XY	alive	p10000000874	false	2005		male	Consenting
+r20000000555	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000875	false	1974		male	Consenting
+r20000000556	rare disease	male	A	White - British	XY	alive	p10000000876	false	2006		male	Consenting
+r20000000557	rare disease	male	A	White - British	XY	alive	p10000000877	false	1977		male	Consenting
+r20000000558	rare disease	female	A	White - British	XX	alive	p10000000880	false	2022		female	Consenting
+r20000000558	rare disease	female	A	White - British	XX	alive	p10000000878	false	1995		female	Consenting
+r20000000558	rare disease	male	A	White - British	XY	alive	p10000000879	false	1994		male	Consenting
+r20000000559	rare disease	male	A	White - British	XY	alive	p10000000881	false	2018		male	Consenting
+r20000000560	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000884	false	2019		male	Consenting
+r20000000560	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000882	false	1981		female	Consenting
+r20000000560	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000883	false	1974		male	Consenting
+r20000000561	rare disease	male	A	White - British	XY	alive	p10000000885	false	2021		male	Consenting
+r20000000562	rare disease	male	C	White - Any other White background	XY	alive	p10000000886	false	2005		male	Consenting
+r20000000563	rare disease	male	C	White - Any other White background	XY	alive	p10000000887	false	2017		male	Consenting
+r20000000564	rare disease	male	E	Mixed - White and Black African	XY	alive	p10000000888	false	1962		male	Consenting
+r20000000565	rare disease	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000000889	false	2005		female	Consenting
+r20000000566	rare disease	female	A	White - British	XX	alive	p10000000890	false	2017		female	Consenting
+r20000000567	rare disease	male	C	White - Any other White background	XY	alive	p10000000891	false	2018		male	Consenting
+r20000000568	rare disease	female	A	White - British	XX	alive	p10000000892	false	2010		female	Consenting
+r20000000569	rare disease	male	A	White - British	XY	alive	p10000000893	false	2015		male	Consenting
+r20000000570	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000894	false	1983		male	Consenting
+r20000000571	rare disease	female	P	Black or Black British - Any other Black background	XX	alive	p10000000895	false	1956		female	Consenting
+r20000000572	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000898	false	2021		female	Consenting
+r20000000572	rare disease	female	C	White - Any other White background	XX	alive	p10000000896	false	1988		female	Consenting
+r20000000572	rare disease	male	C	White - Any other White background	XY	alive	p10000000897	false	1984		male	Consenting
+r20000000573	rare disease	male	A	White - British	XY	alive	p10000000899	false	1993		male	Consenting
+r20000000574	rare disease	male	A	White - British	XY	alive	p10000000900	false	2009		male	Consenting
+r20000000575	rare disease	female	A	White - British	XX	alive	p10000000901	false	1987		female	Consenting
+r20000000576	rare disease	male	N	Black or Black British - African	XY	alive	p10000000902	false	1980		male	Consenting
+r20000000577	rare disease	male	A	White - British	XY	alive	p10000000903	false	1988		male	Consenting
+r20000000578	rare disease	male	A	White - British	XY	alive	p10000000904	false	1989		male	Consenting
+r20000000579	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000907	false	2011		male	Consenting
+r20000000579	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000905	false	1984		female	Consenting
+r20000000579	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000906	false	1978		male	Consenting
+r20000000580	rare disease	male	N	Black or Black British - African	XY	alive	p10000000908	false	1968		male	Consenting
+r20000000581	rare disease	female	A	White - British	XX	alive	p10000000909	false	1964		female	Consenting
+r20000000582	rare disease	female	A	White - British	XX	alive	p10000000910	false	1978		female	Consenting
+r20000000583	rare disease	female	A	White - British	XX	alive	p10000000911	false	2015		female	Consenting
+r20000000584	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000912	false	1984		male	Consenting
+r20000000585	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000915	false	2017		female	Consenting
+r20000000585	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000000913	false	1987		female	Consenting
+r20000000585	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000000914	false	1986		male	Consenting
+r20000000586	rare disease	male	C	White - Any other White background	XY	alive	p10000000916	false	2019		male	Consenting
+r20000000587	rare disease	male	A	White - British	XY	alive	p10000000917	false	1993		male	Consenting
+r20000000588	rare disease	male	A	White - British	XY	alive	p10000000918	false	1963		male	Consenting
+r20000000589	rare disease	female	Z	Not Stated	XX	alive	p10000000919	false	1973		female	Consenting
+r20000000590	rare disease	female	A	White - British	XX	alive	p10000000922	false	2019		female	Consenting
+r20000000590	rare disease	female	A	White - British	XX	alive	p10000000920	false	1997		female	Consenting
+r20000000590	rare disease	male	A	White - British	XY	alive	p10000000921	false	1991		male	Consenting
+r20000000591	rare disease	male	A	White - British	XY	alive	p10000000925	false	2003		male	Consenting
+r20000000591	rare disease	female	A	White - British	XX	alive	p10000000923	false	1980		female	Consenting
+r20000000591	rare disease	male	A	White - British	XY	alive	p10000000924	false	1976		male	Consenting
+r20000000592	rare disease	male	A	White - British	XY	alive	p10000000928	false	2015		male	Consenting
+r20000000592	rare disease	female	A	White - British	XX	alive	p10000000926	false	1978		female	Consenting
+r20000000592	rare disease	male	A	White - British	XY	alive	p10000000927	false	1973		male	Consenting
+r20000000593	rare disease	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000000929	false	1993		female	Consenting
+r20000000594	rare disease	male	A	White - British	XY	alive	p10000000930	false	1997		male	Consenting
+r20000000595	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000933	false	2018		female	Consenting
+r20000000595	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000000931	false	1983		female	Consenting
+r20000000595	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000000932	false	1978		male	Consenting
+r20000000596	rare disease	male	A	White - British	XY	alive	p10000000934	false	2004		male	Consenting
+r20000000597	rare disease	male	Z	Not Stated	XY	alive	p10000000937	false	2003		male	Consenting
+r20000000597	rare disease	female	Z	Not Stated	XX	alive	p10000000935	false	1981		female	Consenting
+r20000000597	rare disease	male	Z	Not Stated	XY	alive	p10000000936	false	1980		male	Consenting
+r20000000598	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000940	false	2004		male	Consenting
+r20000000598	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000938	false	1981		female	Consenting
+r20000000598	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000939	false	1978		male	Consenting
+r20000000599	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000000941	false	1959		male	Consenting
+r20000000600	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000942	false	1973		male	Consenting
+r20000000601	rare disease	female	A	White - British	XX	alive	p10000000943	false	1982		female	Consenting
+r20000000602	rare disease	male	A	White - British	XY	alive	p10000000944	false	2016		male	Consenting
+r20000000603	rare disease	female	A	White - British	XX	alive	p10000000945	false	1964		female	Consenting
+r20000000604	rare disease	female	A	White - British	XX	alive	p10000000948	false	2017		female	Consenting
+r20000000604	rare disease	female	A	White - British	XX	alive	p10000000946	false	1985		female	Consenting
+r20000000604	rare disease	male	A	White - British	XY	alive	p10000000947	false	1984		male	Consenting
+r20000000605	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000951	false	2015		male	Consenting
+r20000000605	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000000949	false	1989		female	Consenting
+r20000000605	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000000950	false	1991		male	Consenting
+r20000000606	rare disease	male	A	White - British	XY	alive	p10000000954	false	2023		male	Consenting
+r20000000606	rare disease	female	A	White - British	XX	alive	p10000000952	false	1993		female	Consenting
+r20000000606	rare disease	male	A	White - British	XY	alive	p10000000953	false	1990		male	Consenting
+r20000000607	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000955	false	1984		male	Consenting
+r20000000608	rare disease	male	C	White - Any other White background	XY	alive	p10000000956	false	2015		male	Consenting
+r20000000609	rare disease	male	A	White - British	XY	alive	p10000000957	false	2003		male	Consenting
+r20000000610	rare disease	female	A	White - British	XX	alive	p10000000958	false	1971		female	Consenting
+r20000000611	rare disease	male	C	White - Any other White background	XY	alive	p10000000959	false	1974		male	Consenting
+r20000000612	rare disease	female	Z	Not Stated	XX	alive	p10000000962	false	2017		female	Consenting
+r20000000612	rare disease	female	Z	Not Stated	XX	alive	p10000000960	false	1985		female	Consenting
+r20000000612	rare disease	male	Z	Not Stated	XY	alive	p10000000961	false	1980		male	Consenting
+r20000000613	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000965	false	2018		female	Consenting
+r20000000613	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000000963	false	1991		female	Consenting
+r20000000613	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000000964	false	1992		male	Consenting
+r20000000614	rare disease	male	A	White - British	XY	alive	p10000000966	false	1997		male	Consenting
+r20000000615	rare disease	female	A	White - British	XX	alive	p10000000969	false	2016		female	Consenting
+r20000000615	rare disease	female	A	White - British	XX	alive	p10000000967	false	1993		female	Consenting
+r20000000615	rare disease	male	A	White - British	XY	alive	p10000000968	false	1994		male	Consenting
+r20000000616	rare disease	female	C	White - Any other White background	XX	alive	p10000000970	false	1973		female	Consenting
+r20000000617	rare disease	male	C	White - Any other White background	XY	alive	p10000000973	false	2019		male	Consenting
+r20000000617	rare disease	female	C	White - Any other White background	XX	alive	p10000000971	false	1994		female	Consenting
+r20000000617	rare disease	male	C	White - Any other White background	XY	alive	p10000000972	false	1993		male	Consenting
+r20000000618	rare disease	female	A	White - British	XX	alive	p10000000974	false	2000		female	Consenting
+r20000000619	rare disease	female	A	White - British	XX	alive	p10000000975	false	1968		female	Consenting
+r20000000620	rare disease	male	A	White - British	XY	alive	p10000000978	false	2020		male	Consenting
+r20000000620	rare disease	female	A	White - British	XX	alive	p10000000976	false	1989		female	Consenting
+r20000000620	rare disease	male	A	White - British	XY	alive	p10000000977	false	1991		male	Consenting
+r20000000621	rare disease	female	C	White - Any other White background	XX	alive	p10000000979	false	2017		female	Consenting
+r20000000622	rare disease	female	A	White - British	XX	alive	p10000000980	false	1960		female	Consenting
+r20000000623	rare disease	female	A	White - British	XX	alive	p10000000983	false	2016		female	Consenting
+r20000000623	rare disease	female	A	White - British	XX	alive	p10000000981	false	1987		female	Consenting
+r20000000623	rare disease	male	A	White - British	XY	alive	p10000000982	false	1984		male	Consenting
+r20000000624	rare disease	male	C	White - Any other White background	XY	alive	p10000000984	false	1971		male	Consenting
+r20000000625	rare disease	female	A	White - British	XX	alive	p10000000985	false	1979		female	Consenting
+r20000000626	rare disease	female	A	White - British	XX	alive	p10000000988	false	2019		female	Consenting
+r20000000626	rare disease	female	A	White - British	XX	alive	p10000000986	false	1983		female	Consenting
+r20000000626	rare disease	male	A	White - British	XY	alive	p10000000987	false	1985		male	Consenting
+r20000000627	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000991	false	2005		male	Consenting
+r20000000627	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000989	false	1971		female	Consenting
+r20000000627	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000000990	false	1970		male	Consenting
+r20000000628	rare disease	male	C	White - Any other White background	XY	alive	p10000000992	false	1963		male	Consenting
+r20000000629	rare disease	female	A	White - British	XX	alive	p10000000993	false	2015		female	Consenting
+r20000000630	rare disease	male	A	White - British	XY	alive	p10000000994	false	1972		male	Consenting
+r20000000631	rare disease	female	A	White - British	XX	alive	p10000000997	false	2010		female	Consenting
+r20000000631	rare disease	female	A	White - British	XX	alive	p10000000995	false	1973		female	Consenting
+r20000000631	rare disease	male	A	White - British	XY	alive	p10000000996	false	1973		male	Consenting
+r20000000632	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000000998	false	1987		male	Consenting
+r20000000633	rare disease	female	G	Mixed - Any other mixed background	XX	alive	p10000000999	false	1991		female	Consenting
+r20000000634	rare disease	male	Z	Not Stated	XY	alive	p10000001002	false	2016		male	Consenting
+r20000000634	rare disease	female	Z	Not Stated	XX	alive	p10000001000	false	1996		female	Consenting
+r20000000634	rare disease	male	Z	Not Stated	XY	alive	p10000001001	false	1995		male	Consenting
+r20000000635	rare disease	male	A	White - British	XY	alive	p10000001005	false	2022		male	Consenting
+r20000000635	rare disease	female	A	White - British	XX	alive	p10000001003	false	1996		female	Consenting
+r20000000635	rare disease	male	A	White - British	XY	alive	p10000001004	false	1993		male	Consenting
+r20000000636	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001006	false	1982		male	Consenting
+r20000000637	rare disease	female	A	White - British	XX	alive	p10000001007	false	1970		female	Consenting
+r20000000638	rare disease	male	A	White - British	XY	alive	p10000001008	false	2001		male	Consenting
+r20000000639	rare disease	female	N	Black or Black British - African	XX	alive	p10000001009	false	2010		female	Consenting
+r20000000640	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000001010	false	2011		male	Consenting
+r20000000641	rare disease	male	A	White - British	XY	alive	p10000001011	false	1969		male	Consenting
+r20000000642	rare disease	male	C	White - Any other White background	XY	alive	p10000001012	false	2018		male	Consenting
+r20000000643	rare disease	female	A	White - British	XX	alive	p10000001013	false	1951		female	Consenting
+r20000000644	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001016	false	2017		female	Consenting
+r20000000644	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001014	false	1984		female	Consenting
+r20000000644	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000001015	false	1986		male	Consenting
+r20000000645	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001017	false	1982		male	Consenting
+r20000000646	rare disease	female	A	White - British	XX	alive	p10000001020	false	2016		female	Consenting
+r20000000646	rare disease	female	A	White - British	XX	alive	p10000001018	false	1986		female	Consenting
+r20000000646	rare disease	male	A	White - British	XY	alive	p10000001019	false	1986		male	Consenting
+r20000000647	rare disease	female	A	White - British	XX	alive	p10000001023	false	2020		female	Consenting
+r20000000647	rare disease	female	A	White - British	XX	alive	p10000001021	false	1987		female	Consenting
+r20000000647	rare disease	male	A	White - British	XY	alive	p10000001022	false	1984		male	Consenting
+r20000000648	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000001024	false	1990		male	Consenting
+r20000000649	rare disease	male	A	White - British	XY	alive	p10000001027	false	2018		male	Consenting
+r20000000649	rare disease	female	A	White - British	XX	alive	p10000001025	false	1982		female	Consenting
+r20000000649	rare disease	male	A	White - British	XY	alive	p10000001026	false	1982		male	Consenting
+r20000000650	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001028	false	1982		male	Consenting
+r20000000651	rare disease	female	C	White - Any other White background	XX	alive	p10000001031	false	2010		female	Consenting
+r20000000651	rare disease	female	C	White - Any other White background	XX	alive	p10000001029	false	1987		female	Consenting
+r20000000651	rare disease	male	C	White - Any other White background	XY	alive	p10000001030	false	1985		male	Consenting
+r20000000652	rare disease	female	A	White - British	XX	alive	p10000001032	false	1996		female	Consenting
+r20000000653	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001033	false	1976		female	Consenting
+r20000000654	rare disease	female	A	White - British	XX	alive	p10000001036	false	2013		female	Consenting
+r20000000654	rare disease	female	A	White - British	XX	alive	p10000001034	false	1985		female	Consenting
+r20000000654	rare disease	male	A	White - British	XY	alive	p10000001035	false	1986		male	Consenting
+r20000000655	rare disease	male	A	White - British	XY	alive	p10000001039	false	2010		male	Consenting
+r20000000655	rare disease	female	A	White - British	XX	alive	p10000001037	false	1971		female	Consenting
+r20000000655	rare disease	male	A	White - British	XY	alive	p10000001038	false	1966		male	Consenting
+r20000000656	rare disease	male	Z	Not Stated	XY	alive	p10000001040	false	1979		male	Consenting
+r20000000657	rare disease	male	A	White - British	XY	alive	p10000001043	false	2019		male	Consenting
+r20000000657	rare disease	female	A	White - British	XX	alive	p10000001041	false	1996		female	Consenting
+r20000000657	rare disease	male	A	White - British	XY	alive	p10000001042	false	1997		male	Consenting
+r20000000658	rare disease	female	A	White - British	XX	alive	p10000001044	false	1972		female	Consenting
+r20000000659	rare disease	female	A	White - British	XX	alive	p10000001045	false	2013		female	Consenting
+r20000000660	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001046	false	1974		female	Consenting
+r20000000661	rare disease	male	A	White - British	XY	alive	p10000001047	false	2018		male	Consenting
+r20000000662	rare disease	female	A	White - British	XX	alive	p10000001050	false	2008		female	Consenting
+r20000000662	rare disease	female	A	White - British	XX	alive	p10000001048	false	1974		female	Consenting
+r20000000662	rare disease	male	A	White - British	XY	alive	p10000001049	false	1974		male	Consenting
+r20000000663	rare disease	female	A	White - British	XX	alive	p10000001051	false	1986		female	Consenting
+r20000000664	rare disease	female	A	White - British	XX	alive	p10000001052	false	1978		female	Consenting
+r20000000665	rare disease	female	A	White - British	XX	alive	p10000001053	false	1988		female	Consenting
+r20000000666	rare disease	female	B	White - Irish	XX	alive	p10000001054	false	2009		female	Consenting
+r20000000667	rare disease	female	Z	Not Stated	XX	alive	p10000001055	false	1992		female	Consenting
+r20000000668	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001058	false	2016		male	Consenting
+r20000000668	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001056	false	1977		female	Consenting
+r20000000668	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001057	false	1973		male	Consenting
+r20000000669	rare disease	female	A	White - British	XX	alive	p10000001059	false	1990		female	Consenting
+r20000000670	rare disease	female	A	White - British	XX	alive	p10000001060	false	1985		female	Consenting
+r20000000671	rare disease	male	A	White - British	XY	alive	p10000001063	false	2015		male	Consenting
+r20000000671	rare disease	female	A	White - British	XX	alive	p10000001061	false	1976		female	Consenting
+r20000000671	rare disease	male	A	White - British	XY	alive	p10000001062	false	1978		male	Consenting
+r20000000672	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001064	false	1956		male	Consenting
+r20000000673	rare disease	male	A	White - British	XY	alive	p10000001065	false	2017		male	Consenting
+r20000000674	rare disease	male	A	White - British	XY	alive	p10000001068	false	2016		male	Consenting
+r20000000674	rare disease	female	A	White - British	XX	alive	p10000001066	false	1995		female	Consenting
+r20000000674	rare disease	male	A	White - British	XY	alive	p10000001067	false	1988		male	Consenting
+r20000000675	rare disease	male	A	White - British	XY	alive	p10000001071	false	2022		male	Consenting
+r20000000675	rare disease	female	A	White - British	XX	alive	p10000001069	false	1991		female	Consenting
+r20000000675	rare disease	male	A	White - British	XY	alive	p10000001070	false	1986		male	Consenting
+r20000000676	rare disease	female	A	White - British	XX	alive	p10000001074	false	2012		female	Consenting
+r20000000676	rare disease	female	A	White - British	XX	alive	p10000001072	false	1987		female	Consenting
+r20000000676	rare disease	male	A	White - British	XY	alive	p10000001073	false	1986		male	Consenting
+r20000000677	rare disease	female	A	White - British	XX	alive	p10000001075	false	1939		female	Consenting
+r20000000678	rare disease	male	A	White - British	XY	alive	p10000001076	false	2014		male	Consenting
+r20000000679	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001079	false	2017		female	Consenting
+r20000000679	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001077	false	1984		female	Consenting
+r20000000679	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001078	false	1986		male	Consenting
+r20000000680	rare disease	female	A	White - British	XX	alive	p10000001080	false	2019		female	Consenting
+r20000000681	rare disease	male	Z	Not Stated	XY	alive	p10000001081	false	2021		male	Consenting
+r20000000682	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001082	false	1986		male	Consenting
+r20000000683	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001083	false	1988		female	Consenting
+r20000000684	rare disease	male	A	White - British	XY	alive	p10000001084	false	2003		male	Consenting
+r20000000685	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001085	false	1955		male	Consenting
+r20000000686	rare disease	female	A	White - British	XX	alive	p10000001088	false	2009		female	Consenting
+r20000000686	rare disease	female	A	White - British	XX	alive	p10000001086	false	1982		female	Consenting
+r20000000686	rare disease	male	A	White - British	XY	alive	p10000001087	false	1980		male	Consenting
+r20000000687	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001091	false	2018		male	Consenting
+r20000000687	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001089	false	1989		female	Consenting
+r20000000687	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001090	false	1985		male	Consenting
+r20000000688	rare disease	male	A	White - British	XY	alive	p10000001092	false	1986		male	Consenting
+r20000000689	rare disease	male	A	White - British	XY	alive	p10000001095	false	2012		male	Consenting
+r20000000689	rare disease	female	A	White - British	XX	alive	p10000001093	false	1976		female	Consenting
+r20000000689	rare disease	male	A	White - British	XY	alive	p10000001094	false	1975		male	Consenting
+r20000000690	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001096	false	1982		male	Consenting
+r20000000691	rare disease	female	A	White - British	XX	alive	p10000001097	false	2004		female	Consenting
+r20000000692	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001098	false	1989		male	Consenting
+r20000000693	rare disease	female	A	White - British	XX	alive	p10000001099	false	1980		female	Consenting
+r20000000694	rare disease	male	A	White - British	XY	alive	p10000001100	false	2012		male	Consenting
+r20000000695	rare disease	male	A	White - British	XY	alive	p10000001103	false	2017		male	Consenting
+r20000000695	rare disease	female	A	White - British	XX	alive	p10000001101	false	1979		female	Consenting
+r20000000695	rare disease	male	A	White - British	XY	alive	p10000001102	false	1980		male	Consenting
+r20000000696	rare disease	female	A	White - British	XX	alive	p10000001104	false	1988		female	Consenting
+r20000000697	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001105	false	1965		male	Consenting
+r20000000698	rare disease	female	A	White - British	XX	alive	p10000001106	false	2005		female	Consenting
+r20000000699	rare disease	female	A	White - British	XX	alive	p10000001107	false	2014		female	Consenting
+r20000000700	rare disease	male	A	White - British	XY	alive	p10000001108	false	2020		male	Consenting
+r20000000701	rare disease	male	A	White - British	XY	alive	p10000001109	false	1972		male	Consenting
+r20000000702	rare disease	male	A	White - British	XY	alive	p10000001110	false	1978		male	Consenting
+r20000000703	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001111	false	1966		male	Consenting
+r20000000704	rare disease	male	A	White - British	XY	alive	p10000001112	false	1994		male	Consenting
+r20000000705	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001113	false	1989		male	Consenting
+r20000000706	rare disease	female	A	White - British	XX	alive	p10000001114	false	1972		female	Consenting
+r20000000707	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000001117	false	2017		male	Consenting
+r20000000707	rare disease	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001115	false	1987		female	Consenting
+r20000000707	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000001116	false	1982		male	Consenting
+r20000000708	rare disease	female	A	White - British	XX	alive	p10000001118	false	2018		female	Consenting
+r20000000709	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000001119	false	2018		male	Consenting
+r20000000710	rare disease	female	Z	Not Stated	XX	alive	p10000001122	false	2012		female	Consenting
+r20000000710	rare disease	female	Z	Not Stated	XX	alive	p10000001120	false	1985		female	Consenting
+r20000000710	rare disease	male	Z	Not Stated	XY	alive	p10000001121	false	1981		male	Consenting
+r20000000711	rare disease	female	A	White - British	XX	alive	p10000001123	false	2019		female	Consenting
+r20000000712	rare disease	male	A	White - British	XY	alive	p10000001124	false	1992		male	Consenting
+r20000000713	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001125	false	2007		female	Consenting
+r20000000714	rare disease	female	A	White - British	XX	alive	p10000001126	false	1956		female	Consenting
+r20000000715	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000001127	false	2018		male	Consenting
+r20000000716	rare disease	female	A	White - British	XX	alive	p10000001128	false	2019		female	Consenting
+r20000000717	rare disease	female	A	White - British	XX	alive	p10000001129	false	2009		female	Consenting
+r20000000718	rare disease	male	A	White - British	XY	alive	p10000001130	false	2015		male	Consenting
+r20000000719	rare disease	male	A	White - British	XY	alive	p10000001131	false	2003		male	Consenting
+r20000000720	rare disease	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001132	false	1961		male	Consenting
+r20000000721	rare disease	male	A	White - British	XY	alive	p10000001133	false	1978		male	Consenting
+r20000000722	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001134	false	2017		female	Consenting
+r20000000723	rare disease	female	C	White - Any other White background	XX	alive	p10000001135	false	2006		female	Consenting
+r20000000724	rare disease	male	A	White - British	XY	alive	p10000001136	false	2009		male	Consenting
+r20000000725	rare disease	male	A	White - British	XY	alive	p10000001137	false	2017		male	Consenting
+r20000000726	rare disease	male	B	White - Irish	XY	alive	p10000001138	false	1984		male	Consenting
+r20000000727	rare disease	female	A	White - British	XX	alive	p10000001139	false	2005		female	Consenting
+r20000000728	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000001140	false	2006		female	Consenting
+r20000000729	rare disease	male	C	White - Any other White background	XY	alive	p10000001141	false	1960		male	Consenting
+r20000000730	rare disease	female	A	White - British	XX	alive	p10000001142	false	1987		female	Consenting
+r20000000731	rare disease	female	C	White - Any other White background	XX	alive	p10000001143	false	2018		female	Consenting
+r20000000732	rare disease	male	B	White - Irish	XY	alive	p10000001146	false	2005		male	Consenting
+r20000000732	rare disease	female	B	White - Irish	XX	alive	p10000001144	false	1966		female	Consenting
+r20000000732	rare disease	male	B	White - Irish	XY	alive	p10000001145	false	1962		male	Consenting
+r20000000733	rare disease	male	C	White - Any other White background	XY	alive	p10000001149	false	2005		male	Consenting
+r20000000733	rare disease	female	C	White - Any other White background	XX	alive	p10000001147	false	1968		female	Consenting
+r20000000733	rare disease	male	C	White - Any other White background	XY	alive	p10000001148	false	1965		male	Consenting
+r20000000734	rare disease	female	A	White - British	XX	alive	p10000001150	false	2017		female	Consenting
+r20000000735	rare disease	male	A	White - British	XY	alive	p10000001151	false	1996		male	Consenting
+r20000000736	rare disease	male	A	White - British	XY	alive	p10000001152	false	1976		male	Consenting
+r20000000737	rare disease	male	Z	Not Stated	XY	alive	p10000001153	false	2011		male	Consenting
+r20000000738	rare disease	female	A	White - British	XX	alive	p10000001156	false	2007		female	Consenting
+r20000000738	rare disease	female	A	White - British	XX	alive	p10000001154	false	1987		female	Consenting
+r20000000738	rare disease	male	A	White - British	XY	alive	p10000001155	false	1986		male	Consenting
+r20000000739	rare disease	male	A	White - British	XY	alive	p10000001159	false	2016		male	Consenting
+r20000000739	rare disease	female	A	White - British	XX	alive	p10000001157	false	1987		female	Consenting
+r20000000739	rare disease	male	A	White - British	XY	alive	p10000001158	false	1982		male	Consenting
+r20000000740	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001160	false	1994		female	Consenting
+r20000000741	rare disease	male	A	White - British	XY	alive	p10000001161	false	1961		male	Consenting
+r20000000742	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001164	false	2020		male	Consenting
+r20000000742	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000001162	false	1983		female	Consenting
+r20000000742	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001163	false	1985		male	Consenting
+r20000000743	rare disease	female	A	White - British	XX	alive	p10000001165	false	2018		female	Consenting
+r20000000744	rare disease	male	A	White - British	XY	alive	p10000001166	false	1985		male	Consenting
+r20000000745	rare disease	male	C	White - Any other White background	XY	alive	p10000001169	false	2013		male	Consenting
+r20000000745	rare disease	female	C	White - Any other White background	XX	alive	p10000001167	false	1981		female	Consenting
+r20000000745	rare disease	male	C	White - Any other White background	XY	alive	p10000001168	false	1976		male	Consenting
+r20000000746	rare disease	male	A	White - British	XY	alive	p10000001170	false	2002		male	Consenting
+r20000000747	rare disease	female	A	White - British	XX	alive	p10000001171	false	1993		female	Consenting
+r20000000748	rare disease	male	A	White - British	XY	alive	p10000001172	false	2011		male	Consenting
+r20000000749	rare disease	male	A	White - British	XY	alive	p10000001173	false	2020		male	Consenting
+r20000000750	rare disease	female	N	Black or Black British - African	XX	alive	p10000001176	false	2020		female	Consenting
+r20000000750	rare disease	female	N	Black or Black British - African	XX	alive	p10000001174	false	1989		female	Consenting
+r20000000750	rare disease	male	N	Black or Black British - African	XY	alive	p10000001175	false	1991		male	Consenting
+r20000000751	rare disease	male	A	White - British	XY	alive	p10000001177	false	1960		male	Consenting
+r20000000752	rare disease	female	A	White - British	XX	alive	p10000001178	false	1963		female	Consenting
+r20000000753	rare disease	female	C	White - Any other White background	XX	alive	p10000001179	false	2019		female	Consenting
+r20000000754	rare disease	female	A	White - British	XX	alive	p10000001180	false	1974		female	Consenting
+r20000000755	rare disease	male	A	White - British	XY	alive	p10000001181	false	1972		male	Consenting
+r20000000756	rare disease	male	A	White - British	XY	alive	p10000001182	false	2019		male	Consenting
+r20000000757	rare disease	female	A	White - British	XX	alive	p10000001183	false	2005		female	Consenting
+r20000000758	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000001184	false	2019		female	Consenting
+r20000000759	rare disease	male	A	White - British	XY	alive	p10000001185	false	2014		male	Consenting
+r20000000760	rare disease	male	A	White - British	XY	alive	p10000001186	false	2017		male	Consenting
+r20000000761	rare disease	male	N	Black or Black British - African	XY	alive	p10000001187	false	1979		male	Consenting
+r20000000762	rare disease	male	Z	Not Stated	XY	alive	p10000001190	false	2021		male	Consenting
+r20000000762	rare disease	female	Z	Not Stated	XX	alive	p10000001188	false	1993		female	Consenting
+r20000000762	rare disease	male	Z	Not Stated	XY	alive	p10000001189	false	1995		male	Consenting
+r20000000763	rare disease	female	A	White - British	XX	alive	p10000001191	false	2011		female	Consenting
+r20000000764	rare disease	male	N	Black or Black British - African	XY	alive	p10000001192	false	1975		male	Consenting
+r20000000765	rare disease	male	A	White - British	XY	alive	p10000001195	false	2017		male	Consenting
+r20000000765	rare disease	female	A	White - British	XX	alive	p10000001193	false	1992		female	Consenting
+r20000000765	rare disease	male	A	White - British	XY	alive	p10000001194	false	1994		male	Consenting
+r20000000766	rare disease	male	A	White - British	XY	alive	p10000001196	false	1993		male	Consenting
+r20000000767	rare disease	female	A	White - British	XX	alive	p10000001197	false	1980		female	Consenting
+r20000000768	rare disease	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001198	false	1975		female	Consenting
+r20000000769	rare disease	female	A	White - British	XX	alive	p10000001199	false	1980		female	Consenting
+r20000000770	rare disease	female	A	White - British	XX	alive	p10000001200	false	2016		female	Consenting
+r20000000771	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000001201	false	1990		male	Consenting
+r20000000772	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000001204	false	2008		male	Consenting
+r20000000772	rare disease	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001202	false	1987		female	Consenting
+r20000000772	rare disease	male	D	Mixed - White and Black Caribbean	XY	alive	p10000001203	false	1981		male	Consenting
+r20000000773	rare disease	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000001205	false	1976		male	Consenting
+r20000000774	rare disease	male	A	White - British	XY	alive	p10000001206	false	2003		male	Consenting
+r20000000775	rare disease	male	C	White - Any other White background	XY	alive	p10000001209	false	2015		male	Consenting
+r20000000775	rare disease	female	C	White - Any other White background	XX	alive	p10000001207	false	1977		female	Consenting
+r20000000775	rare disease	male	C	White - Any other White background	XY	alive	p10000001208	false	1977		male	Consenting
+r20000000776	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001210	false	1996		female	Consenting
+r20000000777	rare disease	female	C	White - Any other White background	XX	alive	p10000001211	false	1971		female	Consenting
+r20000000778	rare disease	male	N	Black or Black British - African	XY	alive	p10000001212	false	1952		male	Consenting
+r20000000779	rare disease	male	A	White - British	XY	alive	p10000001215	false	2009		male	Consenting
+r20000000779	rare disease	female	A	White - British	XX	alive	p10000001213	false	1984		female	Consenting
+r20000000779	rare disease	male	A	White - British	XY	alive	p10000001214	false	1984		male	Consenting
+r20000000780	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000001218	false	2021		male	Consenting
+r20000000780	rare disease	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000001216	false	1996		female	Consenting
+r20000000780	rare disease	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000001217	false	1993		male	Consenting
+r20000000781	rare disease	male	Z	Not Stated	XY	alive	p10000001221	false	2014		male	Consenting
+r20000000781	rare disease	female	Z	Not Stated	XX	alive	p10000001219	false	1988		female	Consenting
+r20000000781	rare disease	male	Z	Not Stated	XY	alive	p10000001220	false	1981		male	Consenting
+r20000000782	rare disease	male	A	White - British	XY	alive	p10000001222	false	1978		male	Consenting
+r20000000783	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001225	false	2022		male	Consenting
+r20000000783	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001223	false	1993		female	Consenting
+r20000000783	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001224	false	1989		male	Consenting
+r20000000784	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001226	false	1965		male	Consenting
+r20000000785	rare disease	female	A	White - British	XX	alive	p10000001227	false	2010		female	Consenting
+r20000000786	rare disease	male	A	White - British	XY	alive	p10000001228	false	1978		male	Consenting
+r20000000787	rare disease	female	A	White - British	XX	alive	p10000001229	false	2005		female	Consenting
+r20000000788	rare disease	female	A	White - British	XX	alive	p10000001230	false	1999		female	Consenting
+r20000000789	rare disease	female	A	White - British	XX	alive	p10000001231	false	1973		female	Consenting
+r20000000790	rare disease	male	A	White - British	XY	alive	p10000001232	false	2012		male	Consenting
+r20000000791	rare disease	female	A	White - British	XX	alive	p10000001233	false	2019		female	Consenting
+r20000000792	rare disease	female	A	White - British	XX	alive	p10000001234	false	2018		female	Consenting
+r20000000793	rare disease	female	A	White - British	XX	alive	p10000001235	false	1979		female	Consenting
+r20000000794	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001238	false	2012		male	Consenting
+r20000000794	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000001236	false	1976		female	Consenting
+r20000000794	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001237	false	1973		male	Consenting
+r20000000795	rare disease	male	A	White - British	XY	alive	p10000001241	false	2016		male	Consenting
+r20000000795	rare disease	female	A	White - British	XX	alive	p10000001239	false	1981		female	Consenting
+r20000000795	rare disease	male	A	White - British	XY	alive	p10000001240	false	1980		male	Consenting
+r20000000796	rare disease	female	A	White - British	XX	alive	p10000001242	false	1982		female	Consenting
+r20000000797	rare disease	female	C	White - Any other White background	XX	alive	p10000001243	false	2007		female	Consenting
+r20000000798	rare disease	male	A	White - British	XY	alive	p10000001244	false	2004		male	Consenting
+r20000000799	rare disease	male	Z	Not Stated	XY	alive	p10000001245	false	1985		male	Consenting
+r20000000800	rare disease	female	A	White - British	XX	alive	p10000001246	false	1991		female	Consenting
+r20000000801	rare disease	female	A	White - British	XX	alive	p10000001247	false	1979		female	Consenting
+r20000000802	rare disease	female	A	White - British	XX	alive	p10000001248	false	2013		female	Consenting
+r20000000803	rare disease	female	A	White - British	XX	alive	p10000001249	false	1974		female	Consenting
+r20000000804	rare disease	female	C	White - Any other White background	XX	alive	p10000001250	false	1950		female	Consenting
+r20000000805	rare disease	male	A	White - British	XY	alive	p10000001253	false	2018		male	Consenting
+r20000000805	rare disease	female	A	White - British	XX	alive	p10000001251	false	1996		female	Consenting
+r20000000805	rare disease	male	A	White - British	XY	alive	p10000001252	false	1994		male	Consenting
+r20000000806	rare disease	male	C	White - Any other White background	XY	alive	p10000001254	false	2014		male	Consenting
+r20000000807	rare disease	male	C	White - Any other White background	XY	alive	p10000001257	false	2020		male	Consenting
+r20000000807	rare disease	female	C	White - Any other White background	XX	alive	p10000001255	false	1992		female	Consenting
+r20000000807	rare disease	male	C	White - Any other White background	XY	alive	p10000001256	false	1993		male	Consenting
+r20000000808	rare disease	female	A	White - British	XX	alive	p10000001258	false	1992		female	Consenting
+r20000000809	rare disease	male	A	White - British	XY	alive	p10000001259	false	2018		male	Consenting
+r20000000810	rare disease	male	A	White - British	XY	alive	p10000001262	false	2017		male	Consenting
+r20000000810	rare disease	female	A	White - British	XX	alive	p10000001260	false	1979		female	Consenting
+r20000000810	rare disease	male	A	White - British	XY	alive	p10000001261	false	1976		male	Consenting
+r20000000811	rare disease	female	A	White - British	XX	alive	p10000001263	false	1988		female	Consenting
+r20000000812	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001266	false	2016		female	Consenting
+r20000000812	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001264	false	1979		female	Consenting
+r20000000812	rare disease	male	M	Black or Black British - Caribbean	XY	alive	p10000001265	false	1974		male	Consenting
+r20000000813	rare disease	male	A	White - British	XY	alive	p10000001267	false	2005		male	Consenting
+r20000000814	rare disease	male	A	White - British	XY	alive	p10000001268	false	2006		male	Consenting
+r20000000815	rare disease	male	P	Black or Black British - Any other Black background	XY	alive	p10000001269	false	1979		male	Consenting
+r20000000816	rare disease	female	C	White - Any other White background	XX	alive	p10000001270	false	2020		female	Consenting
+r20000000817	rare disease	female	A	White - British	XX	alive	p10000001271	false	2002		female	Consenting
+r20000000818	rare disease	male	A	White - British	XY	alive	p10000001272	false	1957		male	Consenting
+r20000000819	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001273	false	2019		male	Consenting
+r20000000820	rare disease	male	G	Mixed - Any other mixed background	XY	alive	p10000001274	false	1959		male	Consenting
+r20000000821	rare disease	male	A	White - British	XY	alive	p10000001275	false	1966		male	Consenting
+r20000000822	rare disease	female	A	White - British	XX	alive	p10000001278	false	2013		female	Consenting
+r20000000822	rare disease	female	A	White - British	XX	alive	p10000001276	false	1991		female	Consenting
+r20000000822	rare disease	male	A	White - British	XY	alive	p10000001277	false	1984		male	Consenting
+r20000000823	rare disease	male	A	White - British	XY	alive	p10000001279	false	1971		male	Consenting
+r20000000824	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001280	false	2003		female	Consenting
+r20000000825	rare disease	male	A	White - British	XY	alive	p10000001281	false	1972		male	Consenting
+r20000000826	rare disease	male	A	White - British	XY	alive	p10000001282	false	1992		male	Consenting
+r20000000827	rare disease	male	A	White - British	XY	alive	p10000001283	false	1985		male	Consenting
+r20000000828	rare disease	female	A	White - British	XX	alive	p10000001286	false	2008		female	Consenting
+r20000000828	rare disease	female	A	White - British	XX	alive	p10000001284	false	1982		female	Consenting
+r20000000828	rare disease	male	A	White - British	XY	alive	p10000001285	false	1980		male	Consenting
+r20000000829	rare disease	female	A	White - British	XX	alive	p10000001289	false	2014		female	Consenting
+r20000000829	rare disease	female	A	White - British	XX	alive	p10000001287	false	1989		female	Consenting
+r20000000829	rare disease	male	A	White - British	XY	alive	p10000001288	false	1985		male	Consenting
+r20000000830	rare disease	female	A	White - British	XX	alive	p10000001290	false	2015		female	Consenting
+r20000000831	rare disease	female	A	White - British	XX	alive	p10000001291	false	2010		female	Consenting
+r20000000832	rare disease	female	E	Mixed - White and Black African	XX	alive	p10000001292	false	2005		female	Consenting
+r20000000833	rare disease	male	A	White - British	XY	alive	p10000001293	false	1961		male	Consenting
+r20000000834	rare disease	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001294	false	1943		female	Consenting
+r20000000835	rare disease	female	A	White - British	XX	alive	p10000001295	false	1961		female	Consenting
+r20000000836	rare disease	female	A	White - British	XX	alive	p10000001296	false	1969		female	Consenting
+r20000000837	rare disease	male	C	White - Any other White background	XY	alive	p10000001297	false	1979		male	Consenting
+r20000000838	rare disease	male	A	White - British	XY	alive	p10000001298	false	1958		male	Consenting
+r20000000839	rare disease	male	A	White - British	XY	alive	p10000001301	false	2017		male	Consenting
+r20000000839	rare disease	female	A	White - British	XX	alive	p10000001299	false	1980		female	Consenting
+r20000000839	rare disease	male	A	White - British	XY	alive	p10000001300	false	1975		male	Consenting
+r20000000840	rare disease	male	A	White - British	XY	alive	p10000001302	false	1976		male	Consenting
+r20000000841	rare disease	male	A	White - British	XY	alive	p10000001305	false	2019		male	Consenting
+r20000000841	rare disease	female	A	White - British	XX	alive	p10000001303	false	1993		female	Consenting
+r20000000841	rare disease	male	A	White - British	XY	alive	p10000001304	false	1995		male	Consenting
+r20000000842	rare disease	male	A	White - British	XY	alive	p10000001306	false	1969		male	Consenting
+r20000000843	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001307	false	1985		female	Consenting
+r20000000844	rare disease	female	A	White - British	XX	alive	p10000001308	false	1985		female	Consenting
+r20000000845	rare disease	male	A	White - British	XY	alive	p10000001309	false	1981		male	Consenting
+r20000000846	rare disease	male	A	White - British	XY	alive	p10000001310	false	2008		male	Consenting
+r20000000847	rare disease	female	P	Black or Black British - Any other Black background	XX	alive	p10000001313	false	2006		female	Consenting
+r20000000847	rare disease	female	P	Black or Black British - Any other Black background	XX	alive	p10000001311	false	1975		female	Consenting
+r20000000847	rare disease	male	P	Black or Black British - Any other Black background	XY	alive	p10000001312	false	1977		male	Consenting
+r20000000848	rare disease	male	A	White - British	XY	alive	p10000001316	false	2017		male	Consenting
+r20000000848	rare disease	female	A	White - British	XX	alive	p10000001314	false	1989		female	Consenting
+r20000000848	rare disease	male	A	White - British	XY	alive	p10000001315	false	1982		male	Consenting
+r20000000849	rare disease	male	E	Mixed - White and Black African	XY	alive	p10000001317	false	2011		male	Consenting
+r20000000850	rare disease	male	A	White - British	XY	alive	p10000001320	false	2011		male	Consenting
+r20000000850	rare disease	female	A	White - British	XX	alive	p10000001318	false	1980		female	Consenting
+r20000000850	rare disease	male	A	White - British	XY	alive	p10000001319	false	1979		male	Consenting
+r20000000851	rare disease	male	A	White - British	XY	alive	p10000001321	false	1987		male	Consenting
+r20000000852	rare disease	male	A	White - British	XY	alive	p10000001324	false	2018		male	Consenting
+r20000000852	rare disease	female	A	White - British	XX	alive	p10000001322	false	1990		female	Consenting
+r20000000852	rare disease	male	A	White - British	XY	alive	p10000001323	false	1983		male	Consenting
+r20000000853	rare disease	male	Z	Not Stated	XY	alive	p10000001327	false	2019		male	Consenting
+r20000000853	rare disease	female	Z	Not Stated	XX	alive	p10000001325	false	1984		female	Consenting
+r20000000853	rare disease	male	Z	Not Stated	XY	alive	p10000001326	false	1984		male	Consenting
+r20000000854	rare disease	female	A	White - British	XX	alive	p10000001328	false	2004		female	Consenting
+r20000000855	rare disease	female	A	White - British	XX	alive	p10000001329	false	2000		female	Consenting
+r20000000856	rare disease	male	A	White - British	XY	alive	p10000001330	false	1976		male	Consenting
+r20000000857	rare disease	male	A	White - British	XY	alive	p10000001331	false	1987		male	Consenting
+r20000000858	rare disease	female	C	White - Any other White background	XX	alive	p10000001332	false	1998		female	Consenting
+r20000000859	rare disease	male	A	White - British	XY	alive	p10000001333	false	2016		male	Consenting
+r20000000860	rare disease	male	Z	Not Stated	XY	alive	p10000001334	false	1979		male	Consenting
+r20000000861	rare disease	male	A	White - British	XY	alive	p10000001335	false	2007		male	Consenting
+r20000000862	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001338	false	2020		female	Consenting
+r20000000862	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001336	false	1995		female	Consenting
+r20000000862	rare disease	male	H	Asian or Asian British - Indian	XY	alive	p10000001337	false	1992		male	Consenting
+r20000000863	rare disease	male	A	White - British	XY	alive	p10000001339	false	2023		male	Consenting
+r20000000864	rare disease	male	A	White - British	XY	alive	p10000001342	false	2018		male	Consenting
+r20000000864	rare disease	female	A	White - British	XX	alive	p10000001340	false	1994		female	Consenting
+r20000000864	rare disease	male	A	White - British	XY	alive	p10000001341	false	1994		male	Consenting
+r20000000865	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001343	false	2016		female	Consenting
+r20000000866	rare disease	female	N	Black or Black British - African	XX	alive	p10000001344	false	1971		female	Consenting
+r20000000867	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001345	false	1986		female	Consenting
+r20000000868	rare disease	female	A	White - British	XX	alive	p10000001346	false	2006		female	Consenting
+r20000000869	rare disease	female	A	White - British	XX	alive	p10000001347	false	2018		female	Consenting
+r20000000870	rare disease	female	H	Asian or Asian British - Indian	XX	alive	p10000001348	false	1975		female	Consenting
+r20000000871	rare disease	male	B	White - Irish	XY	alive	p10000001349	false	1987		male	Consenting
+r20000000872	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001350	false	1985		male	Consenting
+r20000000873	rare disease	female	M	Black or Black British - Caribbean	XX	alive	p10000001351	false	2018		female	Consenting
+r20000000874	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001354	false	2006		male	Consenting
+r20000000874	rare disease	female	F	Mixed - White and Asian	XX	alive	p10000001352	false	1967		female	Consenting
+r20000000874	rare disease	male	F	Mixed - White and Asian	XY	alive	p10000001353	false	1969		male	Consenting
+r20000000875	rare disease	female	A	White - British	XX	alive	p10000001357	false	2021		female	Consenting
+r20000000875	rare disease	female	A	White - British	XX	alive	p10000001355	false	1988		female	Consenting
+r20000000875	rare disease	male	A	White - British	XY	alive	p10000001356	false	1983		male	Consenting
+r20000000876	rare disease	male	A	White - British	XY	alive	p10000001360	false	2017		male	Consenting
+r20000000876	rare disease	female	A	White - British	XX	alive	p10000001358	false	1982		female	Consenting
+r20000000876	rare disease	male	A	White - British	XY	alive	p10000001359	false	1978		male	Consenting
+r20000000877	rare disease	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001361	false	2013		female	Consenting
+r20000000878	rare disease	female	A	White - British	XX	alive	p10000001362	false	2016		female	Consenting
+r20000000879	rare disease	male	A	White - British	XY	alive	p10000001365	false	2016		male	Consenting
+r20000000879	rare disease	female	A	White - British	XX	alive	p10000001363	false	1982		female	Consenting
+r20000000879	rare disease	male	A	White - British	XY	alive	p10000001364	false	1978		male	Consenting
+r20000000880	rare disease	male	A	White - British	XY	alive	p10000001368	false	2017		male	Consenting
+r20000000880	rare disease	female	A	White - British	XX	alive	p10000001366	false	1994		female	Consenting
+r20000000880	rare disease	male	A	White - British	XY	alive	p10000001367	false	1994		male	Consenting
+r20000000881	rare disease	female	A	White - British	XX	alive	p10000001369	false	2020		female	Consenting
+r20000000882	rare disease	female	A	White - British	XX	alive	p10000001370	false	1972		female	Consenting
+r20000000883	rare disease	female	A	White - British	XX	alive	p10000001371	false	2021		female	Consenting
+r20000000884	rare disease	female	A	White - British	XX	alive	p10000001374	false	2021		female	Consenting
+r20000000884	rare disease	female	A	White - British	XX	alive	p10000001372	false	1989		female	Consenting
+r20000000884	rare disease	male	A	White - British	XY	alive	p10000001373	false	1991		male	Consenting
+r20000000885	rare disease	female	A	White - British	XX	alive	p10000001377	false	2007		female	Consenting
+r20000000885	rare disease	female	A	White - British	XX	alive	p10000001375	false	1971		female	Consenting
+r20000000885	rare disease	male	A	White - British	XY	alive	p10000001376	false	1973		male	Consenting
+r20000000886	rare disease	female	A	White - British	XX	alive	p10000001378	false	2009		female	Consenting
+r20000000887	rare disease	male	A	White - British	XY	alive	p10000001379	false	2004		male	Consenting
+r20000000888	rare disease	male	C	White - Any other White background	XY	alive	p10000001380	false	1971		male	Consenting
+r20000000889	rare disease	male	C	White - Any other White background	XY	alive	p10000001381	false	1967		male	Consenting
+r20000000890	rare disease	female	A	White - British	XX	alive	p10000001384	false	2019		female	Consenting
+r20000000890	rare disease	female	A	White - British	XX	alive	p10000001382	false	1987		female	Consenting
+r20000000890	rare disease	male	A	White - British	XY	alive	p10000001383	false	1982		male	Consenting
+r20000000891	rare disease	male	A	White - British	XY	alive	p10000001385	false	2011		male	Consenting
+r20000000892	rare disease	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001386	false	1976		male	Consenting
+r20000000893	rare disease	male	C	White - Any other White background	XY	alive	p10000001387	false	2020		male	Consenting
+r20000000894	rare disease	female	A	White - British	XX	alive	p10000001388	false	1980		female	Consenting
+r20000000895	rare disease	male	N	Black or Black British - African	XY	alive	p10000001389	false	1990		male	Consenting
+r20000000896	rare disease	female	A	White - British	XX	alive	p10000001392	false	2010		female	Consenting
+r20000000896	rare disease	female	A	White - British	XX	alive	p10000001390	false	1984		female	Consenting
+r20000000896	rare disease	male	A	White - British	XY	alive	p10000001391	false	1980		male	Consenting
+r20000000897	rare disease	female	A	White - British	XX	alive	p10000001395	false	2014		female	Consenting
+r20000000897	rare disease	female	A	White - British	XX	alive	p10000001393	false	1982		female	Consenting
+r20000000897	rare disease	male	A	White - British	XY	alive	p10000001394	false	1984		male	Consenting
+r20000000898	rare disease	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001398	false	2016		female	Consenting
+r20000000898	rare disease	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001396	false	1987		female	Consenting
+r20000000898	rare disease	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000001397	false	1980		male	Consenting
+r20000000899	rare disease	male	A	White - British	XY	alive	p10000001399	false	1988		male	Consenting
+r20000000900	rare disease	male	A	White - British	XY	alive	p10000001400	false	2020		male	Consenting
+r20000000901	cancer	male	A	White - British	XY	alive	p10000001401	false	1983		male	Consenting
+r20000000902	cancer	female	E	Mixed - White and Black African	XX	alive	p10000001402	false	1976		female	Consenting
+r20000000903	cancer	female	A	White - British	XX	alive	p10000001403	false	1956		female	Consenting
+r20000000904	cancer	female	A	White - British	XX	alive	p10000001404	false	1951		female	Consenting
+r20000000905	cancer	female	A	White - British	XX	alive	p10000001405	false	1962		female	Consenting
+r20000000906	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001406	false	1949		male	Consenting
+r20000000907	cancer	female	A	White - British	XX	alive	p10000001407	false	1944		female	Consenting
+r20000000908	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001408	false	1959		female	Consenting
+r20000000909	cancer	male	A	White - British	XY	alive	p10000001409	false	1960		male	Consenting
+r20000000910	cancer	female	A	White - British	XX	alive	p10000001410	false	1962		female	Consenting
+r20000000911	cancer	female	A	White - British	XX	alive	p10000001411	false	1946		female	Consenting
+r20000000912	cancer	male	A	White - British	XY	alive	p10000001412	false	1958		male	Consenting
+r20000000913	cancer	male	A	White - British	XY	alive	p10000001413	false	1949		male	Consenting
+r20000000914	cancer	male	A	White - British	XY	alive	p10000001414	false	1969		male	Consenting
+r20000000915	cancer	male	A	White - British	XY	alive	p10000001415	false	1951		male	Consenting
+r20000000916	cancer	female	C	White - Any other White background	XX	alive	p10000001416	false	1940		female	Consenting
+r20000000917	cancer	female	Z	Not Stated	XX	alive	p10000001417	false	1977		female	Consenting
+r20000000918	cancer	female	A	White - British	XX	deceased	p10000001418	false	1954	2023	female	Consenting
+r20000000919	cancer	female	A	White - British	XX	alive	p10000001419	false	1972		female	Consenting
+r20000000920	cancer	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001420	false	1946		male	Consenting
+r20000000921	cancer	male	N	Black or Black British - African	XY	alive	p10000001421	false	1956		male	Consenting
+r20000000922	cancer	male	C	White - Any other White background	XY	alive	p10000001422	false	1947		male	Consenting
+r20000000923	cancer	female	A	White - British	XX	alive	p10000001423	false	1975		female	Consenting
+r20000000924	cancer	male	A	White - British	XY	alive	p10000001424	false	1959		male	Consenting
+r20000000925	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001425	false	1959		female	Consenting
+r20000000926	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001426	false	1961		male	Consenting
+r20000000927	cancer	female	A	White - British	XX	alive	p10000001427	false	1974		female	Consenting
+r20000000928	cancer	male	A	White - British	XY	alive	p10000001428	false	1952		male	Consenting
+r20000000929	cancer	male	A	White - British	XY	alive	p10000001429	false	1959		male	Consenting
+r20000000930	cancer	male	A	White - British	XY	alive	p10000001430	false	1951		male	Consenting
+r20000000931	cancer	female	C	White - Any other White background	XX	alive	p10000001431	false	1974		female	Consenting
+r20000000932	cancer	male	A	White - British	XY	alive	p10000001432	false	1944		male	Consenting
+r20000000933	cancer	female	A	White - British	XX	alive	p10000001433	false	1960		female	Consenting
+r20000000934	cancer	male	N	Black or Black British - African	XY	alive	p10000001434	false	1951		male	Consenting
+r20000000935	cancer	female	J	Asian or Asian British - Pakistani	XX	deceased	p10000001435	false	1954	2022	female	Consenting
+r20000000936	cancer	male	A	White - British	XY	alive	p10000001436	false	1962		male	Consenting
+r20000000937	cancer	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000001437	false	1955		female	Consenting
+r20000000938	cancer	female	M	Black or Black British - Caribbean	XX	alive	p10000001438	false	1960		female	Consenting
+r20000000939	cancer	female	A	White - British	XX	alive	p10000001439	false	1963		female	Consenting
+r20000000940	cancer	male	A	White - British	XY	alive	p10000001440	false	1980		male	Consenting
+r20000000941	cancer	female	A	White - British	XX	alive	p10000001441	false	1966		female	Consenting
+r20000000942	cancer	male	A	White - British	XY	alive	p10000001442	false	1965		male	Consenting
+r20000000943	cancer	male	A	White - British	XY	alive	p10000001443	false	1963		male	Consenting
+r20000000944	cancer	female	A	White - British	XX	alive	p10000001444	false	1955		female	Consenting
+r20000000945	cancer	female	A	White - British	XX	alive	p10000001445	false	1980		female	Consenting
+r20000000946	cancer	male	C	White - Any other White background	XY	alive	p10000001446	false	1943		male	Consenting
+r20000000947	cancer	female	A	White - British	XX	alive	p10000001447	false	1974		female	Consenting
+r20000000948	cancer	female	A	White - British	XX	alive	p10000001448	false	1973		female	Consenting
+r20000000949	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001449	false	1955		male	Consenting
+r20000000950	cancer	male	A	White - British	XY	alive	p10000001450	false	1964		male	Consenting
+r20000000951	cancer	male	A	White - British	XY	alive	p10000001451	false	1957		male	Consenting
+r20000000952	cancer	male	A	White - British	XY	alive	p10000001452	false	1979		male	Consenting
+r20000000953	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001453	false	1943		female	Consenting
+r20000000954	cancer	female	A	White - British	XX	alive	p10000001454	false	1958		female	Consenting
+r20000000955	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001455	false	1954		male	Consenting
+r20000000956	cancer	female	Z	Not Stated	XX	alive	p10000001456	false	1965		female	Consenting
+r20000000957	cancer	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001457	false	1950		female	Consenting
+r20000000958	cancer	female	A	White - British	XX	alive	p10000001458	false	1957		female	Consenting
+r20000000959	cancer	male	A	White - British	XY	alive	p10000001459	false	1961		male	Consenting
+r20000000960	cancer	female	A	White - British	XX	alive	p10000001460	false	1979		female	Consenting
+r20000000961	cancer	female	F	Mixed - White and Asian	XX	alive	p10000001461	false	1969		female	Consenting
+r20000000962	cancer	male	A	White - British	XY	alive	p10000001462	false	1951		male	Consenting
+r20000000963	cancer	female	A	White - British	XX	alive	p10000001463	false	1972		female	Consenting
+r20000000964	cancer	female	P	Black or Black British - Any other Black background	XX	alive	p10000001464	false	1950		female	Consenting
+r20000000965	cancer	male	A	White - British	XY	alive	p10000001465	false	1988		male	Consenting
+r20000000966	cancer	female	C	White - Any other White background	XX	alive	p10000001466	false	1956		female	Consenting
+r20000000967	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001467	false	1955		female	Consenting
+r20000000968	cancer	female	Z	Not Stated	XX	deceased	p10000001468	false	1930	2022	female	Consenting
+r20000000969	cancer	male	A	White - British	XY	alive	p10000001469	false	1980		male	Consenting
+r20000000970	cancer	male	A	White - British	XY	alive	p10000001470	false	1955		male	Consenting
+r20000000971	cancer	female	S	Other Ethnic Groups - Any other ethnic group	XX	alive	p10000001471	false	1953		female	Consenting
+r20000000972	cancer	male	D	Mixed - White and Black Caribbean	XY	alive	p10000001472	false	1963		male	Consenting
+r20000000973	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001473	false	1948		female	Consenting
+r20000000974	cancer	female	A	White - British	XX	alive	p10000001474	false	1973		female	Consenting
+r20000000975	cancer	male	C	White - Any other White background	XY	alive	p10000001475	false	1940		male	Consenting
+r20000000976	cancer	female	A	White - British	XX	alive	p10000001476	false	1976		female	Consenting
+r20000000977	cancer	female	A	White - British	XX	alive	p10000001477	false	1968		female	Consenting
+r20000000978	cancer	female	C	White - Any other White background	XX	alive	p10000001478	false	1971		female	Consenting
+r20000000979	cancer	female	C	White - Any other White background	XX	alive	p10000001479	false	1958		female	Consenting
+r20000000980	cancer	female	F	Mixed - White and Asian	XX	alive	p10000001480	false	1979		female	Consenting
+r20000000981	cancer	male	A	White - British	XY	alive	p10000001481	false	1952		male	Consenting
+r20000000982	cancer	female	A	White - British	XX	alive	p10000001482	false	1951		female	Consenting
+r20000000983	cancer	male	A	White - British	XY	alive	p10000001483	false	1971		male	Consenting
+r20000000984	cancer	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001484	false	1963		female	Consenting
+r20000000985	cancer	male	A	White - British	XY	alive	p10000001485	false	1963		male	Consenting
+r20000000986	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001486	false	1935		male	Consenting
+r20000000987	cancer	male	Z	Not Stated	XY	alive	p10000001487	false	1955		male	Consenting
+r20000000988	cancer	female	N	Black or Black British - African	XX	alive	p10000001488	false	1949		female	Consenting
+r20000000989	cancer	female	A	White - British	XX	alive	p10000001489	false	1948		female	Consenting
+r20000000990	cancer	female	Z	Not Stated	XX	alive	p10000001490	false	1950		female	Consenting
+r20000000991	cancer	male	C	White - Any other White background	XY	alive	p10000001491	false	1931		male	Consenting
+r20000000992	cancer	female	G	Mixed - Any other mixed background	XX	deceased	p10000001492	false	1936	2023	female	Consenting
+r20000000993	cancer	female	C	White - Any other White background	XX	alive	p10000001493	false	1972		female	Consenting
+r20000000994	cancer	male	A	White - British	XY	alive	p10000001494	false	1940		male	Consenting
+r20000000995	cancer	female	A	White - British	XX	alive	p10000001495	false	1952		female	Consenting
+r20000000996	cancer	female	N	Black or Black British - African	XX	alive	p10000001496	false	1965		female	Consenting
+r20000000997	cancer	female	A	White - British	XX	alive	p10000001497	false	2008		female	Consenting
+r20000000998	cancer	male	P	Black or Black British - Any other Black background	XY	alive	p10000001498	false	1966		male	Consenting
+r20000000999	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001499	false	1956		female	Consenting
+r20000001000	cancer	female	A	White - British	XX	alive	p10000001500	false	1959		female	Consenting
+r20000001001	cancer	female	A	White - British	XX	alive	p10000001501	false	1950		female	Consenting
+r20000001002	cancer	male	N	Black or Black British - African	XY	alive	p10000001502	false	2012		male	Consenting
+r20000001003	cancer	female	A	White - British	XX	alive	p10000001503	false	1960		female	Consenting
+r20000001004	cancer	male	A	White - British	XY	alive	p10000001504	false	2009		male	Consenting
+r20000001005	cancer	female	A	White - British	XX	deceased	p10000001505	false	1963	2022	female	Consenting
+r20000001006	cancer	male	A	White - British	XY	alive	p10000001506	false	1948		male	Consenting
+r20000001007	cancer	male	A	White - British	XY	alive	p10000001507	false	1953		male	Consenting
+r20000001008	cancer	male	B	White - Irish	XY	alive	p10000001508	false	1953		male	Consenting
+r20000001009	cancer	female	B	White - Irish	XX	alive	p10000001509	false	1946		female	Consenting
+r20000001010	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001510	false	1947		male	Consenting
+r20000001011	cancer	male	A	White - British	XY	alive	p10000001511	false	1975		male	Consenting
+r20000001012	cancer	female	A	White - British	XX	alive	p10000001512	false	1977		female	Consenting
+r20000001013	cancer	female	B	White - Irish	XX	alive	p10000001513	false	1954		female	Consenting
+r20000001014	cancer	male	A	White - British	XY	alive	p10000001514	false	1967		male	Consenting
+r20000001015	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001515	false	1950		female	Consenting
+r20000001016	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001516	false	1943		female	Consenting
+r20000001017	cancer	male	C	White - Any other White background	XY	deceased	p10000001517	false	1956	2021	male	Consenting
+r20000001018	cancer	male	A	White - British	XY	alive	p10000001518	false	1960		male	Consenting
+r20000001019	cancer	female	A	White - British	XX	alive	p10000001519	false	1953		female	Consenting
+r20000001020	cancer	female	A	White - British	XX	alive	p10000001520	false	1986		female	Consenting
+r20000001021	cancer	female	A	White - British	XX	alive	p10000001521	false	1970		female	Consenting
+r20000001022	cancer	male	A	White - British	XY	alive	p10000001522	false	1961		male	Consenting
+r20000001023	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001523	false	1960		female	Consenting
+r20000001024	cancer	female	A	White - British	XX	alive	p10000001524	false	1942		female	Consenting
+r20000001025	cancer	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000001525	false	1950		male	Consenting
+r20000001026	cancer	female	A	White - British	XX	alive	p10000001526	false	1950		female	Consenting
+r20000001027	cancer	female	N	Black or Black British - African	XX	alive	p10000001527	false	1973		female	Consenting
+r20000001028	cancer	male	C	White - Any other White background	XY	alive	p10000001528	false	1951		male	Consenting
+r20000001029	cancer	male	A	White - British	XY	alive	p10000001529	false	1952		male	Consenting
+r20000001030	cancer	male	A	White - British	XY	alive	p10000001530	false	1947		male	Consenting
+r20000001031	cancer	male	A	White - British	XY	alive	p10000001531	false	1967		male	Consenting
+r20000001032	cancer	female	A	White - British	XX	alive	p10000001532	false	1951		female	Consenting
+r20000001033	cancer	female	A	White - British	XX	alive	p10000001533	false	1997		female	Consenting
+r20000001034	cancer	male	B	White - Irish	XY	alive	p10000001534	false	1989		male	Consenting
+r20000001035	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001535	false	1957		male	Consenting
+r20000001036	cancer	male	A	White - British	XY	alive	p10000001536	false	1983		male	Consenting
+r20000001037	cancer	female	A	White - British	XX	alive	p10000001537	false	1964		female	Consenting
+r20000001038	cancer	female	A	White - British	XX	alive	p10000001538	false	2019		female	Consenting
+r20000001039	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001539	false	1975		male	Consenting
+r20000001040	cancer	female	C	White - Any other White background	XX	alive	p10000001540	false	1960		female	Consenting
+r20000001041	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001541	false	1968		female	Consenting
+r20000001042	cancer	female	Z	Not Stated	XX	alive	p10000001542	false	1989		female	Consenting
+r20000001043	cancer	male	Z	Not Stated	XY	alive	p10000001543	false	1976		male	Consenting
+r20000001044	cancer	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000001544	false	1959		male	Consenting
+r20000001045	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001545	false	1964		male	Consenting
+r20000001046	cancer	male	A	White - British	XY	alive	p10000001546	false	1987		male	Consenting
+r20000001047	cancer	male	A	White - British	XY	alive	p10000001547	false	1965		male	Consenting
+r20000001048	cancer	female	A	White - British	XX	deceased	p10000001548	false	1943	2023	female	Consenting
+r20000001049	cancer	female	A	White - British	XX	alive	p10000001549	false	1950		female	Consenting
+r20000001050	cancer	female	A	White - British	XX	alive	p10000001550	false	1948		female	Consenting
+r20000001051	cancer	female	A	White - British	XX	alive	p10000001551	false	1973		female	Consenting
+r20000001052	cancer	male	A	White - British	XY	deceased	p10000001552	false	1961	2022	male	Consenting
+r20000001053	cancer	male	Z	Not Stated	XY	alive	p10000001553	false	1967		male	Consenting
+r20000001054	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001554	false	1962		female	Consenting
+r20000001055	cancer	female	A	White - British	XX	alive	p10000001555	false	1973		female	Consenting
+r20000001056	cancer	female	C	White - Any other White background	XX	alive	p10000001556	false	1974		female	Consenting
+r20000001057	cancer	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000001557	false	1950		male	Consenting
+r20000001058	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001558	false	1983		female	Consenting
+r20000001059	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001559	false	1951		male	Consenting
+r20000001060	cancer	female	A	White - British	XX	alive	p10000001560	false	1975		female	Consenting
+r20000001061	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001561	false	1968		female	Consenting
+r20000001062	cancer	male	A	White - British	XY	alive	p10000001562	false	1963		male	Consenting
+r20000001063	cancer	male	M	Black or Black British - Caribbean	XY	alive	p10000001563	false	1948		male	Consenting
+r20000001064	cancer	male	A	White - British	XY	alive	p10000001564	false	1975		male	Consenting
+r20000001065	cancer	female	A	White - British	XX	alive	p10000001565	false	1958		female	Consenting
+r20000001066	cancer	female	C	White - Any other White background	XX	alive	p10000001566	false	1956		female	Consenting
+r20000001067	cancer	female	A	White - British	XX	alive	p10000001567	false	1957		female	Consenting
+r20000001068	cancer	female	A	White - British	XX	alive	p10000001568	false	1951		female	Consenting
+r20000001069	cancer	female	N	Black or Black British - African	XX	alive	p10000001569	false	2017		female	Consenting
+r20000001070	cancer	male	C	White - Any other White background	XY	alive	p10000001570	false	1965		male	Consenting
+r20000001071	cancer	female	A	White - British	XX	alive	p10000001571	false	1966		female	Consenting
+r20000001072	cancer	female	N	Black or Black British - African	XX	alive	p10000001572	false	1984		female	Consenting
+r20000001073	cancer	female	A	White - British	XX	deceased	p10000001573	false	1946	2023	female	Consenting
+r20000001074	cancer	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001574	false	1958		female	Consenting
+r20000001075	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001575	false	1958		male	Consenting
+r20000001076	cancer	female	F	Mixed - White and Asian	XX	alive	p10000001576	false	1969		female	Consenting
+r20000001077	cancer	female	A	White - British	XX	alive	p10000001577	false	1970		female	Consenting
+r20000001078	cancer	male	A	White - British	XY	alive	p10000001578	false	1964		male	Consenting
+r20000001079	cancer	female	A	White - British	XX	alive	p10000001579	false	1975		female	Consenting
+r20000001080	cancer	female	A	White - British	XX	alive	p10000001580	false	1968		female	Consenting
+r20000001081	cancer	male	C	White - Any other White background	XY	alive	p10000001581	false	1941		male	Consenting
+r20000001082	cancer	male	E	Mixed - White and Black African	XY	alive	p10000001582	false	2002		male	Consenting
+r20000001083	cancer	female	C	White - Any other White background	XX	alive	p10000001583	false	1968		female	Consenting
+r20000001084	cancer	male	Z	Not Stated	XY	alive	p10000001584	false	1949		male	Consenting
+r20000001085	cancer	female	A	White - British	XX	deceased	p10000001585	false	1944	2023	female	Consenting
+r20000001086	cancer	female	A	White - British	XX	alive	p10000001586	false	1948		female	Consenting
+r20000001087	cancer	male	A	White - British	XY	alive	p10000001587	false	1959		male	Consenting
+r20000001088	cancer	female	A	White - British	XX	alive	p10000001588	false	1934		female	Consenting
+r20000001089	cancer	male	A	White - British	XY	alive	p10000001589	false	1961		male	Consenting
+r20000001090	cancer	female	A	White - British	XX	alive	p10000001590	false	1958		female	Consenting
+r20000001091	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001591	false	1952		female	Consenting
+r20000001092	cancer	male	L	Asian or Asian British - Any other Asian background	XY	alive	p10000001592	false	1945		male	Consenting
+r20000001093	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001593	false	1959		male	Consenting
+r20000001094	cancer	male	A	White - British	XY	deceased	p10000001594	false	1969	2022	male	Consenting
+r20000001095	cancer	female	A	White - British	XX	deceased	p10000001595	false	1958	2023	female	Consenting
+r20000001096	cancer	female	N	Black or Black British - African	XX	alive	p10000001596	false	1956		female	Consenting
+r20000001097	cancer	male	A	White - British	XY	alive	p10000001597	false	1936		male	Consenting
+r20000001098	cancer	male	A	White - British	XY	alive	p10000001598	false	1943		male	Consenting
+r20000001099	cancer	male	M	Black or Black British - Caribbean	XY	alive	p10000001599	false	1958		male	Consenting
+r20000001100	cancer	male	N	Black or Black British - African	XY	alive	p10000001600	false	1948		male	Consenting
+r20000001101	cancer	female	A	White - British	XX	alive	p10000001601	false	1956		female	Consenting
+r20000001102	cancer	female	A	White - British	XX	alive	p10000001602	false	1965		female	Consenting
+r20000001103	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001603	false	1982		female	Consenting
+r20000001104	cancer	male	A	White - British	XY	alive	p10000001604	false	2000		male	Consenting
+r20000001105	cancer	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001605	false	1963		female	Consenting
+r20000001106	cancer	female	A	White - British	XX	deceased	p10000001606	false	1973	2023	female	Consenting
+r20000001107	cancer	female	A	White - British	XX	alive	p10000001607	false	1947		female	Consenting
+r20000001108	cancer	female	C	White - Any other White background	XX	alive	p10000001608	false	2020		female	Consenting
+r20000001109	cancer	male	A	White - British	XY	alive	p10000001609	false	1959		male	Consenting
+r20000001110	cancer	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000001610	false	1956		female	Consenting
+r20000001111	cancer	female	Z	Not Stated	XX	alive	p10000001611	false	1973		female	Consenting
+r20000001112	cancer	female	C	White - Any other White background	XX	alive	p10000001612	false	1974		female	Consenting
+r20000001113	cancer	male	F	Mixed - White and Asian	XY	alive	p10000001613	false	1953		male	Consenting
+r20000001114	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001614	false	1961		male	Consenting
+r20000001115	cancer	male	A	White - British	XY	alive	p10000001615	false	1964		male	Consenting
+r20000001116	cancer	male	A	White - British	XY	alive	p10000001616	false	1965		male	Consenting
+r20000001117	cancer	male	A	White - British	XY	alive	p10000001617	false	1973		male	Consenting
+r20000001118	cancer	female	C	White - Any other White background	XX	alive	p10000001618	false	1963		female	Consenting
+r20000001119	cancer	female	A	White - British	XX	alive	p10000001619	false	1968		female	Consenting
+r20000001120	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001620	false	1982		female	Consenting
+r20000001121	cancer	female	A	White - British	XX	alive	p10000001621	false	1957		female	Consenting
+r20000001122	cancer	male	N	Black or Black British - African	XY	alive	p10000001622	false	1970		male	Consenting
+r20000001123	cancer	male	A	White - British	XY	alive	p10000001623	false	1940		male	Consenting
+r20000001124	cancer	male	A	White - British	XY	alive	p10000001624	false	1950		male	Consenting
+r20000001125	cancer	female	A	White - British	XX	alive	p10000001625	false	1934		female	Consenting
+r20000001126	cancer	female	A	White - British	XX	alive	p10000001626	false	1964		female	Consenting
+r20000001127	cancer	female	N	Black or Black British - African	XX	alive	p10000001627	false	1954		female	Consenting
+r20000001128	cancer	female	A	White - British	XX	alive	p10000001628	false	1935		female	Consenting
+r20000001129	cancer	female	A	White - British	XX	alive	p10000001629	false	1960		female	Consenting
+r20000001130	cancer	female	A	White - British	XX	alive	p10000001630	false	1931		female	Consenting
+r20000001131	cancer	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001631	false	1971		female	Consenting
+r20000001132	cancer	male	A	White - British	XY	alive	p10000001632	false	1960		male	Consenting
+r20000001133	cancer	male	A	White - British	XY	alive	p10000001633	false	1965		male	Consenting
+r20000001134	cancer	male	A	White - British	XY	alive	p10000001634	false	1967		male	Consenting
+r20000001135	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001635	false	1962		female	Consenting
+r20000001136	cancer	male	A	White - British	XY	alive	p10000001636	false	1966		male	Consenting
+r20000001137	cancer	male	A	White - British	XY	alive	p10000001637	false	1967		male	Consenting
+r20000001138	cancer	male	A	White - British	XY	alive	p10000001638	false	1959		male	Consenting
+r20000001139	cancer	female	A	White - British	XX	alive	p10000001639	false	1959		female	Consenting
+r20000001140	cancer	female	A	White - British	XX	alive	p10000001640	false	1955		female	Consenting
+r20000001141	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001641	false	1964		male	Consenting
+r20000001142	cancer	male	C	White - Any other White background	XY	alive	p10000001642	false	1963		male	Consenting
+r20000001143	cancer	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001643	false	1967		male	Consenting
+r20000001144	cancer	male	A	White - British	XY	alive	p10000001644	false	1980		male	Consenting
+r20000001145	cancer	female	Z	Not Stated	XX	alive	p10000001645	false	1965		female	Consenting
+r20000001146	cancer	female	A	White - British	XX	alive	p10000001646	false	1962		female	Consenting
+r20000001147	cancer	male	A	White - British	XY	alive	p10000001647	false	1960		male	Consenting
+r20000001148	cancer	female	E	Mixed - White and Black African	XX	alive	p10000001648	false	2022		female	Consenting
+r20000001149	cancer	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001649	false	1954		male	Consenting
+r20000001150	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001650	false	1954		female	Consenting
+r20000001151	cancer	female	A	White - British	XX	alive	p10000001651	false	1958		female	Consenting
+r20000001152	cancer	female	A	White - British	XX	alive	p10000001652	false	1960		female	Consenting
+r20000001153	cancer	female	A	White - British	XX	alive	p10000001653	false	1961		female	Consenting
+r20000001154	cancer	male	A	White - British	XY	alive	p10000001654	false	1957		male	Consenting
+r20000001155	cancer	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001655	false	1961		female	Consenting
+r20000001156	cancer	male	A	White - British	XY	alive	p10000001656	false	1974		male	Consenting
+r20000001157	cancer	female	Z	Not Stated	XX	alive	p10000001657	false	1981		female	Consenting
+r20000001158	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001658	false	1966		female	Consenting
+r20000001159	cancer	female	A	White - British	XX	alive	p10000001659	false	1942		female	Consenting
+r20000001160	cancer	male	A	White - British	XY	alive	p10000001660	false	1956		male	Consenting
+r20000001161	cancer	female	A	White - British	XX	deceased	p10000001661	false	1940	2023	female	Consenting
+r20000001162	cancer	male	A	White - British	XY	alive	p10000001662	false	1959		male	Consenting
+r20000001163	cancer	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001663	false	1974		female	Consenting
+r20000001164	cancer	female	A	White - British	XX	alive	p10000001664	false	1940		female	Consenting
+r20000001165	cancer	female	C	White - Any other White background	XX	alive	p10000001665	false	1948		female	Consenting
+r20000001166	cancer	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001666	false	1976		male	Consenting
+r20000001167	cancer	female	A	White - British	XX	alive	p10000001667	false	1951		female	Consenting
+r20000001168	cancer	female	Z	Not Stated	XX	alive	p10000001668	false	1963		female	Consenting
+r20000001169	cancer	male	H	Asian or Asian British - Indian	XY	deceased	p10000001669	false	1936	2022	male	Consenting
+r20000001170	cancer	male	A	White - British	XY	alive	p10000001670	false	1942		male	Consenting
+r20000001171	cancer	male	A	White - British	XY	alive	p10000001671	false	1961		male	Consenting
+r20000001172	cancer	male	A	White - British	XY	alive	p10000001672	false	1961		male	Consenting
+r20000001173	cancer	female	C	White - Any other White background	XX	alive	p10000001673	false	1946		female	Consenting
+r20000001174	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001674	false	1956		male	Consenting
+r20000001175	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001675	false	1962		female	Consenting
+r20000001176	cancer	female	Z	Not Stated	XX	alive	p10000001676	false	1975		female	Consenting
+r20000001177	cancer	female	C	White - Any other White background	XX	alive	p10000001677	false	1945		female	Consenting
+r20000001178	cancer	male	A	White - British	XY	alive	p10000001678	false	1963		male	Consenting
+r20000001179	cancer	female	E	Mixed - White and Black African	XX	alive	p10000001679	false	1963		female	Consenting
+r20000001180	cancer	female	A	White - British	XX	alive	p10000001680	false	1973		female	Consenting
+r20000001181	cancer	female	A	White - British	XX	alive	p10000001681	false	1971		female	Consenting
+r20000001182	cancer	female	A	White - British	XX	alive	p10000001682	false	1967		female	Consenting
+r20000001183	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001683	false	1964		male	Consenting
+r20000001184	cancer	male	A	White - British	XY	alive	p10000001684	false	1965		male	Consenting
+r20000001185	cancer	female	A	White - British	XX	alive	p10000001685	false	1935		female	Consenting
+r20000001186	cancer	female	A	White - British	XX	alive	p10000001686	false	1960		female	Consenting
+r20000001187	cancer	male	A	White - British	XY	alive	p10000001687	false	1977		male	Consenting
+r20000001188	cancer	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001688	false	1974		female	Consenting
+r20000001189	cancer	female	A	White - British	XX	alive	p10000001689	false	1960		female	Consenting
+r20000001190	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001690	false	1957		male	Consenting
+r20000001191	cancer	female	M	Black or Black British - Caribbean	XX	alive	p10000001691	false	1962		female	Consenting
+r20000001192	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001692	false	1966		male	Consenting
+r20000001193	cancer	male	A	White - British	XY	alive	p10000001693	false	1951		male	Consenting
+r20000001194	cancer	male	A	White - British	XY	alive	p10000001694	false	1948		male	Consenting
+r20000001195	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001695	false	1971		male	Consenting
+r20000001196	cancer	female	A	White - British	XX	alive	p10000001696	false	1958		female	Consenting
+r20000001197	cancer	female	A	White - British	XX	alive	p10000001697	false	1951		female	Consenting
+r20000001198	cancer	female	A	White - British	XX	alive	p10000001698	false	1964		female	Consenting
+r20000001199	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001699	false	1933		female	Consenting
+r20000001200	cancer	male	N	Black or Black British - African	XY	alive	p10000001700	false	1947		male	Consenting
+r20000001201	cancer	female	N	Black or Black British - African	XX	alive	p10000001701	false	1990		female	Consenting
+r20000001202	cancer	male	C	White - Any other White background	XY	alive	p10000001702	false	1956		male	Consenting
+r20000001203	cancer	female	A	White - British	XX	alive	p10000001703	false	1956		female	Consenting
+r20000001204	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001704	false	1977		male	Consenting
+r20000001205	cancer	male	A	White - British	XY	alive	p10000001705	false	1944		male	Consenting
+r20000001206	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001706	false	1978		female	Consenting
+r20000001207	cancer	male	A	White - British	XY	alive	p10000001707	false	1972		male	Consenting
+r20000001208	cancer	male	E	Mixed - White and Black African	XY	alive	p10000001708	false	1957		male	Consenting
+r20000001209	cancer	female	A	White - British	XX	alive	p10000001709	false	1944		female	Consenting
+r20000001210	cancer	female	G	Mixed - Any other mixed background	XX	alive	p10000001710	false	1983		female	Consenting
+r20000001211	cancer	male	A	White - British	XY	alive	p10000001711	false	2009		male	Consenting
+r20000001212	cancer	male	A	White - British	XY	deceased	p10000001712	false	1948	2022	male	Consenting
+r20000001213	cancer	male	A	White - British	XY	alive	p10000001713	false	1960		male	Consenting
+r20000001214	cancer	female	A	White - British	XX	alive	p10000001714	false	1965		female	Consenting
+r20000001215	cancer	male	C	White - Any other White background	XY	alive	p10000001715	false	1955		male	Consenting
+r20000001216	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001716	false	1956		male	Consenting
+r20000001217	cancer	female	B	White - Irish	XX	alive	p10000001717	false	1949		female	Consenting
+r20000001218	cancer	male	A	White - British	XY	alive	p10000001718	false	1954		male	Consenting
+r20000001219	cancer	male	A	White - British	XY	alive	p10000001719	false	1957		male	Consenting
+r20000001220	cancer	female	F	Mixed - White and Asian	XX	alive	p10000001720	false	1955		female	Consenting
+r20000001221	cancer	male	N	Black or Black British - African	XY	alive	p10000001721	false	1980		male	Consenting
+r20000001222	cancer	male	A	White - British	XY	alive	p10000001722	false	1950		male	Consenting
+r20000001223	cancer	female	A	White - British	XX	alive	p10000001723	false	1959		female	Consenting
+r20000001224	cancer	male	A	White - British	XY	alive	p10000001724	false	1978		male	Consenting
+r20000001225	cancer	female	B	White - Irish	XX	alive	p10000001725	false	1978		female	Consenting
+r20000001226	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001726	false	1951		female	Consenting
+r20000001227	cancer	male	G	Mixed - Any other mixed background	XY	alive	p10000001727	false	1964		male	Consenting
+r20000001228	cancer	male	Z	Not Stated	XY	alive	p10000001728	false	1979		male	Consenting
+r20000001229	cancer	male	Z	Not Stated	XY	alive	p10000001729	false	1949		male	Consenting
+r20000001230	cancer	female	A	White - British	XX	alive	p10000001730	false	1962		female	Consenting
+r20000001231	cancer	female	G	Mixed - Any other mixed background	XX	alive	p10000001731	false	1969		female	Consenting
+r20000001232	cancer	male	A	White - British	XY	alive	p10000001732	false	1965		male	Consenting
+r20000001233	cancer	male	C	White - Any other White background	XY	alive	p10000001733	false	1937		male	Consenting
+r20000001234	cancer	female	A	White - British	XX	alive	p10000001734	false	1947		female	Consenting
+r20000001235	cancer	male	A	White - British	XY	alive	p10000001735	false	1948		male	Consenting
+r20000001236	cancer	male	A	White - British	XY	alive	p10000001736	false	1953		male	Consenting
+r20000001237	cancer	female	A	White - British	XX	alive	p10000001737	false	1951		female	Consenting
+r20000001238	cancer	male	A	White - British	XY	alive	p10000001738	false	1951		male	Consenting
+r20000001239	cancer	female	A	White - British	XX	alive	p10000001739	false	1979		female	Consenting
+r20000001240	cancer	female	A	White - British	XX	alive	p10000001740	false	1960		female	Consenting
+r20000001241	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001741	false	1974		female	Consenting
+r20000001242	cancer	male	A	White - British	XY	alive	p10000001742	false	1961		male	Consenting
+r20000001243	cancer	female	R	Other Ethnic Groups - Chinese	XX	alive	p10000001743	false	1975		female	Consenting
+r20000001244	cancer	female	A	White - British	XX	alive	p10000001744	false	1949		female	Consenting
+r20000001245	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001745	false	1955		male	Consenting
+r20000001246	cancer	male	A	White - British	XY	deceased	p10000001746	false	1965	2023	male	Consenting
+r20000001247	cancer	female	M	Black or Black British - Caribbean	XX	alive	p10000001747	false	1970		female	Consenting
+r20000001248	cancer	male	A	White - British	XY	alive	p10000001748	false	1960		male	Consenting
+r20000001249	cancer	female	A	White - British	XX	alive	p10000001749	false	1944		female	Consenting
+r20000001250	cancer	male	C	White - Any other White background	XY	alive	p10000001750	false	1937		male	Consenting
+r20000001251	cancer	female	A	White - British	XX	alive	p10000001751	false	1962		female	Consenting
+r20000001252	cancer	female	A	White - British	XX	alive	p10000001752	false	1963		female	Consenting
+r20000001253	cancer	female	A	White - British	XX	alive	p10000001753	false	1971		female	Consenting
+r20000001254	cancer	female	Z	Not Stated	XX	alive	p10000001754	false	1953		female	Consenting
+r20000001255	cancer	female	L	Asian or Asian British - Any other Asian background	XX	alive	p10000001755	false	1967		female	Consenting
+r20000001256	cancer	female	A	White - British	XX	alive	p10000001756	false	1980		female	Consenting
+r20000001257	cancer	male	B	White - Irish	XY	alive	p10000001757	false	1949		male	Consenting
+r20000001258	cancer	female	K	Asian or Asian British - Bangladeshi	XX	alive	p10000001758	false	1963		female	Consenting
+r20000001259	cancer	male	S	Other Ethnic Groups - Any other ethnic group	XY	alive	p10000001759	false	1945		male	Consenting
+r20000001260	cancer	female	A	White - British	XX	alive	p10000001760	false	1951		female	Consenting
+r20000001261	cancer	male	Z	Not Stated	XY	alive	p10000001761	false	1957		male	Consenting
+r20000001262	cancer	female	A	White - British	XX	alive	p10000001762	false	1957		female	Consenting
+r20000001263	cancer	male	A	White - British	XY	alive	p10000001763	false	1971		male	Consenting
+r20000001264	cancer	female	Z	Not Stated	XX	alive	p10000001764	false	1952		female	Consenting
+r20000001265	cancer	female	A	White - British	XX	alive	p10000001765	false	1949		female	Consenting
+r20000001266	cancer	female	A	White - British	XX	alive	p10000001766	false	1955		female	Consenting
+r20000001267	cancer	female	E	Mixed - White and Black African	XX	alive	p10000001767	false	1952		female	Consenting
+r20000001268	cancer	male	A	White - British	XY	alive	p10000001768	false	1961		male	Consenting
+r20000001269	cancer	male	A	White - British	XY	alive	p10000001769	false	1936		male	Consenting
+r20000001270	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001770	false	1948		male	Consenting
+r20000001271	cancer	female	C	White - Any other White background	XX	alive	p10000001771	false	1945		female	Consenting
+r20000001272	cancer	female	Z	Not Stated	XX	alive	p10000001772	false	1982		female	Consenting
+r20000001273	cancer	female	A	White - British	XX	alive	p10000001773	false	1997		female	Consenting
+r20000001274	cancer	female	J	Asian or Asian British - Pakistani	XX	deceased	p10000001774	false	1962	2022	female	Consenting
+r20000001275	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001775	false	1959		female	Consenting
+r20000001276	cancer	female	A	White - British	XX	alive	p10000001776	false	1946		female	Consenting
+r20000001277	cancer	female	A	White - British	XX	alive	p10000001777	false	1969		female	Consenting
+r20000001278	cancer	female	D	Mixed - White and Black Caribbean	XX	alive	p10000001778	false	1975		female	Consenting
+r20000001279	cancer	male	A	White - British	XY	alive	p10000001779	false	1951		male	Consenting
+r20000001280	cancer	female	A	White - British	XX	alive	p10000001780	false	1950		female	Consenting
+r20000001281	cancer	female	A	White - British	XX	alive	p10000001781	false	1947		female	Consenting
+r20000001282	cancer	male	A	White - British	XY	deceased	p10000001782	false	1952	2023	male	Consenting
+r20000001283	cancer	female	A	White - British	XX	alive	p10000001783	false	1956		female	Consenting
+r20000001284	cancer	female	A	White - British	XX	alive	p10000001784	false	1959		female	Consenting
+r20000001285	cancer	female	A	White - British	XX	alive	p10000001785	false	1954		female	Consenting
+r20000001286	cancer	female	A	White - British	XX	alive	p10000001786	false	1970		female	Consenting
+r20000001287	cancer	male	A	White - British	XY	alive	p10000001787	false	1930		male	Consenting
+r20000001288	cancer	female	A	White - British	XX	alive	p10000001788	false	1968		female	Consenting
+r20000001289	cancer	female	A	White - British	XX	deceased	p10000001789	false	1958	2022	female	Consenting
+r20000001290	cancer	female	A	White - British	XX	deceased	p10000001790	false	1942	2022	female	Consenting
+r20000001291	cancer	female	C	White - Any other White background	XX	alive	p10000001791	false	1967		female	Consenting
+r20000001292	cancer	female	A	White - British	XX	alive	p10000001792	false	1967		female	Consenting
+r20000001293	cancer	female	N	Black or Black British - African	XX	alive	p10000001793	false	1964		female	Consenting
+r20000001294	cancer	female	C	White - Any other White background	XX	alive	p10000001794	false	1976		female	Consenting
+r20000001295	cancer	female	C	White - Any other White background	XX	alive	p10000001795	false	1940		female	Consenting
+r20000001296	cancer	female	A	White - British	XX	alive	p10000001796	false	1955		female	Consenting
+r20000001297	cancer	female	C	White - Any other White background	XX	alive	p10000001797	false	1976		female	Consenting
+r20000001298	cancer	female	E	Mixed - White and Black African	XX	alive	p10000001798	false	1965		female	Consenting
+r20000001299	cancer	female	C	White - Any other White background	XX	alive	p10000001799	false	1971		female	Consenting
+r20000001300	cancer	male	A	White - British	XY	alive	p10000001800	false	1961		male	Consenting
+r20000001301	cancer	female	A	White - British	XX	alive	p10000001801	false	1947		female	Consenting
+r20000001302	cancer	male	A	White - British	XY	alive	p10000001802	false	1938		male	Consenting
+r20000001303	cancer	female	A	White - British	XX	alive	p10000001803	false	2020		female	Consenting
+r20000001304	cancer	male	A	White - British	XY	alive	p10000001804	false	1942		male	Consenting
+r20000001305	cancer	male	A	White - British	XY	alive	p10000001805	false	1931		male	Consenting
+r20000001306	cancer	male	K	Asian or Asian British - Bangladeshi	XY	alive	p10000001806	false	1962		male	Consenting
+r20000001307	cancer	female	A	White - British	XX	alive	p10000001807	false	1942		female	Consenting
+r20000001308	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001808	false	1949		male	Consenting
+r20000001309	cancer	female	N	Black or Black British - African	XX	alive	p10000001809	false	1974		female	Consenting
+r20000001310	cancer	male	A	White - British	XY	alive	p10000001810	false	1946		male	Consenting
+r20000001311	cancer	male	A	White - British	XY	alive	p10000001811	false	1942		male	Consenting
+r20000001312	cancer	female	Z	Not Stated	XX	alive	p10000001812	false	1965		female	Consenting
+r20000001313	cancer	male	A	White - British	XY	alive	p10000001813	false	1963		male	Consenting
+r20000001314	cancer	female	H	Asian or Asian British - Indian	XX	alive	p10000001814	false	1955		female	Consenting
+r20000001315	cancer	male	A	White - British	XY	alive	p10000001815	false	1944		male	Consenting
+r20000001316	cancer	female	C	White - Any other White background	XX	alive	p10000001816	false	1981		female	Consenting
+r20000001317	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001817	false	1949		male	Consenting
+r20000001318	cancer	male	C	White - Any other White background	XY	alive	p10000001818	false	1943		male	Consenting
+r20000001319	cancer	male	A	White - British	XY	alive	p10000001819	false	1962		male	Consenting
+r20000001320	cancer	male	B	White - Irish	XY	alive	p10000001820	false	2015		male	Consenting
+r20000001321	cancer	female	H	Asian or Asian British - Indian	XX	deceased	p10000001821	false	1943	2023	female	Consenting
+r20000001322	cancer	male	R	Other Ethnic Groups - Chinese	XY	alive	p10000001822	false	1961		male	Consenting
+r20000001323	cancer	male	A	White - British	XY	alive	p10000001823	false	1960		male	Consenting
+r20000001324	cancer	female	F	Mixed - White and Asian	XX	alive	p10000001824	false	1962		female	Consenting
+r20000001325	cancer	female	A	White - British	XX	alive	p10000001825	false	1980		female	Consenting
+r20000001326	cancer	male	A	White - British	XY	alive	p10000001826	false	1943		male	Consenting
+r20000001327	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001827	false	1941		male	Consenting
+r20000001328	cancer	female	C	White - Any other White background	XX	alive	p10000001828	false	1966		female	Consenting
+r20000001329	cancer	female	A	White - British	XX	alive	p10000001829	false	1963		female	Consenting
+r20000001330	cancer	male	A	White - British	XY	alive	p10000001830	false	1953		male	Consenting
+r20000001331	cancer	male	A	White - British	XY	alive	p10000001831	false	1983		male	Consenting
+r20000001332	cancer	female	A	White - British	XX	alive	p10000001832	false	1975		female	Consenting
+r20000001333	cancer	female	A	White - British	XX	alive	p10000001833	false	1943		female	Consenting
+r20000001334	cancer	male	A	White - British	XY	deceased	p10000001834	false	1956	2022	male	Consenting
+r20000001335	cancer	male	A	White - British	XY	alive	p10000001835	false	1964		male	Consenting
+r20000001336	cancer	male	A	White - British	XY	alive	p10000001836	false	1951		male	Consenting
+r20000001337	cancer	female	A	White - British	XX	deceased	p10000001837	false	1952	2021	female	Consenting
+r20000001338	cancer	male	A	White - British	XY	alive	p10000001838	false	1951		male	Consenting
+r20000001339	cancer	female	C	White - Any other White background	XX	alive	p10000001839	false	1946		female	Consenting
+r20000001340	cancer	male	H	Asian or Asian British - Indian	XY	alive	p10000001840	false	1956		male	Consenting
+r20000001341	cancer	male	A	White - British	XY	deceased	p10000001841	false	1961	2023	male	Consenting
+r20000001342	cancer	female	J	Asian or Asian British - Pakistani	XX	alive	p10000001842	false	1977		female	Consenting
+r20000001343	cancer	male	D	Mixed - White and Black Caribbean	XY	alive	p10000001843	false	1939		male	Consenting
+r20000001344	cancer	female	Z	Not Stated	XX	alive	p10000001844	false	1969		female	Consenting
+r20000001345	cancer	female	Z	Not Stated	XX	alive	p10000001845	false	1976		female	Consenting
+r20000001346	cancer	female	A	White - British	XX	alive	p10000001846	false	1944		female	Consenting
+r20000001347	cancer	male	J	Asian or Asian British - Pakistani	XY	alive	p10000001847	false	1929		male	Consenting
+r20000001348	cancer	female	A	White - British	XX	alive	p10000001848	false	1951		female	Consenting
+r20000001349	cancer	female	A	White - British	XX	alive	p10000001849	false	2022		female	Consenting
+r20000001350	cancer	female	A	White - British	XX	alive	p10000001850	false	1959		female	Consenting

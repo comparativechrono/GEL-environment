@@ -1,0 +1,9 @@
+participant_id	age_at_diagnosis	org_code_provider	source_of_referral	referral_decision_date	date_first_seen	diagnosis_date	org_code_diagnosis	primary_diagnosis_icd	laterality	basis_of_diagnosis	tnm_version	t_cat_final_pre_treat	n_cat_final_pre_treat	m_cat_final_pre_treat	tnm_cat_final_pre_treat	mdt_discussion_ind	care_plan_intent	fev1_percentage	performance_status	ct_scan	ct_scan_date	bronchoscopy	assessed_nurse_specialist	treatment_plan_type
+119000315	46	RTH	03	2013-08-17	2013-08-27	2013-09-16	RTH	C349	R	7	7	T2	N0	M0	1	Y	C	93	1	Y	2013-08-22	N	Y	01
+119000686	47	RQ3	03	2013-10-07	2013-10-17	2013-11-06	RQ3	C349	R	7	7	T2	N0	M0	4	Y	P	43	1	Y	2013-10-12	N	Y	03
+119004410	66	RTH	03	2013-11-03	2013-11-13	2013-12-03	RTH	C349	L	7	7	T2	N0	M0	2	Y	C	74	1	Y	2013-11-08	N	Y	01
+119007777	78	RA7	03	2013-09-29	2013-10-09	2013-10-29	RA7	C349	L	7	7	T2	N0	M0	2	Y	C	65	1	Y	2013-10-04	Y	Y	01
+219001043	56	RA7	03	2013-09-19	2013-09-29	2013-10-19	RA7	C349	R	7	7	T2	N0	M0	2	Y	C	48	1	Y	2013-09-24	Y	Y	01
+219001567	66	RA7	03	2013-07-16	2013-07-26	2013-08-15	RA7	C349	L	7	7	T2	N0	M0	1	Y	C	57	1	Y	2013-07-21	N	Y	01
+219002600	55	R0A	03	2013-08-06	2013-08-16	2013-09-05	R0A	C349	R	7	7	T2	N0	M0	4	Y	P	49	1	Y	2013-08-11	N	Y	03
+219003742	53	RA7	03	2013-01-01	2013-01-11	2013-01-31	RA7	C349	L	7	7	T2	N0	M0	1	Y	C	60	1	Y	2013-01-06	Y	Y	01

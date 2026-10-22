@@ -1,0 +1,5 @@
+participant_id	uniqmhsdspersid	attribtoindic	bspuniqid	enddatedelaydisch	file_type	financialyear_identifier	ic_use_submission_flag	mhs504uniqid	month_id	month_identifier	month_name	orgcodeprov	orgidprov	phospprovspellnum	puniqhospprovspellnum	puniqservreqid	recordnumber	startdatedelaydisch
+119000641	110753	05	111191	2018-09-18	Primary	2018/19	true	111195	1425	2018-09	September	RXG	RXG	HS111121	RXGHS111121	RXGSR110767	110761	2018-08-22
+119001901	133479	05	133842	2018-02-16	Primary	2017/18	true	133846	1418	2018-02	February	TAF	TAF	HS133771	TAFHS133771	TAFSR133484	133483	2018-01-26
+119004179	172721	05	173285	2020-07-29	Primary	2020/21	true	173289	1447	2020-07	July	RV3	RV3	HS173217	RV3HS173217	RV3SR172980	172725	2020-07-04
+119004530	181139	05	181561	2017-06-21	Primary	2017/18	true	181564	1410	2017-06	June	RT1	RT1	HS181487	RT1HS181487	RT1SR181150	181146	2017-06-13
