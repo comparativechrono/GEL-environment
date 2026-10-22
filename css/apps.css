@@ -151,6 +151,9 @@
 .bw-text { margin: 0; padding: 10px 14px; font-family: var(--font-mono); font-size: 12.5px; white-space: pre-wrap; word-break: break-all; color: #222; background: #fff; min-height: 100%; }
 .bw-image { min-height: 100%; display: flex; align-items: center; justify-content: center; background: #222; }
 .bw-image img { max-width: 100%; max-height: 100%; }
+/* an SVG picture: on white, at its own size (REViewer's plots are wide), as Firefox shows an SVG file */
+.bw-svg { position: absolute; inset: 0; overflow: auto; background: #fff; }
+.bw-svg img { display: block; }
 
 /* ---------- Settings Manager ---------- */
 .app-settings .wm-body { background: var(--gtk-bg); }

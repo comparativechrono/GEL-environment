@@ -23,6 +23,8 @@ const HOME_URL = () => `https://${window.RE.config.sites.home}/`;
 
 export async function launch(ctx, args = {}) {
   const { re } = ctx;
+  // (a file opened from the file manager, the desktop or xdg-open comes as a path: it is shown as file://PATH)
+  if (!args.url && args.path) args = { ...args, url: 'file://' + args.path };
   // a link opened from another app becomes a new tab of an open browser window
   if (!args.newWindow) {
     const existing = re.wm.byApp('web-browser')[0];
@@ -376,7 +378,15 @@ class Browser {
     const mime = mimeForPath(path);
     try {
       if (mime === 'image/*') {
-        const u = await vfs.urlFor(path);
+        // (an SVG picture needs its type for an <img>: the file system hands its text over as plain text. As an
+        // image, the scripts an SVG file may hold do not run)
+        let u;
+        if (/\.svg$/i.test(path)) {
+          if (tab.blobUrl) URL.revokeObjectURL(tab.blobUrl);
+          u = tab.blobUrl = URL.createObjectURL(new Blob([await vfs.readFile(path)], { type: 'image/svg+xml' }));
+          return this._page(tab, href, h('div.bw-svg', h('img', { src: u, alt: vfs.basename(path) })), { title: vfs.basename(path), opts });
+        }
+        u = await vfs.urlFor(path);
         return this._page(tab, href, h('div.bw-image', h('img', { src: u, alt: vfs.basename(path) })), { title: vfs.basename(path), opts });
       }
       if (mime === 'application/pdf' || mime === 'text/html') {

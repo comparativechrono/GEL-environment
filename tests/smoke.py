@@ -24,6 +24,9 @@ RELEASE = '/main-programme/main-programme_v19_2024-10-31'
 BAM = '/genomes/by_date/2016-08-11/HX00100001/LP3000001-DNA_A01/Assembly/LP3000001-DNA_A01.bam'
 HPC = 'doublehelix.helix.prod.aws.gel.ac'
 PLUGINS = '/gel_data_resources/example_scripts/workshop_scripts/bcftools_plugins'
+REPEATS = '/gel_data_resources/example_scripts/workshop_scripts/repeat_expansions/synthetic'
+# (is a SAM text coordinate-sorted? – by contig, as the records come, and then by position)
+SORTED = "awk '$3==c && $4+0<p {bad++} {c=$3; p=$4+0} END{print (bad ? \"UNSORTED\" : \"COORDINATE-SORTED\"), NR}'"
 
 results = []
 
@@ -127,6 +130,19 @@ def run():
         d.type(f'bcftools --version | head -1; bcftools +split-vep {PLUGINS}/trio-csq.vcf -l | head -3', 10)
         t = d.terminal_text()
         check('modules: bcftools/1.21 replaces 1.16, and has its plugins', 'bcftools/1.16 => bcftools/1.21' in t and 'bcftools 1.21' in t and 'Consequence' in t, t[-500:])
+        # (samtools sort sorts – the builds before 22 October 2026 ended with status 0 and the records unsorted)
+        d.type('module purge; module load samtools/1.21; cd ~', 1)
+        d.type(f'samtools sort -n -o byname.bam {BAM} && samtools sort -o bycoord.bam byname.bam && samtools index bycoord.bam && echo "by name: $(samtools view byname.bam | {SORTED})" && echo "by position: $(samtools view bycoord.bam | {SORTED})"', 30)
+        t = d.terminal_text()
+        check('terminal: samtools sort sorts (by name, then back by position)', 'by name: UNSORTED' in t and 'by position: COORDINATE-SORTED' in t, t[-300:])
+        # (ExpansionHunter → samtools sort and index → REViewer, with the synthetic sample)
+        d.type('module load ExpansionHunter/5.0.0 REViewer/0.2.7', 1)
+        d.type(f'ExpansionHunter --reads {REPEATS}/reads.bam --reference {REPEATS}/reference.fa --variant-catalog {REPEATS}/catalog.json --sex male --output-prefix smoke > eh.log && grep EXPANDED_CAG smoke.vcf | cut -f10', 20)
+        t = d.terminal_text()
+        check('repeats: ExpansionHunter calls the expanded repeat (12/77)', 'SPANNING/INREPEAT:12/77' in t, t[-300:])
+        d.type(f'samtools sort -o smoke.sorted.bam smoke_realigned.bam && samtools index smoke.sorted.bam && REViewer --reads smoke.sorted.bam --vcf smoke.vcf --reference {REPEATS}/reference.fa --catalog {REPEATS}/catalog.json --locus EXPANDED_CAG --output-prefix smoke > rv.log && ls smoke.EXPANDED_CAG.svg && cat smoke.metrics.tsv', 25)
+        t = d.terminal_text()
+        check('repeats: REViewer draws the reads (SVG) and counts them', 'smoke.EXPANDED_CAG.svg' in t and '12/77' in t.split('smoke.EXPANDED_CAG.svg')[-1], t[-300:])
         d.type('module purge', 1)
 
         # ------------------------------------------------------- the HPC and LSF

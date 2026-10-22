@@ -1,0 +1,48 @@
+ExpansionHunter 5.0.0 – the program of the module ExpansionHunter/5.0.0
+
+Licence: Apache 2.0 (notices/ExpansionHunter-LICENSE.txt – the release's LICENSE.txt, its README and the headers of
+its source files say so; the release's older COPYRIGHT.txt, unchanged in notices/ExpansionHunter-COPYRIGHT.txt, still
+carries an earlier GNU GPL 3 notice, so its source code is offered here as for a GPL program:
+../../../licenses/sources/). Compiled in, each with its notice in notices/: the GraphTools, sparsepp, CTPL and JSON
+code of the release; Boost 1.73.0 (Boost Software License); HTSlib 1.10.2 (MIT/Expat and modified BSD); spdlog 1.6.1
+(MIT); Abseil 20210324.2 (Apache 2.0); zlib 1.3.1, bzip2 1.0.8 and liblzma of XZ 5.4.6; and Emscripten's runtime (MIT
+and NCSA).
+
+Upstream source: https://github.com/Illumina/ExpansionHunter, tag v5.0.0 (GitHub's archive,
+ExpansionHunter-5.0.0.tar.gz, SHA-256 921d1f8be658f2bdd144150278210bb921d605af921816e94a7508c0b9b9dfff); the archives
+of the libraries, their addresses and SHA-256:
+../../../licenses/genomics-wasm-build/tools/expansionhunter/versions.lock.json. All of them are in
+../../../licenses/sources/.
+
+Compiled to WebAssembly by the genomics-wasm project (https://github.com/comparativechrono/genomics-wasm, commit
+d9b9f7d of 22 October 2026, pull request 9) with Emscripten 3.1.64: one thread, at most 2 GiB of memory, local files
+only (no HTTP or other remote files), C++ exceptions as upstream. Changes
+(../../../licenses/genomics-wasm-build/tools/expansionhunter/: serial.patch, serial-thread.hh, PORTABILITY.md): the
+work that ExpansionHunter hands to threads – its seeking and streaming workers, the setting up of the loci, the writer
+of the BAMlet – is done by the same upstream functions, one after the other; a thread count other than 1 is refused;
+and sparsepp takes its width-explicit branch for counting bits (Emscripten's size_t is a type of its own). The graph
+alignment, likelihoods, genotypes and confidence intervals are upstream's.
+
+The files here are those of dist/expansionhunter/ in the project's tested release package repeats-wasm.zip (SHA-256
+ba35c0a07342cba18cc2b844f728373dbe2c33feed7c4ff784a897292acf31d9), made by its workflow "Build and validate repeat
+analysis" (.github/workflows/repeats.yml, run 39692680602), unchanged: expansionhunter.mjs and .wasm,
+build-manifest.json (the compiler, the build's inputs and the SHA-256 of every file), build-provenance.json (the
+compiler flags and source changes of each build) and notices/. Left out: the package's copies of the source archives
+(the same files are in ../../../licenses/sources/), its runner, tests and test data (its example data are in
+/gel_data_resources/example_scripts/workshop_scripts/repeat_expansions/).
+
+Checked by the project against the programs built natively from the same sources, unchanged and with the port's
+changes: 15 of 15 cases, the same results in Node.js, Chromium, Firefox and WebKit – ExpansionHunter's own example (an
+SNV next to a CAG repeat: seeking and streaming, both aligners, from BAM and from CRAM), synthetic normal, expanded
+and X-chromosome repeats (male and female), an SNV or a second repeat next to a repeat, ExpansionHunter → samtools
+sort and index → REViewer for every repeat locus, REViewer's own BEAN1 example, an empty BAM file, and the errors of a
+missing index, a contig not in the reference and a locus not in the catalog. Compared exactly – genotypes, intervals,
+read counts, allele depths, every field of the BAMlets, the geometry and labels of the plots; only representation set
+aside (the order of JSON keys and of VCF and SVG attributes, BAM compression). And the package itself, unzipped, in
+all four.
+
+In the terminal: ExpansionHunter runs this program (assets/js/repeats-re.js), each command in a worker of its own
+(assets/js/threads-worker.mjs) with the files its arguments name and their indexes (.bai, .crai, .fai). It writes
+PREFIX.vcf, PREFIX.json and PREFIX_realigned.bam – the reads it used, not sorted: samtools sort and samtools index
+make them ready for REViewer (IGV shows them as unmapped: their alignments to the repeat graph are in tags). The
+folder of the prefix must exist, as upstream. --threads (-n) is left out with a note: the program runs on one thread.

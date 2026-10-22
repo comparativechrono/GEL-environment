@@ -8,10 +8,11 @@ const EXT = [
   [/\.(csv|tsv|tab)$/i, 'text/tab-separated-values', 'mimes/text-csv'],
   [/\.(txt|log|out|err|cfg|conf|ini|config|yml|yaml|toml|netrc|renviron|rprofile|bashrc|profile)$/i, 'text/plain', 'mimes/text-plain'],
   [/\.(md|markdown|rst)$/i, 'text/markdown', 'mimes/text-markdown'],
-  [/\.(html?|xml|svg)$/i, 'text/html', 'mimes/text-html'],
+  [/\.(html?|xml)$/i, 'text/html', 'mimes/text-html'],
   [/\.json$/i, 'application/json', 'mimes/application-json'],
   [/\.pdf$/i, 'application/pdf', 'mimes/application-pdf'],
-  [/\.(png|jpe?g|gif|webp|bmp)$/i, 'image/*', 'mimes/image'],
+  // (an SVG file is a picture – REViewer's plots, Graphviz's graphs: the web browser shows it as one)
+  [/\.(png|jpe?g|gif|webp|bmp|svg)$/i, 'image/*', 'mimes/image'],
   [/\.(vcf|vcf\.gz|bcf|gvcf|g\.vcf\.gz)$/i, 'application/x-vcf', 'mimes/genomic-vcf'],
   [/\.(bam|cram|sam)$/i, 'application/x-bam', 'mimes/genomic-bam'],
   [/\.(bai|crai|tbi|csi|fai|idx)$/i, 'application/x-index', 'mimes/genomic-index'],

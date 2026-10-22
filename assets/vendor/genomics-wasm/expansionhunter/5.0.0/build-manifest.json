@@ -1,0 +1,87 @@
+{
+  "assets": {
+    "build-provenance.json": "4aa67a79955d224d1e7a1fedf0981825de4d0d70d9e891d644a2ade689c885f7",
+    "expansionhunter.mjs": "a6ae5ca00bc4e1e1ceb15075d339cc0ba691ed37a004da5b2dd3689b16566704",
+    "expansionhunter.wasm": "c4cd820cb52e62f6d50dd078993b7b4a514f91764faa9e14c37f4b24f7a3be78",
+    "notices/ExpansionHunter-COPYRIGHT.txt": "6296e077b2d5374dc3ffcdcce99c93f78d0ba9f6ccf0da9a9aea5f6671074de5",
+    "notices/ExpansionHunter-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "notices/LICENSE.emscripten": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+    "notices/abseil-LICENSE": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+    "notices/boost-LICENSE_1_0.txt": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "notices/bzip2-LICENSE": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+    "notices/ctpl-LICENSE": "a761e51c13c3c812bb4c3dcb96826544e1697053c44641164b74994b812685e9",
+    "notices/graph-tools-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "notices/htslib-LICENSE": "0bd81023e565dfb16b9ffdefed0eea4a1884ddaa8efcb957db84f595caf8c082",
+    "notices/sparsepp-LICENSE": "c5de8c59cc21e43275b0fa7e6c6780a26c9d39b689d36a85714361eedca7729f",
+    "notices/spdlog-LICENSE": "a7241a379cb98d37788f82c2fc2e484c3ae85dae881fd3406f0637644850926f",
+    "notices/xz-COPYING": "29a1e305b2e34eefe5d4602d00cde1d528b71c5d9f2eec5106972cf6ddb6f73f",
+    "notices/xz-COPYING.GPLv2": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "notices/xz-COPYING.GPLv3": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "notices/xz-COPYING.LGPLv2.1": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "notices/zlib-LICENSE": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "sources/ExpansionHunter-5.0.0.tar.gz": "921d1f8be658f2bdd144150278210bb921d605af921816e94a7508c0b9b9dfff",
+    "sources/abseil-cpp-20210324.2.tar.gz": "59b862f50e710277f8ede96f083a5bb8d7c9595376146838b9580be90374ee1f",
+    "sources/boost_1_73_0.tar.bz2": "4eb3b8d442b426dc35346235c8733b5ae35ba431690e38c6a8263dce9fcbb402",
+    "sources/bzip2-1.0.8.tar.gz": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+    "sources/htslib-1.10.2.tar.bz2": "e3b543de2f71723830a1e0472cf5489ec27d0fbeb46b1103e14a11b7177d1939",
+    "sources/spdlog-1.6.1.tar.gz": "378a040d91f787aec96d269b0c39189f58a6b852e4cbf9150ccfacbe85ebbbfc",
+    "sources/xz-5.4.6.tar.bz2": "913851b274e8e1d31781ec949f1c23e8dbcf0ecf6e73a2436dc21769dd3e6f49",
+    "sources/zlib-1.3.1.tar.gz": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23"
+  },
+  "buildId": "4576490a060241fb9fd6e793a6c80f9f",
+  "compiler": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.64 (a1fe3902bf73a3802eae0357d273d0e37ea79898)",
+  "inputs": {
+    "scripts/build-expansionhunter.py": "26689c1a36716806c1e6d036f3f9cdb4f1cffeb39f10c987aeed002a51c9583d",
+    "scripts/setup-emsdk.sh": "73b3b7a8406e0f3c6197b325dff6af7034d0607086af28d1f5af10af82a36522",
+    "tools/expansionhunter/PORTABILITY.md": "3fe69b8641bfee7dc289b033e74fed2fd6d57191fe3e3a9896f8a8b34d4f7535",
+    "tools/expansionhunter/README.md": "ee3d0d3daba61fc4b1aa27b990e9773acba6f267fafbeb1328d450cfe3a0e810",
+    "tools/expansionhunter/abi-check.cpp": "55a6eb9a56bacc0729c671c92582bb40d290055a5b1d947d5c70bf29137ae1ae",
+    "tools/expansionhunter/notices/ExpansionHunter-COPYRIGHT.txt": "6296e077b2d5374dc3ffcdcce99c93f78d0ba9f6ccf0da9a9aea5f6671074de5",
+    "tools/expansionhunter/notices/ExpansionHunter-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "tools/expansionhunter/notices/LICENSE.emscripten": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+    "tools/expansionhunter/notices/abseil-LICENSE": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+    "tools/expansionhunter/notices/boost-LICENSE_1_0.txt": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "tools/expansionhunter/notices/bzip2-LICENSE": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+    "tools/expansionhunter/notices/ctpl-LICENSE": "a761e51c13c3c812bb4c3dcb96826544e1697053c44641164b74994b812685e9",
+    "tools/expansionhunter/notices/graph-tools-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "tools/expansionhunter/notices/htslib-LICENSE": "0bd81023e565dfb16b9ffdefed0eea4a1884ddaa8efcb957db84f595caf8c082",
+    "tools/expansionhunter/notices/sparsepp-LICENSE": "c5de8c59cc21e43275b0fa7e6c6780a26c9d39b689d36a85714361eedca7729f",
+    "tools/expansionhunter/notices/spdlog-LICENSE": "a7241a379cb98d37788f82c2fc2e484c3ae85dae881fd3406f0637644850926f",
+    "tools/expansionhunter/notices/xz-COPYING": "29a1e305b2e34eefe5d4602d00cde1d528b71c5d9f2eec5106972cf6ddb6f73f",
+    "tools/expansionhunter/notices/xz-COPYING.GPLv2": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "tools/expansionhunter/notices/xz-COPYING.GPLv3": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "tools/expansionhunter/notices/xz-COPYING.LGPLv2.1": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "tools/expansionhunter/notices/zlib-LICENSE": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "tools/expansionhunter/popcount-check.cpp": "115f543ad3a25e7e1442e4a4531d7e2fcd3fbe16bda8b499ae58f0bf3c8b7633",
+    "tools/expansionhunter/serial-thread.hh": "3016b506e5469ba555aaf05eef93856157e6f4bf210da8e1e6f07551996421e9",
+    "tools/expansionhunter/serial.patch": "2afbae82430c32e2a13f823e7edc3fe518d05d07c7a696227ca92502f47dacd6",
+    "tools/expansionhunter/versions.lock.json": "111699274acfe1011a35c42f334efdd2c8f6b7ec4b4456487be6eeb7558db680"
+  },
+  "nativeFiles": {
+    "native": {
+      "ExpansionHunter": "74feb86fb0d3d3e54224c475d0de205345146f76765fc32939d84064f94e2be7",
+      "build-provenance.json": "17cf68053c5bcf70ce27d38e844ff71e93eab89c8bcb2ff4eb700bb32ec736da"
+    },
+    "patched-native": {
+      "ExpansionHunter": "4e437a8a1c6645ff6ac49e77c524f015b0bd4bb4f07dd2ca200826d7040cb6b0",
+      "build-provenance.json": "c3060e85deb157cb18f0e62dcae137a8c9ca63ae0bc6ab213a47e63fb77dfa4d"
+    }
+  },
+  "runtime": {
+    "exceptions": true,
+    "formats": [
+      "BAM",
+      "CRAM",
+      "FASTA",
+      "JSON",
+      "VCF"
+    ],
+    "localFilesOnly": true,
+    "maximumMemoryBytes": 2147483648,
+    "requiresCrossOriginIsolation": false,
+    "threads": false
+  },
+  "schema": 1,
+  "tool": "expansionhunter",
+  "version": "5.0.0"
+}

@@ -10,8 +10,8 @@
     "-D_FILE_OFFSET_BITS=64",
     "-D_LARGEFILE_SOURCE",
     "-I.",
-    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/30a33950fe144860aaae1ff3659e1edd/wasm/1.16/htslib",
-    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/30a33950fe144860aaae1ff3659e1edd/wasm/prefix/include"
+    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/54cb5bd352744e2a8116f0ff80655718/wasm/1.16/htslib",
+    "-I/home/runner/work/genomics-wasm/genomics-wasm/build/hts/54cb5bd352744e2a8116f0ff80655718/wasm/prefix/include"
   ],
   "mode": "built-in",
   "nm": [

@@ -1,6 +1,6 @@
 BWA, BWA-MEM2, HISAT2, FreeBayes, featureCounts, StringTie, kallisto, Salmon, mosdepth, Cutadapt, LoFreq,
 SomaticSniper, Strelka2, Kraken2, Bracken, Prodigal, HMMER, bustools, PLINK 2, MACS3, SAMtools, BCFtools and HTSlib
-1.16 and 1.21, and the R package locfit – from the genomics-wasm project
+1.16 and 1.21, ExpansionHunter, REViewer and the R package locfit – from the genomics-wasm project
 ======================================================================================================================
 The WebAssembly builds of BWA 0.7.19, HISAT2 2.2.2 and FreeBayes 1.3.6 in ../../biowasm/, and of the
 R package locfit 1.5-9.12 in ../../r-packages/, come from the genomics-wasm project:
@@ -401,7 +401,10 @@ SAMtools, BCFtools and HTSlib 1.16 and 1.21 (added on 21 October 2026, for the R
   Research Environment's modules – in ../../genomics-wasm/hts/1.16/ and 1.21/, and the example data in
   data/fs/gel_data_resources/example_scripts/workshop_scripts/bcftools_plugins/ (trio-csq.vcf, phased.vcf, family.ped:
   synthetic, from datasets/hts/common/), come from the same project at commit 170e9f0176b9b618c7c80c1c0559592736755cdd
-  (21 October 2026). Their parts of the repository, in its layout:
+  (21 October 2026); samtools was compiled again, with the fix to its sorting described below, at commit
+  d9b9f7d60df837ca889d3b994e7166da2b94de0a (22 October 2026; pull request 9, with ExpansionHunter and REViewer), and
+  the files here are from that build – the other programs came out byte for byte the same. Their parts of the
+  repository (at d9b9f7d), in its layout:
   scripts/           build-hts.py (for one version or both: the native programs from the unchanged release archives,
                      with the plugins as shared libraries; the native programs with the port's changes and the plugins
                      built in; the WebAssembly programs), fetch-hts-test-data.py (how the test data was made – the
@@ -410,10 +413,11 @@ SAMtools, BCFtools and HTSlib 1.16 and 1.21 (added on 21 October 2026, for the R
   tools/hts/         README.md and PORTABILITY.md (the changes, and why), prepare-plugins.py (how the plugins are
                      compiled into bcftools: each as upstream's Makefile compiles it, its symbols with a prefix of its
                      own, a table where bcftools would load a shared library), the patches – portability-V.patch
-                     (BCFtools), htslib-portability-V.patch, samtools-portability-V.patch –, abi-check.c (the checks of
+                     (BCFtools), htslib-portability-V.patch, samtools-portability-V.patch (also: sort runs its one
+                     worker directly – see below) –, abi-check.c (the checks of
                      the widths of the types), versions.lock.json (every source archive, with its address, size and
                      SHA-256); its notices/ are the same files as ../../genomics-wasm/hts/V/notices/
-  validation/hts/    README.md (what the comparison covers, and how it compares), cases.json (the cases: 59 for 1.16, 61
+  validation/hts/    README.md (what the comparison covers, and how it compares), cases.json (the cases: 60 for 1.16, 62
                      for 1.21), compare.py, portability_fixtures.py
   datasets/hts/      README.md (what the test data is), manifest.json (its files, with their SHA-256 – among them the
                      three example files here, the same bytes)
@@ -423,13 +427,24 @@ SAMtools, BCFtools and HTSlib 1.16 and 1.21 (added on 21 October 2026, for the R
   tools/hts/versions.lock.json points (the release downloads of samtools, bcftools and htslib on GitHub).
   What was done for this site: nothing is compiled or linked again. The files in ../../genomics-wasm/hts/V/ are those of
   dist/hts-V/ in the release packages hts-1.16-wasm.zip and hts-1.21-wasm.zip that the workflow made (run
-  39672984182), unchanged – their SHA-256 are in each NOTICE.txt and build-manifest.json. The packages' HTSlib SDK,
+  39692680585), unchanged – their SHA-256 are in each NOTICE.txt and build-manifest.json. The packages' HTSlib SDK,
   copies of the source archives, runner, tests and test data are left out.
 
-  How they were made and checked (21 October 2026, by the workflow)
+  The fix to samtools sort (22 October 2026)
+  samtools sort hands each block of records to a worker on a thread of its own – even when there is one worker. In
+  these builds a thread cannot be started: pthread_create fails, sort does not check, the worker never ran, and sort
+  ended with status 0 and the records in their input order (here too: an unsorted SAM file of 7 records, and one of
+  1,000, came out unsorted from both versions). samtools-portability-V.patch now calls the worker directly when there is
+  one, and joins only the threads it started; with more than one worker the code is upstream's. Checked here with 7,
+  1,000 and 60,000 unsorted records, the last with -m 1M (nine temporary files merged): sorted, in both versions. More
+  than one worker still cannot run in these builds: samtools sort -@ 2 stops with status 1 (1.21: "failed to set up
+  thread pool"; 1.16: "failed writing" or "truncated file") – in this terminal -@ is left out before samtools starts.
+
+  How they were made and checked (22 October 2026, by the workflow)
   1. For each version, the three builds with build-hts.py all; Emscripten 3.1.64.
-  2. validate-hts.mjs in Node.js, Chromium, Firefox and WebKit: 59 of 59 cases (1.16) and 61 of 61 (1.21) passed in
-     each – every plugin with real input, the core commands of the five programs, and the 64-bit counters and offsets:
+  2. validate-hts.mjs in Node.js, Chromium, Firefox and WebKit: 60 of 60 cases (1.16) and 62 of 62 (1.21) passed in
+     each – every plugin with real input, the core commands of the five programs (among them an unsorted BAM file
+     sorted, indexed and queried: datasets/hts/common/sort-disordered.sam), and the 64-bit counters and offsets:
      the same results as the unchanged native programs (values compared exactly; validation/hts/README.md says what is
      set aside – version and command-line headers, the layout of BGZF blocks, the folders of the files).
   3. Both versions in one browser workspace, one after the other; and each release package, unzipped, checked against
@@ -446,3 +461,62 @@ SAMtools, BCFtools and HTSlib 1.16 and 1.21 (added on 21 October 2026, for the R
   answer, so it is no (bgzip -f overwrites). Thread options are left out with a note. gzip, gunzip and zcat keep
   Biowasm's bgzip 1.17, as in the workbench, and configureStrelkaSomaticWorkflow.py reads the headers of the BAM files
   with Biowasm's samtools 1.17.
+
+ExpansionHunter and REViewer (added on 22 October 2026, for the Research Environment simulator)
+  ExpansionHunter 5.0.0 and REViewer 0.2.7 – the Research Environment's modules ExpansionHunter/5.0.0 and
+  REViewer/0.2.7 – in ../../genomics-wasm/expansionhunter/5.0.0/ and ../../genomics-wasm/reviewer/0.2.7/, and the
+  example data in data/fs/gel_data_resources/example_scripts/workshop_scripts/repeat_expansions/, come from the same
+  project at commit d9b9f7d60df837ca889d3b994e7166da2b94de0a (22 October 2026; pull request 9). Their parts of the
+  repository, in its layout:
+  scripts/           build-expansionhunter.py and build-reviewer.py (each: the native program from the unchanged
+                     sources, the native program with the port's changes, and the WebAssembly program),
+                     fetch-repeat-test-data.py (how the test data was made – the synthetic sample – and taken from the
+                     two upstream repositories, and checked), validate-repeats.mjs (the comparison with the native
+                     programs), package-repeats.py (the release package); setup-emsdk.sh is the one above
+  tools/expansionhunter/  README.md and PORTABILITY.md (the changes, and why), serial.patch and serial-thread.hh (the
+                     work ExpansionHunter hands to threads done by the same functions, one after the other),
+                     popcount-check.cpp and abi-check.cpp (checks), versions.lock.json (every source archive, with its
+                     address, size and SHA-256); its notices/ are the same files as
+                     ../../genomics-wasm/expansionhunter/5.0.0/notices/
+  tools/reviewer/    README.md (what was changed, and why), linux-rand.hh (GNU libc's default rand() sequence, for the
+                     one call in Origin.cpp; build-reviewer.py puts it in), rng-check.cpp (its check against GNU libc),
+                     abi-check.cpp, versions.lock.json; its notices/ are those of ../../genomics-wasm/reviewer/0.2.7/
+  validation/repeats/  README.md (the 15 cases, and how the results are compared), cases.json, compare.py
+  datasets/repeats/  README.md (what the test data is, where it comes from, how the chromosome 16 of REViewer's example
+                     was reduced), manifest.json (its files, with their SHA-256 – among them the example files here, the
+                     same bytes), provenance/sources.lock.json (the upstream commits, files and licences)
+  runtime/REPEATS.md how genomics-wasm runs the three programs (its RepeatRunner); this site does not use that module:
+                     its terminal starts each command in a worker of its own (assets/js/threads-worker.mjs)
+  .github/workflows/repeats.yml   the workflow that built the programs, compared them in Node.js, Chromium, Firefox
+                     and WebKit, and made and tested the release package
+  Source code included here (in ../sources/): REViewer 0.2.7 (GNU GPL 3 or later) and what is compiled into it – Boost
+  1.73.0 (in three parts: see ../sources/README.txt), HTSlib 1.10.2, spdlog 1.6.1, bzip2 1.0.8, XZ 5.4.6 and zlib 1.3.1 –
+  and ExpansionHunter 5.0.0 with Abseil 20210324.2: ExpansionHunter is under the Apache License 2.0, but the
+  COPYRIGHT.txt of its release keeps an older GPL notice.
+  What was done for this site: nothing is compiled or linked again. The files in ../../genomics-wasm/expansionhunter/
+  5.0.0/ and reviewer/0.2.7/ are those of dist/expansionhunter/ and dist/reviewer/ in the release package
+  repeats-wasm.zip that the workflow made (run 39692680602), unchanged; their SHA-256 are in each NOTICE.txt and
+  build-manifest.json. The example data are files of the package's datasets/repeats/, unchanged (their SHA-256 are in
+  datasets/repeats/manifest.json): the synthetic sample of common/ and the two upstream examples.
+
+  How they were made and checked (22 October 2026, by the workflow)
+  1. The three builds of each program; Emscripten 3.1.64. The samtools of the workflow (sort and index of the BAMlet)
+     is a build of HTS 1.21 at the same commit – the same as the one in ../../genomics-wasm/hts/1.21/ but for the
+     build folder in the compiler options that samtools --version prints.
+  2. validate-repeats.mjs in Node.js, Chromium, Firefox and WebKit: 15 of 15 cases passed in each – ExpansionHunter's
+     own example (seeking and streaming, both aligners, BAM and CRAM), the synthetic sample (a normal, an expanded and
+     an X-chromosome repeat; male and female), an SNV or a second repeat next to a repeat, ExpansionHunter → samtools
+     sort and index → REViewer, REViewer's BEAN1 example, an empty BAM file, and four errors: the same results as the
+     native programs (compared exactly; validation/repeats/README.md lists what is set aside – the order of JSON keys
+     and of VCF and SVG attributes, BAM compression).
+  3. The release package, unzipped, checked against its SHA256SUMS and run again (Node.js, and its page in the three
+     browsers).
+  Here, besides: the workflow of the example data's README in the terminal, with the results of the package's own
+  runs – the BEAN1 plot is the one REViewer draws on Linux, byte for byte.
+
+  In the terminal of the simulator
+  ExpansionHunter and REViewer run these programs (assets/js/repeats-re.js), each command in a worker of its own
+  (threads-worker.mjs) with the files its arguments name and their indexes. ExpansionHunter's --threads (-n) is left
+  out with a note: it runs on one thread. The BAMlet that ExpansionHunter writes is not sorted: samtools sort and
+  samtools index make it ready for REViewer. REViewer's plots are SVG files: the web browser of the desktop
+  (firefox FILE.svg, or the file manager) shows them as pictures.

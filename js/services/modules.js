@@ -11,7 +11,8 @@
 // BCFtools and HTSlib come in the RE's two versions, 1.16 and 1.21 (the
 // genomics-wasm builds, with every BCFtools plugin; assets/js/hts-re.js runs
 // the one whose module is loaded); as on the RE, the newest is the default and
-// samtools and bcftools load their HTSlib with them.
+// samtools and bcftools load their HTSlib with them. ExpansionHunter and
+// REViewer have the RE's module names, with capitals (assets/js/repeats-re.js).
 //
 // Loading a module puts its folder on PATH and its name in LOADEDMODULES, as
 // Lmod does; both are exported, so scripts, bash -c and LSF jobs inherit them.
@@ -31,6 +32,7 @@ export const GROUPS = [
   ['align', 'Alignment and BAM/CRAM files'],
   ['variants', 'Variants: calling and VCF files'],
   ['somatic', 'Somatic variants (tumour/normal)'],
+  ['repeats', 'Repeat expansions: short tandem repeats (STRs)'],
   ['popgen', 'Genotypes of many people: QC, LD, kinship, association'],
   ['rnaseq', 'RNA-seq: counts and abundances'],
   ['chip', 'ChIP-seq and ATAC-seq: peaks'],
@@ -65,6 +67,8 @@ export const MODULES = [
   { name: 'lofreq', version: '2.1.5', commands: ['lofreq'], group: 'somatic', what: 'low-frequency variants (lofreq call) and somatic variants (lofreq somatic)' },
   { name: 'somaticsniper', version: '1.0.5.0', commands: ['bam-somaticsniper', 'somaticsniper'], group: 'somatic', what: 'somatic SNVs:  bam-somaticsniper -F vcf -f REF.fa tumour.bam normal.bam out.vcf' },
   { name: 'strelka', version: '2.9.10', commands: ['configureStrelkaSomaticWorkflow.py', 'configureStrelkaGermlineWorkflow.py'], group: 'somatic', what: 'Strelka2 somatic SNVs and indels (configure, then RUNDIR/runWorkflow.py)' },
+  { name: 'ExpansionHunter', version: '5.0.0', commands: ['ExpansionHunter'], group: 'repeats', what: 'genotypes repeat expansions:  ExpansionHunter --reads S.bam --reference REF.fa --variant-catalog CAT.json --output-prefix S' },
+  { name: 'REViewer', version: '0.2.7', commands: ['REViewer'], group: 'repeats', what: 'draws the reads of a repeat call (SVG):  REViewer --reads S.sorted.bam --vcf S.vcf --reference REF.fa --catalog CAT.json --locus ID --output-prefix S' },
   { name: 'plink2', version: '2.0.0-b.1-dev', commands: ['plink2'], group: 'popgen', what: 'PLINK 2:  plink2 --vcf cohort.vcf.gz --freq --missing --hardy --out cohort' },
   { name: 'subread', version: '2.1.1', commands: ['featureCounts'], group: 'rnaseq', what: 'featureCounts: reads per gene' },
   { name: 'stringtie', version: '3.0.3', commands: ['stringtie'], group: 'rnaseq', what: 'assembles transcripts and their abundance' },
