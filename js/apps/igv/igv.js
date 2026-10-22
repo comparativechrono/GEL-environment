@@ -441,7 +441,7 @@ class IGVDesktop {
     if (!e) throw new Error(`File not found: ${p}`);
     if (e.kind === 'dir') throw new Error(`${p} is a directory`);
     const name = p.split('/').pop();
-    if (e.kind === 'url') return new URL(e.url, location.href).href;
+    if (e.kind === 'url') return igvAddress(e.url);
     if (e.kind === 'blob') return e.blob instanceof File ? e.blob : new File([e.blob], name);
     return new File([await fs.toBlob(p)], name);
   }
@@ -1140,6 +1140,17 @@ class IGVDesktop {
 
 }
 
+/* IGV reads a hosted file in pieces (Range requests); the terminal reads the same file whole, when a program needs it.
+   On GitHub Pages a whole file can come gzip-compressed, and a piece asked for later at the same address is then
+   answered from the browser's cache as a piece of the compressed bytes, which cannot be decoded
+   (ERR_CONTENT_DECODING_FAILED: IGV said "Error accessing resource … status: 0"). IGV's own address keeps its pieces
+   apart from the whole file. */
+function igvAddress(url) {
+  const u = new URL(url, location.href);
+  if (u.origin === location.origin) u.searchParams.set('igv', '1');
+  return u.href;
+}
+
 /** The reference names of a BAM file, read from its header (the first BGZF blocks). */
 async function bamContigs(fs, p) {
   const e = fs.get(p);
@@ -1147,7 +1158,7 @@ async function bamContigs(fs, p) {
   const MAX = 1 << 20;
   let buf;
   if (e.kind === 'url') {
-    const r = await fetch(new URL(e.url, location.href).href, { headers: { Range: `bytes=0-${MAX - 1}` } });
+    const r = await fetch(igvAddress(e.url), { headers: { Range: `bytes=0-${MAX - 1}` } });
     if (!r.ok) return null;
     buf = new Uint8Array(await r.arrayBuffer());
     if (buf.length > MAX) buf = buf.subarray(0, MAX);

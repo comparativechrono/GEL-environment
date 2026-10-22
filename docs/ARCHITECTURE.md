@@ -107,7 +107,7 @@ Its API: `releases()`, `tables(folder)`, `table(folder, name)`, `selectRows({fol
 
 ## IGV
 
-`js/apps/igv/igv.js` draws IGV desktop's window around igv.js 3.8.9: menus (File, Genomes, View, Tracks, Regions, Tools, Help), the toolbar, locus box and chromosome list, the Region Navigator, preferences, sessions in IGV's XML format, batch scripts, snapshots, and IGV's messages (a missing index; a file whose sequence names do not match the genome, found by reading the BAM header). Files are read where they are in the file system. `MG.app.igv` (`goto`, `loadPaths`, `setGenome`, `loadGenomeFromFiles`) lets the terminal drive it.
+`js/apps/igv/igv.js` draws IGV desktop's window around igv.js 3.8.9: menus (File, Genomes, View, Tracks, Regions, Tools, Help), the toolbar, locus box and chromosome list, the Region Navigator, preferences, sessions in IGV's XML format, batch scripts, snapshots, and IGV's messages (a missing index; a file whose sequence names do not match the genome, found by reading the BAM header). Files are read where they are in the file system; a file of the site is read in pieces at an address of IGV's own (`?igv=1`), because the terminal reads the same files whole and, on GitHub Pages, a piece of a whole file the browser has cached gzip-compressed cannot be decoded. `MG.app.igv` (`goto`, `loadPaths`, `setGenome`, `loadGenomeFromFiles`) lets the terminal drive it.
 
 ## Storage
 
