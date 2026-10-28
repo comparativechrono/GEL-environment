@@ -230,10 +230,11 @@ def run():
         page.remove_listener('download', on_copy)
         d.js("() => RE.session.setSetting('reviewDelayMs', 20000)")
         names = [c.suggested_filename for c in copies]
-        text = open(copies[0].path(), encoding='utf-8').read() if copies else ''
-        check('Research Registry: an approved proposal is downloaded to the computer',
-              approved and names == [n for n in names if n.endswith('_jdoe_approved_proposal.html')] and len(names) == 1
-              and 'Smoke test: a proposal to approve' in text and 'Approved' in text, ', '.join(names))
+        data = open(copies[0].path(), 'rb').read() if copies else b''
+        check('Research Registry: an approved proposal is downloaded to the computer, as a PDF',
+              approved and names == [n for n in names if n.endswith('_jdoe_approved_proposal.pdf')] and len(names) == 1
+              and data.startswith(b'%PDF-') and data.rstrip().endswith(b'%%EOF')
+              and b'Smoke test: a proposal to approve' in data and b'(Approved)' in data, ', '.join(names))
 
         # ------------------------------------------------------- the clipboard and downloads stay inside the RE
         # The computer's own clipboard, through a SEPARATE browser context: the OS clipboard is shared within the one

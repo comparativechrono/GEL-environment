@@ -113,7 +113,7 @@ function projectPage(ref) {
         copies ? h('dd', p.copyDownloadedAt ? `Downloaded to your own computer on ${fmtDate(p.copyDownloadedAt)}. ` : 'Not downloaded yet. ',
           h('button.s-btn.small', { onclick: () => sub().downloadProposal(p.ref) }, p.copyDownloadedAt ? 'Download it again' : 'Download a copy')) : null),
       h('p', { style: { marginBottom: 0 } }, 'Use ', h('code', `bsub -P ${p.lsfCode} …`), ' to run jobs on the HPC for this project, and give ', h('b', p.id), ' in Airlock requests.'),
-      copies ? h('p.muted', { style: { margin: '6px 0 0', fontSize: '12.5px' } }, 'Your copy of the approved proposal is an HTML page: it opens in any web browser, and prints to PDF. It is downloaded to your own computer, outside the Research Environment, when the project is approved.') : null));
+      copies ? h('p.muted', { style: { margin: '6px 0 0', fontSize: '12.5px' } }, 'Your copy of the approved proposal is a PDF, downloaded to your own computer (outside the Research Environment) when the project is approved. Keep it: it is the record of the project as it was approved.') : null));
   }
   if (p.status === 'revisions' || p.status === 'rejected') {
     const last = (p.history || []).slice().reverse().find(e => e.status === p.status);
