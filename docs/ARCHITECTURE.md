@@ -92,7 +92,7 @@ The desktop's page is guarded as it starts (`js/main.js`), and every frame of th
 
 It is always on: there is no setting to turn it off, so the Airlock stays the only way out. The sign-in screens (`#login`), which stand for the WorkSpaces client outside the remote desktop, are left alone.
 
-Downloads stay inside the RE for the same reason. `MG.app.saveDownload(name, data, type)` (`js/engine/app-adapter.js`) writes a copy into `~/Downloads` inside the RE and notifies that files leave only through the Airlock. The engine's `downloadBlob`/`downloadText` (`assets/js/core.js`) route through it, so the terminal's `download`, *Save session*, RStudio's file and plot export and the project `.zip` buttons all land there; the data browser and the Variant Interpreter save through the web browser's `reBrowser.download`, which does the same. The one real download to the computer is the Airlock's own retrieval of an approved export (`sites/airlock/airlock.js`), a plain `<a download>`.
+Downloads stay inside the RE for the same reason. `MG.app.saveDownload(name, data, type)` (`js/engine/app-adapter.js`) writes a copy into `~/Downloads` inside the RE and notifies that files leave only through the Airlock. The engine's `downloadBlob`/`downloadText` (`assets/js/core.js`) route through it, so the terminal's `download`, *Save session*, RStudio's file and plot export and the project `.zip` buttons all land there; the data browser and the Variant Interpreter save through the web browser's `reBrowser.download`, which does the same. Two downloads do reach the computer, both plain `<a download>`: the Airlock's own retrieval of an approved export (`sites/airlock/airlock.js`), and the applicant's copy of an approved Research Registry proposal (below).
 
 ## The data server and LabKeeper
 
@@ -118,6 +118,8 @@ Its API: `releases()`, `tables(folder)`, `table(folder, name)`, `selectRows({fol
 
 - project: draft → submitted → screening (Research Management Team) → review (Access Review Committee) → approved, with an RR number | revisions requested | rejected;
 - Airlock request: submitted → in review (Airlock Team) [→ the Airlock Committee] → approved | rejected | more information needed.
+
+When a project is approved, however that happens (the simulated review, a decision in Settings ▸ Training, or a review resumed after a reload), `approveProject()` downloads the applicant's copy of the proposal to the computer: one self-contained HTML page, made by `js/services/proposal-copy.js`, with the project's details, every section as approved, the declarations and the review, named `<RR number>_<username>_approved_proposal.html` (every browser numbers its projects from RR4120, so the username tells students' copies apart). It is downloaded once, and the project's page in the Registry can download it again. `CONFIG.submissions.downloadApprovedProposal = false` turns it off.
 
 `js/services/airlock-rules.js` is the pre-check: it reads the request and its files against the RE's export rules (counts below 5, Genomics England identifiers, raw sequencing or genotype data, exact ages, dates about individuals, individual-level tables, bulk variant lists, R objects and binary files, the project's approval and its 30 days …) and produces the findings that the simulated reviewers decide on – and that students see as they fill in the form. With `CONFIG.submissions.mode = 'appsScript'`, each submission is also posted to a Google Apps Script web app (`apps-script/`).
 

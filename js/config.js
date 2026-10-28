@@ -105,6 +105,8 @@ export const CONFIG = {
     simulatedReviewDelay: 20000,
     // Export rule: project must have been approved this many days before export.
     exportWaitDays: 30,
+    // When a project is approved, download the applicant's copy of the proposal (an HTML page) to their own computer.
+    downloadApprovedProposal: true,
     // Projects every user is a member of (so Airlock practicals can start straight away).
     seedProjects: [
       { id: 'RR4001', title: 'Training: genomic diagnosis in rare disease (Research Environment course)', domain: 'training', lsfCode: 're_gecip_training', approvedDaysAgo: 120, lead: 'Course Organiser', institution: 'Training University',

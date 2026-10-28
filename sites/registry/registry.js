@@ -14,6 +14,7 @@
 
 import { RE, h, clear, route, go, setTitle, requireDesktop, fmtDate } from '../common/site.js';
 import { GECIP_DOMAINS } from '../../js/engine/re-fs.js';
+import { DECLARATIONS } from '../../js/services/proposal-copy.js';
 
 const app = document.getElementById('rr-app');
 const sub = () => RE.services.submissions;
@@ -31,12 +32,6 @@ const DATA_TYPES = [
   'Long-read sequencing data',
   'Transcriptomics data',
 ];
-const DECLARATIONS = {
-  training: 'I have completed the Research Environment training and I will follow its rules.',
-  inside: 'The data will only be analysed inside the Research Environment; only results approved through the Airlock will leave it.',
-  noreid: 'I will not try to identify, or to contact, any participant.',
-  publication: 'I will follow the publication policy: results are shared with Genomics England before they are published.',
-};
 const STAGES = [['draft', 'Draft'], ['submitted', 'Submitted'], ['screening', 'Screening'], ['review', 'Committee review'], ['approved', 'Approved']];
 const STATUS = { draft: ['Draft', 'grey'], submitted: ['Submitted', 'blue'], screening: ['Screening', 'amber'], review: ['In review', 'amber'], approved: ['Approved', 'green'], revisions: ['Revisions requested', 'amber'], rejected: ['Not approved', 'red'] };
 const badge = (s) => h('span.s-badge.' + (STATUS[s] || [s, 'grey'])[1], (STATUS[s] || [s])[0]);
@@ -108,12 +103,17 @@ function projectPage(ref) {
   }
   if (p.status === 'approved') {
     const exportFrom = (p.approvedAt || Date.now()) + RE.config.submissions.exportWaitDays * DAY;
+    const copies = !p.seeded && RE.config.submissions.downloadApprovedProposal !== false;
     main.appendChild(h('div.rr-approved', h('div.id', p.id), h('p', { style: { margin: '6px 0' } }, `Approved on ${fmtDate(p.approvedAt, false)}.`),
       h('dl.rr-kv',
         h('dt', 'LSF project code'), h('dd', h('code', p.lsfCode || '')),
         h('dt', 'Airlock exports'), h('dd', exportFrom <= Date.now() ? 'Possible now.' : `Possible from ${fmtDate(exportFrom, false)} (30 days after approval).`),
-        h('dt', 'Members'), h('dd', (p.members || []).join(', '))),
-      h('p', { style: { marginBottom: 0 } }, 'Use ', h('code', `bsub -P ${p.lsfCode} …`), ' to run jobs on the HPC for this project, and give ', h('b', p.id), ' in Airlock requests.')));
+        h('dt', 'Members'), h('dd', (p.members || []).join(', ')),
+        copies ? h('dt', 'Your copy') : null,
+        copies ? h('dd', p.copyDownloadedAt ? `Downloaded to your own computer on ${fmtDate(p.copyDownloadedAt)}. ` : 'Not downloaded yet. ',
+          h('button.s-btn.small', { onclick: () => sub().downloadProposal(p.ref) }, p.copyDownloadedAt ? 'Download it again' : 'Download a copy')) : null),
+      h('p', { style: { marginBottom: 0 } }, 'Use ', h('code', `bsub -P ${p.lsfCode} …`), ' to run jobs on the HPC for this project, and give ', h('b', p.id), ' in Airlock requests.'),
+      copies ? h('p.muted', { style: { margin: '6px 0 0', fontSize: '12.5px' } }, 'Your copy of the approved proposal is an HTML page: it opens in any web browser, and prints to PDF. It is downloaded to your own computer, outside the Research Environment, when the project is approved.') : null));
   }
   if (p.status === 'revisions' || p.status === 'rejected') {
     const last = (p.history || []).slice().reverse().find(e => e.status === p.status);

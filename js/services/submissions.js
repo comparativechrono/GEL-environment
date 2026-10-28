@@ -12,13 +12,18 @@
 //
 // Transport: CONFIG.submissions.mode = 'local' (default) or 'appsScript', which
 // also POSTs each submission to a Google Apps Script web app (apps-script/).
+//
+// When a project is approved, the web browser downloads the applicant's copy of
+// the proposal to their own computer (js/services/proposal-copy.js), unless
+// CONFIG.submissions.downloadApprovedProposal is false.
 // =============================================================================
 
 import { CONFIG } from '../config.js';
 import { kv, idb } from '../core/store.js';
 import { Emitter } from '../core/bus.js';
 import { checkAirlockRequest, decide } from './airlock-rules.js';
-import { bytesToBase64 } from '../core/util.js';
+import { bytesToBase64, downloadBlob } from '../core/util.js';
+import { proposalCopy } from './proposal-copy.js';
 
 const DAY = 864e5;
 
@@ -148,8 +153,27 @@ export function createSubmissions(RE) {
     p.lsfCode = p.lsfCode || `re_gecip_${p.domain || 'training'}`;
     addHistory(p, 'approved', `${note} Project ID ${p.id}. Exports are possible from ${new Date(p.approvedAt + CONFIG.submissions.exportWaitDays * DAY).toLocaleDateString('en-GB')}.`);
     saveProject(p);
-    RE.notify({ title: 'Project approved', body: `${p.title} is now ${p.id}.`, icon: 'assets/icons/status/dialog-success.svg', onClick: () => RE.apps.launchApp('research-registry', { project: p.ref }) });
-    return p;
+    // the applicant's copy, downloaded to their own computer (once, when the project is first approved)
+    const copy = p.copyDownloadedAt ? null : downloadProposal(p.ref);
+    RE.notify({ title: 'Project approved', body: `${p.title} is now ${p.id}.${copy ? ' A copy of the approved proposal has been downloaded to your computer.' : ''}`, icon: 'assets/icons/status/dialog-success.svg', onClick: () => RE.apps.launchApp('research-registry', { project: p.ref }), timeout: copy ? 9000 : undefined });
+    return project(ref);
+  }
+
+  /** Download the applicant's copy of an approved proposal to the person's own computer (outside the RE). */
+  function downloadProposal(ref) {
+    const p = project(ref);
+    if (!p || p.status !== 'approved' || p.seeded || CONFIG.submissions.downloadApprovedProposal === false) return null;
+    try {
+      const u = RE.session.user;
+      const { name, html } = proposalCopy(p, { username: RE.session.username, fullName: u.fullName, site: location.href.split(/[?#]/)[0], exportWaitDays: CONFIG.submissions.exportWaitDays });
+      downloadBlob(new Blob([html], { type: 'text/html;charset=utf-8' }), name);
+      p.copyDownloadedAt = Date.now();
+      saveProject(p);
+      return name;
+    } catch (e) {
+      console.warn('[submissions] the copy of the proposal could not be downloaded', e);
+      return null;
+    }
   }
 
   function setProjectStatus(ref, status, note, by = 'instructor') {
@@ -312,7 +336,7 @@ export function createSubmissions(RE) {
   return {
     on: (...a) => ev.on(...a),
     // projects
-    projects, project, saveDraft, submitProject, projectIssues, approveProject, setProjectStatus, backdateProject, approvedProjects,
+    projects, project, saveDraft, submitProject, projectIssues, approveProject, setProjectStatus, backdateProject, approvedProjects, downloadProposal,
     // airlock
     requests, request, precheck, submitAirlock, finishAirlock, withdraw, reply, filesOf,
     resetAll,
