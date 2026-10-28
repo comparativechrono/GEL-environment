@@ -213,6 +213,27 @@ def run():
         check('Airlock: a count below 5 fails the pre-check', 'fail:counts' in findings, ', '.join(findings))
         projects = d.js("() => RE.services.submissions.projects().map((p) => (p.id || p.ref) + ':' + p.status)")
         check('Research Registry: the training project is approved', any(p.startswith('RR4001:approved') for p in projects), ', '.join(projects))
+        # a proposal that is approved is downloaded to the computer: the applicant's copy, outside the RE
+        copies = []
+        on_copy = lambda dl: copies.append(dl)
+        page.on('download', on_copy)
+        d.js("() => RE.session.setSetting('reviewDelayMs', 2000)")
+        ref = d.js("""async () => {
+            const S = RE.services.submissions, words = (n) => Array(n).fill('word').join(' ');
+            const p = S.saveDraft({ title: 'Smoke test: a proposal to approve', laySummary: words(70), scientificAbstract: words(90),
+              aims: ['An aim'], dataRequested: ['Clinical and phenotype tables (data browser)'], methods: words(50), benefit: words(25),
+              domain: 'training', lead: { name: 'Jane Doe', institution: 'Training University' },
+              declarations: { training: true, inside: true, noreid: true, publication: true } });
+            return (await S.submitProject(p)).project.ref; }""")
+        approved = d.wait_for(f"() => (RE.services.submissions.project('{ref}') || {{}}).status === 'approved'", 30)
+        time.sleep(2)
+        page.remove_listener('download', on_copy)
+        d.js("() => RE.session.setSetting('reviewDelayMs', 20000)")
+        names = [c.suggested_filename for c in copies]
+        text = open(copies[0].path(), encoding='utf-8').read() if copies else ''
+        check('Research Registry: an approved proposal is downloaded to the computer',
+              approved and names == [n for n in names if n.endswith('_jdoe_approved_proposal.html')] and len(names) == 1
+              and 'Smoke test: a proposal to approve' in text and 'Approved' in text, ', '.join(names))
 
         # ------------------------------------------------------- the clipboard and downloads stay inside the RE
         # The computer's own clipboard, through a SEPARATE browser context: the OS clipboard is shared within the one
