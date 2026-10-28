@@ -14,7 +14,7 @@
 // also POSTs each submission to a Google Apps Script web app (apps-script/).
 //
 // When a project is approved, the web browser downloads the applicant's copy of
-// the proposal to their own computer (js/services/proposal-copy.js), unless
+// the proposal, a PDF, to their own computer (js/services/proposal-copy.js), unless
 // CONFIG.submissions.downloadApprovedProposal is false.
 // =============================================================================
 
@@ -165,8 +165,8 @@ export function createSubmissions(RE) {
     if (!p || p.status !== 'approved' || p.seeded || CONFIG.submissions.downloadApprovedProposal === false) return null;
     try {
       const u = RE.session.user;
-      const { name, html } = proposalCopy(p, { username: RE.session.username, fullName: u.fullName, site: location.href.split(/[?#]/)[0], exportWaitDays: CONFIG.submissions.exportWaitDays });
-      downloadBlob(new Blob([html], { type: 'text/html;charset=utf-8' }), name);
+      const { name, bytes } = proposalCopy(p, { username: RE.session.username, fullName: u.fullName, site: location.href.split(/[?#]/)[0], exportWaitDays: CONFIG.submissions.exportWaitDays });
+      downloadBlob(new Blob([bytes], { type: 'application/pdf' }), name);
       p.copyDownloadedAt = Date.now();
       saveProject(p);
       return name;
